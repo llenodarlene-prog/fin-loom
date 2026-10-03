@@ -250,13 +250,43 @@
     "alt_guidance": "A quiet lounge with armchairs and a marble table in front of a city skyline at dusk"
   },
   {
-    "path": "/assets/images/offsite/crypto-scam-inflows-chainalysis.png",
-    "title": "Crypto scam and fraud inflows chart",
-    "use": "Off-site draft for Use The Bitcoin (review only)",
-    "width": 1440,
-    "height": 810,
-    "rights_status": "pending",
-    "rights_source": "FinLoom Files/03 Blogs, supplied by the site owner 2026-10-03. Chart figures are attributed to Chainalysis in the article and have not been rechecked.",
-    "alt_guidance": "Bar chart of crypto scam and fraud inflows by year, as cited in the article"
+    "path": "/assets/images/posts/crypto-airdrop-risk/airdrop-claim-review-1600.jpg",
+    "title": "A phone showing an airdrop claim screen beside a printed checklist titled Before You Claim, a hardware wallet, and a sample token overview",
+    "use": "Hero image for /crypto/crypto-airdrop-risk/",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files/05 Assets, supplied by the site owner 2026-10-03 (AI-generated image)",
+    "alt_guidance": "A phone showing an airdrop claim screen beside a printed checklist titled Before You Claim, a hardware wallet, and a sample token overview"
+  },
+  {
+    "path": "/assets/images/posts/crypto-airdrop-risk/airdrop-claim-review-800.jpg",
+    "title": "A phone showing an airdrop claim screen beside a printed checklist titled Before You Claim, a hardware wallet, and a sample token overview",
+    "use": "Hero image for /crypto/crypto-airdrop-risk/",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files/05 Assets, supplied by the site owner 2026-10-03 (AI-generated image)",
+    "alt_guidance": "A phone showing an airdrop claim screen beside a printed checklist titled Before You Claim, a hardware wallet, and a sample token overview"
+  },
+  {
+    "path": "/assets/images/posts/crypto-vs-stocks/market-chart-and-coin-desk-1600.jpg",
+    "title": "A laptop showing a market chart beside a gold coin and a stack of finance books, with a city skyline at sunrise",
+    "use": "Hero image for /investing/crypto-vs-stocks/",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files/05 Assets, supplied by the site owner 2026-10-03 (AI-generated image)",
+    "alt_guidance": "A laptop showing a market chart beside a gold coin and a stack of finance books, with a city skyline at sunrise"
+  },
+  {
+    "path": "/assets/images/posts/crypto-vs-stocks/market-chart-and-coin-desk-800.jpg",
+    "title": "A laptop showing a market chart beside a gold coin and a stack of finance books, with a city skyline at sunrise",
+    "use": "Hero image for /investing/crypto-vs-stocks/",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files/05 Assets, supplied by the site owner 2026-10-03 (AI-generated image)",
+    "alt_guidance": "A laptop showing a market chart beside a gold coin and a stack of finance books, with a city skyline at sunrise"
   }
 ]

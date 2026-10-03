@@ -12,6 +12,9 @@ const [launch, links, authors, assets, killList] = await Promise.all([
   readJson('data/launch-content-plan.json'), readJson('data/interlinking-plan.json'), readJson('data/authors.json'),
   readJson('data/assets.json'), readJson('data/ai-kill-list.json')
 ]);
+// Owner-supplied posts outside the tracker launch set are validated the same way.
+const supplementary = await readFile('data/supplementary-content-plan.json', 'utf8').then(JSON.parse).catch(() => ({ records: [], links: [] }));
+launch.push(...supplementary.records); links.push(...supplementary.links);
 const failures = [];
 const fail = message => failures.push(message);
 const norm = value => String(value ?? '').trim();
@@ -46,8 +49,10 @@ for (const file of files) {
   if (record.meta_description ? description !== norm(record.meta_description) : !lower(description).includes(lower(record.primary_keyword))) fail(`${file}: meta description is not tracker-approved or does not contain the exact keyword`);
   if (seoTitle.length > 60) fail(`${file}: SEO title is ${seoTitle.length} characters; maximum is 60`);
   const words = body.replace(/[#*_`>\[\]()|]/g, ' ').trim().split(/\s+/).filter(Boolean);
-  if (words.length < 2000 || words.length > 2600) fail(`${file}: publishable word count is ${words.length}, expected 2000-2500 and never above 2600`);
-  else if (words.length > 2500 && metadata.word_count_exception !== 'approved') fail(`${file}: ${words.length} words requires word_count_exception: approved`);
+  // A supplementary record may carry an owner-approved ceiling above the standard limit.
+  const maxWords = Number(record.max_words) || 2600;
+  if (words.length < 2000 || words.length > maxWords) fail(`${file}: publishable word count is ${words.length}, expected 2000-2500 and never above ${maxWords}`);
+  else if (words.length > 2500 && !record.max_words && metadata.word_count_exception !== 'approved') fail(`${file}: ${words.length} words requires word_count_exception: approved`);
   const keyword = lower(record.primary_keyword);
   const keywordRegex = new RegExp(escapeRegex(keyword), 'g');
   const count = (lower(body).match(keywordRegex) || []).length;

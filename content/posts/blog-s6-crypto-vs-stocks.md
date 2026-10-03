@@ -2,21 +2,27 @@
 title: Crypto vs Stocks: Comparing Volatility, Drawdowns, Liquidity, and Returns
 seo_title: Crypto vs Stocks: Risk, Liquidity, and Returns Compared
 description: Compare crypto vs stocks across volatility, liquidity, ownership, regulation, diversification, and portfolio use with a practical risk framework.
-slug: /offsite-drafts/stoxcraft/crypto-vs-stocks-risk-reward-comparison/
-type: offsite
-schema: WebPage
+slug: /investing/crypto-vs-stocks/
+type: blog
+schema: BlogPosting
 draft: true
-target_site: Stoxcraft
-target_slug: /blog/crypto-vs-stocks-risk-reward-comparison/
+tracker_id: Blog:S6
 primary_keyword: crypto vs stocks
-finloom_link: /investing/
-source_file: FinLoom Files/03 Blogs/For Stoxcraft Backlink/06_crypto_vs_stocks.md
+secondary_keywords: 
+cluster: Investing
+approved_internal_links: /investing/
+research_record: content/research/blog-s6.json
+image: /assets/images/posts/crypto-vs-stocks/market-chart-and-coin-desk-1600.jpg
+image_alt: A laptop showing a market chart beside a gold coin and a stack of finance books, with a city skyline at sunrise
+link_placement_site: Stoxcraft
+ai_exceptions: 
+ai_exception_reason: 
+author: 
+published: 
+modified: 
 ---
 
 # Crypto vs Stocks: Comparing Volatility, Drawdowns, Liquidity, and Returns
-
-> **Off-Site Draft**
-> Written for publication on Stoxcraft, with one link back to Fin Loom (/investing/). It is shown here for review only and is not Fin Loom content. Its figures have not had their publication-day recheck.
 
 Crypto and stocks are both traded on screens, quoted in real time, and capable of producing large gains or losses. That surface similarity is one reason investors often compare them as if they were two versions of the same thing.
 
@@ -29,6 +35,7 @@ That difference matters more than the fact that both prices move.
 The more useful comparison is not “Which one goes up more?” It is: what kind of risk is being taken, what produces the return, how liquid is the market when stress arrives, what protections exist around ownership and custody, and how much of a diversified portfolio should depend on that risk source?
 
 This guide compares crypto vs stocks using those questions.
+
 
 ## Key Takeaways
 
@@ -103,14 +110,9 @@ If an investment rises from $10,000 to $15,000 and then falls to $9,000, its dra
 
 That number matters because recovery mathematics are asymmetric.
 
-| Loss | Gain Needed to Recover |
-|---:|---:|
-| 10% | 11.1% |
-| 20% | 25.0% |
-| 30% | 42.9% |
-| 40% | 66.7% |
-| 50% | 100.0% |
-| 70% | 233.3% |
+```chart
+loss-recovery-gain
+```
 
 A 50% loss requires a 100% gain merely to return to the starting point.
 
@@ -325,15 +327,9 @@ The forecast did not change. The exposure did.
 
 ### Illustrative Position-Size Sensitivity
 
-| Crypto Allocation | Crypto Decline | Approximate Portfolio Impact* |
-|---:|---:|---:|
-| 2% | -60% | -1.2% |
-| 5% | -60% | -3.0% |
-| 10% | -60% | -6.0% |
-| 20% | -60% | -12.0% |
-| 40% | -60% | -24.0% |
-
-*Illustrative calculation assuming other portfolio holdings are unchanged.
+```chart
+crypto-position-size-impact
+```
 
 This is not a recommendation for a particular allocation. It demonstrates why “How much?” deserves as much attention as “Will it go up?”
 
@@ -453,48 +449,6 @@ A micro-cap company can be far more volatile and less liquid than a large index 
 
 A correct market call can still become a loss if assets are inaccessible, stolen, or trapped with a failed intermediary.
 
-## Frequently Asked Questions
-
-### Are Stocks Safer Than Crypto?
-
-Stocks can still lose substantial value, but established public equity markets generally have more mature disclosure, custody, and investor-protection infrastructure. Crypto risk varies widely by asset and platform and often adds custody and operational risks.
-
-### Is Crypto More Profitable Than Stocks?
-
-Neither category guarantees higher future returns. Crypto has produced periods of extraordinary gains and severe losses. Stocks have a longer record of returns tied to business ownership and economic growth.
-
-### Can Crypto Diversify a Stock Portfolio?
-
-It can add a different asset exposure, but diversification depends on correlation, position size, and market regime. Crypto and stocks can decline together during broad risk-off periods.
-
-### How Much Crypto Should Be in a Portfolio?
-
-There is no universal percentage. The relevant questions are how much loss the investor can tolerate, how long the money can remain invested, and how the position affects total portfolio risk.
-
-### Do Stocks Have Custody Risk?
-
-Yes, but the structure differs. Retail stock investors usually hold securities through regulated brokerage and custody systems. Crypto may involve self-custody, exchange custody, or specialist custodians, each with distinct risks.
-
-## Final Perspective
-
-Crypto vs stocks is not a contest that produces one permanent winner.
-
-Stocks offer ownership in businesses whose economics can usually be examined through standardized financial reporting. Crypto offers exposure to digital networks and token systems whose economics can range from highly developed to extremely speculative.
-
-The practical investor question is therefore not which label sounds more promising.
-
-It is what return driver is being added, what risks accompany it, how large the position should be, how the asset will be held, and whether the investor can live with the drawdown that may arrive before the thesis is proven.
-
-A disciplined comparison starts with those questions and lets the allocation follow.
-
-## Resources
-
-- [Investor.gov: Asset Allocation and Diversification](https://www.investor.gov/introduction-investing/getting-started/asset-allocation)
-- [Investor.gov: Crypto Asset Investor Alert](https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/crypto-asset-securities)
-- [Investor.gov: Crypto Asset Custody Basics](https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/crypto-asset-custody-basics-retail-investors-investor-bulletin-0)
-- [SEC EDGAR Company Filings](https://www.sec.gov/edgar/search/)
-
-
 ## A Portfolio Stress Test Is More Useful Than a Bull-Case Forecast
 
 Forecasts naturally attract attention because they produce a number.
@@ -520,6 +474,12 @@ An investor who thought of the crypto position as “only 20%” may be surprise
 Now compare a 95/5 mix under the same scenario.
 
 The approximate decline is about 26.75%.
+
+The same arithmetic across four allocation sizes shows how the crypto share changes the total.
+
+```chart
+stress-test-by-allocation
+```
 
 The difference is meaningful even though both investors held the same assets.
 
@@ -583,3 +543,44 @@ It can define:
 - and conditions that invalidate the thesis.
 
 That turns an abstract preference into a repeatable process.
+
+## Final Perspective
+
+Crypto vs stocks is not a contest that produces one permanent winner.
+
+Stocks offer ownership in businesses whose economics can usually be examined through standardized financial reporting. Crypto offers exposure to digital networks and token systems whose economics can range from highly developed to extremely speculative.
+
+The practical investor question is therefore not which label sounds more promising.
+
+It is what return driver is being added, what risks accompany it, how large the position should be, how the asset will be held, and whether the investor can live with the drawdown that may arrive before the thesis is proven.
+
+A disciplined comparison starts with those questions and lets the allocation follow.
+
+## Frequently Asked Questions
+
+### Are Stocks Safer Than Crypto?
+
+Stocks can still lose substantial value, but established public equity markets generally have more mature disclosure, custody, and investor-protection infrastructure. Crypto risk varies widely by asset and platform and often adds custody and operational risks.
+
+### Is Crypto More Profitable Than Stocks?
+
+Neither category guarantees higher future returns. Crypto has produced periods of extraordinary gains and severe losses. Stocks have a longer record of returns tied to business ownership and economic growth.
+
+### Can Crypto Diversify a Stock Portfolio?
+
+It can add a different asset exposure, but diversification depends on correlation, position size, and market regime. Crypto and stocks can decline together during broad risk-off periods.
+
+### How Much Crypto Should Be in a Portfolio?
+
+There is no universal percentage. The relevant questions are how much loss the investor can tolerate, how long the money can remain invested, and how the position affects total portfolio risk.
+
+### Do Stocks Have Custody Risk?
+
+Yes, but the structure differs. Retail stock investors usually hold securities through regulated brokerage and custody systems. Crypto may involve self-custody, exchange custody, or specialist custodians, each with distinct risks.
+
+## Resources
+
+- [Investor.gov: Asset Allocation and Diversification](https://www.investor.gov/introduction-investing/getting-started/asset-allocation)
+- [Investor.gov: Crypto Asset Investor Alert](https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/crypto-asset-securities)
+- [Investor.gov: Crypto Asset Custody Basics](https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/crypto-asset-custody-basics-retail-investors-investor-bulletin-0)
+- [SEC EDGAR Company Filings](https://www.sec.gov/edgar/search/)

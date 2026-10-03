@@ -519,3 +519,32 @@ html:not(.js) .ill-pie-arc{stroke-dashoffset:0}
 
 /* Sections with oversized decorative layers clip them without becoming scrollable containers. */
 .hero,.band--dark,.feature{overflow:clip}
+
+/* ---------- Article charts: branded glass panels ---------- */
+.prose .chart{position:relative;isolation:isolate;overflow:clip;margin:2.5rem 0;padding:clamp(1.25rem,3vw,2rem);color:var(--on-dark);background:linear-gradient(135deg,#0F1226 0%,#1A1540 55%,#2B1F5B 100%);border:1px solid rgba(167,139,250,.28);border-radius:22px;box-shadow:0 30px 70px -34px rgba(43,31,91,.75),inset 0 1px 0 rgba(255,255,255,.12)}
+.prose .chart::before{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(26rem 16rem at 88% 0%,rgba(90,70,214,.55),transparent 65%),radial-gradient(20rem 14rem at 0% 100%,rgba(167,139,250,.18),transparent 65%)}
+.prose .chart::after{content:"Fin Loom";position:absolute;top:clamp(1.25rem,3vw,2rem);right:clamp(1.25rem,3vw,2rem);font:600 .66rem var(--body);letter-spacing:.16em;text-transform:uppercase;color:var(--soft)}
+.prose .chart-title{font-family:var(--display);font-size:clamp(1.2rem,2.4vw,1.5rem)!important;line-height:1.25;color:#fff;margin:0 5.5rem 1rem 0}
+.prose .chart .chart-scroll{padding:1rem;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:16px;-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px)}
+.prose .chart-grid{stroke:rgba(255,255,255,.12)}
+.prose .chart-axis-line{stroke:rgba(255,255,255,.3)}
+.prose .chart-axis,.prose .chart-label{fill:rgba(255,255,255,.72)}
+.prose .chart-value{fill:#fff}
+.prose .chart-track{fill:rgba(255,255,255,.08)}
+.prose .chart-series-0{fill:var(--soft);background:var(--soft)}
+.prose .chart-series-1{fill:#fff;background:#fff}
+.prose .chart-bar{rx:6px}
+.prose .chart figcaption{color:var(--on-dark);font-size:.9rem;margin-top:1rem}
+.prose .chart figcaption span{font-size:.9rem}
+.prose .chart-source,.prose .chart-note{font-size:.78rem!important;color:rgba(255,255,255,.62)}
+.prose .chart-legend{color:rgba(255,255,255,.8)}
+.prose .chart-data summary{color:var(--soft)}
+.prose .chart-data table{font-size:.88rem}
+.prose .chart-data th,.prose .chart-data td{background:none;color:#fff;border-color:rgba(255,255,255,.16)}
+.prose .chart-data thead th{background:rgba(255,255,255,.08);color:var(--soft);border-color:rgba(255,255,255,.16)}
+.prose .chart-data tbody tr:nth-child(even){background:rgba(255,255,255,.04)}
+
+/* Post hero image */
+.post-featured{margin:2rem 0 2.5rem}
+.post-featured img{border-radius:24px;box-shadow:0 40px 80px -44px rgba(43,31,91,.6)}
+@media(min-width:1000px){.post-featured{margin-inline:-5rem}}
