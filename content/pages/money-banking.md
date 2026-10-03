@@ -1,6 +1,6 @@
 ---
 title: Money & Banking
-seo_title: Money & Banking | FinLoom
+seo_title: Money & Banking | Fin Loom
 description: Research and practical insight on banking, savings, credit, debt, financial literacy, rates, and everyday money decisions.
 slug: /money-banking/
 type: page

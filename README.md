@@ -1,8 +1,8 @@
-# FinLoom static website
+# Fin Loom static website
 
-Tracker-driven repository for https://finloom.org. FinLoom is an informational financial publication, not a financial adviser.
+Tracker-driven repository for https://finloom.org. Fin Loom is an informational financial publication, not a financial adviser.
 
-The site is generated into `dist/` by a dependency-free Node build. Tracker data in `data/` controls navigation, URLs, the content plan, and the launch silo, and validation enforces it. The architecture, checks, and deployment method follow the Verdict Point repository; the brand, copy, and content are FinLoom's own.
+The site is generated into `dist/` by a dependency-free Node build. Tracker data in `data/` controls navigation, URLs, the content plan, and the launch silo, and validation enforces it. The architecture, checks, and deployment method follow the Verdict Point repository; the brand, copy, and content are Fin Loom's own.
 
 ## Current state
 

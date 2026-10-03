@@ -1,6 +1,6 @@
 ---
 title: Financial Insights. A Brighter Tomorrow.
-seo_title: FinLoom | Financial Insights for a Brighter Tomorrow
+seo_title: Fin Loom | Financial Insights for a Brighter Tomorrow
 description: Independent financial insights across money, investing, markets, fintech, payments, and digital assets. Clear research for better financial decisions.
 slug: /
 type: page

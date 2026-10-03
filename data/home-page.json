@@ -4,7 +4,7 @@
     "eyebrow": "Independent financial research",
     "heading": "Financial Insights. A Brighter Tomorrow.",
     "copy": [
-      "Money moves quickly, and headlines move faster. FinLoom slows the picture down with research, market analysis, and data across banking, investing, markets, fintech, payments, and digital assets.",
+      "Money moves quickly, and headlines move faster. Fin Loom slows the picture down with research, market analysis, and data across banking, investing, markets, fintech, payments, and digital assets.",
       "We read the numbers behind the story and the assumptions behind the numbers, so the decision in front of you is easier to weigh."
     ],
     "primary_cta": {
@@ -14,7 +14,7 @@
       "fallback_url": "#coverage"
     },
     "secondary_cta": {
-      "label": "How FinLoom Works",
+      "label": "How Fin Loom Works",
       "url": "/about/"
     },
     "image": {
@@ -28,7 +28,7 @@
   "intro": {
     "heading": "Follow the Money, Not the Noise",
     "copy": [
-      "Financial information is everywhere. Context is the scarce part. FinLoom sets out what is changing, what the available data shows, and where the uncertainty still sits.",
+      "Financial information is everywhere. Context is the scarce part. Fin Loom sets out what is changing, what the available data shows, and where the uncertainty still sits.",
       "It is written for readers who want an informed view without hype, needless jargon, or false certainty."
     ]
   },
@@ -77,7 +77,7 @@
   "context": {
     "heading": "Research With Context",
     "copy": [
-      "A number without context can mislead. Before a statistic appears on FinLoom, we look at how it was defined, the period it covers, the quality of the source, and what it is being compared with.",
+      "A number without context can mislead. Before a statistic appears on Fin Loom, we look at how it was defined, the period it covers, the quality of the source, and what it is being compared with.",
       "When credible sources disagree, we show the disagreement and explain the likely reason. When the evidence is uncertain, we say so."
     ],
     "image": {
@@ -91,7 +91,7 @@
   "decisions": {
     "heading": "Built for Better Decisions",
     "copy": [
-      "FinLoom does not tell readers what to buy, sell, or believe. Our job is to make financial information easier to evaluate, and that starts with three distinctions."
+      "Fin Loom does not tell readers what to buy, sell, or believe. Our job is to make financial information easier to evaluate, and that starts with three distinctions."
     ],
     "points": [
       {
@@ -115,10 +115,10 @@
   "closing": {
     "heading": "Independent by Design",
     "copy": [
-      "FinLoom is an editorial financial publication. The aim is plain: publish useful financial information, and respect the reader's ability to decide."
+      "Fin Loom is an editorial financial publication. The aim is plain: publish useful financial information, and respect the reader's ability to decide."
     ],
     "cta": {
-      "label": "About FinLoom",
+      "label": "About Fin Loom",
       "url": "/about/"
     }
   }

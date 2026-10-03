@@ -1,7 +1,7 @@
 ---
 title: Privacy Policy
-seo_title: Privacy Policy | FinLoom
-description: Read FinLoom's privacy policy covering information collection, cookies, analytics, external links, data security, and contact information.
+seo_title: Privacy Policy | Fin Loom
+description: Read Fin Loom's privacy policy covering information collection, cookies, analytics, external links, data security, and contact information.
 slug: /privacy/
 type: page
 schema: WebPage
@@ -13,13 +13,13 @@ copy_source: FinLoom Files/02 Website Copy/Website Copy Draft.docx (supplied 202
 
 Last Updated: October 3, 2026
 
-FinLoom respects the privacy of visitors to finloom.org.
+Fin Loom respects the privacy of visitors to finloom.org.
 
 This Privacy Policy explains the types of information that may be collected when you visit the website, how that information may be used, and the choices available to you.
 
 ## Information You Provide
 
-You may choose to provide information when you contact FinLoom by email.
+You may choose to provide information when you contact Fin Loom by email.
 
 This may include:
 
@@ -32,7 +32,7 @@ Please do not send passwords, financial account numbers, government identificati
 
 ## Information Collected Automatically
 
-Like many websites, FinLoom may receive basic technical information when visitors access the site.
+Like many websites, Fin Loom may receive basic technical information when visitors access the site.
 
 Depending on the website services enabled at the time, this information may include:
 
@@ -49,7 +49,7 @@ This information may be used to understand site performance, maintain security, 
 
 ## Cookies and Similar Technologies
 
-FinLoom may use cookies or similar technologies to support website functionality, remember preferences, measure site usage, or understand how visitors interact with the website.
+Fin Loom may use cookies or similar technologies to support website functionality, remember preferences, measure site usage, or understand how visitors interact with the website.
 
 Your browser may allow you to block, delete, or restrict cookies.
 
@@ -57,35 +57,35 @@ Disabling some cookies may affect how certain website features function.
 
 ## Analytics
 
-FinLoom may use website analytics services to understand traffic patterns and improve the website.
+Fin Loom may use website analytics services to understand traffic patterns and improve the website.
 
 Analytics information is generally used in aggregate to understand how readers find and use the site.
 
-FinLoom does not use analytics information to provide personalized financial advice.
+Fin Loom does not use analytics information to provide personalized financial advice.
 
 ## Email Communications
 
-If you contact FinLoom by email, your message and contact details may be retained as reasonably necessary to respond, maintain editorial records, address corrections, or manage related correspondence.
+If you contact Fin Loom by email, your message and contact details may be retained as reasonably necessary to respond, maintain editorial records, address corrections, or manage related correspondence.
 
 We do not sell email addresses provided through direct correspondence.
 
 ## External Links
 
-FinLoom articles may link to regulators, government agencies, companies, research organizations, datasets, financial services, media outlets, and other third-party websites.
+Fin Loom articles may link to regulators, government agencies, companies, research organizations, datasets, financial services, media outlets, and other third-party websites.
 
-FinLoom does not control the privacy practices of those websites.
+Fin Loom does not control the privacy practices of those websites.
 
 Visiting an external website is subject to that website's own privacy policy and terms.
 
 ## Advertising and Affiliate Relationships
 
-If FinLoom introduces advertising, sponsorships, affiliate relationships, or similar commercial arrangements, relevant disclosures should appear where required.
+If Fin Loom introduces advertising, sponsorships, affiliate relationships, or similar commercial arrangements, relevant disclosures should appear where required.
 
 This Privacy Policy may be updated to reflect material changes in how those services handle visitor information.
 
 ## Data Security
 
-FinLoom takes reasonable steps to protect information under its control.
+Fin Loom takes reasonable steps to protect information under its control.
 
 No method of internet transmission or electronic storage can be guaranteed to be completely secure.
 
@@ -93,7 +93,7 @@ Visitors should avoid sending highly sensitive personal or financial information
 
 ## Children's Privacy
 
-FinLoom is intended for a general audience and is not directed specifically to children.
+Fin Loom is intended for a general audience and is not directed specifically to children.
 
 We do not knowingly seek to collect personal information from children through the website.
 
@@ -101,11 +101,11 @@ We do not knowingly seek to collect personal information from children through t
 
 Depending on your location and applicable law, you may have rights regarding personal information associated with you.
 
-You may contact FinLoom to ask a question about information you have directly provided to us.
+You may contact Fin Loom to ask a question about information you have directly provided to us.
 
 ## Changes to This Privacy Policy
 
-FinLoom may update this Privacy Policy when website practices, technologies, or legal requirements change.
+Fin Loom may update this Privacy Policy when website practices, technologies, or legal requirements change.
 
 The latest version will be published on this page with the updated date.
 

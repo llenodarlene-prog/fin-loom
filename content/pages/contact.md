@@ -1,7 +1,7 @@
 ---
-title: Contact FinLoom
-seo_title: Contact FinLoom
-description: Contact FinLoom about editorial questions, corrections, research, contributor inquiries, or business matters.
+title: Contact Fin Loom
+seo_title: Contact Fin Loom
+description: Contact Fin Loom about editorial questions, corrections, research, contributor inquiries, or business matters.
 slug: /contact/
 type: page
 schema: ContactPage

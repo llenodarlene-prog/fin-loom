@@ -2,9 +2,9 @@
   "source": "FinLoom Files/02 Website Copy/Website Copy Draft.docx (supplied 2026-10-03), edited for brand voice",
   "hero": {
     "eyebrow": "About",
-    "heading": "About FinLoom",
+    "heading": "About Fin Loom",
     "copy": [
-      "FinLoom is an independent financial publication. We help readers make sense of money, markets, and the systems that connect them, across consumer finance, investing, public markets, financial technology, payments, and digital assets.",
+      "Fin Loom is an independent financial publication. We help readers make sense of money, markets, and the systems that connect them, across consumer finance, investing, public markets, financial technology, payments, and digital assets.",
       "The goal is not to make finance louder. It is to make it clearer."
     ],
     "image": {
@@ -19,14 +19,14 @@
     {
       "heading": "Our Mission",
       "copy": [
-        "Financial decisions are often made amid conflicting statistics, fast-changing information, promotional claims, and strong opinions. FinLoom exists to bring structure to that information.",
+        "Financial decisions are often made amid conflicting statistics, fast-changing information, promotional claims, and strong opinions. Fin Loom exists to bring structure to that information.",
         "We research the data, go to primary sources where we can, compare competing claims, and explain what the evidence can and cannot support. The conclusion is left to the reader."
       ]
     },
     {
       "heading": "Who We Write For",
       "copy": [
-        "FinLoom is for readers who want to understand a financial decision, not only react to a headline."
+        "Fin Loom is for readers who want to understand a financial decision, not only react to a headline."
       ],
       "list": [
         "Individual investors",
@@ -43,7 +43,7 @@
     {
       "heading": "Our Editorial Approach",
       "copy": [
-        "FinLoom follows a research-first process. Where appropriate, we give priority to these sources."
+        "Fin Loom follows a research-first process. Where appropriate, we give priority to these sources."
       ],
       "list": [
         "Regulators and government data",
@@ -70,7 +70,7 @@
         "An investment can deliver strong returns while taking far more risk."
       ],
       "after": [
-        "FinLoom is built around those distinctions. We look for the second question, not just the first number."
+        "Fin Loom is built around those distinctions. We look for the second question, not just the first number."
       ]
     },
     {
@@ -91,7 +91,7 @@
   "disclaimer": {
     "heading": "Educational Information, Not Financial Advice",
     "copy": [
-      "FinLoom publishes financial information for educational and informational purposes. Nothing on this website should be interpreted as personalized investment, tax, legal, accounting, or financial advice.",
+      "Fin Loom publishes financial information for educational and informational purposes. Nothing on this website should be interpreted as personalized investment, tax, legal, accounting, or financial advice.",
       "Readers should consider their own circumstances and, where appropriate, consult a qualified professional before making financial decisions."
     ]
   }

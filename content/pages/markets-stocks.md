@@ -1,6 +1,6 @@
 ---
 title: Markets & Stocks
-seo_title: Markets & Stocks Research | FinLoom
+seo_title: Markets & Stocks Research | Fin Loom
 description: Market and stock research covering equities, company performance, valuation, trading, market structure, options, risk, and major market trends.
 slug: /markets-stocks/
 type: page

@@ -1,6 +1,6 @@
 ---
 title: Investing
-seo_title: Investing Research and Insights | FinLoom
+seo_title: Investing Research and Insights | Fin Loom
 description: Independent investing research covering ETFs, funds, retirement, portfolio risk, diversification, investor behavior, and long-term wealth.
 slug: /investing/
 type: page

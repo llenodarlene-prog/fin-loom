@@ -1,6 +1,6 @@
 ---
 title: Payments
-seo_title: Payments Research and Digital Payments Insights | FinLoom
+seo_title: Payments Research and Digital Payments Insights | Fin Loom
 description: Research on digital payments, wallets, remittances, open banking, payment infrastructure, checkout technology, and the movement of money.
 slug: /payments/
 type: page

@@ -1,6 +1,6 @@
 ---
 title: Fintech
-seo_title: Fintech Research and Industry Insights | FinLoom
+seo_title: Fintech Research and Industry Insights | Fin Loom
 description: Research on neobanks, financial apps, embedded finance, funding, financial software, digital banking, and the companies reshaping finance.
 slug: /fintech/
 type: page
