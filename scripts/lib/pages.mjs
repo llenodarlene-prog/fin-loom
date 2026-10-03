@@ -61,16 +61,17 @@ export function renderHome(copy, posts, nav, charts) {
           <a class="button button--ghost" href="${escapeHtml(hero.secondary_cta.url)}">${escapeHtml(hero.secondary_cta.label)}</a>
         </div>
       </div>
-      <div class="hero-media">${photo(hero.image, { eager: true, sizes: '(max-width: 900px) 100vw, 46vw' })}${renderHeroCard(pick(charts, [hero.chart], 'data/home-page.json')[0])}</div>
+      <div class="hero-chart">${renderHeroCard(pick(charts, [hero.chart], 'data/home-page.json')[0])}</div>
     </div>
     <div class="shell"><ul class="hero-index" aria-label="Coverage">${coverage.cards.map(card => `<li><a href="${escapeHtml(card.url)}">${escapeHtml(card.label)}</a></li>`).join('')}</ul></div>
   </section>
 
-  <section class="band" aria-labelledby="intro-heading">
-    <div class="shell statement" data-reveal>
+  <section class="feature feature--intro" aria-labelledby="intro-heading">
+    ${photo(intro.image, { sizes: '100vw' })}
+    <div class="shell"><div class="feature-panel glass" data-reveal>
       <h2 id="intro-heading">${escapeHtml(intro.heading)}</h2>
-      <div class="statement-copy">${paragraphs(intro.copy)}</div>
-    </div>
+      ${paragraphs(intro.copy)}
+    </div></div>
   </section>
 ${chartBand(context, pick(charts, context.charts, 'data/home-page.json'), 'context-heading')}
   <section class="band band--tint" id="coverage" aria-labelledby="coverage-heading">
