@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "content_id": "A9",
+  "slug": "/markets-stocks/online-trading-statistics/",
+  "status": "scaffolded",
+  "required_seo_tool": "Ahrefs",
+  "secondary_seo_tool": "Ubersuggest",
+  "keyword_queries": [
+    "online trading statistics"
+  ],
+  "ranking_competitors": [],
+  "sources": [],
+  "statistics": [],
+  "claims": [],
+  "internal_link_targets": [
+    "A3",
+    "A5",
+    "A4"
+  ],
+  "fact_check": {
+    "status": "pending",
+    "reviewer": null,
+    "date_utc": null
+  },
+  "qa": {
+    "status": "pending",
+    "reviewer": null,
+    "date_utc": null
+  }
+}

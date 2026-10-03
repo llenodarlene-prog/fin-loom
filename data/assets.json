@@ -1,0 +1,50 @@
+[
+  {
+    "path": "assets/editorial/bitcoin_allocation_risk_share.png",
+    "width": null,
+    "height": null,
+    "role": "editorial chart",
+    "alt": "Bitcoin allocation risk share chart",
+    "deploy": true
+  },
+  {
+    "path": "assets/editorial/crypto_scam_inflows_chainalysis.png",
+    "width": null,
+    "height": null,
+    "role": "editorial chart",
+    "alt": "Crypto scam inflows chart",
+    "deploy": true
+  },
+  {
+    "path": "assets/editorial/uniswap_governance_thresholds.png",
+    "width": null,
+    "height": null,
+    "role": "editorial chart",
+    "alt": "Uniswap governance thresholds chart",
+    "deploy": true
+  },
+  {
+    "path": "assets/editorial/chart_2026_ai_capex_primary_source.png",
+    "width": null,
+    "height": null,
+    "role": "editorial chart",
+    "alt": "2026 AI capital expenditure chart",
+    "deploy": true
+  },
+  {
+    "path": "assets/editorial/chart_drawdown_recovery_math.png",
+    "width": null,
+    "height": null,
+    "role": "editorial chart",
+    "alt": "Drawdown recovery mathematics chart",
+    "deploy": true
+  },
+  {
+    "path": "assets/editorial/chart_fdic_march_2026_deposit_rates.png",
+    "width": null,
+    "height": null,
+    "role": "editorial chart",
+    "alt": "FDIC March 2026 deposit rates chart",
+    "deploy": true
+  }
+]

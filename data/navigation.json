@@ -1,0 +1,54 @@
+{
+  "primary": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "About Us",
+      "href": "/about/"
+    },
+    {
+      "label": "Money & Banking",
+      "href": "/money-banking/"
+    },
+    {
+      "label": "Investing",
+      "href": "/investing/"
+    },
+    {
+      "label": "Markets & Stocks",
+      "href": "/markets-stocks/"
+    },
+    {
+      "label": "Fintech",
+      "href": "/fintech/"
+    },
+    {
+      "label": "Payments",
+      "href": "/payments/"
+    },
+    {
+      "label": "Crypto & Digital Assets",
+      "href": "/crypto/"
+    },
+    {
+      "label": "Contact Us",
+      "href": "/contact/"
+    }
+  ],
+  "footer": [
+    {
+      "label": "About Us",
+      "href": "/about/"
+    },
+    {
+      "label": "Contact Us",
+      "href": "/contact/"
+    },
+    {
+      "label": "Privacy Policy",
+      "href": "/privacy/"
+    }
+  ]
+}

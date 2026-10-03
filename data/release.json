@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "minimum_published_blogs": 1,
+  "core_routes": [
+    "/",
+    "/about/",
+    "/contact/",
+    "/privacy/",
+    "/money-banking/",
+    "/investing/",
+    "/markets-stocks/",
+    "/fintech/",
+    "/payments/",
+    "/crypto/"
+  ],
+  "approvals": {
+    "contact_details": false,
+    "privacy_review": false,
+    "staging_review": false,
+    "production": false,
+    "trademark_review": false
+  }
+}

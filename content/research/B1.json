@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "content_id": "B1",
+  "slug": "/markets-stocks/robinhood-business-model/",
+  "status": "scaffolded",
+  "required_seo_tool": "Ahrefs",
+  "secondary_seo_tool": "Ubersuggest",
+  "keyword_queries": [
+    "robinhood business model"
+  ],
+  "ranking_competitors": [],
+  "sources": [],
+  "statistics": [],
+  "claims": [],
+  "internal_link_targets": [
+    "A3",
+    "A5"
+  ],
+  "fact_check": {
+    "status": "pending",
+    "reviewer": null,
+    "date_utc": null
+  },
+  "qa": {
+    "status": "pending",
+    "reviewer": null,
+    "date_utc": null
+  }
+}

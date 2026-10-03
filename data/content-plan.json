@@ -1,0 +1,298 @@
+[
+  {
+    "id": "A1",
+    "type": "article",
+    "title": "Investing Statistics by Income and Age",
+    "primary_keyword": "investing statistics",
+    "slug": "/investing/investing-statistics-income-age/",
+    "hub": "Investing",
+    "cluster": "Investor Behavior",
+    "role": "Hub",
+    "internal_link_targets": [
+      "A5",
+      "A6",
+      "A7",
+      "A8"
+    ]
+  },
+  {
+    "id": "A2",
+    "type": "article",
+    "title": "Fintech Statistics Across Financial Services",
+    "primary_keyword": "fintech statistics",
+    "slug": "/fintech/fintech-statistics-financial-services/",
+    "hub": "Fintech",
+    "cluster": "Fintech Market",
+    "role": "Hub",
+    "internal_link_targets": [
+      "B3",
+      "B4",
+      "B5"
+    ]
+  },
+  {
+    "id": "A3",
+    "type": "article",
+    "title": "Stock Market Statistics on Ownership and Trading",
+    "primary_keyword": "stock market statistics",
+    "slug": "/markets-stocks/stock-market-statistics/",
+    "hub": "Markets & Stocks",
+    "cluster": "Markets & Trading",
+    "role": "Hub",
+    "internal_link_targets": [
+      "A9",
+      "A5"
+    ]
+  },
+  {
+    "id": "A4",
+    "type": "article",
+    "title": "Crypto Statistics Beyond Trading Volume",
+    "primary_keyword": "crypto statistics",
+    "slug": "/crypto/crypto-statistics-usage-payments/",
+    "hub": "Crypto & Digital Assets",
+    "cluster": "Crypto & Digital Assets",
+    "role": "Hub",
+    "internal_link_targets": [
+      "B2",
+      "A9"
+    ]
+  },
+  {
+    "id": "A5",
+    "type": "article",
+    "title": "Retail Investor Statistics on Accounts and Assets",
+    "primary_keyword": "retail investor statistics",
+    "slug": "/investing/retail-investor-statistics/",
+    "hub": "Investing",
+    "cluster": "Investor Behavior",
+    "role": "Spoke",
+    "internal_link_targets": [
+      "A1",
+      "A3",
+      "A6",
+      "A7"
+    ]
+  },
+  {
+    "id": "A6",
+    "type": "article",
+    "title": "Millennial Investing Statistics",
+    "primary_keyword": "millennial investing statistics",
+    "slug": "/investing/millennial-investing-statistics/",
+    "hub": "Investing",
+    "cluster": "Investor Behavior",
+    "role": "Spoke",
+    "internal_link_targets": [
+      "A1",
+      "A5",
+      "A7"
+    ]
+  },
+  {
+    "id": "A7",
+    "type": "article",
+    "title": "Gen Z Investing Statistics and Information Sources",
+    "primary_keyword": "gen z investing statistics",
+    "slug": "/investing/gen-z-investing-statistics/",
+    "hub": "Investing",
+    "cluster": "Investor Behavior",
+    "role": "Spoke",
+    "internal_link_targets": [
+      "A1",
+      "A5",
+      "A6"
+    ]
+  },
+  {
+    "id": "A8",
+    "type": "article",
+    "title": "Women Investor Statistics",
+    "primary_keyword": "women investor statistics",
+    "slug": "/investing/women-investor-statistics/",
+    "hub": "Investing",
+    "cluster": "Investor Behavior",
+    "role": "Spoke",
+    "internal_link_targets": [
+      "A1",
+      "A5"
+    ]
+  },
+  {
+    "id": "A9",
+    "type": "article",
+    "title": "Online Trading Statistics by Asset Class",
+    "primary_keyword": "online trading statistics",
+    "slug": "/markets-stocks/online-trading-statistics/",
+    "hub": "Markets & Stocks",
+    "cluster": "Markets & Trading",
+    "role": "Bridge",
+    "internal_link_targets": [
+      "A3",
+      "A5",
+      "A4"
+    ]
+  },
+  {
+    "id": "A10",
+    "type": "article",
+    "title": "Mobile Investing App Statistics Beyond Downloads",
+    "primary_keyword": "mobile investing app statistics",
+    "slug": "/investing/mobile-investing-app-statistics/",
+    "hub": "Investing",
+    "cluster": "Investor Behavior",
+    "role": "Bridge",
+    "internal_link_targets": [
+      "A5",
+      "A6",
+      "A7"
+    ]
+  },
+  {
+    "id": "B1",
+    "type": "blog",
+    "title": "The Robinhood Business Model Behind Commission-Free Trading",
+    "primary_keyword": "robinhood business model",
+    "slug": "/markets-stocks/robinhood-business-model/",
+    "hub": "Markets & Stocks",
+    "cluster": "Markets & Trading",
+    "role": "Spoke",
+    "internal_link_targets": [
+      "A3",
+      "A5"
+    ]
+  },
+  {
+    "id": "B2",
+    "type": "blog",
+    "title": "Coinbase Revenue Across Its Main Businesses",
+    "primary_keyword": "coinbase revenue",
+    "slug": "/crypto/coinbase-revenue-business-segments/",
+    "hub": "Crypto & Digital Assets",
+    "cluster": "Crypto & Digital Assets",
+    "role": "Spoke",
+    "internal_link_targets": [
+      "A4",
+      "A9"
+    ]
+  },
+  {
+    "id": "B3",
+    "type": "blog",
+    "title": "Stripe Business Model: Payments and Software Fees",
+    "primary_keyword": "stripe business model",
+    "slug": "/payments/stripe-business-model/",
+    "hub": "Payments",
+    "cluster": "Payments Business Models",
+    "role": "Spoke",
+    "internal_link_targets": [
+      "A2",
+      "B8",
+      "B9"
+    ]
+  },
+  {
+    "id": "B4",
+    "type": "blog",
+    "title": "Who Pays Under the Plaid Business Model?",
+    "primary_keyword": "plaid business model",
+    "slug": "/fintech/plaid-business-model/",
+    "hub": "Fintech",
+    "cluster": "Fintech Infrastructure",
+    "role": "Spoke",
+    "internal_link_targets": [
+      "A2",
+      "B5",
+      "B6"
+    ]
+  },
+  {
+    "id": "B5",
+    "type": "blog",
+    "title": "Revolut Business Model: Plans and Banking Revenue",
+    "primary_keyword": "revolut business model",
+    "slug": "/fintech/revolut-business-model/",
+    "hub": "Fintech",
+    "cluster": "Digital Banking & Fintech",
+    "role": "Spoke",
+    "internal_link_targets": [
+      "A2",
+      "B4",
+      "B6"
+    ]
+  },
+  {
+    "id": "B6",
+    "type": "blog",
+    "title": "Chime Business Model and Card-Spending Economics",
+    "primary_keyword": "chime business model",
+    "slug": "/fintech/chime-business-model/",
+    "hub": "Fintech",
+    "cluster": "Digital Banking & Fintech",
+    "role": "Spoke",
+    "internal_link_targets": [
+      "A2",
+      "B4",
+      "B5"
+    ]
+  },
+  {
+    "id": "B7",
+    "type": "blog",
+    "title": "The Lending and Technology Sides of the SoFi Business Model",
+    "primary_keyword": "sofi business model",
+    "slug": "/fintech/sofi-business-model/",
+    "hub": "Fintech",
+    "cluster": "Digital Banking & Fintech",
+    "role": "Spoke",
+    "internal_link_targets": [
+      "A2",
+      "B4",
+      "B5"
+    ]
+  },
+  {
+    "id": "B8",
+    "type": "blog",
+    "title": "Block Business Model: Seller and Consumer Products",
+    "primary_keyword": "block business model",
+    "slug": "/fintech/block-business-model/",
+    "hub": "Fintech",
+    "cluster": "Fintech Platforms",
+    "role": "Spoke",
+    "internal_link_targets": [
+      "A2",
+      "B3",
+      "B9"
+    ]
+  },
+  {
+    "id": "B9",
+    "type": "blog",
+    "title": "PayPal Business Model Beyond Branded Checkout",
+    "primary_keyword": "paypal business model",
+    "slug": "/payments/paypal-business-model/",
+    "hub": "Payments",
+    "cluster": "Payments Business Models",
+    "role": "Spoke",
+    "internal_link_targets": [
+      "A2",
+      "B3",
+      "B10"
+    ]
+  },
+  {
+    "id": "B10",
+    "type": "blog",
+    "title": "Wise Business Model and the Cost of Transfers",
+    "primary_keyword": "wise business model",
+    "slug": "/payments/wise-business-model/",
+    "hub": "Payments",
+    "cluster": "Payments Business Models",
+    "role": "Spoke",
+    "internal_link_targets": [
+      "B3",
+      "B9"
+    ]
+  }
+]

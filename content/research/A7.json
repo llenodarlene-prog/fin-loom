@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "content_id": "A7",
+  "slug": "/investing/gen-z-investing-statistics/",
+  "status": "scaffolded",
+  "required_seo_tool": "Ahrefs",
+  "secondary_seo_tool": "Ubersuggest",
+  "keyword_queries": [
+    "gen z investing statistics"
+  ],
+  "ranking_competitors": [],
+  "sources": [],
+  "statistics": [],
+  "claims": [],
+  "internal_link_targets": [
+    "A1",
+    "A5",
+    "A6"
+  ],
+  "fact_check": {
+    "status": "pending",
+    "reviewer": null,
+    "date_utc": null
+  },
+  "qa": {
+    "status": "pending",
+    "reviewer": null,
+    "date_utc": null
+  }
+}

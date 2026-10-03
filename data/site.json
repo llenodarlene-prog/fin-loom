@@ -1,0 +1,26 @@
+{
+  "name": "FinLoom",
+  "tagline": "Financial Insights. A Brighter Tomorrow.",
+  "promise": "Follow the money, not the noise.",
+  "url": "https://finloom.org",
+  "staging_url": "https://staging.finloom.org",
+  "locale": "en-US",
+  "launch_status": "building",
+  "contact_email": null,
+  "publisher": null,
+  "required_seo_tool": "Ahrefs",
+  "secondary_seo_tool": "Ubersuggest",
+  "fonts": {
+    "display": "Libre Baskerville",
+    "body": "Manrope",
+    "technical": "Manrope"
+  },
+  "colors": {
+    "deep_violet": "#2B1F5B",
+    "royal_violet": "#5A46D6",
+    "soft_violet": "#A78BFA",
+    "light_neutral": "#E9E7F4",
+    "charcoal": "#0F1226",
+    "white": "#FFFFFF"
+  }
+}

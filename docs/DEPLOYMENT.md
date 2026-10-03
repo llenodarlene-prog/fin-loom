@@ -1,26 +1,25 @@
-# FinLoom deployment
+# Deployment
 
-## Branches
+Branch flow: `feature/*` → pull request to `staging` → review the noindex staging site → release pull request from `staging` to `main`.
 
-- `main`: production-ready source.
-- `staging`: deploys to `https://staging.finloom.org`.
+## GitHub Environments
 
-## Required GitHub Actions secrets
+Create `staging` and `production` environments. Require a reviewer for production.
 
-- `HOSTINGER_FTP_SERVER`
-- `HOSTINGER_FTP_USERNAME`
-- `HOSTINGER_FTP_PASSWORD`
-- `HOSTINGER_STAGING_DIR`
+## Required Secrets
 
-Do not commit credentials to the repository.
+- `DEPLOY_HOST`
+- `DEPLOY_USER`
+- `DEPLOY_ROOT`
+- `DEPLOY_SSH_KEY`
+- `SSH_KNOWN_HOSTS`
 
-## Validation
+Optional: `DEPLOY_PORT`.
 
-Before deployment, the workflow runs:
+## Variables
 
-```bash
-npm install
-npm run check
-```
+Set `SITE_URL=https://finloom.org`. If staging is a folder under the production root, set `DEPLOY_PRESERVE_DIR` on production so rsync does not delete it.
 
-The current build is intentionally minimal. Site templates, final copy, images, and structured SEO content can be added without changing the deployment contract.
+## Manual GitHub Settings
+
+Protect `staging` and `main`, require pull requests and the repository QA check, and block direct pushes.
