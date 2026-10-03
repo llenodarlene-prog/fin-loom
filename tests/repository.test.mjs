@@ -43,3 +43,16 @@ test('designed pages show only sourced data or labeled illustrations', async () 
   const [home, hubs] = await Promise.all([readJson('data/home-page.json'), readJson('data/hub-pages.json')]);
   for (const id of [home.hero.chart, ...home.context.charts, ...Object.values(hubs.hubs).flatMap(hub => hub.chart_band?.charts || [])]) assert.ok(charts[id], id);
 });
+
+test('off-site placement articles are review drafts and can never be published as Fin Loom content', async () => {
+  const { readdir } = await import('node:fs/promises');
+  const files = (await readdir('content/offsite')).filter(name => name.endsWith('.md'));
+  assert.ok(files.length >= 1);
+  for (const name of files) {
+    const head = (await readFile(`content/offsite/${name}`, 'utf8')).split('\n---\n')[0];
+    assert.match(head, /^draft: true$/m, name);
+    assert.match(head, /^type: offsite$/m, name);
+    assert.match(head, /^slug: \/offsite-drafts\//m, name);
+    assert.match(head, /^target_site: \S/m, name);
+  }
+});

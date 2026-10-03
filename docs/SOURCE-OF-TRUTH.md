@@ -36,6 +36,10 @@
 
 The site owner asked for a footer page covering sponsored posts, guest posts, and similar. No copy was supplied, so the page was drafted. It states no prices. Its four partnership standards (disclosure, evidence, no advice or promised returns, editorial control) are consistent with the About page and Privacy Policy but are new commitments, and need owner sign-off in `data/release.json` under `partner_terms`.
 
+## Off-site drafts on staging
+
+At the owner's request, one article from each backlink folder is imported as a review draft with `npm run import:offsite` into `content/offsite/`: Crypto Airdrop Risk (for Use The Bitcoin) and Crypto vs Stocks (for Stoxcraft). They render on staging under `/offsite-drafts/`, carry a notice, and are `draft: true`, so production builds exclude them. They exceed Fin Loom's word limit and are not tracker items, so they must not be published as Fin Loom content. Their figures have not had the publication-day recheck the source notes ask for.
+
 ## Open items
 
 Each one blocks production through `npm run release:check`.
