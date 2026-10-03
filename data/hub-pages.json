@@ -1,0 +1,260 @@
+{
+  "source": "FinLoom Files/02 Website Copy/Website Copy Draft.docx (supplied 2026-10-03), edited for brand voice",
+  "shared": {
+    "eyebrow": "Coverage",
+    "topics_heading": "What You Will Find Here",
+    "latest_heading": "{section} Research",
+    "empty_state": "No research has been published in this section yet."
+  },
+  "hubs": {
+    "/money-banking/": {
+      "index": 1,
+      "heading": "Money & Banking",
+      "image": {
+        "src": "/assets/images/hubs/money-banking-document-review-1600.jpg",
+        "small": "/assets/images/hubs/money-banking-document-review-800.jpg",
+        "width": 1600,
+        "height": 900,
+        "alt": "Two people reviewing printed financial charts at a desk with a tablet and coffee"
+      },
+      "copy": [
+        "The financial system becomes personal when it reaches your bank account. FinLoom covers saving, borrowing, credit, banking products, interest rates, debt, and financial security.",
+        "We explain how these products work, what they cost, and which details deserve closer attention."
+      ],
+      "topics": [
+        "Savings and deposit accounts",
+        "Interest rates",
+        "Credit and credit scores",
+        "Consumer debt",
+        "Loans and borrowing",
+        "Banking trends",
+        "Financial fraud and consumer security",
+        "Personal finance fundamentals",
+        "Financial literacy"
+      ],
+      "sections": [
+        {
+          "heading": "The Numbers Behind Everyday Money",
+          "copy": [
+            "A savings rate, a card APR, a loan payment, or a bank fee looks simple on the surface. The real effect depends on time, compounding, terms, inflation, taxes, and how the product fits with the rest of your finances. Our coverage puts those details back in."
+          ]
+        },
+        {
+          "heading": "Better Comparisons, Fewer Blind Spots",
+          "copy": [
+            "The highest advertised rate is not always the best product, and the lowest monthly payment is not always the cheapest loan. FinLoom works from the complete financial picture so options can be compared on what they cost in full."
+          ]
+        }
+      ]
+    },
+    "/investing/": {
+      "index": 2,
+      "heading": "Investing",
+      "image": {
+        "src": "/assets/images/hubs/investing-newspaper-reports-1600.jpg",
+        "small": "/assets/images/hubs/investing-newspaper-reports-800.jpg",
+        "width": 1600,
+        "height": 900,
+        "alt": "A financial newspaper, reading glasses, and printed charts beside a laptop on a desk"
+      },
+      "copy": [
+        "Investing is not only about finding returns. It is about understanding the risk taken to pursue them.",
+        "FinLoom covers long-term investing, portfolios, funds, retirement, diversification, investor behavior, and the decisions that shape wealth over time."
+      ],
+      "topics": [
+        "Portfolio construction",
+        "ETFs and mutual funds",
+        "Retirement investing",
+        "Diversification",
+        "Asset allocation",
+        "Risk and drawdowns",
+        "Investor psychology",
+        "Long-term wealth building",
+        "Investment costs",
+        "Investment statistics"
+      ],
+      "sections": [
+        {
+          "heading": "Look Beyond the Headline Return",
+          "copy": [
+            "Two investments can produce similar returns and still give the investor very different experiences. Volatility, drawdowns, liquidity, fees, taxes, concentration, and time horizon all shape the outcome. Our investing coverage is about those tradeoffs."
+          ]
+        },
+        {
+          "heading": "Discipline Over Prediction",
+          "copy": [
+            "Markets are uncertain, and a sound process should not depend on calling every move. FinLoom favors frameworks that help readers weigh risk, compare alternatives, and see how a single holding changes the portfolio as a whole."
+          ]
+        }
+      ]
+    },
+    "/markets-stocks/": {
+      "index": 3,
+      "heading": "Markets & Stocks",
+      "image": {
+        "src": "/assets/images/hubs/markets-trading-desk-1600.jpg",
+        "small": "/assets/images/hubs/markets-trading-desk-800.jpg",
+        "width": 1600,
+        "height": 900,
+        "alt": "A desk with four market monitors in an office overlooking a city and river"
+      },
+      "copy": [
+        "Markets turn millions of individual expectations into prices, and those prices can move faster than the businesses underneath them.",
+        "FinLoom examines the link between company performance, market expectations, valuation, risk, and the economic forces acting on stocks."
+      ],
+      "topics": [
+        "Individual stocks",
+        "Earnings and company performance",
+        "Market trends",
+        "Valuation",
+        "Stock screening",
+        "Volatility and risk",
+        "Trading",
+        "Options",
+        "Market structure",
+        "Sectors",
+        "Market statistics"
+      ],
+      "sections": [
+        {
+          "heading": "Follow the Business Behind the Price",
+          "copy": [
+            "A rising share price does not mean the business is improving, and a falling one does not make the stock inexpensive. We look at financial performance and market pricing separately, then connect the two."
+          ]
+        },
+        {
+          "heading": "From Financial Statements to Market Expectations",
+          "copy": [
+            "Revenue, margins, cash flow, capital spending, debt, and return on capital tell one side of the story. Valuation and expectations tell the other. FinLoom reads both, so the question is not only what a company has done but what the market appears to expect next."
+          ]
+        }
+      ]
+    },
+    "/fintech/": {
+      "index": 4,
+      "heading": "Fintech",
+      "image": {
+        "src": "/assets/images/hubs/fintech-boardroom-1600.jpg",
+        "small": "/assets/images/hubs/fintech-boardroom-800.jpg",
+        "width": 1600,
+        "height": 900,
+        "alt": "An empty boardroom with a wall display showing a chart and a city skyline beyond the windows"
+      },
+      "copy": [
+        "Financial technology is changing who can build financial products, how those products reach customers, and where traditional financial services begin and end.",
+        "FinLoom covers the businesses, technologies, economics, and infrastructure behind that shift."
+      ],
+      "topics": [
+        "Neobanks",
+        "Financial apps",
+        "Embedded finance",
+        "Digital banking",
+        "Lending technology",
+        "Financial software",
+        "Fintech funding",
+        "Business models",
+        "Company deep dives",
+        "Fintech market data"
+      ],
+      "sections": [
+        {
+          "heading": "Where Finance Meets Technology",
+          "copy": [
+            "A fintech company can look like a software company, a bank, a lender, a payments business, or all four at once. Funding rounds and app downloads do not settle which it is. We examine the business model underneath the technology."
+          ]
+        },
+        {
+          "heading": "Follow the Economics, Not Just the Innovation",
+          "copy": [
+            "A product can be popular without being profitable. A fast-growing fintech can still lean heavily on funding, interchange, lending spreads, or third-party infrastructure. FinLoom looks at how the product works and how the business behind it makes money."
+          ]
+        }
+      ]
+    },
+    "/payments/": {
+      "index": 5,
+      "heading": "Payments",
+      "image": {
+        "src": "/assets/images/hubs/payments-contactless-1600.jpg",
+        "small": "/assets/images/hubs/payments-contactless-800.jpg",
+        "width": 1600,
+        "height": 900,
+        "alt": "A customer holding a phone over a payment terminal on a cafe counter"
+      },
+      "copy": [
+        "Every digital purchase depends on infrastructure most people never see. In a matter of seconds, a payment connects banks, card networks, wallets, merchants, processors, software platforms, regulators, and customers.",
+        "FinLoom examines the systems that move the money."
+      ],
+      "topics": [
+        "Digital payments",
+        "Payment processors",
+        "Wallets",
+        "Checkout technology",
+        "Card networks",
+        "Remittances",
+        "Cross-border payments",
+        "Open banking",
+        "Account-to-account payments",
+        "Payment security",
+        "Company deep dives"
+      ],
+      "sections": [
+        {
+          "heading": "From Click to Settlement",
+          "copy": [
+            "A checkout screen is only the visible layer. Behind it sit authorization, fraud controls, funding, processing, settlement, fees, foreign exchange, and compliance. Knowing those layers makes payment-industry trends easier to judge."
+          ]
+        },
+        {
+          "heading": "Scale Is Only Part of the Story",
+          "copy": [
+            "Payment volume can grow faster than revenue. Transaction counts can rise while margins fall, and a large user base does not guarantee strong economics. FinLoom tracks the relationship between payment activity and the value created from it."
+          ]
+        }
+      ]
+    },
+    "/crypto/": {
+      "index": 6,
+      "heading": "Crypto & Digital Assets",
+      "image": {
+        "src": "/assets/images/hubs/crypto-governance-desk-1600.jpg",
+        "small": "/assets/images/hubs/crypto-governance-desk-800.jpg",
+        "width": 1600,
+        "height": 900,
+        "alt": "A laptop and phone showing a governance proposal, with printed proposal documents on a desk"
+      },
+      "copy": [
+        "Digital assets sit where markets, technology, payments, and financial infrastructure meet. That makes the category interesting, and easy to oversimplify.",
+        "FinLoom applies the standard it uses for traditional finance: examine the structure, measure the risk, verify the data, and separate adoption from speculation."
+      ],
+      "topics": [
+        "Bitcoin",
+        "Stablecoins",
+        "Exchanges",
+        "Custody",
+        "Wallets",
+        "DeFi",
+        "Tokenization",
+        "Real-world assets",
+        "DAO governance",
+        "Crypto market structure",
+        "Institutional adoption",
+        "Digital asset research"
+      ],
+      "sections": [
+        {
+          "heading": "Beyond Price Charts",
+          "copy": [
+            "Price is visible. The system behind the price takes more work. Our research covers market structure, custody, token economics, liquidity, governance, regulation, network activity, and how digital assets interact with the wider financial system."
+          ]
+        },
+        {
+          "heading": "Evidence Before Narrative",
+          "copy": [
+            "Crypto markets produce powerful narratives, and FinLoom looks at the evidence underneath them. We distinguish network activity from economic value, token issuance from yield, market liquidity from reported volume, and technological potential from investment risk."
+          ]
+        }
+      ]
+    }
+  }
+}

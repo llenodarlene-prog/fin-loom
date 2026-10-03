@@ -22,7 +22,7 @@ export async function readContent(file) {
   return { metadata, body: raw.slice(end + 5).trim(), raw };
 }
 
-function inline(value) {
+export function inline(value) {
   let text = escapeHtml(value);
   text = text.replace(/!\[([^\]]*)\]\(([^)\s]+)(?:\s+"([^"]*)")?\)/g, '<img src="$2" alt="$1" title="$3" loading="lazy">');
   text = text.replace(/\[([^\]]+)\]\((https?:\/\/[^)]+|\/[^)]*|mailto:[^)\s]+)\)/g, '<a href="$2">$1</a>');

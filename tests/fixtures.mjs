@@ -152,7 +152,7 @@ export async function createLaunchFixture() {
   const brand = { logo: '/assets/brand/fixture-logo.png', icon: '/assets/brand/fixture-icon.png', social: '/assets/brand/fixture-social.png' };
   for (const src of Object.values(brand)) await writeFile(path.join(root, src), pixel);
   const assets = await readJson(data('assets.json'));
-  for (const src of Object.values(brand)) assets.push({ path: src, title: 'Fixture brand file', use: 'Fixture', width: 1, height: 1, rights_status: 'approved', rights_source: 'Fixture', alt_guidance: 'Fin Loom' });
+  for (const src of Object.values(brand)) assets.push({ path: src, title: 'Fixture brand file', use: 'Fixture', width: 1, height: 1, rights_status: 'approved', rights_source: 'Fixture', alt_guidance: 'FinLoom' });
   await writeJson(data('assets.json'), assets);
 
   const site = await readJson(data('site.json'));

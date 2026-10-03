@@ -1,16 +1,12 @@
 ---
 title: Crypto & Digital Assets
-description: Crypto & Digital Assets on Fin Loom: bitcoin, stablecoins, exchanges, DeFi, tokenization.
+seo_title: Crypto & Digital Assets Research | FinLoom
+description: Independent research on Bitcoin, stablecoins, exchanges, crypto custody, DeFi, tokenization, governance, and digital asset markets.
 slug: /crypto/
 type: page
 schema: CollectionPage
-draft: true
-copy_source: data/site-architecture.json and data/brand-strategy.json (tracker sheets Site Architecture and Brand Strategy)
+template: hub
+draft: false
 ---
 
-# Crypto & Digital Assets
-
-Bitcoin, stablecoins, exchanges, DeFi, tokenization.
-
-> **Draft Page**
-> Approved category copy has not been supplied. This page shows tracker-sourced text only and stays out of production until approved copy is supplied.
+This page is rendered by `scripts/lib/pages.mjs` from `data/hub-pages.json`. Edit the copy there, not here.

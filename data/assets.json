@@ -1,1 +1,212 @@
-[]
+[
+  {
+    "path": "/assets/brand/finloom-logo.png",
+    "title": "FinLoom horizontal logo",
+    "use": "Website header logo (lockup without tagline)",
+    "width": 672,
+    "height": 200,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files/05 Assets, supplied by the site owner 2026-10-03",
+    "alt_guidance": "FinLoom"
+  },
+  {
+    "path": "/assets/brand/finloom-icon.png",
+    "title": "FinLoom app icon",
+    "use": "Favicon and publisher logo",
+    "width": 512,
+    "height": 512,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files/05 Assets, supplied by the site owner 2026-10-03",
+    "alt_guidance": "FinLoom"
+  },
+  {
+    "path": "/assets/brand/finloom-social.png",
+    "title": "FinLoom social card",
+    "use": "Default share image",
+    "width": 1200,
+    "height": 630,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files/05 Assets, supplied by the site owner 2026-10-03",
+    "alt_guidance": "FinLoom logo with the tagline Financial Insights. A Brighter Tomorrow."
+  },
+  {
+    "path": "/assets/images/home/city-terrace-sunrise-1600.jpg",
+    "title": "City skyline at sunrise seen from a terrace, with a tablet showing a market chart on the table",
+    "use": "Page photography",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files/05 Assets, supplied by the site owner 2026-10-03 (AI-generated image)",
+    "alt_guidance": "City skyline at sunrise seen from a terrace, with a tablet showing a market chart on the table"
+  },
+  {
+    "path": "/assets/images/home/city-terrace-sunrise-800.jpg",
+    "title": "City skyline at sunrise seen from a terrace, with a tablet showing a market chart on the table",
+    "use": "Page photography",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files/05 Assets, supplied by the site owner 2026-10-03 (AI-generated image)",
+    "alt_guidance": "City skyline at sunrise seen from a terrace, with a tablet showing a market chart on the table"
+  },
+  {
+    "path": "/assets/images/home/research-reports-flatlay-1600.jpg",
+    "title": "Printed research reports, a notebook, and a tablet with charts laid out on a marble desk",
+    "use": "Page photography",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files/05 Assets, supplied by the site owner 2026-10-03 (AI-generated image)",
+    "alt_guidance": "Printed research reports, a notebook, and a tablet with charts laid out on a marble desk"
+  },
+  {
+    "path": "/assets/images/home/research-reports-flatlay-800.jpg",
+    "title": "Printed research reports, a notebook, and a tablet with charts laid out on a marble desk",
+    "use": "Page photography",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files/05 Assets, supplied by the site owner 2026-10-03 (AI-generated image)",
+    "alt_guidance": "Printed research reports, a notebook, and a tablet with charts laid out on a marble desk"
+  },
+  {
+    "path": "/assets/images/about/desk-harbor-skyline-1600.jpg",
+    "title": "A desk with a laptop, notebook, and coffee in front of a window overlooking a harbor skyline",
+    "use": "Page photography",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files/05 Assets, supplied by the site owner 2026-10-03 (AI-generated image)",
+    "alt_guidance": "A desk with a laptop, notebook, and coffee in front of a window overlooking a harbor skyline"
+  },
+  {
+    "path": "/assets/images/about/desk-harbor-skyline-800.jpg",
+    "title": "A desk with a laptop, notebook, and coffee in front of a window overlooking a harbor skyline",
+    "use": "Page photography",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files/05 Assets, supplied by the site owner 2026-10-03 (AI-generated image)",
+    "alt_guidance": "A desk with a laptop, notebook, and coffee in front of a window overlooking a harbor skyline"
+  },
+  {
+    "path": "/assets/images/hubs/money-banking-document-review-1600.jpg",
+    "title": "Two people reviewing printed financial charts at a desk with a tablet and coffee",
+    "use": "Page photography",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files/05 Assets, supplied by the site owner 2026-10-03 (AI-generated image)",
+    "alt_guidance": "Two people reviewing printed financial charts at a desk with a tablet and coffee"
+  },
+  {
+    "path": "/assets/images/hubs/money-banking-document-review-800.jpg",
+    "title": "Two people reviewing printed financial charts at a desk with a tablet and coffee",
+    "use": "Page photography",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files/05 Assets, supplied by the site owner 2026-10-03 (AI-generated image)",
+    "alt_guidance": "Two people reviewing printed financial charts at a desk with a tablet and coffee"
+  },
+  {
+    "path": "/assets/images/hubs/investing-newspaper-reports-1600.jpg",
+    "title": "A financial newspaper, reading glasses, and printed charts beside a laptop on a desk",
+    "use": "Page photography",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files/05 Assets, supplied by the site owner 2026-10-03 (AI-generated image)",
+    "alt_guidance": "A financial newspaper, reading glasses, and printed charts beside a laptop on a desk"
+  },
+  {
+    "path": "/assets/images/hubs/investing-newspaper-reports-800.jpg",
+    "title": "A financial newspaper, reading glasses, and printed charts beside a laptop on a desk",
+    "use": "Page photography",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files/05 Assets, supplied by the site owner 2026-10-03 (AI-generated image)",
+    "alt_guidance": "A financial newspaper, reading glasses, and printed charts beside a laptop on a desk"
+  },
+  {
+    "path": "/assets/images/hubs/markets-trading-desk-1600.jpg",
+    "title": "A desk with four market monitors in an office overlooking a city and river",
+    "use": "Page photography",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files/05 Assets, supplied by the site owner 2026-10-03 (AI-generated image)",
+    "alt_guidance": "A desk with four market monitors in an office overlooking a city and river"
+  },
+  {
+    "path": "/assets/images/hubs/markets-trading-desk-800.jpg",
+    "title": "A desk with four market monitors in an office overlooking a city and river",
+    "use": "Page photography",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files/05 Assets, supplied by the site owner 2026-10-03 (AI-generated image)",
+    "alt_guidance": "A desk with four market monitors in an office overlooking a city and river"
+  },
+  {
+    "path": "/assets/images/hubs/fintech-boardroom-1600.jpg",
+    "title": "An empty boardroom with a wall display showing a chart and a city skyline beyond the windows",
+    "use": "Page photography",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files/05 Assets, supplied by the site owner 2026-10-03 (AI-generated image)",
+    "alt_guidance": "An empty boardroom with a wall display showing a chart and a city skyline beyond the windows"
+  },
+  {
+    "path": "/assets/images/hubs/fintech-boardroom-800.jpg",
+    "title": "An empty boardroom with a wall display showing a chart and a city skyline beyond the windows",
+    "use": "Page photography",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files/05 Assets, supplied by the site owner 2026-10-03 (AI-generated image)",
+    "alt_guidance": "An empty boardroom with a wall display showing a chart and a city skyline beyond the windows"
+  },
+  {
+    "path": "/assets/images/hubs/payments-contactless-1600.jpg",
+    "title": "A customer holding a phone over a payment terminal on a cafe counter",
+    "use": "Page photography",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files/05 Assets, supplied by the site owner 2026-10-03 (AI-generated image)",
+    "alt_guidance": "A customer holding a phone over a payment terminal on a cafe counter"
+  },
+  {
+    "path": "/assets/images/hubs/payments-contactless-800.jpg",
+    "title": "A customer holding a phone over a payment terminal on a cafe counter",
+    "use": "Page photography",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files/05 Assets, supplied by the site owner 2026-10-03 (AI-generated image)",
+    "alt_guidance": "A customer holding a phone over a payment terminal on a cafe counter"
+  },
+  {
+    "path": "/assets/images/hubs/crypto-governance-desk-1600.jpg",
+    "title": "A laptop and phone showing a governance proposal, with printed proposal documents on a desk",
+    "use": "Page photography",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files/05 Assets, supplied by the site owner 2026-10-03 (AI-generated image)",
+    "alt_guidance": "A laptop and phone showing a governance proposal, with printed proposal documents on a desk"
+  },
+  {
+    "path": "/assets/images/hubs/crypto-governance-desk-800.jpg",
+    "title": "A laptop and phone showing a governance proposal, with printed proposal documents on a desk",
+    "use": "Page photography",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files/05 Assets, supplied by the site owner 2026-10-03 (AI-generated image)",
+    "alt_guidance": "A laptop and phone showing a governance proposal, with printed proposal documents on a desk"
+  }
+]

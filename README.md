@@ -1,12 +1,12 @@
-# Fin Loom static website
+# FinLoom static website
 
-Tracker-driven repository for https://finloom.org. Fin Loom is an informational financial publication, not a financial adviser.
+Tracker-driven repository for https://finloom.org. FinLoom is an informational financial publication, not a financial adviser.
 
-The site is generated into `dist/` by a dependency-free Node build. Tracker data in `data/` controls navigation, URLs, the content plan, and the launch silo, and validation enforces it. The architecture, checks, and deployment method follow the Verdict Point repository; the brand, copy, and content are Fin Loom's own.
+The site is generated into `dist/` by a dependency-free Node build. Tracker data in `data/` controls navigation, URLs, the content plan, and the launch silo, and validation enforces it. The architecture, checks, and deployment method follow the Verdict Point repository; the brand, copy, and content are FinLoom's own.
 
 ## Current state
 
-- Core pages exist as drafts built only from tracker and branding-brief text. Approved page copy has not been supplied yet.
+- Core pages use the owner's Website Copy Draft, edited for brand voice, with the supplied logo and photography. Legal pages keep the supplied wording.
 - No article or blog is published. The 20 tracker items with approved URLs are the editorial backlog in `data/launch-content-plan.json`.
 - Staging deploys from the `staging` branch and is always `noindex`.
 - Production is blocked by the launch gate until every item in `docs/SOURCE-OF-TRUTH.md` under "Open items" is resolved.

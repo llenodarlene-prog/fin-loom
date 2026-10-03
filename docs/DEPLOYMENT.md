@@ -7,7 +7,7 @@ GitHub environments named `staging` and `production` hold the deployment configu
 - Branch: `staging`. Workflow: `.github/workflows/deploy-staging.yml`.
 - URL: https://staging.finloom.org
 - Document root: `/home/u285869133/domains/finloom.org/public_html/staging`
-- Variables: `DEPLOY_PORT=65002`, `SITE_NAME=Fin Loom`, `SITE_URL=https://staging.finloom.org`.
+- Variables: `DEPLOY_PORT=65002`, `SITE_NAME=FinLoom`, `SITE_URL=https://staging.finloom.org`.
 - Secrets: `DEPLOY_HOST`, `DEPLOY_USER`, `DEPLOY_ROOT`, `DEPLOY_SSH_KEY`, `SSH_KNOWN_HOSTS` (pinned from an independently verified host key).
 
 In this repository the staging environment's `SITE_URL` is the staging address. Canonical URLs never come from that variable; they come from `url` in `data/site.json` (`https://finloom.org`).

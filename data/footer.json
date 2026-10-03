@@ -1,6 +1,6 @@
 {
-  "source": "data/brand-strategy.json (Positioning) and data/navigation.json. No approved footer copy document exists yet.",
-  "description": "Data-first finance and fintech intelligence for readers who want to understand how money, markets, platforms and investor behavior are changing.",
+  "source": "FinLoom Files/02 Website Copy/Website Copy Draft.docx (supplied 2026-10-03), edited for brand voice",
+  "description": "FinLoom is an independent financial publication covering money, investing, markets, fintech, payments, and digital assets.",
   "columns": [
     {
       "heading": "Explore",
@@ -50,10 +50,13 @@
         {
           "label": "Privacy Policy",
           "url": "/privacy/"
+        },
+        {
+          "label": "Terms and Conditions",
+          "url": "/terms/"
         }
       ]
     }
   ],
-  "disclaimer": "Fin Loom is an informational financial publication, not a financial adviser. Content is published for general information only and is not financial, investment, tax, or legal advice.",
-  "disclaimer_status": "Interim wording taken from the site owner build instruction of 2026-10-03. Approved financial and editorial disclaimer copy has not been supplied; data/release.json keeps the disclaimer approval open."
+  "disclaimer": "FinLoom publishes financial information for educational and informational purposes. Nothing on this website should be interpreted as personalized investment, tax, legal, accounting, or financial advice."
 }

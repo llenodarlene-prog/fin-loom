@@ -1,10 +1,10 @@
 {
   "tracker_brand": "FinLoom",
-  "name": "Fin Loom",
+  "name": "FinLoom",
   "repository": "fin-loom",
   "url": "https://finloom.org",
   "tagline": "Financial Insights. A Brighter Tomorrow.",
-  "description": "Data-first finance and fintech intelligence for readers who want to understand how money, markets, platforms and investor behavior are changing.",
+  "description": "Independent financial insights across money, investing, markets, fintech, payments, and digital assets.",
   "locale": "en-US",
   "fonts": {
     "display": "Libre Baskerville",
@@ -23,9 +23,9 @@
     "charcoal": "#0F1226"
   },
   "brand_assets": {
-    "logo": null,
-    "icon": null,
-    "social": null
+    "logo": "/assets/brand/finloom-logo.png",
+    "icon": "/assets/brand/finloom-icon.png",
+    "social": "/assets/brand/finloom-social.png"
   },
   "launch_status": "prelaunch",
   "verified_contact_details": false,

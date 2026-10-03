@@ -1,16 +1,12 @@
 ---
 title: Fintech
-description: Fintech on Fin Loom: neobanks, financial apps, embedded finance, funding.
+seo_title: Fintech Research and Industry Insights | FinLoom
+description: Research on neobanks, financial apps, embedded finance, funding, financial software, digital banking, and the companies reshaping finance.
 slug: /fintech/
 type: page
 schema: CollectionPage
-draft: true
-copy_source: data/site-architecture.json and data/brand-strategy.json (tracker sheets Site Architecture and Brand Strategy)
+template: hub
+draft: false
 ---
 
-# Fintech
-
-Neobanks, financial apps, embedded finance, funding.
-
-> **Draft Page**
-> Approved category copy has not been supplied. This page shows tracker-sourced text only and stays out of production until approved copy is supplied.
+This page is rendered by `scripts/lib/pages.mjs` from `data/hub-pages.json`. Edit the copy there, not here.

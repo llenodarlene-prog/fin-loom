@@ -1,6 +1,6 @@
-# CLAUDE.md: Fin Loom
+# CLAUDE.md: FinLoom
 
-This is the source-of-truth repository for Fin Loom. Implement approved work without inventing brand facts, content evidence, publication dates, authors, or deployment credentials.
+This is the source-of-truth repository for FinLoom. Implement approved work without inventing brand facts, content evidence, publication dates, authors, or deployment credentials.
 
 ## Authority order
 
@@ -34,8 +34,8 @@ If sources conflict, stop and report the exact conflict. The tracker controls ti
 - Use two or three reputable external links contextually before Resources. Put additional approved sources in Resources. Every cited URL must match a verified research source; Resources never substitutes for body citations.
 - Preserve the real evidence year. Label estimates, forecasts, calculations, partial-year data, and sponsored studies.
 - Never fabricate anecdotes, experience, testimonials, results, authors, credentials, contacts, prices, statistics, dates, sources, or financial claims.
-- Fin Loom is an informational financial publication, not a financial adviser. Never write a recommendation to buy, sell, or hold any asset, never promise or imply a return, and keep the approved disclaimer on every page. Label forecasts, estimates, and illustrative calculations as such.
-- The Drive articles written for Use The Bitcoin and Stoxcraft are off-site placements that link to Fin Loom. They are not Fin Loom site content; see `docs/SOURCE-OF-TRUTH.md`.
+- FinLoom is an informational financial publication, not a financial adviser. Never write a recommendation to buy, sell, or hold any asset, never promise or imply a return, and keep the approved disclaimer on every page. Label forecasts, estimates, and illustrative calculations as such.
+- The Drive articles written for Use The Bitcoin and Stoxcraft are off-site placements that link to FinLoom. They are not FinLoom site content; see `docs/SOURCE-OF-TRUTH.md`.
 - No em dashes. Target clear Grade 8–9 prose, short paragraphs, active voice, and varied sentence rhythm.
 - High- and medium-severity repository AI kill-list entries are enforced. If a flagged term is technically necessary, add the exact term to the semicolon-separated `ai_exceptions` field and explain it in `ai_exception_reason`.
 
