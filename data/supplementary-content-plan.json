@@ -1,0 +1,57 @@
+{
+  "note": "Fin Loom blog posts supplied by the site owner outside the tracker launch set. Each is published on Fin Loom, and its live URL is then placed in an existing article on the named partner site. Longer than the standard limit by owner decision; max_words records the approved ceiling.",
+  "records": [
+    {
+      "type": "Blog",
+      "content_number": "S1",
+      "working_title": "Crypto Airdrop Risk: How to Evaluate Tokens Before You Claim",
+      "primary_keyword": "crypto airdrop",
+      "secondary_keywords": "airdrop scam; crypto airdrop scam; how to get crypto airdrop; token airdrop risk",
+      "cluster": "Crypto & Digital Assets",
+      "intent": "Informational",
+      "status": "Ready for Source Verification",
+      "url_slug": "/crypto/crypto-airdrop-risk/",
+      "seo_title": "Crypto Airdrop Risk: How to Evaluate Tokens Safely",
+      "meta_description": "Learn how to evaluate a crypto airdrop, check token legitimacy, inspect wallet permissions, and reduce phishing and smart-contract risk.",
+      "max_words": 3400,
+      "link_placement_site": "Use The Bitcoin",
+      "source_file": "FinLoom Files/03 Blogs/For Use the Bitcoin Backlink/01_crypto_airdrop_risk.md"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S6",
+      "working_title": "Crypto vs Stocks: Comparing Volatility, Drawdowns, Liquidity, and Returns",
+      "primary_keyword": "crypto vs stocks",
+      "secondary_keywords": "",
+      "cluster": "Investing",
+      "intent": "Informational",
+      "status": "Ready for Source Verification",
+      "url_slug": "/investing/crypto-vs-stocks/",
+      "seo_title": "Crypto vs Stocks: Risk, Liquidity, and Returns Compared",
+      "meta_description": "Compare crypto vs stocks across volatility, liquidity, ownership, regulation, diversification, and portfolio use with a practical risk framework.",
+      "max_words": 3900,
+      "link_placement_site": "Stoxcraft",
+      "source_file": "FinLoom Files/03 Blogs/For Stoxcraft Backlink/06_crypto_vs_stocks.md"
+    }
+  ],
+  "links": [
+    {
+      "type": "Blog",
+      "content_number": "S1",
+      "url_slug": "/crypto/crypto-airdrop-risk/",
+      "primary_silo_hub": "/crypto/",
+      "approved_outbound_targets": [
+        "/crypto/"
+      ]
+    },
+    {
+      "type": "Blog",
+      "content_number": "S6",
+      "url_slug": "/investing/crypto-vs-stocks/",
+      "primary_silo_hub": "/investing/",
+      "approved_outbound_targets": [
+        "/investing/"
+      ]
+    }
+  ]
+}

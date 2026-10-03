@@ -44,15 +44,15 @@ test('designed pages show only sourced data or labeled illustrations', async () 
   for (const id of [home.hero.chart, ...home.context.charts, ...Object.values(hubs.hubs).flatMap(hub => hub.chart_band?.charts || [])]) assert.ok(charts[id], id);
 });
 
-test('off-site placement articles are review drafts and can never be published as Fin Loom content', async () => {
-  const { readdir } = await import('node:fs/promises');
-  const files = (await readdir('content/offsite')).filter(name => name.endsWith('.md'));
-  assert.ok(files.length >= 1);
-  for (const name of files) {
-    const head = (await readFile(`content/offsite/${name}`, 'utf8')).split('\n---\n')[0];
-    assert.match(head, /^draft: true$/m, name);
-    assert.match(head, /^type: offsite$/m, name);
-    assert.match(head, /^slug: \/offsite-drafts\//m, name);
-    assert.match(head, /^target_site: \S/m, name);
+test('supplementary blog posts map to a plan record, a silo record, and a research record', async () => {
+  const plan = await readJson('data/supplementary-content-plan.json');
+  assert.ok(plan.records.length >= 1);
+  for (const record of plan.records) {
+    assert.match(record.url_slug, /^\/[a-z-]+\/[a-z0-9-]+\/$/);
+    assert.ok(record.max_words >= 2600, 'max_words records the owner-approved ceiling');
+    const silo = plan.links.find(item => item.content_number === record.content_number);
+    assert.ok(silo && silo.approved_outbound_targets.length === 1, `${record.content_number}: one approved Fin Loom link`);
+    const research = await readJson(`content/research/blog-${record.content_number.toLowerCase()}.json`);
+    assert.equal(research.tracker_id, `Blog:${record.content_number}`);
   }
 });

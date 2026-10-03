@@ -10,6 +10,9 @@ async function walk(dir) {
 }
 
 const [launch, links] = await Promise.all([readJson('data/launch-content-plan.json'), readJson('data/interlinking-plan.json')]);
+// Owner-supplied posts outside the tracker launch set are validated the same way.
+const supplementary = await readFile('data/supplementary-content-plan.json', 'utf8').then(JSON.parse).catch(() => ({ records: [], links: [] }));
+launch.push(...supplementary.records); links.push(...supplementary.links);
 const failures = [];
 const researchFiles = (await walk('content/research')).filter(file => file.endsWith('.json')).sort();
 const contentFiles = (await walk('content')).filter(file => file.endsWith('.md')).sort();

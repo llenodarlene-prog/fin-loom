@@ -2,21 +2,27 @@
 title: Crypto Airdrop Risk: How to Evaluate Tokens Before You Claim
 seo_title: Crypto Airdrop Risk: How to Evaluate Tokens Safely
 description: Learn how to evaluate a crypto airdrop, check token legitimacy, inspect wallet permissions, and reduce phishing and smart-contract risk.
-slug: /offsite-drafts/use-the-bitcoin/crypto-airdrop-risk/
-type: offsite
-schema: WebPage
+slug: /crypto/crypto-airdrop-risk/
+type: blog
+schema: BlogPosting
 draft: true
-target_site: Use The Bitcoin
-target_slug: /guides/crypto-airdrop-risk/
+tracker_id: Blog:S1
 primary_keyword: crypto airdrop
-finloom_link: /crypto/
-source_file: FinLoom Files/03 Blogs/For Use the Bitcoin Backlink/01_crypto_airdrop_risk.md
+secondary_keywords: airdrop scam; crypto airdrop scam; how to get crypto airdrop; token airdrop risk
+cluster: Crypto & Digital Assets
+approved_internal_links: /crypto/
+research_record: content/research/blog-s1.json
+image: /assets/images/posts/crypto-airdrop-risk/airdrop-claim-review-1600.jpg
+image_alt: A phone showing an airdrop claim screen beside a printed checklist titled Before You Claim, a hardware wallet, and a sample token overview
+link_placement_site: Use The Bitcoin
+ai_exceptions: 
+ai_exception_reason: 
+author: 
+published: 
+modified: 
 ---
 
 # Crypto Airdrop Risk: How to Evaluate Tokens Before You Claim
-
-> **Off-Site Draft**
-> Written for publication on Use The Bitcoin, with one link back to Fin Loom (/crypto/). It is shown here for review only and is not Fin Loom content. Its figures have not had their publication-day recheck.
 
 A crypto airdrop can look simple from the outside. A project distributes tokens, users complete a claim, and the tokens appear in a wallet. The real process is often more complicated. The claim may involve a website, a wallet connection, a signature, a smart-contract approval, eligibility rules, token supply assumptions, and a decision about whether the asset is worth holding at all.
 
@@ -36,9 +42,15 @@ A sensible approach is therefore to treat every airdrop as two separate question
 - **Ignore Urgency:** A legitimate claim does not become safer because a countdown timer says it expires in ten minutes.
 - **Do Not Share Recovery Credentials:** No legitimate airdrop needs your seed phrase or private key.
 
-![Crypto Scam and Fraud Inflows](/assets/images/offsite/crypto-scam-inflows-chainalysis.png)
+```chart
+crypto-scam-inflows
+```
 
-*Chart note: Chainalysis reported at least $14 billion in 2025 scam inflows and projected the figure could exceed $17 billion as attribution improves. The 2024 figure shown is the recalculated $12 billion amount cited in the same 2026 report; this chart covers crypto scams broadly, not airdrops alone.*
+The same Chainalysis report found that the average scam payment rose from $782 in 2024 to $2,764 in 2025. Fewer, larger losses are harder to absorb, which is one more reason to slow down before a claim.
+
+```chart
+crypto-scam-average-payment
+```
 
 ## A Crypto Airdrop Has More Than One Kind of Risk
 

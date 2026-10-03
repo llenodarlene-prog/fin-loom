@@ -60,7 +60,8 @@ for (const route of requiredPages) {
 }
 
 const published = pages.filter(page => page.metadata.draft !== true && ['article', 'blog'].includes(String(page.metadata.type).toLowerCase()));
-const launchIds = new Set(launch.map(item => `${item.type}:${item.content_number}`));
+const supplementary = await readFile('data/supplementary-content-plan.json', 'utf8').then(JSON.parse).catch(() => ({ records: [], links: [] }));
+const launchIds = new Set([...launch, ...supplementary.records].map(item => `${item.type}:${item.content_number}`));
 const counts = new Map();
 for (const page of published) {
   const id = page.metadata.tracker_id;

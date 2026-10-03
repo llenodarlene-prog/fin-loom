@@ -1,1 +1,131 @@
-{}
+{
+  "crypto-scam-inflows": {
+    "type": "bar",
+    "title": "Crypto Scam and Fraud Inflows",
+    "label_heading": "Measure",
+    "labels": [
+      "2024, recalculated",
+      "2025, received so far",
+      "2025, projected"
+    ],
+    "series": [
+      {
+        "name": "US dollars, billions",
+        "values": [
+          12,
+          14,
+          17
+        ]
+      }
+    ],
+    "prefix": "$",
+    "suffix": "bn",
+    "caption": "Chainalysis counted at least $14 billion received by scams in 2025 and projects the total could exceed $17 billion as more addresses are identified. The figures cover crypto scams broadly, not airdrops alone.",
+    "source": "Chainalysis, 2026 Crypto Crime Report: Scams, published January 13, 2026. Checked October 4, 2026."
+  },
+  "crypto-scam-average-payment": {
+    "type": "bar",
+    "title": "Average Crypto Scam Payment",
+    "label_heading": "Year",
+    "labels": [
+      "2024",
+      "2025"
+    ],
+    "series": [
+      {
+        "name": "Average payment",
+        "values": [
+          782,
+          2764
+        ]
+      }
+    ],
+    "prefix": "$",
+    "caption": "The average payment to a scam rose 253% in a year, according to Chainalysis.",
+    "source": "Chainalysis, 2026 Crypto Crime Report: Scams, published January 13, 2026. Checked October 4, 2026."
+  },
+  "loss-recovery-gain": {
+    "type": "bar",
+    "title": "Gain Needed to Recover a Loss",
+    "label_heading": "Loss",
+    "labels": [
+      "10%",
+      "20%",
+      "30%",
+      "40%",
+      "50%",
+      "70%"
+    ],
+    "series": [
+      {
+        "name": "Gain needed to recover",
+        "values": [
+          11.1,
+          25,
+          42.9,
+          66.7,
+          100,
+          233.3
+        ]
+      }
+    ],
+    "suffix": "%",
+    "decimals": 1,
+    "caption": "The gain needed equals the loss divided by one minus the loss, so recovery always takes a larger percentage than the fall.",
+    "note": "Arithmetic illustration, not market data or a forecast."
+  },
+  "crypto-position-size-impact": {
+    "type": "hbar",
+    "title": "Portfolio Loss From a 60% Crypto Decline",
+    "label_heading": "Crypto allocation",
+    "labels": [
+      "2% allocation",
+      "5% allocation",
+      "10% allocation",
+      "20% allocation",
+      "40% allocation"
+    ],
+    "series": [
+      {
+        "name": "Approximate portfolio loss",
+        "values": [
+          1.2,
+          3,
+          6,
+          12,
+          24
+        ]
+      }
+    ],
+    "suffix": "%",
+    "decimals": 1,
+    "caption": "Illustrative calculation assuming other portfolio holdings are unchanged.",
+    "note": "Arithmetic illustration, not market data or a forecast."
+  },
+  "stress-test-by-allocation": {
+    "type": "bar",
+    "title": "Portfolio Decline in the Stress Scenario",
+    "label_heading": "Crypto allocation",
+    "labels": [
+      "0% crypto",
+      "5% crypto",
+      "10% crypto",
+      "20% crypto"
+    ],
+    "series": [
+      {
+        "name": "Approximate portfolio decline",
+        "values": [
+          25,
+          26.75,
+          28.5,
+          32
+        ]
+      }
+    ],
+    "suffix": "%",
+    "decimals": 2,
+    "caption": "Scenario from the text: stocks fall 25% and crypto falls 60%, with the rest of the portfolio in stocks and no interaction effects.",
+    "note": "Arithmetic illustration, not market data or a forecast."
+  }
+}
