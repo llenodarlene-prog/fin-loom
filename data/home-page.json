@@ -17,13 +17,6 @@
       "label": "How Fin Loom Works",
       "url": "/about/"
     },
-    "image": {
-      "src": "/assets/images/home/city-terrace-sunrise-1600.jpg",
-      "small": "/assets/images/home/city-terrace-sunrise-800.jpg",
-      "width": 1600,
-      "height": 900,
-      "alt": "City skyline at sunrise seen from a terrace, with a tablet showing a market chart on the table"
-    },
     "chart": "ecommerce-share"
   },
   "intro": {
@@ -31,7 +24,14 @@
     "copy": [
       "Financial information is everywhere. Context is the scarce part. Fin Loom sets out what is changing, what the available data shows, and where the uncertainty still sits.",
       "It is written for readers who want an informed view without hype, needless jargon, or false certainty."
-    ]
+    ],
+    "image": {
+      "src": "/assets/images/home/city-terrace-sunrise-1600.jpg",
+      "small": "/assets/images/home/city-terrace-sunrise-800.jpg",
+      "width": 1600,
+      "height": 900,
+      "alt": "City skyline at sunrise seen from a terrace, with a tablet showing a market chart on the table"
+    }
   },
   "coverage": {
     "heading": "What We Cover",

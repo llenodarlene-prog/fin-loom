@@ -139,11 +139,13 @@ export function renderLab(panels) {
   </div>`;
 }
 
-// Compact card for the home hero.
+// Chart card for the home hero.
 export function renderHeroCard(panel) {
   return `<aside class="hero-card glass" aria-label="${escapeHtml(panel.title)}">
     <p class="hero-card-label">${escapeHtml(panel.title)}</p>
-    <div class="ill-chart ill-chart--mini" data-draw>${panel.svg}</div>
+    <p class="lab-kind lab-kind--${panel.kind}">${escapeHtml(panel.label)}</p>
+    <p class="hero-card-takeaway">${escapeHtml(panel.takeaway)}</p>
+    <div class="ill-chart" data-draw>${panel.svg}</div>
     ${legend(panel)}
     <p class="hero-card-note">${panel.footnote.replace(/<a [^>]*>|<\/a>/g, '').replace(/ The source agency revises these figures\.$/, '')}</p>
   </aside>`;
