@@ -1,0 +1,10 @@
+import test from "node:test";import assert from "node:assert/strict";import fs from "node:fs";import {markdown,readJson,parseFrontMatter} from "../scripts/lib.mjs";
+test("markdown escapes raw html",()=>assert.match(markdown("<script>alert(1)</script>"),/&lt;script&gt;/));
+test("markdown renders safe links",()=>assert.match(markdown("[source](https://example.com)"),/<a href="https:\/\/example.com">source<\/a>/));
+test("plan has exact counts and unique slugs",()=>{const p=readJson("data/content-plan.json");assert.equal(p.filter(x=>x.type==="article").length,10);assert.equal(p.filter(x=>x.type==="blog").length,10);assert.equal(new Set(p.map(x=>x.slug)).size,p.length);});
+test("brand tokens match brief",()=>{const s=readJson("data/site.json");assert.equal(s.colors.deep_violet,"#2B1F5B");assert.equal(s.colors.royal_violet,"#5A46D6");assert.equal(s.colors.soft_violet,"#A78BFA");assert.equal(s.fonts.display,"Libre Baskerville");assert.equal(s.fonts.body,"Manrope");});
+test("nonproduction build manifest is nonindex",()=>{const m=readJson("dist/build-manifest.json");assert.equal(m.indexable,false);assert.ok(["local","staging"].includes(m.environment));});
+test("homepage contains Latest Research",()=>{const h=fs.readFileSync("dist/index.html","utf8");assert.ok(h.includes("Latest Research"));});
+test("drafts show banner in nonproduction",()=>{const p=readJson("data/content-plan.json")[0];const h=fs.readFileSync("dist"+p.slug+"index.html","utf8");assert.ok(h.includes("Editorial draft"));assert.ok(h.includes("noindex,nofollow,noarchive"));});
+test("all research records are scaffolded or later",()=>{for(const p of readJson("data/content-plan.json")){const r=readJson(`content/research/${p.id}.json`);assert.ok(["scaffolded","researched","verified"].includes(r.status));}});
+test("core page completeness is explicit",()=>{const {data}=parseFrontMatter(fs.readFileSync("content/pages/home.md","utf8"));assert.equal(data.complete,true);});
