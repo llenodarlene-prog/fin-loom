@@ -1,0 +1,14 @@
+{
+  "name": "fin-loom",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FinLoom finance publication website",
+  "scripts": {
+    "verify": "node scripts/verify-content.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "npm run verify && npm run build"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
