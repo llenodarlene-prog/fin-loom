@@ -49,7 +49,8 @@ function dataPanel(id, series, { tab, heading, format, axis, max, ticks, sentenc
   const yearStarts = points.map(([date], i) => ({ date, i })).filter(({ date }) => date.slice(5, 7) === '01' && Number(date.slice(0, 4)) % 2 === 1);
   const yearEnds = [...new Map(points.map(point => [point[0].slice(0, 4), point])).values()];
   return {
-    id, kind: 'data', label: 'Official data', tab, title: heading,
+    id, kind: 'data', label: 'Official data', tab, title: heading, units: series.units,
+    yearly: yearEnds.map(([date, value]) => ({ date, value, year: date.slice(0, 4), period: when(date), display: format(value) })),
     takeaway: sentence({ first, last, peak, when, format }),
     legend: [{ label: `Latest, ${when(last[0])}`, value: format(last[1]) }, { label: when(first[0]), value: format(first[1]) }],
     headers: ['Period', series.units.split(',')[0]],
@@ -139,14 +140,39 @@ export function renderLab(panels) {
   </div>`;
 }
 
-// Chart card for the home hero.
+// Donut for a share of a whole. The arc length is the share itself.
+function pieChart({ title, share, label }) {
+  const r = 70, c = 2 * Math.PI * r, arc = (share / 100) * c;
+  return `<svg class="ill-svg ill-pie" viewBox="0 0 200 200" role="img" aria-label="${escapeHtml(title)}">
+    <circle class="ill-pie-rest" cx="100" cy="100" r="${r}"/>
+    <circle class="ill-pie-arc" cx="100" cy="100" r="${r}" stroke-dasharray="${arc.toFixed(2)} ${(c - arc).toFixed(2)}" style="--arc:${arc.toFixed(2)}" transform="rotate(-90 100 100)"/>
+    <text class="ill-pie-value" x="100" y="100" text-anchor="middle">${escapeHtml(label)}</text>
+    <text class="ill-pie-caption" x="100" y="122" text-anchor="middle">online</text>
+  </svg>`;
+}
+
+// Chart card for the home hero: the same published share series as yearly bars and as a pie of the
+// latest period. Only a percent-of-total series can be shown as a pie.
 export function renderHeroCard(panel) {
+  if (panel.kind !== 'data' || !/^Percent/.test(panel.units)) throw new Error(`hero chart "${panel.id}" must be a published percent-of-total series`);
+  const years = panel.yearly, latest = years.at(-1), rest = 100 - latest.value;
+  const partial = latest.date.slice(5, 7) !== '10';
+  const bars = barChart({
+    title: `${panel.title} by year`, desc: years.map(item => `${item.period}: ${item.display}`).join(', '),
+    bars: years.map((item, i) => ({ label: `'${item.year.slice(2)}`, value: item.value, display: i === 0 || i === years.length - 1 ? item.display : '' })),
+    max: 20, ticks: [0, 5, 10, 15, 20], format: value => `${value}%`
+  });
+  const pie = pieChart({ title: `${latest.period}: ${latest.display} of U.S. retail sales were online and ${pct(rest)} were not`, share: latest.value, label: latest.display });
   return `<aside class="hero-card glass" aria-label="${escapeHtml(panel.title)}">
-    <p class="hero-card-label">${escapeHtml(panel.title)}</p>
     <p class="lab-kind lab-kind--${panel.kind}">${escapeHtml(panel.label)}</p>
+    <p class="hero-card-label">${escapeHtml(panel.title)}</p>
     <p class="hero-card-takeaway">${escapeHtml(panel.takeaway)}</p>
-    <div class="ill-chart" data-draw>${panel.svg}</div>
-    ${legend(panel)}
-    <p class="hero-card-note">${panel.footnote.replace(/<a [^>]*>|<\/a>/g, '').replace(/ The source agency revises these figures\.$/, '')}</p>
+    <div class="hero-charts" data-draw>
+      <figure class="hero-bars"><figcaption>Share by year${partial ? `, latest bar is ${escapeHtml(latest.period)}` : ''}</figcaption>${bars}</figure>
+      <figure class="hero-pie"><figcaption>${escapeHtml(latest.period)}</figcaption>${pie}
+        <ul class="ill-legend"><li><span class="ill-swatch ill-swatch--arc"></span>Online<strong>${escapeHtml(latest.display)}</strong></li><li><span class="ill-swatch ill-swatch--rest"></span>All other retail<strong>${escapeHtml(pct(rest))}</strong></li></ul>
+      </figure>
+    </div>
+    <p class="hero-card-note">${panel.footnote.replace(/<a [^>]*>|<\/a>/g, '').replace(/ The source agency revises these figures\.$/, '')} Yearly bars show the fourth quarter of each year.</p>
   </aside>`;
 }
