@@ -106,31 +106,79 @@ ${posts.length ? `
   </section>`;
 }
 
+// About: each section declares a layout so the page alternates between image splits, tiles, and bands.
+const aboutList = (section, className) => section.list ? `<ul class="${className}">${section.list.map(item => `<li>${inline(item)}</li>`).join('')}</ul>` : '';
+const aboutLayouts = {
+  split: (section, id) => `
+  <section class="band" aria-labelledby="${id}">
+    <div class="shell split${section.side === 'right' ? ' split--reverse' : ''}">
+      <div class="split-media" data-reveal>${photo(section.image, { sizes: '(max-width: 900px) 100vw, 46vw' })}</div>
+      <div class="split-copy" data-reveal>
+        <h2 id="${id}">${escapeHtml(section.heading)}</h2>
+        ${paragraphs(section.copy)}
+        ${aboutList(section, 'line-list')}
+        ${paragraphs(section.after)}
+      </div>
+    </div>
+  </section>`,
+  tiles: (section, id) => `
+  <section class="band band--tint" aria-labelledby="${id}">
+    <div class="shell">
+      <header class="band-head" data-reveal><h2 id="${id}">${escapeHtml(section.heading)}</h2>${paragraphs(section.copy)}</header>
+      ${section.list ? `<ul class="tiles" data-reveal="stagger">${section.list.map(item => `<li>${inline(item)}</li>`).join('')}</ul>` : ''}
+      <div class="band-foot" data-reveal>${paragraphs(section.after)}</div>
+    </div>
+  </section>`,
+  dark: (section, id) => `
+  <section class="band band--dark" aria-labelledby="${id}">
+    <div class="shell lab-layout">
+      <header class="band-head" data-reveal>
+        <h2 id="${id}">${escapeHtml(section.heading)}</h2>
+        ${paragraphs(section.copy)}
+        ${paragraphs(section.after)}
+      </header>
+      ${section.list ? `<ul class="source-ladder glass" data-reveal="stagger">${section.list.map(item => `<li>${inline(item)}</li>`).join('')}</ul>` : ''}
+    </div>
+  </section>`,
+  feature: (section, id) => `
+  <section class="feature" aria-labelledby="${id}">
+    ${photo(section.image, { sizes: '100vw' })}
+    <div class="shell"><div class="feature-panel glass" data-reveal>
+      <h2 id="${id}">${escapeHtml(section.heading)}</h2>
+      ${paragraphs(section.copy)}
+    </div></div>
+  </section>`,
+  card: (section, id) => `
+  <section class="band" aria-labelledby="${id}">
+    <div class="shell"><div class="notice" data-reveal>
+      <h2 id="${id}">${escapeHtml(section.heading)}</h2>
+      ${paragraphs(section.copy)}
+    </div></div>
+  </section>`
+};
+
 export function renderAbout(copy) {
   const { hero, sections, disclaimer, closing } = copy;
   return `
-  <section class="page-hero" aria-labelledby="about-heading">
+  <section class="page-hero page-hero--about" aria-labelledby="about-heading">
     <div class="shell page-hero-grid">
       <div>
         <p class="eyebrow">${escapeHtml(hero.eyebrow)}</p>
         <h1 id="about-heading">${escapeHtml(hero.heading)}</h1>
         ${paragraphs(hero.copy)}
+        <div class="cta-row"><a class="button button--primary" href="#about-1">${escapeHtml(sections[0].heading)}</a></div>
       </div>
-      <div class="page-hero-media">${photo(hero.image, { eager: true, sizes: '(max-width: 900px) 100vw, 44vw' })}</div>
+      <div class="page-hero-media">
+        ${photo(hero.image, { eager: true, sizes: '(max-width: 900px) 100vw, 44vw' })}
+        <blockquote class="hero-quote glass">${escapeHtml(hero.quote)}</blockquote>
+      </div>
     </div>
   </section>
-
-  <div class="shell rows">
-    ${sections.map((section, i) => `<section class="row" data-reveal aria-labelledby="about-${i + 1}">
-      <div class="row-head"><h2 id="about-${i + 1}">${escapeHtml(section.heading)}</h2></div>
-      <div class="row-body">
-        ${paragraphs(section.copy)}
-        ${section.list ? `<ul class="${section.list_style === 'lines' ? 'line-list' : 'tick-list'}">${section.list.map(item => `<li>${inline(item)}</li>`).join('')}</ul>` : ''}
-        ${paragraphs(section.after)}
-      </div>
-    </section>`).join('')}
-  </div>
-
+${sections.map((section, i) => {
+    const render = aboutLayouts[section.layout];
+    if (!render) throw new Error(`data/about-page.json: unknown layout "${section.layout}" for ${section.heading}`);
+    return render(section, `about-${i + 1}`);
+  }).join('')}
   <section class="band band--dark" aria-labelledby="disclaimer-heading">
     <div class="shell statement" data-reveal>
       <h2 id="disclaimer-heading">${escapeHtml(disclaimer.heading)}</h2>
