@@ -6,4 +6,4 @@ The files here are web-sized versions of the logo set supplied in `FinLoom Files
 - `finloom-icon.png`: app icon, used as the favicon and publisher logo.
 - `finloom-social.png`: horizontal lockup with tagline on the brand background, used as the default share image.
 
-The logo is a fixed brand asset. Do not recreate it in type or CSS. The supplied files have an off-white background rather than transparency; a transparent version would let the logo sit on dark panels.
+The logo is a fixed brand asset. Do not recreate it in type or CSS. The supplied files have an off-white background. The header logo has had that background converted to transparency. Its lettering is dark, so a light-on-dark version is still needed before the logo can sit on dark panels.

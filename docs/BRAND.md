@@ -9,6 +9,7 @@ Source: FinLoom - Website Branding Brief and the tracker's Brand Strategy sheet 
 - **Imagery:** calm and credible. No glowing coins, rockets, overloaded charts, or neon.
 - **Name:** Fin Loom, two words, in all site text. Confirmed by the site owner on 2026-10-03. The logo artwork sets the name as a single wordmark and is used as supplied.
 - **Logo:** a fixed brand asset in `assets/brand/`. Do not recreate it in type or CSS.
-- **Layout:** dark violet-to-charcoal hero with a fine grid, serif display type, numbered index labels, hairline dividers, and photography used sparingly. No glow effects or heavy gradients.
+- **Layout:** glass panels over a soft violet mesh, a dark hero with a fine grid, serif display type, numbered index labels, pill navigation, and scroll-in motion. Keep the mesh low in contrast; no neon.
+- **Charts on designed pages:** arithmetic illustrations only, computed in `scripts/lib/illustrations.mjs` from stated assumptions and labeled as illustrations. Never draw a chart from invented or estimated market figures. Sourced data belongs in articles with a research record.
 
 The site should read as an intelligent financial publication, not a trading platform sales page.
