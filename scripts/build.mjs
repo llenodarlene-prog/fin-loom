@@ -1,5 +1,6 @@
 import { cp, mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
+import { createHash } from 'node:crypto';
 import { escapeHtml, markdownToHtml, readContent } from './lib/content.mjs';
 import { contactEmail, renderAbout, renderContact, renderHome, renderHub } from './lib/pages.mjs';
 import { renderChart, resetCharts } from './lib/charts.mjs';
@@ -30,6 +31,9 @@ const list = items => items.map(item => `<li><a href="${escapeHtml(item.url)}">$
 const cleanSlug = slug => slug === '/' ? '' : slug.replace(/^\//, '').replace(/\/$/, '');
 const canonical = slug => `${siteUrl}${slug === '/' ? '/' : `/${cleanSlug(slug)}/`}`;
 const isoDate = value => value ? new Date(`${value}T00:00:00Z`).toISOString() : null;
+// The host caches CSS and JavaScript for a week, so each file's URL carries a hash of its content.
+const contentVersion = async file => createHash('sha256').update(await readFile(file)).digest('hex').slice(0, 10);
+const [styleVersion, scriptVersion] = await Promise.all([contentVersion('src/styles/main.css'), contentVersion('src/scripts/main.js')]);
 const uniqueFonts = [...new Set(Object.values(site.fonts || {}).filter(Boolean))];
 const fontLinks = uniqueFonts.length ? `<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?${uniqueFonts.map(font => `family=${encodeURIComponent(font).replaceAll('%20', '+')}:wght@${site.font_weights?.[font] || '400;500;600;700'}`).join('&')}&display=swap" rel="stylesheet">` : '';
 
@@ -141,7 +145,7 @@ for (const page of parsed) {
   const fullTitle = title.includes(site.name) ? title : `${title} | ${site.name}`;
   const html = replace(base, {
     LANG: site.locale || 'en-US', TITLE: escapeHtml(fullTitle), DESCRIPTION: escapeHtml(metadata.description), ROBOTS: metadata.noindex === true ? 'noindex,nofollow' : robots,
-    CANONICAL: url, ICON_LINKS: iconLinks, OG_TYPE: article ? 'article' : 'website', SCHEMA: JSON.stringify(schema).replaceAll('<', '\\u003c'), FONT_LINKS: fontLinks,
+    CANONICAL: url, ICON_LINKS: iconLinks, STYLE_VERSION: styleVersion, SCRIPT_VERSION: scriptVersion, OG_TYPE: article ? 'article' : 'website', SCHEMA: JSON.stringify(schema).replaceAll('<', '\\u003c'), FONT_LINKS: fontLinks,
     ARTICLE_META: headMeta({ metadata, site, siteUrl, image: featured || defaultShareImage, article }),
     HEADER: header, FOOTER: footer, CONTENT: designed ? `<div class="page" data-page-slug="${escapeHtml(metadata.slug)}">${renderedBody}</div>` : `<article class="shell prose" data-page-slug="${escapeHtml(metadata.slug)}">${renderedBody}</article>`
   });

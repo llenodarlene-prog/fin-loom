@@ -32,6 +32,7 @@ for (const file of htmlFiles) {
   if (route !== '/404/' && robots !== (shouldIndex ? 'index,follow' : 'noindex,nofollow,noarchive')) failures.push(`${rel}: incorrect robots directive ${robots}`);
   if (robots === 'index,follow') expectedUrls.add(expectedCanonical);
   if (!html.includes('fonts.googleapis.com/css2?')) failures.push(`${rel}: approved fonts are not loaded`);
+  if (!/href="\/styles\/main\.css\?v=[0-9a-f]{10}"/.test(html) || !/src="\/scripts\/main\.js\?v=[0-9a-f]{10}"/.test(html)) failures.push(`${rel}: stylesheet and script URLs must carry a content hash`);
   for (const item of [...nav.primary, ...nav.footer]) if (!html.includes(`href="${item.url}"`)) failures.push(`${rel}: missing shared navigation URL ${item.url}`);
   for (const image of html.matchAll(/<img\b[^>]*>/g)) {
     if (!/\salt="[^"]+"/.test(image[0])) failures.push(`${rel}: image missing useful alt text`);
