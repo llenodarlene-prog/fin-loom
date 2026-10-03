@@ -497,3 +497,25 @@ html:not(.js) .ill-line{stroke-dashoffset:0}html:not(.js) .ill-bar{transform:non
 .feature--intro .feature-panel{max-width:40rem}
 .feature--intro .feature-panel p{font-size:1.12rem}
 @media(max-width:900px){.hero-chart .ill-legend{grid-template-columns:minmax(0,1fr)}.feature--intro::after{background:linear-gradient(180deg,rgba(15,18,38,.35),rgba(15,18,38,.78))}}
+
+/* ---------- Hero: bar chart and pie ---------- */
+.hero-charts{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(0,1fr);gap:clamp(1rem,2vw,1.75rem);align-items:end}
+.hero-charts figure{margin:0}
+.hero-charts figcaption{font-size:.7rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.6);margin-bottom:.5rem}
+.hero-bars .ill-axis{font-size:15px}.hero-bars .ill-value{font-size:16px}
+.hero-pie .ill-pie{max-width:11rem;margin-inline:auto}
+.ill-pie-rest{fill:none;stroke:rgba(255,255,255,.14);stroke-width:26}
+.ill-pie-arc{fill:none;stroke:var(--soft);stroke-width:26;stroke-dashoffset:var(--arc)}
+.ill-pie-value{font:400 30px var(--display);fill:#fff}
+.ill-pie-caption{font:500 13px var(--body);fill:rgba(255,255,255,.65)}
+.is-drawn .ill-pie-arc{stroke-dashoffset:0;transition:stroke-dashoffset 1.3s cubic-bezier(.2,.7,.2,1) .2s}
+html:not(.js) .ill-pie-arc{stroke-dashoffset:0}
+.hero-chart .hero-pie .ill-legend{grid-template-columns:minmax(0,1fr);gap:.3rem;margin-top:.6rem;font-size:.78rem}
+.ill-swatch--arc{background:var(--soft);height:.6rem;width:.6rem;border-radius:2px}
+.ill-swatch--rest{background:rgba(255,255,255,.25);height:.6rem;width:.6rem;border-radius:2px}
+.is-drawn .ill-bar:nth-of-type(n+6){transition-delay:.4s}
+@media(max-width:600px){.hero-charts{grid-template-columns:minmax(0,1fr)}.hero-pie{display:grid;grid-template-columns:8rem minmax(0,1fr);gap:0 1rem;align-items:center}.hero-pie figcaption{grid-column:1/-1}}
+@media(prefers-reduced-motion:reduce){.ill-pie-arc{stroke-dashoffset:0}}
+
+/* Sections with oversized decorative layers clip them without becoming scrollable containers. */
+.hero,.band--dark,.feature{overflow:clip}
