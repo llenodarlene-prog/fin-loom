@@ -1,0 +1,99 @@
+{
+  "root_folder_id": "1FhLoJ2QxkJUtpeBXq11UaFIPv_YeObEx",
+  "checked_at": "2026-10-03",
+  "note": "Inventory only. No Drive document is imported as site content. The ten articles are off-site placements written for other publications.",
+  "files": [
+    {
+      "id": "1EGyA57ZA751BHjHKjF7qfz0RRL2El7quQIODIculxX4",
+      "title": "FinLoom - Website Branding Brief",
+      "role": "brand_reference",
+      "modified_time": "2026-09-22T01:41:02.356Z"
+    },
+    {
+      "id": "1dmQeaAdeptANIKtO418fZedy1cIQYWIwEh_qDxgf-lQ",
+      "title": "Portfolio Content Publishing Standards - All Brands",
+      "role": "editorial_standard",
+      "modified_time": "2026-09-22T02:28:43.277Z"
+    },
+    {
+      "id": "1Zolvqp3_TnjRnsy9UsRwYANfPl8RTnMQ",
+      "title": "01_crypto_airdrop_risk.md",
+      "role": "offsite_placement",
+      "publication": "Use The Bitcoin",
+      "finloom_link_target": "/crypto/",
+      "target_source": "README_QA.md in the same folder"
+    },
+    {
+      "id": "1LIpaFnq8LLdmE_cfFFTbxCpSFoT0IV2p",
+      "title": "02_crypto_research_tools.md",
+      "role": "offsite_placement",
+      "publication": "Use The Bitcoin",
+      "finloom_link_target": "/crypto/",
+      "target_source": "README_QA.md in the same folder"
+    },
+    {
+      "id": "1YZyUoi_HSY6thtHk2NhMZnNY6hACwtQ5",
+      "title": "03_bitcoin_portfolio_allocation.md",
+      "role": "offsite_placement",
+      "publication": "Use The Bitcoin",
+      "finloom_link_target": "/investing/",
+      "target_source": "README_QA.md in the same folder"
+    },
+    {
+      "id": "1V3vbjV_-A5rK3OSHnUxxq8kcSDJvrSqy",
+      "title": "04_crypto_custody.md",
+      "role": "offsite_placement",
+      "publication": "Use The Bitcoin",
+      "finloom_link_target": "/crypto/",
+      "target_source": "README_QA.md in the same folder"
+    },
+    {
+      "id": "1D5-VCp5rm9ZDwGZfJ60AHYpjWhiKXdcn",
+      "title": "05_dao_governance.md",
+      "role": "offsite_placement",
+      "publication": "Use The Bitcoin",
+      "finloom_link_target": "/fintech/",
+      "target_source": "README_QA.md in the same folder"
+    },
+    {
+      "id": "177cK6f7d19q1PLJQTqnmqTZ2NtRzP0d4",
+      "title": "06_crypto_vs_stocks.md",
+      "role": "offsite_placement",
+      "publication": "Stoxcraft",
+      "finloom_link_target": null,
+      "target_source": "not yet read; confirm from the article body"
+    },
+    {
+      "id": "1lD4vFEb5xJebq3unJBw7siEGBN-tj-0Y",
+      "title": "07_stock_screener.md",
+      "role": "offsite_placement",
+      "publication": "Stoxcraft",
+      "finloom_link_target": null,
+      "target_source": "not yet read; confirm from the article body"
+    },
+    {
+      "id": "1q2BOK3WdnkGW4b07OqF3R4YHRAEopcoY",
+      "title": "08_stock_risk_metrics.md",
+      "role": "offsite_placement",
+      "publication": "Stoxcraft",
+      "finloom_link_target": null,
+      "target_source": "not yet read; confirm from the article body"
+    },
+    {
+      "id": "1IsASUpEOCkEWj1W-OMtYUNE9Q5tQRHv3",
+      "title": "09_saving_vs_investing.md",
+      "role": "offsite_placement",
+      "publication": "Stoxcraft",
+      "finloom_link_target": "/money-banking/",
+      "target_source": "link read in the article body"
+    },
+    {
+      "id": "1uvgiYB8vToImljOpmXTkJs6xNa_CndO4",
+      "title": "10_ai_capital_spending.md",
+      "role": "offsite_placement",
+      "publication": "Stoxcraft",
+      "finloom_link_target": null,
+      "target_source": "not yet read; confirm from the article body"
+    }
+  ]
+}

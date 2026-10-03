@@ -1,0 +1,58 @@
+{
+  "schema_version": 2,
+  "launch_policy": {
+    "minimum_published_blogs": 1,
+    "required_pages": [
+      "/",
+      "/about/",
+      "/money-banking/",
+      "/investing/",
+      "/markets-stocks/",
+      "/fintech/",
+      "/payments/",
+      "/crypto/",
+      "/contact/",
+      "/privacy/",
+      "/404/"
+    ],
+    "legal_pages": [
+      "/privacy/"
+    ],
+    "publication_cadence": "After launch, publish at most one completed article or blog per day. Each must pass the research, citation, content, SEO, and AI-language checks; the production deploy fails if it does not.",
+    "editorial_backlog": "data/launch-content-plan.json keeps the 10 articles and 10 blogs with tracker-approved URLs as the editorial plan. It is not a launch requirement and drafts never block a release."
+  },
+  "contact": {
+    "approved": false,
+    "email": "",
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  "privacy": {
+    "approved": false,
+    "policy_effective_date": "",
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  "disclaimer": {
+    "approved": false,
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  "brand_clearance": {
+    "approved": false,
+    "reviewer": "",
+    "reviewed_at": "",
+    "note": "The tracker Brand Strategy sheet flags an active FINLOOM U.S. trademark application (filed 25 Mar 2026) and asks for trademark counsel review before public launch."
+  },
+  "staging_review": {
+    "approved": false,
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  "production_approval": {
+    "approved": false,
+    "reviewer": "",
+    "reviewed_at": "",
+    "change_reference": ""
+  }
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "brand": "FinLoom",
+    "dimension": "Positioning",
+    "strategy": "Data-first finance and fintech intelligence for readers who want to understand how money, markets, platforms and investor behavior are changing.",
+    "implementation": "Sit between consumer finance explainers, fintech trade coverage and crypto news."
+  },
+  {
+    "brand": "FinLoom",
+    "dimension": "One-line promise",
+    "strategy": "Follow the money, not the noise.",
+    "implementation": "Every article should reveal where capital, adoption, revenue, risk or behavior is moving."
+  },
+  {
+    "brand": "FinLoom",
+    "dimension": "Tone",
+    "strategy": "Clear, numerate, calm, market-literate, anti-hype.",
+    "implementation": "Separate measured facts from interpretation."
+  },
+  {
+    "brand": "FinLoom",
+    "dimension": "Voice traits",
+    "strategy": "Lucid; analytical; skeptical; comparative; evidence-heavy; commercially aware.",
+    "implementation": "Write like a research analyst explaining the chart to an intelligent non-specialist."
+  },
+  {
+    "brand": "FinLoom",
+    "dimension": "Primary audience avatar",
+    "strategy": "Finance-curious professional or operator, age 28–50, working in fintech, investing, product, strategy, consulting or financial media.",
+    "implementation": "Searches for adoption, funding, company economics, payments, investor behavior and market structure."
+  },
+  {
+    "brand": "FinLoom",
+    "dimension": "Secondary audience",
+    "strategy": "Journalists, founders, analysts, financial marketers and sophisticated retail investors.",
+    "implementation": "Make charts and source tables easy to reuse and cite."
+  },
+  {
+    "brand": "FinLoom",
+    "dimension": "Messaging pillars",
+    "strategy": "Money flows reveal behavior; adoption matters more than hype; business models explain financial products; infrastructure shapes markets; context beats a single statistic.",
+    "implementation": "Build recurring franchises around these pillars."
+  },
+  {
+    "brand": "FinLoom",
+    "dimension": "Originality moat",
+    "strategy": "Investor-behavior datasets, funding/adoption trackers, company revenue-model maps, payments/fintech category scorecards and cross-source reconciliation.",
+    "implementation": "Recurring products: Investor Behavior Brief, Fintech Funding Pulse, Payments Adoption Map."
+  },
+  {
+    "brand": "FinLoom",
+    "dimension": "Competitor gap",
+    "strategy": "Investopedia is broad/evergreen, NerdWallet is affiliate/product-led, CoinDesk is crypto-heavy. FinLoom can connect finance, fintech, payments and digital assets with market data.",
+    "implementation": "Own cross-category market intelligence."
+  },
+  {
+    "brand": "FinLoom",
+    "dimension": "Current search share",
+    "strategy": "0% of the selected Ahrefs US organic-traffic benchmark set as of 20 Sep 2026; FinLoom currently has 0 estimated US organic traffic.",
+    "implementation": "Benchmark set is directional, not total finance-market share."
+  },
+  {
+    "brand": "FinLoom",
+    "dimension": "Google + LLM strategy",
+    "strategy": "Target lower-difficulty research/commercial queries and avoid commodity 'what is' pages. Use filings, regulators, transparent calculations and source hierarchy.",
+    "implementation": "Provide key findings, methodology, source tables and compact definitions."
+  },
+  {
+    "brand": "FinLoom competitor",
+    "dimension": "investopedia.com",
+    "strategy": 6078243,
+    "implementation": 659295
+  },
+  {
+    "brand": "FinLoom competitor",
+    "dimension": "nerdwallet.com",
+    "strategy": 5905477,
+    "implementation": 512020
+  },
+  {
+    "brand": "FinLoom competitor",
+    "dimension": "coindesk.com",
+    "strategy": 434235,
+    "implementation": 15495
+  },
+  {
+    "brand": "FinLoom own",
+    "dimension": "finloom.org",
+    "strategy": 0,
+    "implementation": 0
+  },
+  {
+    "brand": "FinLoom",
+    "dimension": "RED / ORANGE",
+    "strategy": "Active FINLOOM U.S. trademark application filed 25 Mar 2026 for financial-management/business-analytics SaaS. Active FinLoom finance products/platforms also exist, including finloom.io and myfinloom.com. Your finance/fintech publication is adjacent in subject matter.",
+    "implementation": "Do not abandon domain yet. Pause final logo/public launch under bare FINLOOM until trademark counsel reviews likelihood of confusion. Consider a distinctive publication descriptor such as FinLoom Markets or FinLoom Research if counsel says coexistence is viable."
+  },
+  {
+    "brand": "FinLoom",
+    "dimension": "Public display name",
+    "strategy": "FinLoom",
+    "implementation": "Keep as one word in site copy and logo."
+  },
+  {
+    "brand": "FinLoom",
+    "dimension": "Public tagline",
+    "strategy": "Financial Insights. A Brighter Tomorrow.",
+    "implementation": "Primary public-facing tagline."
+  },
+  {
+    "brand": "FinLoom",
+    "dimension": "Website palette",
+    "strategy": "Deep Violet #2B1F5B; Royal Violet #5A46D6; Soft Violet #A78BFA; Light Neutral #E9E7F4; Charcoal #0F1226",
+    "implementation": "Primary web fonts: Libre Baskerville 400 display/headings; Manrope 400 body; Manrope 500 UI/labels. Keep finance/editorial, not neon or overly decorative."
+  },
+  {
+    "brand": "FinLoom",
+    "dimension": "Website Branding Brief",
+    "strategy": "https://docs.google.com/document/d/1EGyA57ZA751BHjHKjF7qfz0RRL2El7quQIODIculxX4/edit?usp=drivesdk",
+    "implementation": "Website colors, fonts, UI direction, image treatment, and CSS tokens."
+  }
+]
