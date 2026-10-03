@@ -1,0 +1,13 @@
+{
+  "name": "FinLoom",
+  "domain": "https://finloom.org",
+  "stagingDomain": "https://staging.finloom.org",
+  "tagline": "Financial Insights. A Brighter Tomorrow.",
+  "categories": [
+    "Investing",
+    "Markets & Stocks",
+    "Crypto",
+    "Fintech",
+    "Payments"
+  ]
+}
