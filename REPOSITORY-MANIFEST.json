@@ -1,0 +1,14 @@
+{
+  "brand": "Fin Loom",
+  "tracker_brand": "FinLoom",
+  "repository": "fin-loom",
+  "tracker_sha256": "3ba9d361b58edf27e92463febe968f71740860342674557209f521b62a034fc7",
+  "content_records": 100,
+  "launch_records": 20,
+  "interlinking_records": 20,
+  "architecture_records": 10,
+  "source_workbook": "data/source/5-Site-SEO-GEO-AEO-Content-Keyword-Tracker.xlsx",
+  "bootstrap_date": "2026-10-03",
+  "editorial_drafts": 0,
+  "published_items": 0
+}
