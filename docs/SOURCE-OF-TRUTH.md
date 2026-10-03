@@ -13,6 +13,8 @@
 | Brand Book, logos, app icon | `FinLoom Files/05 Assets` (local) | Header logo, favicon, share image in `assets/brand/` |
 | Photography (70 AI-generated images) | `FinLoom Files/05 Assets` (local) | Nine scenes without third-party branding or readable invented figures, in `assets/images/` |
 
+| Market data (3 series) | Raw CSV downloads in `data/source/market/`, from FRED, retrieved 2026-10-03 | Charts on the home page and category pages. U.S. Census Bureau: e-commerce share of retail sales. U.S. Bureau of Economic Analysis: investment in information processing equipment and software, and the personal saving rate |
+
 `FinLoom Files/` is the owner's working folder and is not committed. The tracker controls title, primary keyword, cluster, status, URL slug, launch links, and silo. If sources conflict, stop and report the conflict.
 
 ## Copy editing rules used
@@ -23,11 +25,22 @@
 - The draft, tracker, and brand book write the name as one word. The site owner confirmed "Fin Loom" as the public name, so all site text, including the legal pages, uses two words.
 - The Terms page is not in the tracker's Site Architecture sheet. It is linked from the footer and listed as a required legal page.
 
+## Charts on designed pages
+
+- Official series are stored unedited in `data/source/market/` and imported with `npm run import:market-data`. Every chart prints its agency, release, series, units, retrieval date, and latest period. A test checks each stored figure against the raw file.
+- Arithmetic illustrations are computed in `scripts/lib/illustrations.mjs` and labeled as illustrations.
+- The figures are a snapshot. Refresh the CSV files when the agencies publish new data; the agencies also revise past figures.
+- "Technology investment" is the BEA series for private fixed investment in information processing equipment and software. It is not a measure of the technology sector's revenue or market value.
+
+## Partner With Us page
+
+The site owner asked for a footer page covering sponsored posts, guest posts, and similar. No copy was supplied, so the page was drafted. It states no prices. Its four partnership standards (disclosure, evidence, no advice or promised returns, editorial control) are consistent with the About page and Privacy Policy but are new commitments, and need owner sign-off in `data/release.json` under `partner_terms`.
+
 ## Open items
 
 Each one blocks production through `npm run release:check`.
 
-1. **Owner approvals:** contact address, privacy policy, financial disclaimer, staging review, and production approval each need a named, dated sign-off in `data/release.json`. The copy, address (finloom@gmail.com), and policy date (October 3, 2026) are in place but unapproved.
+1. **Owner approvals:** contact address, privacy policy, financial disclaimer, partner terms, staging review, and production approval each need a named, dated sign-off in `data/release.json`. The copy, address (finloom@gmail.com), and policy date (October 3, 2026) are in place but unapproved.
 2. **Legal review:** the Privacy Policy and Terms came from a draft. They have not been reviewed by a lawyer as far as this repository records.
 3. **Author:** no verified, publishable author in `data/authors.json`.
 4. **Brand clearance:** the tracker's Brand Strategy sheet flags an active FINLOOM U.S. trademark application and asks for counsel review before public launch.

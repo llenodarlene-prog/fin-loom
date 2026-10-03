@@ -2,7 +2,8 @@ import { cp, mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
 import { escapeHtml, markdownToHtml, readContent } from './lib/content.mjs';
-import { contactEmail, renderAbout, renderContact, renderHome, renderHub } from './lib/pages.mjs';
+import { contactEmail, renderAbout, renderContact, renderHome, renderHub, renderPartner } from './lib/pages.mjs';
+import { buildCharts } from './lib/illustrations.mjs';
 import { renderChart, resetCharts } from './lib/charts.mjs';
 import { articleSchema, headMeta } from './lib/seo.mjs';
 import { assertUniqueRoute, validateRedirects } from './lib/workflow.mjs';
@@ -12,9 +13,12 @@ const dist = path.join(cwd, 'dist');
 const readJson = async file => JSON.parse(await readFile(file, 'utf8'));
 // Designed-page copy files exist only once approved copy has been supplied; until then pages render from Markdown.
 const readOptionalJson = file => readJson(file).catch(error => { if (error.code === 'ENOENT') return null; throw error; });
-const [site, nav, redirects, homeCopy, aboutCopy, hubCopy, contactCopy, footerCopy, assetList, chartData] = await Promise.all([
-  readJson('data/site.json'), readJson('data/navigation.json'), readJson('data/redirects.json'), readOptionalJson('data/home-page.json'), readOptionalJson('data/about-page.json'), readOptionalJson('data/hub-pages.json'), readOptionalJson('data/contact-page.json'), readJson('data/footer.json'), readJson('data/assets.json'), readJson('data/charts.json')
+const [site, nav, redirects, homeCopy, aboutCopy, hubCopy, contactCopy, footerCopy, assetList, chartData, partnerCopy, marketData] = await Promise.all([
+  
+  readJson('data/site.json'), readJson('data/navigation.json'), readJson('data/redirects.json'), readOptionalJson('data/home-page.json'), readOptionalJson('data/about-page.json'), readOptionalJson('data/hub-pages.json'), readOptionalJson('data/contact-page.json'), readJson('data/footer.json'), readJson('data/assets.json'), readJson('data/charts.json'), readOptionalJson('data/partner-page.json'), readJson('data/market-data.json')
 ]);
+// Charts on designed pages: official series with their sources, plus arithmetic illustrations.
+const pageCharts = buildCharts(marketData);
 const buildEnv = process.env.BUILD_ENV || 'local';
 const siteUrl = String(site.url).replace(/\/$/, '');
 if (!/^https:\/\//.test(siteUrl)) throw new Error('SITE_URL must be an absolute HTTPS URL');
@@ -119,14 +123,15 @@ for (const page of parsed) {
     url, isPartOf: { '@type': 'WebSite', name: site.name, url: siteUrl }
   };
   // Designed pages render from approved copy files; everything else renders from Markdown.
-  const designedCopy = { home: homeCopy, about: aboutCopy, contact: contactCopy, hub: hubCopy }[metadata.template];
+  const designedCopy = { home: homeCopy, about: aboutCopy, contact: contactCopy, hub: hubCopy, partner: partnerCopy }[metadata.template];
   if (metadata.template && !designedCopy) throw new Error(`${source}: template "${metadata.template}" needs its approved copy file in data/`);
-  const designed = article ? null : { home: () => renderHome(homeCopy, publishedPosts, nav), about: () => renderAbout(aboutCopy),
+  const designed = article ? null : { home: () => renderHome(homeCopy, publishedPosts, nav, pageCharts), about: () => renderAbout(aboutCopy),
+    partner: () => renderPartner(partnerCopy, contactEmail(body, source)),
     contact: () => renderContact(contactCopy, contactEmail(body, source)),
     hub: () => {
       const hub = hubCopy.hubs[metadata.slug];
       if (!hub) throw new Error(`${source}: no approved hub copy for ${metadata.slug} in data/hub-pages.json`);
-      return renderHub(hub, hubCopy.shared, publishedPosts.filter(post => post.slug.startsWith(metadata.slug)), nav);
+      return renderHub(hub, hubCopy.shared, publishedPosts.filter(post => post.slug.startsWith(metadata.slug)), nav, pageCharts);
     } }[metadata.template];
   resetCharts();
   let renderedBody = designed ? designed() : markdownToHtml(body, { chart: chartBlock, image: figure });

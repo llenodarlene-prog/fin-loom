@@ -5,12 +5,19 @@
     "topics_heading": "What You Will Find Here",
     "latest_heading": "{section} Research",
     "empty_state": "No research has been published in this section yet.",
-    "total": 6,
-    "chip_label": "coverage sections"
+    "research_link": "See {section} Research",
+    "more_heading": "Explore Other Sections",
+    "sections": [
+      "/money-banking/",
+      "/investing/",
+      "/markets-stocks/",
+      "/fintech/",
+      "/payments/",
+      "/crypto/"
+    ]
   },
   "hubs": {
     "/money-banking/": {
-      "index": 1,
       "heading": "Money & Banking",
       "image": {
         "src": "/assets/images/hubs/money-banking-document-review-1600.jpg",
@@ -47,10 +54,20 @@
             "The highest advertised rate is not always the best product, and the lowest monthly payment is not always the cheapest loan. Fin Loom works from the complete financial picture so options can be compared on what they cost in full."
           ]
         }
-      ]
+      ],
+      "chart_band": {
+        "eyebrow": "In numbers",
+        "heading": "Saving, Measured and Illustrated",
+        "copy": [
+          "The saving rate shows how much of their income households keep. The illustration shows what inflation does to cash that earns nothing."
+        ],
+        "charts": [
+          "personal-saving-rate",
+          "inflation"
+        ]
+      }
     },
     "/investing/": {
-      "index": 2,
       "heading": "Investing",
       "image": {
         "src": "/assets/images/hubs/investing-newspaper-reports-1600.jpg",
@@ -88,10 +105,19 @@
             "Markets are uncertain, and a sound process should not depend on calling every move. Fin Loom favors frameworks that help readers weigh risk, compare alternatives, and see how a single holding changes the portfolio as a whole."
           ]
         }
-      ]
+      ],
+      "chart_band": {
+        "eyebrow": "In numbers",
+        "heading": "Why Costs Deserve a Second Look",
+        "copy": [
+          "A one-point difference in annual cost looks small in any single year. Compounded over decades, it is not."
+        ],
+        "charts": [
+          "costs"
+        ]
+      }
     },
     "/markets-stocks/": {
-      "index": 3,
       "heading": "Markets & Stocks",
       "image": {
         "src": "/assets/images/hubs/markets-trading-desk-1600.jpg",
@@ -130,10 +156,19 @@
             "Revenue, margins, cash flow, capital spending, debt, and return on capital tell one side of the story. Valuation and expectations tell the other. Fin Loom reads both, so the question is not only what a company has done but what the market appears to expect next."
           ]
         }
-      ]
+      ],
+      "chart_band": {
+        "eyebrow": "In numbers",
+        "heading": "The Arithmetic of a Drawdown",
+        "copy": [
+          "Losses and gains are not symmetrical. A fall is measured from the top and the recovery from the bottom, so the percentage needed to get back is always larger."
+        ],
+        "charts": [
+          "losses"
+        ]
+      }
     },
     "/fintech/": {
-      "index": 4,
       "heading": "Fintech",
       "image": {
         "src": "/assets/images/hubs/fintech-boardroom-1600.jpg",
@@ -171,10 +206,19 @@
             "A product can be popular without being profitable. A fast-growing fintech can still lean heavily on funding, interchange, lending spreads, or third-party infrastructure. Fin Loom looks at how the product works and how the business behind it makes money."
           ]
         }
-      ]
+      ],
+      "chart_band": {
+        "eyebrow": "In numbers",
+        "heading": "Technology Spending in the U.S. Economy",
+        "copy": [
+          "Financial technology is one part of a much larger investment in information technology. This official series tracks what U.S. businesses spend on information processing equipment and software."
+        ],
+        "charts": [
+          "technology-investment"
+        ]
+      }
     },
     "/payments/": {
-      "index": 5,
       "heading": "Payments",
       "image": {
         "src": "/assets/images/hubs/payments-contactless-1600.jpg",
@@ -213,10 +257,19 @@
             "Payment volume can grow faster than revenue. Transaction counts can rise while margins fall, and a large user base does not guarantee strong economics. Fin Loom tracks the relationship between payment activity and the value created from it."
           ]
         }
-      ]
+      ],
+      "chart_band": {
+        "eyebrow": "In numbers",
+        "heading": "How Much Retail Has Moved Online",
+        "copy": [
+          "Every online purchase is also a digital payment. The share of U.S. retail sales made online is one measure of how much payment activity has shifted."
+        ],
+        "charts": [
+          "ecommerce-share"
+        ]
+      }
     },
     "/crypto/": {
-      "index": 6,
       "heading": "Crypto & Digital Assets",
       "image": {
         "src": "/assets/images/hubs/crypto-governance-desk-1600.jpg",

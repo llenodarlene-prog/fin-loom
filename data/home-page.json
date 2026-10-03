@@ -23,7 +23,8 @@
       "width": 1600,
       "height": 900,
       "alt": "City skyline at sunrise seen from a terrace, with a tablet showing a market chart on the table"
-    }
+    },
+    "chart": "ecommerce-share"
   },
   "intro": {
     "heading": "Follow the Money, Not the Noise",
@@ -79,9 +80,14 @@
     "copy": [
       "A number without context can mislead. Before a statistic appears on Fin Loom, we look at how it was defined, the period it covers, the quality of the source, and what it is being compared with.",
       "When credible sources disagree, we show the disagreement and explain the likely reason. When the evidence is uncertain, we say so.",
-      "Three pieces of plain arithmetic show why. Each one changes how a headline number reads."
+      "Three official U.S. series show what that looks like in practice. Each chart names its source, its unit, and the date of its latest figure."
     ],
-    "eyebrow": "Context in practice"
+    "eyebrow": "Markets in data",
+    "charts": [
+      "ecommerce-share",
+      "technology-investment",
+      "personal-saving-rate"
+    ]
   },
   "decisions": {
     "heading": "Built for Better Decisions",

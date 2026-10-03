@@ -94,5 +94,21 @@
       "Fin Loom publishes financial information for educational and informational purposes. Nothing on this website should be interpreted as personalized investment, tax, legal, accounting, or financial advice.",
       "Readers should consider their own circumstances and, where appropriate, consult a qualified professional before making financial decisions."
     ]
+  },
+  "closing": {
+    "heading": "Read the Research",
+    "copy": [
+      "Start with the section closest to the decision in front of you, or write to us with a question or a correction."
+    ],
+    "links": [
+      {
+        "label": "Browse the Coverage",
+        "url": "/#coverage"
+      },
+      {
+        "label": "Contact Fin Loom",
+        "url": "/contact/"
+      }
+    ]
   }
 }

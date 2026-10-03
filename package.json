@@ -18,6 +18,7 @@
     "dev": "node scripts/serve.mjs",
     "new:content": "node scripts/new-content.mjs",
     "new:article": "node scripts/new-content.mjs article",
-    "new:blog": "node scripts/new-content.mjs blog"
+    "new:blog": "node scripts/new-content.mjs blog",
+    "import:market-data": "node scripts/import-market-data.mjs"
   }
 }
