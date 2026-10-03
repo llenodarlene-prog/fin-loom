@@ -1,16 +1,12 @@
 ---
 title: Money & Banking
-description: Money & Banking on Fin Loom: banking, savings, credit, debt, financial literacy.
+seo_title: Money & Banking | Fin Loom
+description: Research and practical insight on banking, savings, credit, debt, financial literacy, rates, and everyday money decisions.
 slug: /money-banking/
 type: page
 schema: CollectionPage
-draft: true
-copy_source: data/site-architecture.json and data/brand-strategy.json (tracker sheets Site Architecture and Brand Strategy)
+template: hub
+draft: false
 ---
 
-# Money & Banking
-
-Banking, savings, credit, debt, financial literacy.
-
-> **Draft Page**
-> Approved category copy has not been supplied. This page shows tracker-sourced text only and stays out of production until approved copy is supplied.
+This page is rendered by `scripts/lib/pages.mjs` from `data/hub-pages.json`. Edit the copy there, not here.

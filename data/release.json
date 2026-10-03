@@ -13,23 +13,25 @@
       "/crypto/",
       "/contact/",
       "/privacy/",
+      "/terms/",
       "/404/"
     ],
     "legal_pages": [
-      "/privacy/"
+      "/privacy/",
+      "/terms/"
     ],
     "publication_cadence": "After launch, publish at most one completed article or blog per day. Each must pass the research, citation, content, SEO, and AI-language checks; the production deploy fails if it does not.",
     "editorial_backlog": "data/launch-content-plan.json keeps the 10 articles and 10 blogs with tracker-approved URLs as the editorial plan. It is not a launch requirement and drafts never block a release."
   },
   "contact": {
     "approved": false,
-    "email": "",
+    "email": "finloom@gmail.com",
     "reviewer": "",
     "reviewed_at": ""
   },
   "privacy": {
     "approved": false,
-    "policy_effective_date": "",
+    "policy_effective_date": "October 3, 2026",
     "reviewer": "",
     "reviewed_at": ""
   },

@@ -145,11 +145,12 @@ test('release manifest defines a launch policy and keeps the 20-item plan as bac
   const policy = release.launch_policy;
   assert.equal(policy.minimum_published_blogs, 1);
   for (const item of [...nav.primary, ...nav.footer].filter(entry => entry.url.endsWith('/'))) assert.ok(policy.required_pages.includes(item.url), item.url);
-  assert.ok(policy.required_pages.includes('/privacy/') && policy.legal_pages.includes('/privacy/'));
+  for (const page of ['/privacy/', '/terms/']) assert.ok(policy.required_pages.includes(page) && policy.legal_pages.includes(page), page);
   assert.ok(policy.publication_cadence.trim());
 });
 
 test('build copies public assets and emits root server configuration', async () => {
+  for (const name of ['logo', 'icon', 'social']) assert.ok(await stat(`dist/assets/brand/finloom-${name}.png`));
   await assert.rejects(stat('dist/assets/brand/README.md'));
   await assert.rejects(stat('dist/assets/images/README.md'));
   assert.ok(await stat('dist/.htaccess'));

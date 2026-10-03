@@ -1,16 +1,14 @@
 ---
 title: Contact Fin Loom
-description: Editorial, corrections, contributor and business enquiries by email only.
+seo_title: Contact Fin Loom
+description: Contact Fin Loom about editorial questions, corrections, research, contributor inquiries, or business matters.
 slug: /contact/
 type: page
 schema: ContactPage
-draft: true
-copy_source: data/site-architecture.json and data/brand-strategy.json (tracker sheets Site Architecture and Brand Strategy)
+template: contact
+draft: false
 ---
 
-# Contact Fin Loom
+Email: [finloom@gmail.com](mailto:finloom@gmail.com)
 
-Editorial, corrections, contributor and business enquiries by email only.
-
-> **Draft Page**
-> A verified contact address has not been supplied, so no email address is shown. This page shows tracker-sourced text only and stays out of production until approved copy is supplied.
+This page is rendered by `scripts/lib/pages.mjs` from `data/contact-page.json`. Edit the copy there, not here.

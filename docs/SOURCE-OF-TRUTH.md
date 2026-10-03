@@ -9,21 +9,29 @@
 | Portfolio Content Publishing Standards - All Brands | Google Doc `1dmQeaAdeptANIKtO418fZedy1cIQYWIwEh_qDxgf-lQ` | Editorial rules enforced by `scripts/check-content.mjs` |
 | finloom_use_the_bitcoin_first_5 (5 articles, 3 charts) | Drive folder `10jqzxLjI9L_p5LUlaUy7N0Kprs7ybCz3` | Not site content. Off-site placements for Use The Bitcoin, each with one link to a Fin Loom category page |
 | FinLoom_Stoxcraft_Next_5_Articles (5 articles, 3 charts) | Drive folder `1vEUye0BRm_RnVUD5n-aXB676zcRWCFmB` | Not site content. Off-site placements for Stoxcraft, each with one link to a Fin Loom category page |
-| Fin Loom logo concepts (unnamed PNG files) | Drive folder `15apHQ0KNhFa0yxjtqqklo6tTJJ_p07lV` | Not imported. No file is identified as the approved logo |
+| Website Copy Draft | `FinLoom Files/02 Website Copy/Website Copy Draft.docx` (local, supplied 2026-10-03) | Home, About, six category pages, Contact, Privacy Policy, Terms and Conditions. Page copy is edited for brand voice in `data/*-page.json`; legal wording is unchanged |
+| Brand Book, logos, app icon | `FinLoom Files/05 Assets` (local) | Header logo, favicon, share image in `assets/brand/` |
+| Photography (70 AI-generated images) | `FinLoom Files/05 Assets` (local) | Nine scenes without third-party branding or readable invented figures, in `assets/images/` |
 
-The tracker controls title, primary keyword, cluster, status, URL slug, launch links, and silo. If sources conflict, stop and report the conflict.
+`FinLoom Files/` is the owner's working folder and is not committed. The tracker controls title, primary keyword, cluster, status, URL slug, launch links, and silo. If sources conflict, stop and report the conflict.
+
+## Copy editing rules used
+
+- Page copy keeps every claim in the draft and adds none. Edits merge one-line paragraphs, tighten wording, and apply the brand voice: numerate, calm, market-literate, anti-hype.
+- "Follow the Money, Not the Noise" comes from the tracker's one-line promise.
+- Privacy Policy and Terms and Conditions keep the supplied wording. Only formatting changed: semicolon runs became lists.
+- The draft, tracker, and brand book write the name as one word. The site owner confirmed "Fin Loom" as the public name, so all site text, including the legal pages, uses two words.
+- The Terms page is not in the tracker's Site Architecture sheet. It is linked from the footer and listed as a required legal page.
 
 ## Open items
 
-Nothing below may be invented. Each one blocks production through `npm run release:check`.
+Each one blocks production through `npm run release:check`.
 
-1. **Approved website copy:** no home, about, category, or contact copy document exists for Fin Loom. Core pages are drafts built from tracker text.
-2. **Privacy policy:** no approved policy or effective date.
-3. **Financial and editorial disclaimer:** no approved wording. The footer carries interim wording taken from the site owner's build instruction, marked in `data/footer.json`.
-4. **Contact address:** the tracker suggests a Gmail handle whose availability is unconfirmed. No address is published.
-5. **Author:** no verified, publishable author in `data/authors.json`.
-6. **Logo files:** the header uses a text wordmark until approved logo, icon, and social files are supplied and registered.
-7. **Brand clearance:** the tracker's Brand Strategy sheet flags an active FINLOOM U.S. trademark application and asks for counsel review before public launch.
-8. **Display name:** the tracker and branding brief say "FinLoom" as one word. The site owner's instructions and the GitHub `SITE_NAME` variable say "Fin Loom". The site uses "Fin Loom"; change `name` in `data/site.json` and the `SITE_NAME` variable together if the one-word form is preferred.
-9. **Tracker freshness:** the live sheet was modified on 2026-09-23, after the preserved workbook snapshot. Re-export and diff before relying on it for publication decisions.
-10. **First published blog:** none of the 20 backlog items has a research record or draft yet.
+1. **Owner approvals:** contact address, privacy policy, financial disclaimer, staging review, and production approval each need a named, dated sign-off in `data/release.json`. The copy, address (finloom@gmail.com), and policy date (October 3, 2026) are in place but unapproved.
+2. **Legal review:** the Privacy Policy and Terms came from a draft. They have not been reviewed by a lawyer as far as this repository records.
+3. **Author:** no verified, publishable author in `data/authors.json`.
+4. **Brand clearance:** the tracker's Brand Strategy sheet flags an active FINLOOM U.S. trademark application and asks for counsel review before public launch.
+5. **Logo transparency:** the supplied logo files have an off-white background. A transparent version is needed to place the logo on dark panels.
+6. **Tracker freshness:** a newer workbook export sits in `FinLoom Files/` with a different hash from the preserved snapshot in `data/source/`. Diff and re-import before relying on tracker data for publication decisions.
+7. **First published blog:** none of the 20 backlog items has a research record or draft yet.
+8. **Off-site article targets:** confirm the Fin Loom link target in Stoxcraft articles 06, 07, 08, and 10.

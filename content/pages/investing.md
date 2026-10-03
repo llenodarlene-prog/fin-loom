@@ -1,16 +1,12 @@
 ---
 title: Investing
-description: Investing on Fin Loom: investor behavior, ETFs, funds, retirement, wealth.
+seo_title: Investing Research and Insights | Fin Loom
+description: Independent investing research covering ETFs, funds, retirement, portfolio risk, diversification, investor behavior, and long-term wealth.
 slug: /investing/
 type: page
 schema: CollectionPage
-draft: true
-copy_source: data/site-architecture.json and data/brand-strategy.json (tracker sheets Site Architecture and Brand Strategy)
+template: hub
+draft: false
 ---
 
-# Investing
-
-Investor behavior, ETFs, funds, retirement, wealth.
-
-> **Draft Page**
-> Approved category copy has not been supplied. This page shows tracker-sourced text only and stays out of production until approved copy is supplied.
+This page is rendered by `scripts/lib/pages.mjs` from `data/hub-pages.json`. Edit the copy there, not here.

@@ -1,0 +1,125 @@
+{
+  "source": "FinLoom Files/02 Website Copy/Website Copy Draft.docx (supplied 2026-10-03), edited for brand voice",
+  "hero": {
+    "eyebrow": "Independent financial research",
+    "heading": "Financial Insights. A Brighter Tomorrow.",
+    "copy": [
+      "Money moves quickly, and headlines move faster. Fin Loom slows the picture down with research, market analysis, and data across banking, investing, markets, fintech, payments, and digital assets.",
+      "We read the numbers behind the story and the assumptions behind the numbers, so the decision in front of you is easier to weigh."
+    ],
+    "primary_cta": {
+      "label": "Read the Latest Research",
+      "url": "#latest",
+      "fallback_label": "Browse the Coverage",
+      "fallback_url": "#coverage"
+    },
+    "secondary_cta": {
+      "label": "How Fin Loom Works",
+      "url": "/about/"
+    },
+    "image": {
+      "src": "/assets/images/home/city-terrace-sunrise-1600.jpg",
+      "small": "/assets/images/home/city-terrace-sunrise-800.jpg",
+      "width": 1600,
+      "height": 900,
+      "alt": "City skyline at sunrise seen from a terrace, with a tablet showing a market chart on the table"
+    }
+  },
+  "intro": {
+    "heading": "Follow the Money, Not the Noise",
+    "copy": [
+      "Financial information is everywhere. Context is the scarce part. Fin Loom sets out what is changing, what the available data shows, and where the uncertainty still sits.",
+      "It is written for readers who want an informed view without hype, needless jargon, or false certainty."
+    ]
+  },
+  "coverage": {
+    "heading": "What We Cover",
+    "intro": "Six sections, held to one standard of evidence.",
+    "cards": [
+      {
+        "label": "Money & Banking",
+        "url": "/money-banking/",
+        "link": "Explore Money & Banking",
+        "text": "Savings, credit, debt, and banking products: how they work, what they cost, and which terms deserve a second look."
+      },
+      {
+        "label": "Investing",
+        "url": "/investing/",
+        "link": "Explore Investing",
+        "text": "Funds, ETFs, retirement, and portfolio construction, read through the risk taken to pursue each return."
+      },
+      {
+        "label": "Markets & Stocks",
+        "url": "/markets-stocks/",
+        "link": "Explore Markets & Stocks",
+        "text": "Equities, valuation, trading, and market structure, with company performance kept separate from price."
+      },
+      {
+        "label": "Fintech",
+        "url": "/fintech/",
+        "link": "Explore Fintech",
+        "text": "Neobanks, financial apps, and embedded finance, and the business models underneath the technology."
+      },
+      {
+        "label": "Payments",
+        "url": "/payments/",
+        "link": "Explore Payments",
+        "text": "Wallets, processors, remittances, and open banking: the infrastructure that carries money from click to settlement."
+      },
+      {
+        "label": "Crypto & Digital Assets",
+        "url": "/crypto/",
+        "link": "Explore Crypto & Digital Assets",
+        "text": "Bitcoin, stablecoins, custody, DeFi, and tokenization, held to the same standard as traditional finance."
+      }
+    ]
+  },
+  "context": {
+    "heading": "Research With Context",
+    "copy": [
+      "A number without context can mislead. Before a statistic appears on Fin Loom, we look at how it was defined, the period it covers, the quality of the source, and what it is being compared with.",
+      "When credible sources disagree, we show the disagreement and explain the likely reason. When the evidence is uncertain, we say so."
+    ],
+    "image": {
+      "src": "/assets/images/home/research-reports-flatlay-1600.jpg",
+      "small": "/assets/images/home/research-reports-flatlay-800.jpg",
+      "width": 1600,
+      "height": 900,
+      "alt": "Printed research reports, a notebook, and a tablet with charts laid out on a marble desk"
+    }
+  },
+  "decisions": {
+    "heading": "Built for Better Decisions",
+    "copy": [
+      "Fin Loom does not tell readers what to buy, sell, or believe. Our job is to make financial information easier to evaluate, and that starts with three distinctions."
+    ],
+    "points": [
+      {
+        "title": "Observed Data and Forecasts",
+        "text": "What has been measured stays apart from what is projected."
+      },
+      {
+        "title": "Performance and Expectations",
+        "text": "What a business has reported stays apart from what the market has priced in."
+      },
+      {
+        "title": "Short Term and Long Term",
+        "text": "A recent development is set against the longer-term picture."
+      }
+    ]
+  },
+  "latest": {
+    "heading": "Latest Research",
+    "limit": 6
+  },
+  "closing": {
+    "heading": "Independent by Design",
+    "copy": [
+      "Fin Loom is an editorial financial publication. The aim is plain: publish useful financial information, and respect the reader's ability to decide."
+    ],
+    "cta": {
+      "label": "About Fin Loom",
+      "url": "/about/"
+    }
+  }
+}

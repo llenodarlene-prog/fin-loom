@@ -6,7 +6,7 @@ The site is generated into `dist/` by a dependency-free Node build. Tracker data
 
 ## Current state
 
-- Core pages exist as drafts built only from tracker and branding-brief text. Approved page copy has not been supplied yet.
+- Core pages use the owner's Website Copy Draft, edited for brand voice, with the supplied logo and photography. Legal pages keep the supplied wording.
 - No article or blog is published. The 20 tracker items with approved URLs are the editorial backlog in `data/launch-content-plan.json`.
 - Staging deploys from the `staging` branch and is always `noindex`.
 - Production is blocked by the launch gate until every item in `docs/SOURCE-OF-TRUTH.md` under "Open items" is resolved.

@@ -1,10 +1,7 @@
 import { cp, mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { escapeHtml, markdownToHtml, readContent } from './lib/content.mjs';
-import { renderAbout } from './lib/about.mjs';
-import { contactEmail, renderContact } from './lib/contact.mjs';
-import { renderHome } from './lib/home.mjs';
-import { renderHub } from './lib/hub.mjs';
+import { contactEmail, renderAbout, renderContact, renderHome, renderHub } from './lib/pages.mjs';
 import { renderChart, resetCharts } from './lib/charts.mjs';
 import { articleSchema, headMeta } from './lib/seo.mjs';
 import { assertUniqueRoute, validateRedirects } from './lib/workflow.mjs';
@@ -146,7 +143,7 @@ for (const page of parsed) {
     LANG: site.locale || 'en-US', TITLE: escapeHtml(fullTitle), DESCRIPTION: escapeHtml(metadata.description), ROBOTS: metadata.noindex === true ? 'noindex,nofollow' : robots,
     CANONICAL: url, ICON_LINKS: iconLinks, OG_TYPE: article ? 'article' : 'website', SCHEMA: JSON.stringify(schema).replaceAll('<', '\\u003c'), FONT_LINKS: fontLinks,
     ARTICLE_META: headMeta({ metadata, site, siteUrl, image: featured || defaultShareImage, article }),
-    HEADER: header, FOOTER: footer, CONTENT: designed ? `<div class="home" data-page-slug="${escapeHtml(metadata.slug)}">${renderedBody}</div>` : `<article class="shell prose" data-page-slug="${escapeHtml(metadata.slug)}">${renderedBody}</article>`
+    HEADER: header, FOOTER: footer, CONTENT: designed ? `<div class="page" data-page-slug="${escapeHtml(metadata.slug)}">${renderedBody}</div>` : `<article class="shell prose" data-page-slug="${escapeHtml(metadata.slug)}">${renderedBody}</article>`
   });
   const target = metadata.slug === '/' ? path.join(dist, 'index.html') : path.join(dist, cleanSlug(metadata.slug), 'index.html');
   await mkdir(path.dirname(target), { recursive: true });

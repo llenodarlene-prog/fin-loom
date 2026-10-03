@@ -1,16 +1,12 @@
 ---
 title: Markets & Stocks
-description: Markets & Stocks on Fin Loom: equities, trading, market structure, options.
+seo_title: Markets & Stocks Research | Fin Loom
+description: Market and stock research covering equities, company performance, valuation, trading, market structure, options, risk, and major market trends.
 slug: /markets-stocks/
 type: page
 schema: CollectionPage
-draft: true
-copy_source: data/site-architecture.json and data/brand-strategy.json (tracker sheets Site Architecture and Brand Strategy)
+template: hub
+draft: false
 ---
 
-# Markets & Stocks
-
-Equities, trading, market structure, options.
-
-> **Draft Page**
-> Approved category copy has not been supplied. This page shows tracker-sourced text only and stays out of production until approved copy is supplied.
+This page is rendered by `scripts/lib/pages.mjs` from `data/hub-pages.json`. Edit the copy there, not here.

@@ -187,10 +187,12 @@ test('the repository as committed builds a staging site that is noindex on every
   assert.equal(built.status, 0, built.stderr);
   assert.equal(check(root, 'staging').status, 0);
   const files = await htmlFiles(path.join(root, 'dist'));
-  assert.ok(files.length >= 11, `expected the core pages, found ${files.length}`);
+  assert.ok(files.length >= 12, `expected the core pages, found ${files.length}`);
   for (const file of files) assert.match(await readFile(file, 'utf8'), /<meta name="robots" content="noindex,nofollow(?:,noarchive)?">/, file);
   assert.match(await readFile(path.join(root, 'dist/.htaccess'), 'utf8'), /X-Robots-Tag "noindex, nofollow, noarchive"/);
-  assert.doesNotMatch(await readFile(path.join(root, 'dist/sitemap.xml'), 'utf8'), /<loc>/);
+  const sitemap = await readFile(path.join(root, 'dist/sitemap.xml'), 'utf8');
+  assert.match(sitemap, /<loc>https:\/\/finloom\.org\/<\/loc>/);
+  assert.doesNotMatch(sitemap, /staging/);
   const target = stagingUrl => spawnSync(process.execPath, [path.resolve('scripts/check-staging-target.mjs')], { cwd: root, encoding: 'utf8', env: { ...process.env, STAGING_URL: stagingUrl } });
   assert.equal(target('https://staging.finloom.org').status, 0);
   assert.match(target('https://finloom.org').stderr, /points at the production domain/);
@@ -199,9 +201,9 @@ test('the repository as committed builds a staging site that is noindex on every
 test('the repository as committed cannot be released or indexed', () => copyOfRepository(async root => {
   const gate = run('scripts/check-release.mjs', root);
   assert.notEqual(gate.status, 0);
-  for (const reason of [/required page \/ is still a draft/, /launch requires at least 1 published blog\(s\); found 0/, /financial disclaimer approval must be explicitly approved/, /brand clearance must be explicitly approved/, /at least one author must be verified and publishable/]) assert.match(gate.stderr, reason);
-  // Even a production-mode build stays noindex until launch_status is ready, and its missing draft pages fail the checks.
+  for (const reason of [/launch_status must be "ready"/, /launch requires at least 1 published blog\(s\); found 0/, /financial disclaimer approval must be explicitly approved/, /brand clearance must be explicitly approved/, /at least one author must be verified and publishable/]) assert.match(gate.stderr, reason);
+  // Even a production-mode build stays noindex until launch_status is ready.
   assert.equal(env(root, 'production').status, 0);
-  assert.match(await readFile(path.join(root, 'dist/404/index.html'), 'utf8'), /<meta name="robots" content="noindex/);
-  assert.notEqual(check(root, 'production').status, 0);
+  assert.match(await readFile(path.join(root, 'dist/index.html'), 'utf8'), /<meta name="robots" content="noindex,nofollow,noarchive">/);
+  assert.match(await readFile(path.join(root, 'dist/.htaccess'), 'utf8'), /X-Robots-Tag "noindex/);
 }));

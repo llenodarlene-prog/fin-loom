@@ -1,16 +1,12 @@
 ---
 title: Payments
-description: Payments on Fin Loom: digital payments, wallets, remittance, open banking.
+seo_title: Payments Research and Digital Payments Insights | Fin Loom
+description: Research on digital payments, wallets, remittances, open banking, payment infrastructure, checkout technology, and the movement of money.
 slug: /payments/
 type: page
 schema: CollectionPage
-draft: true
-copy_source: data/site-architecture.json and data/brand-strategy.json (tracker sheets Site Architecture and Brand Strategy)
+template: hub
+draft: false
 ---
 
-# Payments
-
-Digital payments, wallets, remittance, open banking.
-
-> **Draft Page**
-> Approved category copy has not been supplied. This page shows tracker-sourced text only and stays out of production until approved copy is supplied.
+This page is rendered by `scripts/lib/pages.mjs` from `data/hub-pages.json`. Edit the copy there, not here.
