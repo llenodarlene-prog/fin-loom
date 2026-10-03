@@ -1,4 +1,5 @@
 import { escapeHtml, inline } from './content.mjs';
+import { buildIllustrations, renderHeroCard, renderLab } from './illustrations.mjs';
 
 // Designed pages render from the copy files in data/. Copy strings may use inline Markdown (links, bold).
 const paragraphs = (items = [], className = '') => items.map(text => `<p${className ? ` class="${className}"` : ''}>${inline(text)}</p>`).join('');
@@ -32,6 +33,7 @@ const arrowLink = (url, label, className = 'arrow-link') => `<a class="${classNa
 export function renderHome(copy, posts, nav) {
   const { hero, intro, coverage, context, decisions, latest, closing } = copy;
   // The primary button points at published research once any exists; drafts never appear here.
+  const illustrations = buildIllustrations();
   const primary = posts.length ? { label: hero.primary_cta.label, url: hero.primary_cta.url } : { label: hero.primary_cta.fallback_label, url: hero.primary_cta.fallback_url };
   return `
   <section class="hero" aria-labelledby="home-heading">
@@ -45,13 +47,13 @@ export function renderHome(copy, posts, nav) {
           <a class="button button--ghost" href="${escapeHtml(hero.secondary_cta.url)}">${escapeHtml(hero.secondary_cta.label)}</a>
         </div>
       </div>
-      <div class="hero-media">${photo(hero.image, { eager: true, sizes: '(max-width: 900px) 100vw, 46vw' })}</div>
+      <div class="hero-media">${photo(hero.image, { eager: true, sizes: '(max-width: 900px) 100vw, 46vw' })}${renderHeroCard(illustrations)}</div>
     </div>
     <div class="shell"><ul class="hero-index" aria-label="Coverage">${coverage.cards.map((card, i) => `<li><a href="${escapeHtml(card.url)}"><span>${index(i + 1)}</span>${escapeHtml(card.label)}</a></li>`).join('')}</ul></div>
   </section>
 
   <section class="band" aria-labelledby="intro-heading">
-    <div class="shell statement">
+    <div class="shell statement" data-reveal>
       <h2 id="intro-heading">${escapeHtml(intro.heading)}</h2>
       <div class="statement-copy">${paragraphs(intro.copy)}</div>
     </div>
@@ -59,8 +61,8 @@ export function renderHome(copy, posts, nav) {
 
   <section class="band band--tint" id="coverage" aria-labelledby="coverage-heading">
     <div class="shell">
-      <header class="band-head"><h2 id="coverage-heading">${escapeHtml(coverage.heading)}</h2><p>${escapeHtml(coverage.intro)}</p></header>
-      <div class="coverage-grid">
+      <header class="band-head" data-reveal><h2 id="coverage-heading">${escapeHtml(coverage.heading)}</h2><p>${escapeHtml(coverage.intro)}</p></header>
+      <div class="coverage-grid" data-reveal="stagger">
         ${coverage.cards.map((card, i) => `<article class="coverage-card">
           <p class="card-index">${index(i + 1)}</p>
           <h3><a href="${escapeHtml(card.url)}">${escapeHtml(card.label)}</a></h3>
@@ -71,20 +73,21 @@ export function renderHome(copy, posts, nav) {
     </div>
   </section>
 
-  <section class="band" aria-labelledby="context-heading">
-    <div class="shell split">
-      <div class="split-media">${photo(context.image, { sizes: '(max-width: 900px) 100vw, 44vw' })}</div>
-      <div class="split-copy">
+  <section class="band band--dark" aria-labelledby="context-heading">
+    <div class="shell lab-layout">
+      <header class="band-head" data-reveal>
+        <p class="eyebrow">${escapeHtml(context.eyebrow)}</p>
         <h2 id="context-heading">${escapeHtml(context.heading)}</h2>
         ${paragraphs(context.copy)}
-      </div>
+      </header>
+      <div data-reveal>${renderLab(illustrations)}</div>
     </div>
   </section>
 
-  <section class="band band--dark" aria-labelledby="decisions-heading">
+  <section class="band" aria-labelledby="decisions-heading">
     <div class="shell">
-      <header class="band-head"><h2 id="decisions-heading">${escapeHtml(decisions.heading)}</h2>${paragraphs(decisions.copy)}</header>
-      <ol class="distinctions">
+      <header class="band-head" data-reveal><h2 id="decisions-heading">${escapeHtml(decisions.heading)}</h2>${paragraphs(decisions.copy)}</header>
+      <ol class="distinctions" data-reveal="stagger">
         ${decisions.points.map((point, i) => `<li><span class="card-index">${index(i + 1)}</span><h3>${escapeHtml(point.title)}</h3><p>${escapeHtml(point.text)}</p></li>`).join('')}
       </ol>
     </div>
@@ -97,7 +100,7 @@ ${posts.length ? `
     </div>
   </section>` : ''}
   <section class="band band--tint closing" aria-labelledby="closing-heading">
-    <div class="shell closing-inner">
+    <div class="shell closing-inner" data-reveal>
       <h2 id="closing-heading">${escapeHtml(closing.heading)}</h2>
       ${paragraphs(closing.copy)}
       ${arrowLink(closing.cta.url, closing.cta.label, 'button button--primary')}
@@ -120,7 +123,7 @@ export function renderAbout(copy) {
   </section>
 
   <div class="shell rows">
-    ${sections.map((section, i) => `<section class="row" aria-labelledby="about-${i + 1}">
+    ${sections.map((section, i) => `<section class="row" data-reveal aria-labelledby="about-${i + 1}">
       <div class="row-head"><p class="card-index">${index(i + 1)}</p><h2 id="about-${i + 1}">${escapeHtml(section.heading)}</h2></div>
       <div class="row-body">
         ${paragraphs(section.copy)}
@@ -148,18 +151,18 @@ export function renderHub(hub, shared, posts, nav) {
         <h1 id="hub-heading">${escapeHtml(hub.heading)}</h1>
         ${paragraphs(hub.copy)}
       </div>
-      <div class="page-hero-media">${photo(hub.image, { eager: true, sizes: '(max-width: 900px) 100vw, 44vw' })}</div>
+      <div class="page-hero-media">${photo(hub.image, { eager: true, sizes: '(max-width: 900px) 100vw, 44vw' })}<p class="media-chip glass"><strong>${index(hub.index)}</strong> of ${index(shared.total)} ${escapeHtml(shared.chip_label)}</p></div>
     </div>
   </section>
 
   <section class="band band--tint" aria-labelledby="topics-heading">
     <div class="shell topics">
       <h2 id="topics-heading">${escapeHtml(shared.topics_heading)}</h2>
-      <ul class="chips">${hub.topics.map(topic => `<li>${escapeHtml(topic)}</li>`).join('')}</ul>
+      <ul class="chips" data-reveal="stagger">${hub.topics.map(topic => `<li>${escapeHtml(topic)}</li>`).join('')}</ul>
     </div>
   </section>
 
-  <div class="shell notes">
+  <div class="shell notes" data-reveal="stagger">
     ${hub.sections.map(section => `<section class="note"><h2>${escapeHtml(section.heading)}</h2>${paragraphs(section.copy)}</section>`).join('')}
   </div>
 
@@ -196,7 +199,7 @@ export function renderContact(copy, email) {
   <section class="band band--tint" aria-labelledby="enquiries-heading">
     <div class="shell">
       <header class="band-head"><h2 id="enquiries-heading">${escapeHtml(copy.enquiries_heading)}</h2></header>
-      <div class="coverage-grid">
+      <div class="coverage-grid" data-reveal="stagger">
         ${copy.enquiries.map((item, i) => `<article class="coverage-card">
           <p class="card-index">${index(i + 1)}</p>
           <h3><a href="${escapeHtml(mailto(email, item.title))}">${escapeHtml(item.title)}</a></h3>

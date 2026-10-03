@@ -78,15 +78,10 @@
     "heading": "Research With Context",
     "copy": [
       "A number without context can mislead. Before a statistic appears on Fin Loom, we look at how it was defined, the period it covers, the quality of the source, and what it is being compared with.",
-      "When credible sources disagree, we show the disagreement and explain the likely reason. When the evidence is uncertain, we say so."
+      "When credible sources disagree, we show the disagreement and explain the likely reason. When the evidence is uncertain, we say so.",
+      "Three pieces of plain arithmetic show why. Each one changes how a headline number reads."
     ],
-    "image": {
-      "src": "/assets/images/home/research-reports-flatlay-1600.jpg",
-      "small": "/assets/images/home/research-reports-flatlay-800.jpg",
-      "width": 1600,
-      "height": 900,
-      "alt": "Printed research reports, a notebook, and a tablet with charts laid out on a marble desk"
-    }
+    "eyebrow": "Context in practice"
   },
   "decisions": {
     "heading": "Built for Better Decisions",

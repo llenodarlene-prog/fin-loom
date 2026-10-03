@@ -4,7 +4,9 @@
     "eyebrow": "Coverage",
     "topics_heading": "What You Will Find Here",
     "latest_heading": "{section} Research",
-    "empty_state": "No research has been published in this section yet."
+    "empty_state": "No research has been published in this section yet.",
+    "total": 6,
+    "chip_label": "coverage sections"
   },
   "hubs": {
     "/money-banking/": {
