@@ -160,7 +160,7 @@ export async function createLaunchFixture() {
   await writeJson(data('site.json'), site);
 
   const release = await readJson(data('release.json'));
-  for (const key of ['contact', 'privacy', 'disclaimer', 'brand_clearance', 'staging_review']) Object.assign(release[key], { approved: true, reviewer: 'Fixture Reviewer', reviewed_at: '2026-09-20' });
+  for (const key of ['contact', 'privacy', 'disclaimer', 'brand_clearance', 'partner_terms', 'staging_review']) Object.assign(release[key], { approved: true, reviewer: 'Fixture Reviewer', reviewed_at: '2026-09-20' });
   release.contact.email = fixtureEmail;
   release.privacy.policy_effective_date = fixtureEffectiveDate;
   release.production_approval = { approved: true, reviewer: 'Release Reviewer', reviewed_at: '2026-09-22', change_reference: 'CHANGE-2026-001' };

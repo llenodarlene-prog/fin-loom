@@ -12,6 +12,7 @@
       "/payments/",
       "/crypto/",
       "/contact/",
+      "/partner-with-us/",
       "/privacy/",
       "/terms/",
       "/404/"
@@ -56,5 +57,11 @@
     "reviewer": "",
     "reviewed_at": "",
     "change_reference": ""
+  },
+  "partner_terms": {
+    "approved": false,
+    "reviewer": "",
+    "reviewed_at": "",
+    "note": "The partnership standards on /partner-with-us/ were drafted for the owner and need sign-off before launch."
   }
 }

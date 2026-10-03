@@ -10,6 +10,7 @@ Source: FinLoom - Website Branding Brief and the tracker's Brand Strategy sheet 
 - **Name:** Fin Loom, two words, in all site text. Confirmed by the site owner on 2026-10-03. The logo artwork sets the name as a single wordmark and is used as supplied.
 - **Logo:** a fixed brand asset in `assets/brand/`. Do not recreate it in type or CSS.
 - **Layout:** glass panels over a soft violet mesh, a dark hero with a fine grid, serif display type, numbered index labels, pill navigation, and scroll-in motion. Keep the mesh low in contrast; no neon.
-- **Charts on designed pages:** arithmetic illustrations only, computed in `scripts/lib/illustrations.mjs` from stated assumptions and labeled as illustrations. Never draw a chart from invented or estimated market figures. Sourced data belongs in articles with a research record.
+- **Charts on designed pages:** only two kinds. Official published series with the source printed under the chart, and arithmetic illustrations labeled as such. Never draw a chart from invented or estimated market figures.
+- **Numbering:** no index numbers on cards, sections, or labels.
 
 The site should read as an intelligent financial publication, not a trading platform sales page.

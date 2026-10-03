@@ -24,8 +24,11 @@
     },
     {
       "title": "Business Inquiries",
-      "text": "Partnerships, licensing, syndication, and other business matters."
+      "text": "Sponsored posts, guest posts, licensing, syndication, and other business matters.",
+      "url": "/partner-with-us/",
+      "link": "Partner With Us"
     }
   ],
-  "note": "We review relevant messages as soon as practical."
+  "note": "We review relevant messages as soon as practical.",
+  "enquiry_link": "Email us"
 }

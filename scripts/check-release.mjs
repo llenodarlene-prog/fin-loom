@@ -30,6 +30,7 @@ approval('privacy approval', release.privacy, ['policy_effective_date']);
 // A financial publication also needs its disclaimer wording and its public brand name cleared before launch.
 approval('financial disclaimer approval', release.disclaimer);
 approval('brand clearance', release.brand_clearance);
+approval('partner terms approval', release.partner_terms);
 approval('staging review', release.staging_review);
 approval('production approval', release.production_approval, ['change_reference']);
 

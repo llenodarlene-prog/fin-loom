@@ -1,9 +1,8 @@
 import { escapeHtml, inline } from './content.mjs';
-import { buildIllustrations, renderHeroCard, renderLab } from './illustrations.mjs';
+import { renderHeroCard, renderLab } from './illustrations.mjs';
 
 // Designed pages render from the copy files in data/. Copy strings may use inline Markdown (links, bold).
 const paragraphs = (items = [], className = '') => items.map(text => `<p${className ? ` class="${className}"` : ''}>${inline(text)}</p>`).join('');
-const index = number => String(number).padStart(2, '0');
 
 // Editorial photography, served at two widths. The first image on a page loads eagerly.
 export function photo(image, { eager = false, sizes }) {
@@ -28,12 +27,27 @@ export function postCard(post, nav, { size = 'standard' } = {}) {
   </article>`;
 }
 const postList = (posts, nav) => `<div class="post-grid">${posts.map((post, i) => postCard(post, nav, { size: i === 0 ? 'lead' : 'standard' })).join('')}</div>`;
-const arrowLink = (url, label, className = 'arrow-link') => `<a class="${className}" href="${escapeHtml(url)}">${escapeHtml(label)}</a>`;
+const pick = (charts, ids, source) => ids.map(id => { if (!charts[id]) throw new Error(`${source}: unknown chart "${id}"`); return charts[id]; });
+const mailto = (email, subject) => `mailto:${email}${subject ? `?subject=${encodeURIComponent(subject)}` : ''}`;
 
-export function renderHome(copy, posts, nav) {
+// Dark band with copy on the left and the chart module on the right.
+const chartBand = ({ eyebrow, heading, copy }, panels, id) => `
+  <section class="band band--dark" aria-labelledby="${id}">
+    <div class="shell lab-layout">
+      <header class="band-head" data-reveal>
+        <p class="eyebrow">${escapeHtml(eyebrow)}</p>
+        <h2 id="${id}">${escapeHtml(heading)}</h2>
+        ${paragraphs(copy)}
+      </header>
+      <div data-reveal>${renderLab(panels)}</div>
+    </div>
+  </section>`;
+
+const cardGrid = (cards, render) => `<div class="coverage-grid" data-reveal="stagger">${cards.map(card => `<article class="coverage-card">${render(card)}</article>`).join('')}</div>`;
+
+export function renderHome(copy, posts, nav, charts) {
   const { hero, intro, coverage, context, decisions, latest, closing } = copy;
   // The primary button points at published research once any exists; drafts never appear here.
-  const illustrations = buildIllustrations();
   const primary = posts.length ? { label: hero.primary_cta.label, url: hero.primary_cta.url } : { label: hero.primary_cta.fallback_label, url: hero.primary_cta.fallback_url };
   return `
   <section class="hero" aria-labelledby="home-heading">
@@ -47,9 +61,9 @@ export function renderHome(copy, posts, nav) {
           <a class="button button--ghost" href="${escapeHtml(hero.secondary_cta.url)}">${escapeHtml(hero.secondary_cta.label)}</a>
         </div>
       </div>
-      <div class="hero-media">${photo(hero.image, { eager: true, sizes: '(max-width: 900px) 100vw, 46vw' })}${renderHeroCard(illustrations)}</div>
+      <div class="hero-media">${photo(hero.image, { eager: true, sizes: '(max-width: 900px) 100vw, 46vw' })}${renderHeroCard(pick(charts, [hero.chart], 'data/home-page.json')[0])}</div>
     </div>
-    <div class="shell"><ul class="hero-index" aria-label="Coverage">${coverage.cards.map((card, i) => `<li><a href="${escapeHtml(card.url)}"><span>${index(i + 1)}</span>${escapeHtml(card.label)}</a></li>`).join('')}</ul></div>
+    <div class="shell"><ul class="hero-index" aria-label="Coverage">${coverage.cards.map(card => `<li><a href="${escapeHtml(card.url)}">${escapeHtml(card.label)}</a></li>`).join('')}</ul></div>
   </section>
 
   <section class="band" aria-labelledby="intro-heading">
@@ -58,42 +72,26 @@ export function renderHome(copy, posts, nav) {
       <div class="statement-copy">${paragraphs(intro.copy)}</div>
     </div>
   </section>
-
+${chartBand(context, pick(charts, context.charts, 'data/home-page.json'), 'context-heading')}
   <section class="band band--tint" id="coverage" aria-labelledby="coverage-heading">
     <div class="shell">
       <header class="band-head" data-reveal><h2 id="coverage-heading">${escapeHtml(coverage.heading)}</h2><p>${escapeHtml(coverage.intro)}</p></header>
-      <div class="coverage-grid" data-reveal="stagger">
-        ${coverage.cards.map((card, i) => `<article class="coverage-card">
-          <p class="card-index">${index(i + 1)}</p>
-          <h3><a href="${escapeHtml(card.url)}">${escapeHtml(card.label)}</a></h3>
+      ${cardGrid(coverage.cards, card => `<h3><a href="${escapeHtml(card.url)}">${escapeHtml(card.label)}</a></h3>
           <p>${escapeHtml(card.text)}</p>
-          <span class="arrow-link" aria-hidden="true">${escapeHtml(card.link)}</span>
-        </article>`).join('')}
-      </div>
-    </div>
-  </section>
-
-  <section class="band band--dark" aria-labelledby="context-heading">
-    <div class="shell lab-layout">
-      <header class="band-head" data-reveal>
-        <p class="eyebrow">${escapeHtml(context.eyebrow)}</p>
-        <h2 id="context-heading">${escapeHtml(context.heading)}</h2>
-        ${paragraphs(context.copy)}
-      </header>
-      <div data-reveal>${renderLab(illustrations)}</div>
+          <span class="arrow-link" aria-hidden="true">${escapeHtml(card.link)}</span>`)}
     </div>
   </section>
 
   <section class="band" aria-labelledby="decisions-heading">
     <div class="shell">
       <header class="band-head" data-reveal><h2 id="decisions-heading">${escapeHtml(decisions.heading)}</h2>${paragraphs(decisions.copy)}</header>
-      <ol class="distinctions" data-reveal="stagger">
-        ${decisions.points.map((point, i) => `<li><span class="card-index">${index(i + 1)}</span><h3>${escapeHtml(point.title)}</h3><p>${escapeHtml(point.text)}</p></li>`).join('')}
-      </ol>
+      <ul class="distinctions" data-reveal="stagger">
+        ${decisions.points.map(point => `<li><h3>${escapeHtml(point.title)}</h3><p>${escapeHtml(point.text)}</p></li>`).join('')}
+      </ul>
     </div>
   </section>
 ${posts.length ? `
-  <section class="band" id="latest" aria-labelledby="latest-heading">
+  <section class="band band--rule" id="latest" aria-labelledby="latest-heading">
     <div class="shell">
       <header class="band-head"><h2 id="latest-heading">${escapeHtml(latest.heading)}</h2></header>
       ${postList(posts.slice(0, latest.limit), nav)}
@@ -103,13 +101,13 @@ ${posts.length ? `
     <div class="shell closing-inner" data-reveal>
       <h2 id="closing-heading">${escapeHtml(closing.heading)}</h2>
       ${paragraphs(closing.copy)}
-      ${arrowLink(closing.cta.url, closing.cta.label, 'button button--primary')}
+      <a class="button button--primary" href="${escapeHtml(closing.cta.url)}">${escapeHtml(closing.cta.label)}</a>
     </div>
   </section>`;
 }
 
 export function renderAbout(copy) {
-  const { hero, sections, disclaimer } = copy;
+  const { hero, sections, disclaimer, closing } = copy;
   return `
   <section class="page-hero" aria-labelledby="about-heading">
     <div class="shell page-hero-grid">
@@ -124,7 +122,7 @@ export function renderAbout(copy) {
 
   <div class="shell rows">
     ${sections.map((section, i) => `<section class="row" data-reveal aria-labelledby="about-${i + 1}">
-      <div class="row-head"><p class="card-index">${index(i + 1)}</p><h2 id="about-${i + 1}">${escapeHtml(section.heading)}</h2></div>
+      <div class="row-head"><h2 id="about-${i + 1}">${escapeHtml(section.heading)}</h2></div>
       <div class="row-body">
         ${paragraphs(section.copy)}
         ${section.list ? `<ul class="${section.list_style === 'lines' ? 'line-list' : 'tick-list'}">${section.list.map(item => `<li>${inline(item)}</li>`).join('')}</ul>` : ''}
@@ -134,24 +132,33 @@ export function renderAbout(copy) {
   </div>
 
   <section class="band band--dark" aria-labelledby="disclaimer-heading">
-    <div class="shell statement">
+    <div class="shell statement" data-reveal>
       <h2 id="disclaimer-heading">${escapeHtml(disclaimer.heading)}</h2>
       <div class="statement-copy">${paragraphs(disclaimer.copy)}</div>
+    </div>
+  </section>
+
+  <section class="band band--tint closing" aria-labelledby="about-closing">
+    <div class="shell closing-inner" data-reveal>
+      <h2 id="about-closing">${escapeHtml(closing.heading)}</h2>
+      ${paragraphs(closing.copy)}
+      <div class="cta-row cta-row--center">${closing.links.map((link, i) => `<a class="button ${i === 0 ? 'button--primary' : 'button--outline'}" href="${escapeHtml(link.url)}">${escapeHtml(link.label)}</a>`).join('')}</div>
     </div>
   </section>`;
 }
 
-// Category hub: hero, what the section covers, two short editorial notes, then published research under the hub's slug.
-export function renderHub(hub, shared, posts, nav) {
+// Category hub: hero, what the section covers, two editorial notes, an optional chart band, then published research.
+export function renderHub(hub, shared, posts, nav, charts) {
   return `
   <section class="page-hero" aria-labelledby="hub-heading">
     <div class="shell page-hero-grid">
       <div>
-        <p class="eyebrow">${escapeHtml(shared.eyebrow)} <span>${index(hub.index)}</span></p>
+        <p class="eyebrow">${escapeHtml(shared.eyebrow)}</p>
         <h1 id="hub-heading">${escapeHtml(hub.heading)}</h1>
         ${paragraphs(hub.copy)}
+        <div class="cta-row"><a class="button button--primary" href="#research">${escapeHtml(shared.research_link.replace('{section}', hub.heading))}</a></div>
       </div>
-      <div class="page-hero-media">${photo(hub.image, { eager: true, sizes: '(max-width: 900px) 100vw, 44vw' })}<p class="media-chip glass"><strong>${index(hub.index)}</strong> of ${index(shared.total)} ${escapeHtml(shared.chip_label)}</p></div>
+      <div class="page-hero-media">${photo(hub.image, { eager: true, sizes: '(max-width: 900px) 100vw, 44vw' })}</div>
     </div>
   </section>
 
@@ -165,11 +172,18 @@ export function renderHub(hub, shared, posts, nav) {
   <div class="shell notes" data-reveal="stagger">
     ${hub.sections.map(section => `<section class="note"><h2>${escapeHtml(section.heading)}</h2>${paragraphs(section.copy)}</section>`).join('')}
   </div>
-
-  <section class="band band--rule" id="research" aria-labelledby="hub-latest-heading">
+${hub.chart_band ? chartBand(hub.chart_band, pick(charts, hub.chart_band.charts, 'data/hub-pages.json'), 'chart-heading') : ''}
+  <section class="band${hub.chart_band ? '' : ' band--rule'}" id="research" aria-labelledby="hub-latest-heading">
     <div class="shell">
       <header class="band-head"><h2 id="hub-latest-heading">${escapeHtml(shared.latest_heading.replace('{section}', hub.heading))}</h2></header>
       ${posts.length ? postList(posts, nav) : `<p class="empty-state">${escapeHtml(shared.empty_state)}</p>`}
+    </div>
+  </section>
+
+  <section class="band band--tint" aria-labelledby="more-heading">
+    <div class="shell">
+      <header class="band-head"><h2 id="more-heading">${escapeHtml(shared.more_heading)}</h2></header>
+      <ul class="section-links" data-reveal="stagger">${nav.primary.filter(item => shared.sections.includes(item.url) && item.label !== hub.heading).map(item => `<li><a href="${escapeHtml(item.url)}">${escapeHtml(item.label)}</a></li>`).join('')}</ul>
     </div>
   </section>`;
 }
@@ -177,11 +191,14 @@ export function renderHub(hub, shared, posts, nav) {
 // The address comes from the mailto link in content/pages/contact.md, the same place the release gate checks.
 export function contactEmail(body, source) {
   const email = body.match(/mailto:([^)\s"]+@[^)\s"]+)/)?.[1];
-  if (!email) throw new Error(`${source}: contact page body must contain a mailto: address`);
+  if (!email) throw new Error(`${source}: page body must contain a mailto: address`);
   return email;
 }
 
-const mailto = (email, subject) => `mailto:${email}${subject ? `?subject=${encodeURIComponent(subject)}` : ''}`;
+const emailCard = (label, email, subject) => `<a class="email-card" href="${escapeHtml(mailto(email, subject))}">
+        <span class="email-label">${escapeHtml(label)}</span>
+        <span class="email-address">${escapeHtml(email)}</span>
+      </a>`;
 
 export function renderContact(copy, email) {
   return `
@@ -190,23 +207,59 @@ export function renderContact(copy, email) {
       <p class="eyebrow">${escapeHtml(copy.eyebrow)}</p>
       <h1 id="contact-heading">${escapeHtml(copy.heading)}</h1>
       <p class="lede">${escapeHtml(copy.intro)}</p>
-      <a class="email-card" href="${escapeHtml(mailto(email))}">
-        <span class="card-index">${escapeHtml(copy.email_label)}</span>
-        <span class="email-address">${escapeHtml(email)}</span>
-      </a>
+      ${emailCard(copy.email_label, email)}
     </div>
   </section>
   <section class="band band--tint" aria-labelledby="enquiries-heading">
     <div class="shell">
-      <header class="band-head"><h2 id="enquiries-heading">${escapeHtml(copy.enquiries_heading)}</h2></header>
-      <div class="coverage-grid" data-reveal="stagger">
-        ${copy.enquiries.map((item, i) => `<article class="coverage-card">
-          <p class="card-index">${index(i + 1)}</p>
-          <h3><a href="${escapeHtml(mailto(email, item.title))}">${escapeHtml(item.title)}</a></h3>
+      <header class="band-head" data-reveal><h2 id="enquiries-heading">${escapeHtml(copy.enquiries_heading)}</h2></header>
+      ${cardGrid(copy.enquiries, item => `<h3><a href="${escapeHtml(item.url || mailto(email, item.title))}">${escapeHtml(item.title)}</a></h3>
           <p>${escapeHtml(item.text)}</p>
-        </article>`).join('')}
-      </div>
+          <span class="arrow-link" aria-hidden="true">${escapeHtml(item.link || copy.enquiry_link)}</span>`)}
       <p class="contact-note">${escapeHtml(copy.note)}</p>
+    </div>
+  </section>`;
+}
+
+// Partner With Us: the ways to work with the publication, the standards every partnership meets, and how to start.
+export function renderPartner(copy, email) {
+  return `
+  <section class="hero hero--compact" aria-labelledby="partner-heading">
+    <div class="shell hero-copy hero-copy--wide">
+      <p class="eyebrow">${escapeHtml(copy.eyebrow)}</p>
+      <h1 id="partner-heading">${escapeHtml(copy.heading)}</h1>
+      ${paragraphs(copy.intro)}
+      <div class="cta-row"><a class="button button--light" href="${escapeHtml(mailto(email, copy.subject))}">${escapeHtml(copy.cta)}</a></div>
+    </div>
+  </section>
+
+  <section class="band band--tint" aria-labelledby="options-heading">
+    <div class="shell">
+      <header class="band-head" data-reveal><h2 id="options-heading">${escapeHtml(copy.options_heading)}</h2><p>${escapeHtml(copy.options_intro)}</p></header>
+      ${cardGrid(copy.options, item => `<h3><a href="${escapeHtml(mailto(email, item.title))}">${escapeHtml(item.title)}</a></h3>
+          <p>${escapeHtml(item.text)}</p>
+          <span class="arrow-link" aria-hidden="true">${escapeHtml(copy.option_link)}</span>`)}
+    </div>
+  </section>
+
+  <div class="shell rows rows--single">
+    <section class="row" data-reveal aria-labelledby="standards-heading">
+      <div class="row-head"><h2 id="standards-heading">${escapeHtml(copy.standards_heading)}</h2></div>
+      <div class="row-body">
+        ${paragraphs(copy.standards_intro)}
+        <dl class="standards">${copy.standards.map(item => `<div><dt>${escapeHtml(item.title)}</dt><dd>${escapeHtml(item.text)}</dd></div>`).join('')}</dl>
+      </div>
+    </section>
+  </div>
+
+  <section class="band band--dark" aria-labelledby="start-heading">
+    <div class="shell statement" data-reveal>
+      <h2 id="start-heading">${escapeHtml(copy.start_heading)}</h2>
+      <div class="statement-copy">
+        ${paragraphs(copy.start_copy)}
+        <ul class="tick-list tick-list--dark">${copy.start_list.map(item => `<li>${escapeHtml(item)}</li>`).join('')}</ul>
+        ${emailCard(copy.email_label, email, copy.subject)}
+      </div>
     </div>
   </section>`;
 }

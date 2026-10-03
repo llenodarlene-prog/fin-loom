@@ -1,0 +1,64 @@
+{
+  "source": "Requested by the site owner on 2026-10-03 (sponsored posts, guest posts, and similar). The standards below are drafted to match the About page and the Privacy Policy and need owner approval.",
+  "eyebrow": "Partner With Us",
+  "heading": "Partner With Fin Loom",
+  "subject": "Partnership enquiry",
+  "cta": "Start a Conversation",
+  "email_label": "Email",
+  "option_link": "Enquire by email",
+  "intro": [
+    "Fin Loom works with companies, agencies, and writers whose work is useful to readers who follow money, markets, and financial technology.",
+    "Every partnership is disclosed to readers, and none of them buys a conclusion."
+  ],
+  "options_heading": "Ways to Work With Us",
+  "options_intro": "Four routes, each handled by email.",
+  "options": [
+    {
+      "title": "Sponsored Posts",
+      "text": "Paid articles written by or with a sponsor. Each one is labeled as sponsored, names the sponsor, and is held to the same sourcing rules as our own research."
+    },
+    {
+      "title": "Guest Posts",
+      "text": "Contributed articles from analysts, operators, and researchers with something specific to say. We look for original evidence or first-hand expertise, not general overviews."
+    },
+    {
+      "title": "Licensing and Syndication",
+      "text": "Republishing Fin Loom research, charts, or data tables in your own publication or product, with attribution."
+    },
+    {
+      "title": "Other Partnerships",
+      "text": "Research collaborations, data sharing, and ideas that do not fit the categories above. Tell us what you have in mind."
+    }
+  ],
+  "standards_heading": "What Every Partnership Must Meet",
+  "standards_intro": [
+    "Readers come to Fin Loom for information they can check. Partner content has to meet that standard too."
+  ],
+  "standards": [
+    {
+      "title": "Disclosure",
+      "text": "Paid content is labeled as sponsored, and paid links are marked as sponsored."
+    },
+    {
+      "title": "Evidence",
+      "text": "Claims need a source we can check. Statistics need a date and a definition."
+    },
+    {
+      "title": "No Advice, No Promised Returns",
+      "text": "We do not publish recommendations to buy or sell, or content that promises or implies a return."
+    },
+    {
+      "title": "Editorial Control",
+      "text": "Fin Loom may edit, decline, or remove partner content. Partners have no say over our own research."
+    }
+  ],
+  "start_heading": "How to Start",
+  "start_copy": [
+    "Send one email with the details below. We review relevant messages as soon as practical."
+  ],
+  "start_list": [
+    "Who you are and the company or publication you represent",
+    "What you would like to publish or propose",
+    "Links to previous work or to the product involved"
+  ]
+}

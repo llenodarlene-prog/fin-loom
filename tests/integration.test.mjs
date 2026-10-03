@@ -187,7 +187,7 @@ test('the repository as committed builds a staging site that is noindex on every
   assert.equal(built.status, 0, built.stderr);
   assert.equal(check(root, 'staging').status, 0);
   const files = await htmlFiles(path.join(root, 'dist'));
-  assert.ok(files.length >= 12, `expected the core pages, found ${files.length}`);
+  assert.ok(files.length >= 13, `expected the core pages, found ${files.length}`);
   for (const file of files) assert.match(await readFile(file, 'utf8'), /<meta name="robots" content="noindex,nofollow(?:,noarchive)?">/, file);
   assert.match(await readFile(path.join(root, 'dist/.htaccess'), 'utf8'), /X-Robots-Tag "noindex, nofollow, noarchive"/);
   const sitemap = await readFile(path.join(root, 'dist/sitemap.xml'), 'utf8');
