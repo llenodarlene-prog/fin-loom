@@ -1,0 +1,308 @@
+{
+  "tracker_id": "Blog:S11",
+  "status": "scaffolded",
+  "research_question": "",
+  "research_brief": {
+    "purpose": "",
+    "audience": "",
+    "publication_year": "",
+    "data_period": "",
+    "scope_limitations": ""
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "PayPal statistics",
+    "intent": "Informational",
+    "serp_checked_at": "",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "pending",
+        "retrieved_at": ""
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "",
+        "type": "short-tail",
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "intent": "",
+        "ranking_url": "",
+        "retrieved_at": "",
+        "tool": ""
+      },
+      {
+        "keyword": "",
+        "type": "long-tail",
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "intent": "",
+        "ranking_url": "",
+        "retrieved_at": "",
+        "tool": ""
+      },
+      {
+        "keyword": "",
+        "type": "commercial",
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "intent": "",
+        "ranking_url": "",
+        "retrieved_at": "",
+        "tool": ""
+      },
+      {
+        "keyword": "",
+        "type": "problem",
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "intent": "",
+        "ranking_url": "",
+        "retrieved_at": "",
+        "tool": ""
+      },
+      {
+        "keyword": "",
+        "type": "question",
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "intent": "",
+        "ranking_url": "",
+        "retrieved_at": "",
+        "tool": ""
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000021/pypl4q-25earningsrelease.htm",
+      "title": "PayPal Fourth Quarter and Full Year 2025 Results",
+      "publisher": "PayPal Holdings, Inc. (SEC filing)",
+      "source_type": "Company earnings release",
+      "year": "2025",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-04",
+      "scope": "Full-year 2025 results",
+      "method": "Company disclosure filed with the SEC",
+      "limitations": "Non-GAAP measures defined by the company",
+      "verified": true
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000080/pypl2q-26earningsrelease.htm",
+      "title": "PayPal Second Quarter 2026 Results",
+      "publisher": "PayPal Holdings, Inc. (SEC filing)",
+      "source_type": "Company earnings release",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-04",
+      "scope": "Second-quarter 2026 results",
+      "method": "Company disclosure filed with the SEC",
+      "limitations": "Quarterly figures; rounded in the release",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "PayPal total payment volume was $1.79 trillion in 2025, up 7%.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000021/pypl4q-25earningsrelease.htm",
+      "data_year": "2025",
+      "geography": "Global",
+      "population": "Company-wide",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Company-reported financial results",
+      "limitations": "As reported; later filings may restate",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "PayPal had 439 million active accounts at the end of 2025, up 1.1%.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000021/pypl4q-25earningsrelease.htm",
+      "data_year": "2025",
+      "geography": "Global",
+      "population": "Company-wide",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "Accounts",
+      "method": "Company-reported financial results",
+      "limitations": "As reported; later filings may restate",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "PayPal payment transactions were 25.4 billion in 2025, down 4%; net revenues were $33.2 billion, up 4%; GAAP operating income was $6.1 billion; free cash flow was $5.6 billion; transaction margin dollars were $15.5 billion.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000021/pypl4q-25earningsrelease.htm",
+      "data_year": "2025",
+      "geography": "Global",
+      "population": "Company-wide",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Company-reported financial results",
+      "limitations": "As reported; later filings may restate",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "In Q2 2026 PayPal total payment volume was $486.4 billion, up 10%; payment transactions were 6.8 billion, up 8%; net revenues were $8.7 billion, up 5%; GAAP operating income was $1.4 billion, down 5%.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000080/pypl2q-26earningsrelease.htm",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Company-wide",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Company-reported financial results",
+      "limitations": "As reported; later filings may restate",
+      "sponsored": false,
+      "partial_year": true,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "",
+      "url": "",
+      "publisher": "",
+      "format": "",
+      "updated_at": "",
+      "headings": [],
+      "coverage": [],
+      "sources": [],
+      "data_assets": [],
+      "link_patterns": [],
+      "trust_signals": [],
+      "covered_well": "",
+      "gaps": ""
+    },
+    {
+      "title": "",
+      "url": "",
+      "publisher": "",
+      "format": "",
+      "updated_at": "",
+      "headings": [],
+      "coverage": [],
+      "sources": [],
+      "data_assets": [],
+      "link_patterns": [],
+      "trust_signals": [],
+      "covered_well": "",
+      "gaps": ""
+    },
+    {
+      "title": "",
+      "url": "",
+      "publisher": "",
+      "format": "",
+      "updated_at": "",
+      "headings": [],
+      "coverage": [],
+      "sources": [],
+      "data_assets": [],
+      "link_patterns": [],
+      "trust_signals": [],
+      "covered_well": "",
+      "gaps": ""
+    },
+    {
+      "title": "",
+      "url": "",
+      "publisher": "",
+      "format": "",
+      "updated_at": "",
+      "headings": [],
+      "coverage": [],
+      "sources": [],
+      "data_assets": [],
+      "link_patterns": [],
+      "trust_signals": [],
+      "covered_well": "",
+      "gaps": ""
+    },
+    {
+      "title": "",
+      "url": "",
+      "publisher": "",
+      "format": "",
+      "updated_at": "",
+      "headings": [],
+      "coverage": [],
+      "sources": [],
+      "data_assets": [],
+      "link_patterns": [],
+      "trust_signals": [],
+      "covered_well": "",
+      "gaps": ""
+    }
+  ],
+  "content_gaps": [],
+  "value_add": "",
+  "plan": {
+    "reader_title": "PayPal Statistics 2026: Volume, Accounts, Revenue, and Payment Economics",
+    "seo_title": "PayPal Statistics 2026: Volume, Accounts, and Revenue",
+    "meta_description": "PayPal statistics for 2026 covering payment volume, active accounts, transactions, revenue, margins, cash flow, and the digital payments market.",
+    "slug": "/payments/paypal-statistics/",
+    "search_intent": "Informational",
+    "secondary_keywords": [],
+    "outline": [],
+    "evidence_map": [],
+    "visuals": [],
+    "internal_links": [
+      "/payments/"
+    ],
+    "external_link_opportunities": [],
+    "excluded_claims": [],
+    "drafting_cautions": []
+  },
+  "claims": [
+    {
+      "statement": "PayPal total payment volume was $1.79 trillion in 2025, up 7%.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000021/pypl4q-25earningsrelease.htm",
+      "verified": true
+    },
+    {
+      "statement": "PayPal had 439 million active accounts at the end of 2025, up 1.1%.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000021/pypl4q-25earningsrelease.htm",
+      "verified": true
+    },
+    {
+      "statement": "PayPal payment transactions were 25.4 billion in 2025, down 4%; net revenues were $33.2 billion, up 4%; GAAP operating income was $6.1 billion; free cash flow was $5.6 billion; transaction margin dollars were $15.5 billion.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000021/pypl4q-25earningsrelease.htm",
+      "verified": true
+    },
+    {
+      "statement": "In Q2 2026 PayPal total payment volume was $486.4 billion, up 10%; payment transactions were 6.8 billion, up 8%; net revenues were $8.7 billion, up 5%; GAAP operating income was $1.4 billion, down 5%.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000080/pypl2q-26earningsrelease.htm",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": false,
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  "qa": {
+    "completed": false,
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  "verification_log": {
+    "checked_on": "2026-10-04",
+    "summary": "CORRECTED: Q2 2026 net revenue ($8.68 billion) and operating income ($1.43 billion) were stated more precisely than the release gives; now $8.7 billion and $1.4 billion. REMOVED: Q2 free cash flow growth of 157%, which could not be confirmed. Headline annual and quarterly figures checked against both releases. Not yet checked: the 2025 Form 10-K, the cross-border share, Venmo and branded checkout statements, and share repurchase details in the body.",
+    "pending": "Ubersuggest keyword data, five-competitor review, remaining sources, and named fact-check and QA sign-off."
+  }
+}

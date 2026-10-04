@@ -1,0 +1,99 @@
+{
+  "root_folder_id": "1FhLoJ2QxkJUtpeBXq11UaFIPv_YeObEx",
+  "checked_at": "2026-10-03",
+  "note": "Inventory only. The ten articles are Fin Loom blog posts; see data/supplementary-content-plan.json. Each live Fin Loom URL is placed in an existing article on the named partner site.",
+  "files": [
+    {
+      "id": "1EGyA57ZA751BHjHKjF7qfz0RRL2El7quQIODIculxX4",
+      "title": "FinLoom - Website Branding Brief",
+      "role": "brand_reference",
+      "modified_time": "2026-09-22T01:41:02.356Z"
+    },
+    {
+      "id": "1dmQeaAdeptANIKtO418fZedy1cIQYWIwEh_qDxgf-lQ",
+      "title": "Portfolio Content Publishing Standards - All Brands",
+      "role": "editorial_standard",
+      "modified_time": "2026-09-22T02:28:43.277Z"
+    },
+    {
+      "id": "1Zolvqp3_TnjRnsy9UsRwYANfPl8RTnMQ",
+      "title": "01_crypto_airdrop_risk.md",
+      "role": "finloom_blog_post",
+      "target_source": "README_QA.md in the same folder",
+      "link_placement_site": "Use The Bitcoin",
+      "finloom_section": "/crypto/"
+    },
+    {
+      "id": "1LIpaFnq8LLdmE_cfFFTbxCpSFoT0IV2p",
+      "title": "02_crypto_research_tools.md",
+      "role": "finloom_blog_post",
+      "target_source": "README_QA.md in the same folder",
+      "link_placement_site": "Use The Bitcoin",
+      "finloom_section": "/crypto/"
+    },
+    {
+      "id": "1YZyUoi_HSY6thtHk2NhMZnNY6hACwtQ5",
+      "title": "03_bitcoin_portfolio_allocation.md",
+      "role": "finloom_blog_post",
+      "target_source": "README_QA.md in the same folder",
+      "link_placement_site": "Use The Bitcoin",
+      "finloom_section": "/investing/"
+    },
+    {
+      "id": "1V3vbjV_-A5rK3OSHnUxxq8kcSDJvrSqy",
+      "title": "04_crypto_custody.md",
+      "role": "finloom_blog_post",
+      "target_source": "README_QA.md in the same folder",
+      "link_placement_site": "Use The Bitcoin",
+      "finloom_section": "/crypto/"
+    },
+    {
+      "id": "1D5-VCp5rm9ZDwGZfJ60AHYpjWhiKXdcn",
+      "title": "05_dao_governance.md",
+      "role": "finloom_blog_post",
+      "target_source": "README_QA.md in the same folder",
+      "link_placement_site": "Use The Bitcoin",
+      "finloom_section": "/fintech/"
+    },
+    {
+      "id": "177cK6f7d19q1PLJQTqnmqTZ2NtRzP0d4",
+      "title": "06_crypto_vs_stocks.md",
+      "role": "finloom_blog_post",
+      "target_source": "not yet read; confirm from the article body",
+      "link_placement_site": "Stoxcraft",
+      "finloom_section": null
+    },
+    {
+      "id": "1lD4vFEb5xJebq3unJBw7siEGBN-tj-0Y",
+      "title": "07_stock_screener.md",
+      "role": "finloom_blog_post",
+      "target_source": "not yet read; confirm from the article body",
+      "link_placement_site": "Stoxcraft",
+      "finloom_section": null
+    },
+    {
+      "id": "1q2BOK3WdnkGW4b07OqF3R4YHRAEopcoY",
+      "title": "08_stock_risk_metrics.md",
+      "role": "finloom_blog_post",
+      "target_source": "not yet read; confirm from the article body",
+      "link_placement_site": "Stoxcraft",
+      "finloom_section": null
+    },
+    {
+      "id": "1IsASUpEOCkEWj1W-OMtYUNE9Q5tQRHv3",
+      "title": "09_saving_vs_investing.md",
+      "role": "finloom_blog_post",
+      "target_source": "link read in the article body",
+      "link_placement_site": "Stoxcraft",
+      "finloom_section": "/money-banking/"
+    },
+    {
+      "id": "1uvgiYB8vToImljOpmXTkJs6xNa_CndO4",
+      "title": "10_ai_capital_spending.md",
+      "role": "finloom_blog_post",
+      "target_source": "not yet read; confirm from the article body",
+      "link_placement_site": "Stoxcraft",
+      "finloom_section": null
+    }
+  ]
+}

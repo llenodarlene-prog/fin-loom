@@ -1,0 +1,232 @@
+{
+  "tracker_id": "Blog:S5",
+  "status": "scaffolded",
+  "research_question": "",
+  "research_brief": {
+    "purpose": "",
+    "audience": "",
+    "publication_year": "",
+    "data_period": "",
+    "scope_limitations": ""
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "DAO governance",
+    "intent": "Informational",
+    "serp_checked_at": "",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "pending",
+        "retrieved_at": ""
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "",
+        "type": "short-tail",
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "intent": "",
+        "ranking_url": "",
+        "retrieved_at": "",
+        "tool": ""
+      },
+      {
+        "keyword": "",
+        "type": "long-tail",
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "intent": "",
+        "ranking_url": "",
+        "retrieved_at": "",
+        "tool": ""
+      },
+      {
+        "keyword": "",
+        "type": "commercial",
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "intent": "",
+        "ranking_url": "",
+        "retrieved_at": "",
+        "tool": ""
+      },
+      {
+        "keyword": "",
+        "type": "problem",
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "intent": "",
+        "ranking_url": "",
+        "retrieved_at": "",
+        "tool": ""
+      },
+      {
+        "keyword": "",
+        "type": "question",
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "intent": "",
+        "ranking_url": "",
+        "retrieved_at": "",
+        "tool": ""
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "",
+      "title": "",
+      "publisher": "",
+      "source_type": "",
+      "year": "",
+      "published_at": "",
+      "accessed_at": "",
+      "scope": "",
+      "method": "",
+      "limitations": "",
+      "verified": false
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "",
+      "source_url": "",
+      "data_year": "",
+      "geography": "",
+      "population": "",
+      "sample": "",
+      "denominator": "",
+      "unit": "",
+      "method": "",
+      "limitations": "",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": false
+    }
+  ],
+  "competitors": [
+    {
+      "title": "",
+      "url": "",
+      "publisher": "",
+      "format": "",
+      "updated_at": "",
+      "headings": [],
+      "coverage": [],
+      "sources": [],
+      "data_assets": [],
+      "link_patterns": [],
+      "trust_signals": [],
+      "covered_well": "",
+      "gaps": ""
+    },
+    {
+      "title": "",
+      "url": "",
+      "publisher": "",
+      "format": "",
+      "updated_at": "",
+      "headings": [],
+      "coverage": [],
+      "sources": [],
+      "data_assets": [],
+      "link_patterns": [],
+      "trust_signals": [],
+      "covered_well": "",
+      "gaps": ""
+    },
+    {
+      "title": "",
+      "url": "",
+      "publisher": "",
+      "format": "",
+      "updated_at": "",
+      "headings": [],
+      "coverage": [],
+      "sources": [],
+      "data_assets": [],
+      "link_patterns": [],
+      "trust_signals": [],
+      "covered_well": "",
+      "gaps": ""
+    },
+    {
+      "title": "",
+      "url": "",
+      "publisher": "",
+      "format": "",
+      "updated_at": "",
+      "headings": [],
+      "coverage": [],
+      "sources": [],
+      "data_assets": [],
+      "link_patterns": [],
+      "trust_signals": [],
+      "covered_well": "",
+      "gaps": ""
+    },
+    {
+      "title": "",
+      "url": "",
+      "publisher": "",
+      "format": "",
+      "updated_at": "",
+      "headings": [],
+      "coverage": [],
+      "sources": [],
+      "data_assets": [],
+      "link_patterns": [],
+      "trust_signals": [],
+      "covered_well": "",
+      "gaps": ""
+    }
+  ],
+  "content_gaps": [],
+  "value_add": "",
+  "plan": {
+    "reader_title": "DAO Governance and DeFi: What Token Voting Controls",
+    "seo_title": "DAO Governance: How Token Voting Works in Practice",
+    "meta_description": "Learn how DAO governance works, how delegation and quorum shape voting power, and what token holders control in protocols such as Uniswap.",
+    "slug": "/fintech/dao-governance/",
+    "search_intent": "Informational",
+    "secondary_keywords": [],
+    "outline": [],
+    "evidence_map": [],
+    "visuals": [],
+    "internal_links": [
+      "/fintech/"
+    ],
+    "external_link_opportunities": [],
+    "excluded_claims": [],
+    "drafting_cautions": []
+  },
+  "claims": [
+    {
+      "statement": "",
+      "source_url": "",
+      "verified": false
+    }
+  ],
+  "fact_check": {
+    "completed": false,
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  "qa": {
+    "completed": false,
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  "verification_log": {
+    "checked_on": "2026-10-04",
+    "summary": "Content checks pass after the editing pass. No source in this post has been checked against its original yet.",
+    "pending": "All source verification, Ubersuggest keyword data, five-competitor review, and named fact-check and QA sign-off."
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "tracker_id": "Blog:S6",
+  "status": "scaffolded",
+  "research_question": "",
+  "research_brief": {
+    "purpose": "",
+    "audience": "",
+    "publication_year": "",
+    "data_period": "",
+    "scope_limitations": ""
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "crypto vs stocks",
+    "intent": "Informational",
+    "serp_checked_at": "",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "pending",
+        "retrieved_at": ""
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "",
+        "type": "short-tail",
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "intent": "",
+        "ranking_url": "",
+        "retrieved_at": "",
+        "tool": ""
+      },
+      {
+        "keyword": "",
+        "type": "long-tail",
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "intent": "",
+        "ranking_url": "",
+        "retrieved_at": "",
+        "tool": ""
+      },
+      {
+        "keyword": "",
+        "type": "commercial",
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "intent": "",
+        "ranking_url": "",
+        "retrieved_at": "",
+        "tool": ""
+      },
+      {
+        "keyword": "",
+        "type": "problem",
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "intent": "",
+        "ranking_url": "",
+        "retrieved_at": "",
+        "tool": ""
+      },
+      {
+        "keyword": "",
+        "type": "question",
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "intent": "",
+        "ranking_url": "",
+        "retrieved_at": "",
+        "tool": ""
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.sec.gov/edgar/search/",
+      "title": "EDGAR Full Text Search",
+      "publisher": "U.S. Securities and Exchange Commission",
+      "source_type": "Regulator database",
+      "year": "not applicable",
+      "published_at": "not applicable",
+      "accessed_at": "2026-10-04",
+      "scope": "Public company filings",
+      "method": "Database of filed disclosures",
+      "limitations": "A search tool, not a statement of fact",
+      "verified": true
+    },
+    {
+      "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation",
+      "title": "Asset Allocation and Diversification",
+      "publisher": "Investor.gov (U.S. SEC)",
+      "source_type": "Government publication",
+      "year": "not applicable",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-04",
+      "scope": "Investor education on allocation and diversification",
+      "method": "Regulator guidance",
+      "limitations": "General education, not advice for any individual",
+      "verified": true
+    },
+    {
+      "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/crypto-asset-custody-basics-retail-investors-investor-bulletin-0",
+      "title": "Crypto Asset Custody Basics for Retail Investors: Investor Bulletin",
+      "publisher": "Investor.gov (U.S. SEC)",
+      "source_type": "Government publication",
+      "year": "2025",
+      "published_at": "2025-12-12",
+      "accessed_at": "2026-10-04",
+      "scope": "How retail investors can hold crypto assets",
+      "method": "Staff investor bulletin",
+      "limitations": "Staff views, not a rule or Commission statement",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "",
+      "source_url": "",
+      "data_year": "",
+      "geography": "",
+      "population": "",
+      "sample": "",
+      "denominator": "",
+      "unit": "",
+      "method": "",
+      "limitations": "",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": false
+    }
+  ],
+  "competitors": [
+    {
+      "title": "",
+      "url": "",
+      "publisher": "",
+      "format": "",
+      "updated_at": "",
+      "headings": [],
+      "coverage": [],
+      "sources": [],
+      "data_assets": [],
+      "link_patterns": [],
+      "trust_signals": [],
+      "covered_well": "",
+      "gaps": ""
+    },
+    {
+      "title": "",
+      "url": "",
+      "publisher": "",
+      "format": "",
+      "updated_at": "",
+      "headings": [],
+      "coverage": [],
+      "sources": [],
+      "data_assets": [],
+      "link_patterns": [],
+      "trust_signals": [],
+      "covered_well": "",
+      "gaps": ""
+    },
+    {
+      "title": "",
+      "url": "",
+      "publisher": "",
+      "format": "",
+      "updated_at": "",
+      "headings": [],
+      "coverage": [],
+      "sources": [],
+      "data_assets": [],
+      "link_patterns": [],
+      "trust_signals": [],
+      "covered_well": "",
+      "gaps": ""
+    },
+    {
+      "title": "",
+      "url": "",
+      "publisher": "",
+      "format": "",
+      "updated_at": "",
+      "headings": [],
+      "coverage": [],
+      "sources": [],
+      "data_assets": [],
+      "link_patterns": [],
+      "trust_signals": [],
+      "covered_well": "",
+      "gaps": ""
+    },
+    {
+      "title": "",
+      "url": "",
+      "publisher": "",
+      "format": "",
+      "updated_at": "",
+      "headings": [],
+      "coverage": [],
+      "sources": [],
+      "data_assets": [],
+      "link_patterns": [],
+      "trust_signals": [],
+      "covered_well": "",
+      "gaps": ""
+    }
+  ],
+  "content_gaps": [],
+  "value_add": "",
+  "plan": {
+    "reader_title": "Crypto vs Stocks: Comparing Volatility, Drawdowns, Liquidity, and Returns",
+    "seo_title": "Crypto vs Stocks: Risk, Liquidity, and Returns Compared",
+    "meta_description": "Compare crypto vs stocks across volatility, liquidity, ownership, regulation, diversification, and portfolio use with a practical risk framework.",
+    "slug": "/investing/crypto-vs-stocks/",
+    "search_intent": "Informational",
+    "secondary_keywords": [],
+    "outline": [],
+    "evidence_map": [],
+    "visuals": [],
+    "internal_links": [
+      "/investing/"
+    ],
+    "external_link_opportunities": [],
+    "excluded_claims": [],
+    "drafting_cautions": []
+  },
+  "claims": [
+    {
+      "statement": "",
+      "source_url": "",
+      "verified": false
+    }
+  ],
+  "fact_check": {
+    "completed": false,
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  "qa": {
+    "completed": false,
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  "verification_log": {
+    "checked_on": "2026-10-04",
+    "summary": "Checked the diversification definition and the custody bulletin (wallets store private keys; seed phrases; multi-factor authentication). The three charts are arithmetic from the post's own tables. Not yet checked: the Investor.gov crypto asset investor alert listed in Resources.",
+    "pending": "Ubersuggest keyword data, five-competitor review, remaining sources, and named fact-check and QA sign-off."
+  }
+}

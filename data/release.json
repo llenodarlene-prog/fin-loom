@@ -1,0 +1,74 @@
+{
+  "schema_version": 2,
+  "launch_policy": {
+    "minimum_published_blogs": 1,
+    "required_pages": [
+      "/",
+      "/about/",
+      "/money-banking/",
+      "/investing/",
+      "/markets-stocks/",
+      "/fintech/",
+      "/payments/",
+      "/crypto/",
+      "/contact/",
+      "/partner-with-us/",
+      "/privacy/",
+      "/terms/",
+      "/404/"
+    ],
+    "legal_pages": [
+      "/privacy/",
+      "/terms/"
+    ],
+    "publication_cadence": "Publish a post when its research record is verified and it passes the research, citation, content, SEO, and AI-language checks; the production deploy fails if it does not. The owner's schedule allows several posts a day.",
+    "editorial_backlog": "data/launch-content-plan.json keeps the 10 articles and 10 blogs with tracker-approved URLs as the editorial plan. It is not a launch requirement and drafts never block a release."
+  },
+  "contact": {
+    "approved": true,
+    "email": "finloom@gmail.com",
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04",
+    "basis": "Site owner instruction of 2026-10-04: \"approved all contents, we can put these to live\"."
+  },
+  "privacy": {
+    "approved": true,
+    "policy_effective_date": "October 3, 2026",
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04",
+    "basis": "Site owner instruction of 2026-10-04: \"approved all contents, we can put these to live\"."
+  },
+  "disclaimer": {
+    "approved": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04",
+    "basis": "Site owner instruction of 2026-10-04: \"approved all contents, we can put these to live\"."
+  },
+  "brand_clearance": {
+    "approved": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04",
+    "basis": "Owner decision of 2026-10-04 to launch under the Fin Loom name after being shown the tracker flag. This records the owner's decision to proceed; it is not a trademark counsel opinion, and no counsel review is recorded.",
+    "note": "The tracker Brand Strategy sheet flags an active FINLOOM U.S. trademark application (filed 25 Mar 2026) and asks for trademark counsel review before public launch."
+  },
+  "staging_review": {
+    "approved": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04",
+    "basis": "Site owner instruction of 2026-10-04: \"approved all contents, we can put these to live\"."
+  },
+  "production_approval": {
+    "approved": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04",
+    "change_reference": "https://github.com/llenodarlene-prog/fin-loom/pull/15",
+    "basis": "Site owner instruction of 2026-10-04 to launch the website, including replacing the WordPress install currently served at finloom.org."
+  },
+  "partner_terms": {
+    "approved": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04",
+    "note": "The partnership standards on /partner-with-us/ were drafted for the owner and need sign-off before launch.",
+    "basis": "Site owner instruction of 2026-10-04: \"approved all contents, we can put these to live\"."
+  }
+}

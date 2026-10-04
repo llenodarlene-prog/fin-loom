@@ -1,0 +1,34 @@
+{
+  "tracker_brand": "FinLoom",
+  "name": "Fin Loom",
+  "repository": "fin-loom",
+  "url": "https://finloom.org",
+  "tagline": "Financial Insights. A Brighter Tomorrow.",
+  "description": "Independent financial insights across money, investing, markets, fintech, payments, and digital assets.",
+  "locale": "en-US",
+  "fonts": {
+    "display": "Libre Baskerville",
+    "body": "Manrope",
+    "ui": "Manrope"
+  },
+  "font_weights": {
+    "Libre Baskerville": "400;700",
+    "Manrope": "400;500;600;700"
+  },
+  "theme": {
+    "ink": "#2B1F5B",
+    "accent": "#5A46D6",
+    "secondary": "#A78BFA",
+    "paper": "#E9E7F4",
+    "charcoal": "#0F1226"
+  },
+  "brand_assets": {
+    "logo": "/assets/brand/finloom-logo.png",
+    "icon": "/assets/brand/finloom-icon.png",
+    "social": "/assets/brand/finloom-social.png"
+  },
+  "launch_status": "ready",
+  "verified_contact_details": true,
+  "tracker_sha256": "3ba9d361b58edf27e92463febe968f71740860342674557209f521b62a034fc7",
+  "source_modified": "2026-09-22T17:43:01.793694"
+}

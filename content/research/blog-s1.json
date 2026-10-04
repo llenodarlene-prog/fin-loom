@@ -1,0 +1,442 @@
+{
+  "tracker_id": "Blog:S1",
+  "status": "verified",
+  "research_question": "How should a reader judge whether a crypto airdrop is safe to claim and worth holding?",
+  "research_brief": {
+    "purpose": "Give readers a checkable due-diligence process for airdrop claims, covering both security and token economics.",
+    "audience": "Retail crypto users who receive or seek airdrops, and readers assessing whether a claim is safe.",
+    "publication_year": "2026",
+    "data_period": "2024-2026",
+    "scope_limitations": "Scam figures cover crypto scams broadly, not airdrops alone. The post gives a process, not a list of current airdrops, and makes no recommendation to claim or hold any token."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "crypto airdrop",
+    "intent": "Informational, with navigational searches for airdrop listings",
+    "serp_checked_at": "2026-10-04",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-04"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "crypto airdrop",
+        "type": "short-tail",
+        "volume": 1300,
+        "difficulty": 61,
+        "cpc": 5.89,
+        "intent": "Informational and navigational",
+        "ranking_url": "https://airdropalert.com/",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "how to get crypto airdrop",
+        "type": "long-tail",
+        "volume": 50,
+        "difficulty": 55,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.reddit.com/r/CryptoCurrency/comments/1copmtp/how_do_i_start_with_airdrops/",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best crypto airdrop",
+        "type": "commercial",
+        "volume": 50,
+        "difficulty": 56,
+        "cpc": 0,
+        "intent": "Commercial investigation",
+        "ranking_url": "https://cryptorank.io/drophunting",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "crypto airdrop scam",
+        "type": "problem",
+        "volume": 40,
+        "difficulty": 27,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://trezor.io/support/troubleshooting/coins-tokens/dusting-attacks-airdrop-scam-tokens",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is crypto airdrop",
+        "type": "question",
+        "volume": 90,
+        "difficulty": 6,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://coinspaid.com/glossary/airdrop/",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.chainalysis.com/blog/crypto-scams-2026/",
+      "title": "Record $17 Billion Estimated Stolen in Crypto Scams and Fraud in 2025 as Impersonation Tactics and AI Enablement Surge",
+      "publisher": "Chainalysis",
+      "source_type": "Industry research",
+      "year": "2025",
+      "published_at": "2026-01-13",
+      "accessed_at": "2026-10-04",
+      "scope": "On-chain inflows to addresses attributed to scams",
+      "method": "Blockchain analysis of identified scam addresses",
+      "limitations": "A lower bound that rises as more addresses are identified; covers scams broadly, not airdrops alone",
+      "verified": true
+    },
+    {
+      "url": "https://www.chainalysis.com/blog/crypto-drainers/",
+      "title": "Understanding Crypto Drainers",
+      "publisher": "Chainalysis",
+      "source_type": "Industry research",
+      "year": "2024",
+      "published_at": "2024-05-16",
+      "accessed_at": "2026-10-04",
+      "scope": "How wallet-draining phishing tools operate",
+      "method": "Blockchain analysis and case description",
+      "limitations": "Published in 2024; tactics change",
+      "verified": true
+    },
+    {
+      "url": "https://www.fbi.gov/investigate/cyber/alerts/2025/cybercriminals-defraud-hedera-hashgraph-network-non-custodial-wallet-users-through-nonfungible-token-airdrops-disguised-as-free-rewards",
+      "title": "Cyber Criminals Defraud Hedera Hashgraph Network Non-Custodial Wallet Users Through Nonfungible Token Airdrops Disguised as Free Rewards",
+      "publisher": "Federal Bureau of Investigation",
+      "source_type": "Government alert",
+      "year": "2025",
+      "published_at": "2025-06-03",
+      "accessed_at": "2026-10-04",
+      "scope": "A specific airdrop phishing technique on one network",
+      "method": "Law enforcement public service announcement",
+      "limitations": "The FBI page blocks automated access; content confirmed from the identical announcement published by IC3 as PSA250603",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Cryptocurrency scams received at least $14 billion on-chain in 2025; the 2025 figure could exceed $17 billion; the 2024 figure was $12 billion at recalculation.",
+      "source_url": "https://www.chainalysis.com/blog/crypto-scams-2026/",
+      "data_year": "2025",
+      "geography": "Global",
+      "population": "Addresses Chainalysis attributes to scams",
+      "sample": "Not applicable: on-chain measurement",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Blockchain analysis",
+      "limitations": "Lower bound; the $17 billion figure is a projection",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": true,
+      "verified": true
+    },
+    {
+      "claim": "The average scam payment rose from $782 in 2024 to $2,764 in 2025, an increase of 253%.",
+      "source_url": "https://www.chainalysis.com/blog/crypto-scams-2026/",
+      "data_year": "2025",
+      "geography": "Global",
+      "population": "Payments to addresses Chainalysis attributes to scams",
+      "sample": "Not applicable: on-chain measurement",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Blockchain analysis",
+      "limitations": "Depends on address attribution",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Crypto Airdrops: New Verified Airdrops Daily",
+      "url": "https://airdropalert.com/",
+      "publisher": "AirdropAlert",
+      "format": "Airdrop directory",
+      "updated_at": "not stated",
+      "headings": [
+        "Featured and categorized airdrops",
+        "How it works",
+        "Testimonials",
+        "FAQ"
+      ],
+      "coverage": [
+        "Listings of current airdrops",
+        "Verification claims"
+      ],
+      "sources": [
+        "No external sources cited"
+      ],
+      "data_assets": [
+        "Counts of listed airdrops",
+        "Live prices"
+      ],
+      "link_patterns": [
+        "Internal listing links",
+        "Unlinked press mentions"
+      ],
+      "trust_signals": [
+        "Named founder",
+        "Disclaimer"
+      ],
+      "covered_well": "A current, browsable directory that positions itself as hand-verified.",
+      "gaps": "No treatment of wallet approvals, token supply, liquidity, or scam prevalence."
+    },
+    {
+      "title": "What is a crypto airdrop?",
+      "url": "https://www.coinbase.com/learn/crypto-basics/what-is-a-crypto-airdrop",
+      "publisher": "Coinbase",
+      "format": "Explainer article",
+      "updated_at": "not stated",
+      "headings": [
+        "Understanding Crypto Airdrops",
+        "Types of Crypto Airdrops",
+        "How Crypto Airdrops Work",
+        "Earning Through Crypto Airdrops",
+        "Safety Measures for Crypto Airdrops"
+      ],
+      "coverage": [
+        "Definition",
+        "Types",
+        "Mechanics",
+        "Basic safety"
+      ],
+      "sources": [
+        "Mostly internal links"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Internal learn links",
+        "Product calls to action"
+      ],
+      "trust_signals": [
+        "Informational disclaimer",
+        "Recognized brand"
+      ],
+      "covered_well": "A short, clear definition and overview of airdrop types.",
+      "gaps": "Does not discuss approvals, liquidity, or scams in any detail."
+    },
+    {
+      "title": "What Is an Airdrop in Crypto? Meaning and How to Get One",
+      "url": "https://crypto.com/us/crypto/learn/what-is-a-crypto-airdrop-and-how-does-it-work",
+      "publisher": "Crypto.com",
+      "format": "Explainer article",
+      "updated_at": "not stated",
+      "headings": [
+        "What is a crypto airdrop?",
+        "How do crypto airdrops work?",
+        "Real-world crypto airdrop examples",
+        "How to participate in crypto airdrops",
+        "How to find legitimate crypto airdrops",
+        "Are crypto airdrops safe and legal?",
+        "FAQs"
+      ],
+      "coverage": [
+        "Definition",
+        "Examples",
+        "Participation steps",
+        "Legitimacy checks",
+        "Tax mention"
+      ],
+      "sources": [
+        "No external sources cited"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Internal product links"
+      ],
+      "trust_signals": [
+        "Author byline",
+        "Sponsored-content disclaimer",
+        "Security certifications"
+      ],
+      "covered_well": "Broad coverage from definition to participation, with named historical examples.",
+      "gaps": "Light on approval management, supply dilution, and liquidity; no scam statistics."
+    },
+    {
+      "title": "Crypto Airdrops 2026: Verified Farming Guides and Free Drops",
+      "url": "https://airdrops.io/",
+      "publisher": "Airdrops.io",
+      "format": "Airdrop directory",
+      "updated_at": "not stated",
+      "headings": [
+        "Latest Airdrops",
+        "Hottest Airdrops",
+        "Updated Airdrops",
+        "Verification methodology"
+      ],
+      "coverage": [
+        "Status-tagged listings",
+        "Action steps per airdrop"
+      ],
+      "sources": [
+        "No external sources cited"
+      ],
+      "data_assets": [
+        "Counts of tracked and active airdrops"
+      ],
+      "link_patterns": [
+        "Internal listing links"
+      ],
+      "trust_signals": [
+        "Stated internal review",
+        "Aggregator disclaimer"
+      ],
+      "covered_well": "A categorized, current directory with clear status labels.",
+      "gaps": "Mentions fake claim sites and drainers without explaining how to detect them or how common they are."
+    },
+    {
+      "title": "What is a crypto airdrop and how does it work?",
+      "url": "https://www.fidelity.com/learning-center/trading-investing/crypto-airdrop",
+      "publisher": "Fidelity",
+      "format": "Explainer article",
+      "updated_at": "2024-01-03",
+      "headings": [
+        "What is a crypto airdrop?",
+        "How do crypto airdrops work?",
+        "Types of crypto airdrops",
+        "Why do crypto development teams do airdrops?",
+        "Potential pros",
+        "Potential cons",
+        "What to keep in mind"
+      ],
+      "coverage": [
+        "Definition",
+        "Types",
+        "Motivations",
+        "Pros and cons",
+        "Tax warning"
+      ],
+      "sources": [
+        "Internal links only"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Internal learning-center links"
+      ],
+      "trust_signals": [
+        "Regulatory disclaimers",
+        "Risk warnings"
+      ],
+      "covered_well": "A balanced overview with pros, cons, and a tax warning from a regulated brokerage.",
+      "gaps": "Dated January 2024; nothing on approvals, supply, liquidity, or scam data."
+    }
+  ],
+  "content_gaps": [
+    "Ranking pages define airdrops or list them; none walks through what a wallet signature or approval grants.",
+    "No ranking page reviewed gives sourced scam figures.",
+    "Token economics (circulating supply, unlocks, holder concentration, liquidity) are absent from the explainers.",
+    "None gives a stop-list of red flags tied to a step-by-step check."
+  ],
+  "value_add": "A due-diligence process that treats the claim as two questions, whether it is safe to interact with and whether the token is worth holding, supported by sourced scam data and two charts.",
+  "plan": {
+    "reader_title": "Crypto Airdrop Risk: How to Evaluate Tokens Before You Claim",
+    "seo_title": "Crypto Airdrop Risk: How to Evaluate Tokens Safely",
+    "meta_description": "Learn how to evaluate a crypto airdrop, check token legitimacy, inspect wallet permissions, and reduce phishing and smart-contract risk.",
+    "slug": "/crypto/crypto-airdrop-risk/",
+    "search_intent": "Informational: readers want to know whether and how to claim safely.",
+    "secondary_keywords": [
+      "airdrop scam",
+      "crypto airdrop scam",
+      "how to get crypto airdrop",
+      "token airdrop risk"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "A Crypto Airdrop Has More Than One Kind of Risk",
+      "Verify the Airdrop Before You Connect a Wallet",
+      "Check the Domain, Not Just the Logo",
+      "Understand What the Wallet Is Asking You to Sign",
+      "Use a Separate Wallet for Airdrop Activity",
+      "Review Existing Token Allowances",
+      "Confirm the Token Contract",
+      "Evaluate Holder Concentration",
+      "Circulating Supply Matters More Than the Headline Supply Number",
+      "Read the Unlock Schedule",
+      "Liquidity Can Matter More Than the Displayed Token Price",
+      "Compare Market Cap With Fully Diluted Valuation Carefully",
+      "Check Whether the Token Has a Reason to Exist",
+      "Measure the Real Cost of “Free”",
+      "Beware of Eligibility Checkers",
+      "Avoid “Pay First to Receive the Airdrop” Traps",
+      "Do Not Let Social Proof Replace Verification",
+      "A Practical Crypto Airdrop Due-Diligence Workflow",
+      "Red Flags That Should Stop the Claim",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Introduction and scam charts: Chainalysis 2026 scams report",
+      "FBI warning in the introduction: FBI alert of June 3, 2025",
+      "Wallet approval sections: Chainalysis explanation of drainers"
+    ],
+    "visuals": [
+      "Hero photograph of an airdrop claim review",
+      "Chart: crypto scam and fraud inflows (Chainalysis)",
+      "Chart: average crypto scam payment (Chainalysis)"
+    ],
+    "internal_links": [
+      "/crypto/"
+    ],
+    "external_link_opportunities": [
+      "https://www.chainalysis.com/blog/crypto-scams-2026/",
+      "https://www.chainalysis.com/blog/crypto-drainers/",
+      "https://www.fbi.gov/investigate/cyber/alerts/2025/cybercriminals-defraud-hedera-hashgraph-network-non-custodial-wallet-users-through-nonfungible-token-airdrops-disguised-as-free-rewards"
+    ],
+    "excluded_claims": [
+      "Any claim that a specific airdrop is safe or valuable",
+      "Airdrop-specific loss totals, which the sources do not provide",
+      "Tax treatment for any jurisdiction"
+    ],
+    "drafting_cautions": [
+      "Scam figures cover crypto scams broadly, not airdrops alone",
+      "The $17 billion figure is a projection"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Scams received at least $14 billion on-chain in 2025 and the figure could exceed $17 billion.",
+      "source_url": "https://www.chainalysis.com/blog/crypto-scams-2026/",
+      "verified": true
+    },
+    {
+      "statement": "Drainers pose as Web3 projects and get victims to approve transactions that hand over control of funds.",
+      "source_url": "https://www.chainalysis.com/blog/crypto-drainers/",
+      "verified": true
+    },
+    {
+      "statement": "In June 2025 the FBI warned that criminals were using NFT airdrops disguised as free rewards.",
+      "source_url": "https://www.fbi.gov/investigate/cyber/alerts/2025/cybercriminals-defraud-hedera-hashgraph-network-non-custodial-wallet-users-through-nonfungible-token-airdrops-disguised-as-free-rewards",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04",
+    "note": "Approved by the site owner in the build session of 2026-10-04 after reviewing the verification summary."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04",
+    "note": "Approved by the site owner in the build session of 2026-10-04 after reviewing the verification summary."
+  },
+  "verification_log": {
+    "checked_on": "2026-10-04",
+    "summary": "Keyword data from Ubersuggest, five ranking pages reviewed, three sources and both chart datasets checked against the originals. Two unverified Resources links (Binance Academy, Coinbase) were removed before publication.",
+    "pending": "None."
+  }
+}

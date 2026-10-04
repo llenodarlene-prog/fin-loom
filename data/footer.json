@@ -1,0 +1,66 @@
+{
+  "source": "FinLoom Files/02 Website Copy/Website Copy Draft.docx (supplied 2026-10-03), edited for brand voice",
+  "description": "Fin Loom is an independent financial publication covering money, investing, markets, fintech, payments, and digital assets.",
+  "columns": [
+    {
+      "heading": "Explore",
+      "links": [
+        {
+          "label": "Money & Banking",
+          "url": "/money-banking/"
+        },
+        {
+          "label": "Investing",
+          "url": "/investing/"
+        },
+        {
+          "label": "Markets & Stocks",
+          "url": "/markets-stocks/"
+        },
+        {
+          "label": "Fintech",
+          "url": "/fintech/"
+        },
+        {
+          "label": "Payments",
+          "url": "/payments/"
+        },
+        {
+          "label": "Crypto & Digital Assets",
+          "url": "/crypto/"
+        }
+      ]
+    },
+    {
+      "heading": "About",
+      "links": [
+        {
+          "label": "About Us",
+          "url": "/about/"
+        },
+        {
+          "label": "Contact Us",
+          "url": "/contact/"
+        },
+        {
+          "label": "Partner With Us",
+          "url": "/partner-with-us/"
+        }
+      ]
+    },
+    {
+      "heading": "Legal",
+      "links": [
+        {
+          "label": "Privacy Policy",
+          "url": "/privacy/"
+        },
+        {
+          "label": "Terms and Conditions",
+          "url": "/terms/"
+        }
+      ]
+    }
+  ],
+  "disclaimer": "Fin Loom publishes financial information for educational and informational purposes. Nothing on this website should be interpreted as personalized investment, tax, legal, accounting, or financial advice."
+}

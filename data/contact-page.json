@@ -1,0 +1,34 @@
+{
+  "source": "FinLoom Files/02 Website Copy/Website Copy Draft.docx (supplied 2026-10-03), edited for brand voice",
+  "eyebrow": "Contact",
+  "heading": "Contact Fin Loom",
+  "intro": "Questions, corrections, research suggestions, and considered feedback are welcome. Fin Loom is reachable by email only.",
+  "email_label": "Email",
+  "enquiries_heading": "What You Can Contact Us About",
+  "enquiries": [
+    {
+      "title": "Editorial Questions",
+      "text": "Questions about an article, dataset, methodology, or source."
+    },
+    {
+      "title": "Corrections",
+      "text": "If a factual statement, statistic, link, or explanation needs review, include the page URL and a short description of the issue."
+    },
+    {
+      "title": "Research Suggestions",
+      "text": "Suggestions for financial topics, datasets, companies, technologies, and market questions worth investigating."
+    },
+    {
+      "title": "Contributor Inquiries",
+      "text": "Writers, analysts, researchers, and subject-matter specialists may write about potential editorial contributions."
+    },
+    {
+      "title": "Business Inquiries",
+      "text": "Sponsored posts, guest posts, licensing, syndication, and other business matters.",
+      "url": "/partner-with-us/",
+      "link": "Partner With Us"
+    }
+  ],
+  "note": "We review relevant messages as soon as practical.",
+  "enquiry_link": "Email us"
+}

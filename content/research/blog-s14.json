@@ -1,0 +1,321 @@
+{
+  "tracker_id": "Blog:S14",
+  "status": "scaffolded",
+  "research_question": "",
+  "research_brief": {
+    "purpose": "",
+    "audience": "",
+    "publication_year": "",
+    "data_period": "",
+    "scope_limitations": ""
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "Apple statistics",
+    "intent": "Informational",
+    "serp_checked_at": "",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "pending",
+        "retrieved_at": ""
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "",
+        "type": "short-tail",
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "intent": "",
+        "ranking_url": "",
+        "retrieved_at": "",
+        "tool": ""
+      },
+      {
+        "keyword": "",
+        "type": "long-tail",
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "intent": "",
+        "ranking_url": "",
+        "retrieved_at": "",
+        "tool": ""
+      },
+      {
+        "keyword": "",
+        "type": "commercial",
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "intent": "",
+        "ranking_url": "",
+        "retrieved_at": "",
+        "tool": ""
+      },
+      {
+        "keyword": "",
+        "type": "problem",
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "intent": "",
+        "ranking_url": "",
+        "retrieved_at": "",
+        "tool": ""
+      },
+      {
+        "keyword": "",
+        "type": "question",
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "intent": "",
+        "ranking_url": "",
+        "retrieved_at": "",
+        "tool": ""
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.apple.com/newsroom/pdfs/fy2026-q1/FY26_Q1_Consolidated_Financial_Statements.pdf",
+      "title": "Apple Fiscal 2026 First Quarter Consolidated Financial Statements",
+      "publisher": "Apple Inc.",
+      "source_type": "Company financial statements",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-04",
+      "scope": "Three months ended December 2025",
+      "method": "Unaudited condensed consolidated statements",
+      "limitations": "Fiscal year differs from calendar year",
+      "verified": true
+    },
+    {
+      "url": "https://www.apple.com/newsroom/2026/04/apple-reports-second-quarter-results/",
+      "title": "Apple Reports Second Quarter Results",
+      "publisher": "Apple Newsroom",
+      "source_type": "Company earnings release",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-04",
+      "scope": "Fiscal second-quarter 2026 results",
+      "method": "Company disclosure",
+      "limitations": "Press release gives totals, not every category",
+      "verified": true
+    },
+    {
+      "url": "https://www.apple.com/newsroom/2026/07/apple-reports-third-quarter-results/",
+      "title": "Apple Reports Third Quarter Results",
+      "publisher": "Apple Newsroom",
+      "source_type": "Company earnings release",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-04",
+      "scope": "Fiscal third-quarter 2026 results",
+      "method": "Company disclosure",
+      "limitations": "Gross margin includes a tariff refund effect",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Apple fiscal Q1 2026 net sales were $143.8 billion (prior-year quarter $124.3 billion): Products $113.7 billion, Services $30.0 billion; net income $42.1 billion.",
+      "source_url": "https://www.apple.com/newsroom/pdfs/fy2026-q1/FY26_Q1_Consolidated_Financial_Statements.pdf",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Company-wide",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Company-reported financial results",
+      "limitations": "Fiscal quarter ended December 2025",
+      "sponsored": false,
+      "partial_year": true,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Apple fiscal Q1 2026 net sales by category: iPhone $85.27 billion, Services $30.01 billion, iPad $8.60 billion, Mac $8.39 billion; by segment: Americas $58.53 billion, Greater China $25.53 billion, Rest of Asia Pacific $12.14 billion.",
+      "source_url": "https://www.apple.com/newsroom/pdfs/fy2026-q1/FY26_Q1_Consolidated_Financial_Statements.pdf",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Company-wide",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Company-reported financial results",
+      "limitations": "Wearables, Europe, and Japan figures were read from a partial text extraction and should be rechecked visually",
+      "sponsored": false,
+      "partial_year": true,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Apple fiscal Q2 2026 revenue was $111.2 billion, up 17%.",
+      "source_url": "https://www.apple.com/newsroom/2026/04/apple-reports-second-quarter-results/",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Company-wide",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Company-reported financial results",
+      "limitations": "As reported; later filings may restate",
+      "sponsored": false,
+      "partial_year": true,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Apple fiscal Q3 2026 revenue was $109.4 billion, up 16%; gross margin was 50.1%, including about 2 percentage points from tariff refunds; the installed base of active devices reached an all-time high.",
+      "source_url": "https://www.apple.com/newsroom/2026/07/apple-reports-third-quarter-results/",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Company-wide",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Company-reported financial results",
+      "limitations": "As reported; later filings may restate",
+      "sponsored": false,
+      "partial_year": true,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "",
+      "url": "",
+      "publisher": "",
+      "format": "",
+      "updated_at": "",
+      "headings": [],
+      "coverage": [],
+      "sources": [],
+      "data_assets": [],
+      "link_patterns": [],
+      "trust_signals": [],
+      "covered_well": "",
+      "gaps": ""
+    },
+    {
+      "title": "",
+      "url": "",
+      "publisher": "",
+      "format": "",
+      "updated_at": "",
+      "headings": [],
+      "coverage": [],
+      "sources": [],
+      "data_assets": [],
+      "link_patterns": [],
+      "trust_signals": [],
+      "covered_well": "",
+      "gaps": ""
+    },
+    {
+      "title": "",
+      "url": "",
+      "publisher": "",
+      "format": "",
+      "updated_at": "",
+      "headings": [],
+      "coverage": [],
+      "sources": [],
+      "data_assets": [],
+      "link_patterns": [],
+      "trust_signals": [],
+      "covered_well": "",
+      "gaps": ""
+    },
+    {
+      "title": "",
+      "url": "",
+      "publisher": "",
+      "format": "",
+      "updated_at": "",
+      "headings": [],
+      "coverage": [],
+      "sources": [],
+      "data_assets": [],
+      "link_patterns": [],
+      "trust_signals": [],
+      "covered_well": "",
+      "gaps": ""
+    },
+    {
+      "title": "",
+      "url": "",
+      "publisher": "",
+      "format": "",
+      "updated_at": "",
+      "headings": [],
+      "coverage": [],
+      "sources": [],
+      "data_assets": [],
+      "link_patterns": [],
+      "trust_signals": [],
+      "covered_well": "",
+      "gaps": ""
+    }
+  ],
+  "content_gaps": [],
+  "value_add": "",
+  "plan": {
+    "reader_title": "Apple Statistics 2026: Revenue, iPhone, Services, and the Changing Business Mix",
+    "seo_title": "Apple Statistics 2026: Revenue, iPhone, and Services",
+    "meta_description": "Apple statistics for 2026 covering revenue, iPhone, Services, margins, installed devices, geographic growth, and the changing business mix.",
+    "slug": "/markets-stocks/apple-statistics/",
+    "search_intent": "Informational",
+    "secondary_keywords": [],
+    "outline": [],
+    "evidence_map": [],
+    "visuals": [],
+    "internal_links": [
+      "/markets-stocks/"
+    ],
+    "external_link_opportunities": [],
+    "excluded_claims": [],
+    "drafting_cautions": []
+  },
+  "claims": [
+    {
+      "statement": "Apple fiscal Q1 2026 net sales were $143.8 billion (prior-year quarter $124.3 billion): Products $113.7 billion, Services $30.0 billion; net income $42.1 billion.",
+      "source_url": "https://www.apple.com/newsroom/pdfs/fy2026-q1/FY26_Q1_Consolidated_Financial_Statements.pdf",
+      "verified": true
+    },
+    {
+      "statement": "Apple fiscal Q1 2026 net sales by category: iPhone $85.27 billion, Services $30.01 billion, iPad $8.60 billion, Mac $8.39 billion; by segment: Americas $58.53 billion, Greater China $25.53 billion, Rest of Asia Pacific $12.14 billion.",
+      "source_url": "https://www.apple.com/newsroom/pdfs/fy2026-q1/FY26_Q1_Consolidated_Financial_Statements.pdf",
+      "verified": true
+    },
+    {
+      "statement": "Apple fiscal Q2 2026 revenue was $111.2 billion, up 17%.",
+      "source_url": "https://www.apple.com/newsroom/2026/04/apple-reports-second-quarter-results/",
+      "verified": true
+    },
+    {
+      "statement": "Apple fiscal Q3 2026 revenue was $109.4 billion, up 16%; gross margin was 50.1%, including about 2 percentage points from tariff refunds; the installed base of active devices reached an all-time high.",
+      "source_url": "https://www.apple.com/newsroom/2026/07/apple-reports-third-quarter-results/",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": false,
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  "qa": {
+    "completed": false,
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  "verification_log": {
+    "checked_on": "2026-10-04",
+    "summary": "Headline figures checked against Apple's statements and releases. The gross margin bullet now states the size of the tariff refund effect. Not yet checked visually: Wearables ($11.49 billion), Europe ($38.15 billion), and Japan ($9.41 billion) in the Q1 tables; any shipment or market-share statements in the body must come from Apple or be labeled as third-party estimates.",
+    "pending": "Ubersuggest keyword data, five-competitor review, remaining sources, and named fact-check and QA sign-off."
+  }
+}

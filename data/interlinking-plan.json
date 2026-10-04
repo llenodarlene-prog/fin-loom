@@ -1,0 +1,934 @@
+[
+  {
+    "_source_row": 22,
+    "site": "FinLoom",
+    "type": "Article",
+    "working_title": "Investing Statistics by Income and Age",
+    "url_slug": "/investing/investing-statistics-income-age/",
+    "cluster": "Investing",
+    "launch_silo": "Investor Behavior",
+    "silo_role": "Hub",
+    "publish_phase": 1,
+    "publish_order": 1,
+    "primary_silo_hub": "/investing/investing-statistics-income-age/",
+    "approved_outbound_targets": [
+      "/investing/retail-investor-statistics/",
+      "/investing/millennial-investing-statistics/",
+      "/investing/gen-z-investing-statistics/",
+      "/investing/women-investor-statistics/",
+      "/investing/mobile-investing-app-statistics/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/investing/retail-investor-statistics/",
+        "concept": "existing phrase about retail investor statistics"
+      },
+      {
+        "target": "/investing/millennial-investing-statistics/",
+        "concept": "existing phrase about millennial investing statistics"
+      },
+      {
+        "target": "/investing/gen-z-investing-statistics/",
+        "concept": "existing phrase about gen z investing statistics"
+      },
+      {
+        "target": "/investing/women-investor-statistics/",
+        "concept": "existing phrase about women investor statistics"
+      },
+      {
+        "target": "/investing/mobile-investing-app-statistics/",
+        "concept": "existing phrase about mobile investing app statistics"
+      }
+    ],
+    "reciprocal_inbound_from": [
+      "/investing/retail-investor-statistics/",
+      "/investing/millennial-investing-statistics/",
+      "/investing/gen-z-investing-statistics/",
+      "/investing/women-investor-statistics/"
+    ],
+    "placement_guidance": "Link downward in relevant overview sections. Use each target once when its subtopic already appears.",
+    "qa_status": "Planned — place links after drafting; flag any target with no natural home",
+    "content_number": "1"
+  },
+  {
+    "_source_row": 23,
+    "site": "FinLoom",
+    "type": "Article",
+    "working_title": "Fintech Statistics Across Financial Services",
+    "url_slug": "/fintech/fintech-statistics-financial-services/",
+    "cluster": "Fintech",
+    "launch_silo": "Fintech Market",
+    "silo_role": "Hub",
+    "publish_phase": 1,
+    "publish_order": 2,
+    "primary_silo_hub": "/fintech/fintech-statistics-financial-services/",
+    "approved_outbound_targets": [
+      "/payments/stripe-business-model/",
+      "/fintech/plaid-business-model/",
+      "/fintech/revolut-business-model/",
+      "/fintech/block-business-model/",
+      "/payments/paypal-business-model/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/payments/stripe-business-model/",
+        "concept": "existing phrase about stripe business model"
+      },
+      {
+        "target": "/fintech/plaid-business-model/",
+        "concept": "existing phrase about plaid business model"
+      },
+      {
+        "target": "/fintech/revolut-business-model/",
+        "concept": "existing phrase about revolut business model"
+      },
+      {
+        "target": "/fintech/block-business-model/",
+        "concept": "existing phrase about block business model"
+      },
+      {
+        "target": "/payments/paypal-business-model/",
+        "concept": "existing phrase about paypal business model"
+      }
+    ],
+    "reciprocal_inbound_from": [
+      "/crypto/coinbase-revenue-business-segments/",
+      "/payments/stripe-business-model/",
+      "/fintech/plaid-business-model/",
+      "/fintech/revolut-business-model/",
+      "/fintech/chime-business-model/",
+      "/fintech/sofi-business-model/",
+      "/fintech/block-business-model/",
+      "/payments/paypal-business-model/",
+      "/payments/wise-business-model/"
+    ],
+    "placement_guidance": "Link downward in relevant overview sections. Use each target once when its subtopic already appears.",
+    "qa_status": "Planned — place links after drafting; flag any target with no natural home",
+    "content_number": "2"
+  },
+  {
+    "_source_row": 24,
+    "site": "FinLoom",
+    "type": "Article",
+    "working_title": "Stock Market Statistics on Ownership and Trading",
+    "url_slug": "/markets-stocks/stock-market-statistics/",
+    "cluster": "Markets & Stocks",
+    "launch_silo": "Markets & Trading",
+    "silo_role": "Hub",
+    "publish_phase": 1,
+    "publish_order": 3,
+    "primary_silo_hub": "/markets-stocks/stock-market-statistics/",
+    "approved_outbound_targets": [
+      "/markets-stocks/online-trading-statistics/",
+      "/investing/retail-investor-statistics/",
+      "/markets-stocks/robinhood-business-model/",
+      "/investing/mobile-investing-app-statistics/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/markets-stocks/online-trading-statistics/",
+        "concept": "existing phrase about online trading statistics"
+      },
+      {
+        "target": "/investing/retail-investor-statistics/",
+        "concept": "existing phrase about retail investor statistics"
+      },
+      {
+        "target": "/markets-stocks/robinhood-business-model/",
+        "concept": "existing phrase about robinhood business model"
+      },
+      {
+        "target": "/investing/mobile-investing-app-statistics/",
+        "concept": "existing phrase about mobile investing app statistics"
+      }
+    ],
+    "reciprocal_inbound_from": [
+      "/investing/retail-investor-statistics/",
+      "/markets-stocks/online-trading-statistics/",
+      "/markets-stocks/robinhood-business-model/"
+    ],
+    "placement_guidance": "Link downward in relevant overview sections. Use each target once when its subtopic already appears.",
+    "qa_status": "Planned — place links after drafting; flag any target with no natural home",
+    "content_number": "3"
+  },
+  {
+    "_source_row": 25,
+    "site": "FinLoom",
+    "type": "Article",
+    "working_title": "Crypto Statistics Beyond Trading Volume",
+    "url_slug": "/crypto/crypto-statistics-usage-payments/",
+    "cluster": "Crypto & Digital Assets",
+    "launch_silo": "Crypto & Digital Assets",
+    "silo_role": "Hub",
+    "publish_phase": 1,
+    "publish_order": 4,
+    "primary_silo_hub": "/crypto/crypto-statistics-usage-payments/",
+    "approved_outbound_targets": [
+      "/crypto/coinbase-revenue-business-segments/",
+      "/markets-stocks/online-trading-statistics/",
+      "/investing/retail-investor-statistics/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/crypto/coinbase-revenue-business-segments/",
+        "concept": "existing phrase about coinbase revenue"
+      },
+      {
+        "target": "/markets-stocks/online-trading-statistics/",
+        "concept": "existing phrase about online trading statistics"
+      },
+      {
+        "target": "/investing/retail-investor-statistics/",
+        "concept": "existing phrase about retail investor statistics"
+      }
+    ],
+    "reciprocal_inbound_from": [
+      "/crypto/coinbase-revenue-business-segments/"
+    ],
+    "placement_guidance": "Link downward in relevant overview sections. Use each target once when its subtopic already appears.",
+    "qa_status": "Planned — place links after drafting; flag any target with no natural home",
+    "content_number": "4"
+  },
+  {
+    "_source_row": 26,
+    "site": "FinLoom",
+    "type": "Article",
+    "working_title": "Retail Investor Statistics on Accounts and Assets",
+    "url_slug": "/investing/retail-investor-statistics/",
+    "cluster": "Investing",
+    "launch_silo": "Investor Behavior",
+    "silo_role": "Supporting",
+    "publish_phase": 2,
+    "publish_order": 5,
+    "primary_silo_hub": "/investing/investing-statistics-income-age/",
+    "approved_outbound_targets": [
+      "/investing/investing-statistics-income-age/",
+      "/markets-stocks/stock-market-statistics/",
+      "/investing/millennial-investing-statistics/",
+      "/investing/gen-z-investing-statistics/",
+      "/investing/mobile-investing-app-statistics/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/investing/investing-statistics-income-age/",
+        "concept": "existing phrase about investing statistics"
+      },
+      {
+        "target": "/markets-stocks/stock-market-statistics/",
+        "concept": "existing phrase about stock market statistics"
+      },
+      {
+        "target": "/investing/millennial-investing-statistics/",
+        "concept": "existing phrase about millennial investing statistics"
+      },
+      {
+        "target": "/investing/gen-z-investing-statistics/",
+        "concept": "existing phrase about gen z investing statistics"
+      },
+      {
+        "target": "/investing/mobile-investing-app-statistics/",
+        "concept": "existing phrase about mobile investing app statistics"
+      }
+    ],
+    "reciprocal_inbound_from": [
+      "/investing/investing-statistics-income-age/",
+      "/markets-stocks/stock-market-statistics/",
+      "/crypto/crypto-statistics-usage-payments/",
+      "/investing/millennial-investing-statistics/",
+      "/investing/gen-z-investing-statistics/",
+      "/investing/women-investor-statistics/",
+      "/markets-stocks/online-trading-statistics/",
+      "/investing/mobile-investing-app-statistics/",
+      "/markets-stocks/robinhood-business-model/"
+    ],
+    "placement_guidance": "Link upward in the early context section. Add lateral links only where an existing sentence naturally covers the target.",
+    "qa_status": "Planned — place links after drafting; flag any target with no natural home",
+    "content_number": "5"
+  },
+  {
+    "_source_row": 27,
+    "site": "FinLoom",
+    "type": "Article",
+    "working_title": "Millennial Investing Statistics",
+    "url_slug": "/investing/millennial-investing-statistics/",
+    "cluster": "Investing",
+    "launch_silo": "Investor Behavior",
+    "silo_role": "Supporting",
+    "publish_phase": 2,
+    "publish_order": 6,
+    "primary_silo_hub": "/investing/investing-statistics-income-age/",
+    "approved_outbound_targets": [
+      "/investing/investing-statistics-income-age/",
+      "/investing/retail-investor-statistics/",
+      "/investing/gen-z-investing-statistics/",
+      "/investing/mobile-investing-app-statistics/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/investing/investing-statistics-income-age/",
+        "concept": "existing phrase about investing statistics"
+      },
+      {
+        "target": "/investing/retail-investor-statistics/",
+        "concept": "existing phrase about retail investor statistics"
+      },
+      {
+        "target": "/investing/gen-z-investing-statistics/",
+        "concept": "existing phrase about gen z investing statistics"
+      },
+      {
+        "target": "/investing/mobile-investing-app-statistics/",
+        "concept": "existing phrase about mobile investing app statistics"
+      }
+    ],
+    "reciprocal_inbound_from": [
+      "/investing/investing-statistics-income-age/",
+      "/investing/retail-investor-statistics/",
+      "/investing/gen-z-investing-statistics/",
+      "/investing/mobile-investing-app-statistics/"
+    ],
+    "placement_guidance": "Link upward in the early context section. Add lateral links only where an existing sentence naturally covers the target.",
+    "qa_status": "Planned — place links after drafting; flag any target with no natural home",
+    "content_number": "6"
+  },
+  {
+    "_source_row": 28,
+    "site": "FinLoom",
+    "type": "Article",
+    "working_title": "Gen Z Investing Statistics and Information Sources",
+    "url_slug": "/investing/gen-z-investing-statistics/",
+    "cluster": "Investing",
+    "launch_silo": "Investor Behavior",
+    "silo_role": "Supporting",
+    "publish_phase": 2,
+    "publish_order": 7,
+    "primary_silo_hub": "/investing/investing-statistics-income-age/",
+    "approved_outbound_targets": [
+      "/investing/investing-statistics-income-age/",
+      "/investing/retail-investor-statistics/",
+      "/investing/millennial-investing-statistics/",
+      "/investing/mobile-investing-app-statistics/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/investing/investing-statistics-income-age/",
+        "concept": "existing phrase about investing statistics"
+      },
+      {
+        "target": "/investing/retail-investor-statistics/",
+        "concept": "existing phrase about retail investor statistics"
+      },
+      {
+        "target": "/investing/millennial-investing-statistics/",
+        "concept": "existing phrase about millennial investing statistics"
+      },
+      {
+        "target": "/investing/mobile-investing-app-statistics/",
+        "concept": "existing phrase about mobile investing app statistics"
+      }
+    ],
+    "reciprocal_inbound_from": [
+      "/investing/investing-statistics-income-age/",
+      "/investing/retail-investor-statistics/",
+      "/investing/millennial-investing-statistics/",
+      "/investing/mobile-investing-app-statistics/"
+    ],
+    "placement_guidance": "Link upward in the early context section. Add lateral links only where an existing sentence naturally covers the target.",
+    "qa_status": "Planned — place links after drafting; flag any target with no natural home",
+    "content_number": "7"
+  },
+  {
+    "_source_row": 29,
+    "site": "FinLoom",
+    "type": "Article",
+    "working_title": "Women Investor Statistics",
+    "url_slug": "/investing/women-investor-statistics/",
+    "cluster": "Investing",
+    "launch_silo": "Investor Behavior",
+    "silo_role": "Supporting",
+    "publish_phase": 2,
+    "publish_order": 8,
+    "primary_silo_hub": "/investing/investing-statistics-income-age/",
+    "approved_outbound_targets": [
+      "/investing/investing-statistics-income-age/",
+      "/investing/retail-investor-statistics/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/investing/investing-statistics-income-age/",
+        "concept": "existing phrase about investing statistics"
+      },
+      {
+        "target": "/investing/retail-investor-statistics/",
+        "concept": "existing phrase about retail investor statistics"
+      }
+    ],
+    "reciprocal_inbound_from": [
+      "/investing/investing-statistics-income-age/"
+    ],
+    "placement_guidance": "Link upward in the early context section. Add lateral links only where an existing sentence naturally covers the target.",
+    "qa_status": "Planned — place links after drafting; flag any target with no natural home",
+    "content_number": "8"
+  },
+  {
+    "_source_row": 30,
+    "site": "FinLoom",
+    "type": "Article",
+    "working_title": "Online Trading Statistics by Asset Class",
+    "url_slug": "/markets-stocks/online-trading-statistics/",
+    "cluster": "Markets & Stocks",
+    "launch_silo": "Markets & Trading",
+    "silo_role": "Bridge",
+    "publish_phase": 2,
+    "publish_order": 9,
+    "primary_silo_hub": "/markets-stocks/stock-market-statistics/",
+    "approved_outbound_targets": [
+      "/markets-stocks/stock-market-statistics/",
+      "/investing/retail-investor-statistics/",
+      "/markets-stocks/robinhood-business-model/",
+      "/crypto/coinbase-revenue-business-segments/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/markets-stocks/stock-market-statistics/",
+        "concept": "existing phrase about stock market statistics"
+      },
+      {
+        "target": "/investing/retail-investor-statistics/",
+        "concept": "existing phrase about retail investor statistics"
+      },
+      {
+        "target": "/markets-stocks/robinhood-business-model/",
+        "concept": "existing phrase about robinhood business model"
+      },
+      {
+        "target": "/crypto/coinbase-revenue-business-segments/",
+        "concept": "existing phrase about coinbase revenue"
+      }
+    ],
+    "reciprocal_inbound_from": [
+      "/markets-stocks/stock-market-statistics/",
+      "/crypto/crypto-statistics-usage-payments/",
+      "/markets-stocks/robinhood-business-model/",
+      "/crypto/coinbase-revenue-business-segments/"
+    ],
+    "placement_guidance": "Link upward to the hub, then across silos only where the comparison or implication already names that topic.",
+    "qa_status": "Planned — place links after drafting; flag any target with no natural home",
+    "content_number": "9"
+  },
+  {
+    "_source_row": 31,
+    "site": "FinLoom",
+    "type": "Article",
+    "working_title": "Mobile Investing App Statistics Beyond Downloads",
+    "url_slug": "/investing/mobile-investing-app-statistics/",
+    "cluster": "Investing",
+    "launch_silo": "Investor Behavior",
+    "silo_role": "Bridge",
+    "publish_phase": 2,
+    "publish_order": 10,
+    "primary_silo_hub": "/investing/investing-statistics-income-age/",
+    "approved_outbound_targets": [
+      "/investing/retail-investor-statistics/",
+      "/investing/millennial-investing-statistics/",
+      "/investing/gen-z-investing-statistics/",
+      "/markets-stocks/robinhood-business-model/",
+      "/crypto/coinbase-revenue-business-segments/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/investing/retail-investor-statistics/",
+        "concept": "existing phrase about retail investor statistics"
+      },
+      {
+        "target": "/investing/millennial-investing-statistics/",
+        "concept": "existing phrase about millennial investing statistics"
+      },
+      {
+        "target": "/investing/gen-z-investing-statistics/",
+        "concept": "existing phrase about gen z investing statistics"
+      },
+      {
+        "target": "/markets-stocks/robinhood-business-model/",
+        "concept": "existing phrase about robinhood business model"
+      },
+      {
+        "target": "/crypto/coinbase-revenue-business-segments/",
+        "concept": "existing phrase about coinbase revenue"
+      }
+    ],
+    "reciprocal_inbound_from": [
+      "/investing/investing-statistics-income-age/",
+      "/markets-stocks/stock-market-statistics/",
+      "/investing/retail-investor-statistics/",
+      "/investing/millennial-investing-statistics/",
+      "/investing/gen-z-investing-statistics/",
+      "/markets-stocks/robinhood-business-model/",
+      "/crypto/coinbase-revenue-business-segments/"
+    ],
+    "placement_guidance": "Link upward to the hub, then across silos only where the comparison or implication already names that topic.",
+    "qa_status": "Planned — place links after drafting; flag any target with no natural home",
+    "content_number": "10"
+  },
+  {
+    "_source_row": 32,
+    "site": "FinLoom",
+    "type": "Blog",
+    "working_title": "The Robinhood Business Model Behind Commission-Free Trading",
+    "url_slug": "/markets-stocks/robinhood-business-model/",
+    "cluster": "Markets & Stocks",
+    "launch_silo": "Markets & Trading",
+    "silo_role": "Commercial Support",
+    "publish_phase": 3,
+    "publish_order": 11,
+    "primary_silo_hub": "/markets-stocks/stock-market-statistics/",
+    "approved_outbound_targets": [
+      "/markets-stocks/stock-market-statistics/",
+      "/investing/retail-investor-statistics/",
+      "/markets-stocks/online-trading-statistics/",
+      "/investing/mobile-investing-app-statistics/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/markets-stocks/stock-market-statistics/",
+        "concept": "existing phrase about stock market statistics"
+      },
+      {
+        "target": "/investing/retail-investor-statistics/",
+        "concept": "existing phrase about retail investor statistics"
+      },
+      {
+        "target": "/markets-stocks/online-trading-statistics/",
+        "concept": "existing phrase about online trading statistics"
+      },
+      {
+        "target": "/investing/mobile-investing-app-statistics/",
+        "concept": "existing phrase about mobile investing app statistics"
+      }
+    ],
+    "reciprocal_inbound_from": [
+      "/markets-stocks/stock-market-statistics/",
+      "/markets-stocks/online-trading-statistics/",
+      "/investing/mobile-investing-app-statistics/",
+      "/fintech/block-business-model/"
+    ],
+    "placement_guidance": "Link upward in the early context section. Add lateral links only where an existing sentence naturally covers the target.",
+    "qa_status": "Planned — place links after drafting; flag any target with no natural home",
+    "content_number": "1"
+  },
+  {
+    "_source_row": 33,
+    "site": "FinLoom",
+    "type": "Blog",
+    "working_title": "Coinbase Revenue Across Its Main Businesses",
+    "url_slug": "/crypto/coinbase-revenue-business-segments/",
+    "cluster": "Crypto & Digital Assets",
+    "launch_silo": "Crypto & Digital Assets",
+    "silo_role": "Commercial Support",
+    "publish_phase": 3,
+    "publish_order": 12,
+    "primary_silo_hub": "/crypto/crypto-statistics-usage-payments/",
+    "approved_outbound_targets": [
+      "/crypto/crypto-statistics-usage-payments/",
+      "/markets-stocks/online-trading-statistics/",
+      "/investing/mobile-investing-app-statistics/",
+      "/fintech/fintech-statistics-financial-services/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/crypto/crypto-statistics-usage-payments/",
+        "concept": "existing phrase about crypto statistics"
+      },
+      {
+        "target": "/markets-stocks/online-trading-statistics/",
+        "concept": "existing phrase about online trading statistics"
+      },
+      {
+        "target": "/investing/mobile-investing-app-statistics/",
+        "concept": "existing phrase about mobile investing app statistics"
+      },
+      {
+        "target": "/fintech/fintech-statistics-financial-services/",
+        "concept": "existing phrase about fintech statistics"
+      }
+    ],
+    "reciprocal_inbound_from": [
+      "/crypto/crypto-statistics-usage-payments/",
+      "/markets-stocks/online-trading-statistics/",
+      "/investing/mobile-investing-app-statistics/"
+    ],
+    "placement_guidance": "Link upward in the early context section. Add lateral links only where an existing sentence naturally covers the target.",
+    "qa_status": "Planned — place links after drafting; flag any target with no natural home",
+    "content_number": "2"
+  },
+  {
+    "_source_row": 34,
+    "site": "FinLoom",
+    "type": "Blog",
+    "working_title": "Stripe Business Model: Payments and Software Fees",
+    "url_slug": "/payments/stripe-business-model/",
+    "cluster": "Payments",
+    "launch_silo": "Payments Business Models",
+    "silo_role": "Commercial Support",
+    "publish_phase": 3,
+    "publish_order": 13,
+    "primary_silo_hub": "/fintech/fintech-statistics-financial-services/",
+    "approved_outbound_targets": [
+      "/fintech/fintech-statistics-financial-services/",
+      "/fintech/block-business-model/",
+      "/payments/paypal-business-model/",
+      "/payments/wise-business-model/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/fintech/fintech-statistics-financial-services/",
+        "concept": "existing phrase about fintech statistics"
+      },
+      {
+        "target": "/fintech/block-business-model/",
+        "concept": "existing phrase about block business model"
+      },
+      {
+        "target": "/payments/paypal-business-model/",
+        "concept": "existing phrase about paypal business model"
+      },
+      {
+        "target": "/payments/wise-business-model/",
+        "concept": "existing phrase about wise business model"
+      }
+    ],
+    "reciprocal_inbound_from": [
+      "/fintech/fintech-statistics-financial-services/",
+      "/fintech/block-business-model/",
+      "/payments/paypal-business-model/",
+      "/payments/wise-business-model/"
+    ],
+    "placement_guidance": "Link upward in the early context section. Add lateral links only where an existing sentence naturally covers the target.",
+    "qa_status": "Planned — place links after drafting; flag any target with no natural home",
+    "content_number": "3"
+  },
+  {
+    "_source_row": 35,
+    "site": "FinLoom",
+    "type": "Blog",
+    "working_title": "Who Pays Under the Plaid Business Model?",
+    "url_slug": "/fintech/plaid-business-model/",
+    "cluster": "Fintech",
+    "launch_silo": "Fintech Infrastructure",
+    "silo_role": "Commercial Support",
+    "publish_phase": 3,
+    "publish_order": 14,
+    "primary_silo_hub": "/fintech/fintech-statistics-financial-services/",
+    "approved_outbound_targets": [
+      "/fintech/fintech-statistics-financial-services/",
+      "/fintech/revolut-business-model/",
+      "/fintech/chime-business-model/",
+      "/fintech/sofi-business-model/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/fintech/fintech-statistics-financial-services/",
+        "concept": "existing phrase about fintech statistics"
+      },
+      {
+        "target": "/fintech/revolut-business-model/",
+        "concept": "existing phrase about revolut business model"
+      },
+      {
+        "target": "/fintech/chime-business-model/",
+        "concept": "existing phrase about chime business model"
+      },
+      {
+        "target": "/fintech/sofi-business-model/",
+        "concept": "existing phrase about sofi business model"
+      }
+    ],
+    "reciprocal_inbound_from": [
+      "/fintech/fintech-statistics-financial-services/",
+      "/fintech/revolut-business-model/",
+      "/fintech/chime-business-model/",
+      "/fintech/sofi-business-model/"
+    ],
+    "placement_guidance": "Link upward in the early context section. Add lateral links only where an existing sentence naturally covers the target.",
+    "qa_status": "Planned — place links after drafting; flag any target with no natural home",
+    "content_number": "4"
+  },
+  {
+    "_source_row": 36,
+    "site": "FinLoom",
+    "type": "Blog",
+    "working_title": "Revolut Business Model: Plans and Banking Revenue",
+    "url_slug": "/fintech/revolut-business-model/",
+    "cluster": "Fintech",
+    "launch_silo": "Digital Banking & Fintech",
+    "silo_role": "Commercial Support",
+    "publish_phase": 3,
+    "publish_order": 15,
+    "primary_silo_hub": "/fintech/fintech-statistics-financial-services/",
+    "approved_outbound_targets": [
+      "/fintech/fintech-statistics-financial-services/",
+      "/fintech/plaid-business-model/",
+      "/fintech/chime-business-model/",
+      "/payments/paypal-business-model/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/fintech/fintech-statistics-financial-services/",
+        "concept": "existing phrase about fintech statistics"
+      },
+      {
+        "target": "/fintech/plaid-business-model/",
+        "concept": "existing phrase about plaid business model"
+      },
+      {
+        "target": "/fintech/chime-business-model/",
+        "concept": "existing phrase about chime business model"
+      },
+      {
+        "target": "/payments/paypal-business-model/",
+        "concept": "existing phrase about paypal business model"
+      }
+    ],
+    "reciprocal_inbound_from": [
+      "/fintech/fintech-statistics-financial-services/",
+      "/fintech/plaid-business-model/",
+      "/fintech/chime-business-model/",
+      "/payments/paypal-business-model/",
+      "/payments/wise-business-model/"
+    ],
+    "placement_guidance": "Link upward in the early context section. Add lateral links only where an existing sentence naturally covers the target.",
+    "qa_status": "Planned — place links after drafting; flag any target with no natural home",
+    "content_number": "5"
+  },
+  {
+    "_source_row": 37,
+    "site": "FinLoom",
+    "type": "Blog",
+    "working_title": "Chime Business Model and Card-Spending Economics",
+    "url_slug": "/fintech/chime-business-model/",
+    "cluster": "Fintech",
+    "launch_silo": "Digital Banking & Fintech",
+    "silo_role": "Commercial Support",
+    "publish_phase": 3,
+    "publish_order": 16,
+    "primary_silo_hub": "/fintech/fintech-statistics-financial-services/",
+    "approved_outbound_targets": [
+      "/fintech/fintech-statistics-financial-services/",
+      "/fintech/plaid-business-model/",
+      "/fintech/revolut-business-model/",
+      "/fintech/sofi-business-model/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/fintech/fintech-statistics-financial-services/",
+        "concept": "existing phrase about fintech statistics"
+      },
+      {
+        "target": "/fintech/plaid-business-model/",
+        "concept": "existing phrase about plaid business model"
+      },
+      {
+        "target": "/fintech/revolut-business-model/",
+        "concept": "existing phrase about revolut business model"
+      },
+      {
+        "target": "/fintech/sofi-business-model/",
+        "concept": "existing phrase about sofi business model"
+      }
+    ],
+    "reciprocal_inbound_from": [
+      "/fintech/plaid-business-model/",
+      "/fintech/revolut-business-model/",
+      "/fintech/sofi-business-model/"
+    ],
+    "placement_guidance": "Link upward in the early context section. Add lateral links only where an existing sentence naturally covers the target.",
+    "qa_status": "Planned — place links after drafting; flag any target with no natural home",
+    "content_number": "6"
+  },
+  {
+    "_source_row": 38,
+    "site": "FinLoom",
+    "type": "Blog",
+    "working_title": "The Lending and Technology Sides of the SoFi Business Model",
+    "url_slug": "/fintech/sofi-business-model/",
+    "cluster": "Fintech",
+    "launch_silo": "Digital Banking & Fintech",
+    "silo_role": "Commercial Support",
+    "publish_phase": 3,
+    "publish_order": 17,
+    "primary_silo_hub": "/fintech/fintech-statistics-financial-services/",
+    "approved_outbound_targets": [
+      "/fintech/fintech-statistics-financial-services/",
+      "/fintech/plaid-business-model/",
+      "/fintech/chime-business-model/",
+      "/fintech/block-business-model/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/fintech/fintech-statistics-financial-services/",
+        "concept": "existing phrase about fintech statistics"
+      },
+      {
+        "target": "/fintech/plaid-business-model/",
+        "concept": "existing phrase about plaid business model"
+      },
+      {
+        "target": "/fintech/chime-business-model/",
+        "concept": "existing phrase about chime business model"
+      },
+      {
+        "target": "/fintech/block-business-model/",
+        "concept": "existing phrase about block business model"
+      }
+    ],
+    "reciprocal_inbound_from": [
+      "/fintech/plaid-business-model/",
+      "/fintech/chime-business-model/"
+    ],
+    "placement_guidance": "Link upward in the early context section. Add lateral links only where an existing sentence naturally covers the target.",
+    "qa_status": "Planned — place links after drafting; flag any target with no natural home",
+    "content_number": "7"
+  },
+  {
+    "_source_row": 39,
+    "site": "FinLoom",
+    "type": "Blog",
+    "working_title": "Block Business Model: Seller and Consumer Products",
+    "url_slug": "/fintech/block-business-model/",
+    "cluster": "Fintech",
+    "launch_silo": "Fintech Platforms",
+    "silo_role": "Commercial Support",
+    "publish_phase": 3,
+    "publish_order": 18,
+    "primary_silo_hub": "/fintech/fintech-statistics-financial-services/",
+    "approved_outbound_targets": [
+      "/fintech/fintech-statistics-financial-services/",
+      "/payments/stripe-business-model/",
+      "/payments/paypal-business-model/",
+      "/markets-stocks/robinhood-business-model/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/fintech/fintech-statistics-financial-services/",
+        "concept": "existing phrase about fintech statistics"
+      },
+      {
+        "target": "/payments/stripe-business-model/",
+        "concept": "existing phrase about stripe business model"
+      },
+      {
+        "target": "/payments/paypal-business-model/",
+        "concept": "existing phrase about paypal business model"
+      },
+      {
+        "target": "/markets-stocks/robinhood-business-model/",
+        "concept": "existing phrase about robinhood business model"
+      }
+    ],
+    "reciprocal_inbound_from": [
+      "/fintech/fintech-statistics-financial-services/",
+      "/payments/stripe-business-model/",
+      "/fintech/sofi-business-model/",
+      "/payments/paypal-business-model/"
+    ],
+    "placement_guidance": "Link upward in the early context section. Add lateral links only where an existing sentence naturally covers the target.",
+    "qa_status": "Planned — place links after drafting; flag any target with no natural home",
+    "content_number": "8"
+  },
+  {
+    "_source_row": 40,
+    "site": "FinLoom",
+    "type": "Blog",
+    "working_title": "PayPal Business Model Beyond Branded Checkout",
+    "url_slug": "/payments/paypal-business-model/",
+    "cluster": "Payments",
+    "launch_silo": "Payments Business Models",
+    "silo_role": "Commercial Support",
+    "publish_phase": 3,
+    "publish_order": 19,
+    "primary_silo_hub": "/fintech/fintech-statistics-financial-services/",
+    "approved_outbound_targets": [
+      "/fintech/fintech-statistics-financial-services/",
+      "/payments/stripe-business-model/",
+      "/fintech/revolut-business-model/",
+      "/fintech/block-business-model/",
+      "/payments/wise-business-model/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/fintech/fintech-statistics-financial-services/",
+        "concept": "existing phrase about fintech statistics"
+      },
+      {
+        "target": "/payments/stripe-business-model/",
+        "concept": "existing phrase about stripe business model"
+      },
+      {
+        "target": "/fintech/revolut-business-model/",
+        "concept": "existing phrase about revolut business model"
+      },
+      {
+        "target": "/fintech/block-business-model/",
+        "concept": "existing phrase about block business model"
+      },
+      {
+        "target": "/payments/wise-business-model/",
+        "concept": "existing phrase about wise business model"
+      }
+    ],
+    "reciprocal_inbound_from": [
+      "/fintech/fintech-statistics-financial-services/",
+      "/payments/stripe-business-model/",
+      "/fintech/revolut-business-model/",
+      "/fintech/block-business-model/",
+      "/payments/wise-business-model/"
+    ],
+    "placement_guidance": "Link upward in the early context section. Add lateral links only where an existing sentence naturally covers the target.",
+    "qa_status": "Planned — place links after drafting; flag any target with no natural home",
+    "content_number": "9"
+  },
+  {
+    "_source_row": 41,
+    "site": "FinLoom",
+    "type": "Blog",
+    "working_title": "Wise Business Model and the Cost of Transfers",
+    "url_slug": "/payments/wise-business-model/",
+    "cluster": "Payments",
+    "launch_silo": "Payments Business Models",
+    "silo_role": "Commercial Support",
+    "publish_phase": 3,
+    "publish_order": 20,
+    "primary_silo_hub": "/fintech/fintech-statistics-financial-services/",
+    "approved_outbound_targets": [
+      "/fintech/fintech-statistics-financial-services/",
+      "/payments/stripe-business-model/",
+      "/payments/paypal-business-model/",
+      "/fintech/revolut-business-model/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/fintech/fintech-statistics-financial-services/",
+        "concept": "existing phrase about fintech statistics"
+      },
+      {
+        "target": "/payments/stripe-business-model/",
+        "concept": "existing phrase about stripe business model"
+      },
+      {
+        "target": "/payments/paypal-business-model/",
+        "concept": "existing phrase about paypal business model"
+      },
+      {
+        "target": "/fintech/revolut-business-model/",
+        "concept": "existing phrase about revolut business model"
+      }
+    ],
+    "reciprocal_inbound_from": [
+      "/payments/stripe-business-model/",
+      "/payments/paypal-business-model/"
+    ],
+    "placement_guidance": "Link upward in the early context section. Add lateral links only where an existing sentence naturally covers the target.",
+    "qa_status": "Planned — place links after drafting; flag any target with no natural home",
+    "content_number": "10"
+  }
+]

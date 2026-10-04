@@ -1,0 +1,245 @@
+{
+  "tracker_id": "Blog:S7",
+  "status": "scaffolded",
+  "research_question": "",
+  "research_brief": {
+    "purpose": "",
+    "audience": "",
+    "publication_year": "",
+    "data_period": "",
+    "scope_limitations": ""
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "stock screener",
+    "intent": "Informational",
+    "serp_checked_at": "",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "pending",
+        "retrieved_at": ""
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "",
+        "type": "short-tail",
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "intent": "",
+        "ranking_url": "",
+        "retrieved_at": "",
+        "tool": ""
+      },
+      {
+        "keyword": "",
+        "type": "long-tail",
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "intent": "",
+        "ranking_url": "",
+        "retrieved_at": "",
+        "tool": ""
+      },
+      {
+        "keyword": "",
+        "type": "commercial",
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "intent": "",
+        "ranking_url": "",
+        "retrieved_at": "",
+        "tool": ""
+      },
+      {
+        "keyword": "",
+        "type": "problem",
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "intent": "",
+        "ranking_url": "",
+        "retrieved_at": "",
+        "tool": ""
+      },
+      {
+        "keyword": "",
+        "type": "question",
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "intent": "",
+        "ranking_url": "",
+        "retrieved_at": "",
+        "tool": ""
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.sec.gov/edgar/search/",
+      "title": "EDGAR Full Text Search",
+      "publisher": "U.S. Securities and Exchange Commission",
+      "source_type": "Regulator database",
+      "year": "not applicable",
+      "published_at": "not applicable",
+      "accessed_at": "2026-10-04",
+      "scope": "Public company filings",
+      "method": "Database of filed disclosures",
+      "limitations": "A search tool, not a statement of fact",
+      "verified": true
+    },
+    {
+      "url": "https://www.investor.gov/introduction-investing/getting-started/researching-investments/how-read-10-k",
+      "title": "How to Read a 10-K",
+      "publisher": "Investor.gov (U.S. SEC)",
+      "source_type": "Government publication",
+      "year": "not applicable",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-04",
+      "scope": "Guide to the annual report",
+      "method": "Regulator guidance",
+      "limitations": "Existence and title confirmed; full text not yet read",
+      "verified": false
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "",
+      "source_url": "",
+      "data_year": "",
+      "geography": "",
+      "population": "",
+      "sample": "",
+      "denominator": "",
+      "unit": "",
+      "method": "",
+      "limitations": "",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": false
+    }
+  ],
+  "competitors": [
+    {
+      "title": "",
+      "url": "",
+      "publisher": "",
+      "format": "",
+      "updated_at": "",
+      "headings": [],
+      "coverage": [],
+      "sources": [],
+      "data_assets": [],
+      "link_patterns": [],
+      "trust_signals": [],
+      "covered_well": "",
+      "gaps": ""
+    },
+    {
+      "title": "",
+      "url": "",
+      "publisher": "",
+      "format": "",
+      "updated_at": "",
+      "headings": [],
+      "coverage": [],
+      "sources": [],
+      "data_assets": [],
+      "link_patterns": [],
+      "trust_signals": [],
+      "covered_well": "",
+      "gaps": ""
+    },
+    {
+      "title": "",
+      "url": "",
+      "publisher": "",
+      "format": "",
+      "updated_at": "",
+      "headings": [],
+      "coverage": [],
+      "sources": [],
+      "data_assets": [],
+      "link_patterns": [],
+      "trust_signals": [],
+      "covered_well": "",
+      "gaps": ""
+    },
+    {
+      "title": "",
+      "url": "",
+      "publisher": "",
+      "format": "",
+      "updated_at": "",
+      "headings": [],
+      "coverage": [],
+      "sources": [],
+      "data_assets": [],
+      "link_patterns": [],
+      "trust_signals": [],
+      "covered_well": "",
+      "gaps": ""
+    },
+    {
+      "title": "",
+      "url": "",
+      "publisher": "",
+      "format": "",
+      "updated_at": "",
+      "headings": [],
+      "coverage": [],
+      "sources": [],
+      "data_assets": [],
+      "link_patterns": [],
+      "trust_signals": [],
+      "covered_well": "",
+      "gaps": ""
+    }
+  ],
+  "content_gaps": [],
+  "value_add": "",
+  "plan": {
+    "reader_title": "Stock Screener Explained: Which Metrics Help Narrow the Market",
+    "seo_title": "Stock Screener Guide: Filters Worth Using",
+    "meta_description": "Learn how to use a stock screener without drowning in filters. Compare valuation, quality, growth, momentum, liquidity, and risk metrics.",
+    "slug": "/markets-stocks/stock-screener-metrics-guide/",
+    "search_intent": "Informational",
+    "secondary_keywords": [],
+    "outline": [],
+    "evidence_map": [],
+    "visuals": [],
+    "internal_links": [
+      "/markets-stocks/"
+    ],
+    "external_link_opportunities": [],
+    "excluded_claims": [],
+    "drafting_cautions": []
+  },
+  "claims": [
+    {
+      "statement": "",
+      "source_url": "",
+      "verified": false
+    }
+  ],
+  "fact_check": {
+    "completed": false,
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  "qa": {
+    "completed": false,
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  "verification_log": {
+    "checked_on": "2026-10-04",
+    "summary": "Confirmed the SEC guide exists at the linked address. The post is a framework piece with illustrative thresholds, not market statistics. Not yet checked: Investor.gov introduction page and FINRA investor page listed in Resources.",
+    "pending": "Ubersuggest keyword data, five-competitor review, remaining sources, and named fact-check and QA sign-off."
+  }
+}

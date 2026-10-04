@@ -1,0 +1,258 @@
+{
+  "tracker_id": "Blog:S9",
+  "status": "scaffolded",
+  "research_question": "",
+  "research_brief": {
+    "purpose": "",
+    "audience": "",
+    "publication_year": "",
+    "data_period": "",
+    "scope_limitations": ""
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "saving vs investing",
+    "intent": "Informational",
+    "serp_checked_at": "",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "pending",
+        "retrieved_at": ""
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "",
+        "type": "short-tail",
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "intent": "",
+        "ranking_url": "",
+        "retrieved_at": "",
+        "tool": ""
+      },
+      {
+        "keyword": "",
+        "type": "long-tail",
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "intent": "",
+        "ranking_url": "",
+        "retrieved_at": "",
+        "tool": ""
+      },
+      {
+        "keyword": "",
+        "type": "commercial",
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "intent": "",
+        "ranking_url": "",
+        "retrieved_at": "",
+        "tool": ""
+      },
+      {
+        "keyword": "",
+        "type": "problem",
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "intent": "",
+        "ranking_url": "",
+        "retrieved_at": "",
+        "tool": ""
+      },
+      {
+        "keyword": "",
+        "type": "question",
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "intent": "",
+        "ranking_url": "",
+        "retrieved_at": "",
+        "tool": ""
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation",
+      "title": "Asset Allocation and Diversification",
+      "publisher": "Investor.gov (U.S. SEC)",
+      "source_type": "Government publication",
+      "year": "not applicable",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-04",
+      "scope": "Investor education on allocation and diversification",
+      "method": "Regulator guidance",
+      "limitations": "General education, not advice for any individual",
+      "verified": true
+    },
+    {
+      "url": "https://www.fdic.gov/resources/bankers/national-rates/",
+      "title": "National Rates and Rate Caps",
+      "publisher": "Federal Deposit Insurance Corporation",
+      "source_type": "Regulator dataset",
+      "year": "2026",
+      "published_at": "2026-09-21",
+      "accessed_at": "2026-10-04",
+      "scope": "National average deposit rates by product",
+      "method": "Monthly published national rates",
+      "limitations": "National averages for the rate-cap framework, not the best rates available",
+      "verified": true
+    },
+    {
+      "url": "https://www.investor.gov/introduction-investing/investing-basics/save-and-invest/save-rainy-day",
+      "title": "Save for a Rainy Day",
+      "publisher": "Investor.gov (U.S. SEC)",
+      "source_type": "Government publication",
+      "year": "not applicable",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-04",
+      "scope": "Investor education on emergency savings",
+      "method": "Regulator guidance",
+      "limitations": "General education",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "FDIC national deposit rates as of September 21, 2026: savings 0.37%, interest checking 0.07%, money market 0.63%, 3-month CD 1.13%, 6-month CD 1.41%, 12-month CD 1.73%.",
+      "source_url": "https://www.fdic.gov/resources/bankers/national-rates/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "FDIC-insured institutions",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "FDIC national rate calculation",
+      "limitations": "Averages; individual banks differ",
+      "sponsored": false,
+      "partial_year": true,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "",
+      "url": "",
+      "publisher": "",
+      "format": "",
+      "updated_at": "",
+      "headings": [],
+      "coverage": [],
+      "sources": [],
+      "data_assets": [],
+      "link_patterns": [],
+      "trust_signals": [],
+      "covered_well": "",
+      "gaps": ""
+    },
+    {
+      "title": "",
+      "url": "",
+      "publisher": "",
+      "format": "",
+      "updated_at": "",
+      "headings": [],
+      "coverage": [],
+      "sources": [],
+      "data_assets": [],
+      "link_patterns": [],
+      "trust_signals": [],
+      "covered_well": "",
+      "gaps": ""
+    },
+    {
+      "title": "",
+      "url": "",
+      "publisher": "",
+      "format": "",
+      "updated_at": "",
+      "headings": [],
+      "coverage": [],
+      "sources": [],
+      "data_assets": [],
+      "link_patterns": [],
+      "trust_signals": [],
+      "covered_well": "",
+      "gaps": ""
+    },
+    {
+      "title": "",
+      "url": "",
+      "publisher": "",
+      "format": "",
+      "updated_at": "",
+      "headings": [],
+      "coverage": [],
+      "sources": [],
+      "data_assets": [],
+      "link_patterns": [],
+      "trust_signals": [],
+      "covered_well": "",
+      "gaps": ""
+    },
+    {
+      "title": "",
+      "url": "",
+      "publisher": "",
+      "format": "",
+      "updated_at": "",
+      "headings": [],
+      "coverage": [],
+      "sources": [],
+      "data_assets": [],
+      "link_patterns": [],
+      "trust_signals": [],
+      "covered_well": "",
+      "gaps": ""
+    }
+  ],
+  "content_gaps": [],
+  "value_add": "",
+  "plan": {
+    "reader_title": "Saving vs Investing: How Time Horizon and Liquidity Change the Decision",
+    "seo_title": "Saving vs Investing: Time Horizon, Liquidity, and Risk",
+    "meta_description": "Compare saving vs investing by time horizon, liquidity, inflation, risk, emergency needs, and expected use of the money.",
+    "slug": "/money-banking/saving-vs-investing/",
+    "search_intent": "Informational",
+    "secondary_keywords": [],
+    "outline": [],
+    "evidence_map": [],
+    "visuals": [],
+    "internal_links": [
+      "/money-banking/"
+    ],
+    "external_link_opportunities": [],
+    "excluded_claims": [],
+    "drafting_cautions": []
+  },
+  "claims": [
+    {
+      "statement": "FDIC national deposit rates as of September 21, 2026: savings 0.37%, interest checking 0.07%, money market 0.63%, 3-month CD 1.13%, 6-month CD 1.41%, 12-month CD 1.73%.",
+      "source_url": "https://www.fdic.gov/resources/bankers/national-rates/",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": false,
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  "qa": {
+    "completed": false,
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  "verification_log": {
+    "checked_on": "2026-10-04",
+    "summary": "CORRECTED: the post quoted March 2026 FDIC rates that could not be confirmed; the table now shows the rates the FDIC publishes as of 2026-09-21. Checked the rainy-day guidance (up to six months of income) and the allocation guidance. Not yet checked: the sentence attributing a credit-card debt reminder to Investor.gov crypto guidance, and the statement that savings may not keep up with inflation.",
+    "pending": "Ubersuggest keyword data, five-competitor review, remaining sources, and named fact-check and QA sign-off."
+  }
+}

@@ -1,0 +1,67 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { mkdtemp, writeFile, mkdir, readFile, rm } from 'node:fs/promises';
+import { spawnSync } from 'node:child_process';
+import path from 'node:path';
+import { tmpdir } from 'node:os';
+
+test('deploy propagates ports, preserves approved document-root directories, and rejects unsafe input', async () => {
+  const root = await mkdtemp(path.join(tmpdir(), 'finloom-port-'));
+  try {
+    const bin = path.join(root, 'bin'); await mkdir(bin);
+    const log = path.join(root, 'calls');
+    const mock = '#!/usr/bin/env node\nrequire("node:fs").appendFileSync(process.env.CALL_LOG, JSON.stringify({ tool: require("node:path").basename(process.argv[1]), args: process.argv.slice(2) }) + "\\n");\n';
+    for (const name of ['ssh', 'rsync']) await writeFile(path.join(bin, name), mock, { mode: 0o755 });
+    await mkdir(path.join(root, 'dist')); await writeFile(path.join(root, 'dist/index.html'), 'ok');
+    // Git Bash on Windows rewrites arguments that look like POSIX paths; exempt the rsync exclude so the mocks see what Linux would.
+    const base = { ...process.env, MSYS2_ARG_CONV_EXCL: '/staging', PATH: `${bin}:${process.env.PATH}`, CALL_LOG: log, DEPLOY_HOST: 'test.invalid', DEPLOY_USER: 'testuser', DEPLOY_ROOT: '/srv/finloom-test', DEPLOY_SSH_KEY: 'TEST_FIXTURE_ONLY', SSH_KNOWN_HOSTS: 'TEST_FIXTURE_ONLY', GITHUB_SHA: 'a'.repeat(40) };
+    for (const scriptName of ['deploy-atomic.sh', 'deploy-document-root.sh']) {
+      const script = path.resolve('scripts', scriptName);
+      for (const port of ['', '65002', '22']) {
+        await writeFile(log, '');
+        const env = { ...base, DEPLOY_PORT: port, DEPLOY_PRESERVE_DIR: scriptName === 'deploy-document-root.sh' ? 'staging' : '' };
+        const result = spawnSync('bash', [script], { cwd: root, env, encoding: 'utf8' });
+        assert.equal(result.status, 0, result.stderr);
+        const calls = (await readFile(log, 'utf8')).trim().split('\n').map(JSON.parse);
+        assert.equal(calls.length, 3);
+        const expected = port || '65002';
+        for (const call of calls.filter(c => c.tool === 'ssh')) assert.equal(call.args[call.args.indexOf('-p') + 1], expected);
+        const rsync = calls.find(c => c.tool === 'rsync');
+        assert.match(rsync.args[rsync.args.indexOf('-e') + 1], new RegExp(`ssh -p ${expected} `));
+        if (scriptName === 'deploy-document-root.sh') {
+          assert.equal(rsync.args.at(-1), 'testuser@test.invalid:/srv/finloom-test/');
+          assert.equal(rsync.args[rsync.args.indexOf('--exclude') + 1], '/staging/');
+        }
+      }
+      for (const port of ['0', '65536', '-1', '22; touch /tmp/unsafe', 'abc']) {
+        await writeFile(log, '');
+        const result = spawnSync('bash', [script], { cwd: root, env: { ...base, DEPLOY_PORT: port }, encoding: 'utf8' });
+        assert.equal(result.status, 2);
+        assert.equal(await readFile(log, 'utf8'), '');
+      }
+      if (scriptName === 'deploy-document-root.sh') {
+        // A production build refuses a staging document root.
+        await writeFile(log, '');
+        await writeFile(path.join(root, 'dist/build-manifest.json'), JSON.stringify({ environment: 'production', indexable: true }, null, 2));
+        const productionIntoStaging = spawnSync('bash', [script], { cwd: root, env: { ...base, DEPLOY_ROOT: '/srv/finloom-test/staging' }, encoding: 'utf8' });
+        assert.equal(productionIntoStaging.status, 2);
+        assert.match(productionIntoStaging.stderr, /production build into a staging document root/);
+        assert.equal(await readFile(log, 'utf8'), '');
+        await rm(path.join(root, 'dist/build-manifest.json'));
+        // A staging deploy refuses any root that is not the staging folder.
+        await writeFile(log, '');
+        const wrongRoot = spawnSync('bash', [script], { cwd: root, env: { ...base, DEPLOY_REQUIRE_SUFFIX: '/staging' }, encoding: 'utf8' });
+        assert.equal(wrongRoot.status, 2);
+        assert.equal(await readFile(log, 'utf8'), '');
+        const stagingRoot = spawnSync('bash', [script], { cwd: root, env: { ...base, DEPLOY_ROOT: '/srv/finloom-test/staging', DEPLOY_REQUIRE_SUFFIX: '/staging' }, encoding: 'utf8' });
+        assert.equal(stagingRoot.status, 0, stagingRoot.stderr);
+        for (const preserveDir of ['.', '..', '../staging', 'staging/child', 'staging; touch unsafe']) {
+          await writeFile(log, '');
+          const result = spawnSync('bash', [script], { cwd: root, env: { ...base, DEPLOY_PRESERVE_DIR: preserveDir }, encoding: 'utf8' });
+          assert.equal(result.status, 2);
+          assert.equal(await readFile(log, 'utf8'), '');
+        }
+      }
+    }
+  } finally { await rm(root, { recursive: true, force: true }); }
+});
