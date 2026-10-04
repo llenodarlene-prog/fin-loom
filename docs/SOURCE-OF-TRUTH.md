@@ -47,7 +47,7 @@ All fifteen supplementary posts pass the content checks when dry-run as publishe
 
 ## Launch state on 2026-10-04
 
-The site owner approved the content and asked for launch. Recorded in `data/release.json` under her name: contact, privacy, disclaimer, partner terms, staging review, and production approval. One post is published: Crypto Airdrop Risk, whose research record is verified. The other fourteen stay drafts until their research is complete. The only open launch-gate item is brand clearance, a legal question the owner must decide explicitly.
+The site owner approved the content and asked for launch. Recorded in `data/release.json` under her name: contact, privacy, disclaimer, partner terms, staging review, and production approval. One post is published: Crypto Airdrop Risk, whose research record is verified. The other fourteen stay drafts until their research is complete. Brand clearance is recorded as the owner's decision to launch under the Fin Loom name after seeing the tracker's trademark flag; no counsel review is recorded.
 
 Production notes: finloom.org currently serves a WordPress install that a production deploy would replace; the production environment stores SITE_URL, SITE_NAME, and DEPLOY_PORT as secrets where the workflow expects variables.
 
@@ -57,7 +57,6 @@ Each one blocks production through `npm run release:check`.
 
 1. **Owner approvals:** contact address, privacy policy, financial disclaimer, partner terms, staging review, and production approval each need a named, dated sign-off in `data/release.json`. The copy, address (finloom@gmail.com), and policy date (October 3, 2026) are in place but unapproved.
 2. **Legal review:** the Privacy Policy and Terms came from a draft. They have not been reviewed by a lawyer as far as this repository records.
-4. **Brand clearance:** the tracker's Brand Strategy sheet flags an active FINLOOM U.S. trademark application and asks for counsel review before public launch.
 5. **Logo transparency:** the supplied logo files have an off-white background. A transparent version is needed to place the logo on dark panels.
 6. **Tracker freshness:** a newer workbook export sits in `FinLoom Files/` with a different hash from the preserved snapshot in `data/source/`. Diff and re-import before relying on tracker data for publication decisions.
 7. **First published blog:** none of the 20 backlog items has a research record or draft yet.

@@ -19,6 +19,9 @@ if [[ ! "$DEPLOY_ROOT" =~ ^/[A-Za-z0-9._/-]+$ ]]; then echo "DEPLOY_ROOT contain
 require_suffix="${DEPLOY_REQUIRE_SUFFIX:-}"
 if [[ -n "$require_suffix" && "${DEPLOY_ROOT%/}" != *"$require_suffix" ]]; then echo "DEPLOY_ROOT must end with $require_suffix for this environment" >&2; exit 2; fi
 if [[ ! -f dist/index.html ]]; then echo "dist/index.html is required" >&2; exit 2; fi
+# An indexable production build must never land in the staging folder, and a noindex build must never land outside it
+# when the environment says so. The build manifest states what was built.
+if grep -q '"environment": "production"' dist/build-manifest.json 2>/dev/null && [[ "${DEPLOY_ROOT%/}" == */staging ]]; then echo "Refusing to upload a production build into a staging document root" >&2; exit 2; fi
 
 preserve_dir="${DEPLOY_PRESERVE_DIR:-}"
 rsync_opts=(-az --delete)

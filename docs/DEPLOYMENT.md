@@ -25,7 +25,7 @@ Staging is always noindex, enforced four ways:
 
 ## Production
 
-Production deploys only from `main` and has not been configured or run. The production document root is the parent of the staging folder, so the production workflow passes `DEPLOY_PRESERVE_DIR=staging` to leave staging in place. Configure the `production` environment (with `SITE_URL=https://finloom.org`) only after staging review.
+Production deploys only from `main`, through the `production` environment, which requires a reviewer. Its variables are `SITE_URL=https://finloom.org`, `SITE_NAME=Fin Loom`, and `DEPLOY_PORT=65002`; its secrets are the deploy host, user, root, SSH key, and pinned host key. The deploy script refuses to upload a production build into a staging document root. The production document root is the parent of the staging folder, so the production workflow passes `DEPLOY_PRESERVE_DIR=staging` to leave staging in place. Configure the `production` environment (with `SITE_URL=https://finloom.org`) only after staging review.
 
 ## Launch policy
 
