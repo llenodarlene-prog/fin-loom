@@ -25,17 +25,11 @@ modified: 2026-10-04
 
 # Crypto Custody Explained: Self-Custody, Exchanges, and Institutional Custodians
 
-Crypto custody sounds like a simple question: who holds the asset?
-
-Technically, the more useful question is who controls the cryptographic keys, what procedures protect that control, and what legal or operational relationship exists between the owner and the entity safeguarding access.
-
-That distinction is becoming more important as crypto moves deeper into regulated finance.
+Crypto custody sounds like a simple question: who holds the asset? Technically, the more useful question is who controls the cryptographic keys, what procedures protect that control, and what legal or operational relationship exists between the owner and the entity safeguarding access. That distinction is becoming more important as crypto moves deeper into regulated finance.
 
 In May 2025, the [Office of the Comptroller of the Currency clarified](https://www.occ.treas.gov/news-issuances/news-releases/2025/nr-occ-2025-42.html) that U.S. national banks and federal savings associations may provide crypto-asset custody and execution services, including through appropriately managed sub-custodians. On October 1, 2026, the [U.S. Securities and Exchange Commission proposed new rules and amendments](https://www.sec.gov/newsroom/press-releases/2026-100-sec-proposal-would-address-how-investment-advisers-funds-can-custody-crypto-assets-under-federal) addressing how registered investment advisers and regulated funds may custody crypto assets. The proposal would, subject to conditions, allow certain self-custody arrangements and use of state trust companies.
 
-Those developments do not make custody risk disappear. They show that crypto custody is being pulled into the same broader questions that apply to traditional asset safeguarding: segregation, control, recordkeeping, oversight, conflicts, recovery, and third-party risk.
-
-For individuals, the custody decision may be a hardware wallet versus an exchange. For institutions, it can involve multiple signers, policy engines, state or federal regulatory status, insurance, sub-custody, governance, and integration with trading and accounting systems.
+Those developments do not make custody risk disappear. They show that crypto custody is being pulled into the same broader questions that apply to traditional asset safeguarding: segregation, control, recordkeeping, oversight, conflicts, recovery, and third-party risk. For individuals, the custody decision may be a hardware wallet versus an exchange. For institutions, it can involve multiple signers, policy engines, state or federal regulatory status, insurance, sub-custody, governance, and integration with trading and accounting systems.
 
 ## Key Takeaways
 
@@ -51,29 +45,17 @@ The main points are summarized below.
 
 ## What Crypto Custody Means
 
-A blockchain records control through cryptographic keys rather than by storing a coin in a physical vault.
-
-The private key, or the signing system derived from it, is what allows transactions to be authorized.
-
-That creates a core custody principle:
+A blockchain records control through cryptographic keys rather than by storing a coin in a physical vault. The private key, or the signing system derived from it, is what allows transactions to be authorized. That creates a core custody principle:
 
 **Control of signing authority is control of the asset.**
 
-A custodian therefore needs to protect more than a password. It may need to protect: private keys, seed phrases, signing devices, access credentials, recovery material, transaction policies, administrator rights, and systems used to construct transactions.
-
-Crypto custody is best understood as the collection of controls used to safeguard those capabilities.
+A custodian therefore needs to protect more than a password. It may need to protect: private keys, seed phrases, signing devices, access credentials, recovery material, transaction policies, administrator rights, and systems used to construct transactions. Crypto custody is best understood as the collection of controls used to safeguard those capabilities.
 
 ## Self-Custody
 
-In self-custody, the user retains direct control over the private keys or signing process.
+In self-custody, the user retains direct control over the private keys or signing process. Common forms include hardware wallets, software wallets, multisignature wallets, air-gapped signing devices, and institutional self-custody systems. Self-custody is attractive because the user does not need a third-party custodian to authorize withdrawals.
 
-Common forms include hardware wallets, software wallets, multisignature wallets, air-gapped signing devices, and institutional self-custody systems.
-
-Self-custody is attractive because the user does not need a third-party custodian to authorize withdrawals.
-
-That reduces one type of counterparty risk.
-
-It adds a different risk: the user becomes responsible for key security, backups, succession, transaction verification, and recovery.
+That reduces one type of counterparty risk. It adds a different risk: the user becomes responsible for key security, backups, succession, transaction verification, and recovery.
 
 ### Advantages of Self-Custody
 
@@ -81,53 +63,31 @@ Direct control of assets, reduced dependence on a centralized exchange, ability 
 
 ### Risks of Self-Custody
 
-Lost keys, stolen seed phrases, device compromise, phishing, wallet drainers, incorrect addresses, failed succession planning, poor backup practices, and concentration of knowledge in one person.
-
-Self-custody transfers responsibility rather than eliminating it.
+Lost keys, stolen seed phrases, device compromise, phishing, wallet drainers, incorrect addresses, failed succession planning, poor backup practices, and concentration of knowledge in one person. Self-custody transfers responsibility rather than eliminating it.
 
 ## Exchange Custody
 
-Many users hold crypto on centralized exchanges.
+Many users hold crypto on centralized exchanges. This is operationally simple. The platform manages wallets and keys while the user accesses an account through credentials and authentication controls. The user therefore has an account claim against the platform’s system rather than direct day-to-day control of blockchain keys.
 
-This is operationally simple. The platform manages wallets and keys while the user accesses an account through credentials and authentication controls.
-
-The user therefore has an account claim against the platform’s system rather than direct day-to-day control of blockchain keys.
-
-Important questions include are customer assets segregated; how are keys stored; what percentage is held online; what withdrawal controls exist; which legal entity holds the assets; are assets lent, pledged, or otherwise used; what happens in insolvency; which jurisdiction governs the relationship; are there independent audits or attestations; and what insurance exists, and what does it cover.
-
-An exchange can be both a trading venue and a custodian, which concentrates functions that traditional markets often separate.
+Important questions include are customer assets segregated; how are keys stored; what percentage is held online; what withdrawal controls exist; which legal entity holds the assets; are assets lent, pledged, or otherwise used; what happens in insolvency; which jurisdiction governs the relationship; are there independent audits or attestations; and what insurance exists, and what does it cover. An exchange can be both a trading venue and a custodian, which concentrates functions that traditional markets often separate.
 
 ## Institutional Crypto Custody
 
-Institutional custody is not simply a larger hardware wallet.
+Institutional custody is not simply a larger hardware wallet. It is usually a governance system. A professional custody arrangement may include regulated custodial entities, segregated accounts, cold storage, hardware security modules, multi-party computation, multisignature approval, role-based access, transaction allowlists, withdrawal limits, audit logs, disaster recovery, compliance screening, and independent oversight.
 
-It is usually a governance system.
-
-A professional custody arrangement may include regulated custodial entities, segregated accounts, cold storage, hardware security modules, multi-party computation, multisignature approval, role-based access, transaction allowlists, withdrawal limits, audit logs, disaster recovery, compliance screening, and independent oversight.
-
-The aim is to prevent a single compromised device, employee, or credential from moving assets.
-
-That is why institutional [digital asset custody](/crypto/) sits at the intersection of cybersecurity, financial controls, regulation, trading infrastructure, and operational risk rather than being only a wallet choice.
+The aim is to prevent a single compromised device, employee, or credential from moving assets. That is why institutional [digital asset custody](/crypto/) sits at the intersection of cybersecurity, financial controls, regulation, trading infrastructure, and operational risk rather than being only a wallet choice.
 
 ## Multisignature and Multi-Party Computation Are Not the Same
 
-Crypto custody discussions often group multisig and multi-party computation, or MPC, together because both can reduce single-key risk.
-
-They work differently.
+Crypto custody discussions often group multisig and multi-party computation, or MPC, together because both can reduce single-key risk. They work differently.
 
 ### Multisignature
 
-A multisig wallet requires multiple private keys to authorize a transaction under rules such as two-of-three signatures.
-
-The blockchain can often see the multisig structure.
+A multisig wallet requires multiple private keys to authorize a transaction under rules such as two-of-three signatures. The blockchain can often see the multisig structure.
 
 ### Multi-Party Computation
 
-MPC uses cryptographic techniques that allow multiple parties or systems to participate in producing a valid signature without assembling a complete private key in one place.
-
-Implementation details vary.
-
-Neither architecture is automatically safer. Security depends on the design, endpoint controls, governance, recovery process, and who can change policy.
+MPC uses cryptographic techniques that allow multiple parties or systems to participate in producing a valid signature without assembling a complete private key in one place. Implementation details vary, and neither architecture is automatically safer. Security depends on the design, endpoint controls, governance, recovery process, and who can change policy.
 
 ## Hot, Warm, and Cold Storage
 
@@ -135,115 +95,63 @@ Custodians often describe storage by connectivity.
 
 ### Hot Storage
 
-Keys or signing systems are online and can support rapid transactions.
-
-This improves availability and increases exposure to online attack.
+Keys or signing systems are online and can support rapid transactions. This improves availability and increases exposure to online attack.
 
 ### Cold Storage
 
-Signing material is kept offline or in highly isolated environments.
-
-This can reduce online attack surface but makes withdrawals slower and creates physical, procedural, and recovery challenges.
+Signing material is kept offline or in highly isolated environments. This can reduce online attack surface but makes withdrawals slower and creates physical, procedural, and recovery challenges.
 
 ### Warm Storage
 
-Warm storage sits between the two, using stronger isolation than hot wallets while preserving more operational availability than deep cold storage.
-
-Institutions often split assets across tiers rather than choosing one model for everything.
+Warm storage sits between the two, using stronger isolation than hot wallets while preserving more operational availability than deep cold storage. Institutions often split assets across tiers rather than choosing one model for everything.
 
 ## Key Segregation and Asset Segregation
 
-These terms sound similar but describe different issues.
+These terms sound similar but describe different issues. **Key segregation** means signing authority is separated across people, devices, locations, or systems. **Asset segregation** generally refers to keeping customer assets distinct from a custodian’s proprietary assets or from other legal claims, depending on the structure and law.
 
-**Key segregation** means signing authority is separated across people, devices, locations, or systems.
-
-**Asset segregation** generally refers to keeping customer assets distinct from a custodian’s proprietary assets or from other legal claims, depending on the structure and law.
-
-A custodian can have sophisticated key security while still creating legal or balance-sheet risks if the ownership structure is unclear.
-
-Conversely, an arrangement can have strong legal segregation but weak operational key security.
-
-Serious custody due diligence needs both.
+A custodian can have sophisticated key security while still creating legal or balance-sheet risks if the ownership structure is unclear. Conversely, an arrangement can have strong legal segregation but weak operational key security. Serious custody due diligence needs both.
 
 ## Custody Regulation Is Moving
 
-The United States has seen major changes in crypto custody policy.
+The United States has seen major changes in crypto custody policy. In May 2025, the OCC’s Interpretive Letter 1184 confirmed that national banks and federal savings associations may provide and outsource crypto custody and execution services, subject to appropriate third-party risk management and safe-and-sound practices. The OCC described crypto custody as a modern form of traditional bank custody.
 
-In May 2025, the OCC’s Interpretive Letter 1184 confirmed that national banks and federal savings associations may provide and outsource crypto custody and execution services, subject to appropriate third-party risk management and safe-and-sound practices.
-
-The OCC described crypto custody as a modern form of traditional bank custody.
-
-Then, on October 1, 2026, the SEC proposed a tailored custody framework for registered investment advisers and regulated funds. According to the SEC, the proposal would permit self-custody in certain circumstances and allow state trust companies to serve as custodians under conditions.
-
-At the time of writing, this is a proposal, not a final rule.
+Then, on October 1, 2026, the SEC proposed a tailored custody framework for registered investment advisers and regulated funds. According to the SEC, the proposal would permit self-custody in certain circumstances and allow state trust companies to serve as custodians under conditions. At the time of writing, this is a proposal, not a final rule.
 
 That distinction is essential. Compliance teams should work from current law and finalized requirements, not headlines about proposed changes.
 
 ## What the SEC Proposal Signals
 
-The proposal is important even before finalization because it identifies the policy problems regulators are trying to solve.
+The proposal is important even before finalization because it identifies the policy problems regulators are trying to solve. Those include limited availability of suitable custodians for some crypto assets, how self-custody should work when no permitted custodian is available, how state trust companies fit into custody, recordkeeping, disclosure, audits, and broker-dealer custodial services for regulated funds. SEC Commissioner Mark Uyeda emphasized that traditional principles such as asset segregation and controls still apply even though the mechanics differ for assets recorded on distributed ledgers.
 
-Those include limited availability of suitable custodians for some crypto assets, how self-custody should work when no permitted custodian is available, how state trust companies fit into custody, recordkeeping, disclosure, audits, and broker-dealer custodial services for regulated funds.
-
-SEC Commissioner Mark Uyeda emphasized that traditional principles such as asset segregation and controls still apply even though the mechanics differ for assets recorded on distributed ledgers.
-
-That framing is useful beyond U.S. regulation.
-
-Technology changes custody mechanics. It does not eliminate the need for controls.
+That framing is useful beyond U.S. regulation. Technology changes custody mechanics, but it does not eliminate the need for controls.
 
 ## Sub-Custody Adds Another Layer of Risk
 
-A firm may advertise custody under its own brand while relying on one or more third parties.
-
-The OCC has explicitly discussed banks’ ability to use sub-custodians for permissible crypto custody activities, subject to third-party risk management.
-
-For a customer, that means due diligence should map the custody chain:
+A firm may advertise custody under its own brand while relying on one or more third parties. The OCC has explicitly discussed banks’ ability to use sub-custodians for permissible crypto custody activities, subject to third-party risk management. For a customer, that means due diligence should map the custody chain:
 
 **Client → Primary Custodian → Technology Provider or Sub-Custodian → Blockchain**
 
-Questions include who has signing authority, who controls policy changes, where are keys generated, where are backups stored, what happens if the sub-custodian fails, who is legally responsible for loss, can the primary custodian move assets without the sub-custodian, can the sub-custodian move assets without the primary custodian, and which party performs transaction screening.
-
-A brand name alone does not explain the control structure.
+Questions include who has signing authority, who controls policy changes, where are keys generated, where are backups stored, what happens if the sub-custodian fails, who is legally responsible for loss, can the primary custodian move assets without the sub-custodian, can the sub-custodian move assets without the primary custodian, and which party performs transaction screening. A brand name alone does not explain the control structure.
 
 ## Insurance Should Be Read, Not Assumed
 
-“Insured custody” can sound reassuring.
+“Insured custody” can sound reassuring. The useful questions are insured against what, for how much, subject to which exclusions, held by which entity, shared across how many customers, and triggered under what circumstances. Insurance may cover specific forms of theft or employee misconduct while excluding user error, smart-contract losses, market losses, or events outside defined custody systems.
 
-The useful questions are insured against what, for how much, subject to which exclusions, held by which entity, shared across how many customers, and triggered under what circumstances.
-
-Insurance may cover specific forms of theft or employee misconduct while excluding user error, smart-contract losses, market losses, or events outside defined custody systems.
-
-A policy limit may also be much smaller than total assets under custody.
-
-Insurance is one risk control, not a substitute for custody architecture.
+A policy limit may also be much smaller than total assets under custody. Insurance is one risk control, not a substitute for custody architecture.
 
 ## Proof of Reserves Is Not Full Custody Due Diligence
 
-After failures among crypto firms, proof-of-reserves systems became more common.
+After failures among crypto firms, proof-of-reserves systems became more common. Reserve evidence can help show that certain on-chain assets exist. It does not automatically prove: liabilities, legal ownership, absence of encumbrances, internal controls, solvency, governance, or the right of customers to recover assets in insolvency.
 
-Reserve evidence can help show that certain on-chain assets exist.
-
-It does not automatically prove: liabilities, legal ownership, absence of encumbrances, internal controls, solvency, governance, or the right of customers to recover assets in insolvency.
-
-A balance sheet has two sides.
-
-Custody analysis should avoid treating an asset snapshot as a complete financial audit.
+A balance sheet has two sides. Custody analysis should avoid treating an asset snapshot as a complete financial audit.
 
 ## Operational Controls Matter as Much as Cryptography
 
-Many custody failures begin with people and process rather than broken encryption.
-
-Useful controls can include separation of duties, transaction limits, multiple approvals, time delays, whitelisted addresses, hardware-backed authentication, staff background checks, mandatory vacations, change-management controls, incident response, secure recovery drills, and independent audits.
-
-A sophisticated key technology can still be undermined by weak administrator access.
+Many custody failures begin with people and process rather than broken encryption. Useful controls can include separation of duties, transaction limits, multiple approvals, time delays, whitelisted addresses, hardware-backed authentication, staff background checks, mandatory vacations, change-management controls, incident response, secure recovery drills, and independent audits. A sophisticated key technology can still be undermined by weak administrator access.
 
 ## Recovery Is Part of Security
 
-A custody system that cannot recover from device loss, staff departure, disaster, or death is not resilient.
-
-Recovery planning should answer: what happens if one signer disappears, what happens if a facility becomes inaccessible, can keys be reconstructed, who authorizes emergency recovery, how is recovery tested, can an attacker trigger the recovery process, and what happens during inheritance or corporate succession.
-
-Backups should be protected against both loss and theft.
+A custody system that cannot recover from device loss, staff departure, disaster, or death is not resilient. Recovery planning should answer: what happens if one signer disappears, what happens if a facility becomes inaccessible, can keys be reconstructed, who authorizes emergency recovery, how is recovery tested, can an attacker trigger the recovery process, and what happens during inheritance or corporate succession. Backups should be protected against both loss and theft.
 
 Those goals can conflict. A backup that is easy to access may be easy to steal. A backup that is extremely difficult to access may fail when needed.
 
@@ -269,25 +177,13 @@ The table is intentionally qualitative. A specific exchange can have stronger co
 
 ## Custody and Staking Create Additional Questions
 
-Custodians may offer staking services.
-
-That creates another set of risks: validator performance, slashing, lockup or unbonding periods, delegation structure, reward calculation, tax treatment, smart-contract exposure, and who controls governance rights.
-
-Customers should understand whether the assets remain in the same custody arrangement while staked and which party makes protocol-level decisions.
+Custodians may offer staking services. That creates another set of risks: validator performance, slashing, lockup or unbonding periods, delegation structure, reward calculation, tax treatment, smart-contract exposure, and who controls governance rights. Customers should understand whether the assets remain in the same custody arrangement while staked and which party makes protocol-level decisions.
 
 ## Custody and Trading Should Be Separated Conceptually
 
-Even when one company offers both services, custody and execution solve different problems.
+Even when one company offers both services, custody and execution solve different problems. Custody asks: how are assets safeguarded? Execution asks: how are trades placed and settled? Combining them may reduce operational friction but can increase concentration.
 
-Custody asks: how are assets safeguarded?
-
-Execution asks: how are trades placed and settled?
-
-Combining them may reduce operational friction but can increase concentration.
-
-Institutions should map: where assets sit before a trade, whether they must be prefunded to an exchange, how quickly they return to custody, whether off-exchange settlement is available, and which party bears risk during settlement.
-
-The goal is to minimize unnecessary exposure outside the intended custody framework.
+Institutions should map: where assets sit before a trade, whether they must be prefunded to an exchange, how quickly they return to custody, whether off-exchange settlement is available, and which party bears risk during settlement. The goal is to minimize unnecessary exposure outside the intended custody framework.
 
 ## A Crypto Custody Due-Diligence Checklist
 
@@ -315,9 +211,7 @@ Is insurance available, what does it cover, what is the policy limit, are custom
 
 ### Recovery and Continuity
 
-How are disaster scenarios handled, are recovery procedures tested, what happens if a signer leaves, and how is succession handled.
-
-A custody provider should be able to explain these controls without relying only on phrases such as “institutional grade.”
+How are disaster scenarios handled, are recovery procedures tested, what happens if a signer leaves, and how is succession handled. A custody provider should be able to explain these controls without relying only on phrases such as “institutional grade.”
 
 ## Frequently Asked Questions
 

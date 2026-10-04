@@ -31,7 +31,7 @@ A token page can show market capitalization, but not necessarily whether a handf
 
 That is why the best crypto analytics tools are not the ones with the most charts. They are the ones used for the right question.
 
-The practical approach is to build a research stack. Start with broad market context. Verify the asset and contract. Examine liquidity and supply. Move into protocol fundamentals when relevant. Then use on-chain data to test claims that cannot be answered by a token profile alone.
+The practical approach is to build a research stack. Start with broad market context, then verify the asset and contract. Next, examine liquidity and supply, and move into protocol fundamentals when relevant. Finally, use on-chain data to test claims that cannot be answered by a token profile alone.
 
 This guide compares the major categories of crypto analytics tools and, more importantly, explains what each category can and cannot tell you.
 
@@ -49,9 +49,7 @@ The points below summarize how to get reliable answers from crypto analytics too
 
 ## The Research Stack Starts With the Question
 
-“Which crypto research tool is best?” is usually the wrong question.
-
-A better question is: what are you trying to establish?
+“Which crypto research tool is best?” is usually the wrong question. A better question is: what are you trying to establish?
 
 | Research Question | Best Tool Category |
 |---|---|
@@ -70,41 +68,25 @@ The point of a research stack is not to open every platform. It is to avoid aski
 
 ## Market-Data Platforms Are the First Screen, Not the Final Verdict
 
-Broad crypto market platforms are useful because they standardize a large amount of basic information in one place.
+Broad crypto market platforms are useful because they standardize a large amount of basic information in one place. Typical fields include price, market capitalization, circulating supply, total supply, 24-hour trading volume, historical prices, exchange listings, categories, contract addresses, and market rankings. This is the first layer of [crypto market research](/crypto/): establish what the asset is, how large the market appears to be, how actively it trades, and which comparisons are relevant before moving into deeper blockchain evidence.
 
-Typical fields include price, market capitalization, circulating supply, total supply, 24-hour trading volume, historical prices, exchange listings, categories, contract addresses, and market rankings.
+The limitation is that each headline number has assumptions. Market capitalization, for example, is commonly calculated as price multiplied by circulating supply. If circulating supply is uncertain or inconsistently defined, the resulting market cap inherits that uncertainty.
 
-This is the first layer of [crypto market research](/crypto/): establish what the asset is, how large the market appears to be, how actively it trades, and which comparisons are relevant before moving into deeper blockchain evidence.
-
-The limitation is that each headline number has assumptions.
-
-Market capitalization, for example, is commonly calculated as price multiplied by circulating supply. If circulating supply is uncertain or inconsistently defined, the resulting market cap inherits that uncertainty.
-
-Volume can also require interpretation. A large reported number does not by itself establish that liquidity is deep, evenly distributed, or executable near the quoted price.
-
-Use market-data platforms to frame the investigation, not end it.
+Volume can also require interpretation. A large reported number does not by itself establish that liquidity is deep, evenly distributed, or executable near the quoted price. Use market-data platforms to frame the investigation, not end it.
 
 ## Blockchain Explorers Are the Verification Layer
 
-Explorers such as Etherscan expose blockchain activity more directly.
+Explorers such as Etherscan expose blockchain activity more directly. They can help verify: the token contract, transfers, holder addresses, wallet balances, smart-contract interactions, contract source code when verified, transaction hashes, event logs, and activity linked to specific addresses. [Etherscan’s current documentation](https://docs.etherscan.io/) describes the service as a block explorer whose API serves the same on-chain data across more than 60 EVM-compatible chains. Its data can be especially useful when a dashboard makes a claim that can be traced back to public transactions.
 
-They can help verify: the token contract, transfers, holder addresses, wallet balances, smart-contract interactions, contract source code when verified, transaction hashes, event logs, and activity linked to specific addresses.
-
-[Etherscan’s current documentation](https://docs.etherscan.io/) describes the service as a block explorer whose API serves the same on-chain data across more than 60 EVM-compatible chains. Its data can be especially useful when a dashboard makes a claim that can be traced back to public transactions.
-
-Suppose a project says a treasury transferred tokens to a market maker. A block explorer can help confirm whether the transaction occurred, when it occurred, which addresses were involved, and how much moved.
-
-What it cannot automatically tell you is why.
+Suppose a project says a treasury transferred tokens to a market maker. A block explorer can help confirm whether the transaction occurred, when it occurred, which addresses were involved, and how much moved. What it cannot automatically tell you is why.
 
 An address is not a business explanation. Transaction evidence must still be interpreted.
 
 ## Contract Verification Should Happen Before Token Comparison
 
-Crypto markets reuse names and symbols. Different tokens can share the same ticker. Scam tokens can copy branding.
+Crypto markets reuse names and symbols. Different tokens can share the same ticker, and scam tokens can copy branding.
 
-That makes contract identity foundational.
-
-Before comparing a token across platforms:
+That makes contract identity foundational. Before comparing a token across platforms:
 
 1. find the contract address from the project’s official source;
 2. verify it on an explorer;
@@ -116,15 +98,9 @@ Skipping this step can produce an impressively detailed analysis of the wrong to
 
 ## DeFi Dashboards Require Metric Discipline
 
-DeFi analytics often introduce metrics that sound familiar but have specific definitions.
+DeFi analytics often introduce metrics that sound familiar but have specific definitions. [DefiLlama’s data definitions](https://defillama.com/data-definitions) define protocol TVL as the value of coins held in a protocol’s smart contracts. It defines fees as the total fees users pay when using the protocol and revenue as the portion of fees the protocol keeps for itself, such as amounts going to a treasury, team, or token holders rather than liquidity providers.
 
-[DefiLlama’s data definitions](https://defillama.com/data-definitions) define protocol TVL as the value of coins held in a protocol’s smart contracts. It defines fees as the total fees users pay when using the protocol and revenue as the portion of fees the protocol keeps for itself, such as amounts going to a treasury, team, or token holders rather than liquidity providers.
-
-Those distinctions matter.
-
-If Protocol A generates $10 million in user fees but passes $9 million to liquidity providers, its protocol revenue is not $10 million under that definition.
-
-A table can make the distinction clear:
+Those distinctions matter. If Protocol A generates $10 million in user fees but passes $9 million to liquidity providers, its protocol revenue is not $10 million under that definition. A table can make the distinction clear:
 
 | Metric | What It Tries to Measure | Common Misread |
 |---|---|---|
@@ -139,53 +115,29 @@ A research article that says “Protocol X is larger than Protocol Y” without 
 
 ## TVL Can Be Useful Without Being a Valuation Metric
 
-TVL is widely used because it provides a simple view of capital committed to DeFi protocols.
+TVL is widely used because it provides a simple view of capital committed to DeFi protocols. It is not the same as the market value of a company. TVL can rise because users deposit more tokens, token prices rise, incentives attract temporary capital, a protocol launches on new chains, or methodology expands coverage.
 
-It is not the same as the market value of a company.
-
-TVL can rise because users deposit more tokens, token prices rise, incentives attract temporary capital, a protocol launches on new chains, or methodology expands coverage.
-
-It can fall for the opposite reasons.
-
-If the assets inside a protocol appreciate sharply, dollar-denominated TVL can rise even if token quantities barely change. Researchers therefore need to separate asset-price effects from new deposits when that distinction matters.
-
-TVL is best understood as an activity or capital-deployment metric whose meaning depends on protocol design.
+It can fall for the opposite reasons. If the assets inside a protocol appreciate sharply, dollar-denominated TVL can rise even if token quantities barely change. Researchers therefore need to separate asset-price effects from new deposits when that distinction matters. TVL is best understood as an activity or capital-deployment metric whose meaning depends on protocol design.
 
 ## SQL Analytics Platforms Let You Reproduce the Question
 
-Prebuilt dashboards are convenient. Custom queries are more powerful when the exact question is unusual.
+Prebuilt dashboards are convenient. Custom queries are more powerful when the exact question is unusual. DuneSQL is designed for blockchain analysis and supports querying decoded blockchain data using SQL. Dune also makes decoded smart-contract calls and event logs available in structured tables for supported contracts.
 
-DuneSQL is designed for blockchain analysis and supports querying decoded blockchain data using SQL. Dune also makes decoded smart-contract calls and event logs available in structured tables for supported contracts.
+That opens the door to questions such as how many unique wallets used a contract each month, what percentage of volume came from the top 20 traders, how many wallets returned after their first interaction, how much of a token moved through a particular contract, and how did behavior change before and after a governance proposal. The strength of SQL analytics is reproducibility. The weakness is that a query can be technically valid and analytically misleading.
 
-That opens the door to questions such as how many unique wallets used a contract each month, what percentage of volume came from the top 20 traders, how many wallets returned after their first interaction, how much of a token moved through a particular contract, and how did behavior change before and after a governance proposal.
-
-The strength of SQL analytics is reproducibility. The weakness is that a query can be technically valid and analytically misleading.
-
-Researchers must define which contracts are included, what counts as a user, whether bots are excluded, how addresses are deduplicated, which chains are covered, how prices are applied, and how missing data is handled.
-
-A dashboard is only as good as its definition.
+Researchers must define which contracts are included, what counts as a user, whether bots are excluded, how addresses are deduplicated, which chains are covered, how prices are applied, and how missing data is handled. A dashboard is only as good as its definition.
 
 ## Event Logs Can Reveal More Than Transaction Counts
 
-Smart contracts emit event logs when defined actions occur. Dune’s documentation notes that these logs are stored on-chain and can be decoded into structured tables.
-
-For research, that means “transaction count” can often be replaced with a more precise event.
-
-Instead of counting every transaction sent to a protocol, you may count: swaps, deposits, withdrawals, liquidations, mints, burns, votes, or bridge transfers.
+Smart contracts emit event logs when defined actions occur. Dune’s documentation notes that these logs are stored on-chain and can be decoded into structured tables. For research, that means “transaction count” can often be replaced with a more precise event. Instead of counting every transaction sent to a protocol, you may count: swaps, deposits, withdrawals, liquidations, mints, burns, votes, or bridge transfers.
 
 This improves the connection between the metric and the behavior you are trying to study.
 
 ## Wallet Intelligence Adds Entity Context
 
-Raw blockchain data is pseudonymous. Wallet-intelligence platforms attempt to connect addresses with known or inferred entities.
+Raw blockchain data is pseudonymous. Wallet-intelligence platforms attempt to connect addresses with known or inferred entities. [Arkham’s documentation on entities, labels, and tags](https://info.arkm.com/research/a-guide-to-arkham-intels-industry-leading-tagging-system) describes a system that groups or identifies on-chain addresses. Its platform can show holdings, transfers, counterparties, and wallet behavior associated with labeled entities.
 
-[Arkham’s documentation on entities, labels, and tags](https://info.arkm.com/research/a-guide-to-arkham-intels-industry-leading-tagging-system) describes a system that groups or identifies on-chain addresses. Its platform can show holdings, transfers, counterparties, and wallet behavior associated with labeled entities.
-
-This can help answer questions such as are exchange reserves changing, which wallets are linked to a fund or company, did a large holder move tokens to an exchange, and are several addresses believed to belong to one entity.
-
-The limitation is important: labeling introduces another layer of interpretation.
-
-A blockchain transaction is observable. The statement “this address belongs to Entity X” depends on attribution quality.
+This can help answer questions such as are exchange reserves changing, which wallets are linked to a fund or company, did a large holder move tokens to an exchange, and are several addresses believed to belong to one entity. The limitation is important: labeling introduces another layer of interpretation. A blockchain transaction is observable. The statement “this address belongs to Entity X” depends on attribution quality.
 
 Serious research should distinguish the two.
 
@@ -193,11 +145,7 @@ Serious research should distinguish the two.
 
 A top-holder table can look alarming if exchange wallets and protocol contracts are not identified.
 
-Imagine the top address holds 20% of supply. That could be an exchange custody wallet representing many customers, a vesting contract, a treasury, a bridge, a burn address, a liquidity pool, or an individual holder.
-
-Those cases imply very different concentration risks.
-
-Instead of reporting “the top 10 wallets hold 60%,” classify the wallets when possible.
+Imagine the top address holds 20% of supply. That could be an exchange custody wallet representing many customers, a vesting contract, a treasury, a bridge, a burn address, a liquidity pool, or an individual holder. Those cases imply very different concentration risks. Instead of reporting “the top 10 wallets hold 60%,” classify the wallets when possible.
 
 A better table is:
 
@@ -213,41 +161,23 @@ The extra context turns a raw statistic into analysis.
 
 ## Liquidity Tools Answer a Different Question From Market Cap
 
-Market cap asks what circulating supply is worth at the quoted price.
+Market cap asks what circulating supply is worth at the quoted price. Liquidity asks whether trading can occur near that price. For a DEX pair, examine pool reserves, liquidity in dollar terms, 24-hour volume, price impact, slippage, number of active pools, concentration by venue, and whether liquidity is incentivized.
 
-Liquidity asks whether trading can occur near that price.
-
-For a DEX pair, examine pool reserves, liquidity in dollar terms, 24-hour volume, price impact, slippage, number of active pools, concentration by venue, and whether liquidity is incentivized.
-
-For centralized exchanges, look at order-book depth and spread when available.
-
-A token can have a large market capitalization and poor executable liquidity. That matters for both entering and exiting a position.
+For centralized exchanges, look at order-book depth and spread when available. A token can have a large market capitalization and poor executable liquidity. That matters for both entering and exiting a position.
 
 ## Supply Research Requires More Than One Field
 
-A strong token-research workflow distinguishes: circulating supply, total supply, maximum supply, emissions, burns, unlocks, and treasury holdings.
-
-The gap between circulating supply and future supply can be economically significant.
-
-If only 10% of a token’s eventual supply is circulating, the present market structure may look very different after investor, team, or ecosystem allocations unlock.
+A strong token-research workflow distinguishes: circulating supply, total supply, maximum supply, emissions, burns, unlocks, and treasury holdings. The gap between circulating supply and future supply can be economically significant. If only 10% of a token’s eventual supply is circulating, the present market structure may look very different after investor, team, or ecosystem allocations unlock.
 
 Do not treat fully diluted valuation as a prediction. Use it as a way to frame how current price relates to a broader future supply base.
 
 ## Social Data Is Context, Not Proof
 
-Crypto research often includes X activity, Telegram membership, Discord activity, search interest, or developer discussion.
+Crypto research often includes X activity, Telegram membership, Discord activity, search interest, or developer discussion. These can help detect attention. However, they can also be manipulated.
 
-These can help detect attention.
+Follower counts can be inflated, and engagement can be purchased. Bot networks can create the appearance of momentum.
 
-They can also be manipulated.
-
-Follower counts can be inflated. Engagement can be purchased. Bot networks can create the appearance of momentum.
-
-Use social data to answer: is attention increasing, what narrative is driving discussion, and which announcements are attracting interest.
-
-Do not use it alone to establish: product-market fit, protocol usage, financial strength, or token value.
-
-Those require harder evidence.
+Use social data to answer: is attention increasing, what narrative is driving discussion, and which announcements are attracting interest. Do not use it alone to establish: product-market fit, protocol usage, financial strength, or token value. Those require harder evidence.
 
 ## Developer Activity Needs the Same Caution
 
@@ -255,9 +185,7 @@ GitHub activity can indicate active development, but raw commit counts are not a
 
 One repository may split changes into many commits. Another may make fewer but larger changes. Some protocol work may happen in private repositories.
 
-Useful developer checks include release history, number of active contributors, cadence of meaningful updates, open issues, documentation quality, audits, and whether the codebase used in production matches public repositories.
-
-Again, the metric should match the question.
+Useful developer checks include release history, number of active contributors, cadence of meaningful updates, open issues, documentation quality, audits, and whether the codebase used in production matches public repositories. Again, the metric should match the question.
 
 ## Build a Four-Layer Crypto Research Workflow
 
@@ -265,29 +193,19 @@ A repeatable workflow prevents research from becoming random tab opening.
 
 ### Layer 1: Market Context
 
-Use a broad market-data platform to establish: price, market cap, volume, supply, sector, listed venues, and comparable assets.
-
-The goal is orientation.
+Use a broad market-data platform to establish: price, market cap, volume, supply, sector, listed venues, and comparable assets. The goal is orientation.
 
 ### Layer 2: Contract and Liquidity Verification
 
-Use an explorer and venue-specific liquidity data to verify: correct contract, major holders, trading pools, token transfers, liquidity, and suspicious concentration.
-
-The goal is identity and tradability.
+Use an explorer and venue-specific liquidity data to verify: correct contract, major holders, trading pools, token transfers, liquidity, and suspicious concentration. The goal is identity and tradability.
 
 ### Layer 3: Protocol Fundamentals
 
-For DeFi or application tokens, examine TVL, fees, revenue, users, transaction type, developer activity, governance, and treasury.
-
-The goal is to understand economic activity.
+For DeFi or application tokens, examine TVL, fees, revenue, users, transaction type, developer activity, governance, and treasury. The goal is to understand economic activity.
 
 ### Layer 4: On-Chain Behavior
 
-Use SQL analytics or wallet intelligence to test specific claims.
-
-The goal is evidence.
-
-If a token narrative says “whales are accumulating,” this is the layer where you test whether labeled or large wallets are increasing their balances.
+Use SQL analytics or wallet intelligence to test specific claims. The goal is evidence. If a token narrative says “whales are accumulating,” this is the layer where you test whether labeled or large wallets are increasing their balances.
 
 ## A Tool Comparison Framework
 
@@ -303,9 +221,7 @@ Instead of ranking crypto analytics tools from best to worst, evaluate each type
 | DEX analytics | Liquidity and trading behavior | Often venue- or chain-specific |
 | Developer repositories | Code and release activity | Activity volume is not code quality |
 
-The best stack depends on the asset.
-
-A Bitcoin researcher needs different tools from a researcher analyzing a new lending protocol.
+The best stack depends on the asset. A Bitcoin researcher needs different tools from a researcher analyzing a new lending protocol.
 
 ## Common Research Mistakes
 
@@ -337,9 +253,7 @@ One person can control many wallets, while one exchange wallet can represent man
 
 ## How to Document Your Research
 
-A simple research sheet should include question, metric, definition, source, time period, network, contract address, calculation, caveats, and conclusion.
-
-This may feel slower than browsing dashboards, but it prevents a common failure: forgetting why a number was chosen.
+A simple research sheet should include question, metric, definition, source, time period, network, contract address, calculation, caveats, and conclusion. This may feel slower than browsing dashboards, but it prevents a common failure: forgetting why a number was chosen.
 
 ## Frequently Asked Questions
 
