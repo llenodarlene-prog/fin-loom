@@ -40,6 +40,14 @@ test('deploy propagates ports, preserves approved document-root directories, and
         assert.equal(await readFile(log, 'utf8'), '');
       }
       if (scriptName === 'deploy-document-root.sh') {
+        // A production build refuses a staging document root.
+        await writeFile(log, '');
+        await writeFile(path.join(root, 'dist/build-manifest.json'), JSON.stringify({ environment: 'production', indexable: true }, null, 2));
+        const productionIntoStaging = spawnSync('bash', [script], { cwd: root, env: { ...base, DEPLOY_ROOT: '/srv/finloom-test/staging' }, encoding: 'utf8' });
+        assert.equal(productionIntoStaging.status, 2);
+        assert.match(productionIntoStaging.stderr, /production build into a staging document root/);
+        assert.equal(await readFile(log, 'utf8'), '');
+        await rm(path.join(root, 'dist/build-manifest.json'));
         // A staging deploy refuses any root that is not the staging folder.
         await writeFile(log, '');
         const wrongRoot = spawnSync('bash', [script], { cwd: root, env: { ...base, DEPLOY_REQUIRE_SUFFIX: '/staging' }, encoding: 'utf8' });
