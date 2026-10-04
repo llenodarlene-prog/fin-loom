@@ -4,5 +4,13 @@
     "verified": false,
     "publishable": false,
     "note": "No author has been verified for Fin Loom. Add a named author only after identity and qualifications are verified by the site owner."
+  },
+  "darlene_aberin": {
+    "name": "Darlene Aberin",
+    "role": "Content Writer and Researcher",
+    "verified": true,
+    "publishable": true,
+    "verified_by": "Site owner instruction",
+    "verified_at": "2026-10-04"
   }
 }

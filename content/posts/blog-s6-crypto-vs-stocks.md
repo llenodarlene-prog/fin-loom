@@ -15,8 +15,8 @@ research_record: content/research/blog-s6.json
 image: /assets/images/posts/crypto-vs-stocks/market-chart-and-coin-desk-1600.jpg
 image_alt: A laptop showing a market chart beside a gold coin and a stack of finance books, with a city skyline at sunrise
 link_placement_site: Stoxcraft
-ai_exceptions: 
-ai_exception_reason: 
+ai_exceptions: unlock
+ai_exception_reason: Unlock is the standard technical term for scheduled token releases and is used in that sense only.
 author: 
 published: 
 modified: 
@@ -36,16 +36,17 @@ The more useful comparison is not “Which one goes up more?” It is: what kind
 
 This guide compares crypto vs stocks using those questions.
 
-
 ## Key Takeaways
 
-- **Stocks and crypto have different economic foundations:** Stocks represent ownership in operating companies. Crypto assets can represent many different things, and some have no claim on business cash flow.
-- **Crypto volatility is usually higher:** Large price moves can occur over shorter periods, and market structure remains more fragmented than major equity markets.
-- **Liquidity is asset-specific:** Large-cap stocks and major crypto assets can both trade deeply, while small stocks and smaller tokens can become difficult to exit during stress.
-- **Diversification is not just about owning two labels:** A portfolio is diversified when its risk sources behave differently enough to reduce concentration.
-- **Custody changes the risk equation:** Crypto investors may face key-management, exchange, wallet, and transfer risks that stock investors generally do not encounter in the same form.
-- **Time horizon matters:** The shorter the period in which the money may be needed, the more damaging a large drawdown can become.
-- **Allocation should follow risk capacity:** Investors should decide how much loss they can absorb before focusing on upside potential.
+Seven points frame the comparison that follows.
+
+- **Stocks and Crypto Have Different Economic Foundations:** Stocks represent ownership in operating companies. Crypto assets can represent many different things, and some have no claim on business cash flow.
+- **Crypto Volatility Is Usually Higher:** Large price moves can occur over shorter periods, and market structure remains more fragmented than major equity markets.
+- **Liquidity Is Asset-specific:** Large-cap stocks and major crypto assets can both trade deeply, while small stocks and smaller tokens can become difficult to exit during stress.
+- **Diversification Is Not Just About Owning Two Labels:** A portfolio is diversified when its risk sources behave differently enough to reduce concentration.
+- **Custody Changes the Risk Equation:** Crypto investors may face key-management, exchange, wallet, and transfer risks that stock investors generally do not encounter in the same form.
+- **Time Horizon Matters:** The shorter the period in which the money may be needed, the more damaging a large drawdown can become.
+- **Allocation Should Follow Risk Capacity:** Investors should decide how much loss they can absorb before focusing on upside potential.
 
 ## Crypto vs Stocks at a Glance
 
@@ -65,7 +66,7 @@ Before comparing returns, it helps to compare the structure behind the assets.
 
 The comparison becomes useful only after recognizing that each column contains enormous variation. A profitable mega-cap company is not representative of a pre-revenue micro-cap stock. Bitcoin is not representative of a newly issued token with thin liquidity.
 
-## What You Actually Own
+## What You Own
 
 A stock certificate once represented a physical claim. Today, ownership is mostly electronic, but the legal concept remains straightforward: the shareholder owns an equity interest in a corporation.
 
@@ -75,18 +76,9 @@ A company's income statement shows revenue and expenses. Its balance sheet shows
 
 Crypto requires more classification work before analysis can even begin.
 
-A token may function as:
+A token may function as a settlement asset, a governance token, a utility token, a staking asset, a stablecoin, a tokenized claim on another asset, a payment token, or a purely speculative asset with limited practical use.
 
-- a settlement asset;
-- a governance token;
-- a utility token;
-- a staking asset;
-- a stablecoin;
-- a tokenized claim on another asset;
-- a payment token; or
-- a purely speculative asset with limited practical use.
-
-That means valuation begins with a more basic question: what does ownership actually entitle the holder to?
+That means valuation begins with a more basic question: what does ownership entitle the holder to?
 
 A token can rise in price without generating cash flow. A stock can also become detached from near-term fundamentals, but the investor still has a framework for estimating what the business produces and what portion of that economic output belongs to shareholders.
 
@@ -102,7 +94,7 @@ That combination is important.
 
 An asset does not need to be “bad” to be inappropriate at a certain portfolio weight. It only needs to create more drawdown risk than the investor can tolerate.
 
-### Drawdown Is Often More Intuitive Than Volatility
+## Drawdown Is Often More Intuitive Than Volatility
 
 Maximum drawdown asks a simpler question: how far did the investment fall from a previous peak before it recovered?
 
@@ -122,16 +114,7 @@ That is why an investor comparing crypto vs stocks should care about the path of
 
 Liquidity is the ability to buy or sell without moving the price materially.
 
-A market can show large reported trading volume and still be fragile. What matters includes:
-
-- bid-ask spreads;
-- order-book depth;
-- venue quality;
-- concentration of liquidity;
-- market-maker participation;
-- the size of the investor's position;
-- settlement reliability; and
-- what happens during stress.
+A market can show large reported trading volume and still be fragile. What matters includes bid-ask spreads, order-book depth, venue quality, concentration of liquidity, market-maker participation, the size of the investor's position, settlement reliability, and what happens during stress.
 
 Large U.S. stocks generally trade within deeply developed market infrastructure. Smaller stocks can be much less liquid.
 
@@ -183,7 +166,7 @@ Owning stocks and crypto may look diversified because they are different categor
 
 But diversification is not achieved by collecting labels.
 
-Investor.gov defines diversification as spreading money among different investments to reduce overall investment risk. The concept works when losses in one part of the portfolio are not perfectly replicated across every other holding.
+[Investor.gov defines diversification](https://www.investor.gov/introduction-investing/getting-started/asset-allocation) as spreading money among different investments to reduce risk. The concept works when losses in one part of the portfolio are not perfectly replicated across every other holding.
 
 During some market regimes, crypto can behave differently from stocks. During others, risk assets can sell off together.
 
@@ -205,14 +188,7 @@ Stocks are not inherently diversified.
 
 An investor who owns five technology companies may have multiple tickers but one economic bet.
 
-The companies may depend on similar forces:
-
-- advertising spending;
-- cloud demand;
-- interest rates;
-- semiconductor supply;
-- enterprise technology budgets; or
-- consumer discretionary spending.
+The companies may depend on similar forces: advertising spending, cloud demand, interest rates, semiconductor supply, enterprise technology budgets, or consumer discretionary spending.
 
 A diversified stock index reduces individual-company risk, but it can still contain sector concentration.
 
@@ -222,25 +198,9 @@ Count risk factors, not symbols.
 
 ## Return Drivers Are Different
 
-A stock can increase in value because:
+A stock can increase in value because revenue grows, margins expand, cash flow improves, investors assign a higher valuation multiple, debt falls, capital is returned through dividends or buybacks, or the company gains market share.
 
-- revenue grows;
-- margins expand;
-- cash flow improves;
-- investors assign a higher valuation multiple;
-- debt falls;
-- capital is returned through dividends or buybacks; or
-- the company gains market share.
-
-A crypto asset may increase because:
-
-- network use grows;
-- token supply becomes scarcer;
-- demand for settlement or blockspace increases;
-- adoption expands;
-- regulation improves market access;
-- speculative demand rises; or
-- the market assigns higher value to the network.
+A crypto asset may increase because network use grows, token supply becomes scarcer, demand for settlement or blockspace increases, adoption expands, regulation improves market access, speculative demand rises, or the market assigns higher value to the network.
 
 Those drivers do not have the same measurability.
 
@@ -252,14 +212,7 @@ Crypto analysis therefore requires skepticism about metrics that look precise bu
 
 Stock dividends come from corporate capital-allocation decisions. They can be reduced or eliminated, but the accounting relationship is understandable.
 
-Crypto “yield” can come from very different mechanisms:
-
-- staking rewards;
-- lending;
-- liquidity provision;
-- token emissions;
-- protocol fees; or
-- promotional incentives.
+Crypto “yield” can come from very different mechanisms: staking rewards, lending, liquidity provision, token emissions, protocol fees, or promotional incentives.
 
 A high quoted yield can compensate for high risk rather than represent free income.
 
@@ -273,7 +226,7 @@ With stocks, custody is usually invisible to retail investors. They log into a b
 
 Crypto makes custody explicit.
 
-The SEC's December 2025 bulletin explains that crypto wallets generally store the private keys used to access assets rather than storing the assets themselves. It also recommends researching third-party custodians, protecting seed phrases, and using strong authentication.
+The SEC's [December 2025 bulletin on crypto custody](https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/crypto-asset-custody-basics-retail-investors-investor-bulletin-0) explains that crypto wallets generally store the private keys used to access assets rather than storing the assets themselves. It also recommends researching third-party custodians, protecting seed phrases, and using strong authentication.
 
 Self-custody removes some counterparty exposure but introduces operational responsibility.
 
@@ -325,7 +278,7 @@ A 60% decline in a 40% position reduces the portfolio by about 24%.
 
 The forecast did not change. The exposure did.
 
-### Illustrative Position-Size Sensitivity
+The same calculation across five allocation sizes shows the pattern.
 
 ```chart
 crypto-position-size-impact
@@ -353,11 +306,7 @@ If crypto rises much faster than the rest of the portfolio, a small initial allo
 
 Rebalancing establishes a decision rule before emotion takes over.
 
-Common approaches include:
-
-- calendar-based rebalancing;
-- threshold-based rebalancing; or
-- a combination of both.
+Common approaches include calendar-based rebalancing, threshold-based rebalancing, or a combination of both.
 
 Investor.gov notes that some experts use six- or twelve-month intervals while others rebalance after allocations move beyond preset thresholds.
 
@@ -455,13 +404,7 @@ Forecasts naturally attract attention because they produce a number.
 
 Stress tests produce a range of uncomfortable possibilities.
 
-For an investor comparing stocks and crypto, a useful stress test might ask what happens if:
-
-- equities fall 25%;
-- the crypto allocation falls 60%;
-- both fall at the same time;
-- unemployment affects household income;
-- and the investor needs 10% of the portfolio for an emergency.
+For an investor comparing stocks and crypto, a useful stress test might ask what happens if equities fall 25%, the crypto allocation falls 60%, both fall at the same time, unemployment affects household income, and the investor needs 10% of the portfolio for an emergency.
 
 The point is not to claim that this scenario will occur.
 
@@ -491,13 +434,7 @@ Stock investors may use earnings yields, free-cash-flow yields, enterprise-value
 
 Crypto valuation is less standardized, but the underlying discipline remains useful: avoid paying any price simply because adoption is growing.
 
-A network can grow while a token performs poorly if:
-
-- token supply expands rapidly;
-- fees accrue somewhere other than token holders;
-- insiders unlock large positions;
-- competitors capture activity;
-- or valuation already assumes extreme adoption.
+A network can grow while a token performs poorly if token supply expands rapidly, fees accrue somewhere other than token holders, insiders unlock large positions, competitors capture activity, or valuation already assumes extreme adoption.
 
 Likewise, a great company can be a poor investment at an excessive price.
 
@@ -507,14 +444,7 @@ The important shared principle is that quality and price are separate variables.
 
 Investors comparing asset classes often focus on pre-tax returns.
 
-Real outcomes depend on:
-
-- transaction costs;
-- spreads;
-- custody fees;
-- tax treatment;
-- turnover;
-- and the investor's jurisdiction.
+Real outcomes depend on transaction costs, spreads, custody fees, tax treatment, turnover, and the investor's jurisdiction.
 
 Frequent crypto trading can create substantial recordkeeping complexity.
 
@@ -534,13 +464,7 @@ Constant monitoring encourages investors to convert long-term assets into short-
 
 A written policy helps.
 
-It can define:
-
-- target allocations;
-- maximum allocations;
-- rebalancing rules;
-- acceptable custody arrangements;
-- and conditions that invalidate the thesis.
+It can define target allocations, maximum allocations, rebalancing rules, acceptable custody arrangements, and conditions that invalidate the thesis.
 
 That turns an abstract preference into a repeatable process.
 
@@ -557,6 +481,8 @@ It is what return driver is being added, what risks accompany it, how large the 
 A disciplined comparison starts with those questions and lets the allocation follow.
 
 ## Frequently Asked Questions
+
+These questions come up most often in a crypto vs stocks comparison.
 
 ### Are Stocks Safer Than Crypto?
 
