@@ -183,6 +183,8 @@ export async function createLaunchFixture() {
 
   const [launch, links] = await Promise.all([readJson('data/launch-content-plan.json'), readJson('data/interlinking-plan.json')]);
   const posts = path.join(root, 'content/posts');
+  // Posts the real repository has already published are drafts in the fixture, so its counts stay fixed.
+  for (const name of await readdir(posts)) if (name.endsWith('.md')) await setDraft(path.join(posts, name), true);
   await mkdir(path.join(root, 'content/research'), { recursive: true });
   for (const record of launch) {
     const silo = links.find(item => item.type === record.type && item.content_number === record.content_number);

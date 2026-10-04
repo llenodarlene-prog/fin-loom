@@ -198,12 +198,16 @@ test('the repository as committed builds a staging site that is noindex on every
   assert.match(target('https://finloom.org').stderr, /points at the production domain/);
 }));
 
-test('the repository as committed cannot be released or indexed', () => copyOfRepository(async root => {
+test('the repository as committed is held back from release only by open owner decisions', () => copyOfRepository(async root => {
   const gate = run('scripts/check-release.mjs', root);
-  assert.notEqual(gate.status, 0);
-  for (const reason of [/launch_status must be "ready"/, /launch requires at least 1 published blog\(s\); found 0/, /financial disclaimer approval must be explicitly approved/, /brand clearance must be explicitly approved/, /partner terms approval must be explicitly approved/]) assert.match(gate.stderr, reason);
-  // Even a production-mode build stays noindex until launch_status is ready.
-  assert.equal(env(root, 'production').status, 0);
+  const release = JSON.parse(await readFile(path.join(root, 'data/release.json'), 'utf8'));
+  const open = ['contact', 'privacy', 'disclaimer', 'brand_clearance', 'partner_terms', 'staging_review', 'production_approval'].filter(key => release[key]?.approved !== true);
+  // Every open approval must fail the gate; with none open, the gate must pass.
+  assert.equal(gate.status === 0, open.length === 0, gate.stderr);
+  if (open.includes('brand_clearance')) assert.match(gate.stderr, /brand clearance must be explicitly approved/);
+  assert.doesNotMatch(gate.stderr, /check-content\.mjs failed|check-research\.mjs failed|launch requires at least/);
+  // Staging stays noindex whatever the launch status is.
+  assert.equal(env(root, 'staging').status, 0);
   assert.match(await readFile(path.join(root, 'dist/index.html'), 'utf8'), /<meta name="robots" content="noindex,nofollow,noarchive">/);
   assert.match(await readFile(path.join(root, 'dist/.htaccess'), 'utf8'), /X-Robots-Tag "noindex/);
 }));

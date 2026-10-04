@@ -21,25 +21,28 @@
       "/privacy/",
       "/terms/"
     ],
-    "publication_cadence": "After launch, publish at most one completed article or blog per day. Each must pass the research, citation, content, SEO, and AI-language checks; the production deploy fails if it does not.",
+    "publication_cadence": "Publish a post when its research record is verified and it passes the research, citation, content, SEO, and AI-language checks; the production deploy fails if it does not. The owner's schedule allows several posts a day.",
     "editorial_backlog": "data/launch-content-plan.json keeps the 10 articles and 10 blogs with tracker-approved URLs as the editorial plan. It is not a launch requirement and drafts never block a release."
   },
   "contact": {
-    "approved": false,
+    "approved": true,
     "email": "finloom@gmail.com",
-    "reviewer": "",
-    "reviewed_at": ""
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04",
+    "basis": "Site owner instruction of 2026-10-04: \"approved all contents, we can put these to live\"."
   },
   "privacy": {
-    "approved": false,
+    "approved": true,
     "policy_effective_date": "October 3, 2026",
-    "reviewer": "",
-    "reviewed_at": ""
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04",
+    "basis": "Site owner instruction of 2026-10-04: \"approved all contents, we can put these to live\"."
   },
   "disclaimer": {
-    "approved": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "approved": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04",
+    "basis": "Site owner instruction of 2026-10-04: \"approved all contents, we can put these to live\"."
   },
   "brand_clearance": {
     "approved": false,
@@ -48,20 +51,23 @@
     "note": "The tracker Brand Strategy sheet flags an active FINLOOM U.S. trademark application (filed 25 Mar 2026) and asks for trademark counsel review before public launch."
   },
   "staging_review": {
-    "approved": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "approved": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04",
+    "basis": "Site owner instruction of 2026-10-04: \"approved all contents, we can put these to live\"."
   },
   "production_approval": {
-    "approved": false,
-    "reviewer": "",
-    "reviewed_at": "",
-    "change_reference": ""
+    "approved": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04",
+    "change_reference": "https://github.com/llenodarlene-prog/fin-loom/pull/15",
+    "basis": "Site owner instruction of 2026-10-04: \"approved all contents, we can put these to live\"."
   },
   "partner_terms": {
-    "approved": false,
-    "reviewer": "",
-    "reviewed_at": "",
-    "note": "The partnership standards on /partner-with-us/ were drafted for the owner and need sign-off before launch."
+    "approved": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04",
+    "note": "The partnership standards on /partner-with-us/ were drafted for the owner and need sign-off before launch.",
+    "basis": "Site owner instruction of 2026-10-04: \"approved all contents, we can put these to live\"."
   }
 }
