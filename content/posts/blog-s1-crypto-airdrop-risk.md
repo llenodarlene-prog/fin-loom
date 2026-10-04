@@ -15,8 +15,8 @@ research_record: content/research/blog-s1.json
 image: /assets/images/posts/crypto-airdrop-risk/airdrop-claim-review-1600.jpg
 image_alt: A phone showing an airdrop claim screen beside a printed checklist titled Before You Claim, a hardware wallet, and a sample token overview
 link_placement_site: Use The Bitcoin
-ai_exceptions: 
-ai_exception_reason: 
+ai_exceptions: unlock
+ai_exception_reason: Unlock is the standard technical term for scheduled token releases and is used in that sense only.
 author: 
 published: 
 modified: 
@@ -26,13 +26,15 @@ modified:
 
 A crypto airdrop can look simple from the outside. A project distributes tokens, users complete a claim, and the tokens appear in a wallet. The real process is often more complicated. The claim may involve a website, a wallet connection, a signature, a smart-contract approval, eligibility rules, token supply assumptions, and a decision about whether the asset is worth holding at all.
 
-That makes airdrop research different from checking whether a token is “free.” The cost can show up somewhere else: a malicious approval, a compromised wallet, a fake domain, unexpected tax consequences, thin liquidity, a concentration of supply, or hours spent chasing a campaign with little economic value.
+That makes crypto airdrop research different from checking whether a token is “free.” The cost can show up somewhere else: a malicious approval, a compromised wallet, a fake domain, unexpected tax consequences, thin liquidity, a concentration of supply, or hours spent chasing a campaign with little economic value.
 
 The risk is not theoretical. In June 2025, the [FBI warned that criminals were using NFT airdrops disguised as rewards](https://www.fbi.gov/investigate/cyber/alerts/2025/cybercriminals-defraud-hedera-hashgraph-network-non-custodial-wallet-users-through-nonfungible-token-airdrops-disguised-as-free-rewards) to direct users toward malicious links and collect credentials or wallet access. In its [2026 crypto crime reporting](https://www.chainalysis.com/blog/crypto-scams-2026/), Chainalysis estimated that scams received at least $14 billion on-chain in 2025 and projected the figure could rise above $17 billion as more illicit addresses were identified. Those totals cover many scam types, not airdrops alone, but they show the scale of the environment in which airdrop scams operate.
 
 A sensible approach is therefore to treat every airdrop as two separate questions. First: is the claim process safe enough to interact with? Second: even if it is legitimate, is the token economically worth your attention?
 
 ## Key Takeaways
+
+Seven checks do most of the work before any claim.
 
 - **Start With Source Authenticity:** Confirm the project, domain, social accounts, token contract, and claim announcement through official channels before connecting a wallet.
 - **Separate Legitimacy From Value:** A real token can still have poor liquidity, concentrated ownership, weak demand, or unfavorable unlocks.
@@ -61,7 +63,7 @@ Airdrops are often discussed as if the only danger is an obvious fake. That is t
 | Source risk | Is this really the project’s claim? | Cloned website or fake social account |
 | Wallet risk | What am I signing or approving? | Token approval or wallet drainer |
 | Token risk | Is the contract and token authentic? | Fake token using a real project name |
-| Market risk | Can the token actually be sold at a reasonable price? | Thin liquidity or severe slippage |
+| Market risk | Can the token be sold at a reasonable price? | Thin liquidity or severe slippage |
 | Supply risk | Who controls the supply and when do tokens unlock? | Insider concentration or large unlocks |
 | Operational risk | How much of my wallet is exposed? | Main wallet connected to an unsafe dApp |
 | Economic risk | Is the reward worth the time and gas? | Low-value claim after fees and effort |
@@ -109,16 +111,7 @@ A gas fee is visible. A harmful approval may be more consequential.
 
 Crypto drainers commonly rely on social engineering that persuades users to connect a wallet and approve a transaction or permission they do not fully understand. [Chainalysis describes crypto drainers](https://www.chainalysis.com/blog/crypto-drainers/) as phishing tools designed for web3 that can entice users to connect a wallet and grant permissions allowing funds to be moved.
 
-Before signing, identify the action. Is it:
-
-- a wallet connection;
-- a message signature;
-- a token approval;
-- an NFT approval;
-- a permit;
-- a token transfer;
-- a contract interaction; or
-- a transaction granting broad spending rights?
+Before signing, identify the action. It may be a wallet connection, a message signature, a token approval, an NFT approval, a permit, a token transfer, a contract interaction, or a transaction granting broad spending rights.
 
 If your wallet simulation or security tool shows an unexpected transfer, unlimited approval, unfamiliar contract, or permission affecting valuable assets, do not continue merely because the page says the step is required.
 
@@ -130,11 +123,7 @@ A useful operational rule is to separate exploration from storage.
 
 If your main wallet contains assets you intend to hold, it does not need to be the wallet you use for every new protocol, claim page, testnet, mint, or airdrop.
 
-A segmented setup can include:
-
-- a long-term storage wallet;
-- a regular DeFi or transaction wallet; and
-- a low-balance wallet used for experimental interactions or airdrop claims.
+A segmented setup can include a long-term storage wallet, a regular DeFi or transaction wallet, and a low-balance wallet used for experimental interactions or airdrop claims.
 
 This does not make a malicious transaction safe. It limits the amount that may be exposed if something goes wrong.
 
@@ -156,15 +145,7 @@ Fake tokens can copy names and tickers. A token called “ABC” does not prove 
 
 Use the project’s own official documentation to find the contract address, then compare it with what is in your wallet or on a blockchain explorer. Do not rely on symbol alone.
 
-A blockchain explorer can help confirm:
-
-- contract address;
-- token standard;
-- transaction history;
-- holder addresses;
-- supply information;
-- contract verification status; and
-- transfers associated with the token.
+A blockchain explorer can help confirm the contract address, token standard, transaction history, holder addresses, supply information, contract verification status, and transfers associated with the token.
 
 A verified contract does not guarantee investment quality, but contract identity is a basic prerequisite.
 
@@ -178,31 +159,19 @@ If a very small group of wallets controls a large percentage of circulating toke
 
 Holder concentration should therefore be interpreted, not just copied from a dashboard.
 
-Ask:
-
-- Which large wallets are exchanges?
-- Which belong to the project treasury?
-- Which are vesting contracts?
-- Which belong to market makers?
-- Which appear linked to insiders?
-- How much supply is actually liquid?
+Ask which large wallets are exchanges, which belong to the project treasury, which are vesting contracts, which belong to market makers, which appear linked to insiders, and how much of the supply is liquid.
 
 A top-holder table is useful only when wallet roles are understood.
 
 ## Circulating Supply Matters More Than the Headline Supply Number
 
-Crypto projects can report several supply figures:
-
-- maximum supply;
-- total supply;
-- circulating supply; and
-- fully diluted valuation based on future supply.
+Crypto projects can report several supply figures: maximum supply, total supply, circulating supply, and fully diluted valuation based on future supply.
 
 Those numbers answer different questions.
 
 A token with a small circulating float can trade at a high price even if a large amount of supply is scheduled to enter the market later. That future issuance can change the supply-demand balance.
 
-When evaluating an airdrop, examine the relationship among current market capitalization, circulating supply, future unlocks, and the fully diluted value implied by the token price.
+When evaluating a crypto airdrop, examine the relationship among current market capitalization, circulating supply, future unlocks, and the fully diluted value implied by the token price.
 
 The purpose is not to predict where the price will go. It is to understand how much of the eventual supply is already tradable.
 
@@ -212,15 +181,7 @@ An airdrop can create the appearance of broad distribution while a much larger p
 
 An unlock schedule helps explain when those tokens become transferable.
 
-Look for:
-
-- cliff dates;
-- linear vesting periods;
-- investor allocations;
-- team allocations;
-- treasury reserves;
-- ecosystem incentives; and
-- future community distributions.
+Look for cliff dates, linear vesting periods, investor allocations, team allocations, treasury reserves, ecosystem incentives, and future community distributions.
 
 A large unlock does not automatically cause a price decline. It does increase available supply or the amount that may become sellable, which makes it relevant to risk analysis.
 
@@ -234,15 +195,7 @@ If only a small amount of liquidity exists near the quoted price, a holder may n
 
 Consider a token priced at $1. A wallet showing 5,000 tokens may display a value of $5,000. That does not mean there is enough executable liquidity to sell all 5,000 near $1.
 
-Check:
-
-- trading volume;
-- liquidity pool depth;
-- number of active venues;
-- concentration of liquidity;
-- bid-ask spread on centralized exchanges;
-- slippage on decentralized exchanges; and
-- whether markets are organic or thin.
+Check trading volume, liquidity pool depth, number of active venues, concentration of liquidity, bid-ask spread on centralized exchanges, slippage on decentralized exchanges, and whether markets are organic or thin.
 
 This is where broader [digital asset research](/crypto/) becomes useful. Price alone is one field in a larger market structure that includes liquidity, supply, custody, investor behavior, and token economics.
 
@@ -264,16 +217,7 @@ Airdrops can create demand temporarily because users expect a reward. That is di
 
 Ask what the token does after distribution.
 
-Possible functions include:
-
-- governance;
-- fee discounts;
-- staking;
-- network security;
-- collateral;
-- protocol incentives;
-- access rights; or
-- value capture from a network.
+Possible functions include governance, fee discounts, staking, network security, collateral, protocol incentives, access rights, or value capture from a network.
 
 None of these automatically makes a token valuable. The important question is whether the mechanism creates durable demand or simply adds another reason to issue tokens.
 
@@ -380,18 +324,7 @@ This process is slower than clicking “claim,” but it turns airdrop participa
 
 A single red flag may be enough to walk away.
 
-Stop if you see:
-
-- a request for a seed phrase or private key;
-- pressure to send funds to unlock a reward;
-- a domain that differs from the official project domain;
-- a wallet transaction showing an unexpected asset transfer;
-- unlimited approvals with no clear reason;
-- support agents contacting you first;
-- a token contract that cannot be matched to official sources;
-- unexplained urgency;
-- a claim promoted only through replies or direct messages;
-- a website that blocks inspection or hides basic project information.
+Stop if you see a request for a seed phrase or private key, pressure to send funds to unlock a reward, a domain that differs from the official project domain, a wallet transaction showing an unexpected asset transfer, unlimited approvals with no clear reason, support agents contacting you first, a token contract that cannot be matched to official sources, unexplained urgency, a claim promoted only through replies or direct messages, and a website that blocks inspection or hides basic project information.
 
 The point is not to prove that every unusual claim is fraudulent. It is to refuse interactions when the downside is unclear.
 
@@ -425,10 +358,10 @@ Often, yes. Unexpected tokens do not need to be interacted with. If the token co
 
 ## Resources
 
-The following sources provide the primary or specialist evidence used to verify the claims and frameworks in this article.
+The following sources provide the primary or specialist evidence used to verify the claims and frameworks above.
 
 - FBI, “Cybercriminals Defraud Hedera Hashgraph Network Non-Custodial Wallet Users Through Nonfungible Token Airdrops Disguised as Free Rewards,” June 3, 2025: https://www.fbi.gov/investigate/cyber/alerts/2025/cybercriminals-defraud-hedera-hashgraph-network-non-custodial-wallet-users-through-nonfungible-token-airdrops-disguised-as-free-rewards
 - Chainalysis, “2026 Crypto Crime Report: Scams,” January 13, 2026: https://www.chainalysis.com/blog/crypto-scams-2026/
 - Chainalysis, “Understanding Crypto Drainers”: https://www.chainalysis.com/blog/crypto-drainers/
-- Binance Academy, “What Are Airdrop Scams and How to Avoid Them?” updated June 18, 2026: https://www.binance.com/en/academy/articles/what-are-airdrop-scams-and-how-to-avoid-them
-- Coinbase, “Avoiding Crypto Scams”: https://help.coinbase.com/en/wallet/security/avoiding-crypto-scams
+- [Binance Academy: What Are Airdrop Scams and How to Avoid Them?](https://www.binance.com/en/academy/articles/what-are-airdrop-scams-and-how-to-avoid-them), updated June 18, 2026
+- [Coinbase: Avoiding Crypto Scams](https://help.coinbase.com/en/wallet/security/avoiding-crypto-scams)

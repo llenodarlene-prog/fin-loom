@@ -39,7 +39,7 @@ The site owner asked for a footer page covering sponsored posts, guest posts, an
 
 The ten articles in `FinLoom Files/03 Blogs` are Fin Loom blog posts. Each is published on Fin Loom, and its live URL is then placed in an existing article on a partner site (Use The Bitcoin or Stoxcraft). They sit outside the tracker's 20-item launch set, so they are recorded in `data/supplementary-content-plan.json` and go through the same research, content, and release checks. They run longer than the standard limit by owner decision; each record's `max_words` is the approved ceiling.
 
-Two are in the repository as drafts: Crypto Airdrop Risk (`/crypto/crypto-airdrop-risk/`) and Crypto vs Stocks (`/investing/crypto-vs-stocks/`). The supplied chart image is not used; charts are redrawn from `data/charts.json`. Chart figures from Chainalysis were checked against the source on 2026-10-04. Before either post is published it needs a verified author, a completed research record with Ubersuggest data, and fact-check sign-off.
+Two are in the repository as drafts: Crypto Airdrop Risk (`/crypto/crypto-airdrop-risk/`) and Crypto vs Stocks (`/investing/crypto-vs-stocks/`). The supplied chart image is not used; charts are redrawn from `data/charts.json`. Chart figures from Chainalysis were checked against the source on 2026-10-04. Both had an editing pass on 2026-10-04 and pass the content checks: fragment bullet lists were folded into the sentences that introduce them with every item kept, flagged filler words were removed, and sources named in the text now link to the page they cite. The author is Darlene Aberin, verified by the site owner. Before either post is published it still needs a completed research record with Ubersuggest data and competitor review, fact-check sign-off, and a truthful publication date.
 
 ## Open items
 
@@ -47,7 +47,6 @@ Each one blocks production through `npm run release:check`.
 
 1. **Owner approvals:** contact address, privacy policy, financial disclaimer, partner terms, staging review, and production approval each need a named, dated sign-off in `data/release.json`. The copy, address (finloom@gmail.com), and policy date (October 3, 2026) are in place but unapproved.
 2. **Legal review:** the Privacy Policy and Terms came from a draft. They have not been reviewed by a lawyer as far as this repository records.
-3. **Author:** no verified, publishable author in `data/authors.json`.
 4. **Brand clearance:** the tracker's Brand Strategy sheet flags an active FINLOOM U.S. trademark application and asks for counsel review before public launch.
 5. **Logo transparency:** the supplied logo files have an off-white background. A transparent version is needed to place the logo on dark panels.
 6. **Tracker freshness:** a newer workbook export sits in `FinLoom Files/` with a different hash from the preserved snapshot in `data/source/`. Diff and re-import before relying on tracker data for publication decisions.
