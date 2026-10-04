@@ -201,7 +201,7 @@ test('the repository as committed builds a staging site that is noindex on every
 test('the repository as committed cannot be released or indexed', () => copyOfRepository(async root => {
   const gate = run('scripts/check-release.mjs', root);
   assert.notEqual(gate.status, 0);
-  for (const reason of [/launch_status must be "ready"/, /launch requires at least 1 published blog\(s\); found 0/, /financial disclaimer approval must be explicitly approved/, /brand clearance must be explicitly approved/, /at least one author must be verified and publishable/]) assert.match(gate.stderr, reason);
+  for (const reason of [/launch_status must be "ready"/, /launch requires at least 1 published blog\(s\); found 0/, /financial disclaimer approval must be explicitly approved/, /brand clearance must be explicitly approved/, /partner terms approval must be explicitly approved/]) assert.match(gate.stderr, reason);
   // Even a production-mode build stays noindex until launch_status is ready.
   assert.equal(env(root, 'production').status, 0);
   assert.match(await readFile(path.join(root, 'dist/index.html'), 'utf8'), /<meta name="robots" content="noindex,nofollow,noarchive">/);
