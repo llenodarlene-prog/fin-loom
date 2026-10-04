@@ -35,7 +35,7 @@ If sources conflict, stop and report the exact conflict. The tracker controls ti
 - Preserve the real evidence year. Label estimates, forecasts, calculations, partial-year data, and sponsored studies.
 - Never fabricate anecdotes, experience, testimonials, results, authors, credentials, contacts, prices, statistics, dates, sources, or financial claims.
 - Fin Loom is an informational financial publication, not a financial adviser. Never write a recommendation to buy, sell, or hold any asset, never promise or imply a return, and keep the approved disclaimer on every page. Label forecasts, estimates, and illustrative calculations as such.
-- The ten owner-supplied articles in `FinLoom Files/03 Blogs` are Fin Loom blog posts recorded in `data/supplementary-content-plan.json`. They pass the same checks as tracker items; see `docs/SOURCE-OF-TRUTH.md`.
+- The fifteen owner-supplied articles in `FinLoom Files/03 Blogs` are Fin Loom blog posts recorded in `data/supplementary-content-plan.json`. They pass the same checks as tracker items; see `docs/SOURCE-OF-TRUTH.md`.
 - No em dashes. Target clear Grade 8–9 prose, short paragraphs, active voice, and varied sentence rhythm.
 - High- and medium-severity repository AI kill-list entries are enforced. If a flagged term is technically necessary, add the exact term to the semicolon-separated `ai_exceptions` field and explain it in `ai_exception_reason`.
 
