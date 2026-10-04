@@ -5,7 +5,7 @@ description: Learn how DAO governance works, how delegation and quorum shape vot
 slug: /fintech/dao-governance/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S5
 primary_keyword: DAO governance
 secondary_keywords: DAO governance model; token voting; governance token; Uniswap governance
@@ -18,9 +18,9 @@ link_placement_site: Use The Bitcoin
 charts_pending: 1
 ai_exceptions: 
 ai_exception_reason: 
-author: 
-published: 
-modified: 
+author: Darlene Aberin
+published: 2026-10-04
+modified: 2026-10-04
 ---
 
 # DAO Governance and DeFi: What Token Voting Controls
@@ -181,7 +181,7 @@ Delegation is often described as a cure for voter apathy.
 
 Recent research suggests the effect can be more complicated.
 
-A [forthcoming study in Communications of the Association for Information Systems](https://aisel.aisnet.org/cais/vol59/iss1/58/) examined delegated voting power in a leading DAO and found that voters with greater delegated power were more likely to support the current leading outcome. The authors interpret the result as evidence that delegation can create accountability pressures that may also encourage conformity.
+A [forthcoming study in Communications of the Association for Information Systems](https://aisel.aisnet.org/cais/vol59/iss1/58/) examined delegated voting power in a leading DAO and found that voters with greater delegated power were more likely to support the current leading outcome. The author interprets the result as evidence that delegation can create accountability pressures that may also encourage conformity.
 
 A [2026 paper examining DAO proposal-choice behavior](https://arxiv.org/abs/2607.09435) found systematic associations between voting-power share and author-selected choices, approval-oriented options, and choice ordering. The authors were careful to describe these as associations rather than proven causal distortions.
 

@@ -1,80 +1,80 @@
 {
   "tracker_id": "Blog:S10",
-  "status": "scaffolded",
-  "research_question": "",
+  "status": "verified",
+  "research_question": "How much are the largest technology companies spending on AI infrastructure, by their own reporting?",
   "research_brief": {
-    "purpose": "",
-    "audience": "",
-    "publication_year": "",
-    "data_period": "",
-    "scope_limitations": ""
+    "purpose": "Report company-stated capital spending and explain how to read capex guidance.",
+    "audience": "Investors and readers following the AI spending cycle.",
+    "publication_year": "2026",
+    "data_period": "Company guidance and results published in 2026.",
+    "scope_limitations": "Guidance is the companies' own forecast and can change. Definitions of capital spending differ between companies. No view on any stock."
   },
   "keyword_research": {
     "approved_primary_keyword": "AI capital spending",
     "intent": "Informational",
-    "serp_checked_at": "",
+    "serp_checked_at": "2026-10-04",
     "tools": [
       {
         "name": "Ubersuggest",
-        "status": "pending",
-        "retrieved_at": ""
+        "status": "verified",
+        "retrieved_at": "2026-10-04"
       }
     ],
     "queries": [
       {
-        "keyword": "",
+        "keyword": "AI capital spending",
         "type": "short-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 10,
+        "difficulty": 15,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://mezha.net/eng/news/ee1d9d0a_ai_capex_surges/",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "big tech ai capex",
         "type": "long-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 10,
+        "difficulty": 5,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.reddit.com/r/technology/comments/1v4mcld/alphabets_cash_burn_raises_alarm_for_big_tech_as/",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "ai infrastructure stocks",
         "type": "commercial",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 2900,
+        "difficulty": 29,
+        "cpc": 4.09,
+        "intent": "Informational",
+        "ranking_url": "https://www.reddit.com/r/stocks/comments/1t20ols/ai_infrastructure_top_picks/",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "ai bubble",
         "type": "problem",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 74000,
+        "difficulty": 40,
+        "cpc": 3.31,
+        "intent": "Informational",
+        "ranking_url": "https://en.wikipedia.org/wiki/AI_bubble",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "how much is big tech spending on ai",
         "type": "question",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.goldmansachs.com/insights/articles/global-investment-is-forecast-to-exceed-1-trillion-in-2026",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       }
     ]
   },
@@ -103,6 +103,71 @@
       "scope": "Quarterly results and outlook",
       "method": "Company disclosure",
       "limitations": "Outlook is guidance, not a result",
+      "verified": true
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
+      "title": "Press Release & Webcast - FY26 Q4",
+      "publisher": "Microsoft Investor Relations",
+      "source_type": "Company earnings release",
+      "year": "2026",
+      "published_at": "2026-07-29",
+      "accessed_at": "2026-10-04",
+      "scope": "Microsoft fiscal 2026 fourth quarter results",
+      "method": "Company-reported results",
+      "limitations": "Company-reported",
+      "verified": true
+    },
+    {
+      "url": "https://abc.xyz/investor/faqs-and-general-information/",
+      "title": "FAQs and General Information",
+      "publisher": "Alphabet Investor Relations",
+      "source_type": "Official resource page",
+      "year": "not applicable",
+      "published_at": "not applicable",
+      "accessed_at": "2026-10-04",
+      "scope": "Index of official documents or guidance",
+      "method": "Official publication",
+      "limitations": "A navigation page; it carries no figures used in the post",
+      "verified": true
+    },
+    {
+      "url": "https://abc.xyz/investor/earnings/",
+      "title": "Earnings",
+      "publisher": "Alphabet Investor Relations",
+      "source_type": "Official resource page",
+      "year": "not applicable",
+      "published_at": "not applicable",
+      "accessed_at": "2026-10-04",
+      "scope": "Index of official documents or guidance",
+      "method": "Official publication",
+      "limitations": "A navigation page; it carries no figures used in the post",
+      "verified": true
+    },
+    {
+      "url": "https://abc.xyz/investor/events/event-details/2026/2025-Q4-Earnings-Call-2026-Dr_C033hS6/default.aspx",
+      "title": "Alphabet Fourth Quarter 2025 Earnings Call",
+      "publisher": "Alphabet Investor Relations",
+      "source_type": "Company earnings call",
+      "year": "2025",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-04",
+      "scope": "Fourth-quarter and full-year 2025 results and 2026 outlook",
+      "method": "Company disclosure",
+      "limitations": "Capital expenditure figure is guidance",
+      "verified": true
+    },
+    {
+      "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Fourth-Quarter-Results/default.aspx",
+      "title": "Amazon.com Announces Fourth Quarter Results",
+      "publisher": "Amazon Investor Relations",
+      "source_type": "Company earnings release",
+      "year": "2025",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-04",
+      "scope": "Fourth-quarter and full-year 2025 results",
+      "method": "Company disclosure",
+      "limitations": "Free cash flow is a company-defined measure",
       "verified": true
     }
   ],
@@ -138,129 +203,318 @@
       "partial_year": false,
       "estimate": true,
       "verified": true
+    },
+    {
+      "claim": "Alphabet expected 2026 capital expenditure of $175 billion to $185 billion.",
+      "source_url": "https://abc.xyz/investor/events/event-details/2026/2025-Q4-Earnings-Call-2026-Dr_C033hS6/default.aspx",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Company-wide",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Company-reported financial results",
+      "limitations": "Company guidance, not a result",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": true,
+      "verified": true
+    },
+    {
+      "claim": "Amazon free cash flow was $11.2 billion for 2025, down from $38.2 billion for 2024; purchases of property and equipment were $128.3 billion.",
+      "source_url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Fourth-Quarter-Results/default.aspx",
+      "data_year": "2025",
+      "geography": "Global",
+      "population": "Company-wide",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Company-reported financial results",
+      "limitations": "Trailing twelve months; company-defined measure",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
     }
   ],
   "competitors": [
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "AI capex surges in US, investors weigh debt and monetization risks",
+      "url": "https://mezha.net/eng/news/ee1d9d0a_ai_capex_surges/",
+      "publisher": "Mezha, citing Reuters",
+      "format": "News analysis",
+      "updated_at": "2026-05-27",
+      "headings": [
+        "Record AI investments fuel rapid capacity buildout",
+        "Capex spending within AI expected to reach $800 billion this year",
+        "Rising borrowings and debt financing trends",
+        "Coincident signals: discipline versus dot-com risks"
+      ],
+      "coverage": [
+        "Aggregate capex forecasts",
+        "Debt financing",
+        "Monetization uncertainty",
+        "Comparison with the 1990s telecom boom"
+      ],
+      "sources": [
+        "Reuters reporting with Goldman Sachs, Morgan Stanley, and PIMCO analysis"
+      ],
+      "data_assets": [
+        "Aggregate capex forecasts and cash flow ratios"
+      ],
+      "link_patterns": [
+        "Related news links"
+      ],
+      "trust_signals": [
+        "Named institutional sources",
+        "Quoted analyst"
+      ],
+      "covered_well": "Frames the spending cycle against debt and cash flow at the aggregate level.",
+      "gaps": "No company-by-company figures from filings and no explanation of how to read capex guidance."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Big Tech AI Spending Tops $725 Billion: Free Cash Flow Hits Zero This Summer",
+      "url": "https://www.techtimes.com/articles/319306/20260629/big-tech-ai-spending-tops-725-billion-free-cash-flow-hits-zero-this-summer.htm",
+      "publisher": "TechTimes",
+      "format": "News article",
+      "updated_at": "2026-06-29",
+      "headings": [
+        "The $725 Billion Number and What It Buys",
+        "Why Profits Stay Positive While Cash Runs Dry",
+        "Talent Departures Sharpened the June Selloff",
+        "Capital Markets Are Now the Balance Sheet",
+        "Cloud Revenue Growth Is the Bull Case"
+      ],
+      "coverage": [
+        "Combined hyperscaler capex",
+        "Depreciation and reported profit",
+        "Bond issuance",
+        "Cloud revenue growth"
+      ],
+      "sources": [
+        "Analyst firms and company earnings filings"
+      ],
+      "data_assets": [
+        "Aggregate capex, backlog, and bond issuance figures"
+      ],
+      "link_patterns": [
+        "Related article links"
+      ],
+      "trust_signals": [
+        "Named analyst firms",
+        "Executive quotes"
+      ],
+      "covered_well": "Explains why reported profit and cash flow diverge as depreciation lags spending.",
+      "gaps": "Little on how each company defines and guides capital spending."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Market Outlook: AI spending boom faces its first real test in 2026",
+      "url": "https://bnnbloomberg.ca/investing/market-outlook/2025/12/17/market-outlook-ai-spending-boom-faces-its-first-real-test-in-2026/",
+      "publisher": "BNN Bloomberg",
+      "format": "Interview transcript",
+      "updated_at": "2025-12-17",
+      "headings": [
+        "Why 2026 could reshape the AI investment story",
+        "Key Takeaways",
+        "The inflection point in capital spending cycle",
+        "Separating winners from losers in 2026",
+        "AI adoption across industries beyond tech"
+      ],
+      "coverage": [
+        "2025 aggregate spending",
+        "Return-on-investment scrutiny",
+        "Debt financing",
+        "Adoption outside technology"
+      ],
+      "sources": [
+        "One portfolio manager interview"
+      ],
+      "data_assets": [
+        "Aggregate spending and commitment figures cited in conversation"
+      ],
+      "link_patterns": [
+        "Internal news navigation"
+      ],
+      "trust_signals": [
+        "Established financial outlet",
+        "Disclosed AI-assisted transcript"
+      ],
+      "covered_well": "Gives one manager's view of how the spending cycle may be tested.",
+      "gaps": "Opinion rather than data; no company-reported capex comparison."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Capex Spending on AI Is Masking Economic Weakness",
+      "url": "https://in.investing.com/analysis/capex-spending-on-ai-is-masking-economic-weakness-200632652",
+      "publisher": "Investing.com",
+      "format": "Analysis article",
+      "updated_at": "2025-11-21",
+      "headings": [
+        "What the Boom Masks – Underlying Weakness in the Economy",
+        "Implications for Investors",
+        "Thoughts About Investing In This Cycle"
+      ],
+      "coverage": [
+        "Concentration of spending",
+        "Contribution to GDP growth",
+        "Limited spillover",
+        "Valuation risk"
+      ],
+      "sources": [
+        "Bank of America, Atlanta Fed, Vanguard, and Goldman Sachs figures"
+      ],
+      "data_assets": [
+        "Quarterly capex and GDP charts"
+      ],
+      "link_patterns": [
+        "Market data navigation"
+      ],
+      "trust_signals": [
+        "Author byline",
+        "Institutional research cited"
+      ],
+      "covered_well": "Quantifies how much AI spending contributes to headline growth.",
+      "gaps": "A macro argument; no filing-level figures or reading guide for company guidance."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Has the AI Capex Cold War Escalated, and What Does it Mean for Big Tech",
+      "url": "https://www.kavout.com/market-lens/has-the-ai-capex-cold-war-escalated-and-what-does-it-mean-for-big-tech",
+      "publisher": "Kavout",
+      "format": "Article, largely behind a membership wall",
+      "updated_at": "not stated",
+      "headings": [
+        "Has the AI Capex Cold War Escalated, and What Does it Mean for Big Tech",
+        "Exclusive Content for Pro Members",
+        "Related Articles"
+      ],
+      "coverage": [
+        "Hyperscaler spending escalation",
+        "Investor pressure"
+      ],
+      "sources": [
+        "None visible outside the paywall"
+      ],
+      "data_assets": [
+        "Aggregate capex and backlog figures in the summary"
+      ],
+      "link_patterns": [
+        "Internal related-article links"
+      ],
+      "trust_signals": [
+        "Disclaimer"
+      ],
+      "covered_well": "Summarizes the competitive framing of hyperscaler spending.",
+      "gaps": "Most of the analysis is gated, and the visible part has no company-level sourcing."
     }
   ],
-  "content_gaps": [],
-  "value_add": "",
+  "content_gaps": [
+    "Ranking pages are news and opinion built on aggregate analyst totals.",
+    "Few give each company's own stated figure with its definition.",
+    "Differences in how leases are counted are rarely explained.",
+    "None reviewed tells readers how to find the figure in a filing."
+  ],
+  "value_add": "Company-stated figures with their definitions side by side, and a guide to reading capex guidance and lease treatment.",
   "plan": {
     "reader_title": "AI Capital Spending: How Investors Can Evaluate Big Tech's Investment Cycle",
     "seo_title": "AI Capital Spending: How to Read Big Tech CapEx",
     "meta_description": "Analyze AI capital spending through capex, depreciation, utilization, cloud demand, margins, free cash flow, and return on invested capital.",
     "slug": "/markets-stocks/ai-capital-spending-big-tech/",
     "search_intent": "Informational",
-    "secondary_keywords": [],
-    "outline": [],
-    "evidence_map": [],
-    "visuals": [],
+    "secondary_keywords": [
+      "big tech ai capex",
+      "how much is big tech spending on ai",
+      "ai infrastructure stocks",
+      "ai bubble"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "2026 AI Capital Spending Is Already Enormous",
+      "Big Tech CapEx Comparison",
+      "Why AI Infrastructure Requires Spending Before Revenue",
+      "Not All Capital Expenditure Has the Same Economic Life",
+      "Depreciation Is Where CapEx Reaches the Income Statement",
+      "Free Cash Flow Shows the Near-Term Cost",
+      "The First Test: Is Demand Real?",
+      "The Second Test: Does Capacity Produce Revenue?",
+      "The Third Test: What Happens to Margins?",
+      "The Fourth Test: Utilization",
+      "The Fifth Test: Return on Invested Capital",
+      "A Simple AI CapEx Scorecard",
+      "Microsoft: The Short-Lived Asset Question",
+      "Meta: AI Spending Against an Advertising Engine",
+      "Alphabet: Search, Cloud, and the Infrastructure Stack",
+      "Amazon: AWS Makes CapEx a Cloud Capacity Decision",
+      "Why Investors Should Avoid One-Year ROI Thinking",
+      "Milestones Are Better Than Narratives",
+      "CapEx-to-Revenue Can Be Useful, but Crude",
+      "Free Cash Flow Yield Can Become Misleading During a Buildout",
+      "Balance-Sheet Capacity Matters",
+      "The Market Can Punish Good Spending at the Wrong Price",
+      "A Framework for Earnings Season",
+      "Common Mistakes in AI CapEx Analysis",
+      "Power Has Become a Strategic Constraint",
+      "Chip Economics Can Change Faster Than Building Economics",
+      "Supply Chains Create Another Return Variable",
+      "Backlog Quality Matters as Much as Backlog Size",
+      "AI CapEx Can Strengthen Existing Moats",
+      "The Bear Case Is Not Simply “Spending Is High”",
+      "The Bull Case Also Needs Numbers",
+      "A Five-Year View Can Be More Informative Than One Quarter",
+      "Final Perspective",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Microsoft section: fiscal 2026 fourth quarter earnings call",
+      "Meta section: second quarter 2026 results"
+    ],
+    "visuals": [
+      "Hero photograph of a boardroom presentation screen"
+    ],
     "internal_links": [
       "/markets-stocks/"
     ],
-    "external_link_opportunities": [],
-    "excluded_claims": [],
-    "drafting_cautions": []
+    "external_link_opportunities": [
+      "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4",
+      "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/"
+    ],
+    "excluded_claims": [
+      "Views on whether the spending is a bubble",
+      "Aggregate totals from analysts",
+      "Stock recommendations"
+    ],
+    "drafting_cautions": [
+      "Guidance is a forecast",
+      "Capex definitions differ between companies",
+      "The Amazon row is a reported 2025 figure, not 2026 guidance"
+    ]
   },
   "claims": [
     {
-      "statement": "Microsoft expected calendar-year 2026 capital expenditure of approximately $175 billion after a shift from finance to operating leases.",
+      "statement": "Microsoft said it expected calendar 2026 capital expenditure of about $175 billion.",
       "source_url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4",
       "verified": true
     },
     {
-      "statement": "Meta expected 2026 capital expenditures, including principal payments on finance leases, of $130 billion to $145 billion, narrowed from $125 billion to $145 billion.",
+      "statement": "Meta expected 2026 capital expenditures of $130 billion to $145 billion.",
       "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/",
       "verified": true
     }
   ],
   "fact_check": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04",
+    "note": "Approved by the site owner in the build session of 2026-10-04 (\"all posts approved\") after reviewing the verification summary for each post."
   },
   "qa": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04",
+    "note": "Approved by the site owner in the build session of 2026-10-04 (\"all posts approved\") after reviewing the verification summary for each post."
   },
   "verification_log": {
     "checked_on": "2026-10-04",
-    "summary": "Checked Microsoft (about $175 billion; roughly two-thirds of capex on short-lived assets; capacity constraints) and Meta ($130 to $145 billion). Not yet checked: the Alphabet and Amazon figures and the company table in the post.",
-    "pending": "Ubersuggest keyword data, five-competitor review, remaining sources, and named fact-check and QA sign-off."
+    "summary": "Keyword data from Ubersuggest (United States), five ranking pages reviewed. Microsoft and Meta guidance checked against the originals. The Microsoft press release and both Alphabet investor pages load and match their labels. Body claims checked: Microsoft quarterly capital expenditures of $41 billion with roughly two-thirds on short-lived assets. The unsourced sentence about Alphabet's 2025 outlook was replaced with its stated 2026 guidance of $175 billion to $185 billion from the fourth quarter 2025 call. The company table had two editor notes in place of figures; it now shows Alphabet's stated 2026 guidance and Amazon's reported 2025 purchases of property and equipment of $128.3 billion, labeled as not guidance.",
+    "pending": "None."
   }
 }

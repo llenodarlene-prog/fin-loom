@@ -5,7 +5,7 @@ description: Compare saving vs investing by time horizon, liquidity, inflation, 
 slug: /money-banking/saving-vs-investing/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S9
 primary_keyword: saving vs investing
 secondary_keywords: 
@@ -18,9 +18,9 @@ link_placement_site: Stoxcraft
 charts_pending: 0
 ai_exceptions: 
 ai_exception_reason: 
-author: 
-published: 
-modified: 
+author: Darlene Aberin
+published: 2026-10-04
+modified: 2026-10-04
 ---
 
 # Saving vs Investing: How Time Horizon and Liquidity Change the Decision

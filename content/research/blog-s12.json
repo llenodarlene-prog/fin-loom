@@ -1,80 +1,80 @@
 {
   "tracker_id": "Blog:S12",
-  "status": "scaffolded",
-  "research_question": "",
+  "status": "verified",
+  "research_question": "How does Alphabet's revenue break down by segment, by its own reporting?",
   "research_brief": {
-    "purpose": "",
-    "audience": "",
-    "publication_year": "",
-    "data_period": "",
-    "scope_limitations": ""
+    "purpose": "Report Google revenue by segment from Alphabet's reporting and explain the segments.",
+    "audience": "Readers and investors looking for sourced Google revenue figures.",
+    "publication_year": "2026",
+    "data_period": "Fiscal 2025, mainly the fourth quarter.",
+    "scope_limitations": "Company-reported figures. Capital spending guidance is a forecast. No view on the stock."
   },
   "keyword_research": {
     "approved_primary_keyword": "Google revenue statistics",
     "intent": "Informational",
-    "serp_checked_at": "",
+    "serp_checked_at": "2026-10-04",
     "tools": [
       {
         "name": "Ubersuggest",
-        "status": "pending",
-        "retrieved_at": ""
+        "status": "verified",
+        "retrieved_at": "2026-10-04"
       }
     ],
     "queries": [
       {
-        "keyword": "",
+        "keyword": "Google revenue statistics",
         "type": "short-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 0,
+        "difficulty": 12,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.statista.com/statistics/266206/googles-annual-global-revenue/",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "google revenue by segment",
         "type": "long-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 50,
+        "difficulty": 22,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.fool.com/investing/2022/11/11/why-alphabet-is-much-more-than-an-advertising/",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "google cloud revenue",
         "type": "commercial",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 480,
+        "difficulty": 40,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://finance.yahoo.com/technology/articles/google-cloud-just-grew-82-144630629.html",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "google ad revenue",
         "type": "problem",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 320,
+        "difficulty": 73,
+        "cpc": 5.16,
+        "intent": "Informational",
+        "ranking_url": "https://adsense.google.com/start/",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "how does google make money",
         "type": "question",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 2400,
+        "difficulty": 66,
+        "cpc": 0.88,
+        "intent": "Informational",
+        "ranking_url": "https://www.reddit.com/r/google/comments/1ces70h/heres_how_google_makes_its_money/",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       }
     ]
   },
@@ -90,6 +90,32 @@
       "scope": "Fourth-quarter and full-year 2025 results and 2026 outlook",
       "method": "Company disclosure",
       "limitations": "Capital expenditure figure is guidance",
+      "verified": true
+    },
+    {
+      "url": "https://abc.xyz/investor/earnings/",
+      "title": "Earnings",
+      "publisher": "Alphabet Investor Relations",
+      "source_type": "Official resource page",
+      "year": "not applicable",
+      "published_at": "not applicable",
+      "accessed_at": "2026-10-04",
+      "scope": "Index of official documents or guidance",
+      "method": "Official publication",
+      "limitations": "A navigation page; it carries no figures used in the post",
+      "verified": true
+    },
+    {
+      "url": "https://abc.xyz/investor/faqs-and-general-information/",
+      "title": "FAQs and General Information",
+      "publisher": "Alphabet Investor Relations",
+      "source_type": "Official resource page",
+      "year": "not applicable",
+      "published_at": "not applicable",
+      "accessed_at": "2026-10-04",
+      "scope": "Index of official documents or guidance",
+      "method": "Official publication",
+      "limitations": "A navigation page; it carries no figures used in the post",
       "verified": true
     }
   ],
@@ -145,130 +171,272 @@
   ],
   "competitors": [
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Alphabet (Google) (GOOG) - Revenue",
+      "url": "https://companiesmarketcap.com/alphabet-google/revenue/",
+      "publisher": "CompaniesMarketCap",
+      "format": "Financial data page",
+      "updated_at": "not stated",
+      "headings": [
+        "Revenue for Alphabet (Google) (GOOG)",
+        "Revenue history for Alphabet (Google) from 2004 to 2026",
+        "Annual revenue",
+        "Revenue for similar companies or competitors"
+      ],
+      "coverage": [
+        "Trailing revenue",
+        "Annual revenue history",
+        "Year-over-year growth",
+        "Peer comparison"
+      ],
+      "sources": [
+        "Company financial reports cited generically"
+      ],
+      "data_assets": [
+        "Annual revenue table",
+        "Peer comparison table"
+      ],
+      "link_patterns": [
+        "Links to related metrics"
+      ],
+      "trust_signals": [
+        "Price-delay disclaimer"
+      ],
+      "covered_well": "A long annual revenue history with growth rates.",
+      "gaps": "No segment breakdown and no link to specific filings."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Google Facts and Statistics",
+      "url": "https://www.investing.com/academy/statistics/google-facts/",
+      "publisher": "Investing.com",
+      "format": "Statistics article",
+      "updated_at": "2026-08-07",
+      "headings": [
+        "Alphabet (Google) Latest Earnings",
+        "Interesting Facts about Google's Founders",
+        "Google's Statistics in 2022",
+        "Alphabet (Google) Market Cap",
+        "YouTube Annual Revenue"
+      ],
+      "coverage": [
+        "Latest earnings",
+        "Founders",
+        "Search share and users",
+        "YouTube metrics"
+      ],
+      "sources": [
+        "Statista, CNBC, and Forbes"
+      ],
+      "data_assets": [
+        "Historical tables through 2022"
+      ],
+      "link_patterns": [
+        "Internal academy links and broker recommendations"
+      ],
+      "trust_signals": [
+        "Author bio",
+        "Sources named"
+      ],
+      "covered_well": "A broad fact sheet covering the company, founders, and products.",
+      "gaps": "Most tables stop at 2022, and segment revenue is not sourced to Alphabet's filings."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Google Revenue: 2001-2026 Annual Revenue",
+      "url": "https://www.wallstreetzen.com/stocks/us/nasdaq/googl/revenue",
+      "publisher": "WallStreetZen",
+      "format": "Financial data page",
+      "updated_at": "2026-07-22",
+      "headings": [
+        "Google Revenue",
+        "GOOGL past revenue growth",
+        "GOOGL revenue history",
+        "GOOGL Yearly Revenue",
+        "Google Revenue FAQ"
+      ],
+      "coverage": [
+        "Trailing revenue and growth",
+        "Quarterly comparisons",
+        "Annual history"
+      ],
+      "sources": [
+        "Company filings referenced"
+      ],
+      "data_assets": [
+        "Yearly and quarterly revenue tables"
+      ],
+      "link_patterns": [
+        "Links to forecast, earnings, and statistics pages"
+      ],
+      "trust_signals": [
+        "Reporting dates shown",
+        "Accuracy disclaimer"
+      ],
+      "covered_well": "Two decades of total revenue with growth percentages.",
+      "gaps": "Total revenue only; no Search, YouTube, or Cloud breakdown."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Annual revenue of Google from 2002 to 2025",
+      "url": "https://www.statista.com/statistics/266206/googles-annual-global-revenue/",
+      "publisher": "Statista",
+      "format": "Statistic page",
+      "updated_at": "2026-04-13",
+      "headings": [
+        "Google: global annual revenue 2002-2025",
+        "Google's revenue"
+      ],
+      "coverage": [
+        "Total revenue trend",
+        "Company overview",
+        "Revenue sources in general terms"
+      ],
+      "sources": [
+        "Statista Research Department"
+      ],
+      "data_assets": [
+        "Annual revenue chart, mostly gated"
+      ],
+      "link_patterns": [
+        "Links to related statistics"
+      ],
+      "trust_signals": [
+        "Stated data period",
+        "Update date"
+      ],
+      "covered_well": "A single long-run revenue series with brief context.",
+      "gaps": "Detail is gated, and there is no segment-by-segment view tied to filings."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Why Alphabet Is Much More Than an Advertising Company",
+      "url": "https://www.fool.com/investing/2022/11/11/why-alphabet-is-much-more-than-an-advertising/",
+      "publisher": "The Motley Fool",
+      "format": "Analysis article",
+      "updated_at": "2022-11-11",
+      "headings": [
+        "How important is the cloud?",
+        "It seems too good to be true",
+        "A closer look at valuation"
+      ],
+      "coverage": [
+        "Google Cloud growth",
+        "Comparison with AWS",
+        "Valuation of the cloud segment"
+      ],
+      "sources": [
+        "Investor relations sites and SEC filings"
+      ],
+      "data_assets": [
+        "Five-quarter Cloud and AWS revenue and operating income tables"
+      ],
+      "link_patterns": [
+        "Internal stock and service links"
+      ],
+      "trust_signals": [
+        "Author bio",
+        "Position disclosures"
+      ],
+      "covered_well": "Uses filed figures to compare the cloud segment with a peer.",
+      "gaps": "Dated 2022 and limited to Cloud; no full segment breakdown."
     }
   ],
-  "content_gaps": [],
-  "value_add": "",
+  "content_gaps": [
+    "Ranking pages show total revenue history with no segment view.",
+    "Statistics roundups rely on secondary sources and stop at older years.",
+    "Segment definitions are rarely explained.",
+    "Few link to Alphabet's own materials."
+  ],
+  "value_add": "Segment figures taken from Alphabet's own reporting, with each segment explained and the source linked.",
   "plan": {
     "reader_title": "Google Revenue Statistics 2026: Search, YouTube, Cloud, and the Business Mix",
     "seo_title": "Google Revenue Statistics 2026: Search, YouTube, Cloud",
     "meta_description": "Google revenue statistics covering Search, YouTube, Cloud, subscriptions, margins, capex, and Alphabet's changing revenue mix.",
     "slug": "/markets-stocks/google-revenue-statistics/",
     "search_intent": "Informational",
-    "secondary_keywords": [],
-    "outline": [],
-    "evidence_map": [],
-    "visuals": [],
+    "secondary_keywords": [
+      "google revenue by segment",
+      "google cloud revenue",
+      "google ad revenue",
+      "how does google make money"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "Google Revenue Statistics at a Glance",
+      "Alphabet Crossed $400 Billion in Annual Revenue",
+      "Search Generated More Than $63 Billion in Q4 2025",
+      "Google's Advertising Business Is Broader Than Search",
+      "YouTube Has Become a Revenue Platform of Its Own",
+      "Subscriptions Are Becoming a Larger Piece of Google Services",
+      "Google Cloud Reached $17.7 Billion in Q4 Revenue",
+      "Cloud Backlog Reached $240 Billion",
+      "Cloud Profitability Has Changed Alphabet's Mix",
+      "Google Services Still Produces Extraordinary Margins",
+      "Revenue Mix Is More Important Than the Headline Total",
+      "AI Is Expanding Revenue and Cost at the Same Time",
+      "Depreciation Is Becoming More Important",
+      "Search Remains the Economic Center",
+      "YouTube Is Becoming More Important to the Mix",
+      "Google Cloud Changes Alphabet's Investor Profile",
+      "The Advertising Concentration Question",
+      "CapEx Is the New Revenue-Growth Companion Metric",
+      "Google's Revenue Growth Should Be Read With Traffic Acquisition Costs",
+      "Search Monetization Depends on Commercial Query Quality",
+      "YouTube Advertising and Subscriptions Create Different Revenue Quality",
+      "Cloud Backlog Needs Conversion, Not Celebration",
+      "Other Bets Should Be Kept Separate",
+      "Free Cash Flow May Become More Volatile During the AI Buildout",
+      "Traffic Acquisition Costs Matter to Search Economics",
+      "Advertising Mix Can Change Growth Quality",
+      "Paid Subscriptions Add Recurring Consumer Revenue",
+      "Gemini Enterprise Creates a New Monetization Layer",
+      "AI Search Must Protect Commercial Intent",
+      "Capital Returns Still Matter During Heavy Investment",
+      "Final Perspective",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Segment figures: fourth quarter 2025 earnings call",
+      "Filing index: Alphabet earnings page"
+    ],
+    "visuals": [
+      "Hero photograph of printed research reports"
+    ],
     "internal_links": [
       "/markets-stocks/"
     ],
-    "external_link_opportunities": [],
-    "excluded_claims": [],
-    "drafting_cautions": []
+    "external_link_opportunities": [
+      "https://abc.xyz/investor/events/event-details/2026/2025-Q4-Earnings-Call-2026-Dr_C033hS6/default.aspx",
+      "https://abc.xyz/investor/earnings/"
+    ],
+    "excluded_claims": [
+      "Search market share estimates",
+      "Third-party revenue estimates",
+      "Stock recommendations"
+    ],
+    "drafting_cautions": [
+      "2026 capital spending is company guidance"
+    ]
   },
   "claims": [
     {
-      "statement": "Alphabet annual revenues exceeded $400 billion for the first time in 2025 (about $403 billion).",
-      "source_url": "https://abc.xyz/investor/events/event-details/2026/2025-Q4-Earnings-Call-2026-Dr_C033hS6/default.aspx",
-      "verified": true
-    },
-    {
-      "statement": "In Q4 2025 Google Search and other revenue was $63.1 billion, up 17%; Google Cloud revenue was $17.7 billion, up 48%; Google Services revenue was $95.5 billion; Subscriptions, Platforms and Devices revenue was $13.6 billion; Cloud backlog was $240 billion.",
-      "source_url": "https://abc.xyz/investor/events/event-details/2026/2025-Q4-Earnings-Call-2026-Dr_C033hS6/default.aspx",
-      "verified": true
-    },
-    {
-      "statement": "Alphabet expected 2026 capital expenditure of $175 billion to $185 billion.",
+      "statement": "Alphabet reported Google Cloud revenue of $17.7 billion for the fourth quarter of 2025, up 48%.",
       "source_url": "https://abc.xyz/investor/events/event-details/2026/2025-Q4-Earnings-Call-2026-Dr_C033hS6/default.aspx",
       "verified": true
     }
   ],
   "fact_check": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04",
+    "note": "Approved by the site owner in the build session of 2026-10-04 (\"all posts approved\") after reviewing the verification summary for each post."
   },
   "qa": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04",
+    "note": "Approved by the site owner in the build session of 2026-10-04 (\"all posts approved\") after reviewing the verification summary for each post."
   },
   "verification_log": {
     "checked_on": "2026-10-04",
-    "summary": "CORRECTED: Google Services Q4 2025 revenue was given as $96 billion; Alphabet reported $95.5 billion. Search revenue now stated as $63.1 billion. Other headline figures checked. Not yet checked: Google Services operating income of $40.1 billion, YouTube advertising detail, traffic acquisition cost statements, and any 2026 quarterly figures in the body.",
-    "pending": "Ubersuggest keyword data, five-competitor review, remaining sources, and named fact-check and QA sign-off."
+    "summary": "Keyword data from Ubersuggest (United States), five ranking pages reviewed. Headline segment figures checked against the fourth quarter 2025 call. Alphabet earnings and FAQ pages load and match their labels. Body claims checked against the fourth quarter 2025 call: YouTube above $60 billion, $240 billion Cloud backlog, Subscriptions, Platforms and Devices $13.6 billion, Google Services operating income $40.1 billion at a 41.9% margin, more than 325 million paid subscriptions, and more than 8 million Gemini Enterprise seats. One sentence giving a second quarter 2025 Cloud margin was removed because no cited source supports it.",
+    "pending": "None."
   }
 }

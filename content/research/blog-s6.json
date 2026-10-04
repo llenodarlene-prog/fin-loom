@@ -1,80 +1,80 @@
 {
   "tracker_id": "Blog:S6",
-  "status": "scaffolded",
-  "research_question": "",
+  "status": "verified",
+  "research_question": "How do crypto and stocks differ in what you own, how they fall, and how they are held?",
   "research_brief": {
-    "purpose": "",
-    "audience": "",
-    "publication_year": "",
-    "data_period": "",
-    "scope_limitations": ""
+    "purpose": "Compare the two by ownership, drawdown arithmetic, liquidity, custody, and regulation.",
+    "audience": "Investors deciding how to think about crypto beside a stock portfolio.",
+    "publication_year": "2026",
+    "data_period": "SEC investor education materials published 2023 to 2025; arithmetic illustrations.",
+    "scope_limitations": "No return or volatility figures are claimed for either market. Tables are arithmetic illustrations. Not a recommendation."
   },
   "keyword_research": {
     "approved_primary_keyword": "crypto vs stocks",
-    "intent": "Informational",
-    "serp_checked_at": "",
+    "intent": "Informational, with commercial comparison results",
+    "serp_checked_at": "2026-10-04",
     "tools": [
       {
         "name": "Ubersuggest",
-        "status": "pending",
-        "retrieved_at": ""
+        "status": "verified",
+        "retrieved_at": "2026-10-04"
       }
     ],
     "queries": [
       {
-        "keyword": "",
+        "keyword": "crypto vs stocks",
         "type": "short-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 480,
+        "difficulty": 28,
+        "cpc": 0.06,
+        "intent": "Commercial and informational",
+        "ranking_url": "https://www.reddit.com/r/investingforbeginners/comments/1pt5pjx/investing_in_stocks_vs_crypto_how_do_you_go_about/",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "investing in crypto vs stocks",
         "type": "long-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 30,
+        "difficulty": 38,
+        "cpc": 29.61,
+        "intent": "Informational",
+        "ranking_url": "https://www.reddit.com/r/BlockchainStartups/comments/1jucasi/crypto_vs_stocks_what_should_you_really_bet_on/",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "day trading crypto vs stocks",
         "type": "commercial",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 50,
+        "difficulty": 27,
+        "cpc": 0,
+        "intent": "Commercial and informational",
+        "ranking_url": "https://www.reddit.com/r/Trading/comments/1j1wgd3/whats_better_for_day_trading_stocks_or_crypto/",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "crypto vs stocks volatility",
         "type": "problem",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.fidelitydigitalassets.com/research-and-insights/closer-look-bitcoins-volatility",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "crypto vs stocks which is better",
         "type": "question",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 10,
+        "difficulty": 7,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.reddit.com/r/BlockchainStartups/comments/1jucasi/crypto_vs_stocks_what_should_you_really_bet_on/",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       }
     ]
   },
@@ -117,142 +117,336 @@
       "method": "Staff investor bulletin",
       "limitations": "Staff views, not a rule or Commission statement",
       "verified": true
+    },
+    {
+      "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/crypto-asset-securities",
+      "title": "Exercise Caution with Crypto Asset Securities: Investor Alert",
+      "publisher": "Investor.gov (U.S. SEC)",
+      "source_type": "Investor alert",
+      "year": "2023",
+      "published_at": "2023-03-23",
+      "accessed_at": "2026-10-04",
+      "scope": "Risks of crypto asset securities and unregistered platforms",
+      "method": "Regulator guidance",
+      "limitations": "Published in 2023; the regulatory position has since moved",
+      "verified": true
     }
   ],
   "statistics": [
     {
-      "claim": "",
-      "source_url": "",
-      "data_year": "",
-      "geography": "",
-      "population": "",
-      "sample": "",
-      "denominator": "",
-      "unit": "",
-      "method": "",
-      "limitations": "",
+      "claim": "The SEC investor bulletin of December 12, 2025 explains that crypto wallets store private keys rather than the assets themselves, and that a lost key or seed phrase can mean permanent loss of access.",
+      "source_url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/crypto-asset-custody-basics-retail-investors-investor-bulletin-0",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Not applicable: documented rule or definition",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Stated in the source document",
+      "limitations": "Describes the source at the access date and may change",
       "sponsored": false,
       "partial_year": false,
       "estimate": false,
-      "verified": false
+      "verified": true
     }
   ],
   "competitors": [
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "What are stocks and how do they differ from cryptocurrencies?",
+      "url": "https://bisonapp.com/en/academy/stocks-crypto-difference/",
+      "publisher": "BISON (Boerse Stuttgart Group)",
+      "format": "Explainer article",
+      "updated_at": "not stated",
+      "headings": [
+        "How do stocks work and what is an IPO?",
+        "Types of stocks",
+        "Common stocks",
+        "Preferred stocks",
+        "What is the difference between stocks and cryptocurrencies?",
+        "Risks"
+      ],
+      "coverage": [
+        "Stock ownership and dividends",
+        "IPO process",
+        "Common and preferred shares",
+        "Differences in nature, trading, and value"
+      ],
+      "sources": [
+        "Corporate Finance Institute",
+        "Investopedia",
+        "Deutsche Boerse Group"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Internal academy lesson links"
+      ],
+      "trust_signals": [
+        "Exchange-group ownership",
+        "Risk disclaimer",
+        "Three cited sources"
+      ],
+      "covered_well": "Explains what a share is and how it differs from a crypto asset in ownership, trading, and valuation.",
+      "gaps": "No comparison of volatility, drawdowns, custody, or regulation."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Stocks vs Crypto Trading: The Similarities and Differences",
+      "url": "https://bitsgap.com/blog/stocks-vs-crypto-trading-the-similarities-and-differences",
+      "publisher": "Bitsgap",
+      "format": "Explainer article",
+      "updated_at": "2025-09-12",
+      "headings": [
+        "Cryptocurrency vs Stocks: The Basics",
+        "Similarities Between Stock and Crypto Trading",
+        "Key Differences That Matter",
+        "Risk Management and Psychology",
+        "Accessibility and Automated Trading Tools",
+        "Combining Stocks and Crypto in One Portfolio"
+      ],
+      "coverage": [
+        "Shared trading methods",
+        "Trading hours and volatility",
+        "Regulation in general terms",
+        "Trading psychology"
+      ],
+      "sources": [
+        "No external research cited"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Internal links to trading-bot product pages"
+      ],
+      "trust_signals": [
+        "Company registration details",
+        "No author byline"
+      ],
+      "covered_well": "A trader-oriented comparison of how the two markets operate day to day.",
+      "gaps": "No measured volatility or drawdown figures, and custody risk is not separated from market risk."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Crypto vs. Stocks: What's the Better Choice?",
+      "url": "https://www.fool.com/investing/stock-market/market-sectors/financials/cryptocurrency-stocks/crypto-vs-stocks/",
+      "publisher": "The Motley Fool",
+      "format": "Explainer article",
+      "updated_at": "2026-04-29",
+      "headings": [
+        "Crypto vs. stocks value",
+        "Crypto vs. stocks governance",
+        "Crypto advantages vs. stocks",
+        "Crypto disadvantages vs. stocks",
+        "Investing in crypto vs. stocks",
+        "What does the future look like for crypto and stocks?"
+      ],
+      "coverage": [
+        "Ownership models",
+        "Regulatory maturity",
+        "Advantages and disadvantages",
+        "Security considerations"
+      ],
+      "sources": [
+        "Market capitalization figures for Bitcoin and Ethereum",
+        "SEC approval of spot ETFs mentioned"
+      ],
+      "data_assets": [
+        "Live price quotes",
+        "Market cap figures"
+      ],
+      "link_patterns": [
+        "Internal related-article links"
+      ],
+      "trust_signals": [
+        "Author byline",
+        "Named fact-checker",
+        "Position disclosure"
+      ],
+      "covered_well": "Sets out the ownership and governance differences clearly, with pros and cons.",
+      "gaps": "No comparison of drawdowns, liquidity depth, or custody protection."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Cryptocurrency vs. Stocks: Understanding the Difference",
+      "url": "https://online.maryville.edu/blog/cryptocurrency-vs-stocks/",
+      "publisher": "Maryville University Online",
+      "format": "Explainer article",
+      "updated_at": "2021-11-18",
+      "headings": [
+        "What is cryptocurrency?",
+        "Digital asset",
+        "Ups and downs",
+        "Blockchain",
+        "Investment vehicles",
+        "Stocks at a glance",
+        "Cryptocurrency vs. stocks: The core differences"
+      ],
+      "coverage": [
+        "Crypto basics",
+        "Stock ownership and dividends",
+        "Ownership, exchange, volatility, and regulation differences"
+      ],
+      "sources": [
+        "Business Insider",
+        "CoinDesk",
+        "Investopedia and SoFi"
+      ],
+      "data_assets": [
+        "2021 Bitcoin and Ethereum price ranges"
+      ],
+      "link_patterns": [
+        "Internal degree-program links",
+        "External citations"
+      ],
+      "trust_signals": [
+        "Publication date",
+        "University publisher",
+        "Cited sources"
+      ],
+      "covered_well": "A sourced beginner overview of the core differences.",
+      "gaps": "Dated 2021; thin on liquidity, custody beyond passwords, and drawdown history."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Crypto Trading vs Stock Trading: Key Differences Explained",
+      "url": "https://aminagroup.com/learn/crypto-trading-vs-stock-trading-key-differences-explained/",
+      "publisher": "AMINA Bank",
+      "format": "Explainer article",
+      "updated_at": "2026-05-13",
+      "headings": [
+        "What is crypto trading?",
+        "What is stock trading?",
+        "How crypto and stock trading are similar",
+        "Why trade cryptocurrencies?",
+        "Key differences between crypto and stock trading",
+        "Can investors trade both?",
+        "What should investors consider?"
+      ],
+      "coverage": [
+        "Market structure",
+        "Trading hours",
+        "Settlement timing",
+        "Diversification rationale"
+      ],
+      "sources": [
+        "No third-party research cited"
+      ],
+      "data_assets": [
+        "Eight-row comparison table"
+      ],
+      "link_patterns": [
+        "Internal links to banking and custody products"
+      ],
+      "trust_signals": [
+        "Regulated bank disclosure",
+        "No-advice disclaimer"
+      ],
+      "covered_well": "Contrasts market structure, hours, and settlement in a single table.",
+      "gaps": "No quantitative volatility or drawdown comparison, and regulation is described only in general terms."
     }
   ],
-  "content_gaps": [],
-  "value_add": "",
+  "content_gaps": [
+    "Ranking pages compare features and trading hours but show no drawdown arithmetic.",
+    "Custody risk is rarely separated from market risk.",
+    "Several pages are published by trading platforms with products to sell.",
+    "None reviewed shows how position size changes the effect of a crypto decline on a whole portfolio."
+  ],
+  "value_add": "Three charts built from plain arithmetic, on recovery after a loss and on position size, plus a custody and regulation comparison sourced to the SEC.",
   "plan": {
     "reader_title": "Crypto vs Stocks: Comparing Volatility, Drawdowns, Liquidity, and Returns",
     "seo_title": "Crypto vs Stocks: Risk, Liquidity, and Returns Compared",
     "meta_description": "Compare crypto vs stocks across volatility, liquidity, ownership, regulation, diversification, and portfolio use with a practical risk framework.",
     "slug": "/investing/crypto-vs-stocks/",
-    "search_intent": "Informational",
-    "secondary_keywords": [],
-    "outline": [],
-    "evidence_map": [],
-    "visuals": [],
+    "search_intent": "Informational, with commercial comparison results",
+    "secondary_keywords": [
+      "investing in crypto vs stocks",
+      "crypto vs stocks volatility",
+      "crypto vs stocks which is better",
+      "day trading crypto vs stocks"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "Crypto vs Stocks at a Glance",
+      "What You Own",
+      "Volatility Changes the Experience of Risk",
+      "Drawdown Is Often More Intuitive Than Volatility",
+      "Liquidity Is More Than Trading Volume",
+      "Market Hours Create Different Risks",
+      "Regulation and Investor Protection Are Not the Same",
+      "Diversification Depends on Correlation, Not Labels",
+      "Stocks Also Carry Concentration Risk",
+      "Return Drivers Are Different",
+      "Income Is Not Automatically Yield",
+      "Custody Can Become Part of the Investment Thesis",
+      "A Better Crypto vs Stocks Comparison Framework",
+      "Position Size Can Matter More Than the Forecast",
+      "Time Horizon Changes the Answer",
+      "Rebalancing Creates Discipline",
+      "What Crypto Investors Can Learn From Stock Analysis",
+      "What Stock Investors Can Learn From Crypto Markets",
+      "Common Mistakes When Comparing Crypto vs Stocks",
+      "A Portfolio Stress Test Is More Useful Than a Bull-Case Forecast",
+      "Valuation Discipline Still Applies to Both",
+      "Tax and Trading Friction Can Change the Result",
+      "The Decision Should Be Revisited, Not Re-Litigated Daily",
+      "Final Perspective",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Diversification section: Investor.gov asset allocation page",
+      "Custody section: SEC custody bulletin",
+      "Company research section: EDGAR"
+    ],
+    "visuals": [
+      "Hero photograph of a market chart and coin on a desk",
+      "Chart: gain needed to recover a loss",
+      "Chart: portfolio loss from a 60% crypto decline",
+      "Chart: portfolio decline in the stress scenario"
+    ],
     "internal_links": [
       "/investing/"
     ],
-    "external_link_opportunities": [],
-    "excluded_claims": [],
-    "drafting_cautions": []
+    "external_link_opportunities": [
+      "https://www.sec.gov/edgar/search/",
+      "https://www.investor.gov/introduction-investing/getting-started/asset-allocation",
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/crypto-asset-custody-basics-retail-investors-investor-bulletin-0"
+    ],
+    "excluded_claims": [
+      "Historical return or volatility figures",
+      "Any statement that one asset class is better",
+      "Tax treatment"
+    ],
+    "drafting_cautions": [
+      "All three charts are arithmetic illustrations",
+      "The 2023 investor alert predates later regulatory changes"
+    ]
   },
   "claims": [
     {
-      "statement": "",
-      "source_url": "",
-      "verified": false
+      "statement": "Investor.gov describes diversification as spreading money among different investments to reduce risk.",
+      "source_url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation",
+      "verified": true
+    },
+    {
+      "statement": "The SEC custody bulletin explains that crypto wallets hold private keys and that lost keys can mean lost access.",
+      "source_url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/crypto-asset-custody-basics-retail-investors-investor-bulletin-0",
+      "verified": true
     }
   ],
   "fact_check": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04",
+    "note": "Approved by the site owner in the build session of 2026-10-04 (\"all posts approved\") after reviewing the verification summary for each post."
   },
   "qa": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04",
+    "note": "Approved by the site owner in the build session of 2026-10-04 (\"all posts approved\") after reviewing the verification summary for each post."
   },
   "verification_log": {
     "checked_on": "2026-10-04",
-    "summary": "Checked the diversification definition and the custody bulletin (wallets store private keys; seed phrases; multi-factor authentication). The three charts are arithmetic from the post's own tables. Not yet checked: the Investor.gov crypto asset investor alert listed in Resources.",
-    "pending": "Ubersuggest keyword data, five-competitor review, remaining sources, and named fact-check and QA sign-off."
+    "summary": "Keyword data from Ubersuggest (United States), five ranking pages reviewed. Asset allocation page, custody bulletin, and the 2023 investor alert checked. Charts are arithmetic from the post's own tables.",
+    "pending": "None."
   }
 }

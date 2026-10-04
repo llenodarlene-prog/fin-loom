@@ -5,7 +5,7 @@ description: See how bitcoin allocation changes portfolio risk, why small percen
 slug: /investing/bitcoin-allocation/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S3
 primary_keyword: bitcoin allocation
 secondary_keywords: bitcoin portfolio allocation; bitcoin diversification; bitcoin in a portfolio; crypto allocation
@@ -18,9 +18,9 @@ link_placement_site: Use The Bitcoin
 charts_pending: 1
 ai_exceptions: leverage
 ai_exception_reason: Leverage is used in its technical financial sense, describing borrowed exposure in futures.
-author: 
-published: 
-modified: 
+author: Darlene Aberin
+published: 2026-10-04
+modified: 2026-10-04
 ---
 
 # Bitcoin Allocation: Risk, Volatility, and Diversification in a Portfolio
@@ -99,7 +99,7 @@ Bitcoin is sometimes presented as either completely uncorrelated with traditiona
 
 Neither description is stable enough to serve as a permanent rule.
 
-BlackRock’s 2026 work describes Bitcoin as having a “dual personality”: it can trade alongside risk assets during deleveraging episodes and behave differently during some geopolitical or monetary shocks. Recent academic research has also examined whether liquidity and ETF flows influence Bitcoin’s diversification behavior in the post-ETF market.
+BlackRock’s 2026 work describes Bitcoin as having a “dual personality”: it can trade alongside risk assets during deleveraging episodes and behave differently during some geopolitical or monetary shocks.
 
 That means correlation should be treated as a changing input.
 
@@ -355,4 +355,3 @@ The following sources provide the primary or specialist evidence used to verify 
 - [BlackRock, Re-Underwriting Bitcoin: Still a Portfolio Diversifier, August 17, 2026](https://www.blackrock.com/us/financial-professionals/insights/re-underwriting-bitcoin)
 - [Fidelity Digital Assets, Getting Off Zero: Evaluating Bitcoin in 2026, March 25, 2026](https://fidelitydigitalassets.com/research-and-insights/getting-zero-evaluating-bitcoin-2026)
 - [CoinShares, Digital Asset Fund Manager Survey – May 2026 Results](https://coinshares.com/us/insights/research-data/digital-asset-quarterly-fund-manager-survey-05-2026/)
-- [Finance Research Letters, Bitcoin’s Diversification Benefits in the ETF Era, October 2026](https://www.sciencedirect.com/science/article/pii/S1544612326010779)
