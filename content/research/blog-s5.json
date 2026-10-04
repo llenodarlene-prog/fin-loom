@@ -1,232 +1,470 @@
 {
   "tracker_id": "Blog:S5",
-  "status": "scaffolded",
-  "research_question": "",
+  "status": "verified",
+  "research_question": "How does DAO governance work in practice, and how should a reader judge a vote?",
   "research_brief": {
-    "purpose": "",
-    "audience": "",
-    "publication_year": "",
-    "data_period": "",
-    "scope_limitations": ""
+    "purpose": "Explain proposal stages, delegation, quorum, and concentration, using one documented process and current research.",
+    "audience": "Token holders and readers assessing how decisions are made in a DAO.",
+    "publication_year": "2026",
+    "data_period": "Uniswap governance documentation as updated April 2026; research published in 2026.",
+    "scope_limitations": "Uniswap is one example, not the norm. Research findings are associations. Vote tallies in the post are illustrative."
   },
   "keyword_research": {
     "approved_primary_keyword": "DAO governance",
     "intent": "Informational",
-    "serp_checked_at": "",
+    "serp_checked_at": "2026-10-04",
     "tools": [
       {
         "name": "Ubersuggest",
-        "status": "pending",
-        "retrieved_at": ""
+        "status": "verified",
+        "retrieved_at": "2026-10-04"
       }
     ],
     "queries": [
       {
-        "keyword": "",
+        "keyword": "DAO governance",
         "type": "short-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 90,
+        "difficulty": 20,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.kraken.com/learn/what-is-decentralized-autonomous-organization-dao",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "dao governance tokens",
         "type": "long-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 10,
+        "difficulty": 13,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.coinbase.com/learn/crypto-basics/what-is-a-governance-token",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "dao governance tools",
         "type": "commercial",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 10,
+        "difficulty": 13,
+        "cpc": 0,
+        "intent": "Commercial investigation",
+        "ranking_url": "https://www.futurelearn.com/info/courses/introduction-to-daos-decentralised-autonomous-organisations/0/steps/362091",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "dao governance problems",
         "type": "problem",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 0,
+        "difficulty": 12,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://hkaift.com/issues-and-reflections-on-dao-governance-challenges-and-solutions/",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "how does dao governance work",
         "type": "question",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.reddit.com/r/CryptoTechnology/comments/r3hy7q/how_does_a_dao_really_work_when_it_comes_to/",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       }
     ]
   },
   "sources": [
     {
-      "url": "",
-      "title": "",
-      "publisher": "",
-      "source_type": "",
-      "year": "",
-      "published_at": "",
-      "accessed_at": "",
-      "scope": "",
-      "method": "",
-      "limitations": "",
-      "verified": false
+      "url": "https://developers.uniswap.org/docs/ecosystem/governance/governance-process",
+      "title": "Governance Process",
+      "publisher": "Uniswap",
+      "source_type": "Protocol documentation",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-04",
+      "scope": "Phases, thresholds, and timings of Uniswap governance",
+      "method": "Published governance rules, last updated April 2026",
+      "limitations": "One protocol; governance can change the rules",
+      "verified": true
+    },
+    {
+      "url": "https://developers.uniswap.org/docs/ecosystem/governance/glossary",
+      "title": "Governance Glossary",
+      "publisher": "Uniswap",
+      "source_type": "Protocol documentation",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-04",
+      "scope": "Definitions of governance terms",
+      "method": "Published documentation",
+      "limitations": "One protocol",
+      "verified": true
+    },
+    {
+      "url": "https://developers.uniswap.org/docs/ecosystem/governance/guide-to-voting",
+      "title": "Guide to Voting",
+      "publisher": "Uniswap",
+      "source_type": "Protocol documentation",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-04",
+      "scope": "How delegation and voting work for holders",
+      "method": "Published documentation",
+      "limitations": "One protocol",
+      "verified": true
+    },
+    {
+      "url": "https://developers.uniswap.org/docs/ecosystem/governance/overview",
+      "title": "Governance Overview",
+      "publisher": "Uniswap",
+      "source_type": "Protocol documentation",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-04",
+      "scope": "What governance controls",
+      "method": "Published documentation",
+      "limitations": "One protocol",
+      "verified": true
+    },
+    {
+      "url": "https://aisel.aisnet.org/cais/vol59/iss1/58/",
+      "title": "Vote Delegation and Conformity in DAO Governance",
+      "publisher": "Communications of the Association for Information Systems",
+      "source_type": "Peer-reviewed journal article, in press",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-04",
+      "scope": "Delegated voting power and conformity with the leading outcome",
+      "method": "Analysis of voting data from one leading DAO",
+      "limitations": "One DAO, not named in the abstract; in press",
+      "verified": true
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.09435",
+      "title": "Voting Biases in Decentralized Autonomous Organization (DAO) Governance",
+      "publisher": "arXiv",
+      "source_type": "Research preprint",
+      "year": "2026",
+      "published_at": "2026-07-10",
+      "accessed_at": "2026-10-04",
+      "scope": "How choice features relate to voting-power share",
+      "method": "Proposal-choice level analysis",
+      "limitations": "Preprint, not peer reviewed; associations, not causal effects",
+      "verified": true
     }
   ],
   "statistics": [
     {
-      "claim": "",
-      "source_url": "",
-      "data_year": "",
-      "geography": "",
-      "population": "",
-      "sample": "",
-      "denominator": "",
-      "unit": "",
-      "method": "",
-      "limitations": "",
+      "claim": "Uniswap governance requires 10 million UNI voting for in a Temperature Check, 1 million UNI delegated to submit an on-chain proposal, and 40 million UNI in favor to pass.",
+      "source_url": "https://developers.uniswap.org/docs/ecosystem/governance/governance-process",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Uniswap governance",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "UNI votes",
+      "method": "Stated in the source document",
+      "limitations": "One protocol; thresholds can be changed by governance",
       "sponsored": false,
       "partial_year": false,
       "estimate": false,
-      "verified": false
+      "verified": true
+    },
+    {
+      "claim": "A 2026 preprint found author-selected choices were associated with a 58.8% higher voting-power share, approval-oriented choices 27.1%, and first-listed choices 7.7%.",
+      "source_url": "https://arxiv.org/abs/2607.09435",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "DAO proposal choices studied by the authors",
+      "sample": "Not stated in the abstract",
+      "denominator": "Non-author, non-approval, or later-listed choices",
+      "unit": "Percent difference in voting-power share",
+      "method": "Observational analysis",
+      "limitations": "Preprint; associations, not causal effects",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
     }
   ],
   "competitors": [
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Demystifying the DAO Governance Process",
+      "url": "https://arxiv.org/html/2403.11758v1",
+      "publisher": "arXiv",
+      "format": "Research preprint",
+      "updated_at": "2024-03-18",
+      "headings": [
+        "DAO Governance Process",
+        "Do existing DAOs achieve fairness decentralized governance?",
+        "Do existing DAOs offer sufficient governance process documentation?",
+        "Do existing proposals ensure consistency between descriptions and code?"
+      ],
+      "coverage": [
+        "Governance contract soundness",
+        "Documentation quality",
+        "Proposal description and code consistency",
+        "Governance attack cases"
+      ],
+      "sources": [
+        "Dataset of 16,427 DAOs and 122,307 proposals"
+      ],
+      "data_assets": [
+        "DAO and proposal dataset"
+      ],
+      "link_patterns": [
+        "Paper navigation"
+      ],
+      "trust_signals": [
+        "Stated methodology",
+        "Preprint, not peer reviewed"
+      ],
+      "covered_well": "Measures technical governance risks across a large sample of DAOs.",
+      "gaps": "Technical and academic; little on delegation, quorum, or participation for a general reader."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Designing a Governance System for DAO: a Checklist for Web3 Founders",
+      "url": "https://legalnodes.com/article/governance-for-dao",
+      "publisher": "Legal Nodes",
+      "format": "Checklist article",
+      "updated_at": "2025-08-26",
+      "headings": [
+        "Pre-DAO and Post-DAO stages of a Web3 project",
+        "Elements comprising the decentralized governance of a Web3 project",
+        "Criteria for DAO members",
+        "Making proposals, voting, and making decisions",
+        "DAO Constitution"
+      ],
+      "coverage": [
+        "Membership and voting rights",
+        "Decision procedures",
+        "Management bodies",
+        "Legal wrappers"
+      ],
+      "sources": [
+        "Law firm's own guidance"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Internal links to legal guides"
+      ],
+      "trust_signals": [
+        "Named legal author",
+        "Regulatory references"
+      ],
+      "covered_well": "A founder's checklist for setting up governance and its legal wrapper.",
+      "gaps": "Written for founders; minimal on delegation, quorum, or concentration of voting power."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "DAO Governance Models: What You Need to Know",
+      "url": "https://metana.io/blog/dao-governance-models-what-you-need-to-know/",
+      "publisher": "Metana",
+      "format": "Blog article",
+      "updated_at": "2025-04-30",
+      "headings": [
+        "What is a DAO?",
+        "Why are DAOs Important?",
+        "Top 5 DAO Governance Models",
+        "How to Choose the Right DAO Governance Model",
+        "The Future Outlook of DAOs"
+      ],
+      "coverage": [
+        "Token-weighted, quadratic, reputation, multi-signature, and hybrid models",
+        "Model selection",
+        "Named DAO examples"
+      ],
+      "sources": [
+        "Named DAO examples; no research cited"
+      ],
+      "data_assets": [
+        "Model comparison graphics"
+      ],
+      "link_patterns": [
+        "Internal links to courses"
+      ],
+      "trust_signals": [
+        "Editorial team byline"
+      ],
+      "covered_well": "Explains five governance models with pros, cons, and examples.",
+      "gaps": "No participation data, quorum mechanics, or measured concentration of voting power."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Building and Running a DAO: Why Governance Matters",
+      "url": "https://a16zcrypto.com/posts/article/building-and-running-a-dao-why-governance-matters/",
+      "publisher": "a16z crypto",
+      "format": "Long-form article",
+      "updated_at": "2021-11-03",
+      "headings": [
+        "Experiments paved way for modern DAOs",
+        "The rise of financial incentives",
+        "When DAOs are needed",
+        "The three key governance areas",
+        "Ways to run a DAO"
+      ],
+      "coverage": [
+        "DAO history to 2021",
+        "Financial incentives",
+        "Asset, risk, and curation functions",
+        "Operating tools"
+      ],
+      "sources": [
+        "Practitioner interviews and protocol examples"
+      ],
+      "data_assets": [
+        "Risk dashboard example"
+      ],
+      "link_patterns": [
+        "Internal topic links"
+      ],
+      "trust_signals": [
+        "Author discloses roles and memberships"
+      ],
+      "covered_well": "Sets out what governance has to manage and how DAOs organize to do it.",
+      "gaps": "Dated 2021 and written by an investor in the sector; little on delegation, quorum, or participation rates."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Governance Tokens: How DAO Voting Works",
+      "url": "https://chain.link/article/governance-tokens-dao-voting",
+      "publisher": "Chainlink",
+      "format": "Explainer article",
+      "updated_at": "2026-05-04",
+      "headings": [
+        "What Are Governance Tokens?",
+        "How Governance Tokens Work",
+        "Benefits and Challenges of Token Governance",
+        "Top Examples of Governance Tokens",
+        "The Future of Protocol Governance"
+      ],
+      "coverage": [
+        "Token-weighted and quadratic voting",
+        "Delegation in outline",
+        "Uniswap and Aave examples",
+        "Whale dominance and voter apathy"
+      ],
+      "sources": [
+        "No external research cited"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Internal education links"
+      ],
+      "trust_signals": [
+        "Stated update date",
+        "Named protocol examples"
+      ],
+      "covered_well": "Explains how governance tokens carry votes, with named protocol examples.",
+      "gaps": "Names whale dominance and apathy without thresholds, quorum mechanics, or measured participation."
     }
   ],
-  "content_gaps": [],
-  "value_add": "",
+  "content_gaps": [
+    "Ranking pages define DAOs or list governance models; few show real thresholds.",
+    "Turnout is quoted without saying what it is a share of.",
+    "Concentration among delegates is named but not shown.",
+    "Recent research on delegation behavior is absent from the explainers."
+  ],
+  "value_add": "A documented process with its real thresholds, a way to read turnout and concentration, and two current studies described with their limits.",
   "plan": {
     "reader_title": "DAO Governance and DeFi: What Token Voting Controls",
     "seo_title": "DAO Governance: How Token Voting Works in Practice",
     "meta_description": "Learn how DAO governance works, how delegation and quorum shape voting power, and what token holders control in protocols such as Uniswap.",
     "slug": "/fintech/dao-governance/",
     "search_intent": "Informational",
-    "secondary_keywords": [],
-    "outline": [],
-    "evidence_map": [],
-    "visuals": [],
+    "secondary_keywords": [
+      "dao governance tokens",
+      "how does dao governance work",
+      "dao governance problems",
+      "dao voting"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "What DAO Governance Is",
+      "Governance Tokens Do Not All Work the Same Way",
+      "Delegation Separates Ownership From Active Voting",
+      "Uniswap’s Three-Phase Governance Process",
+      "Quorum Prevents Tiny Groups From Passing Decisions, but It Has Limits",
+      "Voting Power Concentration Is a Core Metric",
+      "Participation Rate Needs a Clear Denominator",
+      "Delegation Can Increase Participation and Create Conformity",
+      "Proposal Authors Have Agenda-Setting Power",
+      "Forums Are Part of Governance",
+      "Governance Controls Have Economic Value Only If the Governed Assets Matter",
+      "Treasury Governance Deserves Its Own Analysis",
+      "Governance Attacks Are Not Always Technical Exploits",
+      "Legal Structure Can Sit Beside On-Chain Governance",
+      "Governance Progress Should Be Measured Over Time",
+      "A DAO Governance Scorecard",
+      "How to Analyze a DAO Proposal",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Process and thresholds: Uniswap governance documentation",
+      "Delegation research: CAIS article",
+      "Ballot design research: arXiv preprint"
+    ],
+    "visuals": [
+      "Hero photograph of a governance proposal vote"
+    ],
     "internal_links": [
       "/fintech/"
     ],
-    "external_link_opportunities": [],
-    "excluded_claims": [],
-    "drafting_cautions": []
+    "external_link_opportunities": [
+      "https://developers.uniswap.org/docs/ecosystem/governance/governance-process",
+      "https://aisel.aisnet.org/cais/vol59/iss1/58/",
+      "https://arxiv.org/abs/2607.09435"
+    ],
+    "excluded_claims": [
+      "Any view on whether a governance token is worth holding",
+      "Causal claims from observational studies",
+      "Participation rates not found in a source"
+    ],
+    "drafting_cautions": [
+      "Vote examples are illustrative",
+      "The arXiv paper is a preprint",
+      "The CAIS article studies one unnamed DAO"
+    ]
   },
   "claims": [
     {
-      "statement": "",
-      "source_url": "",
-      "verified": false
+      "statement": "Uniswap requires 40 million UNI voting in favor for an on-chain proposal to pass.",
+      "source_url": "https://developers.uniswap.org/docs/ecosystem/governance/governance-process",
+      "verified": true
+    },
+    {
+      "statement": "A CAIS study found voters with more delegated power were more likely to support the leading outcome.",
+      "source_url": "https://aisel.aisnet.org/cais/vol59/iss1/58/",
+      "verified": true
+    },
+    {
+      "statement": "A 2026 preprint found author-selected choices were associated with higher voting-power share.",
+      "source_url": "https://arxiv.org/abs/2607.09435",
+      "verified": true
     }
   ],
   "fact_check": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04",
+    "note": "Approved by the site owner in the build session of 2026-10-04 (\"all posts approved\") after reviewing the verification summary for each post."
   },
   "qa": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04",
+    "note": "Approved by the site owner in the build session of 2026-10-04 (\"all posts approved\") after reviewing the verification summary for each post."
   },
   "verification_log": {
     "checked_on": "2026-10-04",
-    "summary": "Content checks pass after the editing pass. No source in this post has been checked against its original yet.",
-    "pending": "All source verification, Ubersuggest keyword data, five-competitor review, and named fact-check and QA sign-off."
+    "summary": "Keyword data from Ubersuggest (United States), five ranking pages reviewed. Uniswap thresholds and timings, the CAIS abstract, and the arXiv abstract checked and match. The CAIS article has one author, so the post now says \"the author\".",
+    "pending": "None."
   }
 }

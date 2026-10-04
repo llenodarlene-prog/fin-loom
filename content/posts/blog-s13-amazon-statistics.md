@@ -5,7 +5,7 @@ description: Amazon statistics for 2026 covering revenue, AWS, operating income,
 slug: /markets-stocks/amazon-statistics/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S13
 primary_keyword: Amazon statistics
 secondary_keywords: 
@@ -18,9 +18,9 @@ link_placement_site: WebTribunal
 charts_pending: 0
 ai_exceptions: leverage
 ai_exception_reason: Operating leverage is a technical financial term and is used in that sense only.
-author: 
-published: 
-modified: 
+author: Darlene Aberin
+published: 2026-10-04
+modified: 2026-10-04
 ---
 
 # Amazon Statistics 2026: Revenue, AWS, Profit, and the Business Behind the Marketplace

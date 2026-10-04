@@ -5,7 +5,7 @@ description: Apple statistics for 2026 covering revenue, iPhone, Services, margi
 slug: /markets-stocks/apple-statistics/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S14
 primary_keyword: Apple statistics
 secondary_keywords: 
@@ -18,9 +18,9 @@ link_placement_site: WebTribunal
 charts_pending: 0
 ai_exceptions: 
 ai_exception_reason: 
-author: 
-published: 
-modified: 
+author: Darlene Aberin
+published: 2026-10-04
+modified: 2026-10-04
 ---
 
 # Apple Statistics 2026: Revenue, iPhone, Services, and the Changing Business Mix

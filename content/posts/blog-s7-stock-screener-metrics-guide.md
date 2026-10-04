@@ -5,7 +5,7 @@ description: Learn how to use a stock screener without drowning in filters. Comp
 slug: /markets-stocks/stock-screener-metrics-guide/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S7
 primary_keyword: stock screener
 secondary_keywords: 
@@ -18,9 +18,9 @@ link_placement_site: Stoxcraft
 charts_pending: 0
 ai_exceptions: leverage
 ai_exception_reason: Leverage is used in its technical financial sense: debt relative to equity or earnings, and operating leverage.
-author: 
-published: 
-modified: 
+author: Darlene Aberin
+published: 2026-10-04
+modified: 2026-10-04
 ---
 
 # Stock Screener Explained: Which Metrics Help Narrow the Market

@@ -1,80 +1,80 @@
 {
   "tracker_id": "Blog:S8",
-  "status": "scaffolded",
-  "research_question": "",
+  "status": "verified",
+  "research_question": "Which stock risk metrics should be read together, and what does each one miss?",
   "research_brief": {
-    "purpose": "",
-    "audience": "",
-    "publication_year": "",
-    "data_period": "",
-    "scope_limitations": ""
+    "purpose": "Explain beta, volatility, drawdown, leverage, and valuation risk as a set.",
+    "audience": "Investors who see risk figures on stock pages and want to read them correctly.",
+    "publication_year": "2026",
+    "data_period": "SEC investor education materials; arithmetic illustrations.",
+    "scope_limitations": "No stock or level of risk is recommended. Drawdown tables are arithmetic."
   },
   "keyword_research": {
     "approved_primary_keyword": "stock risk metrics",
     "intent": "Informational",
-    "serp_checked_at": "",
+    "serp_checked_at": "2026-10-04",
     "tools": [
       {
         "name": "Ubersuggest",
-        "status": "pending",
-        "retrieved_at": ""
+        "status": "verified",
+        "retrieved_at": "2026-10-04"
       }
     ],
     "queries": [
       {
-        "keyword": "",
+        "keyword": "stock risk metrics",
         "type": "short-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 0,
+        "difficulty": 12,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.trefis.com/stock/wealth/articles/561957/3-key-metrics-to-evaluate-market-valuation/2025-01-31",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "how to measure stock risk",
         "type": "long-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 10,
+        "difficulty": 14,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.investopedia.com/articles/investing/032415/how-investment-risk-quantified.asp",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "stock risk analysis tool",
         "type": "commercial",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Commercial investigation",
+        "ranking_url": "https://www.captrader.com/en/platforms/trading-tools/risk-navigator/",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "max drawdown",
         "type": "problem",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 720,
+        "difficulty": 18,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.investopedia.com/terms/m/maximum-drawdown-mdd.asp",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "what is beta in stocks",
         "type": "question",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 3600,
+        "difficulty": 39,
+        "cpc": 1.89,
+        "intent": "Informational",
+        "ranking_url": "https://www.investopedia.com/terms/b/beta.asp",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       }
     ]
   },
@@ -104,142 +104,326 @@
       "method": "Regulator guidance",
       "limitations": "General education",
       "verified": true
+    },
+    {
+      "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation",
+      "title": "Asset Allocation and Diversification",
+      "publisher": "Investor.gov (U.S. SEC)",
+      "source_type": "Investor education page",
+      "year": "not applicable",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-04",
+      "scope": "Asset allocation, diversification, and rebalancing basics",
+      "method": "Regulator guidance",
+      "limitations": "General education, not advice for any individual",
+      "verified": true
+    },
+    {
+      "url": "https://www.finra.org/investors",
+      "title": "For Investors",
+      "publisher": "FINRA",
+      "source_type": "Official resource page",
+      "year": "not applicable",
+      "published_at": "not applicable",
+      "accessed_at": "2026-10-04",
+      "scope": "Index of official documents or guidance",
+      "method": "Official publication",
+      "limitations": "A navigation page; it carries no figures used in the post",
+      "verified": true
     }
   ],
   "statistics": [
     {
-      "claim": "",
-      "source_url": "",
-      "data_year": "",
-      "geography": "",
-      "population": "",
-      "sample": "",
-      "denominator": "",
-      "unit": "",
-      "method": "",
-      "limitations": "",
+      "claim": "Investor.gov states that diversification cannot guarantee that investments will not lose value when the market drops.",
+      "source_url": "https://www.investor.gov/introduction-investing/investing-basics/save-and-invest/diversify-your-investments",
+      "data_year": "not applicable",
+      "geography": "United States",
+      "population": "Not applicable: documented rule or definition",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Stated in the source document",
+      "limitations": "Describes the source at the access date and may change",
       "sponsored": false,
       "partial_year": false,
       "estimate": false,
-      "verified": false
+      "verified": true
     }
   ],
   "competitors": [
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Measurement of Risk: A Comprehensive Guide to Risk Assessment in Investing",
+      "url": "https://www.horizoninvestments.com/measurement-of-risk-a-comprehensive-guide-to-risk-assessment-in-investing/",
+      "publisher": "Horizon Investments",
+      "format": "Explainer article",
+      "updated_at": "2025-10-13",
+      "headings": [
+        "What is Risk Measurement?",
+        "Key Components of Risk Measurement",
+        "Common Risk Measurement Methods",
+        "People Also Asked"
+      ],
+      "coverage": [
+        "Standard deviation, VaR, and beta",
+        "Quantitative and qualitative assessment",
+        "Market, credit, and liquidity risk",
+        "Sharpe ratio"
+      ],
+      "sources": [
+        "SEC investor education and FINRA referenced"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Internal links to product pages"
+      ],
+      "trust_signals": [
+        "Regulatory references",
+        "Adviser disclosures"
+      ],
+      "covered_well": "Explains the foundational risk measures in accessible terms.",
+      "gaps": "Does not combine metrics, such as beta with drawdown, or cover valuation and balance-sheet risk."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Measuring a Stock's Risk",
+      "url": "https://www.wiseradvisor.com/article/measuring-a-stocks-risk-264/",
+      "publisher": "WiserAdvisor",
+      "format": "Explainer article",
+      "updated_at": "2025-12-17",
+      "headings": [
+        "Market Risk vs. Nonmarket Risk",
+        "Beta",
+        "Standard Deviation",
+        "Portfolio Risk Calculation",
+        "Risk Assessment Strategy"
+      ],
+      "coverage": [
+        "Market and nonmarket risk",
+        "Beta against the S&P 500",
+        "Standard deviation",
+        "Weighted portfolio beta"
+      ],
+      "sources": [
+        "S&P 500 as benchmark; no specific studies cited"
+      ],
+      "data_assets": [
+        "Worked standard deviation example"
+      ],
+      "link_patterns": [
+        "Internal links to adviser matching"
+      ],
+      "trust_signals": [
+        "Educational-content disclaimer",
+        "Registered adviser disclosure"
+      ],
+      "covered_well": "Explains beta and standard deviation with a simple portfolio calculation.",
+      "gaps": "No drawdown, Sharpe ratio, leverage, or valuation risk."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Standard Deviation, Beta, Alpha, and Sharpe Ratio Explained for Advisors",
+      "url": "https://icfs.com/specialists-desk/risk-metrics-explained",
+      "publisher": "Institute of Business & Finance",
+      "format": "Explainer article",
+      "updated_at": "2026-03-24",
+      "headings": [
+        "Standard Deviation: What Volatility Actually Measures",
+        "Systematic and Unsystematic Risk",
+        "Beta: Measuring Market Sensitivity",
+        "R-Squared: When to Trust Beta",
+        "Alpha: The Performance That Matters"
+      ],
+      "coverage": [
+        "Metric definitions",
+        "Diversification research",
+        "R-squared as a check on beta",
+        "Fund comparison"
+      ],
+      "sources": [
+        "Academic citations including Evans and Archer (1968) and Fama and French (1992)",
+        "NYU Stern industry betas and SPIVA"
+      ],
+      "data_assets": [
+        "Industry beta ranges",
+        "Diagnostic infographic"
+      ],
+      "link_patterns": [
+        "Internal links to related adviser content"
+      ],
+      "trust_signals": [
+        "Cited methodology",
+        "Stated refresh schedule"
+      ],
+      "covered_well": "Shows how the volatility metrics check one another, with R-squared as a test of whether beta is meaningful.",
+      "gaps": "Centered on volatility; little on drawdown, leverage, or valuation-based risk."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "5 Overlooked Metrics That Smart Investors Use to Find Long-Term Winning Stocks",
+      "url": "https://tikr.com/blog/5-overlooked-metrics-that-smart-investors-use-to-find-long-term-winning-stocks",
+      "publisher": "TIKR",
+      "format": "Blog article",
+      "updated_at": "2025-06-11",
+      "headings": [
+        "Operating Leverage",
+        "EBITDA & Gross Margin Trends",
+        "Share Count Trend",
+        "Earnings Quality",
+        "ROIC vs WACC"
+      ],
+      "coverage": [
+        "Margin trends",
+        "Cash generation",
+        "Share count",
+        "Return on capital"
+      ],
+      "sources": [
+        "Alphabet financials from the publisher's own platform"
+      ],
+      "data_assets": [
+        "Historical margin, cash flow, and ROIC charts"
+      ],
+      "link_patterns": [
+        "Sign-up calls to action"
+      ],
+      "trust_signals": [
+        "Author and reviewer bylines",
+        "Informational disclaimer"
+      ],
+      "covered_well": "Explains five quality metrics with one worked company example.",
+      "gaps": "Covers business quality, not risk: no beta, volatility, drawdown, or leverage ratios."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Maximum Drawdown (MDD) | Formula + Calculator",
+      "url": "https://www.wallstreetprep.com/knowledge/maximum-drawdown-mdd/",
+      "publisher": "Wall Street Prep",
+      "format": "Explainer article with worked example",
+      "updated_at": "2024-02-20",
+      "headings": [
+        "What is Maximum Drawdown?",
+        "How to Calculate Maximum Drawdown?",
+        "Maximum Drawdown Formula",
+        "Maximum Drawdown Calculation Example"
+      ],
+      "coverage": [
+        "Definition",
+        "Formula",
+        "Worked example",
+        "Spreadsheet implementation"
+      ],
+      "sources": [
+        "Publisher's own training material"
+      ],
+      "data_assets": [
+        "Monthly portfolio value table",
+        "Gated calculator"
+      ],
+      "link_patterns": [
+        "Internal links to related ratios"
+      ],
+      "trust_signals": [
+        "Transparent worked calculation",
+        "Training-provider credentials"
+      ],
+      "covered_well": "Walks through the peak-to-trough calculation with a transparent example.",
+      "gaps": "Treats drawdown alone; no link to beta, leverage, or recovery time."
     }
   ],
-  "content_gaps": [],
-  "value_add": "",
+  "content_gaps": [
+    "The primary keyword returns scattered results with no single clear guide.",
+    "Explainers found for related searches cover beta and standard deviation but stop at volatility.",
+    "Drawdown, leverage, and valuation risk are treated on separate pages, if at all.",
+    "Few pages show how the metrics disagree with each other."
+  ],
+  "value_add": "One page that reads the main risk metrics together, shows drawdown and recovery arithmetic, and says what each number leaves out.",
   "plan": {
     "reader_title": "Stock Risk Metrics: Drawdown, Volatility, Beta, and Sharpe Ratio Compared",
     "seo_title": "Stock Risk Metrics: Volatility, Beta, Drawdown, Sharpe",
     "meta_description": "Compare stock risk metrics including volatility, beta, drawdown, Sharpe ratio, liquidity, leverage, and concentration with practical examples.",
     "slug": "/investing/stock-risk-metrics/",
     "search_intent": "Informational",
-    "secondary_keywords": [],
-    "outline": [],
-    "evidence_map": [],
-    "visuals": [],
+    "secondary_keywords": [
+      "how to measure stock risk",
+      "max drawdown",
+      "what is beta in stocks",
+      "stock volatility"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "Why One Risk Number Is Never Enough",
+      "Risk Metric Comparison",
+      "Volatility: How Widely Returns Move",
+      "Beta: How a Stock Moves Relative to the Market",
+      "Maximum Drawdown: The Investor Experience Metric",
+      "Recovery Mathematics",
+      "Sharpe Ratio: Return Relative to Volatility",
+      "Sortino Ratio: Focus Only on Harmful Volatility",
+      "Alpha: Return Beyond a Model's Expectation",
+      "Value at Risk: A Probability Estimate, Not a Maximum Loss",
+      "Leverage Is a Different Kind of Risk",
+      "Interest Coverage Shows Debt-Service Capacity",
+      "Liquidity Risk Can Be Invisible Until Stress",
+      "Concentration Is a Portfolio-Level Risk",
+      "Correlation Determines Whether Diversification Works",
+      "Sector Labels Can Hide Correlation",
+      "Scenario Analysis Adds What Historical Metrics Cannot",
+      "An Illustrative Risk Dashboard",
+      "Risk-Adjusted Return Is Not the Same as Low Risk",
+      "Behavioral Risk Belongs on the Dashboard",
+      "Use the Right Risk Metric for the Decision",
+      "Common Mistakes With Stock Risk Metrics",
+      "Tail Risk Deserves Separate Attention",
+      "Fundamental Risk Can Lead Price Risk",
+      "Valuation Risk Is Easy to Ignore",
+      "Risk Budgets Turn Metrics Into Portfolio Decisions",
+      "Stress Correlations, Not Just Normal Correlations",
+      "Final Perspective",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Diversification section: Investor.gov diversification page",
+      "Filing checks: EDGAR"
+    ],
+    "visuals": [
+      "Hero photograph of a financial newspaper and charts"
+    ],
     "internal_links": [
       "/investing/"
     ],
-    "external_link_opportunities": [],
-    "excluded_claims": [],
-    "drafting_cautions": []
+    "external_link_opportunities": [
+      "https://www.sec.gov/edgar/search/",
+      "https://www.investor.gov/introduction-investing/investing-basics/save-and-invest/diversify-your-investments"
+    ],
+    "excluded_claims": [
+      "Risk ratings of named stocks",
+      "Claims that a metric predicts returns"
+    ],
+    "drafting_cautions": [
+      "Drawdown tables are arithmetic illustrations"
+    ]
   },
   "claims": [
     {
-      "statement": "",
-      "source_url": "",
-      "verified": false
+      "statement": "Investor.gov says diversification cannot guarantee against loss in a falling market.",
+      "source_url": "https://www.investor.gov/introduction-investing/investing-basics/save-and-invest/diversify-your-investments",
+      "verified": true
     }
   ],
   "fact_check": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04",
+    "note": "Approved by the site owner in the build session of 2026-10-04 (\"all posts approved\") after reviewing the verification summary for each post."
   },
   "qa": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04",
+    "note": "Approved by the site owner in the build session of 2026-10-04 (\"all posts approved\") after reviewing the verification summary for each post."
   },
   "verification_log": {
     "checked_on": "2026-10-04",
-    "summary": "Checked the diversification wording (it cannot guarantee protection if the market drops). The drawdown table is arithmetic. Not yet checked: FINRA investor page and the asset allocation page as cited in Resources.",
-    "pending": "Ubersuggest keyword data, five-competitor review, remaining sources, and named fact-check and QA sign-off."
+    "summary": "Keyword data from Ubersuggest (United States), five ranking pages reviewed. Diversification page, asset allocation page, and FINRA investor page checked. The drawdown table is arithmetic.",
+    "pending": "None."
   }
 }

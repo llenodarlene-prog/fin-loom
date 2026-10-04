@@ -5,7 +5,7 @@ description: Google revenue statistics covering Search, YouTube, Cloud, subscrip
 slug: /markets-stocks/google-revenue-statistics/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S12
 primary_keyword: Google revenue statistics
 secondary_keywords: 
@@ -18,9 +18,9 @@ link_placement_site: WebTribunal
 charts_pending: 0
 ai_exceptions: leverage
 ai_exception_reason: Operating leverage is a technical financial term and is used in that sense only.
-author: 
-published: 
-modified: 
+author: Darlene Aberin
+published: 2026-10-04
+modified: 2026-10-04
 ---
 
 # Google Revenue Statistics 2026: Search, YouTube, Cloud, and the Business Mix
@@ -176,8 +176,6 @@ Google Cloud was once a major loss-making growth segment.
 By 2025, it was producing meaningful operating profit.
 
 That shift matters because revenue quality improves when a growth business also generates operating income.
-
-In Q2 2025, for example, Cloud operating margin had already reached 20.7%.
 
 The business subsequently accelerated further.
 

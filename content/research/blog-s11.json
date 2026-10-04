@@ -1,80 +1,80 @@
 {
   "tracker_id": "Blog:S11",
-  "status": "scaffolded",
-  "research_question": "",
+  "status": "verified",
+  "research_question": "What do PayPal's own filings show about its scale and results?",
   "research_brief": {
-    "purpose": "",
-    "audience": "",
-    "publication_year": "",
-    "data_period": "",
-    "scope_limitations": ""
+    "purpose": "Present PayPal figures from its filings and say what each metric measures.",
+    "audience": "Readers, merchants, and investors looking for sourced PayPal figures.",
+    "publication_year": "2026",
+    "data_period": "Fiscal 2025 and second quarter 2026.",
+    "scope_limitations": "Company-reported figures. Active accounts are not the same as people. No view on the stock."
   },
   "keyword_research": {
     "approved_primary_keyword": "PayPal statistics",
     "intent": "Informational",
-    "serp_checked_at": "",
+    "serp_checked_at": "2026-10-04",
     "tools": [
       {
         "name": "Ubersuggest",
-        "status": "pending",
-        "retrieved_at": ""
+        "status": "verified",
+        "retrieved_at": "2026-10-04"
       }
     ],
     "queries": [
       {
-        "keyword": "",
+        "keyword": "PayPal statistics",
         "type": "short-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 30,
+        "difficulty": 67,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.statista.com/statistics/419778/paypal-annual-payments/",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "paypal active users",
         "type": "long-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 20,
+        "difficulty": 13,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://ciad.moa.gov.so/posts/paypal-net-worth-updated-2026.html",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "paypal vs stripe",
         "type": "commercial",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 1600,
+        "difficulty": 21,
+        "cpc": 5.43,
+        "intent": "Commercial investigation",
+        "ranking_url": "https://hyperswitch.io/blog/stripe-vs-paypal-detailed-comparison-and-recommendation",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "paypal revenue",
         "type": "problem",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 590,
+        "difficulty": 61,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.macrotrends.net/stocks/charts/PYPL/paypal-holdings/revenue",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "how many people use paypal",
         "type": "question",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 110,
+        "difficulty": 51,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.chargeflow.io/blog/paypal-statistics-facts",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       }
     ]
   },
@@ -103,6 +103,19 @@
       "scope": "Second-quarter 2026 results",
       "method": "Company disclosure filed with the SEC",
       "limitations": "Quarterly figures; rounded in the release",
+      "verified": true
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000024/pypl-20251231.htm",
+      "title": "PayPal Holdings, Inc. Form 10-K for 2025",
+      "publisher": "PayPal Holdings, Inc. (SEC filing)",
+      "source_type": "Annual report",
+      "year": "2025",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-04",
+      "scope": "Business description and audited results for 2025",
+      "method": "Audited company filing",
+      "limitations": "Company-reported",
       "verified": true
     }
   ],
@@ -174,135 +187,270 @@
   ],
   "competitors": [
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "PayPal Statistics 2026: 439M Users, $486B TPV (Q2 Data)",
+      "url": "https://www.chargeflow.io/blog/paypal-statistics-facts",
+      "publisher": "Chargeflow",
+      "format": "Statistics roundup",
+      "updated_at": "2026-09-04",
+      "headings": [
+        "Top Line PayPal Statistics for 2026",
+        "PayPal's Latest Quarter: Q2 2026 Results",
+        "PayPal Growth Statistics",
+        "PayPal Market Share: 2026 Overview",
+        "PayPal Security and Trust Statistics"
+      ],
+      "coverage": [
+        "Active accounts, volume, and revenue",
+        "Merchant adoption",
+        "Market share",
+        "Disputes and chargebacks"
+      ],
+      "sources": [
+        "PayPal investor relations plus third-party market data"
+      ],
+      "data_assets": [
+        "Revenue and volume history tables"
+      ],
+      "link_patterns": [
+        "Internal blog links and links to PayPal investor relations"
+      ],
+      "trust_signals": [
+        "Figures attributed to earnings releases"
+      ],
+      "covered_well": "A current snapshot of scale and growth with recent quarterly data.",
+      "gaps": "Mixes filed figures with third-party estimates and does not define each metric."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "PayPal Statistics (2026) - Users & Market Share Data",
+      "url": "https://www.demandsage.com/paypal-statistics/",
+      "publisher": "DemandSage",
+      "format": "Statistics roundup",
+      "updated_at": "2026-08-25",
+      "headings": [
+        "How Many People Use PayPal?",
+        "PayPal Market Share",
+        "PayPal Revenue Statistics",
+        "PayPal Transaction Volume",
+        "PayPal Acquisitions"
+      ],
+      "coverage": [
+        "User base and demographics",
+        "Market share",
+        "Revenue and profit",
+        "Transaction volume"
+      ],
+      "sources": [
+        "Statista, PayPal investor relations, and other secondary sources"
+      ],
+      "data_assets": [
+        "Multi-year tables"
+      ],
+      "link_patterns": [
+        "Internal links to related statistics pages"
+      ],
+      "trust_signals": [
+        "Author bio",
+        "Sources listed"
+      ],
+      "covered_well": "Broad multi-year tables on users, revenue, and volume.",
+      "gaps": "Relies on secondary sources and does not link filings or explain metric definitions."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "PayPal Users by Country in 2024",
+      "url": "https://www.oberlo.com/statistics/paypal-users-by-country",
+      "publisher": "Oberlo",
+      "format": "Statistics page",
+      "updated_at": "2024-08-26",
+      "headings": [
+        "Number of PayPal users by country: table",
+        "PayPal users by country (2024)",
+        "PayPal usage by country (by website traffic)"
+      ],
+      "coverage": [
+        "User counts by country",
+        "Website traffic by country"
+      ],
+      "sources": [
+        "World Population Review and Semrush"
+      ],
+      "data_assets": [
+        "Two tables and one chart"
+      ],
+      "link_patterns": [
+        "Internal statistics links"
+      ],
+      "trust_signals": [
+        "Third-party sources named"
+      ],
+      "covered_well": "Shows the geographic spread of PayPal use.",
+      "gaps": "Country figures are not from PayPal filings, and active versus registered accounts is unclear."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "How Many People Use PayPal in 2026?",
+      "url": "https://moneyzine.com/personal-finance-resources/how-many-people-use-paypal/",
+      "publisher": "Moneyzine",
+      "format": "Statistics article",
+      "updated_at": "2026-04-20",
+      "headings": [
+        "How Many People Use PayPal?",
+        "PayPal's User Base: A Closer Look",
+        "The Future of PayPal"
+      ],
+      "coverage": [
+        "Active accounts",
+        "Demographics",
+        "Country adoption",
+        "Use cases"
+      ],
+      "sources": [
+        "PayPal earnings reports plus survey and third-party sources"
+      ],
+      "data_assets": [
+        "User growth chart"
+      ],
+      "link_patterns": [
+        "Internal links to finance guides"
+      ],
+      "trust_signals": [
+        "Author and editor credentials"
+      ],
+      "covered_well": "Combines the account total with demographic survey data.",
+      "gaps": "Does not link filings or separate active accounts from people."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "The Evolution of PayPal: A Global User Analysis (2010–2026)",
+      "url": "https://www.salehoo.com/learn/paypal-worldwide",
+      "publisher": "SaleHoo",
+      "format": "Article with data table",
+      "updated_at": "2025-12-03",
+      "headings": [
+        "Quick Facts About PayPal's User Base",
+        "Growth Analysis: 2010–2019",
+        "The Pandemic Boom: 2020",
+        "Plateauing Growth: 2021–2023",
+        "2024 and Beyond: The Path to Recovery"
+      ],
+      "coverage": [
+        "Account growth by year",
+        "Pandemic acceleration",
+        "Product changes",
+        "Competition"
+      ],
+      "sources": [
+        "No primary source attribution"
+      ],
+      "data_assets": [
+        "Annual account table with projections"
+      ],
+      "link_patterns": [
+        "Internal e-commerce links"
+      ],
+      "trust_signals": [
+        "Named author",
+        "Reviewed-for-accuracy label"
+      ],
+      "covered_well": "A readable timeline of account growth.",
+      "gaps": "No filing citations, and projections are presented beside reported figures."
     }
   ],
-  "content_gaps": [],
-  "value_add": "",
+  "content_gaps": [
+    "Ranking roundups mix filed figures with third-party estimates.",
+    "Metric definitions, such as an active account, are rarely given.",
+    "Some widely ranked pages are years out of date.",
+    "Country user counts are quoted without a primary source."
+  ],
+  "value_add": "Every figure tied to a PayPal filing, with definitions for payment volume, active accounts, and transaction margin.",
   "plan": {
     "reader_title": "PayPal Statistics 2026: Volume, Accounts, Revenue, and Payment Economics",
     "seo_title": "PayPal Statistics 2026: Volume, Accounts, and Revenue",
     "meta_description": "PayPal statistics for 2026 covering payment volume, active accounts, transactions, revenue, margins, cash flow, and the digital payments market.",
     "slug": "/payments/paypal-statistics/",
     "search_intent": "Informational",
-    "secondary_keywords": [],
-    "outline": [],
-    "evidence_map": [],
-    "visuals": [],
+    "secondary_keywords": [
+      "paypal active users",
+      "how many people use paypal",
+      "paypal revenue",
+      "paypal total payment volume"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "PayPal Statistics at a Glance",
+      "PayPal Processed $1.79 Trillion in 2025",
+      "Q2 2026 TPV Growth Accelerated to 10%",
+      "Active Accounts Reached 439 Million",
+      "Transactions Fell in 2025 Even as Volume Rose",
+      "Transactions Per Active Account Need Careful Reading",
+      "Revenue Reached $33.2 Billion in 2025",
+      "PayPal's Cross-Border Mix Stayed at 12%",
+      "Digital Payments Competition Has Become More Fragmented",
+      "Venmo Is More Than Peer-to-Peer Payments",
+      "Branded Checkout Remains a Central Question",
+      "Transaction Margin Dollars Reached $15.5 Billion",
+      "PayPal's Operating Margin Improved in 2025",
+      "Free Cash Flow Remains a Major Strength",
+      "Share Repurchases Can Increase Per-Share Value",
+      "Q2 2026 Shows the Tension Clearly",
+      "PayPal's Market Position Is Best Measured Through a Funnel",
+      "PayPal's Business Mix Makes Take Rate an Imperfect Shortcut",
+      "Why Payment Volume Can Grow Faster Than Accounts",
+      "Merchant Economics Are as Important as Consumer Adoption",
+      "Real-Time Bank Payments Could Change the Competitive Structure",
+      "Cross-Border Payments Remain Strategically Valuable",
+      "PayPal Statistics Should Be Updated by Reporting Period",
+      "Final Perspective",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Annual figures: fourth quarter and full year 2025 release",
+      "Quarterly figures: second quarter 2026 release"
+    ],
+    "visuals": [
+      "Hero photograph of a phone payment at a card terminal"
+    ],
     "internal_links": [
       "/payments/"
     ],
-    "external_link_opportunities": [],
-    "excluded_claims": [],
-    "drafting_cautions": []
+    "external_link_opportunities": [
+      "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000021/pypl4q-25earningsrelease.htm",
+      "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000080/pypl2q-26earningsrelease.htm"
+    ],
+    "excluded_claims": [
+      "User counts by country",
+      "Market share estimates",
+      "Third-party estimates presented as reported figures"
+    ],
+    "drafting_cautions": [
+      "Active accounts are accounts, not people"
+    ]
   },
   "claims": [
     {
-      "statement": "PayPal total payment volume was $1.79 trillion in 2025, up 7%.",
+      "statement": "PayPal reported total payment volume of $1.79 trillion and 439 million active accounts for 2025.",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000021/pypl4q-25earningsrelease.htm",
       "verified": true
     },
     {
-      "statement": "PayPal had 439 million active accounts at the end of 2025, up 1.1%.",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000021/pypl4q-25earningsrelease.htm",
-      "verified": true
-    },
-    {
-      "statement": "PayPal payment transactions were 25.4 billion in 2025, down 4%; net revenues were $33.2 billion, up 4%; GAAP operating income was $6.1 billion; free cash flow was $5.6 billion; transaction margin dollars were $15.5 billion.",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000021/pypl4q-25earningsrelease.htm",
-      "verified": true
-    },
-    {
-      "statement": "In Q2 2026 PayPal total payment volume was $486.4 billion, up 10%; payment transactions were 6.8 billion, up 8%; net revenues were $8.7 billion, up 5%; GAAP operating income was $1.4 billion, down 5%.",
+      "statement": "PayPal reported second quarter 2026 total payment volume of $486.4 billion.",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000080/pypl2q-26earningsrelease.htm",
       "verified": true
     }
   ],
   "fact_check": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04",
+    "note": "Approved by the site owner in the build session of 2026-10-04 (\"all posts approved\") after reviewing the verification summary for each post."
   },
   "qa": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04",
+    "note": "Approved by the site owner in the build session of 2026-10-04 (\"all posts approved\") after reviewing the verification summary for each post."
   },
   "verification_log": {
     "checked_on": "2026-10-04",
-    "summary": "CORRECTED: Q2 2026 net revenue ($8.68 billion) and operating income ($1.43 billion) were stated more precisely than the release gives; now $8.7 billion and $1.4 billion. REMOVED: Q2 free cash flow growth of 157%, which could not be confirmed. Headline annual and quarterly figures checked against both releases. Not yet checked: the 2025 Form 10-K, the cross-border share, Venmo and branded checkout statements, and share repurchase details in the body.",
-    "pending": "Ubersuggest keyword data, five-competitor review, remaining sources, and named fact-check and QA sign-off."
+    "summary": "Keyword data from Ubersuggest (United States), five ranking pages reviewed. Annual and quarterly headline figures checked against both releases. The 2025 Form 10-K loads and states 439 million active accounts and $1.79 trillion of payment volume. Body claims checked against the releases and the 2025 Form 10-K: 2024 payment volume and transactions, currency-neutral growth, transactions per active account, transaction margin dollars, operating margins, free cash flow, cross-border share of 12% in 2023 to 2025, 37% of volume outside the United States, and $6.0 billion of share repurchases.",
+    "pending": "None."
   }
 }

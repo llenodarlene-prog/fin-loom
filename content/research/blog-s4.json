@@ -1,232 +1,453 @@
 {
   "tracker_id": "Blog:S4",
-  "status": "scaffolded",
-  "research_question": "",
+  "status": "verified",
+  "research_question": "What are the crypto custody models, what can go wrong with each, and what do current US rules say?",
   "research_brief": {
-    "purpose": "",
-    "audience": "",
-    "publication_year": "",
-    "data_period": "",
-    "scope_limitations": ""
+    "purpose": "Explain custody models and their risks, and report the 2025 and 2026 US regulatory steps accurately.",
+    "audience": "Crypto holders choosing between self-custody and a custodian, and readers following custody rules.",
+    "publication_year": "2026",
+    "data_period": "OCC action of May 2025 and SEC proposal of October 1, 2026.",
+    "scope_limitations": "United States only. The SEC proposal is not final. Nothing here is legal advice or a recommendation of a custodian."
   },
   "keyword_research": {
     "approved_primary_keyword": "crypto custody",
-    "intent": "Informational",
-    "serp_checked_at": "",
+    "intent": "Commercial and informational",
+    "serp_checked_at": "2026-10-04",
     "tools": [
       {
         "name": "Ubersuggest",
-        "status": "pending",
-        "retrieved_at": ""
+        "status": "verified",
+        "retrieved_at": "2026-10-04"
       }
     ],
     "queries": [
       {
-        "keyword": "",
+        "keyword": "crypto custody",
         "type": "short-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 210,
+        "difficulty": 57,
+        "cpc": 42.36,
+        "intent": "Commercial",
+        "ranking_url": "https://www.law.upenn.edu/faculty/david-hoffman/crypto-custody.php",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "crypto custody solutions",
         "type": "long-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 70,
+        "difficulty": 35,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "https://www.bitgo.com/products/qualified-custody/",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "best crypto custodian",
         "type": "commercial",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 40,
+        "difficulty": 32,
+        "cpc": 22.81,
+        "intent": "Commercial",
+        "ranking_url": "https://bitcoinfoundation.org/news/blockchain-news/best-crypto-custody-provider/",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "self custody crypto",
         "type": "problem",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 50,
+        "difficulty": 37,
+        "cpc": 8.67,
+        "intent": "Informational",
+        "ranking_url": "https://trezor.io/learn/basics/what-is-self-custody-and-why-is-it-important-for-your-crypto",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "what is crypto custody",
         "type": "question",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 50,
+        "difficulty": 45,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://stripe.com/resources/more/crypto-custody",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       }
     ]
   },
   "sources": [
     {
-      "url": "",
-      "title": "",
-      "publisher": "",
-      "source_type": "",
-      "year": "",
-      "published_at": "",
-      "accessed_at": "",
-      "scope": "",
-      "method": "",
-      "limitations": "",
-      "verified": false
+      "url": "https://www.occ.treas.gov/news-issuances/news-releases/2025/nr-occ-2025-42.html",
+      "title": "OCC Clarifies Bank Authority to Engage in Crypto-Asset Custody and Execution Services",
+      "publisher": "Office of the Comptroller of the Currency",
+      "source_type": "Regulator news release",
+      "year": "2025",
+      "published_at": "2025-05-07",
+      "accessed_at": "2026-10-04",
+      "scope": "Bank authority for crypto custody and execution, including outsourcing",
+      "method": "Regulator statement",
+      "limitations": "Applies to national banks and federal savings associations",
+      "verified": true
+    },
+    {
+      "url": "https://www.occ.treas.gov/topics/charters-and-licensing/interpretations-and-actions/2025/int1184.pdf",
+      "title": "Interpretive Letter 1184",
+      "publisher": "Office of the Comptroller of the Currency",
+      "source_type": "Regulator interpretive letter",
+      "year": "2025",
+      "published_at": "2025-05-07",
+      "accessed_at": "2026-10-04",
+      "scope": "Legal basis for the custody and execution authority",
+      "method": "Regulator interpretation",
+      "limitations": "Interpretive letters can be revised or rescinded",
+      "verified": true
+    },
+    {
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-100-sec-proposal-would-address-how-investment-advisers-funds-can-custody-crypto-assets-under-federal",
+      "title": "SEC Proposal Would Address How Investment Advisers and Funds Can Custody Crypto Assets Under the Federal Securities Laws",
+      "publisher": "U.S. Securities and Exchange Commission",
+      "source_type": "Regulator press release",
+      "year": "2026",
+      "published_at": "2026-10-01",
+      "accessed_at": "2026-10-04",
+      "scope": "Proposed custody framework for advisers and regulated funds",
+      "method": "Regulator statement",
+      "limitations": "A proposal; it can change before adoption",
+      "verified": true
+    },
+    {
+      "url": "https://www.sec.gov/newsroom/speeches-statements/atkins-crypto-custody-100126-statement-proposal-address-custody-crypto-assets-under-investment-advisers-act-investment-company",
+      "title": "Statement on Proposal to Address the Custody of Crypto Assets Under the Investment Advisers Act and the Investment Company Act",
+      "publisher": "U.S. Securities and Exchange Commission",
+      "source_type": "Official statement",
+      "year": "2026",
+      "published_at": "2026-10-01",
+      "accessed_at": "2026-10-04",
+      "scope": "Chairman's statement on the proposal",
+      "method": "Official statement",
+      "limitations": "One official's statement",
+      "verified": true
+    },
+    {
+      "url": "https://www.sec.gov/featured-topics/crypto-task-force/cryptosec",
+      "title": "Crypto@SEC",
+      "publisher": "U.S. Securities and Exchange Commission",
+      "source_type": "Regulator tracker page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-04",
+      "scope": "List of SEC crypto statements and actions",
+      "method": "Regulator publication",
+      "limitations": "Updated over time",
+      "verified": true
     }
   ],
   "statistics": [
     {
-      "claim": "",
-      "source_url": "",
-      "data_year": "",
-      "geography": "",
-      "population": "",
-      "sample": "",
-      "denominator": "",
-      "unit": "",
-      "method": "",
-      "limitations": "",
+      "claim": "The SEC said the comment period on its October 1, 2026 custody proposal stays open for 60 days after publication in the Federal Register.",
+      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-100-sec-proposal-would-address-how-investment-advisers-funds-can-custody-crypto-assets-under-federal",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable: documented rule or definition",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Days",
+      "method": "Stated in the source document",
+      "limitations": "Describes the source at the access date and may change",
       "sponsored": false,
       "partial_year": false,
       "estimate": false,
-      "verified": false
+      "verified": true
+    },
+    {
+      "claim": "OCC Interpretive Letter 1184, dated May 7, 2025, confirms national banks and federal savings associations may provide crypto custody and execution services and outsource them, subject to third-party risk management.",
+      "source_url": "https://www.occ.treas.gov/news-issuances/news-releases/2025/nr-occ-2025-42.html",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Not applicable: documented rule or definition",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Stated in the source document",
+      "limitations": "Describes the source at the access date and may change",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
     }
   ],
   "competitors": [
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Digital Asset Custody 101: Guide to Direct Custody, Wallet Options, and More",
+      "url": "https://www.fireblocks.com/report/digital-asset-custody",
+      "publisher": "Fireblocks",
+      "format": "Explainer article",
+      "updated_at": "2026-04-17",
+      "headings": [
+        "What Is Digital Asset Custody?",
+        "Digital Asset Custody Explained",
+        "Private Key Storage Methods, Advantages and Drawbacks",
+        "Benefits and Challenges of Digital Asset Custody",
+        "The Future of Digital Asset Custody Solutions"
+      ],
+      "coverage": [
+        "Hot, warm, and cold wallets",
+        "MPC and multi-signature",
+        "Direct and sub-custody",
+        "Regulatory evolution in general terms"
+      ],
+      "sources": [
+        "Vendor's own material"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Internal links to products and glossary"
+      ],
+      "trust_signals": [
+        "Named institutional clients"
+      ],
+      "covered_well": "Explains key storage methods and their trade-offs.",
+      "gaps": "Vendor-led; nothing specific on counterparty risk or current US rules."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Crypto Custody For Individuals",
+      "url": "https://milkroad.com/custody/",
+      "publisher": "Milk Road",
+      "format": "Product comparison guide",
+      "updated_at": "not stated",
+      "headings": [
+        "3 Best Crypto Custody Providers for Retail Clients",
+        "Self-Custody vs. Third-Party Custody",
+        "Frequently Asked Questions"
+      ],
+      "coverage": [
+        "Self-custody wallets",
+        "Three third-party custodians",
+        "Seed phrases and multisig",
+        "Costs and insurance"
+      ],
+      "sources": [
+        "Provider websites"
+      ],
+      "data_assets": [
+        "Provider comparison tables"
+      ],
+      "link_patterns": [
+        "Affiliate links to providers"
+      ],
+      "trust_signals": [
+        "Author and editor bylines"
+      ],
+      "covered_well": "Explains the self-custody and third-party trade-off for individuals with concrete examples.",
+      "gaps": "Affiliate comparison; no regulatory framework or insolvency risk."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Crypto Custody: A Guide",
+      "url": "https://stripe.com/resources/more/crypto-custody",
+      "publisher": "Stripe",
+      "format": "Guide",
+      "updated_at": "2026-03-15",
+      "headings": [
+        "What is crypto custody?",
+        "How do custodial models handle key management and asset control?",
+        "What technologies enable secure crypto custody?",
+        "How does custody reduce risk for institutions and platforms?",
+        "How can organizations choose the right custody solution?"
+      ],
+      "coverage": [
+        "Self, third-party, and shared-control models",
+        "Storage and key technologies",
+        "Risk reduction",
+        "Selection criteria"
+      ],
+      "sources": [
+        "Few external citations"
+      ],
+      "data_assets": [
+        "One lost-key supply estimate"
+      ],
+      "link_patterns": [
+        "Internal product and documentation links"
+      ],
+      "trust_signals": [
+        "Legal and tax disclaimer"
+      ],
+      "covered_well": "A clear overview of custody models and the technology behind each.",
+      "gaps": "Written for businesses; little on counterparty risk or recent US regulatory changes."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Cryptocurrency Custody 6 FAQs",
+      "url": "https://www.usbank.com/corporate-and-commercial-banking/insights/institutional/custody/cryptocurrency-custody-faqs.html",
+      "publisher": "U.S. Bank",
+      "format": "FAQ article",
+      "updated_at": "not stated",
+      "headings": [
+        "Institutional cryptocurrency custody and the evolving regulatory landscape",
+        "Advantages of using the same custodian for cryptocurrency and non-cryptocurrency assets",
+        "Key differences between retail and institutional cryptocurrency investing",
+        "Risk management controls for cryptocurrency custody security",
+        "Experience and expertise to seek in a cryptocurrency custodian"
+      ],
+      "coverage": [
+        "Regulatory environment",
+        "Consolidated custody",
+        "Spot ETF growth",
+        "Security controls"
+      ],
+      "sources": [
+        "Bank experts and SEC staff bulletins"
+      ],
+      "data_assets": [
+        "ETF asset growth figures"
+      ],
+      "link_patterns": [
+        "Internal links to custody services"
+      ],
+      "trust_signals": [
+        "Qualified custodian status",
+        "Sub-custody partner named"
+      ],
+      "covered_well": "Sets out an institutional custodian's view of the regulatory setting and controls.",
+      "gaps": "Institutional and promotional; no custody model comparison or failure scenarios."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "What to look for in a crypto custodian",
+      "url": "https://www.fidelity.com/learning-center/trading-investing/crypto-custodian",
+      "publisher": "Fidelity",
+      "format": "Explainer article",
+      "updated_at": "2025-10-17",
+      "headings": [
+        "What is a crypto custodian and why is a trustworthy crypto custodian important?",
+        "How to identify safer crypto custodians",
+        "What is rehypothecation?",
+        "Storing your crypto assets safely"
+      ],
+      "coverage": [
+        "Cold storage",
+        "Two-factor authentication",
+        "Oversight and licensing",
+        "Rehypothecation"
+      ],
+      "sources": [
+        "Publisher's own content"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Internal learning-center links"
+      ],
+      "trust_signals": [
+        "No-FDIC and no-SIPC coverage disclaimer"
+      ],
+      "covered_well": "Gives practical criteria for judging a custodian, including rehypothecation.",
+      "gaps": "No detail on the current regulatory framework or on comparing custody models."
     }
   ],
-  "content_gaps": [],
-  "value_add": "",
+  "content_gaps": [
+    "Ranking pages are mostly custodian or vendor pages written for institutions.",
+    "Consumer pages compare products but skip insolvency and counterparty risk.",
+    "Few pages reviewed reflect the October 2026 SEC proposal.",
+    "The practical difference between holding keys and holding a claim on a custodian is rarely spelled out."
+  ],
+  "value_add": "A neutral comparison of custody models by who holds the keys and what fails in each, with the current US regulatory position sourced to the regulators.",
   "plan": {
     "reader_title": "Crypto Custody Explained: Self-Custody, Exchanges, and Institutional Custodians",
     "seo_title": "Crypto Custody: Self-Custody, Banks, and Institutions",
     "meta_description": "Learn how crypto custody works, who controls private keys, how institutional custody differs from self-custody, and which risks matter.",
     "slug": "/crypto/crypto-custody/",
-    "search_intent": "Informational",
-    "secondary_keywords": [],
-    "outline": [],
-    "evidence_map": [],
-    "visuals": [],
+    "search_intent": "Commercial and informational",
+    "secondary_keywords": [
+      "self custody crypto",
+      "what is crypto custody",
+      "crypto custody solutions",
+      "qualified custodian crypto"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "What Crypto Custody Means",
+      "Self-Custody",
+      "Exchange Custody",
+      "Institutional Crypto Custody",
+      "Multisignature and Multi-Party Computation Are Not the Same",
+      "Hot, Warm, and Cold Storage",
+      "Key Segregation and Asset Segregation",
+      "Custody Regulation Is Moving",
+      "What the SEC Proposal Signals",
+      "Sub-Custody Adds Another Layer of Risk",
+      "Insurance Should Be Read, Not Assumed",
+      "Proof of Reserves Is Not Full Custody Due Diligence",
+      "Operational Controls Matter as Much as Cryptography",
+      "Recovery Is Part of Security",
+      "Build a Custody Risk Matrix Before Comparing Providers",
+      "Custody and Staking Create Additional Questions",
+      "Custody and Trading Should Be Separated Conceptually",
+      "A Crypto Custody Due-Diligence Checklist",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Regulation section: OCC news release and Interpretive Letter 1184",
+      "Regulation section and FAQ: SEC press release and Crypto@SEC tracker"
+    ],
+    "visuals": [
+      "Hero photograph of a hardware wallet and seed backup"
+    ],
     "internal_links": [
       "/crypto/"
     ],
-    "external_link_opportunities": [],
-    "excluded_claims": [],
-    "drafting_cautions": []
+    "external_link_opportunities": [
+      "https://www.occ.treas.gov/news-issuances/news-releases/2025/nr-occ-2025-42.html",
+      "https://www.sec.gov/newsroom/press-releases/2026-100-sec-proposal-would-address-how-investment-advisers-funds-can-custody-crypto-assets-under-federal",
+      "https://www.sec.gov/featured-topics/crypto-task-force/cryptosec"
+    ],
+    "excluded_claims": [
+      "Recommendations of any custodian or wallet",
+      "Any statement that the SEC proposal is final",
+      "Insurance or protection claims for specific providers"
+    ],
+    "drafting_cautions": [
+      "The SEC proposal can change before adoption",
+      "US rules only"
+    ]
   },
   "claims": [
     {
-      "statement": "",
-      "source_url": "",
-      "verified": false
+      "statement": "In May 2025 the OCC confirmed that national banks may provide and outsource crypto custody and execution services.",
+      "source_url": "https://www.occ.treas.gov/news-issuances/news-releases/2025/nr-occ-2025-42.html",
+      "verified": true
+    },
+    {
+      "statement": "On October 1, 2026 the SEC proposed rules that would permit self-custody in certain circumstances and the use of state trust companies.",
+      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-100-sec-proposal-would-address-how-investment-advisers-funds-can-custody-crypto-assets-under-federal",
+      "verified": true
+    },
+    {
+      "statement": "The SEC lists the custody proposal on its Crypto@SEC page.",
+      "source_url": "https://www.sec.gov/featured-topics/crypto-task-force/cryptosec",
+      "verified": true
     }
   ],
   "fact_check": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04",
+    "note": "Approved by the site owner in the build session of 2026-10-04 (\"all posts approved\") after reviewing the verification summary for each post."
   },
   "qa": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04",
+    "note": "Approved by the site owner in the build session of 2026-10-04 (\"all posts approved\") after reviewing the verification summary for each post."
   },
   "verification_log": {
     "checked_on": "2026-10-04",
-    "summary": "Content checks pass after the editing pass. No source in this post has been checked against its original yet.",
-    "pending": "All source verification, Ubersuggest keyword data, five-competitor review, and named fact-check and QA sign-off."
+    "summary": "Keyword data from Ubersuggest (United States), five ranking pages reviewed. OCC release, Interpretive Letter 1184, SEC press release, the Chairman's statement, and the Crypto@SEC page all checked and match the post.",
+    "pending": "None."
   }
 }

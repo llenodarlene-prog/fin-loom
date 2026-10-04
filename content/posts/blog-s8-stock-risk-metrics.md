@@ -5,7 +5,7 @@ description: Compare stock risk metrics including volatility, beta, drawdown, Sh
 slug: /investing/stock-risk-metrics/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S8
 primary_keyword: stock risk metrics
 secondary_keywords: 
@@ -18,9 +18,9 @@ link_placement_site: Stoxcraft
 charts_pending: 0
 ai_exceptions: leverage
 ai_exception_reason: Leverage is used in its technical financial sense: debt relative to equity, assets, or earnings.
-author: 
-published: 
-modified: 
+author: Darlene Aberin
+published: 2026-10-04
+modified: 2026-10-04
 ---
 
 # Stock Risk Metrics: Drawdown, Volatility, Beta, and Sharpe Ratio Compared

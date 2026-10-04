@@ -5,7 +5,7 @@ description: Analyze AI capital spending through capex, depreciation, utilizatio
 slug: /markets-stocks/ai-capital-spending-big-tech/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S10
 primary_keyword: AI capital spending
 secondary_keywords: 
@@ -18,9 +18,9 @@ link_placement_site: Stoxcraft
 charts_pending: 0
 ai_exceptions: 
 ai_exception_reason: 
-author: 
-published: 
-modified: 
+author: Darlene Aberin
+published: 2026-10-04
+modified: 2026-10-04
 ---
 
 # AI Capital Spending: How Investors Can Evaluate Big Tech's Investment Cycle
@@ -65,18 +65,18 @@ The numbers demonstrate why investors need a framework beyond “AI spending is 
 
 ## Big Tech CapEx Comparison
 
-The table below uses the latest figures available from company disclosures and clearly labeled secondary reporting where direct company pages were not accessible in the same format.
+The table below uses figures from each company's own disclosures. Three rows are 2026 guidance. The Amazon row is a reported 2025 figure, not guidance.
 
 | Company | 2026 CapEx / Guidance Discussed | Source Context |
 |---|---:|---|
 | Microsoft | Approx. $175B | FY2026 Q4 earnings call; calendar-year expectation after lease-classification change |
 | Meta | $130B-$145B | Q2 2026 company guidance |
-| Alphabet | Large further increase versus 2025 | Company had already guided to higher 2026 spending after $85B 2025 plan; latest 2026 range should be rechecked at publication |
-| Amazon | Heavy continued AI/AWS infrastructure spending | Latest company call should be checked immediately before publication |
+| Alphabet | $175B-$185B | Q4 2025 earnings call; company guidance for 2026 |
+| Amazon | $128.3B (2025, reported) | Q4 2025 results; purchases of property and equipment for 2025, not 2026 guidance |
 
 This is deliberately conservative.
 
-Fast-moving capex guidance should be rechecked on publication day rather than copied from a stale comparison table.
+Capex guidance changes quickly, so check each company's latest release rather than relying on any comparison table, including this one.
 
 ## Why AI Infrastructure Requires Spending Before Revenue
 
@@ -291,7 +291,7 @@ YouTube recommendations and advertising use large-scale machine learning.
 
 Gemini requires training and inference infrastructure.
 
-The company had already lifted its 2025 capex outlook to about $85 billion and said it expected further increases in 2026 because of customer demand and growth opportunities.
+On its fourth-quarter 2025 earnings call, the company said it expected 2026 capital expenditure of $175 billion to $185 billion.
 
 For investors, the important question is whether infrastructure spending strengthens multiple revenue streams enough to compensate for depreciation and free-cash-flow pressure.
 

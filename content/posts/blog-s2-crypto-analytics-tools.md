@@ -5,7 +5,7 @@ description: Compare crypto analytics tools by the questions they answer, from m
 slug: /crypto/crypto-analytics-tools/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S2
 primary_keyword: crypto analytics tools
 secondary_keywords: crypto research tools; crypto research; token research; on-chain analytics
@@ -18,9 +18,9 @@ link_placement_site: Use The Bitcoin
 charts_pending: 0
 ai_exceptions: unlock
 ai_exception_reason: Unlock is the standard technical term for scheduled token releases and is used in that sense only.
-author: 
-published: 
-modified: 
+author: Darlene Aberin
+published: 2026-10-04
+modified: 2026-10-04
 ---
 
 # Crypto Analytics Tools: How to Research Tokens Without Dashboard Overload
@@ -90,7 +90,7 @@ Explorers such as Etherscan expose blockchain activity more directly.
 
 They can help verify: the token contract, transfers, holder addresses, wallet balances, smart-contract interactions, contract source code when verified, transaction hashes, event logs, and activity linked to specific addresses.
 
-[Etherscan’s current documentation](https://docs.etherscan.io/) describes the service as a blockchain explorer, search, API, and analytics platform for Ethereum and other EVM-compatible chains. Its data can be especially useful when a dashboard makes a claim that can be traced back to public transactions.
+[Etherscan’s current documentation](https://docs.etherscan.io/) describes the service as a block explorer whose API serves the same on-chain data across more than 60 EVM-compatible chains. Its data can be especially useful when a dashboard makes a claim that can be traced back to public transactions.
 
 Suppose a project says a treasury transferred tokens to a market maker. A block explorer can help confirm whether the transaction occurred, when it occurred, which addresses were involved, and how much moved.
 
@@ -374,8 +374,6 @@ Not necessarily. Many research questions can be answered with free market data, 
 The following sources provide the primary or specialist evidence used to verify the claims and frameworks above.
 
 - [DefiLlama, Data Definitions](https://defillama.com/data-definitions)
-- [Dune, DuneSQL Overview](https://docs.dune.com/query-engine/index)
 - [Dune, Ethereum Decoded Event Logs](https://docs.dune.com/data-catalog/evm/ethereum/decoded/event-logs)
 - [Etherscan API documentation](https://docs.etherscan.io/)
 - [Arkham, Guide to Entity Labels and Tags](https://info.arkm.com/research/a-guide-to-arkham-intels-industry-leading-tagging-system)
-- [CoinMarketCap, 9 Best Crypto Analysis Tools in 2026](https://coinmarketcap.com/api/resources/9-best-crypto-analysis-tools-in-2026/)

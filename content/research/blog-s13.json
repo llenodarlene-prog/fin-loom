@@ -1,80 +1,80 @@
 {
   "tracker_id": "Blog:S13",
-  "status": "scaffolded",
-  "research_question": "",
+  "status": "verified",
+  "research_question": "What do Amazon's earnings releases show about sales, segments, cash flow, and spending?",
   "research_brief": {
-    "purpose": "",
-    "audience": "",
-    "publication_year": "",
-    "data_period": "",
-    "scope_limitations": ""
+    "purpose": "Report Amazon's results by segment with cash flow and capital spending.",
+    "audience": "Readers, sellers, and investors looking for sourced Amazon figures.",
+    "publication_year": "2026",
+    "data_period": "Fiscal 2025 and the first half of 2026.",
+    "scope_limitations": "Company-reported figures. Second quarter 2026 net income includes large non-operating gains. No view on the stock."
   },
   "keyword_research": {
     "approved_primary_keyword": "Amazon statistics",
     "intent": "Informational",
-    "serp_checked_at": "",
+    "serp_checked_at": "2026-10-04",
     "tools": [
       {
         "name": "Ubersuggest",
-        "status": "pending",
-        "retrieved_at": ""
+        "status": "verified",
+        "retrieved_at": "2026-10-04"
       }
     ],
     "queries": [
       {
-        "keyword": "",
+        "keyword": "Amazon statistics",
         "type": "short-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 260,
+        "difficulty": 65,
+        "cpc": 4.27,
+        "intent": "Informational",
+        "ranking_url": "https://sell.amazon.com/blog/brand-analytics",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "amazon statistics 2025",
         "type": "long-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 10,
+        "difficulty": 15,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.mobiloud.com/blog/amazon-statistics",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "amazon statistics for sellers",
         "type": "commercial",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 10,
+        "difficulty": 21,
+        "cpc": 0,
+        "intent": "Commercial investigation",
+        "ranking_url": "https://www.businessofapps.com/data/amazon-statistics/",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "amazon free cash flow",
         "type": "problem",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 260,
+        "difficulty": 22,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.macrotrends.net/stocks/charts/AMZN/amazon/free-cash-flow",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "how much does amazon make a year",
         "type": "question",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 1000,
+        "difficulty": 65,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.macrotrends.net/stocks/charts/AMZN/amazon/revenue",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       }
     ]
   },
@@ -103,6 +103,32 @@
       "scope": "Second-quarter 2026 results",
       "method": "Company disclosure",
       "limitations": "Net income includes a large non-operating gain",
+      "verified": true
+    },
+    {
+      "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-First-Quarter-Results/default.aspx",
+      "title": "Amazon.com Announces First Quarter Results",
+      "publisher": "Amazon Investor Relations",
+      "source_type": "Company earnings release",
+      "year": "2026",
+      "published_at": "2026-04-29",
+      "accessed_at": "2026-10-04",
+      "scope": "First quarter 2026 results and trailing twelve month cash flow",
+      "method": "Company-reported results",
+      "limitations": "Company-reported",
+      "verified": true
+    },
+    {
+      "url": "https://ir.aboutamazon.com/sec-filings/default.aspx",
+      "title": "SEC filings",
+      "publisher": "Amazon Investor Relations",
+      "source_type": "Official resource page",
+      "year": "not applicable",
+      "published_at": "not applicable",
+      "accessed_at": "2026-10-04",
+      "scope": "Index of official documents or guidance",
+      "method": "Official publication",
+      "limitations": "A navigation page; it carries no figures used in the post",
       "verified": true
     }
   ],
@@ -174,135 +200,279 @@
   ],
   "competitors": [
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Amazon Usage and Growth Statistics – Revenue, Users, and More",
+      "url": "https://influencermarketinghub.com/amazon-stats/",
+      "publisher": "Influencer Marketing Hub",
+      "format": "Statistics roundup",
+      "updated_at": "2026-08-02",
+      "headings": [
+        "22 Amazon Stats that will blow your mind",
+        "Amazon Launched Amazon Prime in 2005",
+        "Amazon Prime Now Has 200 Million Members Worldwide",
+        "Amazon Web Services Had a 37% Revenue Growth in Q1 2022"
+      ],
+      "coverage": [
+        "Prime membership",
+        "AWS growth",
+        "Third-party sellers",
+        "Alexa devices"
+      ],
+      "sources": [
+        "Statista, CNBC, and Amazon reports"
+      ],
+      "data_assets": [
+        "Embedded charts"
+      ],
+      "link_patterns": [
+        "Internal links to marketing articles"
+      ],
+      "trust_signals": [
+        "Author byline",
+        "Sources named"
+      ],
+      "covered_well": "A milestone-style overview of Prime, AWS, and the marketplace.",
+      "gaps": "Several figures date from 2022, and there is nothing on cash flow or capital spending."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "45 Amazon Seller Statistics, Facts & Trends (2026)",
+      "url": "https://revenuegeeks.com/research/amazon-seller-statistics",
+      "publisher": "RevenueGeeks",
+      "format": "Statistics roundup",
+      "updated_at": "2026-09-08",
+      "headings": [
+        "8 Key Amazon Seller Stats (Editor's Pick)",
+        "General Amazon Seller Statistics",
+        "Amazon Seller Demographics and Business Models",
+        "How Much Do Amazon Sellers Make?",
+        "Amazon FBA and FBM Statistics"
+      ],
+      "coverage": [
+        "Seller revenue",
+        "Business models",
+        "Fulfillment methods",
+        "Advertising and cost pressure"
+      ],
+      "sources": [
+        "Amazon impact reports, Jungle Scout surveys, and Marketplace Pulse estimates"
+      ],
+      "data_assets": [
+        "Infographics and a data export"
+      ],
+      "link_patterns": [
+        "Internal links to tools and guides"
+      ],
+      "trust_signals": [
+        "Fact-checked bylines",
+        "Survey context stated per statistic"
+      ],
+      "covered_well": "Seller-side statistics with the survey behind each figure stated.",
+      "gaps": "About sellers, not the company: no segment results, cash flow, or capital spending."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Amazon Key Statistics 2024: Know Amazon Better To Grow Sales",
+      "url": "https://ecomclips.com/blog/amazon-key-statistics/",
+      "publisher": "Ecomclips",
+      "format": "Blog article",
+      "updated_at": "2024-08-24",
+      "headings": [
+        "Amazon Web Traffic",
+        "Number of Amazon Users",
+        "Amazon Customer Demographics",
+        "Amazon Revenue",
+        "Amazon Prime Subscribers"
+      ],
+      "coverage": [
+        "Traffic and users",
+        "Demographics",
+        "Revenue streams",
+        "Product categories"
+      ],
+      "sources": [
+        "Statista, Amazon data, and Numerator"
+      ],
+      "data_assets": [
+        "Infographics"
+      ],
+      "link_patterns": [
+        "Internal links to agency services"
+      ],
+      "trust_signals": [
+        "Research firms named"
+      ],
+      "covered_well": "A marketplace overview aimed at sellers.",
+      "gaps": "Dated 2024 and silent on operating income, cash flow, and capital spending."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Critical Amazon Statistics of Best Products, Regions & More",
+      "url": "https://maestra.ai/blogs/amazon-statistics",
+      "publisher": "Maestra",
+      "format": "Blog article",
+      "updated_at": "2024-12-27",
+      "headings": [
+        "Top Amazon Statistics for 2025",
+        "Amazon Revenue Breakdown",
+        "Bestselling Item Statistics",
+        "Amazon Prime Statistics",
+        "AWS (Amazon Web Services) Statistics"
+      ],
+      "coverage": [
+        "Revenue projections",
+        "Prime metrics",
+        "Product categories",
+        "Regional revenue"
+      ],
+      "sources": [
+        "Ten references including Statista and S&P Global"
+      ],
+      "data_assets": [
+        "Three charts"
+      ],
+      "link_patterns": [
+        "Internal links to the publisher's tools"
+      ],
+      "trust_signals": [
+        "Author byline",
+        "Reference list"
+      ],
+      "covered_well": "Covers revenue, Prime, and AWS in one overview.",
+      "gaps": "Relies on projections and secondary sources; no earnings-release figures for cash flow or capital spending."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Amazon North America Sales 2002-2026",
+      "url": "https://www.marketplacepulse.com/stats/amazon-north-america-sales",
+      "publisher": "Marketplace Pulse",
+      "format": "Statistic page with chart",
+      "updated_at": "not stated",
+      "headings": [
+        "Amazon North America Sales 2002-2026",
+        "Other Amazon Statistics"
+      ],
+      "coverage": [
+        "North America segment sales",
+        "Year-over-year growth",
+        "Historical trend"
+      ],
+      "sources": [
+        "No source attribution shown"
+      ],
+      "data_assets": [
+        "Sales chart from 2002"
+      ],
+      "link_patterns": [
+        "Links to related Amazon statistics"
+      ],
+      "trust_signals": [
+        "Specialist marketplace research publisher"
+      ],
+      "covered_well": "A clear long-run series for one segment.",
+      "gaps": "One segment only, with no attribution to earnings releases and nothing on cash flow or capital spending."
     }
   ],
-  "content_gaps": [],
-  "value_add": "",
+  "content_gaps": [
+    "Ranking pages are seller-focused roundups built on secondary sources.",
+    "Several are dated 2019 to 2024.",
+    "Segment operating income is rarely shown.",
+    "Free cash flow and capital spending are almost absent."
+  ],
+  "value_add": "Segment sales and operating income, free cash flow, and capital spending, all from Amazon's releases.",
   "plan": {
     "reader_title": "Amazon Statistics 2026: Revenue, AWS, Profit, and the Business Behind the Marketplace",
     "seo_title": "Amazon Statistics 2026: Revenue, AWS, Profit, and Growth",
     "meta_description": "Amazon statistics for 2026 covering revenue, AWS, operating income, retail, international growth, cash flow, and the economics behind the business.",
     "slug": "/markets-stocks/amazon-statistics/",
     "search_intent": "Informational",
-    "secondary_keywords": [],
-    "outline": [],
-    "evidence_map": [],
-    "visuals": [],
+    "secondary_keywords": [
+      "amazon statistics 2025",
+      "amazon free cash flow",
+      "how much does amazon make a year",
+      "aws revenue"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "Amazon Statistics at a Glance",
+      "Amazon Revenue Reached $716.9 Billion in 2025",
+      "Q2 2026 Sales Increased 20%",
+      "AWS Reached a $169 Billion Annualized Run Rate",
+      "AWS Generates a Disproportionate Share of Profit",
+      "North America Remains the Largest Revenue Engine",
+      "International Profitability Has Improved",
+      "Amazon's Advertising Business Adds Another High-Margin Layer",
+      "Third-Party Sellers Change Marketplace Economics",
+      "Prime Connects Multiple Businesses",
+      "Amazon's Logistics Network Is a Competitive Asset",
+      "Free Cash Flow Fell in 2025 Because Investment Surged",
+      "Operating Cash Flow and Free Cash Flow Tell Different Stories",
+      "AI Makes Capital Intensity More Important",
+      "Q2 2026 Operating Income Rose 43%",
+      "AWS Q2 Operating Economics Remain Critical",
+      "The Retail Business Still Matters Enormously",
+      "Revenue Per Dollar of Capital Matters More Than Revenue Alone",
+      "Advertising Improves the Economics of Retail Traffic",
+      "Marketplace Share Matters Because Inventory Risk Changes",
+      "AWS Margin Is a Key Consolidated Profit Variable",
+      "International Results Can Reveal Operating Leverage",
+      "Prime Is a Retention Mechanism",
+      "Capital Spending Should Be Compared With AWS Growth Over Several Years",
+      "Amazon Revenue Is Not the Same as Marketplace Commerce",
+      "Fulfillment Services Extend the Marketplace Model",
+      "Advertising Can Improve Retail Profit Without Raising Product Prices",
+      "AWS Custom Silicon Can Affect Infrastructure Economics",
+      "Free Cash Flow Should Be Normalized Across Investment Cycles",
+      "Amazon's Business Mix Reduces Dependence on Any One Margin Model",
+      "Final Perspective",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Annual and segment figures: fourth quarter 2025 release",
+      "Quarterly figures: second quarter 2026 release"
+    ],
+    "visuals": [
+      "Hero photograph of a fulfilment center seller dashboard"
+    ],
     "internal_links": [
       "/markets-stocks/"
     ],
-    "external_link_opportunities": [],
-    "excluded_claims": [],
-    "drafting_cautions": []
+    "external_link_opportunities": [
+      "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Fourth-Quarter-Results/default.aspx",
+      "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/default.aspx"
+    ],
+    "excluded_claims": [
+      "Seller counts or Prime member estimates from third parties",
+      "Net income presented as operating performance",
+      "Stock recommendations"
+    ],
+    "drafting_cautions": [
+      "Second quarter 2026 net income includes $53.4 billion of non-operating gains"
+    ]
   },
   "claims": [
     {
-      "statement": "Amazon net sales were $716.9 billion in 2025, up 12%; operating income was $80.0 billion (2024: $68.6 billion); net income was $77.7 billion.",
+      "statement": "Amazon reported 2025 net sales of $716.9 billion and free cash flow of $11.2 billion.",
       "source_url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Fourth-Quarter-Results/default.aspx",
       "verified": true
     },
     {
-      "statement": "In 2025 AWS sales were $128.7 billion (up 20%) with operating income of $45.6 billion; North America sales were $426.3 billion with operating income of $29.6 billion; International sales were $161.9 billion with operating income of $4.7 billion.",
-      "source_url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Fourth-Quarter-Results/default.aspx",
-      "verified": true
-    },
-    {
-      "statement": "Amazon free cash flow was $11.2 billion for 2025, down from $38.2 billion for 2024; purchases of property and equipment were $128.3 billion.",
-      "source_url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Fourth-Quarter-Results/default.aspx",
-      "verified": true
-    },
-    {
-      "statement": "In Q2 2026 Amazon net sales were $200.6 billion, up 20%; AWS sales were $42.2 billion, up 37%, its fastest growth in 18 quarters; operating income was $27.5 billion (Q2 2025: $19.2 billion).",
+      "statement": "Amazon reported second quarter 2026 AWS sales of $42.2 billion, up 37%.",
       "source_url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/default.aspx",
       "verified": true
     }
   ],
   "fact_check": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04",
+    "note": "Approved by the site owner in the build session of 2026-10-04 (\"all posts approved\") after reviewing the verification summary for each post."
   },
   "qa": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04",
+    "note": "Approved by the site owner in the build session of 2026-10-04 (\"all posts approved\") after reviewing the verification summary for each post."
   },
   "verification_log": {
     "checked_on": "2026-10-04",
-    "summary": "Headline annual, segment, and Q2 2026 figures all checked against the two releases. Free cash flow bullet now states the reported figures. Note for editors: Q2 2026 net income of $62.6 billion includes $53.4 billion of non-operating gains, so it should not be presented as operating performance. Not yet checked: Q1 2026 figures, advertising and subscription statements, and seller statistics in the body.",
-    "pending": "Ubersuggest keyword data, five-competitor review, remaining sources, and named fact-check and QA sign-off."
+    "summary": "Keyword data from Ubersuggest (United States), five ranking pages reviewed. Annual, segment, and second quarter 2026 figures checked against the releases. The first quarter 2026 release and SEC filings page load. Body claims checked: 2024 net sales, segment sales and operating income, operating cash flow of $139.5 billion, the $50.7 billion rise in property and equipment purchases, and second quarter 2026 segment growth. The post quotes no first quarter 2026 figures and gives no figures for advertising, subscriptions, or sellers.",
+    "pending": "None."
   }
 }
