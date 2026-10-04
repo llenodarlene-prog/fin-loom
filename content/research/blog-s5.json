@@ -191,9 +191,9 @@
   "content_gaps": [],
   "value_add": "",
   "plan": {
-    "reader_title": "DAO Governance and DeFi: What Token Voting Actually Controls",
+    "reader_title": "DAO Governance and DeFi: What Token Voting Controls",
     "seo_title": "DAO Governance: How Token Voting Works in Practice",
-    "meta_description": "Learn how DAO governance works, how delegation and quorum shape voting power, and what token holders actually control in protocols such as Uniswap.",
+    "meta_description": "Learn how DAO governance works, how delegation and quorum shape voting power, and what token holders control in protocols such as Uniswap.",
     "slug": "/fintech/dao-governance/",
     "search_intent": "Informational",
     "secondary_keywords": [],
@@ -223,5 +223,10 @@
     "completed": false,
     "reviewer": "",
     "reviewed_at": ""
+  },
+  "verification_log": {
+    "checked_on": "2026-10-04",
+    "summary": "Content checks pass after the editing pass. No source in this post has been checked against its original yet.",
+    "pending": "All source verification, Ubersuggest keyword data, five-competitor review, and named fact-check and QA sign-off."
   }
 }

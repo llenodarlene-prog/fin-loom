@@ -1,6 +1,6 @@
 ---
-title: Stock Screener Explained: Which Metrics Actually Help Narrow the Market
-seo_title: Stock Screener Guide: Filters That Actually Matter
+title: Stock Screener Explained: Which Metrics Help Narrow the Market
+seo_title: Stock Screener Guide: Filters Worth Using
 description: Learn how to use a stock screener without drowning in filters. Compare valuation, quality, growth, momentum, liquidity, and risk metrics.
 slug: /markets-stocks/stock-screener-metrics-guide/
 type: blog
@@ -12,16 +12,18 @@ secondary_keywords:
 cluster: Markets & Stocks
 approved_internal_links: /markets-stocks/
 research_record: content/research/blog-s7.json
+image: /assets/images/posts/stock-screener-metrics-guide/market-monitors-desk-1600.jpg
+image_alt: A desk with four market monitors in an office overlooking a city and river
 link_placement_site: Stoxcraft
 charts_pending: 0
-ai_exceptions: 
-ai_exception_reason: 
+ai_exceptions: leverage
+ai_exception_reason: Leverage is used in its technical financial sense: debt relative to equity or earnings, and operating leverage.
 author: 
 published: 
 modified: 
 ---
 
-# Stock Screener Explained: Which Metrics Actually Help Narrow the Market
+# Stock Screener Explained: Which Metrics Help Narrow the Market
 
 A stock screener can reduce thousands of listed companies to a manageable shortlist in seconds. That speed is useful, but it creates a common mistake: treating the shortlist as an answer.
 
@@ -45,7 +47,7 @@ The main points are summarized below.
 - **Sector Context Matters:** A useful threshold for software can be meaningless for banks, utilities, or real estate.
 - **Risk Belongs in the Screen:** Investors should not wait until after finding an exciting stock to measure volatility, leverage, or liquidity.
 
-## What a Stock Screener Actually Does
+## What a Stock Screener Does
 
 A stock screener applies rules to a database.
 
@@ -134,9 +136,7 @@ The ratio also fails when earnings are negative.
 
 That is why a screen built only around “P/E below 10” can become a collection of value traps.
 
-### Better Use of P/E
-
-Compare P/E with the company's own history, appropriate sector peers, growth expectations, return on capital, balance-sheet risk, and free cash flow.
+A better use of the ratio is comparison. Compare P/E with the company's own history, appropriate sector peers, growth expectations, return on capital, balance-sheet risk, and free cash flow.
 
 The screen identifies the unusual valuation.
 
@@ -292,7 +292,7 @@ This is where screening ends and investing begins.
 
 Read: the latest 10-K or annual report, recent 10-Q filings, earnings-call materials, debt notes, segment reporting, major risk factors, and relevant competitor filings.
 
-The [SEC's EDGAR database](https://www.sec.gov/edgar/search/) should be part of this stage for U.S.-listed companies.
+The [SEC's EDGAR database](https://www.sec.gov/edgar/search/) should be part of this stage for U.S.-listed companies, and the SEC's guide on [how to read a 10-K](https://www.investor.gov/introduction-investing/getting-started/researching-investments/how-read-10-k) is a useful companion for the annual report.
 
 ## Example: Building a Quality Screen
 
@@ -381,6 +381,8 @@ Numbers narrow the list.
 Understanding decides whether the company deserves capital.
 
 ## Common Stock Screener Mistakes
+
+Five mistakes recur in screens that look rigorous.
 
 ### Using Too Many Filters
 
@@ -519,6 +521,7 @@ Yes, if the screener is treated as a research filter rather than a recommendatio
 ## Resources
 
 - [SEC EDGAR Company Filings](https://www.sec.gov/edgar/search/)
+- [Investor.gov: How to Read a 10-K](https://www.investor.gov/introduction-investing/getting-started/researching-investments/how-read-10-k)
 - [Investor.gov: Introduction to Investing](https://www.investor.gov/introduction-investing)
 - [Investor.gov: Asset Allocation and Diversification](https://www.investor.gov/introduction-investing/getting-started/asset-allocation)
 - [FINRA: Investors](https://www.finra.org/investors)

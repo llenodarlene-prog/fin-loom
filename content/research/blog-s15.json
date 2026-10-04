@@ -80,35 +80,80 @@
   },
   "sources": [
     {
-      "url": "",
-      "title": "",
-      "publisher": "",
-      "source_type": "",
-      "year": "",
-      "published_at": "",
-      "accessed_at": "",
-      "scope": "",
-      "method": "",
-      "limitations": "",
-      "verified": false
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-data-show-people-reported-losing-3-point-5-billion-imposter-scams-2025",
+      "title": "FTC Data Show People Reported Losing $3.5 Billion to Imposter Scams in 2025",
+      "publisher": "Federal Trade Commission",
+      "source_type": "Regulator press release",
+      "year": "2025",
+      "published_at": "2026-06-15",
+      "accessed_at": "2026-10-04",
+      "scope": "Reported fraud losses in 2025",
+      "method": "Consumer reports to the FTC Consumer Sentinel Network",
+      "limitations": "Reported losses only; most fraud is not reported",
+      "verified": true
+    },
+    {
+      "url": "https://www.ftc.gov/reports/annual-performance-report-fiscal-year-2025-annual-performance-plan-fiscal-years-2026-2027",
+      "title": "Annual Performance Report for Fiscal Year 2025 and Annual Performance Plan for Fiscal Years 2026 to 2027",
+      "publisher": "Federal Trade Commission",
+      "source_type": "Regulator report",
+      "year": "2025",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-04",
+      "scope": "FTC performance measures including Consumer Sentinel volumes",
+      "method": "Agency reporting",
+      "limitations": "Fiscal year, not calendar year; counts reports, not confirmed cases",
+      "verified": true
     }
   ],
   "statistics": [
     {
-      "claim": "",
-      "source_url": "",
-      "data_year": "",
-      "geography": "",
-      "population": "",
-      "sample": "",
-      "denominator": "",
-      "unit": "",
-      "method": "",
-      "limitations": "",
+      "claim": "About $16 billion in fraud losses was reported to the FTC in 2025, the highest on record and about 25% more than 2024.",
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-data-show-people-reported-losing-3-point-5-billion-imposter-scams-2025",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Consumers who filed reports",
+      "sample": "All reports received",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Consumer reports",
+      "limitations": "Reported losses, not total losses",
       "sponsored": false,
       "partial_year": false,
       "estimate": false,
-      "verified": false
+      "verified": true
+    },
+    {
+      "claim": "People reported losing $3.5 billion to imposter scams in 2025; nearly one in three fraud reports were about imposter scams; nearly $1 billion was lost to business impersonators and about $920 million to government impersonators.",
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-data-show-people-reported-losing-3-point-5-billion-imposter-scams-2025",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Consumers who filed reports",
+      "sample": "All reports received",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Consumer reports",
+      "limitations": "Reported losses, not total losses",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "More than 9.2 million fraud, identity theft, financial, and Do Not Call reports were added to the Consumer Sentinel Network in fiscal 2025; nearly 2,400 law enforcement users have access.",
+      "source_url": "https://www.ftc.gov/reports/annual-performance-report-fiscal-year-2025-annual-performance-plan-fiscal-years-2026-2027",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Reports to the Consumer Sentinel Network",
+      "sample": "All reports added",
+      "denominator": "Not applicable",
+      "unit": "Reports",
+      "method": "Agency count",
+      "limitations": "A count of reports across four categories, not identity theft cases",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
     }
   ],
   "competitors": [
@@ -209,9 +254,19 @@
   },
   "claims": [
     {
-      "statement": "",
-      "source_url": "",
-      "verified": false
+      "statement": "About $16 billion in fraud losses was reported to the FTC in 2025, the highest on record and about 25% more than 2024.",
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-data-show-people-reported-losing-3-point-5-billion-imposter-scams-2025",
+      "verified": true
+    },
+    {
+      "statement": "People reported losing $3.5 billion to imposter scams in 2025; nearly one in three fraud reports were about imposter scams; nearly $1 billion was lost to business impersonators and about $920 million to government impersonators.",
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-data-show-people-reported-losing-3-point-5-billion-imposter-scams-2025",
+      "verified": true
+    },
+    {
+      "statement": "More than 9.2 million fraud, identity theft, financial, and Do Not Call reports were added to the Consumer Sentinel Network in fiscal 2025; nearly 2,400 law enforcement users have access.",
+      "source_url": "https://www.ftc.gov/reports/annual-performance-report-fiscal-year-2025-annual-performance-plan-fiscal-years-2026-2027",
+      "verified": true
     }
   ],
   "fact_check": {
@@ -223,5 +278,10 @@
     "completed": false,
     "reviewer": "",
     "reviewed_at": ""
+  },
+  "verification_log": {
+    "checked_on": "2026-10-04",
+    "summary": "Every figure in Key Takeaways and the summary table checked against the FTC release and the performance report. IMPORTANT SCOPE NOTE: these are fraud and Consumer Sentinel figures. The sources checked do not give a 2025 count of identity theft reports specifically, and the post should not imply one. Not yet checked: any identity theft report counts or category breakdowns elsewhere in the body.",
+    "pending": "Ubersuggest keyword data, five-competitor review, remaining sources, and named fact-check and QA sign-off."
   }
 }

@@ -80,17 +80,30 @@
   },
   "sources": [
     {
-      "url": "",
-      "title": "",
-      "publisher": "",
-      "source_type": "",
-      "year": "",
-      "published_at": "",
-      "accessed_at": "",
-      "scope": "",
-      "method": "",
-      "limitations": "",
-      "verified": false
+      "url": "https://www.sec.gov/edgar/search/",
+      "title": "EDGAR Full Text Search",
+      "publisher": "U.S. Securities and Exchange Commission",
+      "source_type": "Regulator database",
+      "year": "not applicable",
+      "published_at": "not applicable",
+      "accessed_at": "2026-10-04",
+      "scope": "Public company filings",
+      "method": "Database of filed disclosures",
+      "limitations": "A search tool, not a statement of fact",
+      "verified": true
+    },
+    {
+      "url": "https://www.investor.gov/introduction-investing/investing-basics/save-and-invest/diversify-your-investments",
+      "title": "Diversify Your Investments",
+      "publisher": "Investor.gov (U.S. SEC)",
+      "source_type": "Government publication",
+      "year": "not applicable",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-04",
+      "scope": "Investor education on diversification",
+      "method": "Regulator guidance",
+      "limitations": "General education",
+      "verified": true
     }
   ],
   "statistics": [
@@ -223,5 +236,10 @@
     "completed": false,
     "reviewer": "",
     "reviewed_at": ""
+  },
+  "verification_log": {
+    "checked_on": "2026-10-04",
+    "summary": "Checked the diversification wording (it cannot guarantee protection if the market drops). The drawdown table is arithmetic. Not yet checked: FINRA investor page and the asset allocation page as cited in Resources.",
+    "pending": "Ubersuggest keyword data, five-competitor review, remaining sources, and named fact-check and QA sign-off."
   }
 }

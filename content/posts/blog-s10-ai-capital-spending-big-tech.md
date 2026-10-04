@@ -1,6 +1,6 @@
 ---
 title: AI Capital Spending: How Investors Can Evaluate Big Tech's Investment Cycle
-seo_title: AI Capital Spending: How Investors Should Read Big Tech CapEx
+seo_title: AI Capital Spending: How to Read Big Tech CapEx
 description: Analyze AI capital spending through capex, depreciation, utilization, cloud demand, margins, free cash flow, and return on invested capital.
 slug: /markets-stocks/ai-capital-spending-big-tech/
 type: blog
@@ -12,6 +12,8 @@ secondary_keywords:
 cluster: Markets & Stocks
 approved_internal_links: /markets-stocks/
 research_record: content/research/blog-s10.json
+image: /assets/images/posts/ai-capital-spending-big-tech/boardroom-presentation-screen-1600.jpg
+image_alt: An empty boardroom with a wall screen showing a chart and a city skyline beyond the windows
 link_placement_site: Stoxcraft
 charts_pending: 0
 ai_exceptions: 
@@ -27,7 +29,7 @@ Big Tech's artificial-intelligence race has become a capital-spending race.
 
 The largest cloud and platform companies are committing extraordinary sums to data centers, servers, networking, power infrastructure, and specialized processors. Those investments are intended to meet demand for AI training, inference, cloud computing, advertising systems, recommendation engines, productivity software, and new agentic products.
 
-For investors, the headline number is only the beginning.
+For investors, the headline AI capital spending number is only the beginning.
 
 Capital expenditure does not become value simply because it is labeled “AI.”
 
@@ -37,7 +39,7 @@ That framework is especially important in 2026, when AI infrastructure budgets h
 
 ## Key Takeaways
 
-The main points are summarized below.
+The points below summarize how to read AI capital spending as an investor.
 
 - **AI Capex Is a Capacity Decision:** Companies are spending ahead of expected demand because data centers and power infrastructure take time to build.
 - **Not All Capex Has the Same Life:** Land and buildings can produce revenue for decades, while GPUs and servers have much shorter economic lives.
@@ -51,9 +53,9 @@ The main points are summarized below.
 
 Current company guidance illustrates the scale.
 
-Microsoft said on its July 2026 earnings call that calendar-year 2026 capex expectations were approximately **$175 billion** after changes in lease classification.
+Microsoft said on its [July 2026 earnings call](https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4) that calendar-year 2026 capex expectations were approximately **$175 billion** after changes in lease classification.
 
-Meta narrowed its full-year 2026 capital-expenditure outlook to **$130 billion to $145 billion** in its second-quarter results, including principal payments on finance leases.
+Meta narrowed its full-year 2026 capital-expenditure outlook to **$130 billion to $145 billion** in its [second-quarter results](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/), including principal payments on finance leases.
 
 Those are not research-and-development budgets.
 
@@ -225,6 +227,8 @@ Still, the principle matters.
 If capital investment rises much faster than sustainable operating profit for years, returns can deteriorate even while revenue grows.
 
 ## A Simple AI CapEx Scorecard
+
+The scorecard turns AI capital spending into signals an investor can track from one quarter to the next.
 
 | Indicator | Constructive Signal | Warning Signal |
 |---|---|---|
@@ -425,6 +429,8 @@ Buildings and GPUs should not be analyzed the same way.
 
 ## Common Mistakes in AI CapEx Analysis
 
+Six mistakes distort most readings of AI capital spending.
+
 ### Treating All CapEx as AI
 
 Big Tech companies also invest in offices, logistics, networking, and non-AI infrastructure.
@@ -491,7 +497,7 @@ Shortages can increase cost and delay deployment.
 
 Higher component prices can raise capex without increasing the amount of productive capacity.
 
-This distinction is crucial.
+This distinction is central.
 
 A budget increase caused by stronger demand is not the same as one caused by inflation.
 
@@ -567,7 +573,7 @@ If it breaks, the same infrastructure can become one of the most expensive examp
 
 ## Frequently Asked Questions
 
-Short answers to the questions readers ask most often.
+Short answers to the questions readers ask most often about AI capital spending.
 
 ### What Is AI Capital Spending?
 
