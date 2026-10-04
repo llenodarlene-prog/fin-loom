@@ -1,7 +1,7 @@
 ---
-title: Identity Theft Statistics 2026: Fraud, Financial Losses, and the Numbers Behind the Risk
-seo_title: Identity Theft Statistics 2026: Fraud, Losses, and Trends
-description: Identity theft statistics for 2026 covering FTC reports, fraud losses, impersonation, financial account abuse, and consumer protection trends.
+title: Identity Theft Statistics and Fraud Losses: What FTC Consumer Sentinel Data Shows
+seo_title: Identity Theft Statistics: FTC Fraud and Sentinel Data
+description: Identity theft statistics in context: what the FTC fraud loss and Consumer Sentinel figures for 2025 measure, what they leave out, and how to read them.
 slug: /money-banking/identity-theft-statistics/
 type: blog
 schema: BlogPosting
@@ -23,7 +23,7 @@ published:
 modified: 
 ---
 
-# Identity Theft Statistics 2026: Fraud, Financial Losses, and the Numbers Behind the Risk
+# Identity Theft Statistics and Fraud Losses: What FTC Consumer Sentinel Data Shows
 
 Identity theft is often discussed together with fraud, scams, phishing, cybercrime, and account takeover.
 
@@ -58,7 +58,7 @@ The points below summarize the latest identity theft statistics and the fraud fi
 
 ## Identity Theft Statistics at a Glance
 
-The table gathers the headline identity theft statistics from the FTC's [June 2026 release on imposter scams](https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-data-show-people-reported-losing-3-point-5-billion-imposter-scams-2025) and its [fiscal 2025 annual performance report](https://www.ftc.gov/reports/annual-performance-report-fiscal-year-2025-annual-performance-plan-fiscal-years-2026-2027).
+The table gathers the headline identity theft statistics from the FTC's [June 2026 release on imposter scams](https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-data-show-people-reported-losing-3-point-5-billion-imposter-scams-2025) and its [fiscal 2025 annual performance report](https://www.ftc.gov/reports/annual-performance-report-fiscal-year-2025-annual-performance-plan-fiscal-years-2026-2027). These are fraud-loss and report totals. The sources checked for this page do not give a separate 2025 count of identity theft reports, so none is shown.
 
 | Metric | Latest Verified Figure | Period |
 |---|---:|---|

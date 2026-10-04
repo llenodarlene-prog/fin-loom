@@ -49,7 +49,8 @@ test('supplementary blog posts map to a plan record, a silo record, and a resear
   assert.ok(plan.records.length >= 1);
   for (const record of plan.records) {
     assert.match(record.url_slug, /^\/[a-z-]+\/[a-z0-9-]+\/$/);
-    assert.ok(record.max_words >= 2600, 'max_words records the owner-approved ceiling');
+    assert.equal(record.min_words, 2500, 'owner rule: at least 2,500 words');
+    assert.equal(record.no_word_ceiling, true, 'owner rule: no ceiling');
     const silo = plan.links.find(item => item.content_number === record.content_number);
     assert.ok(silo && silo.approved_outbound_targets.length === 1, `${record.content_number}: one approved Fin Loom link`);
     const research = await readJson(`content/research/blog-${record.content_number.toLowerCase()}.json`);
