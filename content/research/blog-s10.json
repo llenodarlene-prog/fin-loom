@@ -6,7 +6,7 @@
     "purpose": "Report company-stated capital spending and explain how to read capex guidance.",
     "audience": "Investors and readers following the AI spending cycle.",
     "publication_year": "2026",
-    "data_period": "Company guidance and results published in 2026.",
+    "data_period": "Company guidance and results published in 2026. Updated with 2026 results to date and published projections as of October 4, 2026.",
     "scope_limitations": "Guidance is the companies' own forecast and can change. Definitions of capital spending differ between companies. No view on any stock."
   },
   "keyword_research": {
@@ -169,6 +169,32 @@
       "method": "Company disclosure",
       "limitations": "Free cash flow is a company-defined measure",
       "verified": true
+    },
+    {
+      "url": "https://abc.xyz/investor/events/event-details/2026/2026-Q2-Earnings-Call-2026-GgTAq7Is0z/default.aspx",
+      "title": "Alphabet Second Quarter 2026 Earnings Call",
+      "publisher": "Alphabet Investor Relations",
+      "source_type": "Company earnings call",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-04",
+      "scope": "Second quarter 2026 results and updated 2026 capital expenditure guidance",
+      "method": "Company-reported results and guidance",
+      "limitations": "Company-reported; guidance is a forecast",
+      "verified": true
+    },
+    {
+      "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/default.aspx",
+      "title": "Amazon.com Announces Second Quarter Results",
+      "publisher": "Amazon Investor Relations",
+      "source_type": "Company earnings release",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-04",
+      "scope": "Second quarter 2026 results, trailing cash flow, and third quarter guidance",
+      "method": "Company-reported results and guidance",
+      "limitations": "Company-reported; guidance is a forecast",
+      "verified": true
     }
   ],
   "statistics": [
@@ -205,7 +231,7 @@
       "verified": true
     },
     {
-      "claim": "Alphabet expected 2026 capital expenditure of $175 billion to $185 billion.",
+      "claim": "Alphabet expected 2026 capital expenditure of $175 billion to $185 billion as of its fourth quarter 2025 call; the range was later raised (see the second quarter 2026 call).",
       "source_url": "https://abc.xyz/investor/events/event-details/2026/2025-Q4-Earnings-Call-2026-Dr_C033hS6/default.aspx",
       "data_year": "2026",
       "geography": "Global",
@@ -233,6 +259,70 @@
       "limitations": "Trailing twelve months; company-defined measure",
       "sponsored": false,
       "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Alphabet raised its 2026 capital expenditure guidance to $195 billion to $205 billion from $180 billion to $190 billion, reported second quarter 2026 capital expenditures of $44.9 billion and negative free cash flow of $5.8 billion, and said it expects capital expenditures to increase significantly in 2027.",
+      "source_url": "https://abc.xyz/investor/events/event-details/2026/2026-Q2-Earnings-Call-2026-GgTAq7Is0z/default.aspx",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Not applicable: company-reported figure",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Company-reported results",
+      "limitations": "Company guidance; a forecast that can change",
+      "sponsored": false,
+      "partial_year": true,
+      "estimate": true,
+      "verified": true
+    },
+    {
+      "claim": "Microsoft expected capital expenditures of over $50 billion in the first quarter of fiscal 2027 and said fiscal 2027 capital expenditures will grow year over year.",
+      "source_url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Not applicable: company-reported figure",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Company-reported results",
+      "limitations": "Company guidance; a forecast that can change",
+      "sponsored": false,
+      "partial_year": true,
+      "estimate": true,
+      "verified": true
+    },
+    {
+      "claim": "Meta reported second quarter 2026 capital expenditures of $30.1 billion and free cash flow of $784 million.",
+      "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Not applicable: company-reported figure",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Company-reported results",
+      "limitations": "Company-reported",
+      "sponsored": false,
+      "partial_year": true,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Amazon reported purchases of property and equipment, net, of $169.0 billion, operating cash flow of $161.4 billion, and negative free cash flow of $7.6 billion for the twelve months to June 2026.",
+      "source_url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/default.aspx",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Not applicable: company-reported figure",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Company-reported results",
+      "limitations": "Company-reported",
+      "sponsored": false,
+      "partial_year": true,
       "estimate": false,
       "verified": true
     }
@@ -460,6 +550,7 @@
       "The Bull Case Also Needs Numbers",
       "A Five-Year View Can Be More Informative Than One Quarter",
       "Final Perspective",
+      "What the Companies Project for the Rest of 2026 and 2027",
       "Frequently Asked Questions",
       "Resources"
     ],
@@ -475,7 +566,8 @@
     ],
     "external_link_opportunities": [
       "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4",
-      "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/"
+      "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/",
+      "https://abc.xyz/investor/events/event-details/2026/2026-Q2-Earnings-Call-2026-GgTAq7Is0z/default.aspx"
     ],
     "excluded_claims": [
       "Views on whether the spending is a bubble",
@@ -485,7 +577,8 @@
     "drafting_cautions": [
       "Guidance is a forecast",
       "Capex definitions differ between companies",
-      "The Amazon row is a reported 2025 figure, not 2026 guidance"
+      "The Amazon row is a reported 2025 figure, not 2026 guidance",
+      "Guidance and projections are forecasts by the company or agency and must stay labeled as such"
     ]
   },
   "claims": [
@@ -514,7 +607,7 @@
   },
   "verification_log": {
     "checked_on": "2026-10-04",
-    "summary": "Keyword data from Ubersuggest (United States), five ranking pages reviewed. Microsoft and Meta guidance checked against the originals. The Microsoft press release and both Alphabet investor pages load and match their labels. Body claims checked: Microsoft quarterly capital expenditures of $41 billion with roughly two-thirds on short-lived assets. The unsourced sentence about Alphabet's 2025 outlook was replaced with its stated 2026 guidance of $175 billion to $185 billion from the fourth quarter 2025 call. The company table had two editor notes in place of figures; it now shows Alphabet's stated 2026 guidance and Amazon's reported 2025 purchases of property and equipment of $128.3 billion, labeled as not guidance.",
+    "summary": "Keyword data from Ubersuggest (United States), five ranking pages reviewed. Microsoft and Meta guidance checked against the originals. The Microsoft press release and both Alphabet investor pages load and match their labels. Body claims checked: Microsoft quarterly capital expenditures of $41 billion with roughly two-thirds on short-lived assets. The unsourced sentence about Alphabet's 2025 outlook was replaced with its stated 2026 guidance of $175 billion to $185 billion from the fourth quarter 2025 call. The company table had two editor notes in place of figures; it now shows Alphabet's stated 2026 guidance and Amazon's reported 2025 purchases of property and equipment of $128.3 billion, labeled as not guidance. 2026 update of 2026-10-04: Updated to current guidance: Alphabet's 2026 range is now $195 billion to $205 billion (second quarter 2026 call). Added a section on stated outlooks into 2027 and the latest quarterly capex and free cash flow, all from company sources.",
     "pending": "None."
   }
 }

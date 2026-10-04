@@ -20,10 +20,15 @@ const formatDate = value => {
 export function postCard(post, nav, { size = 'standard' } = {}) {
   const date = post.modified || post.published;
   const label = sectionLabel(post.slug, nav);
-  return `<article class="post-card post-card--${size}">
+  // The featured image links to the post; the title link carries the accessible name, so the image link is hidden from assistive tech.
+  const small = String(post.image || '').replace(/-1600.(jpg|png|webp)$/, '-800.$1');
+  const media = post.image ? `<a class="post-card-media" href="${escapeHtml(post.slug)}" tabindex="-1" aria-hidden="true"><img src="${escapeHtml(small)}" srcset="${escapeHtml(small)} 800w, ${escapeHtml(post.image)} 1600w" sizes="${size === 'lead' ? '(max-width: 900px) 100vw, 50vw' : '(max-width: 640px) 100vw, (max-width: 900px) 50vw, 33vw'}" width="800" height="450" alt="${escapeHtml(post.image_alt || post.title)}" loading="lazy" decoding="async"></a>` : '';
+  return `<article class="post-card post-card--${size}${media ? ' post-card--media' : ''}">
+    ${media}<div class="post-card-body">
     <p class="meta">${label ? `<span>${escapeHtml(label)}</span>` : ''}${date ? `<time datetime="${escapeHtml(date)}">${escapeHtml(formatDate(date))}</time>` : ''}</p>
     <h3><a href="${escapeHtml(post.slug)}">${escapeHtml(post.title)}</a></h3>
     <p>${escapeHtml(post.description)}</p>
+    </div>
   </article>`;
 }
 const postList = (posts, nav) => `<div class="post-grid">${posts.map((post, i) => postCard(post, nav, { size: i === 0 ? 'lead' : 'standard' })).join('')}</div>`;

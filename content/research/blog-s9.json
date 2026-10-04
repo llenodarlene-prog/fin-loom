@@ -6,7 +6,7 @@
     "purpose": "Help readers match saving and investing to time horizon and need for access, using current FDIC rates.",
     "audience": "Savers deciding where money for different goals should sit.",
     "publication_year": "2026",
-    "data_period": "FDIC national rates as of September 21, 2026; SEC investor education materials.",
+    "data_period": "FDIC national rates as of September 21, 2026; SEC investor education materials. Updated with 2026 results to date and published projections as of October 4, 2026.",
     "scope_limitations": "National average rates, not offers from any bank. No product or allocation is recommended."
   },
   "keyword_research": {
@@ -130,6 +130,19 @@
       "method": "Regulator guidance",
       "limitations": "General education, not advice for any individual",
       "verified": true
+    },
+    {
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260916.htm",
+      "title": "September 16, 2026: FOMC Projections materials",
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "source_type": "Central bank projections",
+      "year": "2026",
+      "published_at": "2026-09-16",
+      "accessed_at": "2026-10-04",
+      "scope": "Median projections for inflation, unemployment, growth, and the federal funds rate",
+      "method": "Median of FOMC participants' individual projections",
+      "limitations": "Projections, not forecasts of record; revised quarterly",
+      "verified": true
     }
   ],
   "statistics": [
@@ -147,6 +160,22 @@
       "sponsored": false,
       "partial_year": true,
       "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "The September 16, 2026 FOMC median projections put PCE inflation at 3.7% for 2026 and 2.3% for 2027, and the federal funds rate at 4.1% at the end of both years.",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260916.htm",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "FOMC participants",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Median of participants' projections",
+      "limitations": "Projection; revised quarterly",
+      "sponsored": false,
+      "partial_year": true,
+      "estimate": true,
       "verified": true
     }
   ],
@@ -377,6 +406,7 @@
       "Automation Helps Both Saving and Investing",
       "Review the Plan When Life Changes",
       "Final Perspective",
+      "What the Federal Reserve Projects for 2026 and 2027",
       "Frequently Asked Questions",
       "Resources"
     ],
@@ -402,7 +432,8 @@
       "Individual allocation advice"
     ],
     "drafting_cautions": [
-      "FDIC rates are national averages on one date"
+      "FDIC rates are national averages on one date",
+      "Guidance and projections are forecasts by the company or agency and must stay labeled as such"
     ]
   },
   "claims": [
@@ -431,7 +462,7 @@
   },
   "verification_log": {
     "checked_on": "2026-10-04",
-    "summary": "Keyword data from Ubersuggest (United States), five ranking pages reviewed. FDIC rates, rainy-day guidance, allocation guidance, and the Investor.gov introduction page checked. Body claims checked: the inflation statement is on the Investor.gov rainy day page, and the high-interest debt reminder is in the SEC investor alert on crypto asset securities of March 23, 2023.",
+    "summary": "Keyword data from Ubersuggest (United States), five ranking pages reviewed. FDIC rates, rainy-day guidance, allocation guidance, and the Investor.gov introduction page checked. Body claims checked: the inflation statement is on the Investor.gov rainy day page, and the high-interest debt reminder is in the SEC investor alert on crypto asset securities of March 23, 2023. 2026 update of 2026-10-04: Added the Federal Reserve's September 16, 2026 median projections for 2026 to 2028, labeled as projections.",
     "pending": "None."
   }
 }

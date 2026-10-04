@@ -65,14 +65,14 @@ The numbers demonstrate why investors need a framework beyond “AI spending is 
 
 ## Big Tech CapEx Comparison
 
-The table below uses figures from each company's own disclosures. Three rows are 2026 guidance. The Amazon row is a reported 2025 figure, not guidance.
+The table below uses figures from each company's own disclosures. Three rows are 2026 guidance. The Amazon row is a reported trailing figure, not guidance.
 
 | Company | 2026 CapEx / Guidance Discussed | Source Context |
 |---|---:|---|
 | Microsoft | Approx. $175B | FY2026 Q4 earnings call; calendar-year expectation after lease-classification change |
 | Meta | $130B-$145B | Q2 2026 company guidance |
-| Alphabet | $175B-$185B | Q4 2025 earnings call; company guidance for 2026 |
-| Amazon | $128.3B (2025, reported) | Q4 2025 results; purchases of property and equipment for 2025, not 2026 guidance |
+| Alphabet | $195B-$205B | Q2 2026 earnings call; raised from $180B-$190B |
+| Amazon | $169.0B (trailing 12 months, reported) | Q2 2026 results; purchases of property and equipment through June 2026, not guidance |
 
 This is deliberately conservative.
 
@@ -291,7 +291,7 @@ YouTube recommendations and advertising use large-scale machine learning.
 
 Gemini requires training and inference infrastructure.
 
-On its fourth-quarter 2025 earnings call, the company said it expected 2026 capital expenditure of $175 billion to $185 billion.
+Alphabet began 2026 expecting capital expenditure of $175 billion to $185 billion. On its [second-quarter 2026 earnings call](https://abc.xyz/investor/events/event-details/2026/2026-Q2-Earnings-Call-2026-GgTAq7Is0z/default.aspx), it raised the range to $195 billion to $205 billion.
 
 For investors, the important question is whether infrastructure spending strengthens multiple revenue streams enough to compensate for depreciation and free-cash-flow pressure.
 
@@ -570,6 +570,27 @@ Investors should therefore follow the chain:
 If the chain holds, today's extraordinary spending can create tomorrow's earnings base.
 
 If it breaks, the same infrastructure can become one of the most expensive examples of overbuilding in technology history.
+
+## What the Companies Project for the Rest of 2026 and 2027
+
+Guidance is a forecast by management. It can be raised, cut, or withdrawn, and each company defines capital spending in its own way. With that caution, here is what each company has said about AI capital spending beyond the latest quarter.
+
+| Company | Latest reported quarter | Stated outlook |
+|---|---|---|
+| Microsoft | About $41B capex in fiscal Q4 2026 | Over $50B expected in fiscal Q1 2027; fiscal 2027 capex expected to grow |
+| Alphabet | $44.9B capex in Q2 2026 | $195B-$205B for 2026; expects a significant increase in 2027 |
+| Meta | $30.1B capex in Q2 2026 | $130B-$145B for 2026; no 2027 figure in the release |
+| Amazon | $169.0B over the trailing 12 months | No annual capex figure in the Q2 2026 release |
+
+Three patterns stand out.
+
+Guidance has moved up during the year. Alphabet raised its 2026 range twice, from $175 billion to $185 billion at the start of the year to $195 billion to $205 billion by July.
+
+Two companies have already pointed to 2027. Microsoft said it expects fiscal 2027 capital expenditures to grow year over year. Alphabet said it expects capital spending to increase significantly in 2027. Neither gave a number.
+
+Cash flow is absorbing the cost. Alphabet reported negative free cash flow of $5.8 billion for the second quarter of 2026. Amazon reported negative free cash flow of $7.6 billion for the twelve months to June 2026, against operating cash flow of $161.4 billion. Meta reported free cash flow of $784 million for the second quarter.
+
+These are statements about spending plans, not about returns. Whether the AI capital spending earns its cost will show up later, in revenue, margins, and depreciation.
 
 ## Frequently Asked Questions
 

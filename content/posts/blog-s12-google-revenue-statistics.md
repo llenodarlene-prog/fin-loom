@@ -45,7 +45,7 @@ The points below summarize the Google revenue statistics that show how the mix i
 - **Google Cloud:** Google Cloud revenue reached $17.7 billion in Q4 2025, up 48%.
 - **Cloud Backlog:** Google Cloud backlog reached $240 billion by the end of Q4 2025.
 - **Google Services:** Google Services generated $95.5 billion in Q4 2025 revenue.
-- **Capital Spending:** Alphabet expected 2026 capital expenditure of $175 billion to $185 billion, driven heavily by AI infrastructure.
+- **Capital Spending:** Alphabet began 2026 expecting capital expenditure of $175 billion to $185 billion and raised the range to $195 billion to $205 billion in July 2026.
 - **The Key Strategic Shift Is Diversification:** Search remains dominant, but Cloud, subscriptions, and AI-related services are becoming more important.
 
 ## Google Revenue Statistics at a Glance
@@ -61,7 +61,7 @@ The table gathers the headline Google revenue statistics from Alphabet's [fourth
 | Cloud YoY growth | 48% | Q4 2025 |
 | Cloud backlog | $240B | Q4 2025 |
 | Subscription, Platforms and Devices | $13.6B | Q4 2025 |
-| 2026 expected capex | $175B-$185B | Company guidance |
+| 2026 expected capex | $195B-$205B | Company guidance, raised July 2026 |
 
 ## Alphabet Crossed $400 Billion in Annual Revenue
 
@@ -212,7 +212,9 @@ It needs the mix to produce attractive long-term returns.
 
 ## AI Is Expanding Revenue and Cost at the Same Time
 
-Alphabet expected **$175 billion to $185 billion in capital expenditure in 2026**.
+Alphabet expected **$175 billion to $185 billion in capital expenditure in 2026** when it reported fourth-quarter 2025 results.
+
+It has since raised that range to **$195 billion to $205 billion**.
 
 That figure is extraordinary.
 
@@ -502,6 +504,39 @@ It may strengthen the revenue engines, but it also demands unprecedented capital
 
 The next phase of Alphabet's financial performance will therefore depend not only on how much revenue AI creates, but how efficiently the company converts infrastructure spending into durable profit and cash flow.
 
+## 2026 So Far: Second-Quarter Results and the Outlook
+
+The Google revenue statistics above center on 2025. Alphabet's [second-quarter 2026 earnings call](https://abc.xyz/investor/events/event-details/2026/2026-Q2-Earnings-Call-2026-GgTAq7Is0z/default.aspx) shows how the picture has moved since.
+
+### What Has Been Reported
+
+The table compares the second quarter of 2026 with the same quarter of 2025.
+
+| Metric | Q2 2026 | Change from Q2 2025 |
+|---|---:|---:|
+| Consolidated revenue | $119.8 billion | +24% |
+| Google Search and Other | Over $63 billion | +17% |
+| YouTube advertising | $11.1 billion | +13% |
+| Subscriptions, Platforms and Devices | $12.9 billion | +15% |
+| Google Services revenue | $95 billion | +15% |
+| Google Services operating income | $39.5 billion | +20% |
+| Google Cloud revenue | $24.8 billion | +82% |
+| Google Cloud operating income | $8.8 billion | More than tripled |
+
+Cloud is the clearest change. Revenue grew 82%, and operating margin rose to 35.6% from 20.7% a year earlier.
+
+Google Cloud backlog reached $514 billion, up from $240 billion at the end of 2025. Alphabet said it expects to recognize just over 50% of that backlog as revenue over the next 24 months. That is a company expectation, not booked revenue.
+
+The spending side grew too. Capital expenditures were $44.9 billion in the quarter, and free cash flow was negative $5.8 billion.
+
+### What Alphabet Projects
+
+Alphabet raised its 2026 capital expenditure guidance to $195 billion to $205 billion, from a previous $180 billion to $190 billion. It also said it expects capital spending to increase significantly in 2027, without giving a figure.
+
+These are management forecasts. They can change, and the company gave no revenue guidance on the call.
+
+For readers tracking Google revenue statistics into 2027, the figures to watch are Cloud revenue against the backlog, Search growth as AI features expand, and how quickly depreciation rises from this level of spending.
+
 ## Frequently Asked Questions
 
 Short answers to the questions readers ask most often about Google revenue statistics.
@@ -531,3 +566,4 @@ Advertising remains the largest revenue source, especially Search and YouTube. H
 - [Alphabet Q4 2025 Earnings Call](https://abc.xyz/investor/events/event-details/2026/2025-Q4-Earnings-Call-2026-Dr_C033hS6/default.aspx)
 - [Alphabet Investor Relations Earnings](https://abc.xyz/investor/earnings/)
 - [Alphabet Financial Statements FAQ](https://abc.xyz/investor/faqs-and-general-information/)
+- [Alphabet Q2 2026 Earnings Call](https://abc.xyz/investor/events/event-details/2026/2026-Q2-Earnings-Call-2026-GgTAq7Is0z/default.aspx)
