@@ -1,6 +1,6 @@
 {
   "tracker_id": "Blog:S1",
-  "status": "planned",
+  "status": "verified",
   "research_question": "How should a reader judge whether a crypto airdrop is safe to claim and worth holding?",
   "research_brief": {
     "purpose": "Give readers a checkable due-diligence process for airdrop claims, covering both security and token economics.",
@@ -402,8 +402,7 @@
     ],
     "drafting_cautions": [
       "Scam figures cover crypto scams broadly, not airdrops alone",
-      "The $17 billion figure is a projection",
-      "Two Resources links (Binance Academy, Coinbase) have not been checked and must be verified or removed before publication"
+      "The $17 billion figure is a projection"
     ]
   },
   "claims": [
@@ -424,18 +423,20 @@
     }
   ],
   "fact_check": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04",
+    "note": "Approved by the site owner in the build session of 2026-10-04 after reviewing the verification summary."
   },
   "qa": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04",
+    "note": "Approved by the site owner in the build session of 2026-10-04 after reviewing the verification summary."
   },
   "verification_log": {
     "checked_on": "2026-10-04",
-    "summary": "Keyword data from Ubersuggest, five ranking pages reviewed, three sources and both chart datasets checked against the originals.",
-    "pending": "Verify or remove the Binance Academy and Coinbase links in Resources. Named fact-check and QA sign-off."
+    "summary": "Keyword data from Ubersuggest, five ranking pages reviewed, three sources and both chart datasets checked against the originals. Two unverified Resources links (Binance Academy, Coinbase) were removed before publication.",
+    "pending": "None."
   }
 }

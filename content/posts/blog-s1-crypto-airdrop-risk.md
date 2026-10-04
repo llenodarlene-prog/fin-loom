@@ -5,7 +5,7 @@ description: Learn how to evaluate a crypto airdrop, check token legitimacy, ins
 slug: /crypto/crypto-airdrop-risk/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S1
 primary_keyword: crypto airdrop
 secondary_keywords: airdrop scam; crypto airdrop scam; how to get crypto airdrop; token airdrop risk
@@ -17,9 +17,9 @@ image_alt: A phone showing an airdrop claim screen beside a printed checklist ti
 link_placement_site: Use The Bitcoin
 ai_exceptions: unlock
 ai_exception_reason: Unlock is the standard technical term for scheduled token releases and is used in that sense only.
-author: 
-published: 
-modified: 
+author: Darlene Aberin
+published: 2026-10-04
+modified: 2026-10-04
 ---
 
 # Crypto Airdrop Risk: How to Evaluate Tokens Before You Claim
@@ -358,10 +358,8 @@ Often, yes. Unexpected tokens do not need to be interacted with. If the token co
 
 ## Resources
 
-The following sources provide the primary or specialist evidence used to verify the claims and frameworks above.
+The following sources provide the primary evidence used to verify the claims and frameworks above.
 
-- FBI, “Cybercriminals Defraud Hedera Hashgraph Network Non-Custodial Wallet Users Through Nonfungible Token Airdrops Disguised as Free Rewards,” June 3, 2025: https://www.fbi.gov/investigate/cyber/alerts/2025/cybercriminals-defraud-hedera-hashgraph-network-non-custodial-wallet-users-through-nonfungible-token-airdrops-disguised-as-free-rewards
-- Chainalysis, “2026 Crypto Crime Report: Scams,” January 13, 2026: https://www.chainalysis.com/blog/crypto-scams-2026/
-- Chainalysis, “Understanding Crypto Drainers”: https://www.chainalysis.com/blog/crypto-drainers/
-- [Binance Academy: What Are Airdrop Scams and How to Avoid Them?](https://www.binance.com/en/academy/articles/what-are-airdrop-scams-and-how-to-avoid-them), updated June 18, 2026
-- [Coinbase: Avoiding Crypto Scams](https://help.coinbase.com/en/wallet/security/avoiding-crypto-scams)
+- [FBI: Cyber Criminals Defraud Hedera Hashgraph Network Non-Custodial Wallet Users Through Nonfungible Token Airdrops Disguised as Free Rewards](https://www.fbi.gov/investigate/cyber/alerts/2025/cybercriminals-defraud-hedera-hashgraph-network-non-custodial-wallet-users-through-nonfungible-token-airdrops-disguised-as-free-rewards), June 3, 2025
+- [Chainalysis: 2026 Crypto Crime Report, Scams](https://www.chainalysis.com/blog/crypto-scams-2026/), January 13, 2026
+- [Chainalysis: Understanding Crypto Drainers](https://www.chainalysis.com/blog/crypto-drainers/), May 16, 2024

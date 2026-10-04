@@ -45,6 +45,12 @@ All fifteen are in the repository as drafts, imported with `npm run import:posts
 
 All fifteen supplementary posts pass the content checks when dry-run as published, and all have hero images. They remain drafts. Each research record carries a `verification_log` stating what was checked against the original source and what is still pending. Only S1 (crypto airdrop) has complete research (Ubersuggest data, five competitors, sources, statistics) and sits at `planned`, awaiting a named fact-check and QA sign-off. `npm run audit:seo` reports the SEO elements and image hygiene of every built page.
 
+## Launch state on 2026-10-04
+
+The site owner approved the content and asked for launch. Recorded in `data/release.json` under her name: contact, privacy, disclaimer, partner terms, staging review, and production approval. One post is published: Crypto Airdrop Risk, whose research record is verified. The other fourteen stay drafts until their research is complete. The only open launch-gate item is brand clearance, a legal question the owner must decide explicitly.
+
+Production notes: finloom.org currently serves a WordPress install that a production deploy would replace; the production environment stores SITE_URL, SITE_NAME, and DEPLOY_PORT as secrets where the workflow expects variables.
+
 ## Open items
 
 Each one blocks production through `npm run release:check`.
