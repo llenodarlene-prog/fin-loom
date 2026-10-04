@@ -12,10 +12,12 @@ secondary_keywords: crypto research tools; crypto research; token research; on-c
 cluster: Crypto & Digital Assets
 approved_internal_links: /crypto/
 research_record: content/research/blog-s2.json
+image: /assets/images/posts/crypto-analytics-tools/on-chain-metrics-dashboards-1600.jpg
+image_alt: Three monitors showing sample on-chain metrics, market structure, and token screener dashboards on a desk
 link_placement_site: Use The Bitcoin
 charts_pending: 0
-ai_exceptions: 
-ai_exception_reason: 
+ai_exceptions: unlock
+ai_exception_reason: Unlock is the standard technical term for scheduled token releases and is used in that sense only.
 author: 
 published: 
 modified: 
@@ -31,11 +33,11 @@ That is why the best crypto analytics tools are not the ones with the most chart
 
 The practical approach is to build a research stack. Start with broad market context. Verify the asset and contract. Examine liquidity and supply. Move into protocol fundamentals when relevant. Then use on-chain data to test claims that cannot be answered by a token profile alone.
 
-This article compares the major categories of crypto research tools and, more importantly, explains what each category can and cannot tell you.
+This guide compares the major categories of crypto analytics tools and, more importantly, explains what each category can and cannot tell you.
 
 ## Key Takeaways
 
-The main points are summarized below.
+The points below summarize how to get reliable answers from crypto analytics tools.
 
 - **Use Tools by Question, Not Popularity:** Market-data platforms, explorers, protocol dashboards, SQL analytics, and wallet-intelligence tools solve different problems.
 - **Verify Definitions Before Comparing Numbers:** TVL, fees, revenue, circulating supply, volume, and liquidity are not interchangeable.
@@ -153,7 +155,7 @@ TVL is best understood as an activity or capital-deployment metric whose meaning
 
 Prebuilt dashboards are convenient. Custom queries are more powerful when the exact question is unusual.
 
-[DuneSQL](https://docs.dune.com/query-engine/index) is designed for blockchain analysis and supports querying decoded blockchain data using SQL. Dune also makes decoded smart-contract calls and event logs available in structured tables for supported contracts.
+DuneSQL is designed for blockchain analysis and supports querying decoded blockchain data using SQL. Dune also makes decoded smart-contract calls and event logs available in structured tables for supported contracts.
 
 That opens the door to questions such as how many unique wallets used a contract each month, what percentage of volume came from the top 20 traders, how many wallets returned after their first interaction, how much of a token moved through a particular contract, and how did behavior change before and after a governance proposal.
 
@@ -285,11 +287,11 @@ Use SQL analytics or wallet intelligence to test specific claims.
 
 The goal is evidence.
 
-If a token narrative says “whales are accumulating,” this is the layer where you test whether labeled or large wallets are actually increasing balances.
+If a token narrative says “whales are accumulating,” this is the layer where you test whether labeled or large wallets are increasing their balances.
 
 ## A Tool Comparison Framework
 
-Instead of ranking platforms overall, evaluate them by the work they are suited to perform.
+Instead of ranking crypto analytics tools from best to worst, evaluate each type by the work it is suited to perform.
 
 | Tool Type | Strength | Main Limitation |
 |---|---|---|
@@ -306,6 +308,8 @@ The best stack depends on the asset.
 A Bitcoin researcher needs different tools from a researcher analyzing a new lending protocol.
 
 ## Common Research Mistakes
+
+Six mistakes account for most misread dashboards.
 
 ### Comparing Metrics With Different Definitions
 
@@ -339,7 +343,7 @@ This may feel slower than browsing dashboards, but it prevents a common failure:
 
 ## Frequently Asked Questions
 
-These questions cover the points readers most often need to verify before acting on the information above.
+These questions cover what readers most often ask about crypto analytics tools.
 
 ### What Are Crypto Analytics Tools?
 
@@ -367,7 +371,7 @@ Not necessarily. Many research questions can be answered with free market data, 
 
 ## Resources
 
-The following sources provide the primary or specialist evidence used to verify the claims and frameworks in this article.
+The following sources provide the primary or specialist evidence used to verify the claims and frameworks above.
 
 - [DefiLlama, Data Definitions](https://defillama.com/data-definitions)
 - [Dune, DuneSQL Overview](https://docs.dune.com/query-engine/index)

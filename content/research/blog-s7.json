@@ -80,16 +80,29 @@
   },
   "sources": [
     {
-      "url": "",
-      "title": "",
-      "publisher": "",
-      "source_type": "",
-      "year": "",
-      "published_at": "",
-      "accessed_at": "",
-      "scope": "",
-      "method": "",
-      "limitations": "",
+      "url": "https://www.sec.gov/edgar/search/",
+      "title": "EDGAR Full Text Search",
+      "publisher": "U.S. Securities and Exchange Commission",
+      "source_type": "Regulator database",
+      "year": "not applicable",
+      "published_at": "not applicable",
+      "accessed_at": "2026-10-04",
+      "scope": "Public company filings",
+      "method": "Database of filed disclosures",
+      "limitations": "A search tool, not a statement of fact",
+      "verified": true
+    },
+    {
+      "url": "https://www.investor.gov/introduction-investing/getting-started/researching-investments/how-read-10-k",
+      "title": "How to Read a 10-K",
+      "publisher": "Investor.gov (U.S. SEC)",
+      "source_type": "Government publication",
+      "year": "not applicable",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-04",
+      "scope": "Guide to the annual report",
+      "method": "Regulator guidance",
+      "limitations": "Existence and title confirmed; full text not yet read",
       "verified": false
     }
   ],
@@ -191,8 +204,8 @@
   "content_gaps": [],
   "value_add": "",
   "plan": {
-    "reader_title": "Stock Screener Explained: Which Metrics Actually Help Narrow the Market",
-    "seo_title": "Stock Screener Guide: Filters That Actually Matter",
+    "reader_title": "Stock Screener Explained: Which Metrics Help Narrow the Market",
+    "seo_title": "Stock Screener Guide: Filters Worth Using",
     "meta_description": "Learn how to use a stock screener without drowning in filters. Compare valuation, quality, growth, momentum, liquidity, and risk metrics.",
     "slug": "/markets-stocks/stock-screener-metrics-guide/",
     "search_intent": "Informational",
@@ -223,5 +236,10 @@
     "completed": false,
     "reviewer": "",
     "reviewed_at": ""
+  },
+  "verification_log": {
+    "checked_on": "2026-10-04",
+    "summary": "Confirmed the SEC guide exists at the linked address. The post is a framework piece with illustrative thresholds, not market statistics. Not yet checked: Investor.gov introduction page and FINRA investor page listed in Resources.",
+    "pending": "Ubersuggest keyword data, five-competitor review, remaining sources, and named fact-check and QA sign-off."
   }
 }

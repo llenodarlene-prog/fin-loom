@@ -80,35 +80,64 @@
   },
   "sources": [
     {
-      "url": "",
-      "title": "",
-      "publisher": "",
-      "source_type": "",
-      "year": "",
-      "published_at": "",
-      "accessed_at": "",
-      "scope": "",
-      "method": "",
-      "limitations": "",
-      "verified": false
+      "url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4",
+      "title": "Microsoft Fiscal Year 2026 Fourth Quarter Earnings Conference Call",
+      "publisher": "Microsoft Investor Relations",
+      "source_type": "Company earnings call",
+      "year": "2026",
+      "published_at": "2026-07-29",
+      "accessed_at": "2026-10-04",
+      "scope": "Management remarks on results and capital spending",
+      "method": "Company disclosure",
+      "limitations": "Forward-looking statements; lease classification changed the reported figure",
+      "verified": true
+    },
+    {
+      "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/",
+      "title": "Meta Reports Second Quarter 2026 Results",
+      "publisher": "Meta Investor Relations",
+      "source_type": "Company earnings release",
+      "year": "2026",
+      "published_at": "2026-07-29",
+      "accessed_at": "2026-10-04",
+      "scope": "Quarterly results and outlook",
+      "method": "Company disclosure",
+      "limitations": "Outlook is guidance, not a result",
+      "verified": true
     }
   ],
   "statistics": [
     {
-      "claim": "",
-      "source_url": "",
-      "data_year": "",
-      "geography": "",
-      "population": "",
-      "sample": "",
-      "denominator": "",
-      "unit": "",
-      "method": "",
-      "limitations": "",
+      "claim": "Microsoft expected calendar-year 2026 capital expenditure of approximately $175 billion after a shift from finance to operating leases.",
+      "source_url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Company-wide",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Company-reported financial results",
+      "limitations": "Company expectation, not a result",
       "sponsored": false,
       "partial_year": false,
-      "estimate": false,
-      "verified": false
+      "estimate": true,
+      "verified": true
+    },
+    {
+      "claim": "Meta expected 2026 capital expenditures, including principal payments on finance leases, of $130 billion to $145 billion, narrowed from $125 billion to $145 billion.",
+      "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Company-wide",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Company-reported financial results",
+      "limitations": "Company outlook, not a result",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": true,
+      "verified": true
     }
   ],
   "competitors": [
@@ -192,7 +221,7 @@
   "value_add": "",
   "plan": {
     "reader_title": "AI Capital Spending: How Investors Can Evaluate Big Tech's Investment Cycle",
-    "seo_title": "AI Capital Spending: How Investors Should Read Big Tech CapEx",
+    "seo_title": "AI Capital Spending: How to Read Big Tech CapEx",
     "meta_description": "Analyze AI capital spending through capex, depreciation, utilization, cloud demand, margins, free cash flow, and return on invested capital.",
     "slug": "/markets-stocks/ai-capital-spending-big-tech/",
     "search_intent": "Informational",
@@ -209,9 +238,14 @@
   },
   "claims": [
     {
-      "statement": "",
-      "source_url": "",
-      "verified": false
+      "statement": "Microsoft expected calendar-year 2026 capital expenditure of approximately $175 billion after a shift from finance to operating leases.",
+      "source_url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4",
+      "verified": true
+    },
+    {
+      "statement": "Meta expected 2026 capital expenditures, including principal payments on finance leases, of $130 billion to $145 billion, narrowed from $125 billion to $145 billion.",
+      "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/",
+      "verified": true
     }
   ],
   "fact_check": {
@@ -223,5 +257,10 @@
     "completed": false,
     "reviewer": "",
     "reviewed_at": ""
+  },
+  "verification_log": {
+    "checked_on": "2026-10-04",
+    "summary": "Checked Microsoft (about $175 billion; roughly two-thirds of capex on short-lived assets; capacity constraints) and Meta ($130 to $145 billion). Not yet checked: the Alphabet and Amazon figures and the company table in the post.",
+    "pending": "Ubersuggest keyword data, five-competitor review, remaining sources, and named fact-check and QA sign-off."
   }
 }

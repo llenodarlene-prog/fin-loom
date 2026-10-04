@@ -1,6 +1,6 @@
 ---
 title: Apple Statistics 2026: Revenue, iPhone, Services, and the Changing Business Mix
-seo_title: Apple Statistics 2026: Revenue, iPhone, Services, and Growth
+seo_title: Apple Statistics 2026: Revenue, iPhone, and Services
 description: Apple statistics for 2026 covering revenue, iPhone, Services, margins, installed devices, geographic growth, and the changing business mix.
 slug: /markets-stocks/apple-statistics/
 type: blog
@@ -12,6 +12,8 @@ secondary_keywords:
 cluster: Markets & Stocks
 approved_internal_links: /markets-stocks/
 research_record: content/research/blog-s14.json
+image: /assets/images/posts/apple-statistics/laptop-reports-and-reading-glasses-1600.jpg
+image_alt: A laptop showing a price chart beside a newspaper, printed reports, and reading glasses on a marble desk
 link_placement_site: WebTribunal
 charts_pending: 0
 ai_exceptions: 
@@ -39,18 +41,20 @@ In fiscal 2026, both sides of that model have been producing record results.
 
 ## Key Takeaways
 
-The main points are summarized below.
+The points below summarize the Apple statistics that describe the business mix.
 
-- **Apple generated $143.8 billion in revenue in fiscal Q1 2026**, up from $124.3 billion a year earlier.
-- **Fiscal Q2 2026 revenue reached $111.2 billion**, up 17% year over year.
-- **Fiscal Q3 2026 revenue reached $109.4 billion**, up 16%.
-- **Services revenue reached a record $30.0 billion in fiscal Q1 2026.**
-- **iPhone revenue reached $85.3 billion in fiscal Q1 2026.**
-- **Apple's installed base of active devices reached a new all-time high by Q3 2026.**
-- **Gross margin reached 50.1% in fiscal Q3 2026**, though Apple noted a favorable impact from tariff refunds.
-- **Services are strategically important because they increase recurring monetization from the installed device base.**
+- **First-Quarter Revenue:** Apple generated $143.8 billion in revenue in fiscal Q1 2026, up from $124.3 billion a year earlier.
+- **Second-Quarter Revenue:** Fiscal Q2 2026 revenue reached $111.2 billion, up 17% year over year.
+- **Third-Quarter Revenue:** Fiscal Q3 2026 revenue reached $109.4 billion, up 16%.
+- **Services:** Services revenue reached a record $30.0 billion in fiscal Q1 2026.
+- **iPhone:** iPhone revenue reached $85.3 billion in fiscal Q1 2026.
+- **Installed Base:** Apple's installed base of active devices reached a new all-time high by Q3 2026.
+- **Gross Margin:** Gross margin reached 50.1% in fiscal Q3 2026, though Apple noted a favorable impact of about two percentage points from tariff refunds.
+- **Recurring Revenue:** Services are strategically important because they increase recurring monetization from the installed device base.
 
 ## Apple Statistics at a Glance
+
+The table gathers the headline Apple statistics from Apple's first-quarter financial statements and its [second-quarter](https://www.apple.com/newsroom/2026/04/apple-reports-second-quarter-results/) and [third-quarter](https://www.apple.com/newsroom/2026/07/apple-reports-third-quarter-results/) results.
 
 | Metric | Figure | Period |
 |---|---:|---|
@@ -157,7 +161,7 @@ The model makes Apple less dependent on a single hardware purchase.
 
 ## Apple Revenue by Product Category
 
-Fiscal Q1 2026 provides a useful snapshot.
+Among recent Apple statistics, fiscal Q1 2026 provides a useful snapshot of the product mix.
 
 | Category | Revenue |
 |---|---:|
@@ -347,7 +351,7 @@ Services can lift consolidated gross margin.
 
 Premium devices can support pricing.
 
-Scale improves procurement and supply-chain leverage.
+Scale improves procurement and supply-chain bargaining power.
 
 This helps explain why Apple's margin structure looks different from many hardware peers.
 
@@ -487,7 +491,7 @@ The strength of Apple's future results will depend on maintaining both sides of 
 
 ## Frequently Asked Questions
 
-Short answers to the questions readers ask most often.
+Short answers to the questions readers ask most often about Apple statistics.
 
 ### How Much Revenue Does Apple Make?
 

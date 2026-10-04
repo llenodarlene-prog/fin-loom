@@ -80,35 +80,67 @@
   },
   "sources": [
     {
-      "url": "",
-      "title": "",
-      "publisher": "",
-      "source_type": "",
-      "year": "",
-      "published_at": "",
-      "accessed_at": "",
-      "scope": "",
-      "method": "",
-      "limitations": "",
-      "verified": false
+      "url": "https://abc.xyz/investor/events/event-details/2026/2025-Q4-Earnings-Call-2026-Dr_C033hS6/default.aspx",
+      "title": "Alphabet Fourth Quarter 2025 Earnings Call",
+      "publisher": "Alphabet Investor Relations",
+      "source_type": "Company earnings call",
+      "year": "2025",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-04",
+      "scope": "Fourth-quarter and full-year 2025 results and 2026 outlook",
+      "method": "Company disclosure",
+      "limitations": "Capital expenditure figure is guidance",
+      "verified": true
     }
   ],
   "statistics": [
     {
-      "claim": "",
-      "source_url": "",
-      "data_year": "",
-      "geography": "",
-      "population": "",
-      "sample": "",
-      "denominator": "",
-      "unit": "",
-      "method": "",
-      "limitations": "",
+      "claim": "Alphabet annual revenues exceeded $400 billion for the first time in 2025 (about $403 billion).",
+      "source_url": "https://abc.xyz/investor/events/event-details/2026/2025-Q4-Earnings-Call-2026-Dr_C033hS6/default.aspx",
+      "data_year": "2025",
+      "geography": "Global",
+      "population": "Company-wide",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Company-reported financial results",
+      "limitations": "As reported; later filings may restate",
       "sponsored": false,
       "partial_year": false,
       "estimate": false,
-      "verified": false
+      "verified": true
+    },
+    {
+      "claim": "In Q4 2025 Google Search and other revenue was $63.1 billion, up 17%; Google Cloud revenue was $17.7 billion, up 48%; Google Services revenue was $95.5 billion; Subscriptions, Platforms and Devices revenue was $13.6 billion; Cloud backlog was $240 billion.",
+      "source_url": "https://abc.xyz/investor/events/event-details/2026/2025-Q4-Earnings-Call-2026-Dr_C033hS6/default.aspx",
+      "data_year": "2025",
+      "geography": "Global",
+      "population": "Company-wide",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Company-reported financial results",
+      "limitations": "As reported; later filings may restate",
+      "sponsored": false,
+      "partial_year": true,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Alphabet expected 2026 capital expenditure of $175 billion to $185 billion.",
+      "source_url": "https://abc.xyz/investor/events/event-details/2026/2025-Q4-Earnings-Call-2026-Dr_C033hS6/default.aspx",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Company-wide",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Company-reported financial results",
+      "limitations": "Company guidance, not a result",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": true,
+      "verified": true
     }
   ],
   "competitors": [
@@ -209,9 +241,19 @@
   },
   "claims": [
     {
-      "statement": "",
-      "source_url": "",
-      "verified": false
+      "statement": "Alphabet annual revenues exceeded $400 billion for the first time in 2025 (about $403 billion).",
+      "source_url": "https://abc.xyz/investor/events/event-details/2026/2025-Q4-Earnings-Call-2026-Dr_C033hS6/default.aspx",
+      "verified": true
+    },
+    {
+      "statement": "In Q4 2025 Google Search and other revenue was $63.1 billion, up 17%; Google Cloud revenue was $17.7 billion, up 48%; Google Services revenue was $95.5 billion; Subscriptions, Platforms and Devices revenue was $13.6 billion; Cloud backlog was $240 billion.",
+      "source_url": "https://abc.xyz/investor/events/event-details/2026/2025-Q4-Earnings-Call-2026-Dr_C033hS6/default.aspx",
+      "verified": true
+    },
+    {
+      "statement": "Alphabet expected 2026 capital expenditure of $175 billion to $185 billion.",
+      "source_url": "https://abc.xyz/investor/events/event-details/2026/2025-Q4-Earnings-Call-2026-Dr_C033hS6/default.aspx",
+      "verified": true
     }
   ],
   "fact_check": {
@@ -223,5 +265,10 @@
     "completed": false,
     "reviewer": "",
     "reviewed_at": ""
+  },
+  "verification_log": {
+    "checked_on": "2026-10-04",
+    "summary": "CORRECTED: Google Services Q4 2025 revenue was given as $96 billion; Alphabet reported $95.5 billion. Search revenue now stated as $63.1 billion. Other headline figures checked. Not yet checked: Google Services operating income of $40.1 billion, YouTube advertising detail, traffic acquisition cost statements, and any 2026 quarterly figures in the body.",
+    "pending": "Ubersuggest keyword data, five-competitor review, remaining sources, and named fact-check and QA sign-off."
   }
 }

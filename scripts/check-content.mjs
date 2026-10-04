@@ -49,10 +49,13 @@ for (const file of files) {
   if (record.meta_description ? description !== norm(record.meta_description) : !lower(description).includes(lower(record.primary_keyword))) fail(`${file}: meta description is not tracker-approved or does not contain the exact keyword`);
   if (seoTitle.length > 60) fail(`${file}: SEO title is ${seoTitle.length} characters; maximum is 60`);
   const words = body.replace(/[#*_`>\[\]()|]/g, ' ').trim().split(/\s+/).filter(Boolean);
-  // A supplementary record may carry an owner-approved ceiling above the standard limit.
-  const maxWords = Number(record.max_words) || 2600;
-  if (words.length < 2000 || words.length > maxWords) fail(`${file}: publishable word count is ${words.length}, expected 2000-2500 and never above ${maxWords}`);
-  else if (words.length > 2500 && !record.max_words && metadata.word_count_exception !== 'approved') fail(`${file}: ${words.length} words requires word_count_exception: approved`);
+  // Tracker items keep the 2,000 to 2,600 range. A supplementary record carries the owner's own rule
+  // (decision of 2026-10-04): a higher minimum and no ceiling.
+  const minWords = Number(record.min_words) || 2000;
+  const maxWords = record.no_word_ceiling === true ? Infinity : 2600;
+  if (words.length < minWords) fail(`${file}: publishable word count is ${words.length}; the minimum is ${minWords}`);
+  else if (words.length > maxWords) fail(`${file}: publishable word count is ${words.length}, expected 2000-2500 and never above ${maxWords}`);
+  else if (words.length > 2500 && record.no_word_ceiling !== true && metadata.word_count_exception !== 'approved') fail(`${file}: ${words.length} words requires word_count_exception: approved`);
   const keyword = lower(record.primary_keyword);
   const keywordRegex = new RegExp(escapeRegex(keyword), 'g');
   const count = (lower(body).match(keywordRegex) || []).length;

@@ -12,6 +12,8 @@ secondary_keywords:
 cluster: Money & Banking
 approved_internal_links: /money-banking/
 research_record: content/research/blog-s9.json
+image: /assets/images/posts/saving-vs-investing/reviewing-financial-plan-1600.jpg
+image_alt: Two people reviewing printed financial charts at a desk with a tablet and coffee
 link_placement_site: Stoxcraft
 charts_pending: 0
 ai_exceptions: 
@@ -29,7 +31,7 @@ They are better understood as tools for different jobs.
 
 Savings prioritize stability and access. Investments accept uncertainty in exchange for the possibility of higher long-term returns. A household generally needs both because short-term financial obligations and long-term financial goals create different risk requirements.
 
-The difficult question is not whether saving or investing is “better.”
+The difficult question in saving vs investing is not which one is “better.”
 
 It is which dollars should do which job.
 
@@ -39,7 +41,7 @@ Time horizon, liquidity, emergency needs, debt, and risk capacity determine the 
 
 ## Key Takeaways
 
-The main points are summarized below.
+The points below summarize how the saving vs investing decision changes with time horizon and liquidity.
 
 - **Saving Protects Near-term Purchasing Power and Access:** It is designed for money that may be needed soon.
 - **Investing Accepts Price Risk for Long-term Growth:** It is more appropriate when the money can remain invested through market declines.
@@ -50,6 +52,8 @@ The main points are summarized below.
 - **The Decision Should Be Goal-specific:** One household may simultaneously save for a home repair and invest for retirement.
 
 ## Saving vs Investing in One Table
+
+The table compares the two on the questions that decide most cases.
 
 | Question | Saving | Investing |
 |---|---|---|
@@ -62,7 +66,7 @@ The main points are summarized below.
 | Inflation risk | Meaningful over long periods | Still present, but growth assets may offset it |
 | Best use | Emergency fund, near-term goals | Retirement, long-term wealth building |
 
-## What Saving Actually Does
+## What Saving Does
 
 Saving means setting money aside in an instrument designed primarily for preservation and access.
 
@@ -78,18 +82,18 @@ The tradeoff is return.
 
 ## Deposit Rates in 2026 Show the Tradeoff
 
-The FDIC publishes national deposit-rate data.
+The FDIC publishes [national deposit-rate data](https://www.fdic.gov/resources/bankers/national-rates/) each month.
 
-In March 2026, its national rate table showed approximately:
+As of September 21, 2026, its national rate table showed:
 
 | Deposit Product | National Rate |
 |---|---:|
-| Savings | 0.39% |
+| Savings | 0.37% |
 | Interest checking | 0.07% |
-| Money market | 0.56% |
-| 3-month CD | 1.28% |
-| 6-month CD | 1.47% |
-| 12-month CD | 1.52% |
+| Money market | 0.63% |
+| 3-month CD | 1.13% |
+| 6-month CD | 1.41% |
+| 12-month CD | 1.73% |
 
 These are national averages used for the FDIC's rate-cap framework, not a list of the highest rates available to consumers. Individual banks may offer meaningfully different yields.
 
@@ -168,7 +172,7 @@ A stock is liquid in the first sense but not always in the second.
 
 Emergency money has one job: be available when an emergency happens.
 
-Investor.gov's rainy-day guidance says many investors keep enough savings to cover unexpected events, noting some aim for as much as six months of income.
+[Investor.gov's rainy-day guidance](https://www.investor.gov/introduction-investing/investing-basics/save-and-invest/save-rainy-day) says most investors keep enough in savings to cover an emergency, and that some aim for as much as six months of income.
 
 The right amount varies.
 
@@ -218,7 +222,7 @@ The point is compounding.
 
 A small annual return difference becomes large over long periods.
 
-### Illustrative Ten-Year Compounding
+The table shows the same $10,000 after ten years at four annual returns.
 
 | Annual Return | $10,000 After 10 Years |
 |---:|---:|
@@ -311,7 +315,7 @@ Moving money from savings into investments does not complete the decision.
 
 The investor must still choose how to allocate it.
 
-Investor.gov's 2026 guidance emphasizes that asset allocation depends on risk tolerance and timeframe and that diversification spreads money among different assets to lower overall portfolio risk.
+[Investor.gov's guidance on asset allocation](https://www.investor.gov/introduction-investing/getting-started/asset-allocation) explains that the right mix changes with an investor's circumstances, and that diversification spreads money among different investments to reduce risk.
 
 That is why [saving and investing decisions](/money-banking/) should be connected to the purpose of the money before the investor chooses individual securities. The cash-versus-market decision is only the first allocation decision.
 
@@ -349,7 +353,7 @@ Likewise, a bond fund can fluctuate in value and may not be appropriate for mone
 
 ## A Simple Decision Framework
 
-Ask these questions in order.
+Six questions, asked in order, settle most saving vs investing decisions.
 
 ### 1. When Will I Need the Money?
 
@@ -376,6 +380,8 @@ Long-term cash should have a deliberate reason.
 Compare the guaranteed interest cost with uncertain investment returns.
 
 ## Common Saving vs Investing Mistakes
+
+Six mistakes account for most poor saving vs investing outcomes.
 
 ### Investing the Emergency Fund
 
@@ -493,7 +499,7 @@ A strong financial plan protects the dollars that must be available soon and giv
 
 ## Frequently Asked Questions
 
-Short answers to the questions readers ask most often.
+Short answers to the questions readers ask most often about saving vs investing.
 
 ### Is Saving Better Than Investing?
 

@@ -1,5 +1,5 @@
 {
-  "note": "Fin Loom blog posts supplied by the site owner outside the tracker launch set. Each is published on Fin Loom, and its live URL is then placed in an existing article on the named partner site. Longer than the standard limit by owner decision; max_words records the approved ceiling.",
+  "note": "Fin Loom blog posts supplied by the site owner outside the tracker launch set. Each is published on Fin Loom, and its live URL is then placed in an existing article on the named partner site. Owner word rule (2026-10-04): at least 2,500 words, no ceiling.",
   "records": [
     {
       "type": "Blog",
@@ -13,10 +13,11 @@
       "url_slug": "/crypto/crypto-airdrop-risk/",
       "seo_title": "Crypto Airdrop Risk: How to Evaluate Tokens Safely",
       "meta_description": "Learn how to evaluate a crypto airdrop, check token legitimacy, inspect wallet permissions, and reduce phishing and smart-contract risk.",
-      "max_words": 3400,
       "link_placement_site": "Use The Bitcoin",
       "source_file": "FinLoom Files/03 Blogs/For Use the Bitcoin Backlink/01_crypto_airdrop_risk.md",
-      "scheduled_publish": "2026-10-04"
+      "scheduled_publish": "2026-10-04",
+      "min_words": 2500,
+      "no_word_ceiling": true
     },
     {
       "type": "Blog",
@@ -30,10 +31,11 @@
       "url_slug": "/crypto/crypto-analytics-tools/",
       "seo_title": "Crypto Analytics Tools for Better Token Research",
       "meta_description": "Compare crypto analytics tools by the questions they answer, from market data and liquidity to on-chain activity, protocol fees, and wallets.",
-      "max_words": 2900,
       "link_placement_site": "Use The Bitcoin",
       "source_file": "FinLoom Files/03 Blogs/For Use the Bitcoin Backlink/02_crypto_research_tools.md",
-      "scheduled_publish": "2026-10-04"
+      "scheduled_publish": "2026-10-04",
+      "min_words": 2500,
+      "no_word_ceiling": true
     },
     {
       "type": "Blog",
@@ -47,10 +49,11 @@
       "url_slug": "/investing/bitcoin-allocation/",
       "seo_title": "Bitcoin Allocation: How Portfolio Risk Changes With Size",
       "meta_description": "See how bitcoin allocation changes portfolio risk, why small percentages can matter, and which assumptions investors should test before sizing exposure.",
-      "max_words": 2800,
       "link_placement_site": "Use The Bitcoin",
       "source_file": "FinLoom Files/03 Blogs/For Use the Bitcoin Backlink/03_bitcoin_portfolio_allocation.md",
-      "scheduled_publish": "2026-10-04"
+      "scheduled_publish": "2026-10-04",
+      "min_words": 2500,
+      "no_word_ceiling": true
     },
     {
       "type": "Blog",
@@ -64,15 +67,16 @@
       "url_slug": "/crypto/crypto-custody/",
       "seo_title": "Crypto Custody: Self-Custody, Banks, and Institutions",
       "meta_description": "Learn how crypto custody works, who controls private keys, how institutional custody differs from self-custody, and which risks matter.",
-      "max_words": 2800,
       "link_placement_site": "Use The Bitcoin",
       "source_file": "FinLoom Files/03 Blogs/For Use the Bitcoin Backlink/04_crypto_custody.md",
-      "scheduled_publish": "2026-10-04"
+      "scheduled_publish": "2026-10-04",
+      "min_words": 2500,
+      "no_word_ceiling": true
     },
     {
       "type": "Blog",
       "content_number": "S5",
-      "working_title": "DAO Governance and DeFi: What Token Voting Actually Controls",
+      "working_title": "DAO Governance and DeFi: What Token Voting Controls",
       "primary_keyword": "DAO governance",
       "secondary_keywords": "DAO governance model; token voting; governance token; Uniswap governance",
       "cluster": "Fintech",
@@ -80,11 +84,12 @@
       "status": "Ready for Source Verification",
       "url_slug": "/fintech/dao-governance/",
       "seo_title": "DAO Governance: How Token Voting Works in Practice",
-      "meta_description": "Learn how DAO governance works, how delegation and quorum shape voting power, and what token holders actually control in protocols such as Uniswap.",
-      "max_words": 2700,
+      "meta_description": "Learn how DAO governance works, how delegation and quorum shape voting power, and what token holders control in protocols such as Uniswap.",
       "link_placement_site": "Use The Bitcoin",
       "source_file": "FinLoom Files/03 Blogs/For Use the Bitcoin Backlink/05_dao_governance.md",
-      "scheduled_publish": "2026-10-04"
+      "scheduled_publish": "2026-10-04",
+      "min_words": 2500,
+      "no_word_ceiling": true
     },
     {
       "type": "Blog",
@@ -98,27 +103,29 @@
       "url_slug": "/investing/crypto-vs-stocks/",
       "seo_title": "Crypto vs Stocks: Risk, Liquidity, and Returns Compared",
       "meta_description": "Compare crypto vs stocks across volatility, liquidity, ownership, regulation, diversification, and portfolio use with a practical risk framework.",
-      "max_words": 3900,
       "link_placement_site": "Stoxcraft",
       "source_file": "FinLoom Files/03 Blogs/For Stoxcraft Backlink/06_crypto_vs_stocks.md",
-      "scheduled_publish": "2026-10-04"
+      "scheduled_publish": "2026-10-04",
+      "min_words": 2500,
+      "no_word_ceiling": true
     },
     {
       "type": "Blog",
       "content_number": "S7",
-      "working_title": "Stock Screener Explained: Which Metrics Actually Help Narrow the Market",
+      "working_title": "Stock Screener Explained: Which Metrics Help Narrow the Market",
       "primary_keyword": "stock screener",
       "secondary_keywords": "",
       "cluster": "Markets & Stocks",
       "intent": "Informational",
       "status": "Ready for Source Verification",
       "url_slug": "/markets-stocks/stock-screener-metrics-guide/",
-      "seo_title": "Stock Screener Guide: Filters That Actually Matter",
+      "seo_title": "Stock Screener Guide: Filters Worth Using",
       "meta_description": "Learn how to use a stock screener without drowning in filters. Compare valuation, quality, growth, momentum, liquidity, and risk metrics.",
-      "max_words": 3200,
       "link_placement_site": "Stoxcraft",
       "source_file": "FinLoom Files/03 Blogs/For Stoxcraft Backlink/07_stock_screener.md",
-      "scheduled_publish": "2026-10-04"
+      "scheduled_publish": "2026-10-04",
+      "min_words": 2500,
+      "no_word_ceiling": true
     },
     {
       "type": "Blog",
@@ -132,10 +139,11 @@
       "url_slug": "/investing/stock-risk-metrics/",
       "seo_title": "Stock Risk Metrics: Volatility, Beta, Drawdown, Sharpe",
       "meta_description": "Compare stock risk metrics including volatility, beta, drawdown, Sharpe ratio, liquidity, leverage, and concentration with practical examples.",
-      "max_words": 3000,
       "link_placement_site": "Stoxcraft",
       "source_file": "FinLoom Files/03 Blogs/For Stoxcraft Backlink/08_stock_risk_metrics.md",
-      "scheduled_publish": "2026-10-05"
+      "scheduled_publish": "2026-10-05",
+      "min_words": 2500,
+      "no_word_ceiling": true
     },
     {
       "type": "Blog",
@@ -149,10 +157,11 @@
       "url_slug": "/money-banking/saving-vs-investing/",
       "seo_title": "Saving vs Investing: Time Horizon, Liquidity, and Risk",
       "meta_description": "Compare saving vs investing by time horizon, liquidity, inflation, risk, emergency needs, and expected use of the money.",
-      "max_words": 2800,
       "link_placement_site": "Stoxcraft",
       "source_file": "FinLoom Files/03 Blogs/For Stoxcraft Backlink/09_saving_vs_investing.md",
-      "scheduled_publish": "2026-10-05"
+      "scheduled_publish": "2026-10-05",
+      "min_words": 2500,
+      "no_word_ceiling": true
     },
     {
       "type": "Blog",
@@ -164,12 +173,13 @@
       "intent": "Informational",
       "status": "Ready for Source Verification",
       "url_slug": "/markets-stocks/ai-capital-spending-big-tech/",
-      "seo_title": "AI Capital Spending: How Investors Should Read Big Tech CapEx",
+      "seo_title": "AI Capital Spending: How to Read Big Tech CapEx",
       "meta_description": "Analyze AI capital spending through capex, depreciation, utilization, cloud demand, margins, free cash flow, and return on invested capital.",
-      "max_words": 3400,
       "link_placement_site": "Stoxcraft",
       "source_file": "FinLoom Files/03 Blogs/For Stoxcraft Backlink/10_ai_capital_spending.md",
-      "scheduled_publish": "2026-10-05"
+      "scheduled_publish": "2026-10-05",
+      "min_words": 2500,
+      "no_word_ceiling": true
     },
     {
       "type": "Blog",
@@ -183,10 +193,11 @@
       "url_slug": "/payments/paypal-statistics/",
       "seo_title": "PayPal Statistics 2026: Volume, Accounts, and Revenue",
       "meta_description": "PayPal statistics for 2026 covering payment volume, active accounts, transactions, revenue, margins, cash flow, and the digital payments market.",
-      "max_words": 2700,
       "link_placement_site": "WebTribunal",
       "source_file": "FinLoom Files/03 Blogs/For Webtribunal Backlink/11_paypal_statistics.md",
-      "scheduled_publish": "2026-10-05"
+      "scheduled_publish": "2026-10-05",
+      "min_words": 2500,
+      "no_word_ceiling": true
     },
     {
       "type": "Blog",
@@ -200,10 +211,11 @@
       "url_slug": "/markets-stocks/google-revenue-statistics/",
       "seo_title": "Google Revenue Statistics 2026: Search, YouTube, Cloud",
       "meta_description": "Google revenue statistics covering Search, YouTube, Cloud, subscriptions, margins, capex, and Alphabet's changing revenue mix.",
-      "max_words": 2900,
       "link_placement_site": "WebTribunal",
       "source_file": "FinLoom Files/03 Blogs/For Webtribunal Backlink/12_google_revenue_statistics.md",
-      "scheduled_publish": "2026-10-05"
+      "scheduled_publish": "2026-10-05",
+      "min_words": 2500,
+      "no_word_ceiling": true
     },
     {
       "type": "Blog",
@@ -217,10 +229,11 @@
       "url_slug": "/markets-stocks/amazon-statistics/",
       "seo_title": "Amazon Statistics 2026: Revenue, AWS, Profit, and Growth",
       "meta_description": "Amazon statistics for 2026 covering revenue, AWS, operating income, retail, international growth, cash flow, and the economics behind the business.",
-      "max_words": 2700,
       "link_placement_site": "WebTribunal",
       "source_file": "FinLoom Files/03 Blogs/For Webtribunal Backlink/13_amazon_statistics.md",
-      "scheduled_publish": "2026-10-05"
+      "scheduled_publish": "2026-10-05",
+      "min_words": 2500,
+      "no_word_ceiling": true
     },
     {
       "type": "Blog",
@@ -232,29 +245,31 @@
       "intent": "Informational",
       "status": "Ready for Source Verification",
       "url_slug": "/markets-stocks/apple-statistics/",
-      "seo_title": "Apple Statistics 2026: Revenue, iPhone, Services, and Growth",
+      "seo_title": "Apple Statistics 2026: Revenue, iPhone, and Services",
       "meta_description": "Apple statistics for 2026 covering revenue, iPhone, Services, margins, installed devices, geographic growth, and the changing business mix.",
-      "max_words": 2700,
       "link_placement_site": "WebTribunal",
       "source_file": "FinLoom Files/03 Blogs/For Webtribunal Backlink/14_apple_statistics.md",
-      "scheduled_publish": "2026-10-05"
+      "scheduled_publish": "2026-10-05",
+      "min_words": 2500,
+      "no_word_ceiling": true
     },
     {
       "type": "Blog",
       "content_number": "S15",
-      "working_title": "Identity Theft Statistics 2026: Fraud, Financial Losses, and the Numbers Behind the Risk",
+      "working_title": "Identity Theft Statistics and Fraud Losses: What FTC Consumer Sentinel Data Shows",
       "primary_keyword": "identity theft statistics",
       "secondary_keywords": "",
       "cluster": "Money & Banking",
       "intent": "Informational",
       "status": "Ready for Source Verification",
       "url_slug": "/money-banking/identity-theft-statistics/",
-      "seo_title": "Identity Theft Statistics 2026: Fraud, Losses, and Trends",
-      "meta_description": "Identity theft statistics for 2026 covering FTC reports, fraud losses, impersonation, financial account abuse, and consumer protection trends.",
-      "max_words": 3100,
+      "seo_title": "Identity Theft Statistics: FTC Fraud and Sentinel Data",
+      "meta_description": "Identity theft statistics in context: what the FTC fraud loss and Consumer Sentinel figures for 2025 measure, what they leave out, and how to read them.",
       "link_placement_site": "WebTribunal",
       "source_file": "FinLoom Files/03 Blogs/For Webtribunal Backlink/15_identity_theft_statistics.md",
-      "scheduled_publish": "2026-10-05"
+      "scheduled_publish": "2026-10-05",
+      "min_words": 2500,
+      "no_word_ceiling": true
     }
   ],
   "links": [

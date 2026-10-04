@@ -12,10 +12,12 @@ secondary_keywords: bitcoin portfolio allocation; bitcoin diversification; bitco
 cluster: Investing
 approved_internal_links: /investing/
 research_record: content/research/blog-s3.json
+image: /assets/images/posts/bitcoin-allocation/portfolio-allocation-report-1600.jpg
+image_alt: A laptop and printed report showing a sample portfolio allocation pie chart, with a gold coin beside them
 link_placement_site: Use The Bitcoin
 charts_pending: 1
-ai_exceptions: 
-ai_exception_reason: 
+ai_exceptions: leverage
+ai_exception_reason: Leverage is used in its technical financial sense, describing borrowed exposure in futures.
 author: 
 published: 
 modified: 
@@ -37,7 +39,7 @@ Taken together, the useful question is not “What percentage should everyone ow
 
 ## Key Takeaways
 
-The main points are summarized below.
+The points below summarize how a bitcoin allocation changes the risk of a portfolio.
 
 - **Capital Weight Is Not Risk Weight:** Bitcoin’s volatility means a small position can contribute disproportionately to total portfolio risk.
 - **There Is No Universal Percentage:** A reasonable allocation depends on risk tolerance, liabilities, time horizon, liquidity needs, and investment beliefs.
@@ -87,7 +89,7 @@ Bitcoin’s return distribution has historically been unusual.
 
 It has delivered large upside periods alongside repeated deep drawdowns. That combination means a small allocation can materially influence long-term results in either direction.
 
-[BlackRock’s August 2026 research](https://www.blackrock.com/us/financial-professionals/insights/re-underwriting-bitcoin) said its updated 10-year historical analysis found that a 1% to 2% allocation would have improved risk-adjusted returns in a traditional 60/40 portfolio over the period studied. Past performance does not establish that the result will repeat.
+BlackRock’s August 2026 research said its updated 10-year historical analysis found that a 1% to 2% allocation would have improved risk-adjusted returns in a traditional 60/40 portfolio over the period studied. Past performance does not establish that the result will repeat.
 
 The lesson is not “1% to 2% always works.” The lesson is that a small allocation can be economically meaningful when the asset has high volatility and asymmetric historical returns.
 
@@ -347,7 +349,7 @@ No. A zero allocation may fit an investor’s objectives or constraints. The use
 
 ## Resources
 
-The following sources provide the primary or specialist evidence used to verify the claims and frameworks in this article.
+The following sources provide the primary or specialist evidence used to verify the claims and frameworks above.
 
 - [BlackRock Investment Institute, Sizing Bitcoin in Portfolios](https://www.blackrock.com/institutions/en-us/insights/thought-leadership/portfolio-design/sizing-bitcoin-in-portfolios)
 - [BlackRock, Re-Underwriting Bitcoin: Still a Portfolio Diversifier, August 17, 2026](https://www.blackrock.com/us/financial-professionals/insights/re-underwriting-bitcoin)

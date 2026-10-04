@@ -12,6 +12,8 @@ secondary_keywords: institutional crypto custody; crypto custody services; self 
 cluster: Crypto & Digital Assets
 approved_internal_links: /crypto/
 research_record: content/research/blog-s4.json
+image: /assets/images/posts/crypto-custody/hardware-wallet-and-seed-backup-1600.jpg
+image_alt: A hardware wallet and a handwritten seed backup card beside a laptop showing a sample account overview
 link_placement_site: Use The Bitcoin
 charts_pending: 0
 ai_exceptions: 
@@ -91,7 +93,7 @@ This is operationally simple. The platform manages wallets and keys while the us
 
 The user therefore has an account claim against the platform’s system rather than direct day-to-day control of blockchain keys.
 
-Important questions include are customer assets segregated; how are keys stored; what percentage is held online; what withdrawal controls exist; which legal entity holds the assets; are assets lent, pledged, or otherwise used; what happens in insolvency; which jurisdiction governs the relationship; are there independent audits or attestations; and what insurance exists, and what does it actually cover.
+Important questions include are customer assets segregated; how are keys stored; what percentage is held online; what withdrawal controls exist; which legal entity holds the assets; are assets lent, pledged, or otherwise used; what happens in insolvency; which jurisdiction governs the relationship; are there independent audits or attestations; and what insurance exists, and what does it cover.
 
 An exchange can be both a trading venue and a custodian, which concentrates functions that traditional markets often separate.
 
@@ -163,7 +165,7 @@ Conversely, an arrangement can have strong legal segregation but weak operationa
 
 Serious custody due diligence needs both.
 
-## The Regulatory Landscape Is Moving
+## Custody Regulation Is Moving
 
 The United States has seen major changes in crypto custody policy.
 
@@ -347,7 +349,7 @@ No. The SEC announced proposed rules and amendments on October 1, 2026, which ar
 
 ## Resources
 
-The following sources provide the primary or specialist evidence used to verify the claims and frameworks in this article.
+The following sources provide the primary or specialist evidence used to verify the claims and frameworks above.
 
 - [U.S. SEC, SEC Proposal Would Address How Investment Advisers and Funds Can Custody Crypto Assets Under the Federal Securities Laws, October 1, 2026](https://www.sec.gov/newsroom/press-releases/2026-100-sec-proposal-would-address-how-investment-advisers-funds-can-custody-crypto-assets-under-federal)
 - [U.S. SEC, Chairman Paul Atkins statement on the October 1, 2026 custody proposal](https://www.sec.gov/newsroom/speeches-statements/atkins-crypto-custody-100126-statement-proposal-address-custody-crypto-assets-under-investment-advisers-act-investment-company)

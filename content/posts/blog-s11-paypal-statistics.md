@@ -12,10 +12,12 @@ secondary_keywords:
 cluster: Payments
 approved_internal_links: /payments/
 research_record: content/research/blog-s11.json
+image: /assets/images/posts/paypal-statistics/phone-payment-at-card-terminal-1600.jpg
+image_alt: A phone showing a completed PayPal payment beside a card terminal on a cafe counter
 link_placement_site: WebTribunal
 charts_pending: 0
-ai_exceptions: 
-ai_exception_reason: 
+ai_exceptions: leverage
+ai_exception_reason: Operating leverage is a technical financial term and is used in that sense only.
 author: 
 published: 
 modified: 
@@ -35,18 +37,20 @@ The current PayPal story is therefore best read as a payments-economics story ra
 
 ## Key Takeaways
 
-The main points are summarized below.
+The points below summarize the PayPal statistics that say most about the business.
 
-- **PayPal processed $1.79 trillion in total payment volume in 2025**, up 7% from 2024, according to its 2025 Form 10-K.
-- **Active accounts reached 439 million at the end of 2025**, up about 1%.
-- **Payment transactions fell to 25.4 billion in 2025**, down 4% year over year, even as total payment volume increased.
-- **PayPal generated $33.2 billion in net revenue in 2025**, up 4%.
-- **Q2 2026 total payment volume reached $486.4 billion**, up 10% year over year.
-- **Q2 2026 net revenue was $8.68 billion**, up 5%.
-- **Transaction volume growth outpaced revenue growth**, highlighting the importance of payment mix and monetization.
+- **Total Payment Volume:** PayPal processed $1.79 trillion in 2025, up 7% from 2024, according to its full-year results.
+- **Active Accounts:** Active accounts reached 439 million at the end of 2025, up about 1%.
+- **Payment Transactions:** Payment transactions fell to 25.4 billion in 2025, down 4% year over year, even as total payment volume increased.
+- **Net Revenue:** PayPal generated $33.2 billion in net revenue in 2025, up 4%.
+- **Second-Quarter Volume:** Q2 2026 total payment volume reached $486.4 billion, up 10% year over year.
+- **Second-Quarter Revenue:** Q2 2026 net revenue was $8.7 billion, up 5%.
+- **Volume Versus Revenue:** Transaction volume growth outpaced revenue growth, which shows how much payment mix and monetization matter.
 - **The Broader Competitive Question Is No Longer Only Wallet Adoption:** PayPal competes across checkout, unbranded processing, Venmo, merchant services, credit, and cross-border payments.
 
 ## PayPal Statistics at a Glance
+
+The table gathers the headline PayPal statistics from the company's latest annual and quarterly results.
 
 | Metric | Latest Verified Figure | Period |
 |---|---:|---|
@@ -57,10 +61,10 @@ The main points are summarized below.
 | GAAP operating income | $6.1 billion | FY2025 |
 | Free cash flow | $5.6 billion | FY2025 |
 | Q2 total payment volume | $486.4 billion | Q2 2026 |
-| Q2 net revenue | $8.68 billion | Q2 2026 |
+| Q2 net revenue | $8.7 billion | Q2 2026 |
 | Q2 payment transactions | 6.8 billion | Q2 2026 |
 
-The figures come from PayPal's 2025 Form 10-K and second-quarter 2026 earnings materials filed with the SEC.
+The figures come from PayPal's [fourth-quarter and full-year 2025 results](https://www.sec.gov/Archives/edgar/data/1633917/000163391726000021/pypl4q-25earningsrelease.htm) and its [second-quarter 2026 results](https://www.sec.gov/Archives/edgar/data/1633917/000163391726000080/pypl2q-26earningsrelease.htm), both filed with the SEC.
 
 ## PayPal Processed $1.79 Trillion in 2025
 
@@ -84,7 +88,7 @@ PayPal's second-quarter 2026 earnings release reported TPV of **$486.4 billion**
 
 That was faster than full-year 2025 TPV growth.
 
-At the same time, Q2 net revenue increased 5% to **$8.68 billion**.
+At the same time, Q2 net revenue increased 5% to **$8.7 billion**.
 
 The gap between 10% TPV growth and 5% revenue growth is not necessarily negative, but it is economically important.
 
@@ -92,7 +96,7 @@ It suggests that the mix of volume matters.
 
 Higher-margin branded checkout and lower-margin payment service provider volume do not contribute equally.
 
-### TPV Versus Revenue Growth
+Volume, revenue, and transaction margin grew at different rates in the quarter.
 
 | Metric | Q2 2026 Growth |
 |---|---:|
@@ -289,10 +293,9 @@ PayPal's second-quarter 2026 results provide a useful summary of the current bus
 | TPV | $486.4B | +10% |
 | Payment transactions | 6.8B | +8% |
 | Active accounts | 439M | +0.3% |
-| Net revenue | $8.68B | +5% |
+| Net revenue | $8.7B | +5% |
 | Transaction margin dollars | $3.9B | +1% |
-| GAAP operating income | $1.43B | -5% |
-| Free cash flow | $1.78B | +157% |
+| GAAP operating income | $1.4B | -5% |
 
 The picture is mixed.
 
@@ -448,7 +451,7 @@ For that reason, future PayPal analysis should spend less time celebrating accou
 
 ## Frequently Asked Questions
 
-Short answers to the questions readers ask most often.
+Short answers to the questions readers ask most often about PayPal statistics.
 
 ### How Many Active PayPal Accounts Are There?
 
@@ -460,7 +463,7 @@ PayPal processed about $1.79 trillion in total payment volume during 2025. Q2 20
 
 ### How Much Revenue Does PayPal Make?
 
-PayPal generated $33.2 billion in net revenue in 2025. Q2 2026 net revenue was $8.68 billion.
+PayPal generated $33.2 billion in net revenue in 2025. Q2 2026 net revenue was $8.7 billion.
 
 ### Is PayPal Still Growing?
 

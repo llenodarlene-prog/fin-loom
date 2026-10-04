@@ -20,6 +20,7 @@
     "new:article": "node scripts/new-content.mjs article",
     "new:blog": "node scripts/new-content.mjs blog",
     "import:market-data": "node scripts/import-market-data.mjs",
-    "import:posts": "node scripts/import-supplementary-posts.mjs"
+    "import:posts": "node scripts/import-supplementary-posts.mjs",
+    "audit:seo": "node scripts/audit-seo.mjs"
   }
 }

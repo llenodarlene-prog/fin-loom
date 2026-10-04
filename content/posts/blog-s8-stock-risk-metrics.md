@@ -12,10 +12,12 @@ secondary_keywords:
 cluster: Investing
 approved_internal_links: /investing/
 research_record: content/research/blog-s8.json
+image: /assets/images/posts/stock-risk-metrics/financial-newspaper-and-charts-1600.jpg
+image_alt: A financial newspaper, reading glasses, and printed charts beside a laptop showing a price chart
 link_placement_site: Stoxcraft
 charts_pending: 0
-ai_exceptions: 
-ai_exception_reason: 
+ai_exceptions: leverage
+ai_exception_reason: Leverage is used in its technical financial sense: debt relative to equity, assets, or earnings.
 author: 
 published: 
 modified: 
@@ -37,7 +39,7 @@ Volatility, beta, maximum drawdown, Sharpe ratio, leverage, liquidity, and conce
 
 ## Key Takeaways
 
-The main points are summarized below.
+The points below summarize what the main stock risk metrics can and cannot show.
 
 - **Volatility Measures Variability, Not Permanent Loss:** A volatile stock can recover; a low-volatility company can still suffer permanent impairment.
 - **Beta Measures Market Sensitivity:** It does not measure every source of business or balance-sheet risk.
@@ -66,6 +68,8 @@ That conflict does not mean risk measurement is broken. It means the investor is
 The solution is to identify the question first.
 
 ## Risk Metric Comparison
+
+The table sets the main stock risk metrics side by side, with what each one measures and what it leaves out.
 
 | Metric | What It Measures | What It Misses |
 |---|---|---|
@@ -140,7 +144,7 @@ Its drawdown is 45%.
 
 This is powerful because investors understand what a 45% decline feels like.
 
-### Recovery Mathematics
+## Recovery Mathematics
 
 Losses require larger percentage gains to recover.
 
@@ -242,7 +246,7 @@ Balance-sheet metrics examine the business.
 
 Debt can amplify shareholder outcomes because lenders have contractual claims that rank ahead of equity.
 
-Useful leverage measures include debt-to-equity, net debt/EBITDA, debt/assets, interest coverage, and fixed-charge coverage.
+Useful leverage measures include debt-to-equity, net debt/EBITDA, debt/assets, interest coverage, and fixed-charge coverage. Each can be calculated from the financial statements that public companies file through the [SEC's EDGAR database](https://www.sec.gov/edgar/search/).
 
 The appropriate measure depends on the industry.
 
@@ -298,9 +302,9 @@ Near -1 suggests opposite movement.
 
 Diversification benefits are strongest when assets do not move perfectly together.
 
-Investor.gov's diversification guidance emphasizes spreading investments to reduce overall risk, while also noting diversification cannot guarantee protection against broad market declines.
+[Investor.gov's diversification guidance](https://www.investor.gov/introduction-investing/investing-basics/save-and-invest/diversify-your-investments) emphasizes spreading investments to reduce overall risk, while also noting that diversification cannot guarantee protection when the market drops.
 
-### Sector Labels Can Hide Correlation
+## Sector Labels Can Hide Correlation
 
 Two companies in different industries may still depend on the same factor.
 
@@ -377,7 +381,7 @@ If the answer is 20%, buying an asset that routinely experiences 40% drawdowns c
 
 ## Use the Right Risk Metric for the Decision
 
-Different decisions call for different metrics.
+Different decisions call for different stock risk metrics.
 
 ### Choosing Position Size
 
@@ -398,6 +402,8 @@ Blend market metrics with business and balance-sheet risk.
 No one statistic wins every job.
 
 ## Common Mistakes With Stock Risk Metrics
+
+Six mistakes come up repeatedly when investors read these numbers.
 
 ### Calling Beta “Risk”
 
@@ -517,7 +523,7 @@ It is to know which risk you are taking, how much of it the portfolio can absorb
 
 ## Frequently Asked Questions
 
-Short answers to the questions readers ask most often.
+Short answers to the questions readers ask most often about stock risk metrics.
 
 ### What Is the Best Stock Risk Metric?
 

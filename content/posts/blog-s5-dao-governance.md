@@ -1,7 +1,7 @@
 ---
-title: DAO Governance and DeFi: What Token Voting Actually Controls
+title: DAO Governance and DeFi: What Token Voting Controls
 seo_title: DAO Governance: How Token Voting Works in Practice
-description: Learn how DAO governance works, how delegation and quorum shape voting power, and what token holders actually control in protocols such as Uniswap.
+description: Learn how DAO governance works, how delegation and quorum shape voting power, and what token holders control in protocols such as Uniswap.
 slug: /fintech/dao-governance/
 type: blog
 schema: BlogPosting
@@ -12,6 +12,8 @@ secondary_keywords: DAO governance model; token voting; governance token; Uniswa
 cluster: Fintech
 approved_internal_links: /fintech/
 research_record: content/research/blog-s5.json
+image: /assets/images/posts/dao-governance/governance-proposal-vote-1600.jpg
+image_alt: A laptop and phone showing a sample governance proposal and vote screen, with printed proposal documents
 link_placement_site: Use The Bitcoin
 charts_pending: 1
 ai_exceptions: 
@@ -21,7 +23,7 @@ published:
 modified: 
 ---
 
-# DAO Governance and DeFi: What Token Voting Actually Controls
+# DAO Governance and DeFi: What Token Voting Controls
 
 A DAO can call itself decentralized and still have most practical voting power concentrated in a small number of delegates. A governance token can give holders voting rights while very few holders use them. A proposal can pass a formal quorum while the process leading to the vote remains heavily shaped by large stakeholders, delegates, proposal authors, forums, and voting interfaces.
 
@@ -59,7 +61,7 @@ The scope varies.
 
 A token holder should therefore ask a basic question before caring about voter turnout:
 
-**What can governance actually change?**
+**What can governance change?**
 
 A voting system that controls a large treasury and core protocol parameters has different economic importance from one that mainly approves community grants.
 
@@ -79,7 +81,7 @@ If one address controls ten times more voting tokens than another, it may have t
 
 Delegation allows a token holder to keep ownership while assigning voting power to another address.
 
-Uniswap’s [governance glossary](https://developers.uniswap.org/docs/ecosystem/governance/glossary) explains that UNI holders can delegate to themselves or to another address. Delegation does not transfer the underlying tokens and can be changed.
+Uniswap’s governance glossary explains that UNI holders can delegate to themselves or to another address. Delegation does not transfer the underlying tokens and can be changed.
 
 This solves a practical problem. Many token holders do not have the time or expertise to evaluate every proposal.
 
@@ -269,7 +271,7 @@ Decentralization therefore does not necessarily mean the absence of legal struct
 
 A single snapshot can make a DAO appear healthier or weaker than it really is. Governance should also be tracked as a time series.
 
-Useful quarterly or annual measures include number of RFCs opened, number of Temperature Checks, number of on-chain proposals, percentage of proposals that advance between stages, unique voters, active delegates, voting power held by the top 10 delegates, treasury spending approved, median time from RFC to execution, and percentage of passed proposals actually executed.
+Useful quarterly or annual measures include number of RFCs opened, number of Temperature Checks, number of on-chain proposals, percentage of proposals that advance between stages, unique voters, active delegates, voting power held by the top 10 delegates, treasury spending approved, median time from RFC to execution, and the percentage of passed proposals that were executed.
 
 This creates a governance “progress” view.
 
@@ -310,7 +312,7 @@ Which assets, fees, users, contracts, or treasury balances are affected?
 
 ### Step 3: Identify the Authority
 
-Does governance actually have the power to execute the change?
+Does governance have the power to execute the change?
 
 ### Step 4: Read the Discussion
 
@@ -362,7 +364,7 @@ Governance can face technical, economic, and social risks including vote concent
 
 ## Resources
 
-The following sources provide the primary or specialist evidence used to verify the claims and frameworks in this article.
+The following sources provide the primary or specialist evidence used to verify the claims and frameworks above.
 
 - [Uniswap Developers, Governance Process, updated 2026](https://developers.uniswap.org/docs/ecosystem/governance/governance-process)
 - [Uniswap Developers, Governance Glossary](https://developers.uniswap.org/docs/ecosystem/governance/glossary)

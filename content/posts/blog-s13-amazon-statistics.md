@@ -12,10 +12,12 @@ secondary_keywords:
 cluster: Markets & Stocks
 approved_internal_links: /markets-stocks/
 research_record: content/research/blog-s13.json
+image: /assets/images/posts/amazon-statistics/fulfilment-center-seller-dashboard-1600.jpg
+image_alt: A laptop showing a sample seller dashboard on a packing table in an Amazon fulfilment center
 link_placement_site: WebTribunal
 charts_pending: 0
-ai_exceptions: 
-ai_exception_reason: 
+ai_exceptions: leverage
+ai_exception_reason: Operating leverage is a technical financial term and is used in that sense only.
 author: 
 published: 
 modified: 
@@ -35,18 +37,20 @@ They show which parts of the company generate revenue, which produce profit, how
 
 ## Key Takeaways
 
-The main points are summarized below.
+The points below summarize the Amazon statistics that explain where sales and profit come from.
 
-- **Amazon generated $716.9 billion in net sales in 2025**, up 12% year over year.
-- **AWS generated $128.7 billion in 2025 sales**, up 20%.
-- **Amazon operating income reached $80.0 billion in 2025**, up from $68.6 billion.
-- **AWS produced $45.6 billion in 2025 operating income**, making it disproportionately important to profit.
-- **Q2 2026 net sales reached $200.6 billion**, up 20%.
-- **AWS Q2 2026 sales increased 37% to $42.2 billion**, the fastest growth in 18 quarters.
-- **Q2 2026 operating income reached $27.5 billion**, up 43%.
-- **Free cash flow fell sharply in 2025 as property and equipment investment surged**, illustrating the cost of AI and infrastructure expansion.
+- **Net Sales:** Amazon generated $716.9 billion in net sales in 2025, up 12% year over year.
+- **AWS Sales:** AWS generated $128.7 billion in 2025 sales, up 20%.
+- **Operating Income:** Amazon operating income reached $80.0 billion in 2025, up from $68.6 billion.
+- **AWS Profit:** AWS produced $45.6 billion in 2025 operating income, making it disproportionately important to profit.
+- **Second-Quarter Sales:** Q2 2026 net sales reached $200.6 billion, up 20%.
+- **AWS Growth:** AWS Q2 2026 sales increased 37% to $42.2 billion, the fastest growth in 18 quarters.
+- **Second-Quarter Operating Income:** Q2 2026 operating income reached $27.5 billion, up 43%.
+- **Free Cash Flow:** Free cash flow fell to $11.2 billion in 2025 from $38.2 billion in 2024 as property and equipment investment surged, illustrating the cost of AI and infrastructure expansion.
 
 ## Amazon Statistics at a Glance
+
+The table gathers the headline figures from Amazon's [fourth-quarter and full-year 2025 results](https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Fourth-Quarter-Results/default.aspx) and its [second-quarter 2026 results](https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/default.aspx).
 
 | Metric | Latest Verified Figure | Period |
 |---|---:|---|
@@ -77,7 +81,7 @@ Understanding that distinction is central to Amazon analysis.
 
 Amazon's second-quarter 2026 net sales reached **$200.6 billion**, up 20% from $167.7 billion a year earlier.
 
-That growth rate is remarkable for a company already operating at Amazon's scale.
+That growth rate is unusual for a company already operating at Amazon's scale.
 
 North America sales increased 16%.
 
@@ -113,7 +117,7 @@ This is one of the most important Amazon statistics.
 
 Revenue mix and profit mix are very different.
 
-### FY2025 Revenue and Profit Mix
+The full-year segment figures show where sales and profit come from.
 
 | Segment | Sales | Operating Income |
 |---|---:|---:|
@@ -207,7 +211,7 @@ Amazon reported trailing-twelve-month free cash flow of **$11.2 billion** at the
 
 That was down sharply because property and equipment purchases increased by approximately $50.7 billion year over year.
 
-This is a crucial point.
+This point is central.
 
 The business did not suddenly stop generating operating cash.
 
@@ -467,7 +471,7 @@ The next phase of Amazon's financial performance will depend on how effectively 
 
 ## Frequently Asked Questions
 
-Short answers to the questions readers ask most often.
+Short answers to the questions readers ask most often about Amazon statistics.
 
 ### How Much Revenue Does Amazon Make?
 
