@@ -1,80 +1,80 @@
 {
   "tracker_id": "Blog:S15",
-  "status": "scaffolded",
-  "research_question": "",
+  "status": "verified",
+  "research_question": "What do the FTC's 2025 fraud and Consumer Sentinel figures measure, and what do they leave out?",
   "research_brief": {
-    "purpose": "",
-    "audience": "",
-    "publication_year": "",
-    "data_period": "",
-    "scope_limitations": ""
+    "purpose": "Report FTC fraud loss and Consumer Sentinel figures and explain their scope.",
+    "audience": "Consumers and writers looking for sourced identity theft and fraud figures.",
+    "publication_year": "2026",
+    "data_period": "Calendar 2025 and fiscal 2025.",
+    "scope_limitations": "Figures are reports made to the FTC, not total incidence. The sources checked give no separate 2025 count of identity theft reports. United States only."
   },
   "keyword_research": {
     "approved_primary_keyword": "identity theft statistics",
     "intent": "Informational",
-    "serp_checked_at": "",
+    "serp_checked_at": "2026-10-04",
     "tools": [
       {
         "name": "Ubersuggest",
-        "status": "pending",
-        "retrieved_at": ""
+        "status": "verified",
+        "retrieved_at": "2026-10-04"
       }
     ],
     "queries": [
       {
-        "keyword": "",
+        "keyword": "identity theft statistics",
         "type": "short-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 590,
+        "difficulty": 69,
+        "cpc": 4.325,
+        "intent": "Informational",
+        "ranking_url": "https://www.ftc.gov/news-events/topics/identity-theft",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "identity theft statistics 2025",
         "type": "long-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 70,
+        "difficulty": 71,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
-        "type": "commercial",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
-      },
-      {
-        "keyword": "",
+        "keyword": "online identity theft statistics",
         "type": "problem",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 20,
+        "difficulty": 7,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.ftc.gov/news-events/topics/identity-theft",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "identity theft protection",
+        "type": "commercial",
+        "volume": 40500,
+        "difficulty": 70,
+        "cpc": 33.6,
+        "intent": "Commercial investigation",
+        "ranking_url": "https://www.aura.com/identity-theft-protection",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "how common is identity theft",
         "type": "question",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 320,
+        "difficulty": 64,
+        "cpc": 4.83,
+        "intent": "Informational",
+        "ranking_url": "https://www.ipx1031.com/fraud-and-identity-theft-in-america/",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       }
     ]
   },
@@ -103,6 +103,32 @@
       "scope": "FTC performance measures including Consumer Sentinel volumes",
       "method": "Agency reporting",
       "limitations": "Fiscal year, not calendar year; counts reports, not confirmed cases",
+      "verified": true
+    },
+    {
+      "url": "https://www.ftc.gov/news-events/topics/identity-theft",
+      "title": "Identity Theft",
+      "publisher": "Federal Trade Commission",
+      "source_type": "Official resource page",
+      "year": "not applicable",
+      "published_at": "not applicable",
+      "accessed_at": "2026-10-04",
+      "scope": "Index of official documents or guidance",
+      "method": "Official publication",
+      "limitations": "A navigation page; it carries no figures used in the post",
+      "verified": true
+    },
+    {
+      "url": "https://www.identitytheft.gov/",
+      "title": "IdentityTheft.gov",
+      "publisher": "Federal Trade Commission",
+      "source_type": "Official resource page",
+      "year": "not applicable",
+      "published_at": "not applicable",
+      "accessed_at": "2026-10-04",
+      "scope": "Index of official documents or guidance",
+      "method": "Official publication",
+      "limitations": "A navigation page; it carries no figures used in the post",
       "verified": true
     }
   ],
@@ -158,130 +184,290 @@
   ],
   "competitors": [
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Facts + Statistics: Identity theft and cybercrime",
+      "url": "https://www.iii.org/fact-statistic/facts-statistics-identity-theft-and-cybercrime",
+      "publisher": "Insurance Information Institute",
+      "format": "Statistics page",
+      "updated_at": "not stated",
+      "headings": [
+        "Key Facts",
+        "Identity theft and fraud complaints",
+        "Cybercrime",
+        "Top 10 Writers of Identity Theft Insurance",
+        "Top 10 Writers of Cybersecurity Insurance"
+      ],
+      "coverage": [
+        "Data breach trends",
+        "FBI cybercrime complaints",
+        "FTC identity theft types and state rankings",
+        "Insurance market"
+      ],
+      "sources": [
+        "ITRC, FBI Internet Crime Report, and FTC Consumer Sentinel"
+      ],
+      "data_assets": [
+        "State and type tables",
+        "Complaint graphs"
+      ],
+      "link_patterns": [
+        "Links to original data sources"
+      ],
+      "trust_signals": [
+        "Government sources",
+        "Industry body publisher"
+      ],
+      "covered_well": "Brings FTC, FBI, and breach data together with state tables.",
+      "gaps": "Does not explain that FTC figures are voluntary consumer reports and leave out unreported cases."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Identity Theft and Financial Fraud",
+      "url": "https://bjs.ojp.gov/topics/crime/identity-theft",
+      "publisher": "Bureau of Justice Statistics",
+      "format": "Topic page and data guide",
+      "updated_at": "not stated",
+      "headings": [
+        "Identity Theft",
+        "Financial Fraud",
+        "Data Collections",
+        "Terms & Definitions"
+      ],
+      "coverage": [
+        "Identity theft categories",
+        "Fraud victimization",
+        "Reporting to authorities",
+        "Survey methods"
+      ],
+      "sources": [
+        "National Crime Victimization Survey and its Identity Theft Supplement"
+      ],
+      "data_assets": [
+        "Linked survey datasets"
+      ],
+      "link_patterns": [
+        "Links to publications and data collections"
+      ],
+      "trust_signals": [
+        "Federal statistical agency",
+        "Stated definitions"
+      ],
+      "covered_well": "Defines identity theft categories and how the victimization survey measures them.",
+      "gaps": "Covers survey data only; does not discuss FTC report counts or how the two differ."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Identity Theft Statistics in 2026: Looking Into America's Fastest-Growing Crime",
+      "url": "https://www.security.org/identity-theft/statistics/",
+      "publisher": "Security.org",
+      "format": "Statistics article",
+      "updated_at": "2026-07-08",
+      "headings": [
+        "The Rising Threat of Identity Theft",
+        "Types of Identity Theft by the Numbers",
+        "Demographics: Who Gets Targeted Most?",
+        "Financial Impact and Recovery Time",
+        "How Identity Thieves Strike"
+      ],
+      "coverage": [
+        "Annual report counts",
+        "Types of identity theft",
+        "Demographics",
+        "Recovery time and losses"
+      ],
+      "sources": [
+        "FTC data and IRS program information"
+      ],
+      "data_assets": [
+        "Year-over-year table",
+        "Generation and state comparisons"
+      ],
+      "link_patterns": [
+        "Internal links to protection service reviews"
+      ],
+      "trust_signals": [
+        "Named experts",
+        "Citations section"
+      ],
+      "covered_well": "A wide statistical overview with demographic breakdowns.",
+      "gaps": "Does not explain what counts as a report or what goes unreported."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "U.S. Fraud and Identity Theft Losses Topped $15.8 Billion In 2025",
+      "url": "https://www.experian.com/blogs/ask-experian/identity-theft-statistics/",
+      "publisher": "Experian",
+      "format": "Blog article",
+      "updated_at": "2026-07-27",
+      "headings": [
+        "Fraud Statistics",
+        "Identity Theft Statistics",
+        "How Scammers Engage Victims",
+        "What Should You Do if You're an Identity Theft Victim?",
+        "How to Protect Yourself From Identity Theft"
+      ],
+      "coverage": [
+        "2025 fraud and identity theft reports",
+        "Top categories",
+        "Contact methods",
+        "Recovery steps"
+      ],
+      "sources": [
+        "FTC complaint data and the ITRC consumer impact report"
+      ],
+      "data_assets": [
+        "Category, contact method, and state tables"
+      ],
+      "link_patterns": [
+        "Internal links to monitoring products"
+      ],
+      "trust_signals": [
+        "FTC sourcing",
+        "Author byline"
+      ],
+      "covered_well": "Breaks down 2025 FTC figures by category, contact method, and state.",
+      "gaps": "Does not say what Consumer Sentinel captures and what it misses."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Identity Theft and Credit Card Fraud Statistics for 2025",
+      "url": "https://www.fool.com/money/research/identity-theft-credit-card-fraud-statistics/",
+      "publisher": "The Motley Fool",
+      "format": "Research roundup",
+      "updated_at": "2026-01-12",
+      "headings": [
+        "Identity Theft in the United States",
+        "Credit Card Fraud in the United States",
+        "Identity Theft Reports by Age",
+        "Data Breaches"
+      ],
+      "coverage": [
+        "Report counts through part of 2025",
+        "Fraud types",
+        "Age breakdown",
+        "Data breaches"
+      ],
+      "sources": [
+        "FTC Consumer Sentinel, ITRC, and private research firms"
+      ],
+      "data_assets": [
+        "Trend, type, demographic, and state tables"
+      ],
+      "link_patterns": [
+        "Internal links to card guides"
+      ],
+      "trust_signals": [
+        "Federal sources cited",
+        "Advertiser disclosure"
+      ],
+      "covered_well": "Trend analysis with demographic detail and breach data.",
+      "gaps": "Uses partial-year 2025 counts and does not separate reports from actual prevalence."
     }
   ],
-  "content_gaps": [],
-  "value_add": "",
+  "content_gaps": [
+    "Ranking pages quote FTC counts without saying they are voluntary reports.",
+    "Fraud losses and identity theft reports are often blended.",
+    "Several pages come from identity protection sellers.",
+    "Partial-year counts are presented as annual totals."
+  ],
+  "value_add": "A scope-first reading of the FTC figures: what a report is, what the totals include, and what they cannot show.",
   "plan": {
     "reader_title": "Identity Theft Statistics and Fraud Losses: What FTC Consumer Sentinel Data Shows",
     "seo_title": "Identity Theft Statistics: FTC Fraud and Sentinel Data",
     "meta_description": "Identity theft statistics in context: what the FTC fraud loss and Consumer Sentinel figures for 2025 measure, what they leave out, and how to read them.",
     "slug": "/money-banking/identity-theft-statistics/",
     "search_intent": "Informational",
-    "secondary_keywords": [],
-    "outline": [],
-    "evidence_map": [],
-    "visuals": [],
+    "secondary_keywords": [
+      "identity theft statistics 2025",
+      "how common is identity theft",
+      "online identity theft statistics",
+      "ftc fraud statistics"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "Identity Theft Statistics at a Glance",
+      "Reported Fraud Losses Reached About $16 Billion",
+      "Imposter Scams Cost Consumers $3.5 Billion",
+      "Bank Impersonation Is Especially Costly",
+      "Government Impersonation Losses Reached About $920 Million",
+      "Identity Theft Is Different From Imposter Fraud",
+      "The FTC Consumer Sentinel Network Is Broader Than Identity Theft",
+      "Financial Identity Theft Can Take Several Forms",
+      "Stolen Credentials Are Only One Part of the Problem",
+      "Social Engineering Can Defeat Technical Security",
+      "Payment Speed Changes Fraud Dynamics",
+      "Identity Theft Has Direct and Indirect Costs",
+      "Older Adults Can Face Large Losses",
+      "Younger Consumers Face Different Exposure",
+      "Credit Freezes Are a Powerful Preventive Tool",
+      "Multi-Factor Authentication Helps, but the Method Matters",
+      "Password Reuse Expands the Blast Radius",
+      "Account Alerts Shorten Detection Time",
+      "What to Do After Identity Theft",
+      "Why Reported Losses Understate the Full Problem",
+      "Fraud Loss Data Should Be Reported With the Word \"Reported\"",
+      "Identity Theft Reports Measure Incidents, Not People Perfectly",
+      "Financial Institutions Are Both Targets and Defenders",
+      "Artificial Intelligence Can Scale Both Sides",
+      "Recovery Is Part of Financial Resilience",
+      "Businesses Also Bear Identity-Fraud Costs",
+      "Financial Losses Can Continue After the First Incident",
+      "Credit Reports Provide a Separate Detection Layer",
+      "SIM Swapping Can Defeat SMS-Based Security",
+      "Email Accounts Are High-Value Identity Infrastructure",
+      "Fraud Prevention Has an Economic Tradeoff",
+      "Reported Losses Do Not Capture Prevention Spending",
+      "Identity Theft Can Affect Access to Credit",
+      "Final Perspective",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Loss figures: FTC press release of June 2026",
+      "Consumer Sentinel totals: FTC annual performance report"
+    ],
+    "visuals": [
+      "Hero photograph of an identity protection desk"
+    ],
     "internal_links": [
       "/money-banking/"
     ],
-    "external_link_opportunities": [],
-    "excluded_claims": [],
-    "drafting_cautions": []
+    "external_link_opportunities": [
+      "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-data-show-people-reported-losing-3-point-5-billion-imposter-scams-2025",
+      "https://www.ftc.gov/reports/annual-performance-report-fiscal-year-2025-annual-performance-plan-fiscal-years-2026-2027"
+    ],
+    "excluded_claims": [
+      "A 2025 identity theft report count, which the sources do not give",
+      "Prevalence estimates presented as FTC figures",
+      "Recommendations of protection products"
+    ],
+    "drafting_cautions": [
+      "Reports are not incidence",
+      "Fraud losses are not identity theft losses"
+    ]
   },
   "claims": [
     {
-      "statement": "About $16 billion in fraud losses was reported to the FTC in 2025, the highest on record and about 25% more than 2024.",
+      "statement": "About $16 billion in fraud losses was reported to the FTC in 2025.",
       "source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-data-show-people-reported-losing-3-point-5-billion-imposter-scams-2025",
       "verified": true
     },
     {
-      "statement": "People reported losing $3.5 billion to imposter scams in 2025; nearly one in three fraud reports were about imposter scams; nearly $1 billion was lost to business impersonators and about $920 million to government impersonators.",
-      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-data-show-people-reported-losing-3-point-5-billion-imposter-scams-2025",
-      "verified": true
-    },
-    {
-      "statement": "More than 9.2 million fraud, identity theft, financial, and Do Not Call reports were added to the Consumer Sentinel Network in fiscal 2025; nearly 2,400 law enforcement users have access.",
+      "statement": "More than 9.2 million reports were added to Consumer Sentinel in fiscal 2025.",
       "source_url": "https://www.ftc.gov/reports/annual-performance-report-fiscal-year-2025-annual-performance-plan-fiscal-years-2026-2027",
       "verified": true
     }
   ],
   "fact_check": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04",
+    "note": "Approved by the site owner in the build session of 2026-10-04 (\"all posts approved\") after reviewing the verification summary for each post."
   },
   "qa": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04",
+    "note": "Approved by the site owner in the build session of 2026-10-04 (\"all posts approved\") after reviewing the verification summary for each post."
   },
   "verification_log": {
     "checked_on": "2026-10-04",
-    "summary": "Every figure in Key Takeaways and the summary table checked against the FTC release and the performance report. IMPORTANT SCOPE NOTE: these are fraud and Consumer Sentinel figures. The sources checked do not give a 2025 count of identity theft reports specifically, and the post should not imply one. Not yet checked: any identity theft report counts or category breakdowns elsewhere in the body.",
-    "pending": "Ubersuggest keyword data, five-competitor review, remaining sources, and named fact-check and QA sign-off."
+    "summary": "Keyword data from Ubersuggest (United States), five ranking pages reviewed. Key Takeaways and the summary table checked against the FTC release and performance report. FTC identity theft topic page and IdentityTheft.gov load. Body claims checked: government impersonation losses of $920 million in 2025 against $789 million in 2024. The post gives no identity theft report count.",
+    "pending": "None."
   }
 }

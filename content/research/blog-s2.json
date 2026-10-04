@@ -1,232 +1,437 @@
 {
   "tracker_id": "Blog:S2",
-  "status": "scaffolded",
-  "research_question": "",
+  "status": "verified",
+  "research_question": "Which crypto analytics tools answer which questions, and what can on-chain data not show?",
   "research_brief": {
-    "purpose": "",
-    "audience": "",
-    "publication_year": "",
-    "data_period": "",
-    "scope_limitations": ""
+    "purpose": "Show readers how to match an analytics tool to a research question and read its metrics with the right definitions.",
+    "audience": "Crypto holders and researchers who use explorers and dashboards without formal training.",
+    "publication_year": "2026",
+    "data_period": "Tool documentation as published in 2026.",
+    "scope_limitations": "No tool is ranked or recommended. Token and wallet figures in the post are illustrative, not market data."
   },
   "keyword_research": {
     "approved_primary_keyword": "crypto analytics tools",
-    "intent": "Informational",
-    "serp_checked_at": "",
+    "intent": "Informational, with commercial tool comparisons in the results",
+    "serp_checked_at": "2026-10-04",
     "tools": [
       {
         "name": "Ubersuggest",
-        "status": "pending",
-        "retrieved_at": ""
+        "status": "verified",
+        "retrieved_at": "2026-10-04"
       }
     ],
     "queries": [
       {
-        "keyword": "",
+        "keyword": "crypto analytics tools",
         "type": "short-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 50,
+        "difficulty": 18,
+        "cpc": 4.48,
+        "intent": "Informational",
+        "ranking_url": "https://www.chainalysis.com/",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "on chain analytics tools",
         "type": "long-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.chainalysis.com/",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "best crypto analytics tools",
         "type": "commercial",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Commercial investigation",
+        "ranking_url": "https://www.blockchain-council.org/cryptocurrency/top-crypto-asset-recovery-tools-blockchain-investigations/",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "how to track crypto wallets",
         "type": "problem",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 40,
+        "difficulty": 42,
+        "cpc": 3.4,
+        "intent": "Informational",
+        "ranking_url": "https://zerion.io/crypto-wallet-tracker/",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "what is blockchain analytics",
         "type": "question",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 20,
+        "difficulty": 9,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.trmlabs.com/glossary/blockchain-analytics",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       }
     ]
   },
   "sources": [
     {
-      "url": "",
-      "title": "",
-      "publisher": "",
-      "source_type": "",
-      "year": "",
-      "published_at": "",
-      "accessed_at": "",
-      "scope": "",
-      "method": "",
-      "limitations": "",
-      "verified": false
+      "url": "https://docs.etherscan.io/",
+      "title": "Welcome to the Etherscan API",
+      "publisher": "Etherscan",
+      "source_type": "Product documentation",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-04",
+      "scope": "What the explorer and its API provide",
+      "method": "Vendor documentation",
+      "limitations": "Self-description by the vendor; coverage changes over time",
+      "verified": true
+    },
+    {
+      "url": "https://defillama.com/data-definitions",
+      "title": "Data Definitions",
+      "publisher": "DefiLlama",
+      "source_type": "Methodology page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-04",
+      "scope": "Definitions of TVL, fees, revenue, and related metrics",
+      "method": "Published metric definitions",
+      "limitations": "Definitions are specific to this data provider",
+      "verified": true
+    },
+    {
+      "url": "https://info.arkm.com/research/a-guide-to-arkham-intels-industry-leading-tagging-system",
+      "title": "Blockchain Intelligence: Arkham's Industry-Leading Tagging System Explained",
+      "publisher": "Arkham Intelligence",
+      "source_type": "Vendor research article",
+      "year": "2026",
+      "published_at": "2026-03-17",
+      "accessed_at": "2026-10-04",
+      "scope": "How entities, labels, and tags are applied to addresses",
+      "method": "Vendor documentation",
+      "limitations": "Attribution is the vendor's own and can be wrong or incomplete",
+      "verified": true
+    },
+    {
+      "url": "https://docs.dune.com/data-catalog/evm/ethereum/decoded/event-logs",
+      "title": "Event Logs",
+      "publisher": "Dune",
+      "source_type": "Product documentation",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-04",
+      "scope": "What decoded event logs are",
+      "method": "Vendor documentation",
+      "limitations": "Describes one platform's data tables",
+      "verified": true
     }
   ],
   "statistics": [
     {
-      "claim": "",
-      "source_url": "",
-      "data_year": "",
-      "geography": "",
-      "population": "",
-      "sample": "",
-      "denominator": "",
-      "unit": "",
-      "method": "",
-      "limitations": "",
+      "claim": "DefiLlama defines protocol TVL as the value of all coins held in the protocol's smart contracts, fees as the total paid by users, and revenue as the subset the protocol keeps, excluding fees paid to liquidity providers.",
+      "source_url": "https://defillama.com/data-definitions",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Not applicable: documented rule or definition",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Published metric definitions",
+      "limitations": "Describes the source at the access date and may change",
       "sponsored": false,
       "partial_year": false,
       "estimate": false,
-      "verified": false
+      "verified": true
+    },
+    {
+      "claim": "Etherscan states that its API serves the same data as its explorer across more than 60 EVM chains.",
+      "source_url": "https://docs.etherscan.io/",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Not applicable: documented rule or definition",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Number of chains",
+      "method": "Stated in the source document",
+      "limitations": "Vendor statement; the count changes over time",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
     }
   ],
   "competitors": [
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "List of Analytics tools (2026)",
+      "url": "https://www.alchemy.com/dapps/best/analytics-tools",
+      "publisher": "Alchemy",
+      "format": "Directory",
+      "updated_at": "not stated",
+      "headings": [
+        "Analytics tools",
+        "List of Analytics tools",
+        "Related collections"
+      ],
+      "coverage": [
+        "Web3 analytics platforms",
+        "NFT analytics",
+        "Portfolio dashboards",
+        "DeFi analytics"
+      ],
+      "sources": [
+        "Third-party ecosystem data sources named"
+      ],
+      "data_assets": [
+        "Tool listing"
+      ],
+      "link_patterns": [
+        "Internal links to tool profiles"
+      ],
+      "trust_signals": [
+        "Review process described"
+      ],
+      "covered_well": "A large, browsable directory of analytics tools.",
+      "gaps": "No guidance on reading metrics, data limits, or definitions."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Comprehensive List of Crypto Research & Analytics Tools",
+      "url": "https://collectiveshift.io/tools/crypto-analytics-tools/",
+      "publisher": "Collective Shift",
+      "format": "Directory",
+      "updated_at": "not stated",
+      "headings": [
+        "Section 1: Categories & Use Cases",
+        "Section 2: Non-Fungible Tokens (NFTs)",
+        "Section 3: Blockchain-Specific Explorers & Tools",
+        "Section 4: Project-Specific Tools"
+      ],
+      "coverage": [
+        "DeFi analytics",
+        "NFT tools",
+        "Chain explorers",
+        "Protocol dashboards"
+      ],
+      "sources": [
+        "Links to external tools"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Categorized external tool links"
+      ],
+      "trust_signals": [
+        "Annotated categories"
+      ],
+      "covered_well": "Organizes a wide range of tools by use case and chain.",
+      "gaps": "Lists tools without explaining how to interpret or validate what they show."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "20 Popular Blockchain Analytics Tools and Companies",
+      "url": "https://coinmarketcap.com/academy/article/20-popular-blockchain-analytics-tools-and-companies",
+      "publisher": "CoinMarketCap Academy",
+      "format": "Explainer with tool list",
+      "updated_at": "not stated",
+      "headings": [
+        "How To Use Crypto Analytics Tools?",
+        "Research Token Price Fundamentals",
+        "Investigate the Flow of Funds",
+        "Learn About Different Sectors"
+      ],
+      "coverage": [
+        "On-chain platforms",
+        "DeFi aggregators",
+        "Research firms",
+        "NFT and derivatives analytics"
+      ],
+      "sources": [
+        "Tool websites"
+      ],
+      "data_assets": [
+        "None original"
+      ],
+      "link_patterns": [
+        "Glossary and tool links"
+      ],
+      "trust_signals": [
+        "Third-party content disclaimer"
+      ],
+      "covered_well": "Groups twenty tools by what a reader would use them for.",
+      "gaps": "Several years old, with little on data quality or what on-chain data cannot show."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Top Analytics Tools | Quicknode Builders Guide",
+      "url": "https://www.quicknode.com/builders-guide/tool-categories/analytics-tools",
+      "publisher": "Quicknode",
+      "format": "Directory",
+      "updated_at": "not stated",
+      "headings": [
+        "What are Analytics Tools?",
+        "Primary users and characteristics",
+        "Top Tools"
+      ],
+      "coverage": [
+        "Explorers and trackers",
+        "Protocol dashboards",
+        "Multi-chain coverage"
+      ],
+      "sources": [
+        "Curated directory with submissions"
+      ],
+      "data_assets": [
+        "Tool listing"
+      ],
+      "link_patterns": [
+        "Internal tool detail pages"
+      ],
+      "trust_signals": [
+        "Submission and update process"
+      ],
+      "covered_well": "Defines the tool category and its typical users.",
+      "gaps": "Aimed at developers; nothing on comparing tools or the limits of on-chain data."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "What Is Blockchain Analytics? Definition, Uses & Tools",
+      "url": "https://www.trmlabs.com/glossary/blockchain-analytics",
+      "publisher": "TRM Labs",
+      "format": "Glossary guide",
+      "updated_at": "2026-05-05",
+      "headings": [
+        "What is blockchain analytics?",
+        "Blockchain analytics in practice",
+        "Blockchain analytics use cases by industry",
+        "Key challenges associated with blockchain analytics",
+        "Frequently asked questions (FAQs)"
+      ],
+      "coverage": [
+        "Address clustering and attribution",
+        "Risk scoring",
+        "Uses in compliance and law enforcement",
+        "Future trends"
+      ],
+      "sources": [
+        "Vendor's own platform and case studies"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Internal links to products and training"
+      ],
+      "trust_signals": [
+        "Named case studies",
+        "Update date"
+      ],
+      "covered_well": "Explains what blockchain analytics is and how compliance teams use it.",
+      "gaps": "Written for compliance buyers; little on choosing tools as an individual or on data limits."
     }
   ],
-  "content_gaps": [],
-  "value_add": "",
+  "content_gaps": [
+    "Ranking pages are directories or product roundups; they list tools without saying which question each one answers.",
+    "None of the pages reviewed gives metric definitions such as the difference between fees and revenue.",
+    "Limits of on-chain data, such as exchange wallets holding many customers' balances, are barely covered.",
+    "No page reviewed gives a repeatable research workflow."
+  ],
+  "value_add": "A question-first guide: which tool type answers which question, the published definitions behind the common metrics, and a holder-classification method that avoids misreading concentration.",
   "plan": {
     "reader_title": "Crypto Analytics Tools: How to Research Tokens Without Dashboard Overload",
     "seo_title": "Crypto Analytics Tools for Better Token Research",
     "meta_description": "Compare crypto analytics tools by the questions they answer, from market data and liquidity to on-chain activity, protocol fees, and wallets.",
     "slug": "/crypto/crypto-analytics-tools/",
-    "search_intent": "Informational",
-    "secondary_keywords": [],
-    "outline": [],
-    "evidence_map": [],
-    "visuals": [],
+    "search_intent": "Informational, with commercial tool comparisons in the results",
+    "secondary_keywords": [
+      "on chain analytics tools",
+      "how to track crypto wallets",
+      "what is blockchain analytics",
+      "best crypto analytics tools"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "The Research Stack Starts With the Question",
+      "Market-Data Platforms Are the First Screen, Not the Final Verdict",
+      "Blockchain Explorers Are the Verification Layer",
+      "Contract Verification Should Happen Before Token Comparison",
+      "DeFi Dashboards Require Metric Discipline",
+      "TVL Can Be Useful Without Being a Valuation Metric",
+      "SQL Analytics Platforms Let You Reproduce the Question",
+      "Event Logs Can Reveal More Than Transaction Counts",
+      "Wallet Intelligence Adds Entity Context",
+      "Holder Concentration Needs Address Classification",
+      "Liquidity Tools Answer a Different Question From Market Cap",
+      "Supply Research Requires More Than One Field",
+      "Social Data Is Context, Not Proof",
+      "Developer Activity Needs the Same Caution",
+      "Build a Four-Layer Crypto Research Workflow",
+      "A Tool Comparison Framework",
+      "Common Research Mistakes",
+      "How to Document Your Research",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Explorer section: Etherscan documentation",
+      "TVL, fees, and revenue section: DefiLlama data definitions",
+      "Wallet labeling section: Arkham tagging guide"
+    ],
+    "visuals": [
+      "Hero photograph of on-chain metrics dashboards"
+    ],
     "internal_links": [
       "/crypto/"
     ],
-    "external_link_opportunities": [],
-    "excluded_claims": [],
-    "drafting_cautions": []
+    "external_link_opportunities": [
+      "https://docs.etherscan.io/",
+      "https://defillama.com/data-definitions",
+      "https://info.arkm.com/research/a-guide-to-arkham-intels-industry-leading-tagging-system"
+    ],
+    "excluded_claims": [
+      "Rankings or recommendations of specific tools",
+      "Any statement that a labeled wallet belongs to a named party",
+      "Live market figures"
+    ],
+    "drafting_cautions": [
+      "Holder percentages and fee examples in the post are illustrative",
+      "Vendor documentation describes the vendor's own product"
+    ]
   },
   "claims": [
     {
-      "statement": "",
-      "source_url": "",
-      "verified": false
+      "statement": "DefiLlama counts as revenue only the part of fees a protocol keeps for itself.",
+      "source_url": "https://defillama.com/data-definitions",
+      "verified": true
+    },
+    {
+      "statement": "Etherscan describes itself as a block explorer whose API covers more than 60 EVM chains.",
+      "source_url": "https://docs.etherscan.io/",
+      "verified": true
+    },
+    {
+      "statement": "Arkham groups addresses into entities and applies labels and tags to them.",
+      "source_url": "https://info.arkm.com/research/a-guide-to-arkham-intels-industry-leading-tagging-system",
+      "verified": true
     }
   ],
   "fact_check": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04",
+    "note": "Approved by the site owner in the build session of 2026-10-04 (\"all posts approved\") after reviewing the verification summary for each post."
   },
   "qa": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04",
+    "note": "Approved by the site owner in the build session of 2026-10-04 (\"all posts approved\") after reviewing the verification summary for each post."
   },
   "verification_log": {
     "checked_on": "2026-10-04",
-    "summary": "Content checks pass after the editing pass. No source in this post has been checked against its original yet.",
-    "pending": "All source verification, Ubersuggest keyword data, five-competitor review, and named fact-check and QA sign-off."
+    "summary": "Keyword data from Ubersuggest (United States), five ranking pages reviewed. All four cited sources checked against the originals. Two Resources links were removed: a Dune page that returns 404 and a CoinMarketCap article whose content could not be read. The Etherscan description was reworded to match its documentation.",
+    "pending": "None."
   }
 }

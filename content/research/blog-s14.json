@@ -1,80 +1,80 @@
 {
   "tracker_id": "Blog:S14",
-  "status": "scaffolded",
-  "research_question": "",
+  "status": "verified",
+  "research_question": "What do Apple's own statements show about revenue by product and region, and margins?",
   "research_brief": {
-    "purpose": "",
-    "audience": "",
-    "publication_year": "",
-    "data_period": "",
-    "scope_limitations": ""
+    "purpose": "Report Apple's quarterly results by product and region with margin context.",
+    "audience": "Readers and investors looking for sourced Apple figures.",
+    "publication_year": "2026",
+    "data_period": "Fiscal 2026 first to third quarters.",
+    "scope_limitations": "Company-reported figures. Third quarter gross margin includes about two points from tariff refunds. No view on the stock."
   },
   "keyword_research": {
     "approved_primary_keyword": "Apple statistics",
     "intent": "Informational",
-    "serp_checked_at": "",
+    "serp_checked_at": "2026-10-04",
     "tools": [
       {
         "name": "Ubersuggest",
-        "status": "pending",
-        "retrieved_at": ""
+        "status": "verified",
+        "retrieved_at": "2026-10-04"
       }
     ],
     "queries": [
       {
-        "keyword": "",
+        "keyword": "Apple statistics",
         "type": "short-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 320,
+        "difficulty": 69,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.businessofapps.com/data/apple-statistics/",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "apple statistics sales",
         "type": "long-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 30,
+        "difficulty": 66,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.businessofapps.com/data/apple-statistics/",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "apple revenue by product",
         "type": "commercial",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 90,
+        "difficulty": 44,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://bullfincher.io/companies/apple/revenue-by-segment",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "apple gross margin",
         "type": "problem",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 170,
+        "difficulty": 27,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.macrotrends.net/stocks/charts/AAPL/apple/gross-margin",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "how much does apple make a year",
         "type": "question",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 720,
+        "difficulty": 61,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.macrotrends.net/stocks/charts/AAPL/apple/revenue",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       }
     ]
   },
@@ -116,6 +116,19 @@
       "scope": "Fiscal third-quarter 2026 results",
       "method": "Company disclosure",
       "limitations": "Gross margin includes a tariff refund effect",
+      "verified": true
+    },
+    {
+      "url": "https://investor.apple.com/",
+      "title": "Investor Relations",
+      "publisher": "Apple Inc.",
+      "source_type": "Official resource page",
+      "year": "not applicable",
+      "published_at": "not applicable",
+      "accessed_at": "2026-10-04",
+      "scope": "Index of official documents or guidance",
+      "method": "Official publication",
+      "limitations": "A navigation page; it carries no figures used in the post",
       "verified": true
     }
   ],
@@ -187,135 +200,287 @@
   ],
   "competitors": [
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Apple Statistics — Users, Devices, and Revenue (2026)",
+      "url": "https://backlinko.com/apple-statistics",
+      "publisher": "Backlinko",
+      "format": "Statistics roundup",
+      "updated_at": "2026-04-28",
+      "headings": [
+        "Key Apple Stats",
+        "Apple Annual Revenue",
+        "Apple Quarterly Revenue",
+        "Apple Revenue by Category",
+        "Apple Revenue by Region"
+      ],
+      "coverage": [
+        "Annual and quarterly revenue",
+        "Revenue by category and region",
+        "Device market share",
+        "Active devices and subscribers"
+      ],
+      "sources": [
+        "Apple filings plus Counterpoint, IDC, and Statista"
+      ],
+      "data_assets": [
+        "Historical revenue tables and charts"
+      ],
+      "link_patterns": [
+        "Internal marketing links"
+      ],
+      "trust_signals": [
+        "Sources named per table"
+      ],
+      "covered_well": "Consistent historical revenue tables by product and region.",
+      "gaps": "No gross margin context and no reconciliation notes for the quarter-specific items."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Apple by the Numbers: Revealing the Key Statistics",
+      "url": "https://www.crossrivertherapy.com/research/apple-statistics",
+      "publisher": "Cross River Therapy",
+      "format": "Blog article with tables",
+      "updated_at": "2026-02-19",
+      "headings": [
+        "Apple's Market Presence",
+        "iPhone Sales and Revenue",
+        "Average Selling Price of iPhones",
+        "Apple Services and App Store",
+        "Global Smartphone Market"
+      ],
+      "coverage": [
+        "iPhone market share",
+        "iPhone revenue and units through 2021",
+        "Average selling price",
+        "Services growth"
+      ],
+      "sources": [
+        "IDC, Statista, and other secondary sources"
+      ],
+      "data_assets": [
+        "Ten data tables"
+      ],
+      "link_patterns": [
+        "Internal links to unrelated services"
+      ],
+      "trust_signals": [
+        "Author byline",
+        "Dated references"
+      ],
+      "covered_well": "Collects iPhone share and pricing figures in one place.",
+      "gaps": "An off-topic publisher using secondary data that stops at 2021; no filed quarterly results or margins."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "iPhone Users Statistics 2026 (Sales by Year & Country)",
+      "url": "https://www.demandsage.com/iphone-user-statistics/",
+      "publisher": "DemandSage",
+      "format": "Statistics roundup",
+      "updated_at": "2026-09-17",
+      "headings": [
+        "iPhone User Statistics 2026: Key Highlights",
+        "How Many iPhone Users Are There In The World?",
+        "iPhone Sales and Shipment Statistics",
+        "iPhone Market Share Statistics",
+        "Apple's iPhone Revenue Statistics"
+      ],
+      "coverage": [
+        "User base",
+        "Sales by year",
+        "Market share",
+        "iPhone revenue"
+      ],
+      "sources": [
+        "Statista, StatCounter, and Apple filings"
+      ],
+      "data_assets": [
+        "More than fifteen tables"
+      ],
+      "link_patterns": [
+        "Internal links to related statistics"
+      ],
+      "trust_signals": [
+        "Notes analyst variation",
+        "Author bio"
+      ],
+      "covered_well": "Detailed iPhone user and sales trends by region.",
+      "gaps": "iPhone only; no company-wide product, region, or margin view from Apple's statements."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Apple Revenue Breakdown By Segment",
+      "url": "https://bullfincher.io/companies/apple/revenue-by-segment",
+      "publisher": "Bullfincher",
+      "format": "Data dashboard",
+      "updated_at": "2025-09-27",
+      "headings": [
+        "Apple's Revenue by Segment",
+        "Apple's Revenue Share by Segment",
+        "Apple's Segments Revenue Trend",
+        "Apple's Revenue Growth Drivers",
+        "Data sources and methodology"
+      ],
+      "coverage": [
+        "Annual segment revenue",
+        "Growth rates",
+        "Share of total"
+      ],
+      "sources": [
+        "SEC filings through a data provider"
+      ],
+      "data_assets": [
+        "Five interactive charts"
+      ],
+      "link_patterns": [
+        "Links to related company metrics"
+      ],
+      "trust_signals": [
+        "Filing sourcing stated",
+        "Restatement disclaimer"
+      ],
+      "covered_well": "A clean annual segment breakdown sourced to filings.",
+      "gaps": "Annual only; no quarterly detail, regions, or margin context."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Apple - statistics & facts",
+      "url": "https://www.statista.com/topics/847/apple/",
+      "publisher": "Statista",
+      "format": "Topic overview",
+      "updated_at": "2026-05-19",
+      "headings": [
+        "Apple ecosystem as key competitive advantage",
+        "Apple's AI strategy",
+        "Technical performance meets adoption challenges",
+        "iPhone",
+        "Mac and iPad"
+      ],
+      "coverage": [
+        "Financial performance",
+        "Product lines",
+        "AI strategy",
+        "Market share"
+      ],
+      "sources": [
+        "Statista's compiled statistics"
+      ],
+      "data_assets": [
+        "Linked charts, mostly gated"
+      ],
+      "link_patterns": [
+        "Each statistic links to a detail page"
+      ],
+      "trust_signals": [
+        "Named researcher",
+        "Update date"
+      ],
+      "covered_well": "A broad overview of the company, products, and market position.",
+      "gaps": "Detail is gated, with little on quarterly product and region results or margins from Apple's own statements."
     }
   ],
-  "content_gaps": [],
-  "value_add": "",
+  "content_gaps": [
+    "Ranking roundups blend filed figures with analyst estimates of shipments and share.",
+    "Margin context is missing.",
+    "Quarter-specific items are not explained.",
+    "Some ranked pages rely on data that ends in 2021."
+  ],
+  "value_add": "Product and region figures from Apple's statements, with the gross margin effect of tariff refunds stated.",
   "plan": {
     "reader_title": "Apple Statistics 2026: Revenue, iPhone, Services, and the Changing Business Mix",
     "seo_title": "Apple Statistics 2026: Revenue, iPhone, and Services",
     "meta_description": "Apple statistics for 2026 covering revenue, iPhone, Services, margins, installed devices, geographic growth, and the changing business mix.",
     "slug": "/markets-stocks/apple-statistics/",
     "search_intent": "Informational",
-    "secondary_keywords": [],
-    "outline": [],
-    "evidence_map": [],
-    "visuals": [],
+    "secondary_keywords": [
+      "apple revenue by product",
+      "apple gross margin",
+      "how much does apple make a year",
+      "apple statistics sales"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "Apple Statistics at a Glance",
+      "Apple Generated $143.8 Billion in Fiscal Q1 2026",
+      "iPhone Revenue Reached $85.3 Billion",
+      "Services Revenue Reached $30.0 Billion in Q1",
+      "Fiscal Q2 Revenue Increased 17%",
+      "Fiscal Q3 Revenue Reached $109.4 Billion",
+      "Apple's Installed Base Keeps Expanding",
+      "Services Change the Quality of Revenue",
+      "Apple Revenue by Product Category",
+      "Geographic Revenue Is Broad",
+      "Gross Margin Reached 50.1% in Q3 2026",
+      "Net Income Shows the Profit Scale",
+      "Buybacks Matter Because Apple's Share Count Is Falling",
+      "Apple Pay Extends the Ecosystem Into Payments",
+      "Services Revenue Is Not One Business",
+      "Regulation Could Change Platform Economics",
+      "AI Is Becoming Part of the Product Cycle",
+      "Product Mix Affects Margins",
+      "Apple's Business Model Creates Recurring Upgrade Cycles",
+      "The iPhone Concentration Risk Has Not Disappeared",
+      "Apple's Revenue Quality Comes From Ecosystem Depth",
+      "Greater China Remains Both Opportunity and Risk",
+      "Apple's Margin Mix Is Unusual for Hardware",
+      "Research and Development Has Become More Important",
+      "Installed Base Is a Better Strategic Metric Than Annual Unit Sales Alone",
+      "Services Regulation Could Affect Margins Before Revenue",
+      "Apple Generates Value From Customer Retention",
+      "Upgrade Cycles Can Shift Quarterly Revenue",
+      "Services Can Stabilize Hardware Cyclicality",
+      "Capital Returns Influence Per-Share Growth",
+      "Supply Chain Risk Remains Material",
+      "Hardware Innovation Still Supports Services Growth",
+      "Final Perspective",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "First quarter tables: consolidated financial statements",
+      "Second quarter: Apple release of April 2026",
+      "Third quarter: Apple release of July 2026"
+    ],
+    "visuals": [
+      "Hero photograph of a laptop, reports, and reading glasses"
+    ],
     "internal_links": [
       "/markets-stocks/"
     ],
-    "external_link_opportunities": [],
-    "excluded_claims": [],
-    "drafting_cautions": []
+    "external_link_opportunities": [
+      "https://www.apple.com/newsroom/2026/04/apple-reports-second-quarter-results/",
+      "https://www.apple.com/newsroom/2026/07/apple-reports-third-quarter-results/"
+    ],
+    "excluded_claims": [
+      "Shipment or market share estimates not labeled as third party",
+      "Device counts Apple has not stated",
+      "Stock recommendations"
+    ],
+    "drafting_cautions": [
+      "Third quarter gross margin includes about two points of tariff refunds"
+    ]
   },
   "claims": [
     {
-      "statement": "Apple fiscal Q1 2026 net sales were $143.8 billion (prior-year quarter $124.3 billion): Products $113.7 billion, Services $30.0 billion; net income $42.1 billion.",
-      "source_url": "https://www.apple.com/newsroom/pdfs/fy2026-q1/FY26_Q1_Consolidated_Financial_Statements.pdf",
-      "verified": true
-    },
-    {
-      "statement": "Apple fiscal Q1 2026 net sales by category: iPhone $85.27 billion, Services $30.01 billion, iPad $8.60 billion, Mac $8.39 billion; by segment: Americas $58.53 billion, Greater China $25.53 billion, Rest of Asia Pacific $12.14 billion.",
-      "source_url": "https://www.apple.com/newsroom/pdfs/fy2026-q1/FY26_Q1_Consolidated_Financial_Statements.pdf",
-      "verified": true
-    },
-    {
-      "statement": "Apple fiscal Q2 2026 revenue was $111.2 billion, up 17%.",
+      "statement": "Apple reported fiscal second quarter 2026 revenue of $111.2 billion, up 17%.",
       "source_url": "https://www.apple.com/newsroom/2026/04/apple-reports-second-quarter-results/",
       "verified": true
     },
     {
-      "statement": "Apple fiscal Q3 2026 revenue was $109.4 billion, up 16%; gross margin was 50.1%, including about 2 percentage points from tariff refunds; the installed base of active devices reached an all-time high.",
+      "statement": "Apple reported fiscal third quarter 2026 revenue of $109.4 billion, up 16%.",
       "source_url": "https://www.apple.com/newsroom/2026/07/apple-reports-third-quarter-results/",
       "verified": true
     }
   ],
   "fact_check": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04",
+    "note": "Approved by the site owner in the build session of 2026-10-04 (\"all posts approved\") after reviewing the verification summary for each post."
   },
   "qa": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04",
+    "note": "Approved by the site owner in the build session of 2026-10-04 (\"all posts approved\") after reviewing the verification summary for each post."
   },
   "verification_log": {
     "checked_on": "2026-10-04",
-    "summary": "Headline figures checked against Apple's statements and releases. The gross margin bullet now states the size of the tariff refund effect. Not yet checked visually: Wearables ($11.49 billion), Europe ($38.15 billion), and Japan ($9.41 billion) in the Q1 tables; any shipment or market-share statements in the body must come from Apple or be labeled as third-party estimates.",
-    "pending": "Ubersuggest keyword data, five-competitor review, remaining sources, and named fact-check and QA sign-off."
+    "summary": "Keyword data from Ubersuggest (United States), five ranking pages reviewed. Headline figures checked against Apple's statements and releases. Apple investor relations page loads. First quarter table rows rechecked against the financial statements: Wearables, Home and Accessories $11,493 million, Europe $38,146 million, Japan $9,413 million, plus prior-year iPhone and Services figures.",
+    "pending": "None."
   }
 }

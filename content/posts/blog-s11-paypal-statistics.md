@@ -5,7 +5,7 @@ description: PayPal statistics for 2026 covering payment volume, active accounts
 slug: /payments/paypal-statistics/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S11
 primary_keyword: PayPal statistics
 secondary_keywords: 
@@ -18,9 +18,9 @@ link_placement_site: WebTribunal
 charts_pending: 0
 ai_exceptions: leverage
 ai_exception_reason: Operating leverage is a technical financial term and is used in that sense only.
-author: 
-published: 
-modified: 
+author: Darlene Aberin
+published: 2026-10-04
+modified: 2026-10-04
 ---
 
 # PayPal Statistics 2026: Volume, Accounts, Revenue, and Payment Economics

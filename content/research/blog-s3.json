@@ -1,232 +1,440 @@
 {
   "tracker_id": "Blog:S3",
-  "status": "scaffolded",
-  "research_question": "",
+  "status": "verified",
+  "research_question": "How should a reader think about the size of a bitcoin allocation and the risk it adds?",
   "research_brief": {
-    "purpose": "",
-    "audience": "",
-    "publication_year": "",
-    "data_period": "",
-    "scope_limitations": ""
+    "purpose": "Explain allocation sizing as a risk question, using published institutional research and plain arithmetic.",
+    "audience": "Investors and readers weighing a small bitcoin position inside a diversified portfolio.",
+    "publication_year": "2026",
+    "data_period": "BlackRock analysis of May 2012 to July 2024 and its 2026 update; CoinShares survey of May 2026.",
+    "scope_limitations": "Not a recommendation of any allocation. Institutional estimates depend on their methods and periods. Scenario tables are arithmetic, not forecasts."
   },
   "keyword_research": {
     "approved_primary_keyword": "bitcoin allocation",
     "intent": "Informational",
-    "serp_checked_at": "",
+    "serp_checked_at": "2026-10-04",
     "tools": [
       {
         "name": "Ubersuggest",
-        "status": "pending",
-        "retrieved_at": ""
+        "status": "verified",
+        "retrieved_at": "2026-10-04"
       }
     ],
     "queries": [
       {
-        "keyword": "",
+        "keyword": "bitcoin allocation",
         "type": "short-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 0,
+        "difficulty": 17,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.vaneck.com/us/en/blogs/digital-assets/matthew-sigel-optimal-crypto-allocation-for-portfolios.pdf",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "bitcoin portfolio allocation",
         "type": "long-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 0,
+        "difficulty": 12,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.vaneck.com/us/en/blogs/digital-assets/matthew-sigel-optimal-crypto-allocation-for-portfolios.pdf",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "best bitcoin etf",
         "type": "commercial",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 0,
+        "difficulty": 12,
+        "cpc": 0,
+        "intent": "Commercial investigation",
+        "ranking_url": "https://www.reddit.com/r/ETFs/comments/1ml6rd0/what_is_objectively_the_best_bitcoin_etf/",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "bitcoin volatility",
         "type": "problem",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 0,
+        "difficulty": 17,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://bitbo.io/volatility/",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "how much bitcoin should i own",
         "type": "question",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.ig.com/ae/news-and-trade-ideas/how-to-incorporate-bitcoin-into-your-investment-portfolio-effect-250707",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       }
     ]
   },
   "sources": [
     {
-      "url": "",
-      "title": "",
-      "publisher": "",
-      "source_type": "",
-      "year": "",
-      "published_at": "",
-      "accessed_at": "",
-      "scope": "",
-      "method": "",
-      "limitations": "",
-      "verified": false
+      "url": "https://www.blackrock.com/institutions/en-us/insights/thought-leadership/portfolio-design/sizing-bitcoin-in-portfolios",
+      "title": "Sizing bitcoin in portfolios",
+      "publisher": "BlackRock Investment Institute",
+      "source_type": "Asset manager research",
+      "year": "2024",
+      "published_at": "2024-12-11",
+      "accessed_at": "2026-10-04",
+      "scope": "Share of 60/40 portfolio risk at 1%, 2%, and 4% bitcoin weights",
+      "method": "Risk-contribution analysis on Bloomberg and LSEG data, May 2012 to July 2024",
+      "limitations": "Published by a firm that sells a bitcoin fund; estimates depend on the period and model",
+      "verified": true
+    },
+    {
+      "url": "https://fidelitydigitalassets.com/research-and-insights/getting-zero-evaluating-bitcoin-2026",
+      "title": "Getting Off Zero: Evaluating Bitcoin in 2026",
+      "publisher": "Fidelity Digital Assets",
+      "source_type": "Asset manager research",
+      "year": "2026",
+      "published_at": "2026-03-25",
+      "accessed_at": "2026-10-04",
+      "scope": "The case for justifying a zero allocation",
+      "method": "Research commentary",
+      "limitations": "Published by a digital-asset business with a commercial interest",
+      "verified": true
+    },
+    {
+      "url": "https://coinshares.com/us/insights/research-data/digital-asset-quarterly-fund-manager-survey-05-2026/",
+      "title": "Digital Asset Fund Manager Survey – May 2026",
+      "publisher": "CoinShares",
+      "source_type": "Survey",
+      "year": "2026",
+      "published_at": "2026-05-06",
+      "accessed_at": "2026-10-04",
+      "scope": "Digital-asset allocations and motivations among surveyed fund managers",
+      "method": "Survey of 26 respondents covering about US$1.3 trillion",
+      "limitations": "Small, self-selected sample run by a digital-asset manager; measures digital assets, not bitcoin alone",
+      "verified": true
+    },
+    {
+      "url": "https://www.blackrock.com/us/financial-professionals/insights/re-underwriting-bitcoin",
+      "title": "Re-Underwriting Bitcoin: Still a Portfolio Diversifier",
+      "publisher": "BlackRock",
+      "source_type": "Asset manager research",
+      "year": "2026",
+      "published_at": "2026-08-17",
+      "accessed_at": "2026-10-04",
+      "scope": "Updated 10-year analysis of small allocations in a 60/40 portfolio",
+      "method": "Historical portfolio analysis",
+      "limitations": "Historical result from a firm that sells a bitcoin fund; past performance may not repeat",
+      "verified": true
     }
   ],
   "statistics": [
     {
-      "claim": "",
-      "source_url": "",
-      "data_year": "",
-      "geography": "",
-      "population": "",
-      "sample": "",
-      "denominator": "",
-      "unit": "",
-      "method": "",
-      "limitations": "",
+      "claim": "BlackRock estimated that 1%, 2%, and 4% bitcoin weights in a 60/40 portfolio contribute about 2%, 5%, and 14% of portfolio risk.",
+      "source_url": "https://www.blackrock.com/institutions/en-us/insights/thought-leadership/portfolio-design/sizing-bitcoin-in-portfolios",
+      "data_year": "2024",
+      "geography": "Global markets",
+      "population": "A model 60/40 stock and bond portfolio",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Share of portfolio risk",
+      "method": "Risk-contribution analysis, May 2012 to July 2024",
+      "limitations": "Model and period specific",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": true,
+      "verified": true
+    },
+    {
+      "claim": "The CoinShares May 2026 survey drew 26 responses covering about US$1.3 trillion; the weighted average digital-asset allocation was 0.1% and the median 1%; diversification and client demand made up 63% of stated rationale.",
+      "source_url": "https://coinshares.com/us/insights/research-data/digital-asset-quarterly-fund-manager-survey-05-2026/",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Fund managers surveyed by CoinShares",
+      "sample": "26 responses",
+      "denominator": "26 respondents",
+      "unit": "Percent of portfolio; percent of responses",
+      "method": "Survey",
+      "limitations": "Small self-selected sample; digital assets, not bitcoin alone",
       "sponsored": false,
       "partial_year": false,
       "estimate": false,
-      "verified": false
+      "verified": true
     }
   ],
   "competitors": [
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Sizing bitcoin in portfolios",
+      "url": "https://www.blackrock.com/institutions/en-us/insights/thought-leadership/portfolio-design/sizing-bitcoin-in-portfolios",
+      "publisher": "BlackRock",
+      "format": "Research article with chart",
+      "updated_at": "2024-12-11",
+      "headings": [
+        "What role should bitcoin play in an investment portfolio?",
+        "Bitcoin's key value drivers",
+        "Risks to consider",
+        "Implications for portfolios"
+      ],
+      "coverage": [
+        "Risk-budgeting approach to sizing",
+        "Share of portfolio risk by allocation",
+        "Volatility and selloffs",
+        "Adoption as value driver"
+      ],
+      "sources": [
+        "Bloomberg and LSEG data, May 2012 to July 2024"
+      ],
+      "data_assets": [
+        "Bar chart of portfolio risk share by allocation in a 60/40 portfolio"
+      ],
+      "link_patterns": [
+        "Related insights and a PDF download"
+      ],
+      "trust_signals": [
+        "Named authors",
+        "Jurisdiction disclosures and risk warnings"
+      ],
+      "covered_well": "Sizes an allocation by its share of portfolio risk, with a quantified chart.",
+      "gaps": "Written for institutions; no rebalancing mechanics, tax, or custody detail."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "How bitcoin may impact your portfolio",
+      "url": "https://www.fidelity.com/learning-center/trading-investing/bitcoin-investment-considerations",
+      "publisher": "Fidelity",
+      "format": "Explainer article with charts",
+      "updated_at": "2024-11-08",
+      "headings": [
+        "Has bitcoin historically enhanced portfolio returns?",
+        "Did bitcoin increase portfolio diversification?",
+        "Can bitcoin be a good hedge against inflation?",
+        "Considerations for adding bitcoin to your portfolio"
+      ],
+      "coverage": [
+        "Historical returns",
+        "Volatility contribution",
+        "Correlation with stocks and bonds",
+        "Inflation hedge question"
+      ],
+      "sources": [
+        "Fidelity research using index and Bloomberg data through March 2024"
+      ],
+      "data_assets": [
+        "Four charts on volatility contribution and correlation"
+      ],
+      "link_patterns": [
+        "Internal links to crypto research and learning content"
+      ],
+      "trust_signals": [
+        "Stated methodology",
+        "Volatility and regulatory disclaimers"
+      ],
+      "covered_well": "Quantifies how a small position changes portfolio volatility and correlation.",
+      "gaps": "Data ends in early 2024, and there is no rebalancing or monitoring guidance."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "How Much Crypto Should Your Client Own? A Portfolio Allocation Framework",
+      "url": "https://icfs.com/specialists-desk/crypto-portfolio-allocation",
+      "publisher": "Institute of Business & Finance",
+      "format": "Explainer article",
+      "updated_at": "2026-03-23",
+      "headings": [
+        "The Suitability Framework: Your Decision Tool",
+        "Quantifying Portfolio Impact",
+        "What Research Suggests About Allocation Sizing",
+        "When Allocation Is Not Appropriate",
+        "Documentation Matters"
+      ],
+      "coverage": [
+        "Six-part suitability analysis",
+        "Institutional sizing ranges",
+        "Scenario and drawdown modeling",
+        "Vehicle choice and rebalancing"
+      ],
+      "sources": [
+        "Fidelity, Galaxy, Bitwise, and BlackRock research"
+      ],
+      "data_assets": [
+        "Volatility and drawdown ranges"
+      ],
+      "link_patterns": [
+        "Internal links to companion adviser guides"
+      ],
+      "trust_signals": [
+        "Institutional citations",
+        "Compliance framing"
+      ],
+      "covered_well": "A suitability framework that includes when an allocation is not appropriate.",
+      "gaps": "Aimed at advisers; thin on rebalancing triggers and correlation assumptions."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Bitcoin's Role in a Traditional Portfolio",
+      "url": "https://bitwiseinvestments.com/crypto-market-insights/bitcoins-role-in-a-traditional-portfolio",
+      "publisher": "Bitwise Asset Management",
+      "format": "White paper summary",
+      "updated_at": "2026-03-03",
+      "headings": [
+        "Bitcoin's Role in a Traditional Portfolio",
+        "What influence has bitcoin had on a diversified portfolio's risk-adjusted returns?"
+      ],
+      "coverage": [
+        "Adding bitcoin to a 60/40 portfolio since 2014",
+        "Quarterly rebalancing outcomes",
+        "Holding periods"
+      ],
+      "sources": [
+        "Publisher's own research"
+      ],
+      "data_assets": [
+        "Rebalancing and allocation analysis in the gated paper"
+      ],
+      "link_patterns": [
+        "Sign-up and download calls to action",
+        "Fund disclosures"
+      ],
+      "trust_signals": [
+        "Named authors",
+        "Fund prospectus disclaimers"
+      ],
+      "covered_well": "Studies how rebalanced allocations behaved across holding periods.",
+      "gaps": "Published by a crypto fund issuer, and the detail sits in a gated paper."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Recommended Allocation Percentages",
+      "url": "https://www.bit.com/knowledge-hub/recommended-allocation-percentages",
+      "publisher": "BIT",
+      "format": "Explainer article",
+      "updated_at": "2026-05-29",
+      "headings": [
+        "The Institutional Consensus — 1–5%",
+        "The Mathematics of Sizing",
+        "Beyond Bitcoin: Altcoin Allocation",
+        "Why It Matters to You"
+      ],
+      "coverage": [
+        "Institutional allocation ranges",
+        "Volatility contribution math",
+        "Altcoin sizing",
+        "Spot ETF effect"
+      ],
+      "sources": [
+        "Fidelity Digital Assets, ARK, JP Morgan, and BlackRock cited"
+      ],
+      "data_assets": [
+        "Volatility comparison chart"
+      ],
+      "link_patterns": [
+        "Internal knowledge-hub links"
+      ],
+      "trust_signals": [
+        "Institutional citations with dates"
+      ],
+      "covered_well": "Summarizes institutional sizing ranges and the volatility math behind them.",
+      "gaps": "Published by an exchange, with no rebalancing or tax guidance."
     }
   ],
-  "content_gaps": [],
-  "value_add": "",
+  "content_gaps": [
+    "Ranking pages are institutional research or adviser material; few explain risk contribution in plain terms.",
+    "Rebalancing bands and weight drift are mentioned but rarely worked through with numbers.",
+    "Survey figures are often quoted as if they were a general institutional policy.",
+    "Vehicle differences, such as direct holding against a fund, are seldom tied to the sizing question."
+  ],
+  "value_add": "Plain-arithmetic tables for crash scenarios, risk-budget sizing, and weight drift, set beside the published institutional estimates with their limits stated.",
   "plan": {
     "reader_title": "Bitcoin Allocation: Risk, Volatility, and Diversification in a Portfolio",
     "seo_title": "Bitcoin Allocation: How Portfolio Risk Changes With Size",
     "meta_description": "See how bitcoin allocation changes portfolio risk, why small percentages can matter, and which assumptions investors should test before sizing exposure.",
     "slug": "/investing/bitcoin-allocation/",
     "search_intent": "Informational",
-    "secondary_keywords": [],
-    "outline": [],
-    "evidence_map": [],
-    "visuals": [],
+    "secondary_keywords": [
+      "bitcoin portfolio allocation",
+      "how much bitcoin should i own",
+      "bitcoin volatility",
+      "bitcoin risk contribution"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "Start With the Portfolio, Not Bitcoin",
+      "Capital Allocation and Risk Contribution Are Different",
+      "Why Small Allocations Get So Much Attention",
+      "Diversification Depends on Correlation, and Correlation Moves",
+      "A Low Correlation Asset Can Still Create Large Drawdowns",
+      "Rebalancing Is Part of the Allocation Decision",
+      "Scenario Analysis Is More Useful Than a Single Return Forecast",
+      "Liquidity Risk Is Not Only About Whether Bitcoin Trades 24/7",
+      "The Vehicle Changes the Risk",
+      "A Strategic Allocation Needs an Investment Thesis",
+      "Tactical Exposure Is a Different Decision",
+      "What Institutional Surveys Can and Cannot Tell You",
+      "What a 1%, 2%, and 5% Allocation Means in a Simple Crash",
+      "Allocation Size Should Reflect the Investor’s Loss Budget",
+      "Concentration Can Emerge After Success",
+      "Questions to Answer Before Setting a Bitcoin Allocation",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Risk contribution section: BlackRock sizing research",
+      "Zero-weight discussion: Fidelity Digital Assets",
+      "Institutional survey section: CoinShares May 2026 survey"
+    ],
+    "visuals": [
+      "Hero photograph of a portfolio allocation report"
+    ],
     "internal_links": [
       "/investing/"
     ],
-    "external_link_opportunities": [],
-    "excluded_claims": [],
-    "drafting_cautions": []
+    "external_link_opportunities": [
+      "https://www.blackrock.com/institutions/en-us/insights/thought-leadership/portfolio-design/sizing-bitcoin-in-portfolios",
+      "https://fidelitydigitalassets.com/research-and-insights/getting-zero-evaluating-bitcoin-2026",
+      "https://coinshares.com/us/insights/research-data/digital-asset-quarterly-fund-manager-survey-05-2026/"
+    ],
+    "excluded_claims": [
+      "Any recommended allocation",
+      "Price forecasts",
+      "Claims that institutions as a group hold a set percentage"
+    ],
+    "drafting_cautions": [
+      "Scenario tables are arithmetic, not forecasts",
+      "BlackRock and Fidelity sell bitcoin products",
+      "The CoinShares sample is 26 respondents"
+    ]
   },
   "claims": [
     {
-      "statement": "",
-      "source_url": "",
-      "verified": false
+      "statement": "BlackRock estimated a 2% bitcoin weight contributes about 5% of risk in a 60/40 portfolio.",
+      "source_url": "https://www.blackrock.com/institutions/en-us/insights/thought-leadership/portfolio-design/sizing-bitcoin-in-portfolios",
+      "verified": true
+    },
+    {
+      "statement": "Fidelity Digital Assets said institutions now need a well-informed rationale for a zero weight.",
+      "source_url": "https://fidelitydigitalassets.com/research-and-insights/getting-zero-evaluating-bitcoin-2026",
+      "verified": true
+    },
+    {
+      "statement": "The CoinShares May 2026 survey found a 1% median and 0.1% weighted average digital-asset allocation.",
+      "source_url": "https://coinshares.com/us/insights/research-data/digital-asset-quarterly-fund-manager-survey-05-2026/",
+      "verified": true
     }
   ],
   "fact_check": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04",
+    "note": "Approved by the site owner in the build session of 2026-10-04 (\"all posts approved\") after reviewing the verification summary for each post."
   },
   "qa": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04",
+    "note": "Approved by the site owner in the build session of 2026-10-04 (\"all posts approved\") after reviewing the verification summary for each post."
   },
   "verification_log": {
     "checked_on": "2026-10-04",
-    "summary": "Content checks pass after the editing pass. No source in this post has been checked against its original yet.",
-    "pending": "All source verification, Ubersuggest keyword data, five-competitor review, and named fact-check and QA sign-off."
+    "summary": "Keyword data from Ubersuggest (United States), five ranking pages reviewed. BlackRock (both papers), Fidelity Digital Assets, and CoinShares figures checked against the originals and match. The Finance Research Letters article could not be opened, so its link and the sentence relying on it were removed.",
+    "pending": "None."
   }
 }

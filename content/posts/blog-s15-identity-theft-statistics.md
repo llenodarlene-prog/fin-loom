@@ -5,7 +5,7 @@ description: Identity theft statistics in context: what the FTC fraud loss and C
 slug: /money-banking/identity-theft-statistics/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S15
 primary_keyword: identity theft statistics
 secondary_keywords: 
@@ -18,9 +18,9 @@ link_placement_site: WebTribunal
 charts_pending: 0
 ai_exceptions: 
 ai_exception_reason: 
-author: 
-published: 
-modified: 
+author: Darlene Aberin
+published: 2026-10-04
+modified: 2026-10-04
 ---
 
 # Identity Theft Statistics and Fraud Losses: What FTC Consumer Sentinel Data Shows

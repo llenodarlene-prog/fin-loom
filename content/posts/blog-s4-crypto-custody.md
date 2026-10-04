@@ -5,7 +5,7 @@ description: Learn how crypto custody works, who controls private keys, how inst
 slug: /crypto/crypto-custody/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S4
 primary_keyword: crypto custody
 secondary_keywords: institutional crypto custody; crypto custody services; self custody crypto; bank crypto custody
@@ -18,9 +18,9 @@ link_placement_site: Use The Bitcoin
 charts_pending: 0
 ai_exceptions: 
 ai_exception_reason: 
-author: 
-published: 
-modified: 
+author: Darlene Aberin
+published: 2026-10-04
+modified: 2026-10-04
 ---
 
 # Crypto Custody Explained: Self-Custody, Exchanges, and Institutional Custodians

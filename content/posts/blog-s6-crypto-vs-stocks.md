@@ -5,7 +5,7 @@ description: Compare crypto vs stocks across volatility, liquidity, ownership, r
 slug: /investing/crypto-vs-stocks/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S6
 primary_keyword: crypto vs stocks
 secondary_keywords: 
@@ -17,9 +17,9 @@ image_alt: A laptop showing a market chart beside a gold coin and a stack of fin
 link_placement_site: Stoxcraft
 ai_exceptions: unlock
 ai_exception_reason: Unlock is the standard technical term for scheduled token releases and is used in that sense only.
-author: 
-published: 
-modified: 
+author: Darlene Aberin
+published: 2026-10-04
+modified: 2026-10-04
 ---
 
 # Crypto vs Stocks: Comparing Volatility, Drawdowns, Liquidity, and Returns

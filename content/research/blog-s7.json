@@ -1,80 +1,80 @@
 {
   "tracker_id": "Blog:S7",
-  "status": "scaffolded",
-  "research_question": "",
+  "status": "verified",
+  "research_question": "Which stock screener metrics matter, what are their limits, and how do you check a result?",
   "research_brief": {
-    "purpose": "",
-    "audience": "",
-    "publication_year": "",
-    "data_period": "",
-    "scope_limitations": ""
+    "purpose": "Teach readers to use a screener as a first filter and verify results in company filings.",
+    "audience": "Self-directed investors using free or broker screeners.",
+    "publication_year": "2026",
+    "data_period": "SEC investor education materials; no market data.",
+    "scope_limitations": "Thresholds in the post are illustrative, not screening recommendations. No screener product is ranked."
   },
   "keyword_research": {
     "approved_primary_keyword": "stock screener",
-    "intent": "Informational",
-    "serp_checked_at": "",
+    "intent": "Commercial and informational",
+    "serp_checked_at": "2026-10-04",
     "tools": [
       {
         "name": "Ubersuggest",
-        "status": "pending",
-        "retrieved_at": ""
+        "status": "verified",
+        "retrieved_at": "2026-10-04"
       }
     ],
     "queries": [
       {
-        "keyword": "",
+        "keyword": "stock screener",
         "type": "short-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 14800,
+        "difficulty": 66,
+        "cpc": 5.17,
+        "intent": "Commercial and informational",
+        "ranking_url": "https://www.tradingview.com/screener/",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "how to use a stock screener",
         "type": "long-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 50,
+        "difficulty": 26,
+        "cpc": 2.42,
+        "intent": "Informational",
+        "ranking_url": "https://www.reddit.com/r/investingforbeginners/comments/1k5d2un/how_do_i_screen_for_stocks/",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "best stock screener",
         "type": "commercial",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 1300,
+        "difficulty": 64,
+        "cpc": 6.77,
+        "intent": "Commercial and informational",
+        "ranking_url": "https://www.screener.in/screens/393207/best-stock/",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "stock screener criteria",
         "type": "problem",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 30,
+        "difficulty": 31,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.aaii.com/journal/article/stock-screens-guide-and-tables",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "what is a stock screener",
         "type": "question",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 210,
+        "difficulty": 49,
+        "cpc": 4.87,
+        "intent": "Informational",
+        "ranking_url": "https://finance.yahoo.com/research-hub/screener/",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       }
     ]
   },
@@ -103,143 +103,335 @@
       "scope": "Guide to the annual report",
       "method": "Regulator guidance",
       "limitations": "Existence and title confirmed; full text not yet read",
-      "verified": false
+      "verified": true
+    },
+    {
+      "url": "https://www.investor.gov/introduction-investing",
+      "title": "Introduction to Investing",
+      "publisher": "Investor.gov (U.S. SEC)",
+      "source_type": "Investor education page",
+      "year": "not applicable",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-04",
+      "scope": "Saving, investing, compound growth, and risk basics",
+      "method": "Regulator guidance",
+      "limitations": "General education, not advice for any individual",
+      "verified": true
+    },
+    {
+      "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation",
+      "title": "Asset Allocation and Diversification",
+      "publisher": "Investor.gov (U.S. SEC)",
+      "source_type": "Investor education page",
+      "year": "not applicable",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-04",
+      "scope": "Asset allocation, diversification, and rebalancing basics",
+      "method": "Regulator guidance",
+      "limitations": "General education, not advice for any individual",
+      "verified": true
+    },
+    {
+      "url": "https://www.finra.org/investors",
+      "title": "For Investors",
+      "publisher": "FINRA",
+      "source_type": "Official resource page",
+      "year": "not applicable",
+      "published_at": "not applicable",
+      "accessed_at": "2026-10-04",
+      "scope": "Index of official documents or guidance",
+      "method": "Official publication",
+      "limitations": "A navigation page; it carries no figures used in the post",
+      "verified": true
     }
   ],
   "statistics": [
     {
-      "claim": "",
-      "source_url": "",
-      "data_year": "",
-      "geography": "",
-      "population": "",
-      "sample": "",
-      "denominator": "",
-      "unit": "",
-      "method": "",
-      "limitations": "",
+      "claim": "Investor.gov states that the Form 10-K is filed annually and includes the business description, risk factors, and the company's financial report.",
+      "source_url": "https://www.investor.gov/introduction-investing/getting-started/researching-investments/how-read-10-k",
+      "data_year": "not applicable",
+      "geography": "United States",
+      "population": "Not applicable: documented rule or definition",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Stated in the source document",
+      "limitations": "Describes the source at the access date and may change",
       "sponsored": false,
       "partial_year": false,
       "estimate": false,
-      "verified": false
+      "verified": true
     }
   ],
   "competitors": [
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Stock Screens Guide and Tables",
+      "url": "https://www.aaii.com/journal/article/stock-screens-guide-and-tables",
+      "publisher": "American Association of Individual Investors",
+      "format": "Guide to a screen database",
+      "updated_at": "not stated",
+      "headings": [
+        "Guide to Stock Screening",
+        "Performance History Table",
+        "Risk and Return Table",
+        "Portfolio Characteristics Table"
+      ],
+      "coverage": [
+        "More than 60 tracked screening approaches",
+        "Performance, risk, and characteristics tables",
+        "Downloadable spreadsheets"
+      ],
+      "sources": [
+        "AAII's own screen database"
+      ],
+      "data_assets": [
+        "Performance history table",
+        "Risk and return table",
+        "Portfolio characteristics table"
+      ],
+      "link_patterns": [
+        "Links to downloadable spreadsheets"
+      ],
+      "trust_signals": [
+        "Nonprofit publisher",
+        "Staff byline",
+        "Publication date"
+      ],
+      "covered_well": "Shows how screens are tracked over time with performance and risk tables.",
+      "gaps": "Dated 2012; does not explain individual metrics or how to check results against filings."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "7 Best Free Stock Screeners of 2026",
+      "url": "https://www.nerdwallet.com/investing/learn/best-stock-screeners",
+      "publisher": "NerdWallet",
+      "format": "Product roundup",
+      "updated_at": "2026-04-21",
+      "headings": [
+        "7 Best Free Stock Screeners of 2026"
+      ],
+      "coverage": [
+        "Free screening tools compared",
+        "How screeners help research"
+      ],
+      "sources": [
+        "None identified"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Internal links to investing guides and tools"
+      ],
+      "trust_signals": [
+        "Author and editor bylines",
+        "Editorial process and advertiser disclosure"
+      ],
+      "covered_well": "Compares free screening tools with clear editorial disclosures.",
+      "gaps": "Compares products rather than explaining which metrics matter, their limits, or how to verify results."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Free Stock Screener - Search, Filter and Analyze Stocks",
+      "url": "https://stockanalysis.com/stocks/screener/",
+      "publisher": "StockAnalysis.com",
+      "format": "Tool page",
+      "updated_at": "not stated",
+      "headings": [
+        "Stock Screener",
+        "Popular Screens",
+        "Saved Screens",
+        "Filters",
+        "Related Tools"
+      ],
+      "coverage": [
+        "Interactive filtering of US-listed stocks",
+        "Preset screens",
+        "Related ETF and comparison tools"
+      ],
+      "sources": [
+        "Market data shown in the tool"
+      ],
+      "data_assets": [
+        "Sortable table of stocks with market cap, price, volume, and P/E"
+      ],
+      "link_patterns": [
+        "Navigation to related tools"
+      ],
+      "trust_signals": [
+        "App ratings",
+        "Company and policy links"
+      ],
+      "covered_well": "A working screener with a wide set of filters.",
+      "gaps": "No explanation of metric definitions, data limits, or verification against SEC filings."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Best Stock Screener App In 2026",
+      "url": "https://www.wallstreetzen.com/stock-screener",
+      "publisher": "WallStreetZen",
+      "format": "Tool page with educational content",
+      "updated_at": "not stated",
+      "headings": [
+        "How to Use a Stock Screener to Find Undervalued Stocks",
+        "What Is a Stock Screener?",
+        "Stock Screening Is Just the First Step",
+        "How Warren Buffett Uses Numbers to Uncover Companies With a Long Term Competitive Advantage"
+      ],
+      "coverage": [
+        "Customizable fundamental filters",
+        "P/E, debt-to-equity, ROE, market cap",
+        "Screening as a first step only"
+      ],
+      "sources": [
+        "Warren Buffett's approach referenced"
+      ],
+      "data_assets": [
+        "Interactive stock table",
+        "Filter categories"
+      ],
+      "link_patterns": [
+        "Internal links to metric screens and stock lists"
+      ],
+      "trust_signals": [
+        "No-advice disclaimer",
+        "Contact information"
+      ],
+      "covered_well": "Explains what a screener is and says plainly that screening is only a first step.",
+      "gaps": "Does not say which metrics to prioritize, how to read conflicting signals, or how to verify results in filings."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Stock Screener with Backtesting & Formula Filters",
+      "url": "https://www.marketinout.com/",
+      "publisher": "MarketInOut",
+      "format": "Tool page",
+      "updated_at": "2026-09-23",
+      "headings": [
+        "Why Traders Choose MarketInOut as Their Stock Screener",
+        "Advanced Formula Stock Screener for Custom Strategies",
+        "Strategy Backtesting on 25+ Years of Historical Data",
+        "Screen Stocks Across 40+ Global Exchanges",
+        "Stock Screener FAQ"
+      ],
+      "coverage": [
+        "Technical indicators",
+        "Chart patterns",
+        "Exchange coverage",
+        "Backtesting and formula builder"
+      ],
+      "sources": [
+        "Product descriptions and FAQ only"
+      ],
+      "data_assets": [
+        "Historical price data for backtests"
+      ],
+      "link_patterns": [
+        "Internal links to tools and preset screens"
+      ],
+      "trust_signals": [
+        "Named scoring models",
+        "Help documentation"
+      ],
+      "covered_well": "Lays out the indicator set, exchange coverage, and backtesting features.",
+      "gaps": "No guidance on which metrics suit which question, their limits, or checking results against filings."
     }
   ],
-  "content_gaps": [],
-  "value_add": "",
+  "content_gaps": [
+    "Ranking pages are the screeners themselves or product roundups.",
+    "Few explain what each metric measures or where it misleads.",
+    "Almost none tell the reader to check a screen result against the company's filings.",
+    "Sector differences in normal ratio levels are rarely covered."
+  ],
+  "value_add": "A metric-by-metric guide to what each filter measures and misses, with a verification step in SEC filings for every screen.",
   "plan": {
     "reader_title": "Stock Screener Explained: Which Metrics Help Narrow the Market",
     "seo_title": "Stock Screener Guide: Filters Worth Using",
     "meta_description": "Learn how to use a stock screener without drowning in filters. Compare valuation, quality, growth, momentum, liquidity, and risk metrics.",
     "slug": "/markets-stocks/stock-screener-metrics-guide/",
-    "search_intent": "Informational",
-    "secondary_keywords": [],
-    "outline": [],
-    "evidence_map": [],
-    "visuals": [],
+    "search_intent": "Commercial and informational",
+    "secondary_keywords": [
+      "how to use a stock screener",
+      "stock screener criteria",
+      "what is a stock screener",
+      "best stock screener"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "What a Stock Screener Does",
+      "Start With the Question, Not the Filter Menu",
+      "The Six Metric Families That Matter Most",
+      "Market Capitalization Is a Risk Filter, Not a Quality Score",
+      "Trading Volume Protects Against a Hidden Problem",
+      "Price-to-Earnings Is Useful and Frequently Misused",
+      "Enterprise Value Helps Compare Capital Structures",
+      "Free Cash Flow Can Expose Earnings Quality",
+      "Revenue Growth Is Often Cleaner Than EPS Growth",
+      "Return on Equity Needs a Balance-Sheet Check",
+      "Return on Invested Capital Gets Closer to the Operating Question",
+      "Debt Metrics Belong in Almost Every Screen",
+      "Margins Tell You Where Growth Becomes Economics",
+      "Momentum Is Not the Opposite of Fundamentals",
+      "Risk Metrics Should Enter Before the Final Shortlist",
+      "A Practical Three-Stage Screening Workflow",
+      "Example: Building a Quality Screen",
+      "Beware of Over-Fitting the Screen",
+      "Sector-Neutral Screens Often Produce Bad Comparisons",
+      "Data Definitions Can Differ Across Platforms",
+      "Stock Screening and Market Context",
+      "What a Screener Cannot Tell You",
+      "Common Stock Screener Mistakes",
+      "Screening for Dividends Requires More Than Yield",
+      "Screening for Growth Requires Quality Controls",
+      "Screening for Value Requires Normalized Earnings",
+      "Screening Can Help Build Watchlists",
+      "Refresh Frequency Should Match the Metric",
+      "A Screening Checklist Before You Trust the Output",
+      "Final Perspective",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Verification section: EDGAR full text search",
+      "Filings section: Investor.gov guide to the 10-K"
+    ],
+    "visuals": [
+      "Hero photograph of market monitors on a desk"
+    ],
     "internal_links": [
       "/markets-stocks/"
     ],
-    "external_link_opportunities": [],
-    "excluded_claims": [],
-    "drafting_cautions": []
+    "external_link_opportunities": [
+      "https://www.sec.gov/edgar/search/",
+      "https://www.investor.gov/introduction-investing/getting-started/researching-investments/how-read-10-k"
+    ],
+    "excluded_claims": [
+      "Rankings of screener products",
+      "Stock picks or screen results presented as opportunities",
+      "Performance claims for any screen"
+    ],
+    "drafting_cautions": [
+      "Threshold examples are illustrative"
+    ]
   },
   "claims": [
     {
-      "statement": "",
-      "source_url": "",
-      "verified": false
+      "statement": "The Form 10-K is filed annually and contains the business description, risk factors, and financial statements.",
+      "source_url": "https://www.investor.gov/introduction-investing/getting-started/researching-investments/how-read-10-k",
+      "verified": true
     }
   ],
   "fact_check": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04",
+    "note": "Approved by the site owner in the build session of 2026-10-04 (\"all posts approved\") after reviewing the verification summary for each post."
   },
   "qa": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04",
+    "note": "Approved by the site owner in the build session of 2026-10-04 (\"all posts approved\") after reviewing the verification summary for each post."
   },
   "verification_log": {
     "checked_on": "2026-10-04",
-    "summary": "Confirmed the SEC guide exists at the linked address. The post is a framework piece with illustrative thresholds, not market statistics. Not yet checked: Investor.gov introduction page and FINRA investor page listed in Resources.",
-    "pending": "Ubersuggest keyword data, five-competitor review, remaining sources, and named fact-check and QA sign-off."
+    "summary": "Keyword data from Ubersuggest (United States), five ranking pages reviewed. EDGAR, the 10-K guide, the Investor.gov introduction and asset allocation pages, and the FINRA investor page all checked.",
+    "pending": "None."
   }
 }
