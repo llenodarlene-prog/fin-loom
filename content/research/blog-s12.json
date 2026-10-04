@@ -6,7 +6,7 @@
     "purpose": "Report Google revenue by segment from Alphabet's reporting and explain the segments.",
     "audience": "Readers and investors looking for sourced Google revenue figures.",
     "publication_year": "2026",
-    "data_period": "Fiscal 2025, mainly the fourth quarter.",
+    "data_period": "Fiscal 2025, mainly the fourth quarter. Updated with 2026 results to date and published projections as of October 4, 2026.",
     "scope_limitations": "Company-reported figures. Capital spending guidance is a forecast. No view on the stock."
   },
   "keyword_research": {
@@ -117,6 +117,19 @@
       "method": "Official publication",
       "limitations": "A navigation page; it carries no figures used in the post",
       "verified": true
+    },
+    {
+      "url": "https://abc.xyz/investor/events/event-details/2026/2026-Q2-Earnings-Call-2026-GgTAq7Is0z/default.aspx",
+      "title": "Alphabet Second Quarter 2026 Earnings Call",
+      "publisher": "Alphabet Investor Relations",
+      "source_type": "Company earnings call",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-04",
+      "scope": "Second quarter 2026 results and updated 2026 capital expenditure guidance",
+      "method": "Company-reported results and guidance",
+      "limitations": "Company-reported; guidance is a forecast",
+      "verified": true
     }
   ],
   "statistics": [
@@ -153,7 +166,7 @@
       "verified": true
     },
     {
-      "claim": "Alphabet expected 2026 capital expenditure of $175 billion to $185 billion.",
+      "claim": "Alphabet expected 2026 capital expenditure of $175 billion to $185 billion as of its fourth quarter 2025 call; the range was raised to $195 billion to $205 billion on the second quarter 2026 call.",
       "source_url": "https://abc.xyz/investor/events/event-details/2026/2025-Q4-Earnings-Call-2026-Dr_C033hS6/default.aspx",
       "data_year": "2026",
       "geography": "Global",
@@ -165,6 +178,38 @@
       "limitations": "Company guidance, not a result",
       "sponsored": false,
       "partial_year": false,
+      "estimate": true,
+      "verified": true
+    },
+    {
+      "claim": "In the second quarter of 2026 Alphabet reported consolidated revenue of $119.8 billion, up 24%; Google Cloud revenue of $24.8 billion, up 82%, with a 35.6% operating margin; Google Services revenue of $95 billion and operating income of $39.5 billion; and Cloud backlog of $514 billion.",
+      "source_url": "https://abc.xyz/investor/events/event-details/2026/2026-Q2-Earnings-Call-2026-GgTAq7Is0z/default.aspx",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Not applicable: company-reported figure",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Company-reported results",
+      "limitations": "Company-reported",
+      "sponsored": false,
+      "partial_year": true,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Alphabet raised 2026 capital expenditure guidance to $195 billion to $205 billion and said it expects capital expenditures to increase significantly in 2027; it expects to recognize just over 50% of Cloud backlog as revenue over the next 24 months.",
+      "source_url": "https://abc.xyz/investor/events/event-details/2026/2026-Q2-Earnings-Call-2026-GgTAq7Is0z/default.aspx",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Not applicable: company-reported figure",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Company-reported results",
+      "limitations": "Company guidance; a forecast that can change",
+      "sponsored": false,
+      "partial_year": true,
       "estimate": true,
       "verified": true
     }
@@ -389,6 +434,7 @@
       "AI Search Must Protect Commercial Intent",
       "Capital Returns Still Matter During Heavy Investment",
       "Final Perspective",
+      "2026 So Far: Second-Quarter Results and the Outlook",
       "Frequently Asked Questions",
       "Resources"
     ],
@@ -404,7 +450,8 @@
     ],
     "external_link_opportunities": [
       "https://abc.xyz/investor/events/event-details/2026/2025-Q4-Earnings-Call-2026-Dr_C033hS6/default.aspx",
-      "https://abc.xyz/investor/earnings/"
+      "https://abc.xyz/investor/earnings/",
+      "https://abc.xyz/investor/events/event-details/2026/2026-Q2-Earnings-Call-2026-GgTAq7Is0z/default.aspx"
     ],
     "excluded_claims": [
       "Search market share estimates",
@@ -412,13 +459,19 @@
       "Stock recommendations"
     ],
     "drafting_cautions": [
-      "2026 capital spending is company guidance"
+      "2026 capital spending is company guidance",
+      "Guidance and projections are forecasts by the company or agency and must stay labeled as such"
     ]
   },
   "claims": [
     {
       "statement": "Alphabet reported Google Cloud revenue of $17.7 billion for the fourth quarter of 2025, up 48%.",
       "source_url": "https://abc.xyz/investor/events/event-details/2026/2025-Q4-Earnings-Call-2026-Dr_C033hS6/default.aspx",
+      "verified": true
+    },
+    {
+      "statement": "Alphabet reported second quarter 2026 Google Cloud revenue of $24.8 billion, up 82%.",
+      "source_url": "https://abc.xyz/investor/events/event-details/2026/2026-Q2-Earnings-Call-2026-GgTAq7Is0z/default.aspx",
       "verified": true
     }
   ],
@@ -436,7 +489,7 @@
   },
   "verification_log": {
     "checked_on": "2026-10-04",
-    "summary": "Keyword data from Ubersuggest (United States), five ranking pages reviewed. Headline segment figures checked against the fourth quarter 2025 call. Alphabet earnings and FAQ pages load and match their labels. Body claims checked against the fourth quarter 2025 call: YouTube above $60 billion, $240 billion Cloud backlog, Subscriptions, Platforms and Devices $13.6 billion, Google Services operating income $40.1 billion at a 41.9% margin, more than 325 million paid subscriptions, and more than 8 million Gemini Enterprise seats. One sentence giving a second quarter 2025 Cloud margin was removed because no cited source supports it.",
+    "summary": "Keyword data from Ubersuggest (United States), five ranking pages reviewed. Headline segment figures checked against the fourth quarter 2025 call. Alphabet earnings and FAQ pages load and match their labels. Body claims checked against the fourth quarter 2025 call: YouTube above $60 billion, $240 billion Cloud backlog, Subscriptions, Platforms and Devices $13.6 billion, Google Services operating income $40.1 billion at a 41.9% margin, more than 325 million paid subscriptions, and more than 8 million Gemini Enterprise seats. One sentence giving a second quarter 2025 Cloud margin was removed because no cited source supports it. 2026 update of 2026-10-04: Added second quarter 2026 results and Alphabet's stated outlook from the second quarter 2026 call, and updated the 2026 capital expenditure guidance to the current range.",
     "pending": "None."
   }
 }

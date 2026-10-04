@@ -489,6 +489,33 @@ Services increase the economic value of that base.
 
 The strength of Apple's future results will depend on maintaining both sides of the system while managing regulation, product cycles, geographic competition, and the cost of integrating AI into the ecosystem.
 
+## Fiscal 2026 So Far and What Apple Has Said About the Outlook
+
+Three fiscal 2026 quarters are now reported. Added together, they give a nine-month view.
+
+### What Has Been Reported
+
+The table lists each reported quarter of fiscal 2026.
+
+| Fiscal 2026 quarter | Revenue | Change from prior year |
+|---|---:|---:|
+| First quarter, ended December 27, 2025 | $143.8 billion | Up from $124.3 billion |
+| Second quarter | $111.2 billion | +17% |
+| Third quarter, ended June 27, 2026 | $109.4 billion | +16% |
+| Nine months, summed | About $364.4 billion | Not stated by Apple |
+
+The nine-month total is a sum of the three reported quarters, not a figure Apple published.
+
+In the third quarter, diluted earnings per share were $2.02, up 29% from a year earlier. Apple declared a cash dividend of $0.27 per share. It said iPhone and Services revenue set June-quarter records and that the installed base of active devices reached a new high.
+
+### What Apple Projects
+
+Apple's third-quarter release contains no revenue or earnings guidance. Any projection for the fourth quarter or for fiscal 2027 attributed to Apple should be checked against the company's own statements.
+
+That absence is useful to know. Many Apple statistics pages mix reported results with analyst estimates of shipments and future revenue. The figures on this page are reported results only.
+
+The fourth fiscal quarter will complete the fiscal 2026 picture. Until Apple reports it, a full-year figure is an estimate, not a result.
+
 ## Frequently Asked Questions
 
 Short answers to the questions readers ask most often about Apple statistics.

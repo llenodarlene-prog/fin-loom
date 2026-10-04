@@ -497,6 +497,27 @@ It is assigning the wrong job to the wrong money.
 
 A strong financial plan protects the dollars that must be available soon and gives long-term dollars enough time to work.
 
+## What the Federal Reserve Projects for 2026 and 2027
+
+Projections help frame the saving vs investing choice, as long as they are read as projections.
+
+The Federal Reserve published its latest Summary of Economic Projections on September 16, 2026. The figures below are the median views of Federal Open Market Committee participants. They are not promises, and they change every quarter.
+
+| Median projection | 2026 | 2027 | 2028 |
+|---|---:|---:|---:|
+| PCE inflation | 3.7% | 2.3% | 2.1% |
+| Core PCE inflation | 3.4% | 2.5% | 2.2% |
+| Federal funds rate, year end | 4.1% | 4.1% | 3.9% |
+| Unemployment rate | 4.1% | 4.1% | 4.1% |
+
+Two points matter for savers.
+
+First, the projected 2026 inflation rate of 3.7% sits well above the 0.37% national average savings rate the FDIC reported on September 21, 2026. A balance earning the national average would lose purchasing power at that pace.
+
+Second, the median projection has the policy rate holding at 4.1% through 2027. That is a projection of the policy rate, not of what any bank will pay. Deposit rates vary widely between institutions.
+
+None of this says where to put money. It shows why the time horizon matters: cash protects near-term spending, while money that will sit for many years faces the inflation question directly.
+
 ## Frequently Asked Questions
 
 Short answers to the questions readers ask most often about saving vs investing.
@@ -527,3 +548,4 @@ It depends on the debt cost, liquidity needs, employer benefits, taxes, and risk
 - [Investor.gov: Save for a Rainy Day](https://www.investor.gov/introduction-investing/investing-basics/save-and-invest/save-rainy-day)
 - [Investor.gov: Asset Allocation](https://www.investor.gov/introduction-investing/getting-started/asset-allocation)
 - [FDIC National Rates and Rate Caps](https://www.fdic.gov/resources/bankers/national-rates/)
+- [Federal Reserve: Summary of Economic Projections, September 16, 2026](https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260916.htm)

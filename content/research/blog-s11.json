@@ -6,7 +6,7 @@
     "purpose": "Present PayPal figures from its filings and say what each metric measures.",
     "audience": "Readers, merchants, and investors looking for sourced PayPal figures.",
     "publication_year": "2026",
-    "data_period": "Fiscal 2025 and second quarter 2026.",
+    "data_period": "Fiscal 2025 and second quarter 2026. Updated with 2026 results to date and published projections as of October 4, 2026.",
     "scope_limitations": "Company-reported figures. Active accounts are not the same as people. No view on the stock."
   },
   "keyword_research": {
@@ -182,6 +182,22 @@
       "sponsored": false,
       "partial_year": true,
       "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "PayPal reported first-half 2026 net revenues of $17.0 billion and share repurchases of about $3.1 billion, and guided to full-year 2026 non-GAAP EPS of about $5.38 with a mid-single-digit decline in GAAP EPS.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000080/pypl2q-26earningsrelease.htm",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Not applicable: company-reported figure",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Company-reported results",
+      "limitations": "Company-reported; guidance is a forecast",
+      "sponsored": false,
+      "partial_year": true,
+      "estimate": true,
       "verified": true
     }
   ],
@@ -398,6 +414,7 @@
       "Cross-Border Payments Remain Strategically Valuable",
       "PayPal Statistics Should Be Updated by Reporting Period",
       "Final Perspective",
+      "2026 So Far and PayPal's Own Outlook",
       "Frequently Asked Questions",
       "Resources"
     ],
@@ -421,7 +438,8 @@
       "Third-party estimates presented as reported figures"
     ],
     "drafting_cautions": [
-      "Active accounts are accounts, not people"
+      "Active accounts are accounts, not people",
+      "Guidance and projections are forecasts by the company or agency and must stay labeled as such"
     ]
   },
   "claims": [
@@ -450,7 +468,7 @@
   },
   "verification_log": {
     "checked_on": "2026-10-04",
-    "summary": "Keyword data from Ubersuggest (United States), five ranking pages reviewed. Annual and quarterly headline figures checked against both releases. The 2025 Form 10-K loads and states 439 million active accounts and $1.79 trillion of payment volume. Body claims checked against the releases and the 2025 Form 10-K: 2024 payment volume and transactions, currency-neutral growth, transactions per active account, transaction margin dollars, operating margins, free cash flow, cross-border share of 12% in 2023 to 2025, 37% of volume outside the United States, and $6.0 billion of share repurchases.",
+    "summary": "Keyword data from Ubersuggest (United States), five ranking pages reviewed. Annual and quarterly headline figures checked against both releases. The 2025 Form 10-K loads and states 439 million active accounts and $1.79 trillion of payment volume. Body claims checked against the releases and the 2025 Form 10-K: 2024 payment volume and transactions, currency-neutral growth, transactions per active account, transaction margin dollars, operating margins, free cash flow, cross-border share of 12% in 2023 to 2025, 37% of volume outside the United States, and $6.0 billion of share repurchases. 2026 update of 2026-10-04: Added first-half 2026 totals and PayPal's stated third quarter and full-year 2026 guidance from the second quarter release.",
     "pending": "None."
   }
 }

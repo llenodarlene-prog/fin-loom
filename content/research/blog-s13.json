@@ -6,7 +6,7 @@
     "purpose": "Report Amazon's results by segment with cash flow and capital spending.",
     "audience": "Readers, sellers, and investors looking for sourced Amazon figures.",
     "publication_year": "2026",
-    "data_period": "Fiscal 2025 and the first half of 2026.",
+    "data_period": "Fiscal 2025 and the first half of 2026. Updated with 2026 results to date and published projections as of October 4, 2026.",
     "scope_limitations": "Company-reported figures. Second quarter 2026 net income includes large non-operating gains. No view on the stock."
   },
   "keyword_research": {
@@ -192,6 +192,38 @@
       "unit": "US dollars",
       "method": "Company-reported financial results",
       "limitations": "As reported; later filings may restate",
+      "sponsored": false,
+      "partial_year": true,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Amazon guided third quarter 2026 net sales of $197.0 billion to $202.0 billion, growth of 9% to 12%, and operating income of $22.5 billion to $26.5 billion against $17.4 billion in the third quarter of 2025.",
+      "source_url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/default.aspx",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Not applicable: company-reported figure",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Company-reported results",
+      "limitations": "Company guidance; a forecast that can change",
+      "sponsored": false,
+      "partial_year": true,
+      "estimate": true,
+      "verified": true
+    },
+    {
+      "claim": "For the twelve months to June 2026 Amazon reported operating cash flow of $161.4 billion, purchases of property and equipment, net, of $169.0 billion, and negative free cash flow of $7.6 billion; AWS operating income was $16.6 billion in the second quarter of 2026.",
+      "source_url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/default.aspx",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Not applicable: company-reported figure",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Company-reported results",
+      "limitations": "Company-reported",
       "sponsored": false,
       "partial_year": true,
       "estimate": false,
@@ -420,6 +452,7 @@
       "Free Cash Flow Should Be Normalized Across Investment Cycles",
       "Amazon's Business Mix Reduces Dependence on Any One Margin Model",
       "Final Perspective",
+      "2026 So Far and Amazon's Stated Outlook",
       "Frequently Asked Questions",
       "Resources"
     ],
@@ -443,7 +476,8 @@
       "Stock recommendations"
     ],
     "drafting_cautions": [
-      "Second quarter 2026 net income includes $53.4 billion of non-operating gains"
+      "Second quarter 2026 net income includes $53.4 billion of non-operating gains",
+      "Guidance and projections are forecasts by the company or agency and must stay labeled as such"
     ]
   },
   "claims": [
@@ -472,7 +506,7 @@
   },
   "verification_log": {
     "checked_on": "2026-10-04",
-    "summary": "Keyword data from Ubersuggest (United States), five ranking pages reviewed. Annual, segment, and second quarter 2026 figures checked against the releases. The first quarter 2026 release and SEC filings page load. Body claims checked: 2024 net sales, segment sales and operating income, operating cash flow of $139.5 billion, the $50.7 billion rise in property and equipment purchases, and second quarter 2026 segment growth. The post quotes no first quarter 2026 figures and gives no figures for advertising, subscriptions, or sellers.",
+    "summary": "Keyword data from Ubersuggest (United States), five ranking pages reviewed. Annual, segment, and second quarter 2026 figures checked against the releases. The first quarter 2026 release and SEC filings page load. Body claims checked: 2024 net sales, segment sales and operating income, operating cash flow of $139.5 billion, the $50.7 billion rise in property and equipment purchases, and second quarter 2026 segment growth. The post quotes no first quarter 2026 figures and gives no figures for advertising, subscriptions, or sellers. 2026 update of 2026-10-04: Added trailing twelve month cash flow to June 2026, second quarter AWS operating income, and Amazon's third quarter 2026 guidance.",
     "pending": "None."
   }
 }

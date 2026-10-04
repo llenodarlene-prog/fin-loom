@@ -449,6 +449,25 @@ The harder question is how effectively that scale converts into durable margin g
 
 For that reason, future PayPal analysis should spend less time celebrating account counts and more time following the economics from payment volume to free cash flow.
 
+## 2026 So Far and PayPal's Own Outlook
+
+The PayPal statistics above run through the second quarter of 2026. The same release also gives first-half totals and the company's guidance for the rest of the year.
+
+| Metric | Figure | Period |
+|---|---:|---|
+| Net revenues | $17.0 billion | First half of 2026 |
+| Operating cash flow | $3.1 billion | First half of 2026 |
+| Share repurchases | About $3.1 billion | First half of 2026 |
+| Non-GAAP EPS guidance | About $5.38 | Full year 2026 |
+| GAAP EPS guidance | Mid-single-digit decline | Full year 2026 |
+| GAAP and non-GAAP EPS guidance | Low-single-digit decline | Third quarter 2026 |
+
+PayPal said it raised its full-year guidance for transaction margin dollars and non-GAAP earnings per share with the second-quarter results.
+
+Guidance is management's forecast, not a result. It can change with payment volumes, interest rates, credit performance, and currency moves.
+
+The guidance also shows why one metric is never enough. The company is guiding to a decline in GAAP earnings per share for 2026 while reporting faster payment volume growth. Volume, margin, and earnings are moving at different speeds, which is the main theme of the 2026 figures.
+
 ## Frequently Asked Questions
 
 Short answers to the questions readers ask most often about PayPal statistics.

@@ -469,6 +469,33 @@ AI infrastructure is now absorbing enormous capital.
 
 The next phase of Amazon's financial performance will depend on how effectively those businesses reinforce one another and whether today's heavy reinvestment produces durable returns.
 
+## 2026 So Far and Amazon's Stated Outlook
+
+These Amazon statistics run through the second quarter of 2026. The same release gives trailing cash flow figures and the company's guidance for the third quarter.
+
+### What Has Been Reported
+
+The table lists the reported figures first, then the guidance.
+
+| Metric | Figure | Period |
+|---|---:|---|
+| AWS operating income | $16.6 billion | Q2 2026 |
+| Operating cash flow | $161.4 billion | 12 months to June 2026 |
+| Purchases of property and equipment, net | $169.0 billion | 12 months to June 2026 |
+| Free cash flow | Negative $7.6 billion | 12 months to June 2026 |
+| Net sales guidance | $197.0 billion to $202.0 billion | Q3 2026 |
+| Operating income guidance | $22.5 billion to $26.5 billion | Q3 2026 |
+
+The cash flow line has turned. Free cash flow was $11.2 billion for 2025. For the twelve months to June 2026 it was negative $7.6 billion, because purchases of property and equipment rose faster than operating cash flow.
+
+### What Amazon Projects
+
+For the third quarter of 2026, Amazon guided to net sales growth of 9% to 12% from the third quarter of 2025. It guided to operating income of $22.5 billion to $26.5 billion, compared with $17.4 billion a year earlier.
+
+Guidance is a forecast. Amazon gives it one quarter at a time and has not published a full-year 2027 outlook.
+
+The mix is worth noting. The guided sales growth rate is below the 20% reported for the second quarter, while the guided operating income is above the prior year. Sales, profit, and cash flow are telling three different stories, and all three belong in any reading of the company going into 2027.
+
 ## Frequently Asked Questions
 
 Short answers to the questions readers ask most often about Amazon statistics.
