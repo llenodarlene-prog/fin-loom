@@ -6,7 +6,7 @@
     "purpose": "Report Apple's quarterly results by product and region with margin context.",
     "audience": "Readers and investors looking for sourced Apple figures.",
     "publication_year": "2026",
-    "data_period": "Fiscal 2026 first to third quarters.",
+    "data_period": "Fiscal 2026 first to third quarters. Updated with 2026 results to date and published projections as of October 4, 2026.",
     "scope_limitations": "Company-reported figures. Third quarter gross margin includes about two points from tariff refunds. No view on the stock."
   },
   "keyword_research": {
@@ -192,6 +192,22 @@
       "unit": "US dollars",
       "method": "Company-reported financial results",
       "limitations": "As reported; later filings may restate",
+      "sponsored": false,
+      "partial_year": true,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Apple reported fiscal third quarter 2026 diluted earnings per share of $2.02, up 29%, and declared a cash dividend of $0.27 per share; the release gives no forward guidance.",
+      "source_url": "https://www.apple.com/newsroom/2026/07/apple-reports-third-quarter-results/",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Not applicable: company-reported figure",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Company-reported results",
+      "limitations": "Company-reported",
       "sponsored": false,
       "partial_year": true,
       "estimate": false,
@@ -427,6 +443,7 @@
       "Supply Chain Risk Remains Material",
       "Hardware Innovation Still Supports Services Growth",
       "Final Perspective",
+      "Fiscal 2026 So Far and What Apple Has Said About the Outlook",
       "Frequently Asked Questions",
       "Resources"
     ],
@@ -451,7 +468,8 @@
       "Stock recommendations"
     ],
     "drafting_cautions": [
-      "Third quarter gross margin includes about two points of tariff refunds"
+      "Third quarter gross margin includes about two points of tariff refunds",
+      "Guidance and projections are forecasts by the company or agency and must stay labeled as such"
     ]
   },
   "claims": [
@@ -480,7 +498,7 @@
   },
   "verification_log": {
     "checked_on": "2026-10-04",
-    "summary": "Keyword data from Ubersuggest (United States), five ranking pages reviewed. Headline figures checked against Apple's statements and releases. Apple investor relations page loads. First quarter table rows rechecked against the financial statements: Wearables, Home and Accessories $11,493 million, Europe $38,146 million, Japan $9,413 million, plus prior-year iPhone and Services figures.",
+    "summary": "Keyword data from Ubersuggest (United States), five ranking pages reviewed. Headline figures checked against Apple's statements and releases. Apple investor relations page loads. First quarter table rows rechecked against the financial statements: Wearables, Home and Accessories $11,493 million, Europe $38,146 million, Japan $9,413 million, plus prior-year iPhone and Services figures. 2026 update of 2026-10-04: Added a nine-month fiscal 2026 summary (a sum of reported quarters, labeled as such), third quarter earnings per share and dividend, and a note that Apple's release gives no guidance.",
     "pending": "None."
   }
 }

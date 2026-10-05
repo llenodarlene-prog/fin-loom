@@ -87,53 +87,35 @@ Before doing anything, verify at least four points:
 3. The contract address matches a source controlled by the project.
 4. The claim timeline and eligibility rules match across those sources.
 
-If any of those conflict, stop.
-
-A legitimate-looking design is not evidence. Consistency across independent official sources is.
+If any of those conflict, stop. A legitimate-looking design is not evidence, whereas consistency across independent official sources is.
 
 ## Check the Domain, Not Just the Logo
 
-Phishing pages succeed because they reduce a user’s attention to visual familiarity. A copied logo, matching colors, and a familiar wallet button can make a fake site feel authentic.
-
-Domain inspection is therefore a basic security control. Look for misspellings, added words, different top-level domains, unusual subdomains, or characters that look similar to letters in the real domain.
+Phishing pages succeed because they reduce a user’s attention to visual familiarity. A copied logo, matching colors, and a familiar wallet button can make a fake site feel authentic. Domain inspection is therefore a basic security control. Look for misspellings, added words, different top-level domains, unusual subdomains, or characters that look similar to letters in the real domain.
 
 Also check how you arrived there. A link posted in a reply thread is not equivalent to a link published on the project’s official site. A search result marked as an advertisement should not automatically be trusted simply because it appears above organic results.
 
-For high-value claims, open the project website manually from a known bookmark or independently typed address, then navigate to the claim page from there.
-
-That extra minute can prevent a wallet-level mistake that cannot be reversed.
+For high-value claims, open the project website manually from a known bookmark or independently typed address, then navigate to the claim page from there. That extra minute can prevent a wallet-level mistake that cannot be reversed.
 
 ## Understand What the Wallet Is Asking You to Sign
 
-Many users focus on transaction fees and ignore permissions. That is backwards.
-
-A gas fee is visible. A harmful approval may be more consequential.
+Many users focus on transaction fees and ignore permissions, which is backwards. A gas fee is visible, but a harmful approval may be far more consequential.
 
 Crypto drainers commonly rely on social engineering that persuades users to connect a wallet and approve a transaction or permission they do not fully understand. [Chainalysis describes crypto drainers](https://www.chainalysis.com/blog/crypto-drainers/) as phishing tools designed for web3 that can entice users to connect a wallet and grant permissions allowing funds to be moved.
 
-Before signing, identify the action. It may be a wallet connection, a message signature, a token approval, an NFT approval, a permit, a token transfer, a contract interaction, or a transaction granting broad spending rights.
-
-If your wallet simulation or security tool shows an unexpected transfer, unlimited approval, unfamiliar contract, or permission affecting valuable assets, do not continue merely because the page says the step is required.
+Before signing, identify the action. It may be a wallet connection, a message signature, a token approval, an NFT approval, a permit, a token transfer, a contract interaction, or a transaction granting broad spending rights. If your wallet simulation or security tool shows an unexpected transfer, unlimited approval, unfamiliar contract, or permission affecting valuable assets, do not continue merely because the page says the step is required.
 
 The economic value of the airdrop should never determine how much permission you grant to an unknown contract.
 
 ## Use a Separate Wallet for Airdrop Activity
 
-A useful operational rule is to separate exploration from storage.
+A useful operational rule is to separate exploration from storage. If your main wallet contains assets you intend to hold, it does not need to be the wallet you use for every new protocol, claim page, testnet, mint, or airdrop. A segmented setup can include a long-term storage wallet, a regular DeFi or transaction wallet, and a low-balance wallet used for experimental interactions or airdrop claims.
 
-If your main wallet contains assets you intend to hold, it does not need to be the wallet you use for every new protocol, claim page, testnet, mint, or airdrop.
-
-A segmented setup can include a long-term storage wallet, a regular DeFi or transaction wallet, and a low-balance wallet used for experimental interactions or airdrop claims.
-
-This does not make a malicious transaction safe. It limits the amount that may be exposed if something goes wrong.
-
-The FBI has previously recommended using a unique wallet for higher-risk crypto activities in order to isolate primary holdings if a malicious application gains access. The principle applies well beyond gaming or NFTs: reduce the number of valuable assets that sit behind permissions granted to unfamiliar applications.
+This does not make a malicious transaction safe. It limits the amount that may be exposed if something goes wrong. The FBI has previously recommended using a unique wallet for higher-risk crypto activities in order to isolate primary holdings if a malicious application gains access. The principle applies well beyond gaming or NFTs: reduce the number of valuable assets that sit behind permissions granted to unfamiliar applications.
 
 ## Review Existing Token Allowances
 
-A claim does not end when the tokens arrive.
-
-If you granted a contract permission to spend another token, that approval may persist. Users who interact with many DeFi applications can accumulate a long list of allowances over time.
+A claim does not end when the tokens arrive. If you granted a contract permission to spend another token, that approval may persist. Users who interact with many DeFi applications can accumulate a long list of allowances over time.
 
 Review allowances periodically and revoke permissions you no longer need. Be careful, however, about using random “revoke” sites found through search or social media. The revocation tool itself should come from a trusted source.
 
@@ -141,93 +123,51 @@ The goal is simple: old permissions should not remain open indefinitely just bec
 
 ## Confirm the Token Contract
 
-Fake tokens can copy names and tickers. A token called “ABC” does not prove it is the ABC token you expected.
+Fake tokens can copy names and tickers. A token called “ABC” does not prove it is the ABC token you expected. Use the project’s own official documentation to find the contract address, then compare it with what is in your wallet or on a blockchain explorer. Do not rely on symbol alone.
 
-Use the project’s own official documentation to find the contract address, then compare it with what is in your wallet or on a blockchain explorer. Do not rely on symbol alone.
-
-A blockchain explorer can help confirm the contract address, token standard, transaction history, holder addresses, supply information, contract verification status, and transfers associated with the token.
-
-A verified contract does not guarantee investment quality, but contract identity is a basic prerequisite.
+A blockchain explorer can help confirm the contract address, token standard, transaction history, holder addresses, supply information, contract verification status, and transfers associated with the token. A verified contract does not guarantee investment quality, but contract identity is a basic prerequisite.
 
 ## Evaluate Holder Concentration
 
-After establishing that the token is real, move from security research to economic research.
+After establishing that the token is real, move from security research to economic research. One of the first questions is who owns the supply. If a very small group of wallets controls a large percentage of circulating tokens, those holders may have significant influence on liquidity and price. The analysis becomes harder when one entity uses many wallets, when exchange wallets are counted as holders, or when treasury and vesting contracts are included alongside freely tradable balances.
 
-One of the first questions is who owns the supply.
-
-If a very small group of wallets controls a large percentage of circulating tokens, those holders may have significant influence on liquidity and price. The analysis becomes harder when one entity uses many wallets, when exchange wallets are counted as holders, or when treasury and vesting contracts are included alongside freely tradable balances.
-
-Holder concentration should therefore be interpreted, not just copied from a dashboard.
-
-Ask which large wallets are exchanges, which belong to the project treasury, which are vesting contracts, which belong to market makers, which appear linked to insiders, and how much of the supply is liquid.
-
-A top-holder table is useful only when wallet roles are understood.
+Holder concentration should therefore be interpreted, not just copied from a dashboard. Ask which large wallets are exchanges, which belong to the project treasury, which are vesting contracts, which belong to market makers, which appear linked to insiders, and how much of the supply is liquid. A top-holder table is useful only when wallet roles are understood.
 
 ## Circulating Supply Matters More Than the Headline Supply Number
 
-Crypto projects can report several supply figures: maximum supply, total supply, circulating supply, and fully diluted valuation based on future supply.
+Crypto projects can report several supply figures: maximum supply, total supply, circulating supply, and fully diluted valuation based on future supply. Those numbers answer different questions. A token with a small circulating float can trade at a high price even if a large amount of supply is scheduled to enter the market later. That future issuance can change the supply-demand balance.
 
-Those numbers answer different questions.
-
-A token with a small circulating float can trade at a high price even if a large amount of supply is scheduled to enter the market later. That future issuance can change the supply-demand balance.
-
-When evaluating a crypto airdrop, examine the relationship among current market capitalization, circulating supply, future unlocks, and the fully diluted value implied by the token price.
-
-The purpose is not to predict where the price will go. It is to understand how much of the eventual supply is already tradable.
+When evaluating a crypto airdrop, examine the relationship among current market capitalization, circulating supply, future unlocks, and the fully diluted value implied by the token price. The purpose is not to predict where the price will go. It is to understand how much of the eventual supply is already tradable.
 
 ## Read the Unlock Schedule
 
-An airdrop can create the appearance of broad distribution while a much larger pool of tokens remains allocated to investors, contributors, a foundation, or ecosystem incentives.
+An airdrop can create the appearance of broad distribution while a much larger pool of tokens remains allocated to investors, contributors, a foundation, or ecosystem incentives. An unlock schedule helps explain when those tokens become transferable. Look for cliff dates, linear vesting periods, investor allocations, team allocations, treasury reserves, ecosystem incentives, and future community distributions.
 
-An unlock schedule helps explain when those tokens become transferable.
-
-Look for cliff dates, linear vesting periods, investor allocations, team allocations, treasury reserves, ecosystem incentives, and future community distributions.
-
-A large unlock does not automatically cause a price decline. It does increase available supply or the amount that may become sellable, which makes it relevant to risk analysis.
-
-The key is to understand the schedule before treating the current circulating market capitalization as the whole story.
+A large unlock does not automatically cause a price decline. It does increase available supply or the amount that may become sellable, which makes it relevant to risk analysis. The key is to understand the schedule before treating the current circulating market capitalization as the whole story.
 
 ## Liquidity Can Matter More Than the Displayed Token Price
 
-A dashboard price can create false confidence.
-
-If only a small amount of liquidity exists near the quoted price, a holder may not be able to sell a meaningful position without moving the market.
+A dashboard price can create false confidence. If only a small amount of liquidity exists near the quoted price, a holder may not be able to sell a meaningful position without moving the market.
 
 Consider a token priced at $1. A wallet showing 5,000 tokens may display a value of $5,000. That does not mean there is enough executable liquidity to sell all 5,000 near $1.
 
-Check trading volume, liquidity pool depth, number of active venues, concentration of liquidity, bid-ask spread on centralized exchanges, slippage on decentralized exchanges, and whether markets are organic or thin.
-
-This is where broader [digital asset research](/crypto/) becomes useful. Price alone is one field in a larger market structure that includes liquidity, supply, custody, investor behavior, and token economics.
+Check trading volume, liquidity pool depth, number of active venues, concentration of liquidity, bid-ask spread on centralized exchanges, slippage on decentralized exchanges, and whether markets are organic or thin. This is where broader [digital asset research](/crypto/) becomes useful. Price alone is one field in a larger market structure that includes liquidity, supply, custody, investor behavior, and token economics.
 
 ## Compare Market Cap With Fully Diluted Valuation Carefully
 
-Fully diluted valuation, or FDV, is often treated as a shortcut for “future market cap.” That interpretation needs caution.
+Fully diluted valuation, or FDV, is often treated as a shortcut for “future market cap.” That interpretation needs caution. FDV generally applies the current token price to a larger supply figure, often maximum or fully diluted supply. It does not tell you what the token will be worth when all of that supply is circulating.
 
-FDV generally applies the current token price to a larger supply figure, often maximum or fully diluted supply. It does not tell you what the token will be worth when all of that supply is circulating.
-
-Still, the gap between circulating market cap and FDV can highlight how much future supply is excluded from today’s circulating capitalization.
-
-A large gap should trigger more research into unlocks, emissions, vesting, and who receives the future tokens.
-
-It is a diagnostic metric, not a forecast.
+Still, the gap between circulating market cap and FDV can highlight how much future supply is excluded from today’s circulating capitalization. A large gap should trigger more research into unlocks, emissions, vesting, and who receives the future tokens. It is a diagnostic metric, not a forecast.
 
 ## Check Whether the Token Has a Reason to Exist
 
-Airdrops can create demand temporarily because users expect a reward. That is different from demand for the token itself.
+Airdrops can create demand temporarily because users expect a reward. That is different from demand for the token itself. Ask what the token does after distribution. Possible functions include governance, fee discounts, staking, network security, collateral, protocol incentives, access rights, or value capture from a network.
 
-Ask what the token does after distribution.
-
-Possible functions include governance, fee discounts, staking, network security, collateral, protocol incentives, access rights, or value capture from a network.
-
-None of these automatically makes a token valuable. The important question is whether the mechanism creates durable demand or simply adds another reason to issue tokens.
-
-Governance tokens deserve special scrutiny. Voting rights matter only if governance controls something economically or operationally meaningful and if voting power is not so concentrated that small holders have negligible influence.
+None of these automatically makes a token valuable. The important question is whether the mechanism creates durable demand or simply adds another reason to issue tokens. Governance tokens deserve special scrutiny. Voting rights matter only if governance controls something economically or operationally meaningful and if voting power is not so concentrated that small holders have negligible influence.
 
 ## Measure the Real Cost of “Free”
 
-An airdrop may have no purchase price and still carry costs.
-
-Possible costs include:
+An airdrop may have no purchase price and still carry costs. Possible costs include:
 
 | Cost | Example |
 |---|---|
@@ -248,31 +188,21 @@ A simple net-value calculation is more useful than the headline reward:
 
 ## Beware of Eligibility Checkers
 
-Eligibility pages are attractive targets for phishing because users are already primed to connect a wallet.
+Eligibility pages are attractive targets for phishing because users are already primed to connect a wallet. A legitimate checker should not need a recovery phrase. Be suspicious if the site requests private information unrelated to proving wallet eligibility.
 
-A legitimate checker should not need a recovery phrase. Be suspicious if the site requests private information unrelated to proving wallet eligibility.
-
-Remember that a public wallet address is enough for many legitimate eligibility checks. A project may need a signature to verify wallet control, but the wallet interface should clearly describe what is being signed.
-
-If the signature message is opaque or the domain is uncertain, do not proceed.
+Remember that a public wallet address is enough for many legitimate eligibility checks. A project may need a signature to verify wallet control, but the wallet interface should clearly describe what is being signed. If the signature message is opaque or the domain is uncertain, do not proceed.
 
 ## Avoid “Pay First to Receive the Airdrop” Traps
 
-Some legitimate claims require network fees. That is different from being told to send cryptocurrency to an address in order to unlock a reward.
-
-Any request to transfer funds to a stranger or “verification wallet” should be treated as a major warning sign.
-
-The same applies to unexpected support agents offering to fix an eligibility problem for a payment.
+Some legitimate claims require network fees. That is different from being told to send cryptocurrency to an address in order to unlock a reward. Any request to transfer funds to a stranger or “verification wallet” should be treated as a major warning sign. The same applies to unexpected support agents offering to fix an eligibility problem for a payment.
 
 Scammers often add a second fraud layer after a victim loses money by pretending they can recover the stolen funds.
 
 ## Do Not Let Social Proof Replace Verification
 
-A Telegram group with thousands of members can be fake. Replies saying “worked for me” can be automated. Screenshots can be fabricated. Influencers can be impersonated.
+A Telegram group with thousands of members can be fake. Replies saying “worked for me” can be automated. Screenshots can be fabricated, and influencers can be impersonated.
 
-Social proof can help you discover a claim, but it should not be the basis for trusting it.
-
-A better hierarchy is:
+Social proof can help you discover a claim, but it should not be the basis for trusting it. A better hierarchy is:
 
 1. official project sources;
 2. verifiable contract data;
@@ -316,9 +246,7 @@ Calculate the amount you could reasonably sell after fees and slippage.
 
 ### Step 8: Clean Up Permissions
 
-Review approvals after the claim and revoke unnecessary permissions through a trusted tool.
-
-This process is slower than clicking “claim,” but it turns airdrop participation into a repeatable security and investment decision.
+Review approvals after the claim and revoke unnecessary permissions through a trusted tool. This process is slower than clicking “claim,” but it turns airdrop participation into a repeatable security and investment decision.
 
 ## Red Flags That Should Stop the Claim
 
