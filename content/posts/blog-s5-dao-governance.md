@@ -25,35 +25,43 @@ modified: 2026-10-04
 
 # DAO Governance and DeFi: What Token Voting Controls
 
-A DAO can call itself decentralized and still have most practical voting power concentrated in a small number of delegates. A governance token can give holders voting rights while very few holders use them. A proposal can pass a formal quorum while the process leading to the vote remains heavily shaped by large stakeholders, delegates, proposal authors, forums, and voting interfaces.
+A DAO can call itself decentralized and still have most practical voting power concentrated in a small number of delegates. A governance token can give holders voting rights while very few holders use them. A proposal can pass a formal quorum while the process leading to the vote remains heavily shaped by a few large stakeholders and delegates.
 
-That is why DAO governance should be evaluated as a system rather than a slogan. The basic idea is familiar: token holders or delegated representatives vote on proposals that affect a protocol, treasury, grants, fees, upgrades, or other shared resources. The details determine how meaningful that participation is.
+That is why DAO governance should be evaluated as a system rather than a slogan. The basic idea is familiar: token holders or delegated representatives vote on proposals that affect a protocol and its shared resources. The details determine how meaningful that participation is.
 
-Uniswap provides a useful example because its [governance process is publicly documented](https://developers.uniswap.org/docs/ecosystem/governance/governance-process). As of 2026, its process includes an RFC stage, an off-chain Temperature Check, and a final on-chain vote. The current documented thresholds include 10 million UNI voting “for” to advance a Temperature Check, 1 million UNI delegated to submit an on-chain proposal, and 40 million UNI voting in favor for an on-chain proposal to pass.
+Uniswap provides a clear example because its [governance process is publicly documented](https://developers.uniswap.org/docs/ecosystem/governance/governance-process). As of 2026, its process includes an RFC stage, an off-chain Temperature Check, and a final on-chain vote. The current documented thresholds are specific. A Temperature Check needs 10 million UNI voting “for” to advance, submitting an on-chain proposal needs 1 million UNI delegated, and passing one needs 40 million UNI in favor.
 
 Those rules are measurable. They still do not answer every governance question.
 
-Who owns or receives delegated UNI? How often do holders vote? How much influence do the largest delegates have?
+Who holds the delegated UNI, and how often do holders vote? How much influence do the largest delegates have, and what do voters see before casting a ballot?
 
-What information do voters see before casting a ballot? Who writes executable proposal code?
-
-How easily can governance rules themselves change? Those questions reveal whether DAO governance is broadly participatory, delegated, concentrated, or largely procedural.
+Those questions reveal whether DAO governance is broadly participatory, delegated, concentrated, or largely procedural.
 
 ## Key Takeaways
 
-The main points are summarized below.
-
-- **DAO Governance Is More Than Token Ownership:** Voting power, delegation, proposal thresholds, quorum, execution, and treasury control all matter.
-- **Delegation Can Improve Participation and Concentrate Influence at the Same Time:** Smaller holders can assign votes to active delegates, but large delegates may become governance centers.
-- **Quorum Is a Floor, Not a Decentralization Score:** A proposal can meet quorum even if voting power is concentrated.
-- **Off-Chain Discussion Shapes On-Chain Outcomes:** Forums, RFCs, delegate discussions, and interfaces influence which proposals reach binding votes.
-- **Governance Tokens Differ:** Some control treasury spending and protocol parameters; others have narrower roles.
-- **Voting Behavior Can Be Biased by Process Design:** Recent research suggests proposal framing, author signals, ordering, and delegation can affect voting outcomes.
-- **Measure Governance with Several Indicators:** Participation, delegate concentration, proposal success, voter diversity, execution time, and treasury authority provide a more useful picture.
+- **DAO governance is more than token ownership:** Voting power, delegation, proposal thresholds, quorum, execution, and treasury control all count.
+- **Delegation can improve participation and concentrate influence at the same time:** Smaller holders can assign votes to active delegates, but large delegates may become governance centers.
+- **Quorum is a floor, not a decentralization score:** A proposal can meet quorum even if voting power is concentrated.
+- **Off-chain discussion shapes on-chain outcomes:** Forums, RFCs, delegate discussions, and interfaces influence which proposals reach binding votes.
+- **Governance tokens differ:** Some control treasury spending and protocol parameters; others have narrower roles.
+- **Voting behavior can be biased by process design:** Recent research suggests proposal framing, author signals, ordering, and delegation can affect voting outcomes.
+- **Measure governance with several indicators:** Participation, delegate concentration, proposal success, voter diversity, execution time, and treasury authority provide a more useful picture.
 
 ## What DAO Governance Is
 
-DAO governance is a decision-making framework used by decentralized or blockchain-based communities to coordinate changes without relying entirely on a traditional corporate hierarchy. A DAO may govern: protocol upgrades, treasury spending, grants, fee settings, incentive programs, smart-contract parameters, asset listings, risk limits, token emissions, delegate programs, or governance procedures themselves.
+DAO governance is a decision-making framework used by decentralized or blockchain-based communities to coordinate changes without relying entirely on a traditional corporate hierarchy. A DAO may govern the following:
+
+- Protocol upgrades
+- Treasury spending
+- Grants
+- Fee settings
+- Incentive programs
+- Smart-contract parameters
+- Asset listings
+- Risk limits
+- Token emissions
+- Delegate programs
+- Governance procedures themselves
 
 The scope varies. A token holder should therefore ask a basic question before caring about voter turnout:
 
@@ -63,9 +71,18 @@ A voting system that controls a large treasury and core protocol parameters has 
 
 ## Governance Tokens Do Not All Work the Same Way
 
-The phrase “governance token” can hide major differences. Possible models include one-token-one-vote, delegated token voting, vote escrow, time-weighted voting, NFT-based membership, reputation systems, multisignature committees with token oversight, and hybrid legal/entity structures. Token voting is common because it gives the protocol a measurable way to assign governance weight.
+The phrase “governance token” can hide major differences. Possible models include:
 
-It also raises a structural issue: wealth concentration can become political concentration. If one address controls ten times more voting tokens than another, it may have ten times the formal voting power unless the system modifies that relationship.
+- One-token-one-vote
+- Delegated token voting
+- Vote escrow
+- Time-weighted voting
+- NFT-based membership
+- Reputation systems
+- Multisignature committees with token oversight
+- Hybrid legal/entity structures
+
+Token voting is common because it gives the protocol a measurable way to assign governance weight. It also raises a structural issue: wealth concentration can become political concentration. If one address controls ten times more voting tokens than another, it may have ten times the formal voting power unless the system modifies that relationship.
 
 ## Delegation Separates Ownership From Active Voting
 
@@ -91,7 +108,7 @@ The on-chain phase also includes a voting delay and timelock around execution. T
 
 The RFC stage begins in the governance forum. A proposer explains the idea, receives criticism, answers questions, and can revise the proposal.
 
-This step matters because governance quality depends on the information available before voting. A technically valid vote cannot correct an unclear proposal if participants do not understand the effects.
+This step is important because governance quality depends on the information available before voting. A technically valid vote cannot correct an unclear proposal if participants do not understand the effects.
 
 ### Phase 2: Temperature Check
 
@@ -111,15 +128,23 @@ The three UNI thresholds apply to different governance stages. They are displaye
 
 Quorum establishes a minimum participation threshold. Without one, a proposal could theoretically pass with very little voting power if most holders ignored it.
 
-Uniswap’s current on-chain process uses 40 million UNI voting in favor as a threshold. Quorum does not tell you: how many individual voters participated, whether one delegate supplied most of the votes, how much supply was eligible to vote, whether the same delegates dominate repeatedly, or whether proposal authors influenced voter framing. A useful governance analysis therefore separates quorum from decentralization.
+Uniswap’s current on-chain process uses 40 million UNI voting in favor as a threshold. Quorum does not tell you: how many individual voters participated, whether one delegate supplied most of the votes, how much supply was eligible to vote, whether the same delegates dominate repeatedly, or whether proposal authors influenced voter framing. A sound governance analysis therefore separates quorum from decentralization.
 
 ## Voting Power Concentration Is a Core Metric
 
 Consider two proposals that both receive 50 million votes. Proposal A: 20 million from the largest delegate, 15 million from the second, and 15 million from hundreds of others. Proposal B: 5 million from the largest delegate, 4 million from the second, and 41 million distributed across many delegates.
 
-Both pass the same quorum. Even so, their governance concentration is very different.
+Both pass the same quorum. Even so, their governance concentration is very different. Metrics that can help include:
 
-Metrics that can help include share of voting power held by top 1, 5, 10, or 20 delegates; herfindahl-style concentration measures; number of active delegates; number of unique voters; median voting power; participation rate; and percentage of votes cast through delegation. No single metric captures governance quality, but concentration is too important to ignore.
+- Share of voting power held by the top 1, 5, 10, or 20 delegates
+- Herfindahl-style concentration measures
+- Number of active delegates
+- Number of unique voters
+- Median voting power
+- Participation rate
+- Percentage of votes cast through delegation
+
+No single metric captures governance quality, but concentration is too important to ignore.
 
 ## Participation Rate Needs a Clear Denominator
 
@@ -139,9 +164,16 @@ The broader lesson is important: governance interfaces and social signals are pa
 
 ## Proposal Authors Have Agenda-Setting Power
 
-A DAO may allow anyone to discuss ideas while requiring substantial delegated voting power to submit a binding proposal. That difference creates agenda-setting power.
+A DAO may allow anyone to discuss ideas while requiring substantial delegated voting power to submit a binding proposal. That difference creates agenda-setting power. Questions to measure include:
 
-Questions to measure include who creates proposals, how many unique proposers exist, how many proposals come from repeat participants, how many informal ideas reach a vote, how many proposals fail before on-chain submission, do large delegates co-author proposals, and who writes executable code. A decentralized voting process can still have a concentrated proposal pipeline.
+- Who creates proposals, and how many unique proposers exist?
+- How many proposals come from repeat participants?
+- How many informal ideas reach a vote?
+- How many proposals fail before on-chain submission?
+- Do large delegates co-author proposals?
+- Who writes the executable code?
+
+A decentralized voting process can still have a concentrated proposal pipeline.
 
 ## Forums Are Part of Governance
 
@@ -149,7 +181,7 @@ The on-chain vote is visible and measurable. Forum discussion is harder to quant
 
 During an RFC, participants can introduce objections, request simulations, negotiate budgets, narrow scope, add safeguards, remove controversial provisions, and build delegate support. By the time a proposal reaches an on-chain vote, much of the political work may already be complete. Researchers who analyze only final votes can therefore miss the decision-making process.
 
-## Governance Controls Have Economic Value Only If the Governed Assets Matter
+## Governance Controls Have Economic Value Only If the Governed Assets Count
 
 A governance token becomes economically meaningful when governance controls important resources or decisions. Uniswap’s documentation says governance can, among other things, spend treasury funds, set or activate protocol fees, and authorize additional UNI issuance within defined limits.
 
@@ -169,13 +201,32 @@ This is where [decentralized finance](/fintech/) becomes more than a technology 
 
 ## Treasury Governance Deserves Its Own Analysis
 
-A DAO treasury can hold stablecoins, governance tokens, protocol assets, or investments. Governance determines: who proposes spending, who approves spending, whether budgets are recurring, how grants are monitored, whether recipients report outcomes, how assets are diversified, and whether the treasury can fund service providers.
+A DAO treasury can hold stablecoins, governance tokens, protocol assets, or investments. Governance determines:
+
+- Who proposes spending
+- Who approves spending
+- Whether budgets are recurring
+- How grants are monitored
+- Whether recipients report outcomes
+- How assets are diversified
+- Whether the treasury can fund service providers
 
 A large treasury can make governance participation economically significant even if the protocol itself changes rarely. Treasury analysis should include both balance and process.
 
 ## Governance Attacks Are Not Always Technical Exploits
 
-Some governance failures involve smart contracts, while others exploit incentives or voting structure. Possible risks include borrowed voting power, vote buying, delegate capture, collusion, low-turnout attacks, malicious proposals, compromised delegate wallets, rushed votes, poor calldata review, and social engineering.
+Some governance failures involve smart contracts, while others exploit incentives or voting structure. Possible risks include:
+
+- Borrowed voting power
+- Vote buying
+- Delegate capture
+- Collusion
+- Low-turnout attacks
+- Malicious proposals
+- Compromised delegate wallets
+- Rushed votes
+- Poor calldata review
+- Social engineering
 
 Timelocks and proposal simulations can reduce some risks by creating time to inspect what a passed proposal will do. Uniswap’s current governance process references Seatbelt simulations for proposal calldata, reflecting the importance of checking executable effects before submission and execution.
 
@@ -187,7 +238,18 @@ This illustrates a broader trend. A DAO can use on-chain voting for collective d
 
 ## Governance Progress Should Be Measured Over Time
 
-A single snapshot can make a DAO appear healthier or weaker than it really is. Governance should also be tracked as a time series. Useful quarterly or annual measures include number of RFCs opened, number of Temperature Checks, number of on-chain proposals, percentage of proposals that advance between stages, unique voters, active delegates, voting power held by the top 10 delegates, treasury spending approved, median time from RFC to execution, and the percentage of passed proposals that were executed.
+A single snapshot can make a DAO appear healthier or weaker than it really is. Governance should also be tracked as a time series. Quarterly or annual measures include:
+
+- Number of RFCs opened
+- Number of Temperature Checks
+- Number of on-chain proposals
+- Percentage of proposals that advance between stages
+- Unique voters
+- Active delegates
+- Voting power held by the top 10 delegates
+- Treasury spending approved
+- Median time from RFC to execution
+- The percentage of passed proposals that were executed
 
 This creates a governance “progress” view. For example, a DAO may increase the number of unique voters while the top delegates simultaneously accumulate a larger share of voting power.
 
@@ -216,7 +278,7 @@ This produces a more useful answer than calling a protocol “decentralized” o
 
 ## How to Analyze a DAO Proposal
 
-Before voting or interpreting an outcome, work through the proposal in order.
+Before voting or interpreting an outcome, work through the proposal in order. The eight steps below move from what is being decided to whether it was carried out.
 
 ### Step 1: Identify the Decision
 

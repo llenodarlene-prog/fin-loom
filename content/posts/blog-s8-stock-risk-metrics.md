@@ -33,19 +33,17 @@ A portfolio may be concentrated in one sector. A business may face a permanent d
 
 No single statistic captures all of those risks. That is why stock risk metrics work best as a dashboard rather than a ranking.
 
-Volatility, beta, maximum drawdown, Sharpe ratio, leverage, liquidity, and concentration each answer a different question. Used together, they can help investors understand not only how much a stock has moved, but why that movement matters to a portfolio.
+Volatility, beta, and maximum drawdown each answer a different question, and so do leverage, liquidity, and concentration. Used together, they show not only how much a stock has moved but also what that movement means for a portfolio.
 
 ## Key Takeaways
 
-The points below summarize what the main stock risk metrics can and cannot show.
-
-- **Volatility Measures Variability, Not Permanent Loss:** A volatile stock can recover; a low-volatility company can still suffer permanent impairment.
-- **Beta Measures Market Sensitivity:** It does not measure every source of business or balance-sheet risk.
-- **Maximum Drawdown Shows the Pain Between a Peak and Trough:** It is often more intuitive than standard deviation.
-- **Sharpe Ratio Compares Excess Return with Volatility:** It is useful for risk-adjusted comparisons but depends heavily on the period measured.
-- **Leverage Can Convert Volatility into Solvency Risk:** Balance-sheet metrics belong beside market-price statistics.
-- **Liquidity Risk Appears When Investors Need to Trade:** Average volume and spreads matter especially for smaller stocks.
-- **Portfolio Risk Is Not the Average of Individual Risks:** Correlation and concentration determine how holdings interact.
+- **Volatility measures variability, not permanent loss:** A volatile stock can recover; a low-volatility company can still suffer permanent impairment.
+- **Beta measures market sensitivity:** It does not measure every source of business or balance-sheet risk.
+- **Maximum drawdown shows the pain between a peak and trough:** It is often more intuitive than standard deviation.
+- **Sharpe ratio compares excess return with volatility:** It is useful for risk-adjusted comparisons but depends heavily on the period measured.
+- **Leverage can convert volatility into solvency risk:** Balance-sheet metrics belong beside market-price statistics.
+- **Liquidity risk appears when investors need to trade:** Average volume and spreads count especially for smaller stocks.
+- **Portfolio risk is not the average of individual risks:** Correlation and concentration determine how holdings interact.
 
 ## Why One Risk Number Is Never Enough
 
@@ -140,7 +138,7 @@ For example, a stock that went through one severe crash may show a low Sharpe ra
 
 The Sharpe ratio treats volatility as a full description of risk, which works best when returns are spread evenly around the average. Financial returns are not always that tidy.
 
-Large shocks happen more often than a simple normal model implies. This matters most for assets with sudden jumps, borrowed money, or sensitivity to crises, where the worst days are far worse than volatility suggests.
+Large shocks happen more often than a simple normal model implies. This counts most for assets with sudden jumps, borrowed money, or sensitivity to crises, where the worst days are far worse than volatility suggests.
 
 ### Sharpe Can Reward Smoothness
 
@@ -174,7 +172,7 @@ It does **not** mean $10,000 is the maximum possible loss. The tail beyond the t
 
 Market metrics look backward at price behavior. Balance-sheet metrics examine the business. Debt can amplify shareholder outcomes because lenders have contractual claims that rank ahead of equity.
 
-Useful leverage measures include debt-to-equity, net debt/EBITDA, debt/assets, interest coverage, and fixed-charge coverage. Each can be calculated from the financial statements that public companies file through the [SEC's EDGAR database](https://www.sec.gov/edgar/search/).
+Leverage measures include debt-to-equity, net debt/EBITDA, debt/assets, interest coverage, and fixed-charge coverage. Each can be calculated from the financial statements that public companies file through the [SEC's EDGAR database](https://www.sec.gov/edgar/search/).
 
 The appropriate measure depends on the industry. A software company with net cash and a utility with significant long-term debt should not be judged by the same leverage threshold without context.
 
@@ -186,7 +184,7 @@ A low ratio indicates less room for earnings deterioration. This metric becomes 
 
 ## Liquidity Risk Can Be Invisible Until Stress
 
-Market liquidity asks how easily an investor can trade. Useful indicators include average daily dollar volume, bid-ask spread, order-book depth, free float, and size of the investor's position relative to normal volume.
+Market liquidity asks how easily an investor can trade. Indicators include average daily dollar volume, bid-ask spread, order-book depth, free float, and size of the investor's position relative to normal volume.
 
 A $5,000 position may be easy to exit in a small-cap stock. A $5 million position might not be.
 
@@ -198,7 +196,7 @@ A stock can be excellent and still create a dangerous portfolio if the position 
 
 If that company falls 50%, the direct portfolio impact is roughly 20% before considering movement in other holdings. Position size converts stock risk into portfolio risk.
 
-This is why [portfolio risk analysis](/investing/) should combine individual stock metrics with sector exposure, correlation, and allocation size. A stock's volatility tells only part of the story; the weight determines how much that volatility matters.
+This is why [portfolio risk analysis](/investing/) should combine individual stock metrics with sector exposure, correlation, and allocation size. A stock's volatility tells only part of the story; the weight determines how much that volatility is important.
 
 ## Correlation Determines Whether Diversification Works
 
@@ -237,7 +235,7 @@ A lower valuation or stronger growth rate could compensate investors for taking 
 
 ## Risk-Adjusted Return Is Not the Same as Low Risk
 
-An asset can have high absolute risk and still produce attractive risk-adjusted returns. That distinction matters.
+An asset can have high absolute risk and still produce attractive risk-adjusted returns. That distinction is important.
 
 Suppose: portfolio A returns 8% with 8% volatility and portfolio B returns 15% with 18% volatility. Portfolio B is more volatile.
 
@@ -255,7 +253,7 @@ If the answer is 20%, buying an asset that routinely experiences 40% drawdowns c
 
 ## Use the Right Risk Metric for the Decision
 
-Different decisions call for different stock risk metrics.
+Different decisions call for different stock risk metrics. Start with the decision you are making, then pick the measure that speaks to it.
 
 ### Choosing Position Size
 
@@ -265,13 +263,13 @@ A volatile, illiquid holding that moves with everything else you own deserves a 
 
 ### Evaluating Financial Resilience
 
-When the question is whether a company can survive a hard period, market metrics matter less. Focus on leverage, interest coverage, cash flow, and the dates when debt comes due.
+When the question is whether a company can survive a hard period, market metrics count for less. Focus on leverage, interest coverage, cash flow, and the dates when debt comes due.
 
 These figures come from the financial statements, not from the share price. A company with heavy near-term maturities and thin coverage is fragile, however calm its stock has been.
 
 ### Comparing Funds or Strategies
 
-For funds and strategies, risk-adjusted measures become more useful. Sharpe, Sortino, maximum drawdown, and benchmark-relative metrics let you compare managers who took different amounts of risk.
+For funds and strategies, risk-adjusted measures become more informative. Sharpe, Sortino, maximum drawdown, and benchmark-relative metrics let you compare managers who took different amounts of risk.
 
 Make sure the benchmark and the period match across everything you compare. Otherwise the ranking reflects the measurement choices and not the skill.
 
@@ -283,7 +281,7 @@ No single statistic wins every job. The right metric depends on the decision in 
 
 ## Common Mistakes With Stock Risk Metrics
 
-Six mistakes come up repeatedly when investors read these numbers.
+Six mistakes come up repeatedly when investors read stock risk metrics. Most come from asking one figure to answer a question it was not built for.
 
 ### Calling Beta “Risk”
 
@@ -325,7 +323,15 @@ Diversification estimated from quiet periods can therefore overstate protection.
 
 Volatility assumes that the distribution of returns can be summarized meaningfully by average variability. Markets occasionally produce moves far outside normal experience.
 
-Tail risk refers to those extreme outcomes. Examples include bankruptcy, fraud, sudden regulatory action, geopolitical shock, commodity-price collapse, cyberattack, or a liquidity freeze.
+Tail risk refers to those extreme outcomes. Examples include:
+
+- Bankruptcy
+- Fraud
+- Sudden regulatory action
+- Geopolitical shock
+- Commodity-price collapse
+- Cyberattack
+- A liquidity freeze
 
 Historical volatility can understate these risks because the event may not exist in the sample. Investors can address this weakness through scenario analysis, position limits, diversification, liquidity reserves, and avoiding leverage that could force liquidation.
 
@@ -337,7 +343,7 @@ These are not market-price metrics. Instead, they require financial-statement an
 
 ## Valuation Risk Is Easy to Ignore
 
-A financially strong company can still be risky if the valuation assumes unrealistic growth. Valuation risk appears when investors pay so much for future earnings that even good results disappoint. Useful checks include P/E relative to growth, enterprise value/free cash flow, earnings yield, historical valuation ranges, and implied expectations.
+A financially strong company can still be risky if the valuation assumes unrealistic growth. Valuation risk appears when investors pay so much for future earnings that even good results disappoint. Checks include P/E relative to growth, enterprise value/free cash flow, earnings yield, historical valuation ranges, and implied expectations.
 
 Valuation does not predict the next price move. It helps frame how much optimism is already embedded in the stock.
 
