@@ -346,7 +346,7 @@
   "plan": {
     "reader_title": "Bitcoin Allocation: Risk, Volatility, and Diversification in a Portfolio",
     "seo_title": "Bitcoin Allocation: How Portfolio Risk Changes With Size",
-    "meta_description": "See how bitcoin allocation changes portfolio risk, why small percentages can matter, and which assumptions investors should test before sizing exposure.",
+    "meta_description": "See how bitcoin allocation changes portfolio risk, why small percentages carry weight, and which assumptions investors should test before sizing exposure.",
     "slug": "/investing/bitcoin-allocation/",
     "search_intent": "Informational",
     "secondary_keywords": [
@@ -434,7 +434,7 @@
   },
   "verification_log": {
     "checked_on": "2026-10-04",
-    "summary": "Keyword data from Ubersuggest (United States), five ranking pages reviewed. BlackRock (both papers), Fidelity Digital Assets, and CoinShares figures checked against the originals and match. The Finance Research Letters article could not be opened, so its link and the sentence relying on it were removed.",
+    "summary": "Keyword data from Ubersuggest (United States), five ranking pages reviewed. BlackRock (both papers), Fidelity Digital Assets, and CoinShares figures checked against the originals and match. The Finance Research Letters article could not be opened, so its link and the sentence relying on it were removed. Editorial pass of 2026-10-05: copy restructured under the owner's style rules; no facts changed.",
     "pending": "None."
   }
 }
