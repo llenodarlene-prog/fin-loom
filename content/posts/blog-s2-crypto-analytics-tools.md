@@ -27,13 +27,15 @@ modified: 2026-10-04
 
 Crypto investors do not suffer from a lack of data. The harder problem is deciding which data answers the question in front of them.
 
-A token page can show market capitalization, but not necessarily whether a handful of wallets control supply. A blockchain explorer can show every transaction, but not what the activity means economically. A DeFi dashboard can report total value locked, but TVL is not the same as revenue. A wallet-intelligence platform can label entities, but an entity label is still an interpretation layered on top of public blockchain records.
+A token page can show market capitalization, but not necessarily whether a handful of wallets control supply. A blockchain explorer can show every transaction, but not what the activity means economically.
+
+A DeFi dashboard can report total value locked, but TVL is not the same as revenue. A wallet-intelligence platform can label entities, but an entity label is still an interpretation layered on top of public blockchain records.
 
 That is why the best crypto analytics tools are not the ones with the most charts. They are the ones used for the right question.
 
-The practical approach is to build a research stack. Start with broad market context, then verify the asset and contract. Next, examine liquidity and supply, and move into protocol fundamentals when relevant. Finally, use on-chain data to test claims that cannot be answered by a token profile alone.
+The practical approach is to build a research stack. Start with broad market context, then verify the asset and contract.
 
-This guide compares the major categories of crypto analytics tools and, more importantly, explains what each category can and cannot tell you.
+Next, examine liquidity and supply, and move into protocol fundamentals when relevant. Finally, use on-chain data to test claims that cannot be answered by a token profile alone. This guide compares the major categories of crypto analytics tools and, more importantly, explains what each category can and cannot tell you.
 
 ## Key Takeaways
 
@@ -76,7 +78,9 @@ Volume can also require interpretation. A large reported number does not by itse
 
 ## Blockchain Explorers Are the Verification Layer
 
-Explorers such as Etherscan expose blockchain activity more directly. They can help verify: the token contract, transfers, holder addresses, wallet balances, smart-contract interactions, contract source code when verified, transaction hashes, event logs, and activity linked to specific addresses. [Etherscan’s current documentation](https://docs.etherscan.io/) describes the service as a block explorer whose API serves the same on-chain data across more than 60 EVM-compatible chains. Its data can be especially useful when a dashboard makes a claim that can be traced back to public transactions.
+Explorers such as Etherscan expose blockchain activity more directly. They can help verify: the token contract, transfers, holder addresses, wallet balances, smart-contract interactions, contract source code when verified, transaction hashes, event logs, and activity linked to specific addresses.
+
+[Etherscan’s current documentation](https://docs.etherscan.io/) describes the service as a block explorer whose API serves the same on-chain data across more than 60 EVM-compatible chains. Its data can be especially useful when a dashboard makes a claim that can be traced back to public transactions.
 
 Suppose a project says a treasury transferred tokens to a market maker. A block explorer can help confirm whether the transaction occurred, when it occurred, which addresses were involved, and how much moved. What it cannot automatically tell you is why.
 
@@ -117,11 +121,15 @@ A research article that says “Protocol X is larger than Protocol Y” without 
 
 TVL is widely used because it provides a simple view of capital committed to DeFi protocols. It is not the same as the market value of a company. TVL can rise because users deposit more tokens, token prices rise, incentives attract temporary capital, a protocol launches on new chains, or methodology expands coverage.
 
-It can fall for the opposite reasons. If the assets inside a protocol appreciate sharply, dollar-denominated TVL can rise even if token quantities barely change. Researchers therefore need to separate asset-price effects from new deposits when that distinction matters. TVL is best understood as an activity or capital-deployment metric whose meaning depends on protocol design.
+It can fall for the opposite reasons. If the assets inside a protocol appreciate sharply, dollar-denominated TVL can rise even if token quantities barely change.
+
+Researchers therefore need to separate asset-price effects from new deposits when that distinction matters. TVL is best understood as an activity or capital-deployment metric whose meaning depends on protocol design.
 
 ## SQL Analytics Platforms Let You Reproduce the Question
 
-Prebuilt dashboards are convenient. Custom queries are more powerful when the exact question is unusual. DuneSQL is designed for blockchain analysis and supports querying decoded blockchain data using SQL. Dune also makes decoded smart-contract calls and event logs available in structured tables for supported contracts.
+Prebuilt dashboards are convenient. Custom queries are more powerful when the exact question is unusual.
+
+DuneSQL is designed for blockchain analysis and supports querying decoded blockchain data using SQL. Dune also makes decoded smart-contract calls and event logs available in structured tables for supported contracts.
 
 That opens the door to questions such as how many unique wallets used a contract each month, what percentage of volume came from the top 20 traders, how many wallets returned after their first interaction, how much of a token moved through a particular contract, and how did behavior change before and after a governance proposal. The strength of SQL analytics is reproducibility. The weakness is that a query can be technically valid and analytically misleading.
 
@@ -129,25 +137,25 @@ Researchers must define which contracts are included, what counts as a user, whe
 
 ## Event Logs Can Reveal More Than Transaction Counts
 
-Smart contracts emit event logs when defined actions occur. Dune’s documentation notes that these logs are stored on-chain and can be decoded into structured tables. For research, that means “transaction count” can often be replaced with a more precise event. Instead of counting every transaction sent to a protocol, you may count: swaps, deposits, withdrawals, liquidations, mints, burns, votes, or bridge transfers.
+Smart contracts emit event logs when defined actions occur. Dune’s documentation notes that these logs are stored on-chain and can be decoded into structured tables.
 
-This improves the connection between the metric and the behavior you are trying to study.
+For research, that means “transaction count” can often be replaced with a more precise event. Instead of counting every transaction sent to a protocol, you may count: swaps, deposits, withdrawals, liquidations, mints, burns, votes, or bridge transfers. This improves the connection between the metric and the behavior you are trying to study.
 
 ## Wallet Intelligence Adds Entity Context
 
-Raw blockchain data is pseudonymous. Wallet-intelligence platforms attempt to connect addresses with known or inferred entities. [Arkham’s documentation on entities, labels, and tags](https://info.arkm.com/research/a-guide-to-arkham-intels-industry-leading-tagging-system) describes a system that groups or identifies on-chain addresses. Its platform can show holdings, transfers, counterparties, and wallet behavior associated with labeled entities.
+Raw blockchain data is pseudonymous. Wallet-intelligence platforms attempt to connect addresses with known or inferred entities.
 
-This can help answer questions such as are exchange reserves changing, which wallets are linked to a fund or company, did a large holder move tokens to an exchange, and are several addresses believed to belong to one entity. The limitation is important: labeling introduces another layer of interpretation. A blockchain transaction is observable. The statement “this address belongs to Entity X” depends on attribution quality.
+[Arkham’s documentation on entities, labels, and tags](https://info.arkm.com/research/a-guide-to-arkham-intels-industry-leading-tagging-system) describes a system that groups or identifies on-chain addresses. Its platform can show holdings, transfers, counterparties, and wallet behavior associated with labeled entities.
 
-Serious research should distinguish the two.
+This can help answer questions such as are exchange reserves changing, which wallets are linked to a fund or company, did a large holder move tokens to an exchange, and are several addresses believed to belong to one entity. The limitation is important: labeling introduces another layer of interpretation.
+
+A blockchain transaction is observable. The statement “this address belongs to Entity X” depends on attribution quality. Serious research should distinguish the two.
 
 ## Holder Concentration Needs Address Classification
 
-A top-holder table can look alarming if exchange wallets and protocol contracts are not identified.
+A top-holder table can look alarming if exchange wallets and protocol contracts are not identified. Imagine the top address holds 20% of supply. That could be an exchange custody wallet representing many customers, a vesting contract, a treasury, a bridge, a burn address, a liquidity pool, or an individual holder.
 
-Imagine the top address holds 20% of supply. That could be an exchange custody wallet representing many customers, a vesting contract, a treasury, a bridge, a burn address, a liquidity pool, or an individual holder. Those cases imply very different concentration risks. Instead of reporting “the top 10 wallets hold 60%,” classify the wallets when possible.
-
-A better table is:
+Those cases imply very different concentration risks. Instead of reporting “the top 10 wallets hold 60%,” classify the wallets when possible. A better table is:
 
 | Holder Type | Share | Interpretation |
 |---|---:|---|
@@ -181,9 +189,9 @@ Use social data to answer: is attention increasing, what narrative is driving di
 
 ## Developer Activity Needs the Same Caution
 
-GitHub activity can indicate active development, but raw commit counts are not a quality score.
+GitHub activity can indicate active development, but raw commit counts are not a quality score. One repository may split changes into many commits.
 
-One repository may split changes into many commits. Another may make fewer but larger changes. Some protocol work may happen in private repositories.
+Another may make fewer but larger changes. Some protocol work may happen in private repositories.
 
 Useful developer checks include release history, number of active contributors, cadence of meaningful updates, open issues, documentation quality, audits, and whether the codebase used in production matches public repositories. Again, the metric should match the question.
 
@@ -193,19 +201,27 @@ A repeatable workflow prevents research from becoming random tab opening.
 
 ### Layer 1: Market Context
 
-Use a broad market-data platform to establish: price, market cap, volume, supply, sector, listed venues, and comparable assets. The goal is orientation.
+Begin with a broad market-data platform to see price, market cap, volume, supply, sector, listed venues, and comparable assets. At this stage you are not looking for an edge. You are building a map.
+
+Context prevents basic errors later. For instance, a token that looks cheap in isolation may simply sit in a sector where every comparable asset has fallen by a similar amount.
 
 ### Layer 2: Contract and Liquidity Verification
 
-Use an explorer and venue-specific liquidity data to verify: correct contract, major holders, trading pools, token transfers, liquidity, and suspicious concentration. The goal is identity and tradability.
+Next, use a block explorer and venue-level liquidity data to confirm you are looking at the right asset. Check the contract address, the largest holders, the active trading pools, and recent transfers.
+
+The goal of this layer is identity and tradability. A token can have an impressive market cap and still be impossible to sell in size, so depth matters more than the headline figure.
 
 ### Layer 3: Protocol Fundamentals
 
-For DeFi or application tokens, examine TVL, fees, revenue, users, transaction type, developer activity, governance, and treasury. The goal is to understand economic activity.
+For DeFi and application tokens, move on to the activity the protocol produces: TVL, fees, revenue, users, transaction types, developer activity, governance, and treasury. These figures show whether anyone is paying to use the product.
+
+Read each metric with its definition beside it. Fees and revenue are different numbers, and crypto analytics tools do not always define them the same way.
 
 ### Layer 4: On-Chain Behavior
 
-Use SQL analytics or wallet intelligence to test specific claims. The goal is evidence. If a token narrative says “whales are accumulating,” this is the layer where you test whether labeled or large wallets are increasing their balances.
+Finally, use SQL analytics or wallet intelligence to test specific claims. The goal of this layer is evidence, and it works best when you start with a question you can prove wrong.
+
+Suppose a token narrative says “whales are accumulating.” This is where you check whether large or labeled wallets are increasing their balances, or whether the claim rests on a single transfer between exchange wallets.
 
 ## A Tool Comparison Framework
 
@@ -229,27 +245,39 @@ Six mistakes account for most misread dashboards.
 
 ### Comparing Metrics With Different Definitions
 
-Two dashboards can display “revenue” while using different inclusion rules. Read methodology before comparing.
+Two dashboards can both display “revenue” while counting different things. One may include fees paid to liquidity providers, while another counts only what the protocol keeps.
+
+Before you compare figures across platforms, read each methodology page. If the definitions differ, the comparison tells you about the dashboards and not about the protocols.
 
 ### Treating Missing Data as Zero
 
-A blank field may mean the platform does not cover the chain or protocol. It does not always mean no activity exists.
+A blank field often means the platform does not cover that chain or protocol. It does not mean that no activity exists there.
+
+This matters most for newer networks, where coverage arrives late. Check whether the tool supports the chain at all before you conclude that a protocol has no users or no volume.
 
 ### Using One Day of Volume as a Long-Term Signal
 
-Short periods can be distorted by launches, incentives, listings, or market events.
+A single day can be distorted by a launch, an incentive program, an exchange listing, or a market-wide move. Volume on that day says little about normal demand.
+
+Look at several weeks at least, and note what happened on the unusual days. A spike that fades as soon as rewards end is evidence of the incentive, not of the product.
 
 ### Ignoring Stablecoin and Native-Asset Denominations
 
-Dollar values may move because the underlying asset price changed, not because activity changed.
+A dollar figure can rise because the underlying token price went up, even when nothing else changed. TVL is especially exposed to this effect, since it is the value of deposited assets.
+
+Where the tool allows it, view the metric in the native asset as well as in dollars. If deposits are flat in tokens but higher in dollars, the price moved and the activity did not.
 
 ### Assuming Labeled Wallets Are Infallible
 
-Entity attribution can change. Preserve the distinction between observed address activity and inferred ownership.
+Wallet labels are inferences made by an analytics provider, and they can be revised or simply wrong. An address tagged as a fund or an exchange is a well-informed guess unless the owner has confirmed it.
+
+Keep two things separate in your notes: what the address did, which is observed, and who controls it, which is inferred. That habit stops a labeling error from becoming a false conclusion.
 
 ### Confusing Users With Addresses
 
-One person can control many wallets, while one exchange wallet can represent many people.
+An address is not a person. One individual can control hundreds of wallets, while a single exchange wallet can hold the balances of thousands of customers.
+
+As a result, “active addresses” can overstate or understate real usage. Treat the figure as a rough activity signal, and look for supporting evidence such as fees paid before you call it adoption.
 
 ## How to Document Your Research
 
@@ -257,31 +285,29 @@ A simple research sheet should include question, metric, definition, source, tim
 
 ## Frequently Asked Questions
 
-These questions cover what readers most often ask about crypto analytics tools.
-
 ### What Are Crypto Analytics Tools?
 
-Crypto analytics tools organize market or blockchain data so users can research prices, supply, liquidity, protocol activity, wallets, transactions, and other digital-asset metrics.
+Crypto analytics tools organize market and blockchain data so you can research prices, supply, liquidity, protocol activity, wallets, and transactions without reading raw chain data yourself.
 
 ### Which Crypto Research Tool Should I Start With?
 
-Start with a broad market-data source for context, then move to a blockchain explorer and specialist analytics depending on the question.
+Start with a broad market-data source for context. Then move to a blockchain explorer, and add specialist analytics only when your question needs protocol, wallet, or supply detail.
 
 ### Is On-Chain Data Always Accurate?
 
-Blockchain records are deterministic, but interpretation can still be wrong. Address ownership, user counts, labels, and economic classifications may require assumptions.
+The blockchain records themselves are deterministic, but the interpretation can be wrong. Address ownership, user counts, labels, and economic classifications all rest on assumptions made by the tool.
 
 ### Is TVL the Same as Revenue?
 
-No. TVL measures assets held or deposited in protocol contracts under a stated methodology. Revenue generally measures value retained by the protocol.
+No. TVL measures the assets held in a protocol's contracts under a stated methodology. Revenue measures the value the protocol keeps, which is usually a far smaller figure.
 
 ### Can Market Cap Show Whether a Token Is Liquid?
 
-No. Market cap is based on price and circulating supply. Liquidity depends on available trading depth, venue conditions, and how much can be traded without large price impact.
+No. Market cap is price multiplied by circulating supply. Liquidity depends on trading depth, venue conditions, and how much you can trade without moving the price sharply.
 
 ### Do I Need Paid Tools?
 
-Not necessarily. Many research questions can be answered with free market data, explorers, protocol dashboards, and public blockchain data. Paid tools may improve convenience, coverage, labeling, or workflow.
+Not necessarily. Free market data, explorers, protocol dashboards, and public blockchain data answer many research questions. Paid tools mainly add convenience, wider coverage, better labeling, and smoother workflow.
 
 ## Resources
 
