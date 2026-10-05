@@ -25,23 +25,23 @@ modified: 2026-10-04
 
 # AI Capital Spending: How Investors Can Evaluate Big Tech's Investment Cycle
 
-Big Tech's artificial-intelligence race has become a capital-spending race. The largest cloud and platform companies are committing extraordinary sums to data centers, servers, networking, power infrastructure, and specialized processors. Those investments are intended to meet demand for AI training, inference, cloud computing, advertising systems, recommendation engines, productivity software, and new agentic products.
+Big Tech's artificial-intelligence race has become a capital-spending race. The largest cloud and platform companies are committing extraordinary sums to data centers, chips, and the power to run them. Those investments are meant to meet demand for AI training and inference across cloud, advertising, and software products.
 
 For investors, the headline AI capital spending number is only the beginning. Capital expenditure does not become value simply because it is labeled “AI.”
 
-The relevant questions are whether the spending creates productive capacity, whether customers use that capacity, whether pricing supports attractive returns, how quickly equipment depreciates, how much free cash flow is consumed during the buildout, and whether the resulting revenue and margin growth justify the investment. That framework is especially important in 2026, when AI infrastructure budgets have moved from large to historically significant.
+The relevant questions are whether the spending creates capacity that customers use, and whether pricing supports an attractive return. Depreciation and free cash flow then show what the buildout costs along the way.
+
+That framework is especially important in 2026, when AI infrastructure budgets have moved from large to historically significant.
 
 ## Key Takeaways
 
-The points below summarize how to read AI capital spending as an investor.
-
-- **AI Capex Is a Capacity Decision:** Companies are spending ahead of expected demand because data centers and power infrastructure take time to build.
-- **Not All Capex Has the Same Life:** Land and buildings can produce revenue for decades, while GPUs and servers have much shorter economic lives.
-- **Revenue Growth Alone Is Insufficient:** Investors should track margins, depreciation, utilization, backlog, and free cash flow.
-- **Supply Constraints Complicate Interpretation:** High spending can coexist with strong demand if companies still cannot deploy capacity quickly enough.
-- **Accounting Timing Matters:** Finance leases, operating leases, depreciation schedules, and supplier payments can shift reported capex and free cash flow.
-- **Return on Invested Capital Is the End Test:** The question is whether incremental operating profit eventually compensates for the capital committed.
-- **Company Comparisons Require Consistent Definitions:** One company's capex figure may include items another reports differently.
+- **AI capex is a capacity decision:** Companies are spending ahead of expected demand because data centers and power infrastructure take time to build.
+- **Not all capex has the same life:** Land and buildings can produce revenue for decades, while GPUs and servers have much shorter economic lives.
+- **Revenue growth alone is insufficient:** Investors should track margins, depreciation, utilization, backlog, and free cash flow.
+- **Supply constraints complicate interpretation:** High spending can coexist with strong demand if companies still cannot deploy capacity quickly enough.
+- **Accounting timing is important:** Finance leases, operating leases, depreciation schedules, and supplier payments can shift reported capex and free cash flow.
+- **Return on invested capital is the end test:** The question is whether incremental operating profit eventually compensates for the capital committed.
+- **Company comparisons require consistent definitions:** One company's capex figure may include items another reports differently.
 
 ## 2026 AI Capital Spending Is Already Enormous
 
@@ -64,9 +64,22 @@ This is deliberately conservative. Capex guidance changes quickly, so check each
 
 ## Why AI Infrastructure Requires Spending Before Revenue
 
-Data centers are not software features that can be switched on instantly. Capacity requires land, electricity, grid interconnection, cooling, networking, server racks, GPUs and accelerators, CPUs, storage, backup systems, construction, and deployment teams. Lead times can stretch across years, which creates a timing mismatch.
+Data centers are not software features that can be switched on instantly. Capacity requires:
 
-Management must decide how much future demand to build for before the demand fully appears. If the company waits until every customer order is visible, it may lose business because capacity is unavailable.
+- Land
+- Electricity
+- Grid interconnection
+- Cooling
+- Networking
+- Server racks
+- GPUs and accelerators
+- CPUs
+- Storage
+- Backup systems
+- Construction
+- Deployment teams
+
+Lead times can stretch across years, which creates a timing mismatch. Management must decide how much future demand to build for before the demand fully appears. If the company waits until every customer order is visible, it may lose business because capacity is unavailable.
 
 If it builds too early, assets can sit underutilized. The economic challenge is forecasting demand while the technology itself is changing.
 
@@ -84,7 +97,7 @@ Because they are depreciated over many years, their cost reaches the income stat
 
 ### Short-Lived Compute
 
-Examples include GPUs, CPUs, accelerators, memory, and some server equipment. Microsoft disclosed in its FY2026 Q4 call that roughly two-thirds of quarterly capex related to short-lived assets, primarily CPUs and GPUs, with the remaining spend directed toward longer-lived assets. That mix matters because short-lived assets create faster depreciation and replacement requirements.
+Examples include GPUs, CPUs, accelerators, memory, and some server equipment. Microsoft disclosed in its FY2026 Q4 call that roughly two-thirds of quarterly capex related to short-lived assets, primarily CPUs and GPUs, with the remaining spend directed toward longer-lived assets. That mix is important because short-lived assets create faster depreciation and replacement requirements.
 
 ## Depreciation Is Where CapEx Reaches the Income Statement
 
@@ -104,11 +117,19 @@ The investment cycle can temporarily suppress free cash flow even while the unde
 
 ## The First Test: Is Demand Real?
 
-Management teams can justify large capital budgets with ambitious forecasts. Investors need independent evidence.
+Management teams can justify large capital budgets with ambitious forecasts. Investors need independent evidence. Demand signals include:
 
-Useful demand signals include cloud backlog, contracted revenue, capacity constraints, customer commitments, API usage, AI product adoption, cloud growth, enterprise seat growth, and inference volume. Microsoft's FY2026 commentary said the company remained capacity constrained despite the pace of investment.
+- Cloud backlog
+- Contracted revenue
+- Capacity constraints
+- Customer commitments
+- API usage
+- AI product adoption
+- Cloud growth
+- Enterprise seat growth
+- Inference volume
 
-That is a stronger signal than management simply saying AI is important. If customers are waiting for capacity, the capex is solving a visible bottleneck.
+Microsoft's FY2026 commentary said the company remained capacity constrained despite the pace of investment. That is a stronger signal than management simply saying AI is important. If customers are waiting for capacity, the capex is solving a visible bottleneck.
 
 ## The Second Test: Does Capacity Produce Revenue?
 
@@ -118,13 +139,22 @@ Infrastructure demand can be real while economics remain unattractive. Revenue i
 
 ## The Third Test: What Happens to Margins?
 
-AI workloads have meaningful operating costs. These can include electricity, depreciation, data-center operations, model training, inference, networking, support, and ongoing software development.
+AI workloads have meaningful operating costs. These can include:
+
+- Electricity
+- Depreciation
+- Data-center operations
+- Model training
+- Inference
+- Networking
+- Support
+- Ongoing software development
 
 If AI revenue rises but gross margin falls sharply, the investor needs to understand why. Early margin pressure may be acceptable while capacity ramps. Persistent margin compression raises questions about pricing power and capital efficiency.
 
 ## The Fourth Test: Utilization
 
-A data center earns money when productive workloads use it. Utilization therefore matters enormously.
+A data center earns money when productive workloads use it. Utilization therefore is important enormously.
 
 Underutilized infrastructure ties up capital without generating sufficient revenue. Overutilization creates another problem: customers cannot access capacity and growth is constrained.
 
@@ -136,7 +166,7 @@ ROIC asks whether the business generates sufficient operating profit relative to
 
 Suppose a company commits an additional $50 billion to infrastructure. Over time, investors should ask how much additional after-tax operating profit is attributable to that capacity.
 
-The calculation is not clean because infrastructure supports multiple products. Still, the principle matters. If capital investment rises much faster than sustainable operating profit for years, returns can deteriorate even while revenue grows.
+The calculation is not clean because infrastructure supports multiple products. Still, the principle is important. If capital investment rises much faster than sustainable operating profit for years, returns can deteriorate even while revenue grows.
 
 ## A Simple AI CapEx Scorecard
 
@@ -153,11 +183,11 @@ The scorecard turns AI capital spending into signals an investor can track from 
 | ROIC | Holds or improves | Sustained decline |
 | Balance sheet | Spending comfortably financed | Debt stress or forced dilution |
 
-No one row decides the investment. Instead, the pattern matters.
+No one row decides the investment. Instead, the pattern is important.
 
 ## Microsoft: The Short-Lived Asset Question
 
-Microsoft's FY2026 Q4 call provides an unusually useful disclosure. Quarterly capital expenditures were about $41 billion, and management said roughly two-thirds involved short-lived assets, primarily CPUs and GPUs. That tells investors two things.
+Microsoft's FY2026 Q4 call provides an unusually detailed disclosure. Quarterly capital expenditures were about $41 billion, and management said roughly two-thirds involved short-lived assets, primarily CPUs and GPUs. That tells investors two things.
 
 First, the company is deploying enormous compute capacity. Second, a large portion of the spending will need to earn an adequate return over a relatively short period. Hardware generations improve quickly.
 
@@ -181,9 +211,17 @@ On its [second-quarter 2026 earnings call](https://abc.xyz/investor/events/event
 
 ## Amazon: AWS Makes CapEx a Cloud Capacity Decision
 
-Amazon's infrastructure spending is tied heavily to AWS as well as fulfillment and logistics. The AI component includes trainium, graviton, third-party accelerators, data centers, networking, bedrock, and AI services. AWS economics can make very high capex rational if customer demand is durable and capacity produces high long-term cash returns.
+Amazon's infrastructure spending is tied heavily to AWS as well as fulfillment and logistics. The AI component includes:
 
-But the scale creates sensitivity. A small mistake in utilization across a huge asset base can represent billions of dollars.
+- Trainium
+- Graviton
+- Third-party accelerators
+- Data centers
+- Networking
+- Bedrock
+- AI services
+
+AWS economics can make very high capex rational if customer demand is durable and capacity produces high long-term cash returns. But the scale creates sensitivity. A small mistake in utilization across a huge asset base can represent billions of dollars.
 
 ## Why Investors Should Avoid One-Year ROI Thinking
 
@@ -193,13 +231,13 @@ Demanding that every dollar of current capex produce immediate earnings can unde
 
 ## Milestones Are Better Than Narratives
 
-A practical investor can track the buildout quarter by quarter.
+A practical investor can track the buildout quarter by quarter. Four kinds of milestone show whether the spending is turning into a business.
 
 ### Capacity Milestones
 
 Capacity milestones show whether the buildout is happening: new regions, new data centers, power secured, and chips deployed. They are the physical evidence behind the AI capital spending figures.
 
-Delays matter as much as progress. A company that keeps spending while capacity arrives late is paying carrying costs on assets that earn nothing yet.
+Delays count as much as progress. A company that keeps spending while capacity arrives late is paying carrying costs on assets that earn nothing yet.
 
 ### Demand Milestones
 
@@ -215,9 +253,7 @@ Depreciation deserves particular attention. It rises with a lag after spending, 
 
 ### Return Milestones
 
-Return milestones answer the final question: is the spending worth it? Useful measures include ROIC, incremental margins, revenue relative to capex, and operating profit relative to capex.
-
-Taken together, the four sets of milestones turn an abstract AI thesis into checkpoints you can observe each quarter.
+Return milestones answer the final question: is the spending worth it? Measures include ROIC, incremental margins, revenue relative to capex, and operating profit relative to capex. Taken together, the four sets of milestones turn an abstract AI thesis into checkpoints you can observe each quarter.
 
 ## CapEx-to-Revenue Can Be Useful, but Crude
 
@@ -235,9 +271,17 @@ That can make a company look expensive. But if the capex is truly growth investm
 
 Separating maintenance and growth capex is difficult because companies rarely disclose the split precisely. That uncertainty should be acknowledged rather than solved with false precision.
 
-## Balance-Sheet Capacity Matters
+## Balance-Sheet Capacity Is Important
 
-A company with enormous cash generation can fund infrastructure differently from a leveraged competitor. Investors should monitor cash and securities, operating cash flow, debt issuance, lease obligations, share repurchases, dividends, and acquisition spending.
+A company with enormous cash generation can fund infrastructure differently from a leveraged competitor. Investors should monitor:
+
+- Cash and securities
+- Operating cash flow
+- Debt issuance
+- Lease obligations
+- Share repurchases
+- Dividends
+- Acquisition spending
 
 Meta's 2026 spending increase, for example, has changed the discussion around capital structure and free cash flow. The funding method is part of the return calculation.
 
@@ -259,15 +303,13 @@ Note the direction and the size, and compare it with the previous quarter. Alpha
 
 ### 2. Why Did It Change?
 
-The reason matters more than the amount. More chips to serve contracted demand is a very different story from construction overruns or higher component prices.
+The reason counts for more than the amount. More chips to serve contracted demand is a very different story from construction overruns or higher component prices.
 
 Management usually explains the change on the earnings call. If the explanation is vague, treat the increase with more caution.
 
 ### 3. Did Revenue Expectations Move?
 
-Higher spending should come with evidence of demand. Look for rising backlog, stronger cloud growth, or raised revenue guidance alongside the capex increase.
-
-Capex that rises without any of these deserves scrutiny, because the company is committing capital ahead of visible customers.
+Higher spending should come with evidence of demand. Look for rising backlog, stronger cloud growth, or raised revenue guidance alongside the capex increase. Capex that rises without any of these deserves scrutiny, because the company is committing capital ahead of visible customers.
 
 ### 4. Did Margins Change?
 
@@ -295,7 +337,7 @@ The mix decides how fast today's spending turns into expense. Microsoft said rou
 
 ## Common Mistakes in AI CapEx Analysis
 
-Six mistakes distort most readings of AI capital spending.
+Six mistakes distort most readings of AI capital spending. Each one leads to a confident conclusion built on an incomplete number.
 
 ### Treating All CapEx as AI
 
@@ -347,15 +389,26 @@ A data-center building can host multiple hardware generations. Chips become obso
 
 This creates a mismatch between long-lived real estate and fast-moving compute economics. If each hardware generation delivers much better performance per dollar, older accelerators may remain usable but become less economically attractive.
 
-That means depreciation assumptions matter. Extending useful lives can improve current earnings, while shortening them increases current expense. For that reason, investors should read accounting-policy changes carefully.
+That means depreciation assumptions count. Extending useful lives can improve current earnings, while shortening them increases current expense. For that reason, investors should read accounting-policy changes carefully.
 
 ## Supply Chains Create Another Return Variable
 
-AI infrastructure depends on advanced semiconductors, high-bandwidth memory, networking equipment, optical components, power systems, cooling, construction labor, and specialized manufacturing capacity. Shortages can increase cost and delay deployment.
+AI infrastructure depends on:
 
-Higher component prices can raise capex without increasing the amount of productive capacity. This distinction is central. A budget increase caused by stronger demand is not the same as one caused by inflation.
+- Advanced semiconductors
+- High-bandwidth memory
+- Networking equipment
+- Optical components
+- Power systems
+- Cooling
+- Construction labor
+- Specialized manufacturing capacity
 
-## Backlog Quality Matters as Much as Backlog Size
+Shortages can increase cost and delay deployment. Higher component prices can raise capex without increasing the amount of productive capacity.
+
+This distinction is central. A budget increase caused by stronger demand is not the same as one caused by inflation.
+
+## Backlog Quality Is Important as Much as Backlog Size
 
 Cloud companies often cite large contracted backlogs. Backlog is useful because it provides visibility into future revenue.
 
@@ -369,15 +422,34 @@ This also makes attribution difficult. Investors should resist pretending that e
 
 ## The Bear Case Is Not Simply “Spending Is High”
 
-A serious bear case asks what would cause returns to disappoint. Possible failure modes include AI demand grows more slowly than expected, models become dramatically more compute-efficient, customers shift workloads to competitors, pricing falls rapidly, hardware becomes obsolete faster, energy costs increase, regulation slows deployment, depreciation rises faster than revenue, or the companies overbuild capacity.
+A serious bear case asks what would cause returns to disappoint. Possible failure modes include:
+
+- AI demand grows more slowly than expected
+- Models become dramatically more compute-efficient
+- Customers shift workloads to competitors
+- Pricing falls rapidly
+- Hardware becomes obsolete faster
+- Energy costs increase
+- Regulation slows deployment
+- Depreciation rises faster than revenue
+- The companies overbuild capacity
 
 The bear case should be measurable. Each of these scenarios produces observable signals.
 
 ## The Bull Case Also Needs Numbers
 
-A serious bull case should identify how capex turns into value. Possible evidence includes backlog growth, cloud acceleration, paid AI seats, inference usage, higher advertising conversion, stronger developer adoption, improved gross margins from custom silicon, and rising incremental operating profit.
+A serious bull case should identify how capex turns into value. Possible evidence includes:
 
-“AI is the future” is not an investment model. The financial chain still matters.
+- Backlog growth
+- Cloud acceleration
+- Paid AI seats
+- Inference usage
+- Higher advertising conversion
+- Stronger developer adoption
+- Improved gross margins from custom silicon
+- Rising incremental operating profit
+
+“AI is the future” is not an investment model. The financial chain still is important.
 
 ## A Five-Year View Can Be More Informative Than One Quarter
 
@@ -412,9 +484,11 @@ Two companies have already pointed to 2027. Microsoft said it expects fiscal 202
 
 Alphabet said it expects capital spending to increase significantly in 2027. Neither gave a number.
 
+Microsoft's chief financial officer, Amy Hood, tied the increase to “demand signals across our portfolio.” Alphabet's chief financial officer, Anat Ashkenazi, said, “we continue to expect our CapEx to increase significantly in 2027.”
+
 Cash flow is absorbing the cost. Alphabet reported negative free cash flow of $5.8 billion for the second quarter of 2026.
 
-Amazon reported negative free cash flow of $7.6 billion for the twelve months to June 2026, against operating cash flow of $161.4 billion. Meta reported free cash flow of $784 million for the second quarter.
+Amazon reported negative free cash flow of $7.6 billion for the twelve months to June 2026, against operating cash flow of $161.4 billion. Meta reported free cash flow of $784 million for the second quarter. Its chief executive, Mark Zuckerberg, said in the release that “AI is accelerating our core business today.”
 
 These are statements about spending plans, not about returns. Whether the AI capital spending earns its cost will show up later, in revenue, margins, and depreciation.
 

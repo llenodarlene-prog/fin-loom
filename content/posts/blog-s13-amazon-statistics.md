@@ -27,20 +27,20 @@ modified: 2026-10-04
 
 Amazon is often described as the world's largest online retailer. That is true but incomplete.
 
-Amazon is also a cloud-computing giant, an advertising platform, a logistics network, a subscription business, a streaming company, and one of the largest corporate buyers of technology infrastructure. The best Amazon statistics therefore do more than count shoppers or packages. They show which parts of the company generate revenue, which produce profit, how fast AWS is growing, and how much cash Amazon must reinvest to support the next stage.
+Amazon is also a cloud-computing giant, an advertising platform, and one of the largest corporate buyers of technology infrastructure. The best Amazon statistics therefore do more than count shoppers or packages.
+
+They show which parts of the company generate revenue and which produce profit. They also show how much cash Amazon must reinvest to support the next stage.
 
 ## Key Takeaways
 
-The points below summarize the Amazon statistics that explain where sales and profit come from.
-
-- **Net Sales:** Amazon generated $716.9 billion in net sales in 2025, up 12% year over year.
-- **AWS Sales:** AWS generated $128.7 billion in 2025 sales, up 20%.
-- **Operating Income:** Amazon operating income reached $80.0 billion in 2025, up from $68.6 billion.
-- **AWS Profit:** AWS produced $45.6 billion in 2025 operating income, making it disproportionately important to profit.
-- **Second-Quarter Sales:** Q2 2026 net sales reached $200.6 billion, up 20%.
-- **AWS Growth:** AWS Q2 2026 sales increased 37% to $42.2 billion, the fastest growth in 18 quarters.
-- **Second-Quarter Operating Income:** Q2 2026 operating income reached $27.5 billion, up 43%.
-- **Free Cash Flow:** Free cash flow fell to $11.2 billion in 2025 from $38.2 billion in 2024 as property and equipment investment surged, illustrating the cost of AI and infrastructure expansion.
+- **Net sales:** Amazon generated $716.9 billion in net sales in 2025, up 12% year over year.
+- **AWS sales:** AWS generated $128.7 billion in 2025 sales, up 20%.
+- **Operating income:** Amazon operating income reached $80.0 billion in 2025, up from $68.6 billion.
+- **AWS profit:** AWS produced $45.6 billion in 2025 operating income, making it disproportionately important to profit.
+- **Second-quarter sales:** Q2 2026 net sales reached $200.6 billion, up 20%.
+- **AWS growth:** AWS Q2 2026 sales increased 37% to $42.2 billion, the fastest growth in 18 quarters.
+- **Second-quarter operating income:** Q2 2026 operating income reached $27.5 billion, up 43%.
+- **Free cash flow:** Free cash flow fell to $11.2 billion in 2025 from $38.2 billion in 2024 as property and equipment investment surged, illustrating the cost of AI and infrastructure expansion.
 
 ## Amazon Statistics at a Glance
 
@@ -77,9 +77,18 @@ AWS sales increased 37%. This was a broad-based acceleration rather than a singl
 
 Amazon said Q2 2026 AWS sales were **$42.2 billion**, up 37% year over year. At that quarterly level, AWS was running at approximately a **$169 billion annualized revenue rate**.
 
-The company said this was AWS's fastest growth in 18 quarters. AI demand is a major part of the acceleration.
+The company said this was AWS's fastest growth in 18 quarters. AI demand is a major part of the acceleration. AWS provides:
 
-AWS provides: compute, storage, databases, AI infrastructure, custom chips, bedrock, model access, and enterprise cloud services. Its scale makes it one of Amazon's most strategically important businesses.
+- Compute
+- Storage
+- Databases
+- AI infrastructure
+- Custom chips
+- Bedrock
+- Model access
+- Enterprise cloud services
+
+Its scale makes it one of Amazon's most strategically important businesses.
 
 ## AWS Generates a Disproportionate Share of Profit
 
@@ -107,7 +116,7 @@ Operating income reached $29.6 billion. That represents a major improvement from
 
 International sales reached **$161.9 billion in 2025**, up 13%. Operating income was $4.7 billion.
 
-International operations have historically been less profitable than North America because of expansion costs, logistics investment, local competition, and market development. Positive operating income therefore matters. It indicates that scale is translating into better economics outside Amazon's home market.
+International operations have historically been less profitable than North America because of expansion costs, logistics investment, local competition, and market development. Positive operating income therefore is important. It indicates that scale is translating into better economics outside Amazon's home market.
 
 ## Amazon's Advertising Business Adds Another High-Margin Layer
 
@@ -169,19 +178,27 @@ A company that grows revenue 20% and operating income 43% is converting more of 
 
 AWS growth accelerated to 37%. The business's profitability means every additional dollar of AWS revenue can have an outsized effect on Amazon's consolidated operating income.
 
-This is why investors should avoid analyzing Amazon purely as an e-commerce stock. Its valuation increasingly depends on a mix of retail, cloud, advertising, subscriptions, logistics, and AI infrastructure. Broader [stock market research](/markets-stocks/) becomes more useful when it separates those economic engines instead of treating Amazon's $200 billion quarterly revenue as one homogeneous business.
+This is why investors should avoid analyzing Amazon purely as an e-commerce stock. Its valuation increasingly depends on a mix of retail, cloud, advertising, subscriptions, logistics, and AI infrastructure. Broader [stock market research](/markets-stocks/) becomes more informative when it separates those economic engines instead of treating Amazon's $200 billion quarterly revenue as one homogeneous business.
 
-## The Retail Business Still Matters Enormously
+## The Retail Business Still Is Important Enormously
 
-AWS may drive profit, but retail remains strategically central. Retail creates: customer traffic, transaction data, prime value, advertising inventory, seller demand, payments activity, and logistics scale.
+AWS may drive profit, but retail remains strategically central. Retail creates:
+
+- Customer traffic
+- Transaction data
+- Prime value
+- Advertising inventory
+- Seller demand
+- Payments activity
+- Logistics scale
 
 The businesses reinforce one another. Amazon's competitive advantage comes partly from this system effect.
 
-## Revenue Per Dollar of Capital Matters More Than Revenue Alone
+## Revenue Per Dollar of Capital Is Important More Than Revenue Alone
 
 Amazon's current investment cycle makes capital efficiency increasingly important. A company can grow rapidly and still reduce shareholder returns if growth requires too much capital.
 
-Useful measures include return on invested capital, incremental operating margin, revenue growth relative to capex, AWS margin, and free cash flow after major buildouts. This is particularly important as Amazon expands AI infrastructure.
+Measures include return on invested capital, incremental operating margin, revenue growth relative to capex, AWS margin, and free cash flow after major buildouts. This is particularly important as Amazon expands AI infrastructure.
 
 ## Advertising Improves the Economics of Retail Traffic
 
@@ -191,11 +208,11 @@ A seller can pay for sponsored placement while Amazon also earns marketplace or 
 
 The same customer visit can contribute to retail revenue, seller fees, advertising, prime retention, and payment activity. That system makes Amazon's retail economics more complex than simple product margin.
 
-## Marketplace Share Matters Because Inventory Risk Changes
+## Marketplace Share Is Important Because Inventory Risk Changes
 
 When Amazon sells its own inventory, it takes product and inventory risk. When a third-party merchant sells through the marketplace, Amazon can earn fees without owning the inventory. This can make marketplace growth attractive even if reported gross merchandise value does not appear directly as Amazon revenue.
 
-The accounting distinction matters. A marketplace transaction may represent substantial commerce while only the fee appears as Amazon net sales. That is why total Amazon sales and the value of goods moving through the platform are different concepts.
+The accounting distinction is important. A marketplace transaction may represent substantial commerce while only the fee appears as Amazon net sales. That is why total Amazon sales and the value of goods moving through the platform are different concepts.
 
 ## AWS Margin Is a Key Consolidated Profit Variable
 
@@ -243,7 +260,7 @@ High-intent shopping traffic becomes an advertising asset. That makes advertisin
 
 ## AWS Custom Silicon Can Affect Infrastructure Economics
 
-Amazon develops its own chips, including Graviton and Trainium. Custom silicon can matter because cloud infrastructure economics depend heavily on performance per dollar and performance per watt.
+Amazon develops its own chips, including Graviton and Trainium. Custom silicon can count because cloud infrastructure economics depend heavily on performance per dollar and performance per watt.
 
 If proprietary chips lower the cost of serving workloads, AWS can improve margins, lower prices, or both. The same strategy can reduce dependence on outside chip suppliers.
 
@@ -253,15 +270,15 @@ This is one reason AWS should not be analyzed only through revenue growth. Infra
 
 Amazon has a long history of periods when free cash flow falls because investment rises. That pattern can be healthy when new assets generate future returns.
 
-It can also hide weak capital discipline if spending fails to produce adequate economics. A useful investor approach is to compare several years of operating cash flow, capital expenditure, AWS revenue, operating income, and free cash flow. The goal is to identify whether capital intensity eventually produces higher earnings power.
+It can also hide weak capital discipline if spending fails to produce adequate economics. An investor approach is to compare several years of operating cash flow, capital expenditure, AWS revenue, operating income, and free cash flow. The goal is to identify whether capital intensity eventually produces higher earnings power.
 
 ## Amazon's Business Mix Reduces Dependence on Any One Margin Model
 
-Amazon's businesses earn money in different ways. Retail earns through product margin, and the marketplace earns fees. Advertising, meanwhile, monetizes attention.
+As these Amazon statistics show, Amazon's businesses earn money in different ways. Retail earns through product margin, and the marketplace earns fees. Advertising, meanwhile, monetizes attention.
 
 Likewise, Prime monetizes membership, AWS monetizes technology infrastructure, and logistics monetizes fulfillment capabilities. That diversity can stabilize the company because weakness in one area may be offset by strength elsewhere.
 
-It also makes consolidated analysis more difficult. The most useful Amazon statistics are therefore segment-aware.
+It also makes consolidated analysis more difficult. The Amazon statistics worth reading are therefore segment-aware.
 
 ## Final Perspective
 
@@ -271,7 +288,7 @@ Beyond that, Prime deepens the customer relationship, and AWS supplies much of t
 
 ## 2026 So Far and Amazon's Stated Outlook
 
-These Amazon statistics run through the second quarter of 2026. The same release gives trailing cash flow figures and the company's guidance for the third quarter.
+These Amazon statistics run through the second quarter of 2026. Chief executive Andy Jassy summed up the cloud business in the release in three words: “AWS is booming.” The same release gives trailing cash flow figures and the company's guidance for the third quarter.
 
 ### What Has Been Reported
 

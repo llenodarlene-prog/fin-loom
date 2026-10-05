@@ -102,8 +102,14 @@ for (const file of files) {
     const afterFaqHeading = /^##\s+Frequently Asked Questions\s*$/.test(previous) && /^###\s+/.test(line);
     if (!afterFaqHeading && /^#{2,3}\s+/.test(line) && /^#{1,3}\s+/.test(previous)) fail(`${file}: adjacent headings need contextual copy (${line})`);
     const startsBlock = /^###\s+/.test(line) || (/^[-*]\s+/.test(line) && !/^[-*]\s+/.test(previous)) || (line.startsWith('|') && /^\s*\|?(?:\s*:?-+:?\s*\|)+/.test(lines[index + 1] || ''));
-    if (!afterFaqHeading && startsBlock && (!previous || /^#{1,3}\s+|^[-*]\s+|^\|/.test(previous))) fail(`${file}: add contextual prose before ${line.slice(0, 60)}`);
-    if (/^[-*]\s+/.test(line) && !/^[-*]\s+\*\*[^*]+\*\*[:.]?\s+\S+/.test(line)) fail(`${file}: body bullet needs a bold lead and complete explanation (${line.slice(0, 60)})`);
+    // Owner rules of 2026-10-05 for supplementary posts: Key Takeaways has no introduction, and a plain
+    // sentence-case bullet is allowed for a simple list of items.
+    const ownerRules = record.no_word_ceiling === true;
+    const afterTakeaways = ownerRules && /^##\s+Key Takeaways\s*$/.test(previous) && /^[-*]\s+/.test(line);
+    if (!afterFaqHeading && !afterTakeaways && startsBlock && (!previous || /^#{1,3}\s+|^[-*]\s+|^\|/.test(previous))) fail(`${file}: add contextual prose before ${line.slice(0, 60)}`);
+    const plainBullet = ownerRules && /^[-*]\s+["“$(]?[A-Z0-9]/.test(line) || ownerRules && /^[-*]\s+i[A-Z]/.test(line);
+    if (ownerRules && /\bmatter(s|ed)?\b/i.test(line)) fail(`${file}: owner style rule: do not use the word "matter" (${line.slice(0, 60)})`);
+    if (/^[-*]\s+/.test(line) && !plainBullet && !/^[-*]\s+\*\*[^*]+\*\*[:.]?\s+\S+/.test(line)) fail(`${file}: body bullet needs a bold lead and complete explanation (${line.slice(0, 60)})`);
     if (line.startsWith('|')) {
       const cells = line.split('|').slice(1, -1).map(cell => cell.trim());
       if (cells.some(cell => !cell)) fail(`${file}: table row has an empty cell`);

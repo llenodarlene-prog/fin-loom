@@ -35,15 +35,13 @@ Money needed for next month's rent should not be exposed to a stock-market decli
 
 ## Key Takeaways
 
-The points below summarize how the saving vs investing decision changes with time horizon and liquidity.
-
-- **Saving Protects Near-term Purchasing Power and Access:** It is designed for money that may be needed soon.
-- **Investing Accepts Price Risk for Long-term Growth:** It is more appropriate when the money can remain invested through market declines.
-- **Emergency Funds Belong in Liquid Assets:** Investor.gov notes that savings accounts are appropriate for short-term goals and unexpected expenses.
-- **Inflation Creates a Tradeoff:** Cash can be stable in nominal value while losing purchasing power.
-- **Interest Rates Matter:** FDIC national-rate data show that the yield available on deposit products changes over time and by product.
-- **High-interest Debt Can Outrank Investing:** Paying expensive debt can provide a certain reduction in interest cost.
-- **The Decision Should Be Goal-specific:** One household may simultaneously save for a home repair and invest for retirement.
+- **Saving protects near-term purchasing power and access:** It is designed for money that may be needed soon.
+- **Investing accepts price risk for long-term growth:** It is more appropriate when the money can remain invested through market declines.
+- **Emergency funds belong in liquid assets:** Investor.gov notes that savings accounts are appropriate for short-term goals and unexpected expenses.
+- **Inflation creates a tradeoff:** Cash can be stable in nominal value while losing purchasing power.
+- **Interest rates are important:** FDIC national-rate data show that the yield available on deposit products changes over time and by product.
+- **High-interest debt can outrank investing:** Paying expensive debt can provide a certain reduction in interest cost.
+- **The decision should be goal-specific:** One household may simultaneously save for a home repair and invest for retirement.
 
 ## Saving vs Investing in One Table
 
@@ -128,9 +126,17 @@ A stock is liquid in the first sense but not always in the second.
 
 Emergency money has one job: be available when an emergency happens. [Investor.gov's rainy-day guidance](https://www.investor.gov/introduction-investing/investing-basics/save-and-invest/save-rainy-day) says most investors keep enough in savings to cover an emergency, and that some aim for as much as six months of income.
 
-The right amount varies. A household with stable dual incomes may need a different buffer from a self-employed worker with irregular income.
+The right amount varies. A household with stable dual incomes may need a different buffer from a self-employed worker with irregular income. Factors include:
 
-Useful factors include job stability, insurance deductibles, number of income earners, health expenses, dependents, housing costs, and access to other liquidity. The emergency fund should not be optimized for maximum return. Availability is the return.
+- Job stability
+- Insurance deductibles
+- Number of income earners
+- Health expenses
+- Dependents
+- Housing costs
+- Access to other liquidity
+
+The emergency fund should not be optimized for maximum return. Availability is the return.
 
 ## Inflation Creates the Cost of Excess Cash
 
@@ -167,7 +173,7 @@ The opposite error is investing money that should remain safe. Suppose a househo
 
 The account is now worth roughly $14,000. The household has three choices: delay the purchase, contribute more cash, or sell at the lower value.
 
-The long-term expected return did not matter. The asset and goal were mismatched.
+The long-term expected return did not count. The asset and goal were mismatched.
 
 ## Debt Comes Before the Saving-vs-Investing Debate in Some Cases
 
@@ -175,17 +181,17 @@ A household paying 24% interest on a credit-card balance faces a different probl
 
 Investor.gov's crypto-risk guidance, for example, explicitly reminds investors that paying high-interest credit-card debt can be financially powerful before taking investment risk. A practical order may be:
 
-1. maintain essential liquidity;
-2. capture any valuable employer retirement match if appropriate;
-3. address very high-interest debt;
-4. build adequate emergency reserves; and
-5. invest additional long-term money.
+1. Maintain essential liquidity;
+2. Capture any valuable employer retirement match if appropriate;
+3. Address very high-interest debt;
+4. Build adequate emergency reserves; and
+5. Invest additional long-term money.
 
 Individual circumstances vary, but the sequence illustrates why investing does not happen in isolation.
 
 ## Goal Buckets Make the Decision Easier
 
-Instead of asking how much of total wealth should be saved versus invested, assign money to goals.
+Instead of asking how much of total wealth should be saved versus invested, assign money to goals. Each goal then gets the tool that fits its timing.
 
 ### Bucket 1: Immediate Cash
 
@@ -195,9 +201,9 @@ Because the money will be spent soon, return is beside the point. A checking or 
 
 ### Bucket 2: Emergency Reserve
 
-This bucket covers unplanned expenses and interruptions to income. Its time horizon is unknown, which is exactly what makes it different.
+This bucket covers unplanned expenses and interruptions to income. It has no end date, because an emergency reserve should always be in place.
 
-Since you cannot predict when it will be needed, it has to be both safe and easy to reach. Investor.gov suggests some people aim to hold up to six months of income in savings.
+Since it may be needed at any time, it has to be both safe and easy to reach. Investor.gov suggests some people aim to hold up to six months of income in savings.
 
 ### Bucket 3: Near-Term Goals
 
@@ -233,7 +239,7 @@ For example, an employer match can materially change the economics of retirement
 
 Consumers should distinguish: traditional savings accounts, high-yield savings accounts, money-market deposit accounts, money-market mutual funds, CDs, and treasury securities. They may sound similar but differ in insurance, liquidity, price behavior, and withdrawal terms.
 
-A money-market mutual fund is an investment product, not the same as an FDIC-insured bank money-market deposit account. That distinction matters when the goal is capital preservation.
+A money-market mutual fund is an investment product, not the same as an FDIC-insured bank money-market deposit account. That distinction is important when the goal is capital preservation.
 
 ## Investing Is Not Automatically Long Term
 
@@ -243,7 +249,7 @@ The time horizon of the strategy must match the time horizon of the goal. Likewi
 
 ## A Simple Decision Framework
 
-Six questions, asked in order, settle most saving vs investing decisions.
+Six questions, asked in order, settle most saving vs investing decisions. Work through them for each goal separately, not for your money as a whole.
 
 ### 1. When Will I Need the Money?
 
@@ -265,9 +271,7 @@ If the answer is “I can wait,” the same decline is uncomfortable but surviva
 
 ### 4. Do I Have Emergency Liquidity Elsewhere?
 
-Investing is far easier to sustain when unexpected expenses do not force a sale. An emergency reserve protects the investments as much as it protects the household.
-
-Without that cushion, even a sensible long-term portfolio can be undone by a car repair or a gap in income at the wrong time.
+Investing is far easier to sustain when unexpected expenses do not force a sale. An emergency reserve protects the investments as much as it protects the household. Without that cushion, even a sensible long-term portfolio can be undone by a car repair or a gap in income at the wrong time.
 
 ### 5. What Is the Inflation Cost of Holding Cash?
 
@@ -283,7 +287,7 @@ Paying down a high-rate balance produces a known saving with no market risk. For
 
 ## Common Saving vs Investing Mistakes
 
-Six mistakes account for most poor saving vs investing outcomes.
+Six mistakes account for most poor saving vs investing outcomes. Each one puts money in a place that does not fit when it will be needed.
 
 ### Investing the Emergency Fund
 
@@ -301,7 +305,7 @@ Safety in the short term can become a shortfall in the long term. The remedy is 
 
 A higher rate usually comes with conditions. Withdrawal limits, lock-up periods, minimum balances, and promotional rates that expire all affect what you earn and when you can reach the money.
 
-Insurance status matters as well. Before moving savings for an extra fraction of a percent, confirm whether the account is a federally insured deposit.
+Insurance status is important as well. Before moving savings for an extra fraction of a percent, confirm whether the account is a federally insured deposit.
 
 ### Investing Because the Market Is Rising
 
@@ -313,7 +317,7 @@ Buying after a strong run with short-term money raises the odds of selling after
 
 Fear can leave long-term money permanently underinvested. Waiting for markets to feel safe often means waiting indefinitely, because there is always a reason for concern.
 
-If the horizon is long and the emergency reserve is in place, short-term declines matter less than they feel. Automating contributions helps take the emotion out of the decision.
+If the horizon is long and the emergency reserve is in place, short-term declines count for less than they feel. Automating contributions helps take the emotion out of the decision.
 
 ### Treating the Decision as Permanent
 
@@ -337,7 +341,7 @@ Keeping every dollar in cash avoids market volatility, but it introduces a diffe
 
 The correct asset mix still depends on risk tolerance and personal circumstances, but the logic is fundamentally different from the three-year house goal. It is the same household, but these are different dollars with a different job.
 
-## Sequence of Returns Matters Near the Goal
+## Sequence of Returns Is Important Near the Goal
 
 Average return can hide timing risk. Suppose a portfolio earns strong returns for several years and then falls sharply immediately before the money is needed. The long-term average may still look reasonable.
 
@@ -353,7 +357,19 @@ Automation reduces the temptation to wait for a “better time.” For long-term
 
 ## Review the Plan When Life Changes
 
-A saving-versus-investing allocation should be revisited after major events such as job loss, marriage, divorce, a child, home purchase, business launch, major illness, inheritance, or retirement. A financial plan is not a one-time optimization. Its job is to remain aligned with real life.
+A saving-versus-investing allocation should be revisited after major events such as:
+
+- Job loss
+- Marriage
+- Divorce
+- A child
+- Home purchase
+- Business launch
+- Major illness
+- Inheritance
+- Retirement
+
+A financial plan is not a one-time optimization. Its job is to remain aligned with real life.
 
 ## Final Perspective
 
@@ -376,11 +392,11 @@ The figures below are the median views of Federal Open Market Committee particip
 | Federal funds rate, year end | 4.1% | 4.1% | 3.9% |
 | Unemployment rate | 4.1% | 4.1% | 4.1% |
 
-Two points matter for savers. First, the projected 2026 inflation rate of 3.7% sits well above the 0.37% national average savings rate the FDIC reported on September 21, 2026. A balance earning the national average would lose purchasing power at that pace.
+Two points count for savers. First, the projected 2026 inflation rate of 3.7% sits well above the 0.37% national average savings rate the FDIC reported on September 21, 2026. A balance earning the national average would lose purchasing power at that pace.
 
 Second, the median projection has the policy rate holding at 4.1% through 2027. That is a projection of the policy rate, not of what any bank will pay. Deposit rates vary widely between institutions.
 
-None of this says where to put money. It shows why the time horizon matters: cash protects near-term spending, while money that will sit for many years faces the inflation question directly.
+None of this says where to put money. It shows why the time horizon is important: cash protects near-term spending, while money that will sit for many years faces the inflation question directly.
 
 ## Frequently Asked Questions
 

@@ -25,22 +25,20 @@ modified: 2026-10-04
 
 # Apple Statistics 2026: Revenue, iPhone, Services, and the Changing Business Mix
 
-Apple is often measured by the number of iPhones it sells. That is no longer enough. The company has become a mix of hardware, software, subscriptions, payments, cloud services, app distribution, accessories, and an installed base that supports recurring revenue long after the initial device sale.
+Apple is often measured by the number of iPhones it sells. That is no longer enough. The company has become a mix of hardware, software, and subscriptions, built on an installed base that supports recurring revenue long after the initial device sale.
 
-The most useful Apple statistics therefore focus on the relationship between products and Services. Hardware brings users into the ecosystem, and Services then monetize the relationship over time. In fiscal 2026, both sides of that model have been producing record results.
+The Apple statistics worth watching therefore focus on the relationship between products and Services. Hardware brings users into the ecosystem, and Services then monetize the relationship over time. In fiscal 2026, both sides of that model have been producing record results.
 
 ## Key Takeaways
 
-The points below summarize the Apple statistics that describe the business mix.
-
-- **First-Quarter Revenue:** Apple generated $143.8 billion in revenue in fiscal Q1 2026, up from $124.3 billion a year earlier.
-- **Second-Quarter Revenue:** Fiscal Q2 2026 revenue reached $111.2 billion, up 17% year over year.
-- **Third-Quarter Revenue:** Fiscal Q3 2026 revenue reached $109.4 billion, up 16%.
+- **First-quarter revenue:** Apple generated $143.8 billion in revenue in fiscal Q1 2026, up from $124.3 billion a year earlier.
+- **Second-quarter revenue:** Fiscal Q2 2026 revenue reached $111.2 billion, up 17% year over year.
+- **Third-quarter revenue:** Fiscal Q3 2026 revenue reached $109.4 billion, up 16%.
 - **Services:** Services revenue reached a record $30.0 billion in fiscal Q1 2026.
 - **iPhone:** iPhone revenue reached $85.3 billion in fiscal Q1 2026.
-- **Installed Base:** Apple's installed base of active devices reached a new all-time high by Q3 2026.
-- **Gross Margin:** Gross margin reached 50.1% in fiscal Q3 2026, though Apple noted a favorable impact of about two percentage points from tariff refunds.
-- **Recurring Revenue:** Services are strategically important because they increase recurring monetization from the installed device base.
+- **Installed base:** Apple's installed base of active devices reached a new all-time high by Q3 2026.
+- **Gross margin:** Gross margin reached 50.1% in fiscal Q3 2026, though Apple noted a favorable impact of about two percentage points from tariff refunds.
+- **Recurring revenue:** Services are strategically important because they increase recurring monetization from the installed device base.
 
 ## Apple Statistics at a Glance
 
@@ -63,21 +61,30 @@ Apple's quarter ended December 27, 2025 produced **$143.756 billion in net sales
 
 Net income reached **$42.1 billion**. This was an exceptionally strong holiday quarter.
 
-But the more interesting statistic is the mix. Products generated $113.7 billion, while Services generated $30.0 billion. The Services component is now large enough to matter independently.
+But the more interesting statistic is the mix. Products generated $113.7 billion, while Services generated $30.0 billion. The Services component is now large enough to count independently.
 
 ## iPhone Revenue Reached $85.3 Billion
 
 iPhone remained Apple's largest product category. Fiscal Q1 2026 iPhone revenue was **$85.269 billion**, up from $69.138 billion a year earlier.
 
-That is enormous concentration. The iPhone remains the primary gateway into the Apple ecosystem.
+That is enormous concentration. The iPhone remains the primary gateway into the Apple ecosystem. It also creates demand for:
 
-It also creates demand for app Store purchases, iCloud, Apple Music, Apple TV, Apple Pay, accessories, warranties, and other services. For this reason, iPhone economics extend beyond the hardware sale.
+- App Store purchases
+- iCloud
+- Apple Music
+- Apple TV
+- Apple Pay
+- Accessories
+- Warranties
+- Other services
+
+For this reason, iPhone economics extend beyond the hardware sale.
 
 ## Services Revenue Reached $30.0 Billion in Q1
 
 Services revenue was **$30.013 billion** in fiscal Q1 2026. That compares with $26.340 billion a year earlier.
 
-The category includes a broad mix of recurring and transactional revenue. Services matter because they generally require less physical manufacturing than hardware. That can support attractive margins and recurring cash flow.
+The category includes a broad mix of recurring and transactional revenue. Services count because they generally require less physical manufacturing than hardware. That can support attractive margins and recurring cash flow.
 
 ## Fiscal Q2 Revenue Increased 17%
 
@@ -87,13 +94,21 @@ Apple reported **$111.2 billion in fiscal Q2 2026 revenue**, up 17% year over ye
 
 Apple reported **$109.4 billion in fiscal Q3 2026 revenue**, up 16%. The quarter set new June-quarter records for company revenue and earnings per share.
 
-Apple also said iPhone, Mac, and Services each set June-quarter revenue records. This broad growth matters. A company already generating more than $100 billion in quarterly revenue is still producing double-digit year-over-year growth.
+Apple also said iPhone, Mac, and Services each set June-quarter revenue records. This broad growth is important. A company already generating more than $100 billion in quarterly revenue is still producing double-digit year-over-year growth.
 
 ## Apple's Installed Base Keeps Expanding
 
 Apple said its installed base of active devices reached a new all-time high across all major product categories and geographic segments in fiscal Q3 2026. This statistic is strategically important even without a current exact device count in the release.
 
-The installed base determines the size of the audience Apple can monetize through Services. A larger installed base can support: subscriptions, payments, cloud storage, app purchases, accessories, upgrades, and financing.
+The installed base determines the size of the audience Apple can monetize through Services. A larger installed base can support:
+
+- Subscriptions
+- Payments
+- Cloud storage
+- App purchases
+- Accessories
+- Upgrades
+- Financing
 
 ## Services Change the Quality of Revenue
 
@@ -107,7 +122,7 @@ The model makes Apple less dependent on a single hardware purchase.
 
 ## Apple Revenue by Product Category
 
-Among recent Apple statistics, fiscal Q1 2026 provides a useful snapshot of the product mix.
+Among recent Apple statistics, fiscal Q1 2026 gives a clear snapshot of the product mix.
 
 | Category | Revenue |
 |---|---:|
@@ -117,7 +132,7 @@ Among recent Apple statistics, fiscal Q1 2026 provides a useful snapshot of the 
 | iPad | $8.60B |
 | Mac | $8.39B |
 
-The table shows both concentration and diversification. iPhone dominates, while Services provide a substantial second engine. In addition, the remaining hardware businesses are each large enough to represent major companies on their own.
+In these Apple statistics, the table shows both concentration and diversification. iPhone dominates, while Services provide a substantial second engine. In addition, the remaining hardware businesses are each large enough to represent major companies on their own.
 
 ## Geographic Revenue Is Broad
 
@@ -137,7 +152,7 @@ This geographic diversity reduces dependence on any single market. It also creat
 
 Apple reported a **50.1% gross margin** in fiscal Q3 2026. The company noted that this included a favorable effect of roughly two percentage points from tariff refunds.
 
-That qualification matters. Investors should separate recurring economics from temporary items.
+That qualification is important. Investors should separate recurring economics from temporary items.
 
 Even after adjustment, Apple's gross-margin profile remains exceptionally strong for a company that sells massive quantities of physical hardware. Services contribute materially to that result.
 
@@ -147,7 +162,7 @@ Fiscal Q1 2026 net income was **$42.1 billion**. That is more profit in one quar
 
 The scale supports: research and development, capital expenditure, acquisitions, dividends, share repurchases, and cash reserves. Apple's profitability is one reason its stock is often analyzed as a quality compounder rather than simply a hardware manufacturer.
 
-## Buybacks Matter Because Apple's Share Count Is Falling
+## Buybacks Count Because Apple's Share Count Is Falling
 
 Apple has returned enormous amounts of capital through share repurchases. When a company buys back shares, each remaining share represents a slightly larger ownership claim if the repurchases exceed stock issuance.
 
@@ -161,15 +176,25 @@ This deepens daily engagement and places Apple inside the checkout experience. T
 
 ## Services Revenue Is Not One Business
 
-The Services category contains different revenue types. It can include app Store economics, iCloud, Apple Music, Apple TV, AppleCare, advertising, payments, subscriptions, and licensing arrangements.
+The Services category contains different revenue types. It can include the following:
+
+- App Store economics
+- iCloud
+- Apple Music
+- Apple TV
+- AppleCare
+- Advertising
+- Payments
+- Subscriptions
+- Licensing arrangements
 
 These have different margins and growth drivers. That means total Services growth is useful but incomplete. Investors should also pay attention to regulation affecting app distribution, payments, and platform rules.
 
 ## Regulation Could Change Platform Economics
 
-Apple faces regulatory scrutiny in multiple jurisdictions. Issues include app Store commissions, third-party app distribution, default apps, payment rules, competition, and interoperability.
+Apple faces regulatory scrutiny in multiple jurisdictions. Issues include App Store commissions, third-party app distribution, default apps, payment rules, competition, and interoperability.
 
-These matters can affect Services economics even if hardware sales remain strong. This is why the quality of Apple's earnings depends partly on platform regulation.
+These is important can affect Services economics even if hardware sales remain strong. This is why the quality of Apple's earnings depends partly on platform regulation.
 
 ## AI Is Becoming Part of the Product Cycle
 
@@ -217,7 +242,16 @@ Scale improves procurement and supply-chain bargaining power. This helps explain
 
 ## Research and Development Has Become More Important
 
-Apple spent heavily on R&D in fiscal Q1 2026. The company must invest across: silicon, operating systems, AI, health, spatial computing, services, security, and devices.
+Apple spent heavily on R&D in fiscal Q1 2026. The company must invest across:
+
+- Silicon
+- Operating systems
+- AI
+- Health
+- Spatial computing
+- Services
+- Security
+- Devices
 
 R&D is not capitalized in the same way as data-center capex. Much of it flows through operating expense. That means Apple's innovation spending affects the income statement differently from hyperscale infrastructure spending.
 
@@ -227,7 +261,7 @@ Apple no longer regularly reports iPhone unit sales. This has frustrated some an
 
 The installed base may be more strategically useful. A user who keeps an iPhone for four years still generates potential Services revenue during the entire period.
 
-Unit shipments measure acquisition and replacement. Installed devices measure the population available for monetization. Both matter, but they answer different questions.
+Unit shipments measure acquisition and replacement. Installed devices measure the population available for monetization. Both are important, but they answer different questions.
 
 ## Services Regulation Could Affect Margins Before Revenue
 
@@ -302,13 +336,13 @@ The table lists each reported quarter of fiscal 2026.
 
 The nine-month total is a sum of the three reported quarters, not a figure Apple published. In the third quarter, diluted earnings per share were $2.02, up 29% from a year earlier.
 
-Apple declared a cash dividend of $0.27 per share. It said iPhone and Services revenue set June-quarter records and that the installed base of active devices reached a new high.
+Apple declared a cash dividend of $0.27 per share. It said iPhone and Services revenue set June-quarter records and that the installed base of active devices reached a new high. Chief financial officer Kevan Parekh said, “Our installed base of active devices also reached a new all-time high.”
 
 ### What Apple Projects
 
 Apple's third-quarter release contains no revenue or earnings guidance. Any projection for the fourth quarter or for fiscal 2027 attributed to Apple should be checked against the company's own statements.
 
-That absence is useful to know. Many Apple statistics pages mix reported results with analyst estimates of shipments and future revenue. The figures on this page are reported results only.
+Many Apple statistics pages mix reported results with analyst estimates of shipments and future revenue. The figures on this page are reported results only.
 
 The fourth fiscal quarter will complete the fiscal 2026 picture. Until Apple reports it, a full-year figure is an estimate, not a result.
 

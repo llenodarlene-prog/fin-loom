@@ -431,7 +431,7 @@
   },
   "verification_log": {
     "checked_on": "2026-10-04",
-    "summary": "Keyword data from Ubersuggest (United States), five ranking pages reviewed. All four cited sources checked against the originals. Two Resources links were removed: a Dune page that returns 404 and a CoinMarketCap article whose content could not be read. The Etherscan description was reworded to match its documentation.",
+    "summary": "Keyword data from Ubersuggest (United States), five ranking pages reviewed. All four cited sources checked against the originals. Two Resources links were removed: a Dune page that returns 404 and a CoinMarketCap article whose content could not be read. The Etherscan description was reworded to match its documentation. Editorial pass of 2026-10-05: copy restructured under the owner's style rules; no facts changed.",
     "pending": "None."
   }
 }
