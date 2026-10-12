@@ -548,5 +548,85 @@
     "rights_status": "approved",
     "rights_source": "FinLoom Files/05 Assets, supplied by the site owner 2026-10-03 (AI-generated image)",
     "alt_guidance": "A laptop and phone showing sample account security screens beside a passport, a card, and an identity protection checklist"
+  },
+  {
+    "path": "/assets/images/posts/stock-analysis-fundamentals/research-desk-charts-1600.jpg",
+    "title": "A laptop showing bar and line charts beside a calculator, notebook, and printed financial reports on an office desk",
+    "use": "Hero image for /markets-stocks/stock-analysis-fundamentals/",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Supplied by the site owner in chat on 2026-10-12 for this post",
+    "alt_guidance": "A laptop showing bar and line charts beside a calculator, notebook, and printed financial reports on an office desk"
+  },
+  {
+    "path": "/assets/images/posts/stock-analysis-fundamentals/research-desk-charts-800.jpg",
+    "title": "A laptop showing bar and line charts beside a calculator, notebook, and printed financial reports on an office desk",
+    "use": "Hero image for /markets-stocks/stock-analysis-fundamentals/",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Supplied by the site owner in chat on 2026-10-12 for this post",
+    "alt_guidance": "A laptop showing bar and line charts beside a calculator, notebook, and printed financial reports on an office desk"
+  },
+  {
+    "path": "/assets/images/posts/best-stock-screeners-compared/three-screen-trading-desk-1600.jpg",
+    "title": "Three monitors showing stock charts and data tables on a desk overlooking a city skyline",
+    "use": "Hero image for /markets-stocks/best-stock-screeners-compared/",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Supplied by the site owner in chat on 2026-10-12 for this post",
+    "alt_guidance": "Three monitors showing stock charts and data tables on a desk overlooking a city skyline"
+  },
+  {
+    "path": "/assets/images/posts/best-stock-screeners-compared/three-screen-trading-desk-800.jpg",
+    "title": "Three monitors showing stock charts and data tables on a desk overlooking a city skyline",
+    "use": "Hero image for /markets-stocks/best-stock-screeners-compared/",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Supplied by the site owner in chat on 2026-10-12 for this post",
+    "alt_guidance": "Three monitors showing stock charts and data tables on a desk overlooking a city skyline"
+  },
+  {
+    "path": "/assets/images/posts/stock-research-analyst-role/analyst-reviewing-reports-1600.jpg",
+    "title": "An analyst taking notes beside a laptop with market charts and printed reports on a desk",
+    "use": "Hero image for /markets-stocks/stock-research-analyst-role/",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Supplied by the site owner in chat on 2026-10-12 for this post",
+    "alt_guidance": "An analyst taking notes beside a laptop with market charts and printed reports on a desk"
+  },
+  {
+    "path": "/assets/images/posts/stock-research-analyst-role/analyst-reviewing-reports-800.jpg",
+    "title": "An analyst taking notes beside a laptop with market charts and printed reports on a desk",
+    "use": "Hero image for /markets-stocks/stock-research-analyst-role/",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Supplied by the site owner in chat on 2026-10-12 for this post",
+    "alt_guidance": "An analyst taking notes beside a laptop with market charts and printed reports on a desk"
+  },
+  {
+    "path": "/assets/images/posts/per-capita-gdp-explained/coin-stacks-and-globe-1600.jpg",
+    "title": "Wooden figures standing on coin stacks of falling height in front of a globe and a city skyline",
+    "use": "Hero image for /investing/per-capita-gdp-explained/",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Supplied by the site owner in chat on 2026-10-12 for this post",
+    "alt_guidance": "Wooden figures standing on coin stacks of falling height in front of a globe and a city skyline"
+  },
+  {
+    "path": "/assets/images/posts/per-capita-gdp-explained/coin-stacks-and-globe-800.jpg",
+    "title": "Wooden figures standing on coin stacks of falling height in front of a globe and a city skyline",
+    "use": "Hero image for /investing/per-capita-gdp-explained/",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Supplied by the site owner in chat on 2026-10-12 for this post",
+    "alt_guidance": "Wooden figures standing on coin stacks of falling height in front of a globe and a city skyline"
   }
 ]

@@ -270,6 +270,78 @@
       "scheduled_publish": "2026-10-05",
       "min_words": 2500,
       "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S16",
+      "working_title": "Stock Analysis Fundamentals: How to Evaluate a Company",
+      "primary_keyword": "stock analysis fundamentals",
+      "secondary_keywords": "fundamental stock analysis; how to analyze stocks; stock fundamentals; financial statement analysis; stock valuation fundamentals",
+      "cluster": "Markets & Stocks",
+      "intent": "Informational",
+      "status": "Ready for Source Verification",
+      "url_slug": "/markets-stocks/stock-analysis-fundamentals/",
+      "seo_title": "Stock Analysis Fundamentals: A Data-Driven Framework",
+      "meta_description": "Learn the fundamentals of stock analysis using financial statements, margins, cash flow, balance-sheet strength, valuation, and a current 2026 company example.",
+      "link_placement_site": "",
+      "source_file": "Supplied by the site owner in chat on 2026-10-12 (finloom-stock-analysis-fundamentals.md)",
+      "scheduled_publish": "2026-10-12",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S17",
+      "working_title": "Best Stock Screeners Compared: Data, Filters, and Research Tools",
+      "primary_keyword": "top rated stock screener",
+      "secondary_keywords": "best stock screener; best stock screener for free; stock screener comparison; stock screening tools; stock research screener",
+      "cluster": "Markets & Stocks",
+      "intent": "Informational",
+      "status": "Ready for Source Verification",
+      "url_slug": "/markets-stocks/best-stock-screeners-compared/",
+      "seo_title": "Best Stock Screeners Compared for 2026",
+      "meta_description": "Compare leading stock screeners by filters, market coverage, research depth, charting, exports, and current 2026 pricing to find the right tool for your workflow.",
+      "link_placement_site": "",
+      "source_file": "Supplied by the site owner in chat on 2026-10-12 (finloom-best-stock-screeners-compared.md)",
+      "scheduled_publish": "2026-10-12",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S18",
+      "working_title": "Stock Research Analyst: What the Role Does and How the Work Gets Used",
+      "primary_keyword": "stock research analyst",
+      "secondary_keywords": "equity research analyst; financial research analyst; buy side analyst; sell side analyst; equity research career",
+      "cluster": "Markets & Stocks",
+      "intent": "Informational",
+      "status": "Ready for Source Verification",
+      "url_slug": "/markets-stocks/stock-research-analyst-role/",
+      "seo_title": "Stock Research Analyst: Role, Skills, Pay, and Career Path",
+      "meta_description": "Learn what a stock research analyst does, how buy-side and sell-side roles differ, which skills matter, and what current U.S. analyst pay and outlook data show.",
+      "link_placement_site": "",
+      "source_file": "Supplied by the site owner in chat on 2026-10-12 (finloom-stock-research-analyst.md)",
+      "scheduled_publish": "2026-10-13",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S19",
+      "working_title": "Explain Per Capita GDP: What It Measures and What It Misses",
+      "primary_keyword": "explain per capita GDP",
+      "secondary_keywords": "GDP per capita meaning; GDP per capita formula; real GDP per capita; nominal GDP per capita; GDP per capita PPP; GDP per capita by country",
+      "cluster": "Investing",
+      "intent": "Informational",
+      "status": "Ready for Source Verification",
+      "url_slug": "/investing/per-capita-gdp-explained/",
+      "seo_title": "Explain Per Capita GDP: Meaning, Formula, and Limits",
+      "meta_description": "Learn how to explain per capita GDP, calculate it, compare nominal, real, and PPP measures, and understand what GDP per person does and does not reveal.",
+      "link_placement_site": "",
+      "source_file": "Supplied by the site owner in chat on 2026-10-12 (finloom-per-capita-gdp-explained.md)",
+      "scheduled_publish": "2026-10-13",
+      "min_words": 2500,
+      "no_word_ceiling": true
     }
   ],
   "links": [
@@ -406,6 +478,42 @@
       "primary_silo_hub": "/money-banking/",
       "approved_outbound_targets": [
         "/money-banking/"
+      ]
+    },
+    {
+      "type": "Blog",
+      "content_number": "S16",
+      "url_slug": "/markets-stocks/stock-analysis-fundamentals/",
+      "primary_silo_hub": "/markets-stocks/",
+      "approved_outbound_targets": [
+        "/markets-stocks/stock-screener-metrics-guide/"
+      ]
+    },
+    {
+      "type": "Blog",
+      "content_number": "S17",
+      "url_slug": "/markets-stocks/best-stock-screeners-compared/",
+      "primary_silo_hub": "/markets-stocks/",
+      "approved_outbound_targets": [
+        "/markets-stocks/stock-screener-metrics-guide/"
+      ]
+    },
+    {
+      "type": "Blog",
+      "content_number": "S18",
+      "url_slug": "/markets-stocks/stock-research-analyst-role/",
+      "primary_silo_hub": "/markets-stocks/",
+      "approved_outbound_targets": [
+        "/markets-stocks/stock-screener-metrics-guide/"
+      ]
+    },
+    {
+      "type": "Blog",
+      "content_number": "S19",
+      "url_slug": "/investing/per-capita-gdp-explained/",
+      "primary_silo_hub": "/investing/",
+      "approved_outbound_targets": [
+        "/money-banking/saving-vs-investing/"
       ]
     }
   ]

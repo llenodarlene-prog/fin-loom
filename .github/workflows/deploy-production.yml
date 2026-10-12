@@ -2,6 +2,9 @@ name: Deploy production
 on:
   push:
     branches: [main]
+  # Called by the publishing scheduler on days a post goes live. The production environment's
+  # approval gate still applies.
+  workflow_call:
 permissions:
   contents: read
 concurrency: {group: production, cancel-in-progress: false}
