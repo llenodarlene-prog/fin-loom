@@ -15,9 +15,9 @@ research_record: content/research/blog-s18.json
 image: /assets/images/posts/stock-research-analyst-role/analyst-reviewing-reports-1600.jpg
 image_alt: An analyst taking notes beside a laptop with market charts and printed reports on a desk
 link_placement_site: 
-charts_pending: 1
-ai_exceptions: 
-ai_exception_reason: 
+charts_pending: 0
+ai_exceptions: leverage
+ai_exception_reason: Leverage appears only as the accounting noun (operating leverage, financial leverage), never as the filler verb the kill list targets.
 author: 
 published: 
 modified: 
@@ -29,7 +29,7 @@ A stock research analyst turns company information into an investment view. The 
 
 The title can describe different jobs. Sell-side analysts publish research for brokerage clients and institutional investors. Buy-side analysts work inside asset managers, hedge funds, pension funds, or other investment organizations and support internal portfolio decisions. Both roles can involve deep company research, but the audience, incentives, and level of public visibility differ.
 
-Current U.S. labor data show that analytical finance remains a sizable profession. The Bureau of Labor Statistics reported a **$102,740 median annual wage for financial and investment analysts in May 2025** and projected employment in that category to grow **7.2% from 2024 to 2034**, from about 377,200 jobs to 404,300. Research analysts are not a separate BLS occupational category, so those figures should be treated as the closest broad benchmark rather than a salary guarantee for equity research specifically.
+Current U.S. labor data show that analytical finance remains a sizable profession. The [Bureau of Labor Statistics](https://www.bls.gov/ooh/business-and-financial/financial-analysts.htm) reported a **$102,740 median annual wage for financial and investment analysts in May 2025** and projects employment in that category to grow **7% from 2025 to 2035**, from 377,200 jobs to 404,300. Research analysts are not a separate BLS occupational category, so those figures should be treated as the closest broad benchmark rather than a salary guarantee for equity research specifically.
 
 ## Key Takeaways
 
@@ -37,27 +37,27 @@ Current U.S. labor data show that analytical finance remains a sizable professio
 - CFA Institute separates research roles broadly into **equity research** and **credit research**, with buy-side and sell-side career paths inside both.
 - Sell-side analysts typically publish research for clients, while buy-side analysts use research internally to support portfolio decisions.
 - BLS reported **$102,740 median annual pay** for financial and investment analysts in May 2025.
-- BLS projects employment for financial and investment analysts to grow **7.2% from 2024 to 2034**.
+- BLS projects employment for financial and investment analysts to grow **7% from 2025 to 2035**.
 - Financial modeling, accounting, valuation, industry research, data analysis, and written communication are core skills.
-- The CFA Program can be relevant to the career, and CFA Level I and II passers may qualify for an exemption from Part I of FINRA's Series 86 research analyst exam.
+- The CFA Program can be relevant to the career, and CFA Level I and II passers may request an exemption from FINRA's Series 86 exam, subject to timing conditions.
 - Good research separates facts, assumptions, forecasts, and valuation rather than presenting one target price as certainty.
 
-## What a Stock Research Analyst Actually Does
+## What a Stock Research Analyst Does Day to Day
 
-CFA Institute describes research analysts as professionals who collect data about investable companies, analyze the material, build earnings models, conduct valuations, and communicate recommendations to portfolio managers or clients.
+[CFA Institute](https://www.cfainstitute.org/programs/cfa-program/careers/research-analyst) describes research analysts as professionals who collect data about investable companies, analyze the material, build earnings models, conduct valuations, and communicate recommendations to portfolio managers or clients.
 
-That description captures the central workflow. Analysts are not paid simply to summarize earnings releases. Their value comes from deciding which information matters, converting operating data into forecasts, testing assumptions, and explaining why the market may be underestimating or overestimating a company's future results.
+That description captures the central workflow. Analysts are not paid simply to summarize earnings releases. Their value comes from deciding which information is important, converting operating data into forecasts, testing assumptions, and explaining why the market may be underestimating or overestimating a company's future results.
 
-A research process often includes:
+A stock research analyst's process usually moves through eight recurring tasks.
 
-- reading SEC filings and earnings releases;
-- following company management and investor presentations;
-- studying industry structure and competitors;
-- building revenue, margin, cash-flow, and earnings forecasts;
-- comparing valuation methods;
-- identifying catalysts and risks;
-- updating models when new information arrives;
-- and communicating a conclusion through reports, meetings, or investment committees.
+- **Reading Filings:** SEC filings and earnings releases supply the reported numbers and management's own account of results.
+- **Following Management:** Earnings calls and investor presentations show how leaders explain strategy and respond to questions.
+- **Studying the Industry:** Industry structure and competitors set the limits on what any one company can achieve.
+- **Building Forecasts:** Revenue, margin, cash-flow, and earnings forecasts turn research into numbers that can be tested.
+- **Comparing Valuation Methods:** Several methods side by side reduce the risk of one flawed approach driving the result.
+- **Identifying Catalysts and Risks:** Events that could move the stock, in either direction, shape the timing of a view.
+- **Updating Models:** New information, from a quarterly report to a competitor's price cut, means revising the forecast.
+- **Communicating Conclusions:** Reports, meetings, and investment committees are where the work turns into decisions.
 
 ## Buy-Side and Sell-Side Analysts Do Similar Work for Different Audiences
 
@@ -78,7 +78,7 @@ CFA Institute notes that sell-side equity analysts often cover fewer stocks but 
 
 Analysts eventually spend substantial time in models, but the quality of the model depends on the quality of the research that enters it.
 
-Industry structure matters because a 10% revenue growth assumption means something different in a mature utility business than in a rapidly expanding software market. Customer concentration, regulation, pricing power, capital intensity, and competition can change the meaning of the same financial ratio.
+Industry structure is important because a 10% revenue growth assumption means something different in a mature utility business than in a rapidly expanding software market. Customer concentration, regulation, pricing power, capital intensity, and competition can change the meaning of the same financial ratio.
 
 ### Company Research Builds the Operating Story
 
@@ -128,21 +128,21 @@ A simplified forecast can be represented as:
 | Capital Spending | How much reinvestment is required? |
 | Free Cash Flow | What cash remains after necessary investment? |
 
-The sequence matters because valuation built on an unsupported earnings forecast can look precise while being fundamentally weak.
+The order is important because valuation built on an unsupported earnings forecast can look precise while being fundamentally weak.
 
 ## Valuation Turns the Forecast Into an Investment Question
 
 After forecasting the business, the analyst needs to estimate what those future results are worth.
 
-Common methods include:
+Seven methods appear most often in published and internal research.
 
-- price-to-earnings comparisons;
-- enterprise value to EBITDA;
-- enterprise value to sales;
-- discounted cash flow;
-- dividend discount models;
-- price-to-book for some financial companies;
-- and sum-of-the-parts valuation for diversified businesses.
+- **Price-to-Earnings Comparisons:** The stock price relative to earnings per share, compared with peers or the company's own history.
+- **Enterprise Value to EBITDA:** A multiple that includes debt, useful when companies carry very different capital structures.
+- **Enterprise Value to Sales:** A revenue multiple, often used for companies that are growing fast but not yet profitable.
+- **Discounted Cash Flow:** The present value of forecast free cash flows, which makes every assumption explicit.
+- **Dividend Discount Models:** The present value of expected dividends, suited to steady payers such as utilities.
+- **Price-to-Book:** Market value relative to book equity, common for banks and insurers whose assets are mostly financial.
+- **Sum of the Parts:** Each business line valued separately, used for diversified companies.
 
 No single valuation method works equally well across every industry. High-growth software companies, banks, utilities, commodity producers, and industrial businesses create cash differently and should not automatically be judged on the same metric.
 
@@ -152,7 +152,7 @@ A good company can still be a poor investment at the wrong price. A weak company
 
 That distinction is one reason screening metrics should be used as inputs rather than conclusions. Combining valuation, profitability, growth, and risk through [stock screener metrics](/markets-stocks/stock-screener-metrics-guide/) can help analysts find candidates, but deeper research is still required before a recommendation is defensible.
 
-## What Skills Matter Most for Stock Research Analysts?
+## Which Skills Count Most for Stock Research Analysts?
 
 CFA Institute identifies data analysis, industry and company analysis, financial analysis, financial modeling, and valuation as core competencies for research analysts.
 
@@ -168,7 +168,7 @@ Models translate assumptions into revenue, earnings, cash flow, and valuation. T
 
 ### Industry Knowledge
 
-Coverage improves when analysts understand how customers buy, what drives pricing, which competitors matter, and where regulation or technology can reshape the market.
+Coverage improves when analysts understand how customers buy, what drives pricing, which competitors pose a threat, and where regulation or technology can reshape the market.
 
 ### Written Communication
 
@@ -183,22 +183,21 @@ In May 2025, BLS reported median annual pay of **$102,740** for financial and in
 | BLS Measure | Financial and Investment Analysts |
 |---|---:|
 | Median Annual Pay, May 2025 | $102,740 |
-| Employment, 2024 | 377,200 |
-| Projected Employment, 2034 | 404,300 |
-| Projected Growth, 2024–2034 | 7.2% |
-| Average Annual Openings | 24,700 |
+| Employment, 2025 | 377,200 |
+| Projected Employment, 2035 | 404,300 |
+| Projected Change, 2025 to 2035 | 27,100 jobs (7%) |
 
-**Source:** U.S. Bureau of Labor Statistics.
+**Source:** U.S. Bureau of Labor Statistics, Occupational Outlook Handbook, 2025 to 2035 projections.
 
 The figures cover a broader category than equity research alone, but they provide useful scale for the U.S. analytical finance labor market.
 
-### Chart: Financial and Investment Analyst Employment Outlook
+The chart below shows the projected increase. Not every new role will be a stock research analyst position, since the category also covers corporate and credit analysts.
 
-A simple two-bar chart comparing 2024 employment with projected 2034 employment would show the expected increase without implying that every new role is a stock research position.
+```chart
+financial-analyst-employment-outlook
+```
 
-**Recommended chart type:** Bar chart  
-**Values:** 377,200 jobs in 2024; 404,300 projected in 2034  
-**Source:** U.S. Bureau of Labor Statistics
+The 7% rate is faster than the 3% BLS projects for all occupations combined. A projection is an estimate, not a forecast of hiring at any one firm, and markets can change demand for analysts quickly.
 
 ## Qualifications Depend on the Employer and Role
 
@@ -206,30 +205,35 @@ Many analyst roles require a bachelor's degree in finance, accounting, economics
 
 The CFA Program is particularly relevant because its curriculum covers financial statement analysis, equity investments, valuation, portfolio management, ethics, and quantitative methods.
 
-CFA Institute also notes that candidates who pass CFA Level I and Level II may qualify for an exemption from Part I of FINRA's Series 86 Research Analyst Qualification Exam. The exact licensing requirement depends on the employer and regulatory role.
+[FINRA](https://www.finra.org/registration-exams-ce/qualification-exams/series86-87) allows candidates who have passed CFA Level I and Level II to request an exemption from the Series 86 exam, the first part of the research analyst qualification. The exemption has conditions. The candidate must have passed Level II within two years of applying, or worked continuously as a research analyst since passing it. Series 87 and the Securities Industry Essentials exam are still required. The exact licensing path depends on the employer and the regulatory role.
 
 ## What Good Equity Research Looks Like
 
 Strong research is transparent about uncertainty. A report should distinguish historical facts from forecasts and make clear which assumptions drive the conclusion.
 
-A useful structure often includes:
-
-1. the investment thesis;
-2. business and industry context;
-3. financial forecasts;
-4. valuation;
-5. catalysts;
-6. downside risks;
-7. scenario analysis;
-8. and the assumptions that would invalidate the thesis.
+A useful report covers the investment thesis, business and industry context, financial forecasts, and valuation. It then sets out catalysts, downside risks, scenario analysis, and the assumptions that would invalidate the thesis.
 
 The goal is not to eliminate uncertainty. It is to make uncertainty visible enough that another investor can understand where the conclusion might fail.
+
+## How Earnings Season Tests a Stock Research Analyst
+
+Earnings season compresses the job into a few weeks. Most covered companies report within a short window, so a stock research analyst may need to update several models in days.
+
+### Before the Report
+
+The analyst reviews the existing forecast, notes what the market seems to expect, and lists the questions that would change the view. Preparing in advance makes it easier to react to the numbers rather than to the headline.
+
+### After the Report
+
+The work turns to comparison. Reported revenue, margins, and cash flow are set against the forecast, and management's guidance is set against the assumptions in the model. A sell-side analyst often publishes a note quickly. A buy-side analyst briefs the portfolio manager, who may adjust a position.
+
+The discipline lies in separating noise from signal. A one-time charge or a timing shift between quarters may not change the long-term case, while a small change in pricing or customer behavior sometimes does.
 
 ## The Analyst's Real Product Is a Decision Framework
 
 Models, reports, earnings estimates, and price targets are outputs. The deeper value of research is the framework connecting evidence to an investment decision.
 
-A strong analyst can explain why revenue should grow, what could pressure margins, which risks matter, how much of the story is already reflected in the price, and what new information would change the view.
+A strong analyst can explain why revenue should grow, what could pressure margins, which risks carry the most weight, how much of the story is already reflected in the price, and what new information would change the view.
 
 That makes stock research less about predicting every quarterly move and more about continually updating probabilities as evidence changes.
 

@@ -15,9 +15,9 @@ research_record: content/research/blog-s16.json
 image: /assets/images/posts/stock-analysis-fundamentals/research-desk-charts-1600.jpg
 image_alt: A laptop showing bar and line charts beside a calculator, notebook, and printed financial reports on an office desk
 link_placement_site: 
-charts_pending: 1
-ai_exceptions: 
-ai_exception_reason: 
+charts_pending: 0
+ai_exceptions: leverage
+ai_exception_reason: Operating leverage and financial leverage are standard accounting terms with no plain substitute in a fundamentals explainer.
 author: 
 published: 
 modified: 
@@ -29,7 +29,7 @@ Stock analysis begins with a simple question that is harder to answer than it so
 
 A stock price can move for many reasons in the short term, but long-term investment outcomes are ultimately tied to the economics of the underlying business. Revenue growth, margins, cash generation, balance-sheet strength, competitive position, reinvestment needs, and valuation all influence whether a company can compound value for shareholders.
 
-Fundamental analysis brings those pieces together. It does not guarantee a correct forecast, but it creates a structured way to separate an attractive business from an attractive stock and to identify which assumptions matter most.
+Stock analysis fundamentals bring those pieces together. They do not guarantee a correct forecast, but they create a structured way to separate an attractive business from an attractive stock and to identify the assumptions that carry the most weight.
 
 ## Key Takeaways
 
@@ -37,14 +37,15 @@ Fundamental analysis brings those pieces together. It does not guarantee a corre
 - The income statement explains growth and profitability, the balance sheet shows financial position, and the cash flow statement tests how earnings convert into cash.
 - Revenue growth is more valuable when margins, cash flow, and returns on capital also improve.
 - Low valuation multiples are not automatically attractive if growth or business quality is deteriorating.
-- Balance-sheet strength matters because debt can amplify both returns and downside risk.
+- Balance-sheet strength is important because debt can amplify both returns and downside risk.
 - Free cash flow helps show what remains after operating needs and capital expenditures.
 - Microsoft reported **$331.8 billion in fiscal 2026 revenue**, up 18%, with operating income of **$155.2 billion**, showing how growth and margin analysis can be combined.
+- Net income can move for reasons outside the core business, so the source of each change needs checking before it supports a conclusion.
 - Strong analysis compares a company with its own history, direct competitors, and the expectations embedded in the stock price.
 
 ## Start With the Business Before Starting With the Ratios
 
-A stock is a claim on a business, so the first stage of analysis is understanding how that business makes money.
+A stock is a claim on a business, so the first stage of stock analysis fundamentals is understanding how that business makes money.
 
 An investor should be able to explain the product or service, customer base, pricing model, major costs, competitive advantages, capital requirements, and key risks before relying heavily on financial ratios.
 
@@ -52,7 +53,7 @@ The same P/E ratio can mean different things across industries. A software compa
 
 ## The Three Core Financial Statements Answer Different Questions
 
-The SEC identifies the balance sheet, income statement, cash flow statement, and statement of shareholders' equity as the core financial statements investors use to understand a company.
+The SEC's [Beginner's Guide to Financial Statements](https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide) identifies the balance sheet, income statement, cash flow statement, and statement of shareholders' equity as the core financial statements investors use to understand a company.
 
 The first three form the foundation of most stock analysis because they explain profitability, financial position, and cash movement from different angles.
 
@@ -66,7 +67,7 @@ The statements become most useful when analyzed together rather than one at a ti
 
 ## Revenue Growth Needs an Explanation
 
-Revenue growth is often the first number investors notice, but the reason for the growth matters as much as the rate.
+Revenue growth is often the first number investors notice, but the reason for the growth counts as much as the rate.
 
 Sales can rise because a company sells more units, increases prices, acquires another business, expands internationally, launches new products, or benefits from temporary industry conditions.
 
@@ -82,11 +83,11 @@ A company growing 8% can be gaining share in a market growing 2% or losing share
 
 Margins reveal how efficiently a company converts sales into profit at different stages of the income statement.
 
-Common measures include:
+Three margins sit at the center of stock analysis fundamentals, and each one is a simple division.
 
-- **Gross margin** = gross profit ÷ revenue
-- **Operating margin** = operating income ÷ revenue
-- **Net margin** = net income ÷ revenue
+- **Gross margin:** Gross profit divided by revenue, which shows the economics of the product before overhead.
+- **Operating margin:** Operating income divided by revenue, which shows profit after running the business.
+- **Net margin:** Net income divided by revenue, which includes interest, taxes, and other items below operating income.
 
 A rising margin can indicate pricing power, improved product mix, scale efficiencies, or cost discipline. Falling margins can signal competition, inflation, weaker pricing, or investment ahead of future growth.
 
@@ -104,16 +105,15 @@ Total revenue rose from **$281.7 billion in fiscal 2025 to $331.8 billion in fis
 
 **Source:** Microsoft fiscal 2026 Form 10-K.
 
-The data show why revenue alone is incomplete. Microsoft's operating income grew faster than revenue, while net income rose even faster. That suggests operating leverage and other income-statement effects strengthened earnings growth during the period.
+The data show why revenue alone is incomplete. Microsoft's operating income grew 21%, faster than its 18% revenue growth, which points to operating leverage in the core business.
 
-### Chart: Microsoft Revenue and Operating Income, FY2024–FY2026
+```chart
+microsoft-revenue-operating-income
+```
 
-A grouped bar chart can show whether operating income is keeping pace with revenue as the company grows.
+Net income rose about 31%, even faster again, but most of that extra gap did not come from operations. The 10-K reports that gains on Microsoft's investment in OpenAI raised fiscal 2026 net income by $5.0 billion, after OpenAI-related items reduced fiscal 2025 net income by $3.6 billion. A swing like that is a reason to read the notes before treating net income growth as a sign of a stronger business.
 
-**Recommended chart type:** Grouped bar chart  
-**Series:** Revenue and operating income  
-**Periods:** FY2024, FY2025, FY2026  
-**Source:** Microsoft fiscal 2026 Form 10-K
+This is one of the most practical stock analysis fundamentals: trace each line of profit growth back to its cause. Operating income reflects the products and services. Items below it, such as investment gains, interest, and tax changes, can repeat, reverse, or disappear.
 
 ## Cash Flow Tests the Quality of Reported Earnings
 
@@ -184,7 +184,7 @@ A DCF estimates the present value of future cash flows. It forces the investor t
 
 ## Screening Helps Find Candidates, but It Does Not Complete the Analysis
 
-A screener can efficiently narrow thousands of securities using valuation, growth, profitability, leverage, ownership, or technical criteria.
+A screener can efficiently narrow thousands of securities before the stock analysis fundamentals work begins. It filters using valuation, growth, profitability, leverage, ownership, or technical criteria.
 
 The difficult part comes after the screen. Investors still have to determine whether the selected metrics reflect durable economics or temporary conditions.
 
@@ -192,20 +192,18 @@ For example, [stock screener metrics](/markets-stocks/stock-screener-metrics-gui
 
 ## Risk Analysis Should Be Specific to the Business
 
-Generic statements such as "competition could increase" are not enough. Investors should identify the risks capable of changing the forecast.
+Generic statements such as "competition could increase" are not enough. Investors should identify the risks capable of changing the forecast. The categories below are a starting list, not a complete one.
 
-Useful categories include:
-
-- customer concentration;
-- product concentration;
-- regulation;
-- commodity exposure;
-- currency risk;
-- debt and refinancing;
-- technology disruption;
-- capital intensity;
-- pricing pressure;
-- and management execution.
+- **Customer Concentration:** A few large customers can cut orders or demand lower prices at short notice.
+- **Product Concentration:** A company that depends on one product has little to fall back on if demand shifts.
+- **Regulation:** New rules can raise costs, limit pricing, or close a market entirely.
+- **Commodity Exposure:** Input costs such as energy or metals can squeeze margins when prices jump.
+- **Currency Risk:** Sales earned abroad lose value in dollars when the dollar strengthens.
+- **Debt and Refinancing:** Loans that come due in a weak credit market may cost far more to replace.
+- **Technology Disruption:** A cheaper or better product from a new entrant can shrink an established market.
+- **Capital Intensity:** Heavy spending on plants or data centers ties up cash before it earns a return.
+- **Pricing Pressure:** Competitors cutting prices can force a company to follow and give up margin.
+- **Management Execution:** Even a sound plan can fail through poor hiring, integration, or capital allocation.
 
 The goal is not to create the longest risk list. It is to identify which risks would materially change revenue, margins, cash flow, or valuation.
 
@@ -213,21 +211,21 @@ The goal is not to create the longest risk list. It is to identify which risks w
 
 Peer comparison is useful, but a company's own history can reveal changes that cross-sectional comparisons miss.
 
-An investor should ask whether:
+Seven trends are worth checking across at least three to five years of reports.
 
-- revenue growth is accelerating or slowing;
-- margins are expanding or compressing;
-- debt is rising;
-- free cash flow conversion is improving;
-- share count is increasing or decreasing;
-- capital spending is becoming heavier;
-- and valuation is above or below historical norms.
+- **Revenue Growth:** Is growth accelerating or slowing, and does the explanation change?
+- **Margins:** Are gross and operating margins expanding or compressing?
+- **Debt:** Is borrowing rising faster than earnings or cash flow?
+- **Cash Conversion:** Is more or less of each dollar of profit turning into free cash flow?
+- **Share Count:** Are buybacks shrinking the share count, or is stock issuance diluting existing owners?
+- **Capital Spending:** Is the business needing heavier reinvestment to keep growing?
+- **Valuation:** Is the stock priced above or below its own historical range?
 
 This helps distinguish structural improvement from a single unusually strong quarter.
 
 ## A Practical Fundamental Analysis Checklist
 
-A repeatable process reduces the risk of jumping directly from a headline to an investment conclusion.
+A repeatable process built on stock analysis fundamentals reduces the risk of jumping directly from a headline to an investment conclusion.
 
 ### Step 1: Understand the Business
 
@@ -239,7 +237,7 @@ Review several years of revenue, margins, earnings, cash flow, debt, and share c
 
 ### Step 3: Identify the Economic Drivers
 
-Determine what actually moves the business: users, units, pricing, utilization, subscriptions, commodity prices, interest rates, or another operating variable.
+Determine what really moves the business: users, units, pricing, utilization, subscriptions, commodity prices, interest rates, or another operating variable.
 
 ### Step 4: Compare Historical Trends
 
@@ -265,9 +263,9 @@ Write down the operating or financial developments that would invalidate the inv
 
 The strongest stock analysis does not end with a ratio. It connects the business model, financial statements, competitive environment, forecasts, and valuation into one coherent view.
 
-Microsoft's fiscal 2026 results demonstrate the principle. Revenue grew 18%, but the more interesting questions are why operating income grew faster, how much investment supports future growth, whether current margins are sustainable, and what valuation investors are paying for those future earnings.
+Microsoft's fiscal 2026 results demonstrate the principle. Revenue grew 18%, but the more interesting questions are why operating income grew faster, how much of net income came from investment gains, how much investment supports future growth, whether current margins are sustainable, and what valuation investors are paying for those future earnings.
 
-Fundamental analysis becomes valuable when each number changes the interpretation of another. Growth matters more when it produces cash. High margins matter more when competition cannot easily erode them. A low valuation matters more when the underlying business remains healthy.
+Stock analysis fundamentals become valuable when each number changes the interpretation of another. Growth is worth more when it produces cash. High margins are worth more when competition cannot easily erode them. A low valuation means more when the underlying business remains healthy.
 
 ## Frequently Asked Questions
 

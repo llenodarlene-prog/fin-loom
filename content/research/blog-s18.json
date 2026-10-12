@@ -1,114 +1,222 @@
 {
   "tracker_id": "Blog:S18",
   "status": "scaffolded",
-  "research_question": "",
+  "research_question": "What does a stock research analyst do, and what do official sources say about pay, outlook, and licensing?",
   "research_brief": {
-    "purpose": "",
-    "audience": "",
-    "publication_year": "",
-    "data_period": "",
-    "scope_limitations": ""
+    "purpose": "Explain the role, buy-side and sell-side differences, skills, and verified labor data.",
+    "audience": "Students and career changers considering equity research.",
+    "publication_year": "2026",
+    "data_period": "BLS May 2025 wages; 2025 to 2035 projections.",
+    "scope_limitations": "U.S. data; BLS category broader than equity research."
   },
   "keyword_research": {
     "approved_primary_keyword": "stock research analyst",
     "intent": "Informational",
-    "serp_checked_at": "",
+    "serp_checked_at": "2026-10-12",
     "tools": [
       {
         "name": "Ubersuggest",
-        "status": "pending",
-        "retrieved_at": ""
+        "status": "verified",
+        "retrieved_at": "2026-10-12",
+        "location": "United States"
       }
     ],
     "queries": [
       {
-        "keyword": "",
+        "keyword": "stock research analyst",
         "type": "short-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 1300,
+        "difficulty": 15,
+        "cpc": 2.98,
+        "intent": "Informational",
+        "ranking_url": "https://economics.byu.edu/after-graduation/careers/investment-research-analyst",
+        "retrieved_at": "2026-10-12",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "how much does equity research analyst make",
         "type": "long-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 90,
+        "difficulty": 33,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.reddit.com/r/FinancialCareers/comments/17ewszk/how_good_of_a_career_is_equity_research/",
+        "retrieved_at": "2026-10-12",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "stock research analyst jobs",
         "type": "commercial",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 720,
+        "difficulty": 35,
+        "cpc": 1.79,
+        "intent": "Transactional",
+        "ranking_url": "https://www.linkedin.com/jobs/investment-research-analyst-jobs",
+        "retrieved_at": "2026-10-12",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "how to become equity research analyst",
         "type": "problem",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 30,
+        "difficulty": 28,
+        "cpc": 6.09,
+        "intent": "Informational",
+        "ranking_url": "https://www.reddit.com/r/FinancialCareers/comments/yvzjk1/how_to_become_equity_research_analyst/",
+        "retrieved_at": "2026-10-12",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "what does equity research analyst do",
         "type": "question",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 170,
+        "difficulty": 36,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.reddit.com/r/FinancialCareers/comments/17ewszk/how_good_of_a_career_is_equity_research/",
+        "retrieved_at": "2026-10-12",
+        "tool": "Ubersuggest"
       }
+    ],
+    "serp_top_results": [
+      "https://economics.byu.edu/after-graduation/careers/investment-research-analyst",
+      "https://careercenter.afcpe.org/career/securities-research-analyst-2",
+      "https://analystprep.com/blog/what-are-the-duties-of-a-research-analyst/",
+      "https://www.indeed.com/career-advice/finding-a-job/how-to-become-equity-research-analyst",
+      "https://mergersandinquisitions.com/equity-research/"
     ]
   },
   "sources": [
     {
-      "url": "",
-      "title": "",
-      "publisher": "",
-      "source_type": "",
-      "year": "",
-      "published_at": "",
-      "accessed_at": "",
-      "scope": "",
-      "method": "",
-      "limitations": "",
-      "verified": false
+      "url": "https://www.bls.gov/ooh/business-and-financial/financial-analysts.htm",
+      "title": "Financial Analysts, Occupational Outlook Handbook",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "source_type": "Government statistics",
+      "year": "2025",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-12",
+      "scope": "Pay and 2025 to 2035 projections",
+      "method": "OEWS wages; BLS projections",
+      "limitations": "Category broader than equity research",
+      "verified": true,
+      "verification_note": "Median $102,740 (May 2025), 10th percentile $63,720, 90th $180,860, 377,200 to 404,300 jobs (7%, 2025 to 2035) confirmed 2026-10-12."
+    },
+    {
+      "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series86-87",
+      "title": "Series 86 and 87: Research Analyst Exams",
+      "publisher": "FINRA",
+      "source_type": "Regulator page",
+      "year": "not applicable",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-12",
+      "scope": "Exam and exemption rules",
+      "method": "Regulator guidance",
+      "limitations": "See FINRA Rule 1220 for current text",
+      "verified": true,
+      "verification_note": "CFA Level I and II exemption from Series 86 and its timing conditions confirmed 2026-10-12."
+    },
+    {
+      "url": "https://www.cfainstitute.org/programs/cfa-program/careers/research-analyst",
+      "title": "What Are Financial Research Analysts?",
+      "publisher": "CFA Institute",
+      "source_type": "Professional body",
+      "year": "not applicable",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-12",
+      "scope": "Role description",
+      "method": "Career guidance",
+      "limitations": "Not a statistical source",
+      "verified": false,
+      "verification_note": "Owner fact-check: role description and competencies."
+    },
+    {
+      "url": "https://www.cfainstitute.org/insights/events/2025/career-path-equity-research-analyst",
+      "title": "Career Path: Equity Research Analyst",
+      "publisher": "CFA Institute",
+      "source_type": "Professional body",
+      "year": "2025",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-12",
+      "scope": "Career event",
+      "method": "Event page",
+      "limitations": "Resources link only",
+      "verified": false,
+      "verification_note": "Owner fact-check."
+    },
+    {
+      "url": "https://www.cfainstitute.org/programs/cfa-program/candidate-resources/practical-skills-modules/analyst-skills",
+      "title": "Analyst Skills",
+      "publisher": "CFA Institute",
+      "source_type": "Professional body",
+      "year": "not applicable",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-12",
+      "scope": "Skills modules",
+      "method": "Curriculum description",
+      "limitations": "Resources link only",
+      "verified": false,
+      "verification_note": "Owner fact-check."
+    },
+    {
+      "url": "https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm",
+      "title": "Occupational Projections and Worker Characteristics",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "source_type": "Government statistics",
+      "year": "2025",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-12",
+      "scope": "Projections table",
+      "method": "BLS projections",
+      "limitations": "Resources link only",
+      "verified": false,
+      "verification_note": "Owner fact-check."
+    },
+    {
+      "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide",
+      "title": "Beginner's Guide to Financial Statements",
+      "publisher": "U.S. Securities and Exchange Commission",
+      "source_type": "Government publication",
+      "year": "not applicable",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-12",
+      "scope": "Financial statements",
+      "method": "Regulator guidance",
+      "limitations": "General education",
+      "verified": true
     }
   ],
   "statistics": [
     {
-      "claim": "",
-      "source_url": "",
-      "data_year": "",
-      "geography": "",
-      "population": "",
-      "sample": "",
-      "denominator": "",
-      "unit": "",
-      "method": "",
-      "limitations": "",
+      "claim": "Median annual wage for financial and investment analysts was $102,740 in May 2025; lowest 10% under $63,720; highest 10% over $180,860.",
+      "source_url": "https://www.bls.gov/ooh/business-and-financial/financial-analysts.htm",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Financial and investment analysts (SOC 13-2051)",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "US dollars per year",
+      "method": "OEWS survey",
+      "limitations": "Broader than equity research",
       "sponsored": false,
       "partial_year": false,
       "estimate": false,
-      "verified": false
+      "verified": true
+    },
+    {
+      "claim": "Employment projected to rise from 377,200 in 2025 to 404,300 in 2035, an increase of 27,100 or 7%, versus 3% for all occupations.",
+      "source_url": "https://www.bls.gov/ooh/business-and-financial/financial-analysts.htm",
+      "data_year": "2025-2035",
+      "geography": "United States",
+      "population": "Financial and investment analysts (SOC 13-2051)",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "Jobs",
+      "method": "BLS employment projections",
+      "limitations": "Projection, not a forecast for any employer",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": true,
+      "verified": true
     }
   ],
   "competitors": [
@@ -196,22 +304,66 @@
     "meta_description": "Learn what a stock research analyst does, how buy-side and sell-side roles differ, which skills matter, and what current U.S. analyst pay and outlook data show.",
     "slug": "/markets-stocks/stock-research-analyst-role/",
     "search_intent": "Informational",
-    "secondary_keywords": [],
-    "outline": [],
-    "evidence_map": [],
-    "visuals": [],
+    "secondary_keywords": [
+      "equity research analyst",
+      "stock research analyst jobs",
+      "what does equity research analyst do",
+      "how to become equity research analyst"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "What a Stock Research Analyst Does Day to Day",
+      "Buy-Side and Sell-Side Analysts Do Similar Work for Different Audiences",
+      "The Research Process Starts Before the Spreadsheet",
+      "Financial Statements Turn the Business Story Into Numbers",
+      "Analysts Convert Historical Data Into Forecasts",
+      "Valuation Turns the Forecast Into an Investment Question",
+      "Analysts Need to Separate Price From Business Quality",
+      "Which Skills Count Most for Stock Research Analysts?",
+      "Current U.S. Pay and Employment Data",
+      "Qualifications Depend on the Employer and Role",
+      "What Good Equity Research Looks Like",
+      "How Earnings Season Tests a Stock Research Analyst",
+      "The Analyst's Real Product Is a Decision Framework",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Median pay, percentiles, 2025 to 2035 projections: BLS OOH Financial Analysts",
+      "Series 86 exemption: FINRA Series 86 and 87 page",
+      "Analyst duties: CFA Institute research analyst page"
+    ],
+    "visuals": [
+      "Bar chart financial-analyst-employment-outlook from data/charts.json",
+      "Hero image analyst-reviewing-reports"
+    ],
     "internal_links": [
       "/markets-stocks/stock-screener-metrics-guide/"
     ],
-    "external_link_opportunities": [],
-    "excluded_claims": [],
-    "drafting_cautions": []
+    "external_link_opportunities": [
+      "BLS OOH Financial Analysts",
+      "CFA Institute research analyst careers",
+      "FINRA Series 86 and 87"
+    ],
+    "excluded_claims": [
+      "No salary figure specific to equity research; BLS has no such category",
+      "No openings figure: the OOH page openings cover a broader group than SOC 13-2051"
+    ],
+    "drafting_cautions": [
+      "BLS projections are for 2025 to 2035, not 2024 to 2034",
+      "Label projections as estimates"
+    ]
   },
   "claims": [
     {
-      "statement": "",
-      "source_url": "",
-      "verified": false
+      "statement": "BLS reported a $102,740 median wage for financial and investment analysts in May 2025.",
+      "source_url": "https://www.bls.gov/ooh/business-and-financial/financial-analysts.htm",
+      "verified": true
+    },
+    {
+      "statement": "CFA Level I and II passers may request a Series 86 exemption, subject to timing conditions.",
+      "source_url": "https://www.finra.org/registration-exams-ce/qualification-exams/series86-87",
+      "verified": true
     }
   ],
   "fact_check": {
@@ -223,5 +375,17 @@
     "completed": false,
     "reviewer": "",
     "reviewed_at": ""
+  },
+  "competitor_candidates": [
+    "https://economics.byu.edu/after-graduation/careers/investment-research-analyst",
+    "https://careercenter.afcpe.org/career/securities-research-analyst-2",
+    "https://analystprep.com/blog/what-are-the-duties-of-a-research-analyst/",
+    "https://www.indeed.com/career-advice/finding-a-job/how-to-become-equity-research-analyst",
+    "https://mergersandinquisitions.com/equity-research/"
+  ],
+  "verification_log": {
+    "checked_on": "2026-10-12",
+    "summary": "Ubersuggest (United States) data retrieved 2026-10-12. Corrections: projections relabeled from 2024 to 2034 to 2025 to 2035 (the current BLS edition), growth stated as BLS publishes it (7%), the 24,700 openings figure removed because it could not be matched to the current BLS page, and the Series 86 exemption now states its conditions per FINRA.",
+    "pending": "Five competitor reviews, content gaps, and value-add: the session network policy blocked direct page access, so competitor pages could not be read. Sources marked verified: false need the owner fact-check. Fact-check and QA sign-off."
   }
 }

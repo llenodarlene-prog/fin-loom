@@ -1,114 +1,179 @@
 {
   "tracker_id": "Blog:S16",
   "status": "scaffolded",
-  "research_question": "",
+  "research_question": "What framework lets a reader evaluate a company from its financial statements, and what does a current filing show in practice?",
   "research_brief": {
-    "purpose": "",
-    "audience": "",
-    "publication_year": "",
-    "data_period": "",
-    "scope_limitations": ""
+    "purpose": "Teach stock analysis fundamentals with one verified, current company example.",
+    "audience": "Self-directed investors learning to read financial statements.",
+    "publication_year": "2026",
+    "data_period": "Microsoft fiscal years 2024 to 2026 (ended June 30, 2026).",
+    "scope_limitations": "One company example; no recommendation on any security."
   },
   "keyword_research": {
     "approved_primary_keyword": "stock analysis fundamentals",
     "intent": "Informational",
-    "serp_checked_at": "",
+    "serp_checked_at": "2026-10-12",
     "tools": [
       {
         "name": "Ubersuggest",
-        "status": "pending",
-        "retrieved_at": ""
+        "status": "verified",
+        "retrieved_at": "2026-10-12",
+        "location": "United States"
       }
     ],
     "queries": [
       {
-        "keyword": "",
+        "keyword": "stock analysis fundamentals",
         "type": "short-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 880,
+        "difficulty": 22,
+        "cpc": 4.73,
+        "intent": "Informational",
+        "ranking_url": "https://www.investopedia.com/terms/f/fundamentalanalysis.asp",
+        "retrieved_at": "2026-10-12",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "how to do fundamental analysis of stocks",
         "type": "long-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 50,
+        "difficulty": 56,
+        "cpc": 2.785,
+        "intent": "Informational",
+        "ranking_url": "https://www.reddit.com/r/ValueInvesting/comments/1rhosie/what_is_fundamental_analysis_and_how_to_actually/",
+        "retrieved_at": "2026-10-12",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "fundamental analysis of stocks course",
         "type": "commercial",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 10,
+        "difficulty": 5,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "https://www.investopedia.com/terms/f/fundamentalanalysis.asp",
+        "retrieved_at": "2026-10-12",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "how to learn fundamental analysis of stocks",
         "type": "problem",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 10,
+        "difficulty": 33,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://yesinvest.in/knowledge-hub/online-share-trading/fundamental-analysis-for-stocks",
+        "retrieved_at": "2026-10-12",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "what is fundamental analysis of stocks",
         "type": "question",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 20,
+        "difficulty": 43,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.investopedia.com/terms/f/fundamentalanalysis.asp",
+        "retrieved_at": "2026-10-12",
+        "tool": "Ubersuggest"
       }
+    ],
+    "serp_top_results": [
+      "https://www.investopedia.com/terms/f/fundamentalanalysis.asp",
+      "https://www.schwab.com/learn/story/investing-basics-fundamental-analysis",
+      "https://www.fidelity.com/learning-center/trading-investing/fundamental-analysis/analyzing-stock-fundamentals",
+      "https://www.home.saxo/learn/guides/trading-strategies/how-and-when-to-use-fundamental-analysis",
+      "https://daloopa.com/blog/analyst-best-practices/types-of-fundamental-analysis"
     ]
   },
   "sources": [
     {
-      "url": "",
-      "title": "",
-      "publisher": "",
-      "source_type": "",
-      "year": "",
-      "published_at": "",
-      "accessed_at": "",
-      "scope": "",
-      "method": "",
-      "limitations": "",
-      "verified": false
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+      "title": "Microsoft Corporation Form 10-K, fiscal year ended June 30, 2026",
+      "publisher": "Microsoft Corporation (SEC EDGAR)",
+      "source_type": "Company filing",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-12",
+      "scope": "Annual audited results",
+      "method": "Audited financial statements",
+      "limitations": "Company-reported; GAAP net income includes investment gains",
+      "verified": true,
+      "verification_note": "Revenue $331.8B, operating income $155.2B, net income $133.7B, and the OpenAI effect confirmed via Microsoft FY2026 Q4 release and filing summaries on 2026-10-12. FY2024 and FY2025 rows match previously reported results."
+    },
+    {
+      "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide",
+      "title": "Beginner's Guide to Financial Statements",
+      "publisher": "U.S. Securities and Exchange Commission",
+      "source_type": "Government publication",
+      "year": "not applicable",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-12",
+      "scope": "Investor education on financial statements",
+      "method": "Regulator guidance",
+      "limitations": "General education",
+      "verified": true
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/investor/sec-filings",
+      "title": "SEC Filings",
+      "publisher": "Microsoft Investor Relations",
+      "source_type": "Company page",
+      "year": "not applicable",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-12",
+      "scope": "Index of filings",
+      "method": "Company listing",
+      "limitations": "Navigation page only",
+      "verified": true
+    },
+    {
+      "url": "https://www.cfainstitute.org/programs/cfa-program/candidate-resources/practical-skills-modules/analyst-skills",
+      "title": "Analyst Skills",
+      "publisher": "CFA Institute",
+      "source_type": "Professional body",
+      "year": "not applicable",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-12",
+      "scope": "Analyst skills modules",
+      "method": "Curriculum description",
+      "limitations": "Resources link only; no figures cited",
+      "verified": false,
+      "verification_note": "Owner fact-check: resource link only."
     }
   ],
   "statistics": [
     {
-      "claim": "",
-      "source_url": "",
-      "data_year": "",
-      "geography": "",
-      "population": "",
-      "sample": "",
-      "denominator": "",
-      "unit": "",
-      "method": "",
-      "limitations": "",
+      "claim": "Microsoft fiscal 2026 revenue $331.8 billion (up 18%), operating income $155.2 billion (up 21%), net income $133.7 billion (up about 31%).",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Microsoft Corporation",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Audited GAAP results",
+      "limitations": "Net income includes OpenAI investment gains",
       "sponsored": false,
       "partial_year": false,
       "estimate": false,
-      "verified": false
+      "verified": true
+    },
+    {
+      "claim": "OpenAI investment gains raised fiscal 2026 net income by $5.0 billion; OpenAI-related items reduced fiscal 2025 net income by $3.6 billion.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Microsoft Corporation",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Company disclosure in the 10-K",
+      "limitations": "Company-reported effect",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
     }
   ],
   "competitors": [
@@ -196,22 +261,65 @@
     "meta_description": "Learn the fundamentals of stock analysis using financial statements, margins, cash flow, balance-sheet strength, valuation, and a current 2026 company example.",
     "slug": "/markets-stocks/stock-analysis-fundamentals/",
     "search_intent": "Informational",
-    "secondary_keywords": [],
-    "outline": [],
-    "evidence_map": [],
-    "visuals": [],
+    "secondary_keywords": [
+      "fundamental analysis of stocks",
+      "how to do fundamental analysis of stocks",
+      "what is fundamental analysis of stocks"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "Start With the Business Before Starting With the Ratios",
+      "The Three Core Financial Statements Answer Different Questions",
+      "Revenue Growth Needs an Explanation",
+      "Margins Show How Much Revenue Turns Into Profit",
+      "Microsoft Fiscal 2026 Shows How Growth and Margins Work Together",
+      "Cash Flow Tests the Quality of Reported Earnings",
+      "Balance-Sheet Strength Determines Financial Flexibility",
+      "Profitability Ratios Need Industry Context",
+      "Valuation Separates a Good Business From a Good Stock",
+      "Screening Helps Find Candidates, but It Does Not Complete the Analysis",
+      "Risk Analysis Should Be Specific to the Business",
+      "Compare the Company With Its Own History Before Comparing It With Peers",
+      "A Practical Fundamental Analysis Checklist",
+      "Fundamental Analysis Is About Connecting the Numbers",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Microsoft FY2024 to FY2026 revenue, operating income, net income: Microsoft fiscal 2026 Form 10-K",
+      "OpenAI investment effect on net income: Microsoft fiscal 2026 Form 10-K",
+      "Core financial statements: SEC Beginner's Guide to Financial Statements"
+    ],
+    "visuals": [
+      "Grouped bar chart microsoft-revenue-operating-income from data/charts.json",
+      "Hero image research-desk-charts"
+    ],
     "internal_links": [
       "/markets-stocks/stock-screener-metrics-guide/"
     ],
-    "external_link_opportunities": [],
-    "excluded_claims": [],
-    "drafting_cautions": []
+    "external_link_opportunities": [
+      "SEC Beginner's Guide to Financial Statements",
+      "Microsoft fiscal 2026 Form 10-K"
+    ],
+    "excluded_claims": [
+      "No buy, sell, or hold view on Microsoft stock",
+      "No valuation multiple for Microsoft, since share price changes daily"
+    ],
+    "drafting_cautions": [
+      "Net income growth includes OpenAI investment gains; do not attribute it to operations",
+      "Label Microsoft fiscal years, which end June 30"
+    ]
   },
   "claims": [
     {
-      "statement": "",
-      "source_url": "",
-      "verified": false
+      "statement": "Microsoft fiscal 2026 revenue was $331.8 billion and operating income $155.2 billion.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+      "verified": true
+    },
+    {
+      "statement": "The SEC identifies four core financial statements.",
+      "source_url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide",
+      "verified": true
     }
   ],
   "fact_check": {
@@ -223,5 +331,17 @@
     "completed": false,
     "reviewer": "",
     "reviewed_at": ""
+  },
+  "competitor_candidates": [
+    "https://www.investopedia.com/terms/f/fundamentalanalysis.asp",
+    "https://www.schwab.com/learn/story/investing-basics-fundamental-analysis",
+    "https://www.fidelity.com/learning-center/trading-investing/fundamental-analysis/analyzing-stock-fundamentals",
+    "https://www.home.saxo/learn/guides/trading-strategies/how-and-when-to-use-fundamental-analysis",
+    "https://daloopa.com/blog/analyst-best-practices/types-of-fundamental-analysis"
+  ],
+  "verification_log": {
+    "checked_on": "2026-10-12",
+    "summary": "Ubersuggest (United States) keyword and SERP data retrieved 2026-10-12. Microsoft FY2026 figures confirmed. Correction made: the draft credited the faster net income growth to operating leverage; the 10-K attributes much of it to OpenAI investment gains, and the post now says so. Microsoft chart added from the 10-K figures.",
+    "pending": "Five competitor reviews, content gaps, and value-add: the session network policy blocked direct page access, so competitor pages could not be read. Sources marked verified: false need the owner fact-check. Fact-check and QA sign-off."
   }
 }

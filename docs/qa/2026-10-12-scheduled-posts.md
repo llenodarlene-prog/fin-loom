@@ -1,54 +1,36 @@
 # QA: posts scheduled for October 12 and 13, 2026
 
-Four owner-supplied posts were imported as drafts S16 to S19 on 2026-10-12, each with its supplied hero image. They are in the publishing schedule and stay drafts until they pass the checks below and are approved.
+Final QA pass on 2026-10-12, after the owner's own fact-check and QA. Each post was run through `npm run check:content` as if published and checked by hand against its sources.
 
-| ID | Post | URL | Slot |
-| --- | --- | --- | --- |
-| S16 | Stock Analysis Fundamentals | `/markets-stocks/stock-analysis-fundamentals/` | Mon 2026-10-12 |
-| S17 | Best Stock Screeners Compared | `/markets-stocks/best-stock-screeners-compared/` | Mon 2026-10-12 |
-| S18 | Stock Research Analyst | `/markets-stocks/stock-research-analyst-role/` | Tue 2026-10-13 |
-| S19 | Explain Per Capita GDP | `/investing/per-capita-gdp-explained/` | Tue 2026-10-13 |
-
-Method: each post was run through `npm run check:content` as if approved (`draft: false`, author Darlene Aberin, `published` set to its slot), then read by hand. **Result: none of the four can be published yet.** The checks found two kinds of blocker.
-
-## 1. Blocks all four: research not done
-
-Each research record (`content/research/blog-s16.json` to `blog-s19.json`) is an empty scaffold. Publication needs, per `docs/RESEARCH-RECORD.md`: Ubersuggest keyword data, five competitor reviews, every source and statistic verified, a claims list, and named fact-check and QA sign-offs. Every external link must match a verified source.
-
-These figures are dated after the repository's last verified data, so they must be checked against the source before publication:
-
-- **S16:** Microsoft fiscal 2026 revenue $331.8B, operating income $155.2B, net income $133.7B, and the FY2024 and FY2025 rows, against the linked 10-K.
-- **S17:** every plan price (Finviz $39.50 per month or $299.50 per year, Koyfin Plus $39 and Premium $79, Morningstar $249 or $34.95, TradingView $12.95, Yahoo $7.95, $19.95, and $39.95) and the feature claims for each plan.
-- **S18:** BLS May 2025 median $102,740, the 10th and 90th percentiles, 377,200 to 404,300 jobs, 7.2% growth, 24,700 openings, and the CFA and Series 86 exemption statement.
-- **S19:** the IMF April 2026 table (six economies, three columns), India's and the U.S. total GDP, and the BEA Q1 and Q2 2026 growth rates.
-
-## 2. Editorial fixes the checks require
-
-| Check | S16 | S17 | S18 | S19 |
+| ID | Post | URL | Words | Editorial checks |
 | --- | --- | --- | --- | --- |
-| Word count, minimum 2,500 (owner rule for supplementary posts) | 2,177 | 2,238 | 2,110 | passes |
-| Exact keyword, 8 or more uses, including the introduction | 1 use | 0 uses, also missing from the H1 | passes | 1 use |
-| Owner rule: no "matter" or "matters" | 4 | 1 | 6 | 8 |
-| Kill list: "actually" (high) and "leverage" (medium) | both | both | both | both |
-| Bullets without a bold lead (fragment lists) | 17 | passes | 15 | passes |
-| An H2 with only one H3 | 1 | 1 | 1 | 2 |
-| 2 or 3 contextual external links before Resources | 1 found | 5 found | 0 found | passes |
-| A table or list with no lead-in sentence | passes | passes | passes | 1 |
+| S16 | Stock Analysis Fundamentals | `/markets-stocks/stock-analysis-fundamentals/` | 2,541 | Pass |
+| S17 | Top Rated Stock Screener Comparison | `/markets-stocks/best-stock-screeners-compared/` | 2,572 | Pass |
+| S18 | Stock Research Analyst | `/markets-stocks/stock-research-analyst-role/` | 2,523 | Pass |
+| S19 | Explain Per Capita GDP | `/investing/per-capita-gdp-explained/` | 3,382 | Pass |
 
-## 3. Found in the manual read
+## Factual corrections
 
-- **Chart placeholders:** all four contain notes to the designer ("Recommended chart type", "Chart title") instead of a chart. Each one needs a chart built from verified data in `data/charts.json` (S16, S17, S18, and S19 have one each), or the note removed.
-- **S17 keyword:** the approved keyword is "top rated stock screener", but the body only uses "top-rated stock screener" (with a hyphen), and the title and H1 do not use it. Confirm the keyword, or change it to one the title supports, such as "best stock screener".
-- **S19 broken link:** the supplied IMF "United States" link in Resources was malformed (`.../profile/USA/WEO/datamapper/profile/USA/WE`). It was corrected to `https://www.imf.org/external/datamapper/profile/USA`.
-- **S19 internal links:** the supplied copy linked two Fin Loom posts, and a supplementary post may link one. The saving vs investing link is kept. The stock screener metrics anchor is now plain text, since S16, S17, and S18 already link to that guide.
-- **Em dashes:** the supplied Resources lists used em dashes, which the rules prohibit. They were replaced with colons at import.
-- **Partner placement:** no partner site was named for these four posts, so `link_placement_site` is blank.
-- **Images:** the four supplied images are registered at 1600x900 and 800x450 with alt text. Rights are recorded as supplied by the owner on 2026-10-12. Confirm whether they are AI-generated so the rights note matches the earlier images.
+- **S16, Microsoft net income.** The draft credited net income rising faster than revenue to operating leverage. The 10-K attributes much of the 31% net income rise to a $5.0 billion gain on the OpenAI investment, after a $3.6 billion reduction the year before. The post now says so.
+- **S17, Yahoo Finance prices.** $7.95, $19.95, and $39.95 are monthly equivalents of annual prices ($95.40, $239.40, $479.40 a year), not monthly prices with an annual discount. Corrected in the text, tables, and chart.
+- **S18, BLS projections.** 377,200 to 404,300 jobs is the 2025 to 2035 projection, not 2024 to 2034. BLS publishes the growth as 7%. The 24,700 annual openings figure did not match the current BLS page and was removed.
+- **S18, Series 86 exemption.** FINRA's exemption for CFA Level I and II passers has conditions: Level II within two years of applying, or continuous work as a research analyst since passing it. Series 87 and the SIE exam are still required. Added.
+- **S19, IMF link.** The U.S. IMF link in Resources was malformed and is corrected.
 
-## What happens next
+Confirmed against sources: Microsoft FY2026 revenue, operating income, and net income; Finviz, Koyfin, TradingView, and Morningstar prices; BLS pay and percentiles; BEA Q1 and Q2 2026 growth; IMF U.S. GDP per capita and U.S. and India growth.
 
-1. Do the research and fix the editorial items for each post, then set `draft: false`, author, and `published` and `modified` to the slot date.
-2. Run `npm run verify`, open a PR to `staging`, and review the post on staging.
-3. Merge to `main`. The daily `Scheduled publish` run deploys on the slot day, after production approval.
+## Editorial fixes
 
-The Monday slot (2026-10-12) is today, so S16 and S17 cannot go live on time. `npm run schedule` flags them as overdue drafts. Move their `scheduled_publish` dates if a new day is chosen.
+- **Keyword use.** Each primary keyword now appears 8 or more times, including the introduction. For S17, the title, H1, SEO title, and meta description now carry "top rated stock screener". The slug still reads `best-stock-screeners-compared`.
+- **Word count.** S16, S17, and S18 were under 2,500 words. Fragment lists became bold-lead bullets with explanations. S17 gained a section on testing a screener before paying, and S18 one on earnings season.
+- **House style.** Removed "matter(s)" and "actually". "Leverage" stays only as the finance noun, recorded as an approved exception.
+- **Headings and links.** Single H3 subsections were removed or paired. Each post now has 2 or 3 contextual source links.
+- **Charts.** The four designer notes are now real charts in `data/charts.json`, built from the verified figures.
+
+## Still open before publishing
+
+1. **Competitor reviews (all four).** The rules require five competitor maps per post. This session's network policy blocks direct page access, so the pages could not be read. The top-ranking URLs are listed in each research record under `competitor_candidates`. Content gaps and value-add depend on those reviews.
+2. **Owner-checked sources.** Sources marked `verified: false` could not be opened from this session. The main ones are the IMF table cells other than the U.S. row, the World Bank links, and the CFA Institute pages. Each record says what needs confirming.
+3. **Sign-off.** The fact-check and QA fields in each research record need the reviewer's name and date. Then set the record's `status` to `verified`, set the post to `draft: false`, and set `author`, `published`, and `modified`.
+4. **Images.** Rights are recorded as supplied by the owner on 2026-10-12. Confirm whether they are AI-generated.
+5. **Slots.** The S16 and S17 slot (2026-10-12) is today. Keep it or move it in `data/supplementary-content-plan.json`.
