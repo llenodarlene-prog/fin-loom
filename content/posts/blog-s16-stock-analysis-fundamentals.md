@@ -73,7 +73,7 @@ Sales can rise because a company sells more units, increases prices, acquires an
 
 ### Organic Growth Is Usually More Informative Than Growth Bought Through Acquisitions
 
-Acquisitions can add revenue immediately, but they may also require debt, stock issuance, integration costs, and future restructuring. Organic growth can provide a clearer view of demand for the existing business. Companies often report organic growth separately in their earnings releases. When they do not, comparing revenue before and after a deal closes gives a rough sense of how much came from the purchase.
+Acquisitions can add revenue immediately, but they may also require debt, stock issuance, integration costs, and future restructuring. Organic growth can provide a clearer view of demand for the existing business. Some companies report organic growth separately in their earnings releases. When one does not, the acquisition notes in its annual report can show how much revenue a deal added.
 
 ### Growth Should Be Compared With the Market
 

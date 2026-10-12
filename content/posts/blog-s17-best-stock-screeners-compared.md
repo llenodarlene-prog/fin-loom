@@ -96,7 +96,7 @@ That reduces the need to move between a screener and a separate research platfor
 
 ### Where Koyfin Is Less Efficient
 
-The depth can be unnecessary for a casual investor whose main need is finding U.S. stocks that meet a handful of simple criteria. In that case, the extra data and dashboard flexibility may not justify the higher subscription cost. The interface also takes longer to learn, so new users may need time before the extra features save effort.
+The depth can be unnecessary for a casual investor whose main need is finding U.S. stocks that meet a handful of simple criteria. In that case, the extra data and dashboard flexibility may not justify the higher subscription cost. With more data and dashboard options to set up, new users may need some time before the extra features save effort.
 
 ## Morningstar Investor Connects Screening With Research
 
@@ -128,7 +128,7 @@ That makes the platform efficient for traders who need to monitor many securitie
 
 ### Where TradingView Is Less Complete
 
-TradingView includes fundamental data, but its defining advantage remains technical analysis. Investors who build detailed financial models or compare long histories of company fundamentals may prefer Koyfin or Morningstar. Its financial statement history and analyst estimate tools are less detailed than those of dedicated research platforms, so long-term investors may need a second source.
+TradingView includes fundamental data, but its defining advantage remains technical analysis. Investors who build detailed financial models or compare long histories of company fundamentals may prefer Koyfin or Morningstar. Long-term investors who want many years of statements and estimates in one research workspace may still pair it with a second tool.
 
 ## Yahoo Finance Is a Practical Starting Point
 
