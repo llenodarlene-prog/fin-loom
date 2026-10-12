@@ -73,11 +73,11 @@ Sales can rise because a company sells more units, increases prices, acquires an
 
 ### Organic Growth Is Usually More Informative Than Growth Bought Through Acquisitions
 
-Acquisitions can add revenue immediately, but they may also require debt, stock issuance, integration costs, and future restructuring. Organic growth can provide a clearer view of demand for the existing business.
+Acquisitions can add revenue immediately, but they may also require debt, stock issuance, integration costs, and future restructuring. Organic growth can provide a clearer view of demand for the existing business. Companies often report organic growth separately in their earnings releases. When they do not, comparing revenue before and after a deal closes gives a rough sense of how much came from the purchase.
 
 ### Growth Should Be Compared With the Market
 
-A company growing 8% can be gaining share in a market growing 2% or losing share in a market growing 15%. Industry context changes the interpretation.
+A company growing 8% can be gaining share in a market growing 2% or losing share in a market growing 15%. Industry context changes the interpretation. Industry reports, competitor filings, and trade data can supply that context. The question is whether the company is outgrowing its market, keeping pace, or falling behind while still reporting growth.
 
 ## Margins Show How Much Revenue Turns Into Profit
 
@@ -137,15 +137,15 @@ The balance sheet helps investors evaluate whether the company has enough cash a
 
 ### Cash and Liquidity
 
-Cash and short-term investments can provide resilience, but excess cash should be interpreted relative to debt, operating needs, and capital allocation.
+Cash and short-term investments can provide resilience, but excess cash should be interpreted relative to debt, operating needs, and capital allocation. A large cash balance can fund buybacks or acquisitions, but it can also sit idle. The current ratio and the timing of upcoming obligations show whether liquidity is comfortable or tight.
 
 ### Debt
 
-Debt can increase returns when business conditions are strong, but interest and principal obligations remain during downturns. Investors should examine the maturity schedule, interest cost, and whether cash flow comfortably covers obligations.
+Debt can increase returns when business conditions are strong, but interest and principal obligations remain during downturns. Investors should examine the maturity schedule, interest cost, and whether cash flow comfortably covers obligations. Rising debt is not always a warning sign if it funds profitable growth. The concern grows when borrowing climbs faster than the cash flow that must repay it.
 
 ### Working Capital
 
-Receivables, inventory, and payables can reveal changes in operating conditions. Rapid inventory growth can reflect preparation for demand or products that are not selling as expected.
+Receivables, inventory, and payables can reveal changes in operating conditions. Rapid inventory growth can reflect preparation for demand or products that are not selling as expected. Receivables that grow faster than sales can mean customers are paying more slowly. Comparing these items with revenue over several quarters helps separate normal seasonal swings from a real change.
 
 ## Profitability Ratios Need Industry Context
 
@@ -172,15 +172,15 @@ A rapidly growing company can still produce poor investment returns if the stock
 
 ### Price-to-Earnings
 
-P/E is easy to understand and widely used, but it is less useful for loss-making companies, highly cyclical businesses, or companies whose accounting earnings differ substantially from cash flow.
+P/E is easy to understand and widely used, but it is less useful for loss-making companies, highly cyclical businesses, or companies whose accounting earnings differ substantially from cash flow. A P/E ratio also depends on which earnings are used. Trailing earnings reflect the past year, while forward earnings rely on estimates that may change.
 
 ### Enterprise Value Multiples
 
-Enterprise value incorporates equity value and net debt, making ratios such as EV/EBITDA or EV/sales useful when capital structures differ.
+Enterprise value incorporates equity value and net debt, making ratios such as EV/EBITDA or EV/sales useful when capital structures differ. Two companies with the same share price multiple can look very different once debt is included. A heavily indebted company may seem cheap on P/E while its enterprise value multiple tells a fuller story.
 
 ### Discounted Cash Flow
 
-A DCF estimates the present value of future cash flows. It forces the investor to state assumptions about growth, margins, reinvestment, and the discount rate, but the result can be highly sensitive to those assumptions.
+A DCF estimates the present value of future cash flows. It forces the investor to state assumptions about growth, margins, reinvestment, and the discount rate, but the result can be highly sensitive to those assumptions. Small changes in the discount rate or long-term growth rate can move the result a great deal. Testing a range of assumptions shows how much confidence the estimate deserves.
 
 ## Screening Helps Find Candidates, but It Does Not Complete the Analysis
 
@@ -229,35 +229,35 @@ A repeatable process built on stock analysis fundamentals reduces the risk of ju
 
 ### Step 1: Understand the Business
 
-Identify the products, customers, markets, pricing model, competitors, and sources of competitive advantage.
+Identify the products, customers, markets, pricing model, competitors, and sources of competitive advantage. A clear one-paragraph description of how the company earns money is a useful test. If that paragraph is hard to write, the financial statements will be harder to interpret in later steps.
 
 ### Step 2: Read the Financial Statements
 
-Review several years of revenue, margins, earnings, cash flow, debt, and share count.
+Review several years of revenue, margins, earnings, cash flow, debt, and share count. Three to five years of history shows trends that a single year can hide. Reading the notes alongside the main statements explains one-time items, accounting changes, and segment results.
 
 ### Step 3: Identify the Economic Drivers
 
-Determine what really moves the business: users, units, pricing, utilization, subscriptions, commodity prices, interest rates, or another operating variable.
+Determine what really moves the business: users, units, pricing, utilization, subscriptions, commodity prices, interest rates, or another operating variable. Most businesses depend on a small number of these drivers. Naming them early keeps the later forecast tied to things that can be observed and checked.
 
 ### Step 4: Compare Historical Trends
 
-Look for changes in growth, profitability, leverage, cash conversion, and reinvestment.
+Look for changes in growth, profitability, leverage, cash conversion, and reinvestment. The aim is to see direction as well as level. A margin that has fallen for three straight years tells a different story from one that dipped once and recovered.
 
 ### Step 5: Compare With Competitors
 
-Use appropriate peers to understand whether the company is gaining or losing relative strength.
+Use appropriate peers to understand whether the company is gaining or losing relative strength. Good peers sell similar products to similar customers. Comparing margins, growth, and returns with those companies shows whether results reflect the business itself or conditions across the whole industry.
 
 ### Step 6: Estimate Future Results
 
-Build assumptions for revenue, margins, cash flow, and capital needs rather than simply extrapolating historical percentages.
+Build assumptions for revenue, margins, cash flow, and capital needs rather than simply extrapolating historical percentages. Each assumption should connect to a driver identified earlier. Writing a base case, a weaker case, and a stronger case keeps the forecast honest about uncertainty.
 
 ### Step 7: Estimate Value
 
-Use valuation methods suited to the business and test how sensitive the result is to assumptions.
+Use valuation methods suited to the business and test how sensitive the result is to assumptions. Comparing the estimate with the current share price shows what the market already expects. A wide range of possible values is a sign to be cautious about any single number.
 
 ### Step 8: Define What Would Prove the Thesis Wrong
 
-Write down the operating or financial developments that would invalidate the investment case.
+Write down the operating or financial developments that would invalidate the investment case. Examples include a margin falling below a set level or a key customer leaving. Recording these signals in advance makes it easier to review the case calmly when new results arrive.
 
 ## Fundamental Analysis Is About Connecting the Numbers
 

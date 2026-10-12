@@ -100,15 +100,15 @@ Analysts use them together rather than treating earnings as a complete picture.
 
 ### Income Statements Show Profitability
 
-The income statement tracks revenue, expenses, and profit over a period. Analysts use it to study growth, margins, operating leverage, taxes, and earnings per share.
+The income statement tracks revenue, expenses, and profit over a period. Analysts use it to study growth, margins, operating leverage, taxes, and earnings per share. Comparing several years shows whether profit is growing with revenue or lagging behind it. Analysts also separate one-time items from recurring results before drawing conclusions.
 
 ### Balance Sheets Show Financial Position
 
-The balance sheet shows assets, liabilities, and shareholder equity at a point in time. It helps analysts assess liquidity, leverage, capital intensity, and financial flexibility.
+The balance sheet shows assets, liabilities, and shareholder equity at a point in time. It helps analysts assess liquidity, leverage, capital intensity, and financial flexibility. Because it is a snapshot, analysts compare balance sheets across several dates. Changes in debt, cash, and inventory often explain what the income statement alone cannot.
 
 ### Cash Flow Statements Test Earnings Quality
 
-Cash flow statements show how cash moves through operating, investing, and financing activities. Strong accounting earnings with weak cash generation can signal working-capital pressure, heavy investment needs, or aggressive accounting assumptions.
+Cash flow statements show how cash moves through operating, investing, and financing activities. Strong accounting earnings with weak cash generation can signal working-capital pressure, heavy investment needs, or aggressive accounting assumptions. Analysts often compare operating cash flow with net income over several years to see whether the two move together.
 
 ## Analysts Convert Historical Data Into Forecasts
 
@@ -160,19 +160,19 @@ Those technical skills sit alongside communication. An analyst can build an exce
 
 ### Accounting and Financial Statement Analysis
 
-Analysts need to understand how reported results are constructed, where management judgment enters the accounts, and which metrics vary across industries.
+Analysts need to understand how reported results are constructed, where management judgment enters the accounts, and which metrics vary across industries. Revenue recognition, depreciation, and one-time charges are common places where judgment shapes the reported numbers. Knowing these areas helps an analyst adjust results so companies can be compared on a fair basis.
 
 ### Financial Modeling
 
-Models translate assumptions into revenue, earnings, cash flow, and valuation. The goal is not complexity for its own sake. A useful model makes the investment thesis easier to test.
+Models translate assumptions into revenue, earnings, cash flow, and valuation. The goal is not complexity for its own sake. A useful model makes the investment thesis easier to test. Good models are easy for a colleague to follow and quick to update when a new quarter is reported.
 
 ### Industry Knowledge
 
-Coverage improves when analysts understand how customers buy, what drives pricing, which competitors pose a threat, and where regulation or technology can reshape the market.
+Coverage improves when analysts understand how customers buy, what drives pricing, which competitors pose a threat, and where regulation or technology can reshape the market. Many analysts build this knowledge over years of covering the same sector. Talking with customers, suppliers, and industry experts adds detail that reported financials cannot provide.
 
 ### Written Communication
 
-Research has to be read. Clear writing helps distinguish the thesis, supporting evidence, catalysts, valuation, and risks without burying the conclusion in detail.
+Research has to be read. Clear writing helps distinguish the thesis, supporting evidence, catalysts, valuation, and risks without burying the conclusion in detail. Portfolio managers and clients often read many reports a day. A clear summary at the top, followed by the evidence, helps a busy reader understand the view and its risks quickly.
 
 ## Current U.S. Pay and Employment Data
 
@@ -221,7 +221,7 @@ Earnings season compresses the job into a few weeks. Most covered companies repo
 
 ### Before the Report
 
-The analyst reviews the existing forecast, notes what the market seems to expect, and lists the questions that would change the view. Preparing in advance makes it easier to react to the numbers rather than to the headline.
+The analyst reviews the existing forecast, notes what the market seems to expect, and lists the questions that would change the view. Preparing in advance makes it easier to react to the numbers rather than to the headline. Some analysts also review what competitors have recently reported for clues about the quarter.
 
 ### After the Report
 

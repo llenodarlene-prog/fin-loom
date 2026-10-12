@@ -83,7 +83,7 @@ This line covers advertising on Google Search and on other properties Google own
 
 This line covers advertising sold across YouTube. It excludes YouTube subscriptions, which Alphabet reports within Subscriptions, Platforms and Devices.
 
-That split is important when reading the figures. YouTube's total revenue is larger than its advertising line alone.
+That split is important when reading the figures. YouTube's total revenue is larger than its advertising line alone. Readers comparing YouTube with other ad businesses should use this line only.
 
 ### Google Network
 

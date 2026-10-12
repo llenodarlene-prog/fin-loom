@@ -191,27 +191,27 @@ Several important parts of economic and social well-being require different meas
 
 ### Income Distribution
 
-GDP per capita does not reveal whether growth is broadly shared. Economies with similar output per person can have very different median incomes, poverty rates, and concentrations of income or wealth.
+GDP per capita does not reveal whether growth is broadly shared. Economies with similar output per person can have very different median incomes, poverty rates, and concentrations of income or wealth. Measures such as median household income, the Gini coefficient, and income shares by group fill that gap. Read together with GDP per capita, they show both how much is produced and who receives it.
 
 ### Unpaid Work
 
-Unpaid caregiving, household work, and volunteer activity can create substantial economic value without appearing in GDP in the same way as paid market services.
+Unpaid caregiving, household work, and volunteer activity can create substantial economic value without appearing in GDP in the same way as paid market services. Some statistical agencies publish satellite accounts that estimate the value of household production. These estimates sit outside headline GDP but can change how economies with different working patterns compare.
 
 ### Health and Education
 
-Higher-output economies may have more resources available for health and education, but GDP per capita does not directly measure life expectancy, access to care, educational attainment, or learning outcomes.
+Higher-output economies may have more resources available for health and education, but GDP per capita does not directly measure life expectancy, access to care, educational attainment, or learning outcomes. Indicators such as life expectancy, school enrolment, and test scores fill this gap. Some international indices combine them with income to give a broader view of development.
 
 ### Environmental Costs
 
-Production can increase while pollution, resource depletion, or other environmental costs also rise. Traditional GDP does not subtract every deterioration in environmental quality from measured output.
+Production can increase while pollution, resource depletion, or other environmental costs also rise. Traditional GDP does not subtract every deterioration in environmental quality from measured output. Some agencies publish environmental accounts or adjusted measures that try to reflect resource use. These remain separate from headline GDP and are less widely reported.
 
 ### Leisure and Working Time
 
-Two countries can produce similar output per person while their residents work very different numbers of hours. GDP per capita does not show how much leisure was sacrificed to generate that production.
+Two countries can produce similar output per person while their residents work very different numbers of hours. GDP per capita does not show how much leisure was sacrificed to generate that production. Output per hour worked is one way to account for this. It shows how productive each hour is, which can differ from output per person when working hours vary widely.
 
 ### Household Consumption
 
-GDP includes investment, government activity, and net exports as well as household consumption. For questions about material living standards, household disposable income and actual individual consumption can provide a closer view of what people can use and spend.
+GDP includes investment, government activity, and net exports as well as household consumption. For questions about material living standards, household disposable income and actual individual consumption can provide a closer view of what people can use and spend. A large share of output going to investment can raise future growth while leaving current consumption lower.
 
 ## Which Measures Should Be Used Alongside GDP Per Capita?
 
