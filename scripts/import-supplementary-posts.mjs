@@ -84,8 +84,6 @@ for (const [folder, site] of Object.entries(folders)) {
     const { text, folded } = foldFragmentLists(body);
     body = text
       .replace(/^- \*\*([^*]+):\*\*/gm, (match, lead) => `- **${lead.split(' ').map((word, i) => i > 0 && small.has(word.toLowerCase()) ? word.toLowerCase() : word[0].toUpperCase() + word.slice(1)).join(' ')}:**`)
-      .replace(/^(## Key Takeaways)\n\n(- \*\*)/m, '$1\n\nThe main points are summarized below.\n\n$2')
-      .replace(/^(## Frequently Asked Questions)\n\n(### )/m, '$1\n\nShort answers to the questions readers ask most often.\n\n$2')
       .replace(/^- ([^\[\n][^\n]*?):? (https?:\/\/\S+)$/gm, (match, label, url) => `- [${label.replace(/[“”"]/g, '').replace(/[,:]\s*$/, '').trim()}](${url})`);
     const title = body.match(/^# (.+)$/m)[1].trim();
     const leaf = (field('Slug').split('/').filter(Boolean).at(-1) || name.slice(3, -3).replaceAll('_', '-')).toLowerCase();
