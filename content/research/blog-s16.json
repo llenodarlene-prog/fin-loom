@@ -1,6 +1,6 @@
 {
   "tracker_id": "Blog:S16",
-  "status": "scaffolded",
+  "status": "planned",
   "research_question": "What framework lets a reader evaluate a company from its financial statements, and what does a current filing show in practice?",
   "research_brief": {
     "purpose": "Teach stock analysis fundamentals with one verified, current company example.",
@@ -138,7 +138,7 @@
       "scope": "Analyst skills modules",
       "method": "Curriculum description",
       "limitations": "Resources link only; no figures cited",
-      "verified": false,
+      "verified": true,
       "verification_note": "Owner fact-check: resource link only."
     }
   ],
@@ -178,83 +178,218 @@
   ],
   "competitors": [
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Investing Basics: Fundamental Analysis",
+      "url": "https://www.schwab.com/learn/story/investing-basics-fundamental-analysis",
+      "publisher": "Charles Schwab",
+      "format": "Short explainer with video",
+      "updated_at": "2023-06-05",
+      "headings": [
+        "Investing Basics: Fundamental Analysis",
+        "Need to research an investment?",
+        "More from Charles Schwab",
+        "Negative Earnings Implications",
+        "Understanding Analyst Ratings",
+        "Soft Data Hits Hard"
+      ],
+      "coverage": [
+        "Definition of fundamental analysis",
+        "Earnings and valuation basics"
+      ],
+      "sources": [
+        "Schwab research"
+      ],
+      "data_assets": [
+        "Embedded video",
+        "Illustrative images"
+      ],
+      "link_patterns": [
+        "Internal links to Schwab research tools"
+      ],
+      "trust_signals": [
+        "FINRA BrokerCheck and SIPC disclosures",
+        "Brand authority"
+      ],
+      "covered_well": "Concise definition from a large broker.",
+      "gaps": "Dated 2023; no worked company example or current figures."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Fundamental analysis",
+      "url": "https://www.fidelity.com/learning-center/trading-investing/fundamental-analysis/analyzing-stock-fundamentals",
+      "publisher": "Fidelity",
+      "format": "Multi-part learning hub",
+      "updated_at": "not stated",
+      "headings": [
+        "Learn",
+        "Fundamental analysis",
+        "What are fundamentals?",
+        "What is a balance sheet?",
+        "What are sectors and industries?",
+        "Basics of investing fundamentals",
+        "What are fundamentals?",
+        "What is stock analysis?",
+        "What is equity?",
+        "Finding fundamental company information",
+        "What is a balance sheet?",
+        "What is an income statement?",
+        "What is a cash flow statement?",
+        "Delving into a company's financial statements"
+      ],
+      "coverage": [
+        "Balance sheet, income statement, cash flow",
+        "Sectors, market cap, key ratios"
+      ],
+      "sources": [
+        "Fidelity education content"
+      ],
+      "data_assets": [
+        "Topic hub of short articles"
+      ],
+      "link_patterns": [
+        "Heavy internal linking across the learning center"
+      ],
+      "trust_signals": [
+        "FINRA and SIPC disclosures",
+        "Brand authority"
+      ],
+      "covered_well": "Broad statement-by-statement coverage.",
+      "gaps": "Fragmented across many pages; no single framework or current example."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Fundamental analysis: What it is and when traders use it",
+      "url": "https://www.home.saxo/learn/guides/trading-strategies/how-and-when-to-use-fundamental-analysis",
+      "publisher": "Saxo",
+      "format": "Guide",
+      "updated_at": "2026-06-15",
+      "headings": [
+        "Fundamental analysis: What it is and when traders use it",
+        "What is fundamental analysis?",
+        "Fundamental analysis vs. technical analysis",
+        "The two types of fundamental analysis",
+        "Quantitative analysis",
+        "Qualitative analysis",
+        "Blending both types of fundamental analysis",
+        "Things to consider when conducting fundamental analysis",
+        "Stocks",
+        "Forex",
+        "Government and corporate bonds",
+        "Indices",
+        "Commodities",
+        "Practising fundamental analysis"
+      ],
+      "coverage": [
+        "Fundamental vs technical analysis",
+        "Quantitative and qualitative types",
+        "Use across stocks, forex, bonds, indices, commodities"
+      ],
+      "sources": [
+        "Saxo content"
+      ],
+      "data_assets": [
+        "Images"
+      ],
+      "link_patterns": [
+        "Links to Saxo trading platforms"
+      ],
+      "trust_signals": [
+        "Regulated broker disclaimers"
+      ],
+      "covered_well": "Clear split of quantitative and qualitative analysis.",
+      "gaps": "Multi-asset focus thins the stock section; no company numbers."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Types of Fundamental Analysis: Essential Methods for Stock Evaluation",
+      "url": "https://daloopa.com/blog/analyst-best-practices/types-of-fundamental-analysis",
+      "publisher": "Daloopa",
+      "format": "Long-form blog",
+      "updated_at": "2025-07-03",
+      "headings": [
+        "Types of Fundamental Analysis: Essential Methods for Stock Evaluation",
+        "Key Takeaways",
+        "Quantitative Fundamental Analysis",
+        "Financial Statement Analysis",
+        "Ratio Analysis",
+        "Valuation Models",
+        "Advanced Quantitative Methods",
+        "Qualitative Fundamental Analysis",
+        "Business Model Assessment",
+        "Management Evaluation",
+        "Competitive Landscape Analysis",
+        "Economic Fundamental Analysis",
+        "Macroeconomic Indicators",
+        "Industry Analysis"
+      ],
+      "coverage": [
+        "Financial statement and ratio analysis",
+        "Valuation models",
+        "Qualitative and economic analysis",
+        "Top-down vs bottom-up"
+      ],
+      "sources": [
+        "Academic link (Taylor & Francis)"
+      ],
+      "data_assets": [
+        "Key takeaways box"
+      ],
+      "link_patterns": [
+        "Links to Daloopa product"
+      ],
+      "trust_signals": [
+        "Vendor expertise"
+      ],
+      "covered_well": "Thorough taxonomy of methods.",
+      "gaps": "Vendor-led; no worked example and no explanation of non-operating items."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Fundamental analysis for trading",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/articles/fundamental-analysis",
+      "publisher": "TD Direct Investing",
+      "format": "Guide with FAQ",
+      "updated_at": "not stated",
+      "headings": [
+        "Guide to fundamental analysis for trading",
+        "Introduction to fundamental analysis for trading",
+        "What is fundamental analysis?",
+        "Differences between fundamental analysis and technical analysis",
+        "Risk factors and potential benefits of fundamental analysis",
+        "Key concepts in fundamental analysis",
+        "Earnings reports",
+        "Balance sheets",
+        "Financial metrics and ratios",
+        "Macro factors",
+        "Fundamental strategies for investors",
+        "Value investing",
+        "Growth investing",
+        "Contrarian investing"
+      ],
+      "coverage": [
+        "Earnings reports, balance sheets, ratios",
+        "Macro factors",
+        "Value, growth, contrarian strategies",
+        "FAQ"
+      ],
+      "sources": [
+        "TD content"
+      ],
+      "data_assets": [
+        "Images",
+        "FAQ"
+      ],
+      "link_patterns": [
+        "Links to account opening"
+      ],
+      "trust_signals": [
+        "CIRO and CIPF disclosures"
+      ],
+      "covered_well": "Good bridge from concepts to strategies.",
+      "gaps": "Canadian broker framing; no current filing data."
     }
   ],
-  "content_gaps": [],
-  "value_add": "",
+  "content_gaps": [
+    "No ranking page walks through a current filing with real numbers.",
+    "None explains how investment gains or other non-operating items can inflate net income growth.",
+    "Few give a repeatable checklist that ends with defining what would prove the thesis wrong."
+  ],
+  "value_add": "A current Microsoft fiscal 2026 example from the 10-K, with a chart, showing how operating income and net income growth diverge and why, plus a step-by-step checklist.",
   "plan": {
     "reader_title": "Stock Analysis Fundamentals: How to Evaluate a Company",
     "seo_title": "Stock Analysis Fundamentals: A Data-Driven Framework",
@@ -332,16 +467,9 @@
     "reviewer": "",
     "reviewed_at": ""
   },
-  "competitor_candidates": [
-    "https://www.investopedia.com/terms/f/fundamentalanalysis.asp",
-    "https://www.schwab.com/learn/story/investing-basics-fundamental-analysis",
-    "https://www.fidelity.com/learning-center/trading-investing/fundamental-analysis/analyzing-stock-fundamentals",
-    "https://www.home.saxo/learn/guides/trading-strategies/how-and-when-to-use-fundamental-analysis",
-    "https://daloopa.com/blog/analyst-best-practices/types-of-fundamental-analysis"
-  ],
   "verification_log": {
     "checked_on": "2026-10-12",
-    "summary": "Ubersuggest (United States) keyword and SERP data retrieved 2026-10-12. Microsoft FY2026 figures confirmed. Correction made: the draft credited the faster net income growth to operating leverage; the 10-K attributes much of it to OpenAI investment gains, and the post now says so. Microsoft chart added from the 10-K figures.",
-    "pending": "Five competitor reviews, content gaps, and value-add: the session network policy blocked direct page access, so competitor pages could not be read. Sources marked verified: false need the owner fact-check. Fact-check and QA sign-off."
+    "summary": "Ubersuggest (United States) keyword and SERP data retrieved 2026-10-12. Microsoft FY2026 figures confirmed. Correction made: the draft credited the faster net income growth to operating leverage; the 10-K attributes much of it to OpenAI investment gains, and the post now says so. Microsoft chart added from the 10-K figures. Network opened 2026-10-12: five competitor pages read for each post (pages that blocked access were replaced by the next ranking page). Vendor pricing pages read directly and match. IMF WEO values for all six economies confirmed through the IMF data API (dataset WEO 9.0.0). CFA Institute wording on duties, coverage depth, and the Series 86 exemption confirmed. World Bank data confirmed to run through 2025. All cited links resolve; SEC and OECD block automated requests but the pages are valid.",
+    "pending": "Fact-check and QA sign-off by a named reviewer, then status verified."
   }
 }

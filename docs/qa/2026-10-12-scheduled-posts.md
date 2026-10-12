@@ -27,10 +27,15 @@ Confirmed against sources: Microsoft FY2026 revenue, operating income, and net i
 - **Headings and links.** Single H3 subsections were removed or paired. Each post now has 2 or 3 contextual source links.
 - **Charts.** The four designer notes are now real charts in `data/charts.json`, built from the verified figures.
 
+## Research completed after network access opened
+
+- **Competitor reviews:** Five pages were read for each post, with headings, sources, data assets, link patterns, trust signals, and gaps recorded. Pages that block automated access (Investopedia, Indeed, MarketWatch, and others) were replaced by the next ranking page.
+- **Sources:** Every cited source is now confirmed. Vendor pricing pages match the post. All 24 IMF cells in the S19 table match the IMF's World Economic Outlook data API. CFA Institute wording and World Bank coverage through 2025 are confirmed.
+- **Status:** All four research records are at `planned`, so research and plan are complete.
+
 ## Still open before publishing
 
-1. **Competitor reviews (all four).** The rules require five competitor maps per post. This session's network policy blocks direct page access, so the pages could not be read. The top-ranking URLs are listed in each research record under `competitor_candidates`. Content gaps and value-add depend on those reviews.
-2. **Owner-checked sources.** Sources marked `verified: false` could not be opened from this session. The main ones are the IMF table cells other than the U.S. row, the World Bank links, and the CFA Institute pages. Each record says what needs confirming.
-3. **Sign-off.** The fact-check and QA fields in each research record need the reviewer's name and date. Then set the record's `status` to `verified`, set the post to `draft: false`, and set `author`, `published`, and `modified`.
-4. **Images.** Rights are recorded as supplied by the owner on 2026-10-12. Confirm whether they are AI-generated.
-5. **Slots.** The S16 and S17 slot (2026-10-12) is today. Keep it or move it in `data/supplementary-content-plan.json`.
+1. **Sign-off:** Each research record needs a named fact-check and QA sign-off with a date, and then status `verified`.
+2. **Publish fields:** Each post needs `draft: false`, `author`, and `published` and `modified` set to its slot.
+3. **Images:** Confirm whether the four supplied images are AI-generated.
+4. **Slots:** S16 and S17 are slotted for today, 2026-10-12.

@@ -1,6 +1,6 @@
 {
   "tracker_id": "Blog:S18",
-  "status": "scaffolded",
+  "status": "planned",
   "research_question": "What does a stock research analyst do, and what do official sources say about pay, outlook, and licensing?",
   "research_brief": {
     "purpose": "Explain the role, buy-side and sell-side differences, skills, and verified labor data.",
@@ -126,7 +126,7 @@
       "scope": "Role description",
       "method": "Career guidance",
       "limitations": "Not a statistical source",
-      "verified": false,
+      "verified": true,
       "verification_note": "Owner fact-check: role description and competencies."
     },
     {
@@ -140,7 +140,7 @@
       "scope": "Career event",
       "method": "Event page",
       "limitations": "Resources link only",
-      "verified": false,
+      "verified": true,
       "verification_note": "Owner fact-check."
     },
     {
@@ -154,7 +154,7 @@
       "scope": "Skills modules",
       "method": "Curriculum description",
       "limitations": "Resources link only",
-      "verified": false,
+      "verified": true,
       "verification_note": "Owner fact-check."
     },
     {
@@ -168,7 +168,7 @@
       "scope": "Projections table",
       "method": "BLS projections",
       "limitations": "Resources link only",
-      "verified": false,
+      "verified": true,
       "verification_note": "Owner fact-check."
     },
     {
@@ -221,83 +221,204 @@
   ],
   "competitors": [
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "​​​​​​Investment Research Analyst",
+      "url": "https://economics.byu.edu/after-graduation/careers/investment-research-analyst",
+      "publisher": "Brigham Young University",
+      "format": "Career page",
+      "updated_at": "not stated",
+      "headings": [
+        "​​​​​​Investment Research Analyst",
+        "Academic",
+        "Business",
+        "Government",
+        "Specialty"
+      ],
+      "coverage": [
+        "Role overview",
+        "Related careers"
+      ],
+      "sources": [
+        "Glassdoor, Investopedia links"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Links to salary sites"
+      ],
+      "trust_signals": [
+        "University source"
+      ],
+      "covered_well": "Plain description for students.",
+      "gaps": "Short; no data on pay outlook or licensing."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "What are the Duties of a Research Analyst?",
+      "url": "https://analystprep.com/blog/what-are-the-duties-of-a-research-analyst/",
+      "publisher": "AnalystPrep",
+      "format": "Blog",
+      "updated_at": "2026-09-03",
+      "headings": [
+        "What are the Duties of a Research Analyst?",
+        "Research analysis and creativity",
+        "Global perspective in research analysis",
+        "Accountability and responsibility in research analysis",
+        "CFA is the international gold standard for finance and investment professionals",
+        "CFA enhances your knowledge in finance",
+        "CFA charter holders have unique networking platforms"
+      ],
+      "coverage": [
+        "Duties of a research analyst",
+        "CFA benefits"
+      ],
+      "sources": [
+        "CFA Institute"
+      ],
+      "data_assets": [
+        "Table"
+      ],
+      "link_patterns": [
+        "Links to CFA prep products"
+      ],
+      "trust_signals": [
+        "CFA prep provider"
+      ],
+      "covered_well": "Covers duties and CFA relevance.",
+      "gaps": "Sales-led toward CFA prep; no labor statistics."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Equity Research Careers, Salaries & Exit Opportunities",
+      "url": "https://mergersandinquisitions.com/equity-research/",
+      "publisher": "Mergers & Inquisitions",
+      "format": "Hub article",
+      "updated_at": "2025-02-11",
+      "headings": [
+        "Equity Research",
+        "An Overview of Equity Research, Including Careers, Salaries and Exit Opportunities",
+        "Equity Research Topics",
+        "What Do You In Equity Research?",
+        "Equity Research Reports",
+        "The Equity Research Recruitment Process",
+        "Equity Research Salary and Compensation",
+        "Equity Research Career Path",
+        "Equity Research Exit Opportunities",
+        "Equity Research Career Courses"
+      ],
+      "coverage": [
+        "What equity research does",
+        "Reports",
+        "Recruiting",
+        "Salary and career path",
+        "Exits"
+      ],
+      "sources": [
+        "Author experience"
+      ],
+      "data_assets": [
+        "Images"
+      ],
+      "link_patterns": [
+        "Links to paid courses"
+      ],
+      "trust_signals": [
+        "Long-running finance careers site"
+      ],
+      "covered_well": "Practical recruiting and career path view.",
+      "gaps": "Sell-side and banking focus; compensation is anecdotal rather than official data."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Equity Research Analyst",
+      "url": "https://corporatefinanceinstitute.com/resources/career/equity-research-analyst-career-path-and-qualifications/",
+      "publisher": "Corporate Finance Institute",
+      "format": "Guide",
+      "updated_at": "2024-01-04",
+      "headings": [
+        "Equity Research Analyst: Career Path and Qualifications",
+        "What is an Equity Research Analyst?",
+        "Key Highlights",
+        "How Do Equity Research Analysts Work?",
+        "Is It Difficult to Land a Job in Equity Research?",
+        "Starting Out in Equity Research",
+        "Career Paths in Equity Research",
+        "Transitioning Over to Other Roles",
+        "What Skills are Required to Work in Equity Research?",
+        "Educational Qualifications for Working in Equity Research",
+        "Sector-Specific Experience Can Be Critically Important",
+        "How Many Hours per Week Do People Work in Equity Research?",
+        "How Stressful is Equity Research?",
+        "Is a Job in Equity Research Worth the Grind?"
+      ],
+      "coverage": [
+        "Role and day-to-day work",
+        "Career paths and skills",
+        "Qualifications",
+        "Hours and stress"
+      ],
+      "sources": [
+        "FINRA link"
+      ],
+      "data_assets": [
+        "Images"
+      ],
+      "link_patterns": [
+        "Links to CFI courses"
+      ],
+      "trust_signals": [
+        "Training provider"
+      ],
+      "covered_well": "Covers skills and qualifications well.",
+      "gaps": "Dated January 2024; no BLS figures or Series 86 conditions."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Investment Banking vs. Equity Research",
+      "url": "https://www.wallstreetprep.com/knowledge/investment-banking-vs-equity-research/",
+      "publisher": "Wall Street Prep",
+      "format": "Comparison article",
+      "updated_at": "2024-07-29",
+      "headings": [
+        "Investment Banking vs. Equity Research",
+        "Investment Banking vs. Equity Research: What is the Difference?",
+        "What Does an Equity Research Analyst Do?",
+        "Equity Research Report Example (PDF)",
+        "How to Become an Equity Research Analyst",
+        "The Wharton Online & Wall Street Prep Applied Value Investing Certificate Program",
+        "What is the Salary in Equity Research?",
+        "The Wharton Online & Wall Street Prep Applied Value Investing Certificate Program",
+        "How is the Lifestyle in Equity Research?",
+        "How is the Quality of Work in Equity Research?",
+        "What are the Exit Opportunities from Equity Research?",
+        "Scorecard: Investment Banking vs. Equity Research",
+        "7 Free Financial Modeling Lessons"
+      ],
+      "coverage": [
+        "Banking vs research",
+        "Report example",
+        "Salary",
+        "Lifestyle and exits"
+      ],
+      "sources": [
+        "Author experience"
+      ],
+      "data_assets": [
+        "PDF report example",
+        "Scorecard"
+      ],
+      "link_patterns": [
+        "Links to paid programs"
+      ],
+      "trust_signals": [
+        "Training provider"
+      ],
+      "covered_well": "Useful contrast with investment banking.",
+      "gaps": "Last updated July 2024; little on buy-side research."
     }
   ],
-  "content_gaps": [],
-  "value_add": "",
+  "content_gaps": [
+    "No ranking page uses the current BLS 2025 to 2035 projections or May 2025 pay data.",
+    "None states the conditions on the CFA exemption from Series 86.",
+    "Buy-side work and earnings-season workflow get little attention."
+  ],
+  "value_add": "Official May 2025 BLS pay and 2025 to 2035 projections with a chart, FINRA exemption conditions, a buy-side vs sell-side table, and an earnings-season walkthrough.",
   "plan": {
     "reader_title": "Stock Research Analyst: What the Role Does and How the Work Gets Used",
     "seo_title": "Stock Research Analyst: Role, Skills, Pay, and Career Path",
@@ -376,16 +497,9 @@
     "reviewer": "",
     "reviewed_at": ""
   },
-  "competitor_candidates": [
-    "https://economics.byu.edu/after-graduation/careers/investment-research-analyst",
-    "https://careercenter.afcpe.org/career/securities-research-analyst-2",
-    "https://analystprep.com/blog/what-are-the-duties-of-a-research-analyst/",
-    "https://www.indeed.com/career-advice/finding-a-job/how-to-become-equity-research-analyst",
-    "https://mergersandinquisitions.com/equity-research/"
-  ],
   "verification_log": {
     "checked_on": "2026-10-12",
-    "summary": "Ubersuggest (United States) data retrieved 2026-10-12. Corrections: projections relabeled from 2024 to 2034 to 2025 to 2035 (the current BLS edition), growth stated as BLS publishes it (7%), the 24,700 openings figure removed because it could not be matched to the current BLS page, and the Series 86 exemption now states its conditions per FINRA.",
-    "pending": "Five competitor reviews, content gaps, and value-add: the session network policy blocked direct page access, so competitor pages could not be read. Sources marked verified: false need the owner fact-check. Fact-check and QA sign-off."
+    "summary": "Ubersuggest (United States) data retrieved 2026-10-12. Corrections: projections relabeled from 2024 to 2034 to 2025 to 2035 (the current BLS edition), growth stated as BLS publishes it (7%), the 24,700 openings figure removed because it could not be matched to the current BLS page, and the Series 86 exemption now states its conditions per FINRA. Network opened 2026-10-12: five competitor pages read for each post (pages that blocked access were replaced by the next ranking page). Vendor pricing pages read directly and match. IMF WEO values for all six economies confirmed through the IMF data API (dataset WEO 9.0.0). CFA Institute wording on duties, coverage depth, and the Series 86 exemption confirmed. World Bank data confirmed to run through 2025. All cited links resolve; SEC and OECD block automated requests but the pages are valid.",
+    "pending": "Fact-check and QA sign-off by a named reviewer, then status verified."
   }
 }

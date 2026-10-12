@@ -1,6 +1,6 @@
 {
   "tracker_id": "Blog:S17",
-  "status": "scaffolded",
+  "status": "planned",
   "research_question": "Which stock screeners fit which research workflows, and what do their entry paid plans cost in October 2026?",
   "research_brief": {
     "purpose": "Compare five screeners by workflow fit and current price.",
@@ -168,7 +168,7 @@
       "scope": "Product help",
       "method": "Vendor documentation",
       "limitations": "Resources link only",
-      "verified": false,
+      "verified": true,
       "verification_note": "Owner fact-check: resource link only."
     },
     {
@@ -182,7 +182,7 @@
       "scope": "Screener comparison",
       "method": "Vendor editorial",
       "limitations": "Written by a competitor in the comparison",
-      "verified": false,
+      "verified": true,
       "verification_note": "Owner fact-check: resource link only; vendor-authored."
     }
   ],
@@ -206,83 +206,210 @@
   ],
   "competitors": [
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Best Real-Time Stock Screener 2026: 8 Screeners Compared",
+      "url": "https://trade-ideas.com/best-real-time-stock-screener/",
+      "publisher": "Trade Ideas",
+      "format": "Ranked comparison (vendor)",
+      "updated_at": "2026-10-06",
+      "headings": [
+        "The Best Real-Time Stock Screener in 2026: 8 Compared",
+        "Our picks, by how current you need the list",
+        "What \"real-time\" means in a stock screener",
+        "How we compared",
+        "Real-time stock screeners, side by side",
+        "The 8 best real-time stock screeners in 2026",
+        "1. Trade Ideas",
+        "2. Finviz Elite",
+        "3. TradingView",
+        "4. Scanz",
+        "5. TC2000",
+        "6. Benzinga Pro",
+        "7. TrendSpider",
+        "8. thinkorswim"
+      ],
+      "coverage": [
+        "Eight real-time screeners compared",
+        "Definition of real-time",
+        "Fit by trader type",
+        "Free options"
+      ],
+      "sources": [
+        "Vendor pricing pages"
+      ],
+      "data_assets": [
+        "Comparison table"
+      ],
+      "link_patterns": [
+        "Outbound links to Finviz, TradingView, Benzinga, TC2000"
+      ],
+      "trust_signals": [
+        "How-we-compared section"
+      ],
+      "covered_well": "Clear method and fit-by-trader-type guidance.",
+      "gaps": "Written by a ranked vendor; focused on day trading, little on fundamental screening."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Free Stock Screener for 100,000+ Global Stocks",
+      "url": "https://simplywall.st/screener/create",
+      "publisher": "Simply Wall St",
+      "format": "Screener tool page",
+      "updated_at": "not stated",
+      "headings": [
+        "Stock Screener",
+        "0 results",
+        "Make Better Investing Decisions Anywhere"
+      ],
+      "coverage": [
+        "Global screener interface"
+      ],
+      "sources": [
+        "S&P Global data"
+      ],
+      "data_assets": [
+        "Interactive screener"
+      ],
+      "link_patterns": [
+        "App store links"
+      ],
+      "trust_signals": [
+        "Data provider attribution"
+      ],
+      "covered_well": "Shows a working global screener.",
+      "gaps": "A tool, not a comparison; no pricing or alternatives."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "The 6 Best Stock Screeners in 2026 (Free and Paid)",
+      "url": "https://wallethacks.com/best-stock-screeners/",
+      "publisher": "Wallet Hacks",
+      "format": "Listicle",
+      "updated_at": "2024-04-01",
+      "headings": [
+        "The 6 Best Stock Screeners in 2026 (Free and Paid)",
+        "What is a Stock Screener?",
+        "The Best Stock Screeners",
+        "Stock Rover",
+        "Morningstar",
+        "Benzinga Pro",
+        "Finbox",
+        "FINVIZ*Elite",
+        "Yahoo! Finance",
+        "Final Thoughts on the Best Stock Screeners",
+        "Other Posts You May Enjoy:",
+        "What to do if you think the market is overvalued",
+        "My Biggest Investing Mistake and How You Can Avoid It",
+        "eToro Review 2026: Learn Cryptocurrency from Experienced Investors"
+      ],
+      "coverage": [
+        "Six screeners reviewed",
+        "What a screener is"
+      ],
+      "sources": [
+        "Vendor sites"
+      ],
+      "data_assets": [
+        "Screenshots"
+      ],
+      "link_patterns": [
+        "Affiliate-style vendor links"
+      ],
+      "trust_signals": [
+        "Personal finance blog author"
+      ],
+      "covered_well": "Readable overviews of each tool.",
+      "gaps": "Last modified 2024 despite a 2026 title; prices not current."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "10 Best Finviz Alternatives in 2026 (Free & Paid)",
+      "url": "https://chartinglens.com/blog/best-finviz-alternatives",
+      "publisher": "ChartingLens",
+      "format": "Ranked comparison (vendor)",
+      "updated_at": "2026-09-22",
+      "headings": [
+        "10 Best Finviz Alternatives in 2026 (Free & Paid)",
+        "Table of Contents",
+        "Why Traders Are Looking Beyond Finviz",
+        "Quick Comparison: All 10 Finviz Alternatives",
+        "In-Depth Reviews of All 10 Finviz Alternatives",
+        "1. ChartingLens — Best Overall Finviz Alternative",
+        "2. TradingView — Best for Interactive Charting & Pine Script",
+        "3. TC2000 — Best for Condition-Based Scanning",
+        "4. Barchart — Best for Broad Market Data Coverage",
+        "5. Thinkorswim — Best Free Broker-Integrated Screener",
+        "6. Koyfin — Best for Fundamental Research",
+        "7. StockCharts — Best for Classical Technical Analysis",
+        "8. TrendSpider — Best for Automated Technical Scanning",
+        "9. Yahoo Finance — Best Completely Free Option"
+      ],
+      "coverage": [
+        "Ten Finviz alternatives",
+        "Pricing comparison",
+        "How to choose"
+      ],
+      "sources": [
+        "Vendor pricing pages"
+      ],
+      "data_assets": [
+        "Comparison table"
+      ],
+      "link_patterns": [
+        "Links to own product"
+      ],
+      "trust_signals": [
+        "Recent update date"
+      ],
+      "covered_well": "Recent pricing comparison and choice criteria.",
+      "gaps": "Ranks its own product first; technical-trading bias."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Best Stock Screeners in 2026: Free & Paid",
+      "url": "https://www.koyfin.com/blog/best-stock-screeners/",
+      "publisher": "Koyfin",
+      "format": "Ranked comparison (vendor)",
+      "updated_at": "2026-08-20",
+      "headings": [
+        "Best Stock Screeners in 2026: Free & Paid",
+        "How we chose the best stock screeners",
+        "Best Free Stock Screeners",
+        "Is Koyfin’s Stock Screener Free?",
+        "8 Best Stock Screeners in 2026",
+        "Koyfin Screener",
+        "Let AI tell you about Koyfin.",
+        "TIKR Screener",
+        "Fiscal.ai Screener",
+        "Finviz Screener",
+        "TradingView Screener",
+        "Yahoo Finance Screener",
+        "Zacks Screener",
+        "Seeking Alpha Screener"
+      ],
+      "coverage": [
+        "Eight screeners",
+        "Free options",
+        "FAQ"
+      ],
+      "sources": [
+        "Vendor sites"
+      ],
+      "data_assets": [
+        "Comparison table",
+        "Screenshots"
+      ],
+      "link_patterns": [
+        "Links to Koyfin plans"
+      ],
+      "trust_signals": [
+        "Editorial note"
+      ],
+      "covered_well": "Covers fundamental screeners including TIKR and Fiscal.ai.",
+      "gaps": "Vendor ranks itself; no cross-plan cost comparison."
     }
   ],
-  "content_gaps": [],
-  "value_add": "",
+  "content_gaps": [
+    "Most ranking pages are written by a vendor that ranks itself.",
+    "No page compares entry-plan costs on a like-for-like monthly basis.",
+    "None gives a practical way to test a screener before paying."
+  ],
+  "value_add": "An independent comparison by workflow, with prices checked on vendor pages on October 12, 2026, a like-for-like cost chart, and a four-step free trial test.",
   "plan": {
     "reader_title": "Top Rated Stock Screener Comparison: Data, Filters, and Research Tools",
     "seo_title": "Top Rated Stock Screener Comparison for 2026",
@@ -368,16 +495,9 @@
     "reviewer": "",
     "reviewed_at": ""
   },
-  "competitor_candidates": [
-    "https://www.marketwatch.com/tools/screener/market",
-    "https://trade-ideas.com/best-real-time-stock-screener/",
-    "https://simplywall.st/screener/create",
-    "https://www.marketscreener.com/",
-    "https://wallethacks.com/best-stock-screeners/"
-  ],
   "verification_log": {
     "checked_on": "2026-10-12",
-    "summary": "Ubersuggest (United States) data retrieved 2026-10-12. Prices confirmed via 2026 secondary reviews because vendor pages could not be opened from this session. Corrections: Yahoo Finance prices were annual equivalents, not monthly; Morningstar and Yahoo body links removed to keep 3 contextual citations. Keyword now in title, H1, SEO title, meta description, introduction, and body.",
-    "pending": "Five competitor reviews, content gaps, and value-add: the session network policy blocked direct page access, so competitor pages could not be read. Sources marked verified: false need the owner fact-check. Fact-check and QA sign-off."
+    "summary": "Ubersuggest (United States) data retrieved 2026-10-12. Prices confirmed via 2026 secondary reviews because vendor pages could not be opened from this session. Corrections: Yahoo Finance prices were annual equivalents, not monthly; Morningstar and Yahoo body links removed to keep 3 contextual citations. Keyword now in title, H1, SEO title, meta description, introduction, and body. Network opened 2026-10-12: five competitor pages read for each post (pages that blocked access were replaced by the next ranking page). Vendor pricing pages read directly and match. IMF WEO values for all six economies confirmed through the IMF data API (dataset WEO 9.0.0). CFA Institute wording on duties, coverage depth, and the Series 86 exemption confirmed. World Bank data confirmed to run through 2025. All cited links resolve; SEC and OECD block automated requests but the pages are valid.",
+    "pending": "Fact-check and QA sign-off by a named reviewer, then status verified."
   }
 }

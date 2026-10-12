@@ -1,6 +1,6 @@
 {
   "tracker_id": "Blog:S19",
-  "status": "scaffolded",
+  "status": "planned",
   "research_question": "How is GDP per capita calculated, how do nominal, real, and PPP measures differ, and what do current IMF estimates show?",
   "research_brief": {
     "purpose": "Explain per capita GDP, its variants, and its limits with current estimates.",
@@ -126,7 +126,7 @@
       "scope": "Country profile",
       "method": "IMF estimates",
       "limitations": "Estimates",
-      "verified": false,
+      "verified": true,
       "verification_note": "Owner fact-check: $2,810, $12,800, total GDP $4.15T. Growth 6.5% confirmed."
     },
     {
@@ -140,7 +140,7 @@
       "scope": "Country profile",
       "method": "IMF estimates",
       "limitations": "Estimates",
-      "verified": false,
+      "verified": true,
       "verification_note": "Owner fact-check."
     },
     {
@@ -154,7 +154,7 @@
       "scope": "Country profile",
       "method": "IMF estimates",
       "limitations": "Estimates",
-      "verified": false,
+      "verified": true,
       "verification_note": "Owner fact-check. A secondary table shows $67,585 for the UK, matching the PPP column."
     },
     {
@@ -168,7 +168,7 @@
       "scope": "Country profile",
       "method": "IMF estimates",
       "limitations": "Estimates",
-      "verified": false,
+      "verified": true,
       "verification_note": "Owner fact-check."
     },
     {
@@ -182,7 +182,7 @@
       "scope": "Country profile",
       "method": "IMF estimates",
       "limitations": "Estimates",
-      "verified": false,
+      "verified": true,
       "verification_note": "Owner fact-check."
     },
     {
@@ -223,7 +223,7 @@
       "scope": "Indicator",
       "method": "National accounts",
       "limitations": "Resources link only",
-      "verified": false,
+      "verified": true,
       "verification_note": "Owner fact-check: \"observations run through 2025\"."
     },
     {
@@ -237,7 +237,7 @@
       "scope": "Indicator",
       "method": "National accounts",
       "limitations": "Resources link only",
-      "verified": false,
+      "verified": true,
       "verification_note": "Owner fact-check."
     }
   ],
@@ -277,83 +277,185 @@
   ],
   "competitors": [
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Glossary",
+      "url": "https://databank.worldbank.org/metadataglossary/statistical-capacity-indicators/series/5.51.01.10.gdp",
+      "publisher": "World Bank",
+      "format": "Glossary entry",
+      "updated_at": "not stated",
+      "headings": [
+        "DataBank",
+        "Metadata Glossary"
+      ],
+      "coverage": [
+        "Definition of GDP per capita"
+      ],
+      "sources": [
+        "World Bank national accounts"
+      ],
+      "data_assets": [
+        "Metadata table"
+      ],
+      "link_patterns": [
+        "Links to World Bank data"
+      ],
+      "trust_signals": [
+        "Official statistics body"
+      ],
+      "covered_well": "Authoritative definition.",
+      "gaps": "Definition only; no explanation of nominal, real, or PPP, or of limits."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Gross domestic product (GDP) per capita and GDP per capita annual growth rate",
+      "url": "https://www.who.int/data/nutrition/nlis/info/gross-domestic-product-(gdp)-per-capita-and-gdp-per-capita-annual-growth-rate",
+      "publisher": "World Health Organization",
+      "format": "Indicator page",
+      "updated_at": "not stated",
+      "headings": [
+        "Gross domestic product (GDP) per capita and GDP per capita annual growth rate"
+      ],
+      "coverage": [
+        "Definition and growth rate indicator"
+      ],
+      "sources": [
+        "World Bank"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Link to World Bank documents"
+      ],
+      "trust_signals": [
+        "Official body"
+      ],
+      "covered_well": "Short definition tied to a health indicator system.",
+      "gaps": "No comparisons, data, or interpretation."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Quality of life indicator: Gross domestic product (GDP) per capita",
+      "url": "https://www.statcan.gc.ca/hub-carrefour/quality-life-qualite-vie/prosperity-prosperite/gdp-pib-eng.htm",
+      "publisher": "Statistics Canada",
+      "format": "Indicator page",
+      "updated_at": "not stated",
+      "headings": [
+        "Language selection",
+        "Search and menus",
+        "Search",
+        "Topics menu",
+        "Gross domestic product (GDP) per capita",
+        "Domain",
+        "Subdomain",
+        "Indicator",
+        "Definition",
+        "Measurement",
+        "Data sources",
+        "Data tables and analysis",
+        "Frameworks",
+        "Additional information"
+      ],
+      "coverage": [
+        "Definition",
+        "Measurement",
+        "Data sources"
+      ],
+      "sources": [
+        "Statistics Canada data"
+      ],
+      "data_assets": [
+        "Data table"
+      ],
+      "link_patterns": [
+        "Links to Canadian data tables"
+      ],
+      "trust_signals": [
+        "Official statistics body"
+      ],
+      "covered_well": "Clear measurement notes within a quality-of-life framework.",
+      "gaps": "Canada only; no cross-country comparison."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "GDP per Capita Calculator",
+      "url": "https://www.omnicalculator.com/finance/gdp-per-capita",
+      "publisher": "Omni Calculator",
+      "format": "Calculator with explainer",
+      "updated_at": "2018-12-03",
+      "headings": [
+        "GDP per Capita Calculator",
+        "What is GDP per capita? — Formula behind the GDP per capita calculator",
+        "The US GDP per capita vs. the highest GDP per capita in the world",
+        "GDP per capita and inequality",
+        "FAQs",
+        "What is the the GDP per capita of the United States?",
+        "How do I find GDP per capita?",
+        "What is the difference between GDP and GDP per capita?",
+        "What does GDP per capita measure?",
+        "How do I calculate the GDP per capita given a  GDP of 800.6 billion USD?"
+      ],
+      "coverage": [
+        "Formula",
+        "US vs highest GDP per capita",
+        "Inequality",
+        "FAQ"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Interactive calculator",
+        "Table"
+      ],
+      "link_patterns": [
+        "Few outbound links"
+      ],
+      "trust_signals": [
+        "Named authors and reviewers"
+      ],
+      "covered_well": "Good formula walkthrough and FAQ.",
+      "gaps": "No PPP vs nominal comparison with current estimates."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "List of countries by GDP (nominal) per capita",
+      "url": "https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal)_per_capita",
+      "publisher": "Wikipedia",
+      "format": "Data table",
+      "updated_at": "2026-10-07",
+      "headings": [
+        "Contents",
+        "List of countries by GDP (nominal) per capita",
+        "Distorted GDP-per-capita for tax havens",
+        "Table",
+        "See also",
+        "Notes",
+        "References",
+        "External links"
+      ],
+      "coverage": [
+        "Country rankings",
+        "Tax haven distortion"
+      ],
+      "sources": [
+        "IMF, World Bank, UN"
+      ],
+      "data_assets": [
+        "Sortable tables",
+        "Map"
+      ],
+      "link_patterns": [
+        "Links to IMF and World Bank"
+      ],
+      "trust_signals": [
+        "Citations"
+      ],
+      "covered_well": "Comprehensive ranking with sources.",
+      "gaps": "Raw ranking with little explanation of what the measure misses."
     }
   ],
-  "content_gaps": [],
-  "value_add": "",
+  "content_gaps": [
+    "Top results define the measure but rarely compare nominal, real, and PPP side by side with current data.",
+    "Few explain what GDP per capita leaves out, such as distribution, unpaid work, and wealth.",
+    "None connects the measure to how investors should and should not use it."
+  ],
+  "value_add": "Current IMF April 2026 estimates in nominal and PPP terms with a chart, a measure-by-question table, and a section on investor use and limits.",
   "plan": {
     "reader_title": "Explain Per Capita GDP: What It Measures and What It Misses",
     "seo_title": "Explain Per Capita GDP: Meaning, Formula, and Limits",
@@ -432,16 +534,9 @@
     "reviewer": "",
     "reviewed_at": ""
   },
-  "competitor_candidates": [
-    "https://databank.worldbank.org/metadataglossary/statistical-capacity-indicators/series/5.51.01.10.gdp",
-    "https://www.investopedia.com/terms/p/per-capita-gdp.asp",
-    "https://www.who.int/data/nutrition/nlis/info/gross-domestic-product-(gdp)-per-capita-and-gdp-per-capita-annual-growth-rate",
-    "https://study.com/academy/lesson/real-gdp-per-capita-definition-formula-quiz.html",
-    "https://www.focus-economics.com/economic-indicator/gdp-per-capita/"
-  ],
   "verification_log": {
     "checked_on": "2026-10-12",
-    "summary": "Ubersuggest (United States) data retrieved 2026-10-12. BEA and the U.S. and India IMF figures confirmed. Fixes: malformed IMF U.S. link corrected; one internal link and the World Bank body link removed to meet link rules; chart built from the IMF table.",
-    "pending": "Five competitor reviews, content gaps, and value-add: the session network policy blocked direct page access, so competitor pages could not be read. Sources marked verified: false need the owner fact-check. Fact-check and QA sign-off."
+    "summary": "Ubersuggest (United States) data retrieved 2026-10-12. BEA and the U.S. and India IMF figures confirmed. Fixes: malformed IMF U.S. link corrected; one internal link and the World Bank body link removed to meet link rules; chart built from the IMF table. Network opened 2026-10-12: five competitor pages read for each post (pages that blocked access were replaced by the next ranking page). Vendor pricing pages read directly and match. IMF WEO values for all six economies confirmed through the IMF data API (dataset WEO 9.0.0). CFA Institute wording on duties, coverage depth, and the Series 86 exemption confirmed. World Bank data confirmed to run through 2025. All cited links resolve; SEC and OECD block automated requests but the pages are valid.",
+    "pending": "Fact-check and QA sign-off by a named reviewer, then status verified."
   }
 }
