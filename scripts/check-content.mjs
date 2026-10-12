@@ -126,6 +126,11 @@ for (const file of files) {
     const h3Count = (section.match(/^###\s+/gm) || []).length;
     if (h3Count === 1) fail(`${file}: H3 subsections must appear in pairs or groups under ${h2Sections[index][1]}`);
     if (h2Sections[index][1].trim() === 'Frequently Asked Questions' && h3Count < 2) fail(`${file}: FAQ needs at least two H3 questions`);
+    // Owner rule of 2026-10-12: every H3 outside the FAQ carries at least 40 words of content.
+    if (h2Sections[index][1].trim() !== 'Frequently Asked Questions') for (const sub of section.matchAll(/^###\s+(.+)\n([\s\S]*?)(?=^#{2,3}\s|(?![\s\S]))/gm)) {
+      const subWords = sub[2].replace(/```[\s\S]*?```/g, ' ').replace(/[#*_`>\[\]()|]/g, ' ').split(/\s+/).filter(Boolean).length;
+      if (subWords < 40) fail(`${file}: H3 "${sub[1].trim()}" has ${subWords} words; each H3 section needs at least 40`);
+    }
   }
   if (expected.type === 'blog' && faqAt >= 0 && resourcesAt > faqAt) {
     const faqSection = body.match(/^##\s+Frequently Asked Questions\s*$([\s\S]*?)(?=^##\s+Resources\s*$)/m)?.[1] || '';

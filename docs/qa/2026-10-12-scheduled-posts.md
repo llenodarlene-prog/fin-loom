@@ -36,3 +36,25 @@ Confirmed against sources: Microsoft FY2026 revenue, operating income, and net i
 ## Sign-off
 
 Fact-check and QA signed off by Darlene Aberin on 2026-10-12. All four research records are `verified`. The posts are approved, with S16 and S17 dated 2026-10-12 and S18 and S19 dated 2026-10-13. The images are recorded as owner-supplied and AI-generated. Production builds show each post only from its date onward.
+
+## H3 expansion QA, 2026-10-12
+
+Owner feedback said some H3 sections were too short. Every H3 outside the FAQ was brought to at least 40 words: S16 (17 sections), S17 (12), S18 (9), S19 (6), and S12 (1). Each added sentence was fact-checked.
+
+- **No new figures.** The additions explain points the posts already make.
+- **Product statements checked against vendor pages.**
+  - Finviz: free maps and filtering; real-time data, alerts, and exports in Elite.
+  - Koyfin Plus: 10 years of financials and estimates.
+  - Yahoo Finance: paid tiers add tools.
+- **Softened.** Three sentences claimed more than a source supports and were reworded:
+  - organic growth reporting
+  - Koyfin's learning curve
+  - TradingView's research depth
+- **General statements.**
+  - Median income and the Gini coefficient are distribution measures.
+  - Satellite accounts for household production exist, as does a composite development index that combines health, education, and income.
+  - Output per hour worked is a productivity measure.
+
+  Each is worded as a general fact, without figures.
+
+All four posts pass every check after the change: S16 at 3,010 words, S17 at 2,864, S18 at 2,715, and S19 at 3,544. Each has 8 or more keyword uses and no em dashes.
