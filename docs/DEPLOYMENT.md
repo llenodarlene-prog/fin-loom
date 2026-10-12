@@ -27,6 +27,14 @@ Staging is always noindex, enforced four ways:
 
 Production deploys only from `main`, through the `production` environment, which requires a reviewer. Its variables are `SITE_URL=https://finloom.org`, `SITE_NAME=Fin Loom`, and `DEPLOY_PORT=65002`; its secrets are the deploy host, user, root, SSH key, and pinned host key. The deploy script refuses to upload a production build into a staging document root. The production document root is the parent of the staging folder, so the production workflow passes `DEPLOY_PRESERVE_DIR=staging` to leave staging in place. Configure the `production` environment (with `SITE_URL=https://finloom.org`) only after staging review.
 
+## Publishing schedule
+
+Each post's planned day is `scheduled_publish` in its content plan record. `npm run schedule` lists every post with its slot and its state: `draft` (not approved), `scheduled` (approved, date not reached), or `live`. It warns when a slot has arrived and the post is still a draft, or when an approved post's `published` date differs from its slot.
+
+To schedule a post, finish its research and QA, set `draft: false`, set `published` and `modified` to the slot date, and merge it through `staging` to `main` ahead of the day. `npm run check:content` validates it in full as soon as `draft` is false, so QA happens before the merge. A production build leaves out any post whose `published` date is later than the build day (UTC), so it stays off every page, listing, sitemap, and feed until then. Staging shows scheduled posts for review.
+
+The `Scheduled publish` workflow runs daily at 00:07 UTC. If an approved post on `main` goes live that day, it calls `Deploy production`, which waits for the `production` environment's reviewer like any other deploy. It can also be started by hand. `PUBLISH_DATE=YYYY-MM-DD` previews a build or `npm run schedule` for another day.
+
 ## Launch policy
 
 `data/release.json` (schema version 2) defines the launch. `npm run release:check` passes when:

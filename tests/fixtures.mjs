@@ -58,8 +58,6 @@ function publishableBody(record, silo) {
   const faq = blog ? `
 ## Frequently Asked Questions
 
-Readers most often ask about scope and timing, so both are answered directly.
-
 ### What Does the Evidence Measure?
 
 It measures the reported result for the stated population and period, and nothing beyond them.
@@ -74,7 +72,7 @@ This ${record.primary_keyword} review explains how to read the available evidenc
 
 ## ${blog ? 'Key Takeaways' : 'Key Statistics and Data'}
 
-The evidence summary uses [primary source one](https://sources.example/one), [primary source two](https://sources.example/two), and [primary source three](https://sources.example/three) near the claims they support.
+${blog ? '- **Evidence Scope:** Each figure is read with its population, period, and method.\n\n' : ''}The evidence summary uses [primary source one](https://sources.example/one), [primary source two](https://sources.example/two), and [primary source three](https://sources.example/three) near the claims they support.
 
 ${keywordLines}
 

@@ -1,0 +1,544 @@
+{
+  "tracker_id": "Blog:S19",
+  "status": "verified",
+  "research_question": "How is GDP per capita calculated, how do nominal, real, and PPP measures differ, and what do current IMF estimates show?",
+  "research_brief": {
+    "purpose": "Explain per capita GDP, its variants, and its limits with current estimates.",
+    "audience": "General readers and investors.",
+    "publication_year": "2026",
+    "data_period": "IMF WEO April 2026 estimates for 2026; BEA Q2 2026 third estimate.",
+    "scope_limitations": "Six economies; estimates subject to revision."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "explain per capita GDP",
+    "intent": "Informational",
+    "serp_checked_at": "2026-10-12",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-12",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "explain per capita gdp",
+        "type": "short-tail",
+        "volume": 6600,
+        "difficulty": 7,
+        "cpc": 3.545,
+        "intent": "Informational",
+        "ranking_url": "https://databank.worldbank.org/metadataglossary/statistical-capacity-indicators/series/5.51.01.10.gdp",
+        "retrieved_at": "2026-10-12",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "how to find real gdp per capita",
+        "type": "long-tail",
+        "volume": 590,
+        "difficulty": 35,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.youtube.com/watch?v=MB1d8mq-yI4",
+        "retrieved_at": "2026-10-12",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "country by gdp per capita ppp",
+        "type": "commercial",
+        "volume": 1000,
+        "difficulty": 49,
+        "cpc": 5.21,
+        "intent": "Informational",
+        "ranking_url": "https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(PPP)_per_capita",
+        "retrieved_at": "2026-10-12",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "gdp per capita how to calculate",
+        "type": "problem",
+        "volume": 590,
+        "difficulty": 37,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.omnicalculator.com/finance/gdp-per-capita",
+        "retrieved_at": "2026-10-12",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is the gdp per capita",
+        "type": "question",
+        "volume": 8100,
+        "difficulty": 8,
+        "cpc": 2.395,
+        "intent": "Informational",
+        "ranking_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD",
+        "retrieved_at": "2026-10-12",
+        "tool": "Ubersuggest"
+      }
+    ],
+    "serp_top_results": [
+      "https://databank.worldbank.org/metadataglossary/statistical-capacity-indicators/series/5.51.01.10.gdp",
+      "https://www.investopedia.com/terms/p/per-capita-gdp.asp",
+      "https://www.who.int/data/nutrition/nlis/info/gross-domestic-product-(gdp)-per-capita-and-gdp-per-capita-annual-growth-rate",
+      "https://study.com/academy/lesson/real-gdp-per-capita-definition-formula-quiz.html",
+      "https://www.focus-economics.com/economic-indicator/gdp-per-capita/"
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.imf.org/external/datamapper/profile/WEOWORLD/WEO",
+      "title": "World Economic Outlook, April 2026 (DataMapper)",
+      "publisher": "International Monetary Fund",
+      "source_type": "International organization statistics",
+      "year": "2026",
+      "published_at": "2026-04-14",
+      "accessed_at": "2026-10-12",
+      "scope": "2026 estimates by economy",
+      "method": "IMF staff estimates",
+      "limitations": "Estimates; revised each edition",
+      "verified": true,
+      "verification_note": "U.S. $94,430 and growth 2.3%, India growth 6.5% confirmed 2026-10-12. Other table cells rely on the owner fact-check."
+    },
+    {
+      "url": "https://www.imf.org/external/datamapper/profile/USA",
+      "title": "IMF DataMapper: United States",
+      "publisher": "International Monetary Fund",
+      "source_type": "International organization statistics",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-12",
+      "scope": "Country profile",
+      "method": "IMF estimates",
+      "limitations": "Estimates",
+      "verified": true,
+      "verification_note": "$94,430 and 2.3% confirmed."
+    },
+    {
+      "url": "https://www.imf.org/external/datamapper/profile/IND",
+      "title": "IMF DataMapper: India",
+      "publisher": "International Monetary Fund",
+      "source_type": "International organization statistics",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-12",
+      "scope": "Country profile",
+      "method": "IMF estimates",
+      "limitations": "Estimates",
+      "verified": true,
+      "verification_note": "Owner fact-check: $2,810, $12,800, total GDP $4.15T. Growth 6.5% confirmed."
+    },
+    {
+      "url": "https://www.imf.org/external/datamapper/profile/AUS",
+      "title": "IMF DataMapper: Australia",
+      "publisher": "International Monetary Fund",
+      "source_type": "International organization statistics",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-12",
+      "scope": "Country profile",
+      "method": "IMF estimates",
+      "limitations": "Estimates",
+      "verified": true,
+      "verification_note": "Owner fact-check."
+    },
+    {
+      "url": "https://www.imf.org/external/datamapper/profile/GBR",
+      "title": "IMF DataMapper: United Kingdom",
+      "publisher": "International Monetary Fund",
+      "source_type": "International organization statistics",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-12",
+      "scope": "Country profile",
+      "method": "IMF estimates",
+      "limitations": "Estimates",
+      "verified": true,
+      "verification_note": "Owner fact-check. A secondary table shows $67,585 for the UK, matching the PPP column."
+    },
+    {
+      "url": "https://www.imf.org/external/datamapper/profile/JPN/WEO",
+      "title": "IMF DataMapper: Japan",
+      "publisher": "International Monetary Fund",
+      "source_type": "International organization statistics",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-12",
+      "scope": "Country profile",
+      "method": "IMF estimates",
+      "limitations": "Estimates",
+      "verified": true,
+      "verification_note": "Owner fact-check."
+    },
+    {
+      "url": "https://www.imf.org/external/datamapper/profile/BRA",
+      "title": "IMF DataMapper: Brazil",
+      "publisher": "International Monetary Fund",
+      "source_type": "International organization statistics",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-12",
+      "scope": "Country profile",
+      "method": "IMF estimates",
+      "limitations": "Estimates",
+      "verified": true,
+      "verification_note": "Owner fact-check."
+    },
+    {
+      "url": "https://www.bea.gov/data/gdp/gross-domestic-product",
+      "title": "Gross Domestic Product",
+      "publisher": "U.S. Bureau of Economic Analysis",
+      "source_type": "Government statistics",
+      "year": "2026",
+      "published_at": "2026-09-30",
+      "accessed_at": "2026-10-12",
+      "scope": "U.S. GDP",
+      "method": "National accounts",
+      "limitations": "Subject to revision; site notes a lapse in appropriations",
+      "verified": true,
+      "verification_note": "Q2 2026 2.2% and Q1 revised 2.5% confirmed from the September 30, 2026 third estimate."
+    },
+    {
+      "url": "https://www.oecd.org/en/data/datasets/purchasing-power-parities.html",
+      "title": "Purchasing Power Parities",
+      "publisher": "OECD",
+      "source_type": "International organization statistics",
+      "year": "not applicable",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-12",
+      "scope": "PPP method and data",
+      "method": "International price comparison",
+      "limitations": "Method description only cited",
+      "verified": true
+    },
+    {
+      "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD",
+      "title": "GDP per capita (current US$)",
+      "publisher": "World Bank",
+      "source_type": "International organization statistics",
+      "year": "2025",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-12",
+      "scope": "Indicator",
+      "method": "National accounts",
+      "limitations": "Resources link only",
+      "verified": true,
+      "verification_note": "Owner fact-check: \"observations run through 2025\"."
+    },
+    {
+      "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD",
+      "title": "GDP (current US$)",
+      "publisher": "World Bank",
+      "source_type": "International organization statistics",
+      "year": "2025",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-12",
+      "scope": "Indicator",
+      "method": "National accounts",
+      "limitations": "Resources link only",
+      "verified": true,
+      "verification_note": "Owner fact-check."
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "U.S. GDP per capita estimated at $94,430 for 2026, with real growth of 2.3%; India real growth 6.5%.",
+      "source_url": "https://www.imf.org/external/datamapper/profile/WEOWORLD/WEO",
+      "data_year": "2026",
+      "geography": "United States; India",
+      "population": "Total population",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "Current US dollars; percent",
+      "method": "IMF WEO April 2026",
+      "limitations": "Estimates subject to revision",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": true,
+      "verified": true
+    },
+    {
+      "claim": "U.S. real GDP grew at a 2.2% annual rate in Q2 2026 after a revised 2.5% in Q1.",
+      "source_url": "https://www.bea.gov/data/gdp/gross-domestic-product",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "U.S. economy",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "Percent, seasonally adjusted annual rate",
+      "method": "Third estimate, September 30, 2026",
+      "limitations": "Subject to revision",
+      "sponsored": false,
+      "partial_year": true,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Glossary",
+      "url": "https://databank.worldbank.org/metadataglossary/statistical-capacity-indicators/series/5.51.01.10.gdp",
+      "publisher": "World Bank",
+      "format": "Glossary entry",
+      "updated_at": "not stated",
+      "headings": [
+        "DataBank",
+        "Metadata Glossary"
+      ],
+      "coverage": [
+        "Definition of GDP per capita"
+      ],
+      "sources": [
+        "World Bank national accounts"
+      ],
+      "data_assets": [
+        "Metadata table"
+      ],
+      "link_patterns": [
+        "Links to World Bank data"
+      ],
+      "trust_signals": [
+        "Official statistics body"
+      ],
+      "covered_well": "Authoritative definition.",
+      "gaps": "Definition only; no explanation of nominal, real, or PPP, or of limits."
+    },
+    {
+      "title": "Gross domestic product (GDP) per capita and GDP per capita annual growth rate",
+      "url": "https://www.who.int/data/nutrition/nlis/info/gross-domestic-product-(gdp)-per-capita-and-gdp-per-capita-annual-growth-rate",
+      "publisher": "World Health Organization",
+      "format": "Indicator page",
+      "updated_at": "not stated",
+      "headings": [
+        "Gross domestic product (GDP) per capita and GDP per capita annual growth rate"
+      ],
+      "coverage": [
+        "Definition and growth rate indicator"
+      ],
+      "sources": [
+        "World Bank"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Link to World Bank documents"
+      ],
+      "trust_signals": [
+        "Official body"
+      ],
+      "covered_well": "Short definition tied to a health indicator system.",
+      "gaps": "No comparisons, data, or interpretation."
+    },
+    {
+      "title": "Quality of life indicator: Gross domestic product (GDP) per capita",
+      "url": "https://www.statcan.gc.ca/hub-carrefour/quality-life-qualite-vie/prosperity-prosperite/gdp-pib-eng.htm",
+      "publisher": "Statistics Canada",
+      "format": "Indicator page",
+      "updated_at": "not stated",
+      "headings": [
+        "Language selection",
+        "Search and menus",
+        "Search",
+        "Topics menu",
+        "Gross domestic product (GDP) per capita",
+        "Domain",
+        "Subdomain",
+        "Indicator",
+        "Definition",
+        "Measurement",
+        "Data sources",
+        "Data tables and analysis",
+        "Frameworks",
+        "Additional information"
+      ],
+      "coverage": [
+        "Definition",
+        "Measurement",
+        "Data sources"
+      ],
+      "sources": [
+        "Statistics Canada data"
+      ],
+      "data_assets": [
+        "Data table"
+      ],
+      "link_patterns": [
+        "Links to Canadian data tables"
+      ],
+      "trust_signals": [
+        "Official statistics body"
+      ],
+      "covered_well": "Clear measurement notes within a quality-of-life framework.",
+      "gaps": "Canada only; no cross-country comparison."
+    },
+    {
+      "title": "GDP per Capita Calculator",
+      "url": "https://www.omnicalculator.com/finance/gdp-per-capita",
+      "publisher": "Omni Calculator",
+      "format": "Calculator with explainer",
+      "updated_at": "2018-12-03",
+      "headings": [
+        "GDP per Capita Calculator",
+        "What is GDP per capita? — Formula behind the GDP per capita calculator",
+        "The US GDP per capita vs. the highest GDP per capita in the world",
+        "GDP per capita and inequality",
+        "FAQs",
+        "What is the the GDP per capita of the United States?",
+        "How do I find GDP per capita?",
+        "What is the difference between GDP and GDP per capita?",
+        "What does GDP per capita measure?",
+        "How do I calculate the GDP per capita given a  GDP of 800.6 billion USD?"
+      ],
+      "coverage": [
+        "Formula",
+        "US vs highest GDP per capita",
+        "Inequality",
+        "FAQ"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Interactive calculator",
+        "Table"
+      ],
+      "link_patterns": [
+        "Few outbound links"
+      ],
+      "trust_signals": [
+        "Named authors and reviewers"
+      ],
+      "covered_well": "Good formula walkthrough and FAQ.",
+      "gaps": "No PPP vs nominal comparison with current estimates."
+    },
+    {
+      "title": "List of countries by GDP (nominal) per capita",
+      "url": "https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal)_per_capita",
+      "publisher": "Wikipedia",
+      "format": "Data table",
+      "updated_at": "2026-10-07",
+      "headings": [
+        "Contents",
+        "List of countries by GDP (nominal) per capita",
+        "Distorted GDP-per-capita for tax havens",
+        "Table",
+        "See also",
+        "Notes",
+        "References",
+        "External links"
+      ],
+      "coverage": [
+        "Country rankings",
+        "Tax haven distortion"
+      ],
+      "sources": [
+        "IMF, World Bank, UN"
+      ],
+      "data_assets": [
+        "Sortable tables",
+        "Map"
+      ],
+      "link_patterns": [
+        "Links to IMF and World Bank"
+      ],
+      "trust_signals": [
+        "Citations"
+      ],
+      "covered_well": "Comprehensive ranking with sources.",
+      "gaps": "Raw ranking with little explanation of what the measure misses."
+    }
+  ],
+  "content_gaps": [
+    "Top results define the measure but rarely compare nominal, real, and PPP side by side with current data.",
+    "Few explain what GDP per capita leaves out, such as distribution, unpaid work, and wealth.",
+    "None connects the measure to how investors should and should not use it."
+  ],
+  "value_add": "Current IMF April 2026 estimates in nominal and PPP terms with a chart, a measure-by-question table, and a section on investor use and limits.",
+  "plan": {
+    "reader_title": "Explain Per Capita GDP: What It Measures and What It Misses",
+    "seo_title": "Explain Per Capita GDP: Meaning, Formula, and Limits",
+    "meta_description": "Learn how to explain per capita GDP, calculate it, compare nominal, real, and PPP measures, and understand what GDP per person does and does not reveal.",
+    "slug": "/investing/per-capita-gdp-explained/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "gdp per capita",
+      "what does gdp per capita mean",
+      "gdp per capita formula",
+      "real gdp per capita",
+      "gdp per capita ppp"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "What GDP Per Capita Means and Why Economists Use It",
+      "How GDP Per Capita Is Calculated",
+      "Nominal vs. Real vs. PPP GDP Per Capita",
+      "What 2026 GDP Per Capita Estimates Show Across Economies",
+      "Why Total GDP and GDP Per Capita Tell Different Stories",
+      "When GDP Per Capita Rises but Households Do Not Feel Richer",
+      "Why GDP Per Capita Does Not Measure Cost of Living",
+      "GDP Per Capita Does Not Measure Personal Wealth",
+      "What GDP Per Capita Leaves Out of the Economic Picture",
+      "Which Measures Should Be Used Alongside GDP Per Capita?",
+      "How Investors Can Use GDP Per Capita Without Overreading It",
+      "What GDP Per Capita Can Tell You, and Where to Stop",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "2026 GDP per capita, PPP, real growth for six economies: IMF WEO April 2026",
+      "Q1 and Q2 2026 U.S. real GDP growth: BEA, third estimate of September 30, 2026",
+      "PPP method: OECD"
+    ],
+    "visuals": [
+      "Horizontal bar chart gdp-per-capita-2026 from data/charts.json",
+      "Hero image coin-stacks-and-globe"
+    ],
+    "internal_links": [
+      "/money-banking/saving-vs-investing/"
+    ],
+    "external_link_opportunities": [
+      "BEA GDP",
+      "OECD purchasing power parities",
+      "IMF World Economic Outlook"
+    ],
+    "excluded_claims": [
+      "No country-level investment view",
+      "No forecast beyond IMF published estimates"
+    ],
+    "drafting_cautions": [
+      "Label IMF 2026 values as estimates",
+      "BEA site notes a lapse in appropriations; figures are from the September 30 release"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "BEA reported real GDP growth of 2.2% in Q2 2026 after a revised 2.5% in Q1.",
+      "source_url": "https://www.bea.gov/data/gdp/gross-domestic-product",
+      "verified": true
+    },
+    {
+      "statement": "The IMF estimated U.S. GDP per capita at about $94,430 for 2026.",
+      "source_url": "https://www.imf.org/external/datamapper/profile/WEOWORLD/WEO",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-12",
+    "note": "Signed off by the site owner in the build session of 2026-10-12 (\"sign off as me\") after her own fact-check and QA and the verification summary in docs/qa/2026-10-12-scheduled-posts.md."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-12",
+    "note": "Signed off by the site owner in the build session of 2026-10-12 (\"sign off as me\") after her own fact-check and QA and the verification summary in docs/qa/2026-10-12-scheduled-posts.md."
+  },
+  "verification_log": {
+    "checked_on": "2026-10-12",
+    "summary": "Ubersuggest (United States) data retrieved 2026-10-12. BEA and the U.S. and India IMF figures confirmed. Fixes: malformed IMF U.S. link corrected; one internal link and the World Bank body link removed to meet link rules; chart built from the IMF table. Network opened 2026-10-12: five competitor pages read for each post (pages that blocked access were replaced by the next ranking page). Vendor pricing pages read directly and match. IMF WEO values for all six economies confirmed through the IMF data API (dataset WEO 9.0.0). CFA Institute wording on duties, coverage depth, and the Series 86 exemption confirmed. World Bank data confirmed to run through 2025. All cited links resolve; SEC and OECD block automated requests but the pages are valid.",
+    "pending": "None."
+  }
+}

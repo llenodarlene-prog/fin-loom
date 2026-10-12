@@ -75,6 +75,9 @@ for (const file of files) {
   if (resourcesAt < 0) fail(`${file}: missing Resources section`);
   if (faqAt >= 0 && resourcesAt >= 0 && faqAt > resourcesAt) fail(`${file}: Frequently Asked Questions must come before Resources`);
   if (body.includes('—')) fail(`${file}: em dash is prohibited`);
+  // Owner rule of 2026-10-12: Key Takeaways opens straight into its bullets and the FAQ straight into its first question.
+  if (/^##\s+Key Takeaways[ \t]*\n\s*(?!\s)(?![-*]\s)/m.test(body)) fail(`${file}: Key Takeaways must start with its first bullet, with no introduction`);
+  if (/^##\s+Frequently Asked Questions[ \t]*\n\s*(?!\s)(?!###\s)/m.test(body)) fail(`${file}: Frequently Asked Questions must start with its first question, with no introduction`);
   const statisticsText = body.match(/^##\s+Key Statistics and Data\s*$([\s\S]*?)(?=^##\s+|$)/m)?.[1] || '';
   const aiExceptions = new Set(norm(metadata.ai_exceptions).split(';').map(lower).filter(Boolean));
   for (const { term, severity, scope, pattern } of killPatterns) {
@@ -102,10 +105,10 @@ for (const file of files) {
     const afterFaqHeading = /^##\s+Frequently Asked Questions\s*$/.test(previous) && /^###\s+/.test(line);
     if (!afterFaqHeading && /^#{2,3}\s+/.test(line) && /^#{1,3}\s+/.test(previous)) fail(`${file}: adjacent headings need contextual copy (${line})`);
     const startsBlock = /^###\s+/.test(line) || (/^[-*]\s+/.test(line) && !/^[-*]\s+/.test(previous)) || (line.startsWith('|') && /^\s*\|?(?:\s*:?-+:?\s*\|)+/.test(lines[index + 1] || ''));
-    // Owner rules of 2026-10-05 for supplementary posts: Key Takeaways has no introduction, and a plain
-    // sentence-case bullet is allowed for a simple list of items.
+    // Owner rule of 2026-10-12: Key Takeaways has no introduction on any post. Owner rule of 2026-10-05 for
+    // supplementary posts: a plain sentence-case bullet is allowed for a simple list of items.
     const ownerRules = record.no_word_ceiling === true;
-    const afterTakeaways = ownerRules && /^##\s+Key Takeaways\s*$/.test(previous) && /^[-*]\s+/.test(line);
+    const afterTakeaways = /^##\s+Key Takeaways\s*$/.test(previous) && /^[-*]\s+/.test(line);
     if (!afterFaqHeading && !afterTakeaways && startsBlock && (!previous || /^#{1,3}\s+|^[-*]\s+|^\|/.test(previous))) fail(`${file}: add contextual prose before ${line.slice(0, 60)}`);
     const plainBullet = ownerRules && /^[-*]\s+["“$(]?[A-Z0-9]/.test(line) || ownerRules && /^[-*]\s+i[A-Z]/.test(line);
     if (ownerRules && /\bmatter(s|ed)?\b/i.test(line)) fail(`${file}: owner style rule: do not use the word "matter" (${line.slice(0, 60)})`);
