@@ -31,6 +31,7 @@ If sources conflict, stop and report the exact conflict. The tracker controls ti
 - Use the exact primary keyword in SEO title, meta description, H1, slug, introduction, and body. Use eight exact occurrences when the project rule applies.
 - Articles place `Key Statistics and Data` immediately after the introduction. Blogs place `Key Takeaways` there and use `Frequently Asked Questions` before Resources.
 - `Key Takeaways` and `Frequently Asked Questions` never have an introduction: the first bullet or the first question comes directly after the heading (owner rule, 2026-10-12, enforced by `npm run check:content`).
+- Every H3 section outside the FAQ carries at least 40 words of real content, with no padding or invented claims (owner rule, 2026-10-12, enforced by `npm run check:content`).
 - Use every approved launch target naturally and no unrelated launch-set links. Avoid mechanical anchors such as “click here,” “learn more,” “our guide,” “our page,” or “deep dive.”
 - Use two or three reputable external links contextually before Resources. Put additional approved sources in Resources. Every cited URL must match a verified research source; Resources never substitutes for body citations.
 - Preserve the real evidence year. Label estimates, forecasts, calculations, partial-year data, and sponsored studies.

@@ -80,7 +80,7 @@ Its visual maps also add context after the screen. A list of cheap semiconductor
 
 ### Where Finviz Is Less Complete
 
-Finviz is optimized around U.S. markets and fast screening rather than deep global fundamental research. Investors who need long financial histories, global coverage, analyst-estimate workflows, or complex portfolio analytics may outgrow it.
+Finviz is optimized around U.S. markets and fast screening rather than deep global fundamental research. Investors who need long financial histories, global coverage, analyst-estimate workflows, or complex portfolio analytics may outgrow it. For those needs, Finviz works best as a first filter, with a second tool used for the detailed company research that follows.
 
 ## Koyfin Goes Deeper After the Screen
 
@@ -96,7 +96,7 @@ That reduces the need to move between a screener and a separate research platfor
 
 ### Where Koyfin Is Less Efficient
 
-The depth can be unnecessary for a casual investor whose main need is finding U.S. stocks that meet a handful of simple criteria. In that case, the extra data and dashboard flexibility may not justify the higher subscription cost.
+The depth can be unnecessary for a casual investor whose main need is finding U.S. stocks that meet a handful of simple criteria. In that case, the extra data and dashboard flexibility may not justify the higher subscription cost. With more data and dashboard options to set up, new users may need some time before the extra features save effort.
 
 ## Morningstar Investor Connects Screening With Research
 
@@ -112,7 +112,7 @@ That is particularly useful for investors choosing between several funds or stoc
 
 ### Where Morningstar Is Less Specialized
 
-Morningstar is not primarily designed as a rapid technical trading screener. Investors whose workflow depends on intraday patterns, advanced alerts, and chart-based conditions may find TradingView more natural.
+Morningstar is not primarily designed as a rapid technical trading screener. Investors whose workflow depends on intraday patterns, advanced alerts, and chart-based conditions may find TradingView more natural. Its screens are built around long-term research rather than speed, which suits patient investors more than active traders.
 
 ## TradingView Is Strongest for Technical Screening
 
@@ -128,7 +128,7 @@ That makes the platform efficient for traders who need to monitor many securitie
 
 ### Where TradingView Is Less Complete
 
-TradingView includes fundamental data, but its defining advantage remains technical analysis. Investors who build detailed financial models or compare long histories of company fundamentals may prefer Koyfin or Morningstar.
+TradingView includes fundamental data, but its defining advantage remains technical analysis. Investors who build detailed financial models or compare long histories of company fundamentals may prefer Koyfin or Morningstar. Long-term investors who want many years of statements and estimates in one research workspace may still pair it with a second tool.
 
 ## Yahoo Finance Is a Practical Starting Point
 
@@ -138,11 +138,11 @@ Its core experience is free. Yahoo Finance's plan page prices its paid tiers by 
 
 ### Where Yahoo Finance Has an Edge
 
-Accessibility is its biggest advantage. An investor can move quickly from a quote into recent news, historical prices, financial statements, estimates, and a watchlist without learning a specialized platform.
+Accessibility is its biggest advantage. An investor can move quickly from a quote into recent news, historical prices, financial statements, estimates, and a watchlist without learning a specialized platform. The free tier also covers a wide range of securities, which makes it a practical place to learn how screening works.
 
 ### Where Yahoo Finance Is Less Specialized
 
-Its screening and research depth are not as differentiated as the tools above. Advanced users who need custom formulas, institutional-style dashboards, or specialized technical workflows may need another platform.
+Its screening and research depth are not as differentiated as the tools above. Advanced users who need custom formulas, institutional-style dashboards, or specialized technical workflows may need another platform. Paid tiers add more data and tools, but the core screener remains simpler than the specialist options covered earlier.
 
 ## How Entry-Level Paid Pricing Compares
 
@@ -170,23 +170,23 @@ The strongest choice depends on the work that happens after a stock passes the f
 
 ### Fundamental Investors
 
-**Koyfin** is the strongest fit when screening needs to connect with financial statements, estimates, global coverage, and deeper company research.
+**Koyfin** is the strongest fit when screening needs to connect with financial statements, estimates, global coverage, and deeper company research. Ten years of financials and estimates on the Plus plan make it easier to check whether a company that passes a screen has held up over time. The extra depth costs more than the simpler tools.
 
 ### Value and Long-Term Investors
 
-**Morningstar Investor** works well when quantitative screens need to be combined with analyst research, ratings, and portfolio context.
+**Morningstar Investor** works well when quantitative screens need to be combined with analyst research, ratings, and portfolio context. The analyst-written research helps when several companies pass the same screen and the investor needs a reason to look closer at one. The annual plan suits investors who review holdings over months or years.
 
 ### Fast U.S. Stock Screening
 
-**Finviz** is difficult to beat for quickly moving from thousands of U.S. stocks to a compact candidate list.
+**Finviz** is difficult to beat for quickly moving from thousands of U.S. stocks to a compact candidate list. The free version already covers broad filtering, and the visual market maps add quick context on sector moves. Investors who need real-time data, alerts, or exports can step up to Elite when those needs appear.
 
 ### Technical Traders
 
-**TradingView** is better suited to investors who filter securities by technical conditions and then move directly into charts, alerts, and price behavior.
+**TradingView** is better suited to investors who filter securities by technical conditions and then move directly into charts, alerts, and price behavior. Screens can include conditions such as moving averages, momentum, and volume, and the results open straight into charts. That keeps the gap between finding a setup and studying it very short.
 
 ### Newer Investors
 
-**Yahoo Finance** provides enough free information to learn a screening process before paying for specialized data or advanced workflow features.
+**Yahoo Finance** provides enough free information to learn a screening process before paying for specialized data or advanced workflow features. Its familiar layout lowers the learning curve, and quotes, news, and financial statements sit in one place. Once an investor knows which filters they use most, a specialist platform becomes easier to judge.
 
 ## Free Stock Screeners Are Often Enough to Build a First Process
 
