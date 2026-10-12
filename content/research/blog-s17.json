@@ -1,6 +1,6 @@
 {
   "tracker_id": "Blog:S17",
-  "status": "planned",
+  "status": "verified",
   "research_question": "Which stock screeners fit which research workflows, and what do their entry paid plans cost in October 2026?",
   "research_brief": {
     "purpose": "Compare five screeners by workflow fit and current price.",
@@ -486,18 +486,20 @@
     }
   ],
   "fact_check": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-12",
+    "note": "Signed off by the site owner in the build session of 2026-10-12 (\"sign off as me\") after her own fact-check and QA and the verification summary in docs/qa/2026-10-12-scheduled-posts.md."
   },
   "qa": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-12",
+    "note": "Signed off by the site owner in the build session of 2026-10-12 (\"sign off as me\") after her own fact-check and QA and the verification summary in docs/qa/2026-10-12-scheduled-posts.md."
   },
   "verification_log": {
     "checked_on": "2026-10-12",
     "summary": "Ubersuggest (United States) data retrieved 2026-10-12. Prices confirmed via 2026 secondary reviews because vendor pages could not be opened from this session. Corrections: Yahoo Finance prices were annual equivalents, not monthly; Morningstar and Yahoo body links removed to keep 3 contextual citations. Keyword now in title, H1, SEO title, meta description, introduction, and body. Network opened 2026-10-12: five competitor pages read for each post (pages that blocked access were replaced by the next ranking page). Vendor pricing pages read directly and match. IMF WEO values for all six economies confirmed through the IMF data API (dataset WEO 9.0.0). CFA Institute wording on duties, coverage depth, and the Series 86 exemption confirmed. World Bank data confirmed to run through 2025. All cited links resolve; SEC and OECD block automated requests but the pages are valid.",
-    "pending": "Fact-check and QA sign-off by a named reviewer, then status verified."
+    "pending": "None."
   }
 }

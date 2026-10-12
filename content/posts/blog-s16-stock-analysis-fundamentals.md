@@ -5,7 +5,7 @@ description: Learn the fundamentals of stock analysis using financial statements
 slug: /markets-stocks/stock-analysis-fundamentals/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S16
 primary_keyword: stock analysis fundamentals
 secondary_keywords: fundamental stock analysis; how to analyze stocks; stock fundamentals; financial statement analysis; stock valuation fundamentals
@@ -18,9 +18,9 @@ link_placement_site:
 charts_pending: 0
 ai_exceptions: leverage
 ai_exception_reason: Operating leverage and financial leverage are standard accounting terms with no plain substitute in a fundamentals explainer.
-author: 
-published: 
-modified: 
+author: Darlene Aberin
+published: 2026-10-12
+modified: 2026-10-12
 ---
 
 # Stock Analysis Fundamentals: How to Evaluate a Company

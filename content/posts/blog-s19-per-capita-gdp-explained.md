@@ -5,7 +5,7 @@ description: Learn how to explain per capita GDP, calculate it, compare nominal,
 slug: /investing/per-capita-gdp-explained/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S19
 primary_keyword: explain per capita GDP
 secondary_keywords: GDP per capita meaning; GDP per capita formula; real GDP per capita; nominal GDP per capita; GDP per capita PPP; GDP per capita by country
@@ -18,9 +18,9 @@ link_placement_site:
 charts_pending: 0
 ai_exceptions: leverage
 ai_exception_reason: Leverage appears once as the financial noun for corporate debt, never as the filler verb the kill list targets.
-author: 
-published: 
-modified: 
+author: Darlene Aberin
+published: 2026-10-13
+modified: 2026-10-13
 ---
 
 # Explain Per Capita GDP: What It Measures and What It Misses

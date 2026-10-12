@@ -5,7 +5,7 @@ description: Compare each top rated stock screener by filters, market coverage, 
 slug: /markets-stocks/best-stock-screeners-compared/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S17
 primary_keyword: top rated stock screener
 secondary_keywords: best stock screener; best stock screener for free; stock screener comparison; stock screening tools; stock research screener
@@ -18,9 +18,9 @@ link_placement_site:
 charts_pending: 0
 ai_exceptions: leverage
 ai_exception_reason: Leverage is used only as the financial noun for debt relative to equity, a standard screening metric, never as the filler verb the kill list targets.
-author: 
-published: 
-modified: 
+author: Darlene Aberin
+published: 2026-10-12
+modified: 2026-10-12
 ---
 
 # Top Rated Stock Screener Comparison: Data, Filters, and Research Tools

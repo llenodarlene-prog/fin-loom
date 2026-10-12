@@ -1,6 +1,6 @@
 {
   "tracker_id": "Blog:S18",
-  "status": "planned",
+  "status": "verified",
   "research_question": "What does a stock research analyst do, and what do official sources say about pay, outlook, and licensing?",
   "research_brief": {
     "purpose": "Explain the role, buy-side and sell-side differences, skills, and verified labor data.",
@@ -488,18 +488,20 @@
     }
   ],
   "fact_check": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-12",
+    "note": "Signed off by the site owner in the build session of 2026-10-12 (\"sign off as me\") after her own fact-check and QA and the verification summary in docs/qa/2026-10-12-scheduled-posts.md."
   },
   "qa": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-12",
+    "note": "Signed off by the site owner in the build session of 2026-10-12 (\"sign off as me\") after her own fact-check and QA and the verification summary in docs/qa/2026-10-12-scheduled-posts.md."
   },
   "verification_log": {
     "checked_on": "2026-10-12",
     "summary": "Ubersuggest (United States) data retrieved 2026-10-12. Corrections: projections relabeled from 2024 to 2034 to 2025 to 2035 (the current BLS edition), growth stated as BLS publishes it (7%), the 24,700 openings figure removed because it could not be matched to the current BLS page, and the Series 86 exemption now states its conditions per FINRA. Network opened 2026-10-12: five competitor pages read for each post (pages that blocked access were replaced by the next ranking page). Vendor pricing pages read directly and match. IMF WEO values for all six economies confirmed through the IMF data API (dataset WEO 9.0.0). CFA Institute wording on duties, coverage depth, and the Series 86 exemption confirmed. World Bank data confirmed to run through 2025. All cited links resolve; SEC and OECD block automated requests but the pages are valid.",
-    "pending": "Fact-check and QA sign-off by a named reviewer, then status verified."
+    "pending": "None."
   }
 }

@@ -5,7 +5,7 @@ description: Learn what a stock research analyst does, how buy-side and sell-sid
 slug: /markets-stocks/stock-research-analyst-role/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S18
 primary_keyword: stock research analyst
 secondary_keywords: equity research analyst; financial research analyst; buy side analyst; sell side analyst; equity research career
@@ -18,9 +18,9 @@ link_placement_site:
 charts_pending: 0
 ai_exceptions: leverage
 ai_exception_reason: Leverage appears only as the accounting noun (operating leverage, financial leverage), never as the filler verb the kill list targets.
-author: 
-published: 
-modified: 
+author: Darlene Aberin
+published: 2026-10-13
+modified: 2026-10-13
 ---
 
 # Stock Research Analyst: What the Role Does and How the Work Gets Used

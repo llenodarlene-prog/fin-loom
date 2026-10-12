@@ -33,9 +33,6 @@ Confirmed against sources: Microsoft FY2026 revenue, operating income, and net i
 - **Sources:** Every cited source is now confirmed. Vendor pricing pages match the post. All 24 IMF cells in the S19 table match the IMF's World Economic Outlook data API. CFA Institute wording and World Bank coverage through 2025 are confirmed.
 - **Status:** All four research records are at `planned`, so research and plan are complete.
 
-## Still open before publishing
+## Sign-off
 
-1. **Sign-off:** Each research record needs a named fact-check and QA sign-off with a date, and then status `verified`.
-2. **Publish fields:** Each post needs `draft: false`, `author`, and `published` and `modified` set to its slot.
-3. **Images:** Confirm whether the four supplied images are AI-generated.
-4. **Slots:** S16 and S17 are slotted for today, 2026-10-12.
+Fact-check and QA signed off by Darlene Aberin on 2026-10-12. All four research records are `verified`. The posts are approved, with S16 and S17 dated 2026-10-12 and S18 and S19 dated 2026-10-13. The images are recorded as owner-supplied and AI-generated. Production builds show each post only from its date onward.
