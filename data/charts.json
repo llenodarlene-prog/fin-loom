@@ -127,5 +127,115 @@
     "decimals": 2,
     "caption": "Scenario from the text: stocks fall 25% and crypto falls 60%, with the rest of the portfolio in stocks and no interaction effects.",
     "note": "Arithmetic illustration, not market data or a forecast."
+  },
+  "microsoft-revenue-operating-income": {
+    "type": "grouped",
+    "title": "Microsoft Revenue and Operating Income, Fiscal 2024 to 2026",
+    "label_heading": "Fiscal year",
+    "labels": [
+      "FY2024",
+      "FY2025",
+      "FY2026"
+    ],
+    "series": [
+      {
+        "name": "Revenue",
+        "values": [
+          245.1,
+          281.7,
+          331.8
+        ]
+      },
+      {
+        "name": "Operating income",
+        "values": [
+          109.4,
+          128.5,
+          155.2
+        ]
+      }
+    ],
+    "prefix": "$",
+    "suffix": "bn",
+    "decimals": 1,
+    "caption": "Operating income grew 21% in fiscal 2026, faster than revenue at 18%. Fiscal years end June 30.",
+    "source": "Microsoft Corporation, fiscal 2026 Form 10-K, filed July 2026. Checked October 12, 2026."
+  },
+  "stock-screener-entry-costs": {
+    "type": "hbar",
+    "title": "Entry Paid Plans for Five Stock Screeners, Monthly Equivalent on Annual Billing",
+    "label_heading": "Plan",
+    "labels": [
+      "Yahoo Finance Bronze",
+      "TradingView Essential",
+      "Morningstar Investor",
+      "Finviz Elite",
+      "Koyfin Plus"
+    ],
+    "series": [
+      {
+        "name": "US dollars per month",
+        "values": [
+          7.95,
+          12.95,
+          20.75,
+          24.96,
+          39
+        ]
+      }
+    ],
+    "prefix": "$",
+    "decimals": 2,
+    "caption": "Annual prices divided by 12: Yahoo Finance Bronze $95.40, Morningstar Investor $249, and Finviz Elite $299.50 a year. TradingView and Koyfin publish their annual-billing monthly rates directly. Plans differ in features, so the chart compares cost only.",
+    "source": "Platform pricing pages and published plan listings for Finviz, Koyfin, Morningstar, TradingView, and Yahoo Finance. Checked October 12, 2026."
+  },
+  "financial-analyst-employment-outlook": {
+    "type": "bar",
+    "title": "Financial and Investment Analyst Employment, 2025 and Projected 2035",
+    "label_heading": "Year",
+    "labels": [
+      "2025",
+      "2035, projected"
+    ],
+    "series": [
+      {
+        "name": "Jobs",
+        "values": [
+          377200,
+          404300
+        ]
+      }
+    ],
+    "caption": "BLS projects an increase of 27,100 jobs, or 7%, against 3% for all occupations. The category is broader than equity research. The 2035 figure is a projection.",
+    "source": "U.S. Bureau of Labor Statistics, Occupational Outlook Handbook, Financial Analysts, 2025 to 2035 projections. Checked October 12, 2026."
+  },
+  "gdp-per-capita-2026": {
+    "type": "hbar",
+    "title": "GDP Per Capita in Selected Economies, 2026 IMF Estimates",
+    "label_heading": "Economy",
+    "labels": [
+      "United States",
+      "Australia",
+      "United Kingdom",
+      "Japan",
+      "Brazil",
+      "India"
+    ],
+    "series": [
+      {
+        "name": "Current US dollars per person",
+        "values": [
+          94430,
+          75650,
+          61060,
+          35700,
+          12310,
+          2810
+        ]
+      }
+    ],
+    "prefix": "$",
+    "caption": "Nominal GDP per capita at market exchange rates, rounded. These are IMF estimates for 2026, not final national accounts, and exchange-rate moves can change them.",
+    "source": "International Monetary Fund, World Economic Outlook, April 2026. Checked October 12, 2026."
   }
 }

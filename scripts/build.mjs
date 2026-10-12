@@ -7,6 +7,7 @@ import { buildCharts } from './lib/illustrations.mjs';
 import { renderChart, resetCharts } from './lib/charts.mjs';
 import { articleSchema, headMeta } from './lib/seo.mjs';
 import { assertUniqueRoute, validateRedirects } from './lib/workflow.mjs';
+import { publicationState, publishDate } from './lib/schedule.mjs';
 
 const cwd = process.cwd();
 const dist = path.join(cwd, 'dist');
@@ -98,11 +99,13 @@ const footer = replace(footerTemplate, shared);
 const sourceFiles = (await walk('content')).filter(file => file.endsWith('.md')).sort();
 const parsed = [];
 const sourceRoutes = new Map();
-// Production omits drafts entirely; their routes are remembered so links to them can be unlinked below.
+// Production omits drafts and approved posts whose publication date has not arrived; their routes are
+// remembered so links to them can be unlinked below. Staging shows both so they can be reviewed.
 const excludedDraftRoutes = new Set();
+const today = publishDate();
 for (const file of sourceFiles) {
   const { metadata, body } = await readContent(file);
-  if (metadata.draft === true && buildEnv === 'production') { if (metadata.slug) excludedDraftRoutes.add(metadata.slug); continue; }
+  if (publicationState(metadata, today) !== 'live' && buildEnv === 'production') { if (metadata.slug) excludedDraftRoutes.add(metadata.slug); continue; }
   for (const field of ['title', 'description', 'slug', 'type']) if (!metadata[field]) throw new Error(`${file}: missing ${field}`);
   if (!/^\/(?:$|.*\/)$/.test(metadata.slug)) throw new Error(`${file}: slug must start and end with /`);
   assertUniqueRoute(metadata.slug, file, sourceRoutes);
