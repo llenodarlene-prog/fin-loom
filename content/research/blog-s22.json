@@ -1,0 +1,477 @@
+{
+  "tracker_id": "Blog:S22",
+  "status": "planned",
+  "research_question": "How should investors read equity research reports, and what do professional standards and FINRA rules say a report should contain?",
+  "research_brief": {
+    "purpose": "Explain report structure, forecasts, valuation, ratings, and disclosures using CFA Institute and FINRA sources.",
+    "audience": "Investors who read analyst research.",
+    "publication_year": "2026",
+    "data_period": "CFA Institute 2026 refresher readings; FINRA Rule 2241.",
+    "scope_limitations": "U.S. rules; no recommendation on any security."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "equity research reports",
+    "intent": "Informational",
+    "serp_checked_at": "2026-10-15",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-15",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "equity research reports",
+        "type": "short-tail",
+        "volume": 480,
+        "difficulty": 33,
+        "cpc": 16.86,
+        "intent": "Informational",
+        "ranking_url": "https://www.hebbia.com/resources/equity-research-report",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "equity research reports pdf",
+        "type": "long-tail",
+        "volume": 40,
+        "difficulty": 40,
+        "cpc": 6.48,
+        "intent": "Informational",
+        "ranking_url": "https://www.wallstreetprep.com/knowledge/sample-equity-research-report/",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "free equity research reports",
+        "type": "commercial",
+        "volume": 30,
+        "difficulty": 46,
+        "cpc": 7.96,
+        "intent": "Commercial",
+        "ranking_url": "https://www.research-tree.com/",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "how to get equity research reports",
+        "type": "problem",
+        "volume": 40,
+        "difficulty": 47,
+        "cpc": 11.16,
+        "intent": "Informational",
+        "ranking_url": "https://library.london.edu/companyresearch/analystsresearch",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "where to find equity research reports",
+        "type": "question",
+        "volume": 30,
+        "difficulty": 28,
+        "cpc": 3.29,
+        "intent": "Informational",
+        "ranking_url": "https://workstation.morningstar.com/support/article/bltef06499a676ffc94/GeneratingandViewingEquityResearchReports",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/equity-valuation-applications-and-processes",
+      "title": "Equity Valuation: Applications and Processes",
+      "publisher": "CFA Institute",
+      "source_type": "Professional body curriculum",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "Qualities of an effective report",
+      "method": "Curriculum text",
+      "limitations": "Professional guidance, not regulation",
+      "verified": true,
+      "verification_note": "Effective-report list confirmed verbatim."
+    },
+    {
+      "url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/company-analysis-past-and-present",
+      "title": "Company Analysis: Past and Present",
+      "publisher": "CFA Institute",
+      "source_type": "Professional body curriculum",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "What company research reports contain",
+      "method": "Curriculum text",
+      "limitations": "Professional guidance",
+      "verified": true,
+      "verification_note": "Definition of company research reports confirmed."
+    },
+    {
+      "url": "https://www.finra.org/rules-guidance/rulebooks/finra-rules/2241",
+      "title": "Rule 2241: Research Analysts and Research Reports",
+      "publisher": "FINRA",
+      "source_type": "Regulator rule",
+      "year": "not applicable",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "Equity research conflicts and disclosures",
+      "method": "Rule text",
+      "limitations": "Applies to FINRA member firms",
+      "verified": true,
+      "verification_note": "Rule exists and governs research; disclosure scope confirmed via FINRA research rules page."
+    },
+    {
+      "url": "https://www.finra.org/rules-guidance/key-topics/research-analyst-rules",
+      "title": "Research Analyst Rules",
+      "publisher": "FINRA",
+      "source_type": "Regulator page",
+      "year": "not applicable",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "Overview of research rules",
+      "method": "Regulator summary",
+      "limitations": "Summary",
+      "verified": true,
+      "verification_note": "Disclosure of IB and ownership conflicts confirmed."
+    },
+    {
+      "url": "https://www.finra.org/rules-guidance/notices/15-30",
+      "title": "Regulatory Notice 15-30",
+      "publisher": "FINRA",
+      "source_type": "Regulator notice",
+      "year": "2015",
+      "published_at": "2015-08-01",
+      "accessed_at": "2026-10-15",
+      "scope": "Adoption of Rule 2241",
+      "method": "Regulatory notice",
+      "limitations": "Historical background",
+      "verified": true,
+      "verification_note": "Notice exists; resource link only."
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "CFA Institute lists eight qualities of an effective research report, including clearly identified key assumptions and a clear distinction between facts and opinions.",
+      "source_url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/equity-valuation-applications-and-processes",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Research reports",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "List",
+      "method": "Curriculum text",
+      "limitations": "Professional guidance",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "What Makes a Good Equity Research Report?",
+      "url": "https://www.hebbia.com/resources/equity-research-report",
+      "publisher": "Hebbia",
+      "format": "Vendor guide",
+      "updated_at": "not stated",
+      "headings": [
+        "What Makes a Good Equity Research Report—And How To Enhance Yours with AI",
+        "What Is an Equity Research Report?",
+        "Equity Research Report Example",
+        "5 Types of Equity Research Reports",
+        "Buy-Side vs. Sell-Side Equity Research",
+        "Sell-Side Equity Research",
+        "Buy-Side Equity Research",
+        "How Artificial Intelligence Improves the Equity Research Report Creation Process",
+        "1. Data Ingestion and Synthesis for Faster, Higher-Quality Analysis",
+        "2. Improved Source Traceability",
+        "3. Better Predictive Analytics for Accurate Forecasting",
+        "4. Deliverable Generation",
+        "Why Equity Research Professionals Choose Hebbia To Power Their Workflows",
+        "Don't miss these"
+      ],
+      "coverage": [
+        "Definition",
+        "Types",
+        "Buy-side vs sell-side",
+        "AI tools"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Tables"
+      ],
+      "link_patterns": [
+        "Links to own product"
+      ],
+      "trust_signals": [
+        "Vendor expertise"
+      ],
+      "covered_well": "Clear buy-side vs sell-side split.",
+      "gaps": "Promotes AI product; little on disclosures or conflicts."
+    },
+    {
+      "title": "Equity Research Report: Samples, Tutorials, and Explanations",
+      "url": "https://mergersandinquisitions.com/equity-research-report/",
+      "publisher": "Mergers & Inquisitions",
+      "format": "Tutorial",
+      "updated_at": "2026-03-01",
+      "headings": [
+        "What’s in an Equity Research Report?",
+        "Why Do Equity Research Reports Matter?",
+        "Equity Research Reports: Myth vs. Reality",
+        "Different Types of Equity Research Reports",
+        "The Full Tutorial, Video, and Sample Equity Research Reports",
+        "Watered-Down Stock Pitches",
+        "The Four Main Differences in Equity Research Reports",
+        "1) There’s More Emphasis on Recent Results and Announcements",
+        "2) Far-Outside-the-Mainstream Views Are Less Common",
+        "3) Research Reports Give “Target Prices” Rather Than Target Price Ranges",
+        "4) The Investment Thesis, Catalysts, and Risk Factors Are “Looser”",
+        "Your Sample Equity Research Reports",
+        "The Typical Sections of an Equity Research Report",
+        "Page 1: Update, Rating, Price Target, and Recent Results"
+      ],
+      "coverage": [
+        "Report sections",
+        "Myth vs reality",
+        "Samples"
+      ],
+      "sources": [
+        "Sample reports"
+      ],
+      "data_assets": [
+        "Sample PDFs",
+        "Video"
+      ],
+      "link_patterns": [
+        "Links to paid courses"
+      ],
+      "trust_signals": [
+        "Long-running careers site"
+      ],
+      "covered_well": "Detailed section-by-section walkthrough.",
+      "gaps": "Written for aspiring analysts, not investors reading reports."
+    },
+    {
+      "title": "Equity Research Report: Definition, Types, and Key Components",
+      "url": "https://corporatefinanceinstitute.com/resources/valuation/equity-research-report/",
+      "publisher": "Corporate Finance Institute",
+      "format": "Guide",
+      "updated_at": "2018-07-31",
+      "headings": [
+        "Equity Research Report: Definition, Types, and Key Components",
+        "What is an Equity Research Report?",
+        "Contents of an Equity Research Report",
+        "Buy Side vs Sell Side Research",
+        "Why Do Banks Publish Equity Research Reports?",
+        "Direct Fees: Trading Commissions",
+        "Indirect Fees: Investment Banking Relationships",
+        "Equity Research Report Recommendations",
+        "Different Types of Equity Research Reports",
+        "Equity Research Report Example",
+        "FAQs: Equity Research Reports",
+        "1. What is the purpose of an equity research report?",
+        "2. What information is included in an equity research report?",
+        "3. Who writes equity research reports?"
+      ],
+      "coverage": [
+        "Contents",
+        "Buy vs sell side",
+        "Why banks publish research",
+        "Recommendations"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Images"
+      ],
+      "link_patterns": [
+        "Links to courses"
+      ],
+      "trust_signals": [
+        "Training provider"
+      ],
+      "covered_well": "Explains why banks publish research.",
+      "gaps": "Dated 2018; no current rule references."
+    },
+    {
+      "title": "Equity Research Report",
+      "url": "https://www.wallstreetprep.com/knowledge/sample-equity-research-report/",
+      "publisher": "Wall Street Prep",
+      "format": "Guide with sample",
+      "updated_at": "2024-04-19",
+      "headings": [
+        "Equity Research Report",
+        "What is Equity Research Report?",
+        "What are the Different Types of Equity Research Reports?",
+        "The Wharton Online & Wall Street Prep Applied Value Investing Certificate Program",
+        "Equity Research Report Ratings (Buy, Sell, and Hold)",
+        "JP Morgan Equity Research Report Example (PDF)",
+        "How is an Equity Research Report Structured?",
+        "7 Free Financial Modeling Lessons"
+      ],
+      "coverage": [
+        "Types",
+        "Ratings",
+        "Structure",
+        "Example PDF"
+      ],
+      "sources": [
+        "J.P. Morgan sample"
+      ],
+      "data_assets": [
+        "Sample PDF"
+      ],
+      "link_patterns": [
+        "Links to programs"
+      ],
+      "trust_signals": [
+        "Training provider"
+      ],
+      "covered_well": "Real sample report.",
+      "gaps": "Little on reading disclosures or testing assumptions."
+    },
+    {
+      "title": "How To Use Equity Research in Your Investing",
+      "url": "https://www.chase.com/personal/investments/learning-and-insights/article/using-equity-research-in-your-investing",
+      "publisher": "Chase",
+      "format": "Investor education",
+      "updated_at": "2026-01-09",
+      "headings": [
+        "How to use equity research in your investing",
+        "What’s in an equity research report?",
+        "Get up to $1,000",
+        "Important financial statements",
+        "Pay attention to certain key metrics",
+        "Other things to keep in mind when analyzing stocks",
+        "The bottom line",
+        "Invest your way",
+        "What to read next",
+        "What is capex (capital expenditures)? Definition, examples and why AI is driving it higher in 2026",
+        "What is a beneficiary? Types, importance and how to add one",
+        "What Fed rate hikes and cuts mean for your brokerage account",
+        "Market concentration in 2026: Are you less diversified than you think? Consider whether to rebalance",
+        "Get up to $1,000"
+      ],
+      "coverage": [
+        "What is in a report",
+        "Statements",
+        "Metrics"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Images"
+      ],
+      "link_patterns": [
+        "Links to Chase products"
+      ],
+      "trust_signals": [
+        "FINRA BrokerCheck link"
+      ],
+      "covered_well": "Plain-language investor view.",
+      "gaps": "Little on conflicts or valuation methods."
+    }
+  ],
+  "content_gaps": [
+    "Few pages use the CFA Institute checklist for an effective report.",
+    "Disclosures and FINRA Rule 2241 are rarely explained for readers.",
+    "Few show how to read a report in a fixed order."
+  ],
+  "value_add": "CFA Institute criteria as a reader checklist, FINRA Rule 2241 disclosure context, a ten-minute reading order, and common reading mistakes.",
+  "plan": {
+    "reader_title": "Equity Research Reports: How to Read the Forecasts, Valuation, and Conflicts",
+    "seo_title": "Equity Research Reports: How to Read Them",
+    "meta_description": "Learn how equity research reports are structured, how analysts build forecasts and valuations, and which disclosures, conflicts, and assumptions to check.",
+    "slug": "/markets-stocks/equity-research-reports/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "equity research report",
+      "how to read equity research",
+      "analyst price target"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "What an Equity Research Report Is Designed to Do",
+      "What Makes a Research Report Effective",
+      "The Core Sections of a Strong Research Report",
+      "Forecasts Are the Bridge Between the Business and the Valuation",
+      "Valuation Should Match the Business Model",
+      "Price Targets Are Scenarios, Not Facts",
+      "Ratings Are Defined by Each Firm",
+      "Disclosures Count Because Research Can Have Conflicts",
+      "What to Compare Against the Research Report",
+      "How to Read Equity Research Reports in Ten Minutes",
+      "Sell-Side and Buy-Side Reports Serve Different Readers",
+      "Common Mistakes When Reading Research",
+      "How Analysts Revise Their Views",
+      "Using Several Reports Together",
+      "What a Good Risk Section Looks Like",
+      "Research Reports Are Most Useful When They Make Assumptions Visible",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Equity Valuation: Applications and Processes: Effective-report list confirmed verbatim.",
+      "Company Analysis: Past and Present: Definition of company research reports confirmed.",
+      "Rule 2241: Research Analysts and Research Reports: Rule exists and governs research; disclosure scope confirmed via FINRA research rules page.",
+      "Research Analyst Rules: Disclosure of IB and ownership conflicts confirmed."
+    ],
+    "visuals": [
+      "Owner-supplied hero image (AI-generated)",
+      "Comparison tables"
+    ],
+    "internal_links": [
+      "/markets-stocks/stock-research-analyst-role/"
+    ],
+    "external_link_opportunities": [
+      "CFA Institute equity valuation reading",
+      "CFA Institute company analysis reading",
+      "FINRA Rule 2241"
+    ],
+    "excluded_claims": [
+      "No 1% ownership threshold stated, as the rule text was not retrieved"
+    ],
+    "drafting_cautions": [
+      "Do not state specific FINRA thresholds not confirmed from rule text"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "An effective research report distinguishes clearly between facts and opinions.",
+      "source_url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/equity-valuation-applications-and-processes",
+      "verified": true
+    },
+    {
+      "statement": "Company research reports analyze past and present financials and forecast future financial statements.",
+      "source_url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/company-analysis-past-and-present",
+      "verified": true
+    },
+    {
+      "statement": "FINRA Rule 2241 governs research analysts and research reports.",
+      "source_url": "https://www.finra.org/rules-guidance/rulebooks/finra-rules/2241",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": false,
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  "qa": {
+    "completed": false,
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  "verification_log": {
+    "checked_on": "2026-10-15",
+    "summary": "Rewritten from the owner draft to house standards on 2026-10-15. Every figure checked against the primary source listed in sources (vendor pages, SEC filings, CFA Institute, FINRA). Ubersuggest US data retrieved 2026-10-15 (some supporting queries 2026-10-12). Five competitor pages read; blocked pages replaced by the next ranking page.",
+    "pending": "Owner fact-check and QA sign-off."
+  }
+}

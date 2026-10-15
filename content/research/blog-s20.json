@@ -1,0 +1,485 @@
+{
+  "tracker_id": "Blog:S20",
+  "status": "planned",
+  "research_question": "Which free stock screeners give investors the most useful research workflow in 2026, and where do their free plans stop?",
+  "research_brief": {
+    "purpose": "Compare free screeners by workflow and state exactly what each free plan includes and what paid plans add.",
+    "audience": "Self-directed investors who want to screen stocks without a subscription.",
+    "publication_year": "2026",
+    "data_period": "Provider pricing and plan pages checked October 15, 2026.",
+    "scope_limitations": "Five platforms; prices exclude tax and promotions; no platform is endorsed."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "best stock screener for free",
+    "intent": "Informational",
+    "serp_checked_at": "2026-10-15",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-15",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "best stock screener for free",
+        "type": "short-tail",
+        "volume": 590,
+        "difficulty": 18,
+        "cpc": 3.845,
+        "intent": "Informational",
+        "ranking_url": "https://www.marketwatch.com/tools/screener/market",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best stock screener for swing trading",
+        "type": "long-tail",
+        "volume": 90,
+        "difficulty": 15,
+        "cpc": 16.98,
+        "intent": "Commercial",
+        "ranking_url": "https://www.reddit.com/r/swingtrading/comments/1exlztz/what_stock_scanners_and_filters_do_yall_use_for/",
+        "retrieved_at": "2026-10-12",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best stock screener app",
+        "type": "commercial",
+        "volume": 210,
+        "difficulty": 48,
+        "cpc": 7.1,
+        "intent": "Commercial",
+        "ranking_url": "https://finviz.com/",
+        "retrieved_at": "2026-10-12",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best stock screener for day trading",
+        "type": "problem",
+        "volume": 260,
+        "difficulty": 35,
+        "cpc": 8.03,
+        "intent": "Commercial",
+        "ranking_url": "https://www.reddit.com/r/Daytrading/comments/1nxkn6k/what_are_the_best_stock_scanners/",
+        "retrieved_at": "2026-10-12",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is the best stock screener",
+        "type": "question",
+        "volume": 40,
+        "difficulty": 22,
+        "cpc": 4.77,
+        "intent": "Informational",
+        "ranking_url": "https://www.reddit.com/r/Daytrading/comments/1j39mj3/best_free_screener/",
+        "retrieved_at": "2026-10-12",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://elite.finviz.com/help/screener",
+      "title": "Finviz Screener Help",
+      "publisher": "Finviz",
+      "source_type": "Vendor documentation",
+      "year": "not applicable",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "Screener universe and filters",
+      "method": "Vendor documentation",
+      "limitations": "Vendor description",
+      "verified": true,
+      "verification_note": "NASDAQ, NYSE, and AMEX coverage confirmed."
+    },
+    {
+      "url": "https://finviz.com/elite",
+      "title": "Finviz Elite",
+      "publisher": "Finviz",
+      "source_type": "Vendor pricing page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "Elite features and price",
+      "method": "Vendor list price",
+      "limitations": "Prices can change",
+      "verified": true,
+      "verification_note": "$39.50/month, $299.50/year; real-time data, alerts, exports; 8 vs 3 years of statements confirmed."
+    },
+    {
+      "url": "https://finance.yahoo.com/research-hub/screener/equity/",
+      "title": "Yahoo Finance Equity Screener",
+      "publisher": "Yahoo Finance",
+      "source_type": "Vendor tool page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "Screener coverage",
+      "method": "Vendor statement",
+      "limitations": "Result count changes daily",
+      "verified": true,
+      "verification_note": "50 regions and 10,000+ results confirmed; predefined screens confirmed on the screener hub."
+    },
+    {
+      "url": "https://www.koyfin.com/pricing/",
+      "title": "Koyfin Pricing",
+      "publisher": "Koyfin",
+      "source_type": "Vendor pricing page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "Plans and prices",
+      "method": "Vendor list price",
+      "limitations": "Prices can change",
+      "verified": true,
+      "verification_note": "Free: 2Y financials, 1Y estimates; Plus $39/month annual with 10Y data confirmed."
+    },
+    {
+      "url": "https://www.tradingview.com/pricing/",
+      "title": "TradingView Pricing",
+      "publisher": "TradingView",
+      "source_type": "Vendor pricing page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "Plans and prices",
+      "method": "Vendor list price",
+      "limitations": "Prices can change",
+      "verified": true,
+      "verification_note": "Essential $12.95/month billed annually confirmed."
+    },
+    {
+      "url": "https://stockanalysis.com/pro/",
+      "title": "Stock Analysis Pro",
+      "publisher": "Stock Analysis",
+      "source_type": "Vendor pricing page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "Pro features and price",
+      "method": "Vendor list price",
+      "limitations": "Prices can change",
+      "verified": true,
+      "verification_note": "$79/year, $9.99/month, 10-40 years, 300+ indicators, 100 alerts, 1 download/day confirmed."
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Entry paid plans: Finviz Elite $299.50/year, Koyfin Plus $39/month annual, TradingView Essential $12.95/month annual, Stock Analysis Pro $79/year, Yahoo Finance Bronze $95.40/year.",
+      "source_url": "https://stockanalysis.com/pro/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Retail subscription plans",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Vendor list prices checked October 15, 2026",
+      "limitations": "Prices and promotions change",
+      "sponsored": false,
+      "partial_year": true,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "What are the Best Free Stock Screeners",
+      "url": "https://www.stockscreening101.com/free-stock-screeners.html",
+      "publisher": "Stock Screening 101",
+      "format": "Directory and ranking",
+      "updated_at": "not stated",
+      "headings": [
+        "Best Free Stock Screeners",
+        "Identify the Best, Eliminate the Useless",
+        "1 - Pre-built screens",
+        "2,3 - Building and saving your screens",
+        "Free Stock Screeners",
+        "Free stock screeners - best choices",
+        "Screeners with limited features",
+        "Screeners with little value",
+        "Screener Museum",
+        "Screeners",
+        "Free Screeners",
+        "Fee-based Screeners",
+        "BlackBox Screeners",
+        "Strategies"
+      ],
+      "coverage": [
+        "Free screener rankings",
+        "Features to look for"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Ranked lists"
+      ],
+      "link_patterns": [
+        "Few outbound links"
+      ],
+      "trust_signals": [
+        "Long-running niche site"
+      ],
+      "covered_well": "Clear criteria for judging free screeners.",
+      "gaps": "No current pricing or dates; tool list looks dated."
+    },
+    {
+      "title": "Compare 9 Free Stock Screeners (+ 5 Paid Options)",
+      "url": "https://www.finder.com/ca/stock-trading/stock-screeners",
+      "publisher": "Finder",
+      "format": "Comparison guide",
+      "updated_at": "2026-10-14",
+      "headings": [
+        "Stock Screeners",
+        "Free screeners are ideal for beginners, but often lack real-time data.",
+        "Key takeaways",
+        "What are stock screeners?",
+        "How do I use a stock screener?",
+        "Free stock screeners",
+        "Paid stock screeners",
+        "Stock screening apps",
+        "Online trading platform stock screeners",
+        "How to choose a stock screener",
+        "Alternative ways to choose stocks",
+        "Bottom line",
+        "Frequently asked questions",
+        "Sources"
+      ],
+      "coverage": [
+        "Free and paid screeners",
+        "How to choose",
+        "FAQ"
+      ],
+      "sources": [
+        "Listed sources section"
+      ],
+      "data_assets": [
+        "Comparison cards"
+      ],
+      "link_patterns": [
+        "Affiliate links to platforms"
+      ],
+      "trust_signals": [
+        "Advertiser disclosure",
+        "Recent update"
+      ],
+      "covered_well": "Broad comparison updated October 2026.",
+      "gaps": "Canadian focus; little on what each free plan leaves out."
+    },
+    {
+      "title": "Best Free Stock Scanners",
+      "url": "https://daytradereview.com/best-free-stock-scanners/",
+      "publisher": "Day Trade Review",
+      "format": "Ranked review",
+      "updated_at": "2026-04-16",
+      "headings": [
+        "Best Free Stock Scanners",
+        "Why Do You Need a Stock Scanner?",
+        "Free vs. Paid Stock Scanners",
+        "🏆 Top Rated Services 🏆",
+        "Best Free Stock Scanner for Investors: Stock Rover",
+        "Most Customizable Free Stock Scanner: FinViz",
+        "Best Free Scanner for Sophisticated Traders: StockFetcher",
+        "🏆 Top Rated Services 🏆",
+        "Best Scanner for Simplicity and Charting: TradingView",
+        "Conclusion"
+      ],
+      "coverage": [
+        "Four free scanners",
+        "Free vs paid"
+      ],
+      "sources": [
+        "Platform sites"
+      ],
+      "data_assets": [
+        "Tables",
+        "Screenshots"
+      ],
+      "link_patterns": [
+        "Affiliate links"
+      ],
+      "trust_signals": [
+        "Reviewer byline"
+      ],
+      "covered_well": "Clear free vs paid section.",
+      "gaps": "Day-trading focus; few fundamental screeners covered."
+    },
+    {
+      "title": "The 6 Best Stock Screeners in 2026 (Free and Paid)",
+      "url": "https://wallethacks.com/best-stock-screeners/",
+      "publisher": "Wallet Hacks",
+      "format": "Listicle",
+      "updated_at": "2024-04-01",
+      "headings": [
+        "The 6 Best Stock Screeners in 2026 (Free and Paid)",
+        "What is a Stock Screener?",
+        "The Best Stock Screeners",
+        "Stock Rover",
+        "Morningstar",
+        "Benzinga Pro",
+        "Finbox",
+        "FINVIZ*Elite",
+        "Yahoo! Finance",
+        "Final Thoughts on the Best Stock Screeners",
+        "Other Posts You May Enjoy:",
+        "What to do if you think the market is overvalued",
+        "My Biggest Investing Mistake and How You Can Avoid It",
+        "eToro Review 2026: Learn Cryptocurrency from Experienced Investors"
+      ],
+      "coverage": [
+        "Six screeners"
+      ],
+      "sources": [
+        "Vendor sites"
+      ],
+      "data_assets": [
+        "Screenshots"
+      ],
+      "link_patterns": [
+        "Affiliate links"
+      ],
+      "trust_signals": [
+        "Author byline"
+      ],
+      "covered_well": "Readable overviews.",
+      "gaps": "Last modified 2024; prices out of date."
+    },
+    {
+      "title": "10 Best Finviz Alternatives in 2026 (Free & Paid)",
+      "url": "https://chartinglens.com/blog/best-finviz-alternatives",
+      "publisher": "ChartingLens",
+      "format": "Ranked comparison (vendor)",
+      "updated_at": "2026-09-22",
+      "headings": [
+        "10 Best Finviz Alternatives in 2026 (Free & Paid)",
+        "Table of Contents",
+        "Why Traders Are Looking Beyond Finviz",
+        "Quick Comparison: All 10 Finviz Alternatives",
+        "In-Depth Reviews of All 10 Finviz Alternatives",
+        "1. ChartingLens — Best Overall Finviz Alternative",
+        "2. TradingView — Best for Interactive Charting & Pine Script",
+        "3. TC2000 — Best for Condition-Based Scanning",
+        "4. Barchart — Best for Broad Market Data Coverage",
+        "5. Thinkorswim — Best Free Broker-Integrated Screener",
+        "6. Koyfin — Best for Fundamental Research",
+        "7. StockCharts — Best for Classical Technical Analysis",
+        "8. TrendSpider — Best for Automated Technical Scanning",
+        "9. Yahoo Finance — Best Completely Free Option"
+      ],
+      "coverage": [
+        "Ten Finviz alternatives",
+        "Pricing",
+        "How to choose"
+      ],
+      "sources": [
+        "Vendor pages"
+      ],
+      "data_assets": [
+        "Comparison table"
+      ],
+      "link_patterns": [
+        "Links to own product"
+      ],
+      "trust_signals": [
+        "Recent update"
+      ],
+      "covered_well": "Recent pricing comparison.",
+      "gaps": "Ranks its own product first; technical bias."
+    }
+  ],
+  "content_gaps": [
+    "Few ranking pages state exactly what each free plan includes and excludes.",
+    "Several pages are dated or written by a vendor that ranks itself first.",
+    "None gives a simple routine for using a free screener well."
+  ],
+  "value_add": "Plan limits and prices checked on provider pages on October 15, 2026, a workflow-based comparison table, and a four-step free screening routine.",
+  "plan": {
+    "reader_title": "Best Stock Screener for Free: What You Can Do Without Paying",
+    "seo_title": "Best Stock Screener for Free: 2026 Comparison",
+    "meta_description": "Find the best stock screener for free in 2026. Finviz, Yahoo Finance, Koyfin, TradingView, and Stock Analysis compared by features and upgrade limits.",
+    "slug": "/markets-stocks/best-free-stock-screeners/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "free stock screener",
+      "best free stock screener",
+      "free stock screening tools"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "What a Free Stock Screener Should Help You Do",
+      "How to Judge the Best Stock Screener for Free",
+      "Finviz Is the Strongest Free Option for Fast U.S. Screening",
+      "Yahoo Finance Gives Free Screening Across 50 Regions",
+      "Koyfin Adds Fundamental Context to Screening",
+      "TradingView Is the Best Free Screener for Chart-Driven Investors",
+      "Stock Analysis Offers a Strong Free Fundamental Starting Point",
+      "Free Stock Screeners Compared",
+      "Which Free Screener Fits Different Investors?",
+      "When Paying for a Screener Starts to Make Sense",
+      "A Simple Routine for Free Screening",
+      "Common Mistakes With Free Screeners",
+      "Free Is Enough Until the Workflow Says Otherwise",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Finviz Screener Help: NASDAQ, NYSE, and AMEX coverage confirmed.",
+      "Finviz Elite: $39.50/month, $299.50/year; real-time data, alerts, exports; 8 vs 3 years of statements confirmed.",
+      "Yahoo Finance Equity Screener: 50 regions and 10,000+ results confirmed; predefined screens confirmed on the screener hub.",
+      "Koyfin Pricing: Free: 2Y financials, 1Y estimates; Plus $39/month annual with 10Y data confirmed."
+    ],
+    "visuals": [
+      "Owner-supplied hero image (AI-generated)",
+      "Comparison tables"
+    ],
+    "internal_links": [
+      "/markets-stocks/stock-screener-metrics-guide/"
+    ],
+    "external_link_opportunities": [
+      "Finviz screener help",
+      "Finviz Elite",
+      "TradingView pricing"
+    ],
+    "excluded_claims": [
+      "No recommendation of a single best tool for everyone"
+    ],
+    "drafting_cautions": [
+      "State prices with the check date",
+      "Yahoo prices are annual; label monthly equivalents"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Finviz Elite costs $39.50 per month or $299.50 per year and adds real-time data, alerts, and exports.",
+      "source_url": "https://finviz.com/elite",
+      "verified": true
+    },
+    {
+      "statement": "Finviz's screener covers NASDAQ, NYSE, and AMEX listed stocks.",
+      "source_url": "https://elite.finviz.com/help/screener",
+      "verified": true
+    },
+    {
+      "statement": "TradingView Essential costs $12.95 per month on annual billing.",
+      "source_url": "https://www.tradingview.com/pricing/",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": false,
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  "qa": {
+    "completed": false,
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  "verification_log": {
+    "checked_on": "2026-10-15",
+    "summary": "Rewritten from the owner draft to house standards on 2026-10-15. Every figure checked against the primary source listed in sources (vendor pages, SEC filings, CFA Institute, FINRA). Ubersuggest US data retrieved 2026-10-15 (some supporting queries 2026-10-12). Five competitor pages read; blocked pages replaced by the next ranking page.",
+    "pending": "Owner fact-check and QA sign-off."
+  }
+}
