@@ -1,0 +1,456 @@
+{
+  "tracker_id": "Blog:S27",
+  "status": "verified",
+  "research_question": "What tools does technical analysis for stocks use, and what does published research say about simple technical rules?",
+  "research_brief": {
+    "purpose": "Explain core tools and summarize verifiable research on rule performance.",
+    "audience": "Investors learning technical analysis.",
+    "publication_year": "2026",
+    "data_period": "Studies cover 1897 to 2011 (DJIA) and 1988 to 2011 (S&P 500); CFA reading 2026.",
+    "scope_limitations": "Older peer-reviewed evidence; owner-cited SSRN 6977700 could not be verified and was excluded."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "technical analysis for stocks",
+    "intent": "Informational",
+    "serp_checked_at": "2026-10-15",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-15",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "technical analysis for stocks",
+        "type": "short-tail",
+        "volume": 1300,
+        "difficulty": 14,
+        "cpc": 4.355,
+        "intent": "Informational",
+        "ranking_url": "https://www.oanda.com/uk-en/skills-and-insights/education/technical-analysis/introduction-to-technical-analysis/",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "does technical analysis work",
+        "type": "long-tail",
+        "volume": 170,
+        "difficulty": 41,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.fool.com/terms/t/technical-analysis/",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "technical indicators for stocks",
+        "type": "commercial",
+        "volume": 720,
+        "difficulty": 52,
+        "cpc": 5.82,
+        "intent": "Commercial",
+        "ranking_url": "https://groww.in/p/technical-analysis",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "stock exchange technical analysis",
+        "type": "problem",
+        "volume": 320,
+        "difficulty": 12,
+        "cpc": 3.565,
+        "intent": "Informational",
+        "ranking_url": "https://us.etrade.com/knowledge/library/stocks/intro-to-technical-analysis",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "does technical analysis work",
+        "type": "question",
+        "volume": 170,
+        "difficulty": 41,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.fool.com/terms/t/technical-analysis/",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/equity-valuation-concepts-basic-tools",
+      "title": "Equity Valuation: Concepts and Basic Tools",
+      "publisher": "CFA Institute",
+      "source_type": "Professional education reading",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "Technical vs fundamental definitions",
+      "method": "Curriculum text",
+      "limitations": "Introductory reading",
+      "verified": true,
+      "verification_note": "Quoted definition of technical and fundamental analysis confirmed."
+    },
+    {
+      "url": "https://openaccess.city.ac.uk/id/eprint/17842/",
+      "title": "Breaking Into the Blackbox: Trend Following, Stop Losses and the Frequency of Trading",
+      "publisher": "Clare, Seaton, Smith, Thomas (Journal of Asset Management)",
+      "source_type": "Peer-reviewed paper (accepted version)",
+      "year": "2013",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "S&P 500 trend rules, July 1988 to June 2011",
+      "method": "Backtest with 20 bp cost per trade",
+      "limitations": "Single index; historical period",
+      "verified": true,
+      "verification_note": "200-day monthly 10.66%, Sharpe 0.58 vs buy-and-hold 9.49%, 0.31; volatility one-half to one-third; stop losses add no value confirmed from accepted version."
+    },
+    {
+      "url": "https://ssrn.com/abstract=1095202",
+      "title": "Technical Trading Revisited: False Discoveries, Persistence Tests, and Transaction Costs",
+      "publisher": "Bajgrowicz and Scaillet (Swiss Finance Institute)",
+      "source_type": "Research paper",
+      "year": "2011",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "DJIA daily 1897 to 2011",
+      "method": "False Discovery Rate tests",
+      "limitations": "Single index",
+      "verified": true,
+      "verification_note": "Abstract confirmed from full PDF: rules not selectable ex ante; performance offset by low transaction costs."
+    },
+    {
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6858299",
+      "title": "Moving Average Strategy Effectiveness Across P/E Ratio Regimes",
+      "publisher": "Reid Fintak (SSRN)",
+      "source_type": "Unreviewed preprint",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "Six US stocks, 2020 to 2025",
+      "method": "Welch t-tests, Cohen d",
+      "limitations": "Small sample; unreviewed; SSRN blocked direct fetch",
+      "verified": true,
+      "verification_note": "Title, author, sample, and small effect sizes confirmed via SSRN listing in search results."
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "A monthly 200-day moving-average rule on the S&P 500 returned 10.66% a year with a Sharpe ratio of 0.58, versus 9.49% and 0.31 for buy-and-hold, July 1988 to June 2011, with a 20 bp cost per trade.",
+      "source_url": "https://openaccess.city.ac.uk/id/eprint/17842/",
+      "data_year": "1988-2011",
+      "geography": "United States",
+      "population": "S&P 500 index",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "Percent per year; Sharpe ratio",
+      "method": "Historical backtest",
+      "limitations": "Single index and period; backtest",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Introduction to technical analysis",
+      "url": "https://www.oanda.com/uk-en/skills-and-insights/education/technical-analysis/introduction-to-technical-analysis/",
+      "publisher": "OANDA",
+      "format": "Education article",
+      "updated_at": "2023-04-05",
+      "headings": [
+        "Introduction to technical analysis",
+        "In this article you will learn:",
+        "What is technical analysis in trading?",
+        "Technical analysis versus fundamental analysis",
+        "Taking your first step in technical analysis",
+        "Tools used by technical analysts",
+        "Finding good entry and exit points for a trade",
+        "Key takeaways",
+        "Introduction to trading",
+        "Fundamental analysis",
+        "Technical analysis",
+        "Platforms & tools",
+        "Market timing & volatility",
+        "Trading psychology"
+      ],
+      "coverage": [
+        "Technical vs fundamental",
+        "Tools",
+        "Entry and exit"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Charts"
+      ],
+      "link_patterns": [
+        "Platform links"
+      ],
+      "trust_signals": [
+        "Broker brand"
+      ],
+      "covered_well": "Clear beginner structure.",
+      "gaps": "Forex focus; no research evidence."
+    },
+    {
+      "title": "Technical Analysis",
+      "url": "https://groww.in/p/technical-analysis",
+      "publisher": "Groww",
+      "format": "Glossary guide",
+      "updated_at": "not stated",
+      "headings": [
+        "What is Technical Analysis?",
+        "Understanding Technical Analysis",
+        "Use of Technical Analysis",
+        "Technical Stock Market Charts",
+        "Indicators of Technical Analysis",
+        "Underlying Assumptions of Technical Analysis",
+        "The Market Discounts Everything",
+        "Prices Follow a Trend",
+        "History Usually Repeats Itself",
+        "Fundamental Analysis vs Technical Analysis-",
+        "Components of Trend Lines",
+        "a) Trend Lines",
+        "b) Support and Resistance",
+        "c) Volume"
+      ],
+      "coverage": [
+        "Charts",
+        "Indicators",
+        "Assumptions"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Chart images"
+      ],
+      "link_patterns": [
+        "Platform links"
+      ],
+      "trust_signals": [
+        "Broker brand"
+      ],
+      "covered_well": "Covers assumptions of the method.",
+      "gaps": "Indian market focus; no evidence on results."
+    },
+    {
+      "title": "What is Technical Analysis in Stock Trading?",
+      "url": "https://us.etrade.com/knowledge/library/stocks/intro-to-technical-analysis",
+      "publisher": "E*TRADE",
+      "format": "Education article",
+      "updated_at": "not stated",
+      "headings": [
+        "Get up to $1,500 for a limited time",
+        "Now, lock in 4.75% Annual Percentage Yield for 12 Months",
+        "Expert research and insights from Morgan Stanley",
+        "Crypto made clear",
+        "Introduction to technical analysis",
+        "What is technical analysis?",
+        "Assumptions of technical analysis",
+        "What to read next...",
+        "Understanding technical analysis charts and chart types",
+        "Understanding technical analysis price patterns",
+        "Understanding technical analysis support and resistance",
+        "Looking to expand your financial knowledge?",
+        "ETRADE Footer"
+      ],
+      "coverage": [
+        "What it is",
+        "Assumptions"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Images"
+      ],
+      "link_patterns": [
+        "Platform links"
+      ],
+      "trust_signals": [
+        "Broker brand"
+      ],
+      "covered_well": "Plain introduction.",
+      "gaps": "Promotional framing; no cost discussion."
+    },
+    {
+      "title": "What is Technical Analysis of Stocks?",
+      "url": "https://www.vectorvest.com/blog/swing-trading/what-is-technical-analysis-of-stocks/",
+      "publisher": "VectorVest",
+      "format": "Vendor blog",
+      "updated_at": "2023-12-07",
+      "headings": [
+        "What is Technical Analysis of Stocks?",
+        "What is Technical Analysis of Stocks?",
+        "Technical Analysis Defined",
+        "The History of Technical Analysis",
+        "What is Technical Analysis Valuable For?",
+        "Predicting Short-Term Price Movements",
+        "Assessing Market Strength and Potential Reversals",
+        "Enhancing Trading Strategies with Data-Driven Insights",
+        "Putting Technical Analysis Into Practice: How it Works",
+        "Chart Types: The Basics of Line, Bar, and Candlestick Charts",
+        "Indicators Decoded: Moving Averages, RSI, MACD, and More",
+        "Pattern Analysis: Recognizing and Interpreting Common Patterns",
+        "Bridging the Gap Between Technical and Fundamental Analysis",
+        "Understanding Key Differences"
+      ],
+      "coverage": [
+        "History",
+        "Uses",
+        "Limits"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Images"
+      ],
+      "link_patterns": [
+        "Links to own product"
+      ],
+      "trust_signals": [
+        "Vendor"
+      ],
+      "covered_well": "Covers history and uses.",
+      "gaps": "Vendor promotion; dated 2023."
+    },
+    {
+      "title": "Technical Analysis in Investing: What It Is and How It's Used",
+      "url": "https://www.fool.com/terms/t/technical-analysis/",
+      "publisher": "The Motley Fool",
+      "format": "Explainer",
+      "updated_at": "2025-07-30",
+      "headings": [
+        "Technical Analysis in Investing: What It Is and How It's Used",
+        "Key Points",
+        "About the Author",
+        "Read Next",
+        "Premium Investing Services",
+        "How to Read a Cash Flow Statement",
+        "How to Analyze Bank Stocks",
+        "3 Most Important Financial Statements",
+        "How to Pick a Stock for the First Time",
+        "What is technical analysis in investing?",
+        "Technical analysis versus fundamental analysis",
+        "Common technical indicators",
+        "Limitations of technical analysis",
+        "Related investing topics"
+      ],
+      "coverage": [
+        "Definition",
+        "Key points"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Lists"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Author byline",
+        "2025 update"
+      ],
+      "covered_well": "Balanced overview.",
+      "gaps": "No study data on rule performance."
+    }
+  ],
+  "content_gaps": [
+    "Ranking pages explain tools but cite no research on whether rules work.",
+    "Few discuss transaction costs or data mining.",
+    "None separates risk definition from prediction."
+  ],
+  "value_add": "Verified study figures (Clare et al. 2013; Bajgrowicz and Scaillet), cost and data-mining caveats, and a risk-planning section.",
+  "plan": {
+    "reader_title": "Technical Analysis for Stocks: Indicators, Charts, and Limits",
+    "seo_title": "Technical Analysis for Stocks: Indicators and Evidence",
+    "meta_description": "Learn how technical analysis for stocks uses price, volume, moving averages, RSI, and support levels, and what published research says about its limits.",
+    "slug": "/markets-stocks/technical-analysis-for-stocks/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "stock technical analysis",
+      "technical indicators for stocks",
+      "does technical analysis work"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "What Technical Analysis Measures",
+      "Moving Averages Measure Trend",
+      "RSI Measures Momentum, Not Value",
+      "Support and Resistance Describe Repeated Price Areas",
+      "Volume Can Confirm or Question a Price Move",
+      "Common Technical Indicators Compared",
+      "What Research Says About Simple Technical Rules",
+      "Why Technical Backtests Can Mislead",
+      "A Note on Newer, Smaller Studies",
+      "Technical and Fundamental Analysis Can Work Together",
+      "Use Technical Signals to Define Risk, Not Certainty",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Equity Valuation: Concepts and Basic Tools: Quoted definition of technical and fundamental analysis confirmed.",
+      "Breaking Into the Blackbox: Trend Following, Stop Losses and the Frequency of Trading: 200-day monthly 10.66%, Sharpe 0.58 vs buy-and-hold 9.49%, 0.31; volatility one-half to one-third; stop losses add no value confirmed from accepted version.",
+      "Technical Trading Revisited: False Discoveries, Persistence Tests, and Transaction Costs: Abstract confirmed from full PDF: rules not selectable ex ante; performance offset by low transaction costs.",
+      "Moving Average Strategy Effectiveness Across P/E Ratio Regimes: Title, author, sample, and small effect sizes confirmed via SSRN listing in search results."
+    ],
+    "visuals": [
+      "Owner-supplied hero image (AI-generated)",
+      "Comparison tables"
+    ],
+    "internal_links": [
+      "/markets-stocks/stock-analysis-fundamentals/"
+    ],
+    "external_link_opportunities": [
+      "CFA Institute reading",
+      "Clare et al. paper",
+      "Bajgrowicz and Scaillet paper"
+    ],
+    "excluded_claims": [
+      "SSRN 6977700 figures (0.60 vs 0.49 Sharpe; drawdowns): could not be verified"
+    ],
+    "drafting_cautions": [
+      "Label study periods and cost assumptions",
+      "No claim that any rule beats the market going forward"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Technical analysis uses stock price and trading volume as the basis for investment decisions.",
+      "source_url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/equity-valuation-concepts-basic-tools",
+      "verified": true
+    },
+    {
+      "statement": "In DJIA data from 1897 to 2011, low transaction costs fully offset in-sample technical rule performance.",
+      "source_url": "https://ssrn.com/abstract=1095202",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-15",
+    "note": "Approved by the site owner in the build session of 2026-10-15 (\"do the revision for the errors and you can push\") after reviewing the fact-check findings in docs/qa/2026-10-17-scheduled-posts.md."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-15",
+    "note": "Approved by the site owner in the build session of 2026-10-15 (\"do the revision for the errors and you can push\") after reviewing the fact-check findings in docs/qa/2026-10-17-scheduled-posts.md."
+  },
+  "verification_log": {
+    "checked_on": "2026-10-15",
+    "summary": "Rewritten from the owner draft to house standards on 2026-10-15. Every figure checked against the primary source listed in sources. Ubersuggest US data retrieved 2026-10-15. Five competitor pages read; blocked pages replaced by the next ranking page.",
+    "pending": "None."
+  }
+}

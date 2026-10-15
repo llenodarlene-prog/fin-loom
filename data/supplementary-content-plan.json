@@ -432,6 +432,60 @@
       "scheduled_publish": "2026-10-16",
       "min_words": 2500,
       "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S25",
+      "working_title": "Zacks Stock Screener: How the Rank, Screens, and Research Fit Together",
+      "primary_keyword": "zacks stock screener",
+      "secondary_keywords": "zacks rank; zacks premium; is zacks premium worth it; zacks premium screens",
+      "cluster": "Markets & Stocks",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/markets-stocks/zacks-stock-screener/",
+      "seo_title": "Zacks Stock Screener Review for 2026",
+      "meta_description": "See how the Zacks stock screener works in 2026: Zacks Rank filters, Premium Screens, Research Wizard, pricing, strengths, and limits for investors.",
+      "link_placement_site": "",
+      "source_file": "Supplied by the site owner in chat on 2026-10-15 (zacks-stock-screener)",
+      "scheduled_publish": "2026-10-17",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S26",
+      "working_title": "Yahoo Finance Stock Research: What the Free Tools Cover and When Premium Adds Value",
+      "primary_keyword": "yahoo finance stock research",
+      "secondary_keywords": "yahoo stock research; yahoo finance premium; yahoo finance stock screener; is yahoo finance premium worth it",
+      "cluster": "Markets & Stocks",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/markets-stocks/yahoo-finance-stock-research/",
+      "seo_title": "Yahoo Finance Stock Research Review for 2026",
+      "meta_description": "Review Yahoo Finance stock research tools for 2026: free screeners, quote pages, Morningstar research, plan pricing, strengths, and limitations.",
+      "link_placement_site": "",
+      "source_file": "Supplied by the site owner in chat on 2026-10-15 (yahoo-finance-stock-research)",
+      "scheduled_publish": "2026-10-18",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S27",
+      "working_title": "Technical Analysis for Stocks: Indicators, Charts, and Limits",
+      "primary_keyword": "technical analysis for stocks",
+      "secondary_keywords": "stock technical analysis; technical indicators for stocks; does technical analysis work; stock exchange technical analysis",
+      "cluster": "Markets & Stocks",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/markets-stocks/technical-analysis-for-stocks/",
+      "seo_title": "Technical Analysis for Stocks: Indicators and Evidence",
+      "meta_description": "Learn how technical analysis for stocks uses price, volume, moving averages, RSI, and support levels, and what published research says about its limits.",
+      "link_placement_site": "",
+      "source_file": "Supplied by the site owner in chat on 2026-10-15 (technical-analysis-for-stocks)",
+      "scheduled_publish": "2026-10-18",
+      "min_words": 2500,
+      "no_word_ceiling": true
     }
   ],
   "links": [
@@ -649,6 +703,33 @@
       "primary_silo_hub": "/markets-stocks/",
       "approved_outbound_targets": [
         "/investing/stock-risk-metrics/"
+      ]
+    },
+    {
+      "type": "Blog",
+      "content_number": "S25",
+      "url_slug": "/markets-stocks/zacks-stock-screener/",
+      "primary_silo_hub": "/markets-stocks/",
+      "approved_outbound_targets": [
+        "/markets-stocks/best-free-stock-screeners/"
+      ]
+    },
+    {
+      "type": "Blog",
+      "content_number": "S26",
+      "url_slug": "/markets-stocks/yahoo-finance-stock-research/",
+      "primary_silo_hub": "/markets-stocks/",
+      "approved_outbound_targets": [
+        "/markets-stocks/best-stock-analysis-apps/"
+      ]
+    },
+    {
+      "type": "Blog",
+      "content_number": "S27",
+      "url_slug": "/markets-stocks/technical-analysis-for-stocks/",
+      "primary_silo_hub": "/markets-stocks/",
+      "approved_outbound_targets": [
+        "/markets-stocks/stock-analysis-fundamentals/"
       ]
     }
   ]

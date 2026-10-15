@@ -728,5 +728,65 @@
     "rights_status": "approved",
     "rights_source": "Supplied by the site owner in chat on 2026-10-15 for this post (AI-generated image)",
     "alt_guidance": "A large monitor showing a light investment dashboard with charts beside a tablet and notebook on a desk"
+  },
+  {
+    "path": "/assets/images/posts/zacks-stock-screener/analyst-reviewing-printed-charts-1600.jpg",
+    "title": "A person reviewing printed financial charts at a desk beside a laptop showing market dashboards and a city skyline",
+    "use": "Hero image for /markets-stocks/zacks-stock-screener/",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Supplied by the site owner in chat on 2026-10-15 for this post (AI-generated image)",
+    "alt_guidance": "A person reviewing printed financial charts at a desk beside a laptop showing market dashboards and a city skyline"
+  },
+  {
+    "path": "/assets/images/posts/zacks-stock-screener/analyst-reviewing-printed-charts-800.jpg",
+    "title": "A person reviewing printed financial charts at a desk beside a laptop showing market dashboards and a city skyline",
+    "use": "Hero image for /markets-stocks/zacks-stock-screener/",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Supplied by the site owner in chat on 2026-10-15 for this post (AI-generated image)",
+    "alt_guidance": "A person reviewing printed financial charts at a desk beside a laptop showing market dashboards and a city skyline"
+  },
+  {
+    "path": "/assets/images/posts/yahoo-finance-stock-research/laptop-market-dashboard-globe-1600.jpg",
+    "title": "A laptop showing market charts and a world map dashboard on a marble desk beside a globe, notebook, and coffee cup",
+    "use": "Hero image for /markets-stocks/yahoo-finance-stock-research/",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Supplied by the site owner in chat on 2026-10-15 for this post (AI-generated image)",
+    "alt_guidance": "A laptop showing market charts and a world map dashboard on a marble desk beside a globe, notebook, and coffee cup"
+  },
+  {
+    "path": "/assets/images/posts/yahoo-finance-stock-research/laptop-market-dashboard-globe-800.jpg",
+    "title": "A laptop showing market charts and a world map dashboard on a marble desk beside a globe, notebook, and coffee cup",
+    "use": "Hero image for /markets-stocks/yahoo-finance-stock-research/",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Supplied by the site owner in chat on 2026-10-15 for this post (AI-generated image)",
+    "alt_guidance": "A laptop showing market charts and a world map dashboard on a marble desk beside a globe, notebook, and coffee cup"
+  },
+  {
+    "path": "/assets/images/posts/technical-analysis-for-stocks/laptop-phone-trading-charts-1600.jpg",
+    "title": "A laptop and phone showing stock charts and market heatmaps on a desk with a bull figurine and city view",
+    "use": "Hero image for /markets-stocks/technical-analysis-for-stocks/",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Supplied by the site owner in chat on 2026-10-15 for this post (AI-generated image)",
+    "alt_guidance": "A laptop and phone showing stock charts and market heatmaps on a desk with a bull figurine and city view"
+  },
+  {
+    "path": "/assets/images/posts/technical-analysis-for-stocks/laptop-phone-trading-charts-800.jpg",
+    "title": "A laptop and phone showing stock charts and market heatmaps on a desk with a bull figurine and city view",
+    "use": "Hero image for /markets-stocks/technical-analysis-for-stocks/",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Supplied by the site owner in chat on 2026-10-15 for this post (AI-generated image)",
+    "alt_guidance": "A laptop and phone showing stock charts and market heatmaps on a desk with a bull figurine and city view"
   }
 ]
