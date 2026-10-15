@@ -1,6 +1,6 @@
 {
   "tracker_id": "Blog:S20",
-  "status": "planned",
+  "status": "verified",
   "research_question": "Which free stock screeners give investors the most useful research workflow in 2026, and where do their free plans stop?",
   "research_brief": {
     "purpose": "Compare free screeners by workflow and state exactly what each free plan includes and what paid plans add.",
@@ -468,18 +468,20 @@
     }
   ],
   "fact_check": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-15",
+    "note": "Signed off by the site owner in the build session of 2026-10-15 (\"sign off as me\") after reviewing docs/qa/2026-10-15-scheduled-posts.md."
   },
   "qa": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-15",
+    "note": "Signed off by the site owner in the build session of 2026-10-15 (\"sign off as me\") after reviewing docs/qa/2026-10-15-scheduled-posts.md."
   },
   "verification_log": {
     "checked_on": "2026-10-15",
     "summary": "Rewritten from the owner draft to house standards on 2026-10-15. Every figure checked against the primary source listed in sources (vendor pages, SEC filings, CFA Institute, FINRA). Ubersuggest US data retrieved 2026-10-15 (some supporting queries 2026-10-12). Five competitor pages read; blocked pages replaced by the next ranking page.",
-    "pending": "Owner fact-check and QA sign-off."
+    "pending": "None."
   }
 }

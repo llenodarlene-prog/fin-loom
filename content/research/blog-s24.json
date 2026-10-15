@@ -1,6 +1,6 @@
 {
   "tracker_id": "Blog:S24",
-  "status": "planned",
+  "status": "verified",
   "research_question": "What does Morningstar Investor's screener do, how does it connect to ratings and portfolio tools, and what does it cost?",
   "research_brief": {
     "purpose": "Review the Morningstar screener for long-term investors using Morningstar pages.",
@@ -10,7 +10,7 @@
     "scope_limitations": "Single platform; prices can change; no endorsement."
   },
   "keyword_research": {
-    "approved_primary_keyword": "stock screener morningstar",
+    "approved_primary_keyword": "morningstar stock screener",
     "intent": "Informational",
     "serp_checked_at": "2026-10-15",
     "tools": [
@@ -23,11 +23,11 @@
     ],
     "queries": [
       {
-        "keyword": "stock screener morningstar",
+        "keyword": "morningstar stock screener",
         "type": "short-tail",
-        "volume": 390,
-        "difficulty": 29,
-        "cpc": 6.23,
+        "volume": 1900,
+        "difficulty": 37,
+        "cpc": 8.16,
         "intent": "Informational",
         "ranking_url": "https://www.morningstar.com/mm/investor/etf-fund-stock-screener",
         "retrieved_at": "2026-10-15",
@@ -45,11 +45,11 @@
         "tool": "Ubersuggest"
       },
       {
-        "keyword": "morningstar stock screener",
+        "keyword": "stock screener morningstar",
         "type": "commercial",
-        "volume": 1900,
-        "difficulty": 37,
-        "cpc": 8.16,
+        "volume": 390,
+        "difficulty": 29,
+        "cpc": 6.23,
         "intent": "Informational",
         "ranking_url": "https://www.morningstar.com/mm/investor/etf-fund-stock-screener",
         "retrieved_at": "2026-10-15",
@@ -353,13 +353,13 @@
   ],
   "value_add": "Independent review using Morningstar pages, a long-term screening workflow, rating explanations, and a trial checklist.",
   "plan": {
-    "reader_title": "Stock Screener Morningstar Review: Research Depth, Ratings, and Portfolio Fit",
-    "seo_title": "Stock Screener Morningstar Review for 2026",
-    "meta_description": "A stock screener Morningstar review for 2026: filters, analyst ratings, portfolio tools, pricing, strengths, and limitations for long-term investors.",
+    "reader_title": "Morningstar Stock Screener Review: Research Depth, Ratings, and Portfolio Fit",
+    "seo_title": "Morningstar Stock Screener Review for 2026",
+    "meta_description": "A Morningstar stock screener review for 2026: filters, analyst ratings, portfolio tools, pricing, strengths, and limitations for long-term investors.",
     "slug": "/markets-stocks/morningstar-stock-screener/",
     "search_intent": "Informational",
     "secondary_keywords": [
-      "morningstar stock screener",
+      "stock screener morningstar",
       "morningstar investor review",
       "morningstar screener"
     ],
@@ -424,18 +424,20 @@
     }
   ],
   "fact_check": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-15",
+    "note": "Signed off by the site owner in the build session of 2026-10-15 (\"sign off as me\") after reviewing docs/qa/2026-10-15-scheduled-posts.md."
   },
   "qa": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-15",
+    "note": "Signed off by the site owner in the build session of 2026-10-15 (\"sign off as me\") after reviewing docs/qa/2026-10-15-scheduled-posts.md."
   },
   "verification_log": {
     "checked_on": "2026-10-15",
-    "summary": "Rewritten from the owner draft to house standards on 2026-10-15. Every figure checked against the primary source listed in sources (vendor pages, SEC filings, CFA Institute, FINRA). Ubersuggest US data retrieved 2026-10-15 (some supporting queries 2026-10-12). Five competitor pages read; blocked pages replaced by the next ranking page.",
-    "pending": "Owner fact-check and QA sign-off."
+    "summary": "Rewritten from the owner draft to house standards on 2026-10-15. Every figure checked against the primary source listed in sources (vendor pages, SEC filings, CFA Institute, FINRA). Ubersuggest US data retrieved 2026-10-15 (some supporting queries 2026-10-12). Five competitor pages read; blocked pages replaced by the next ranking page. Primary keyword switched to \"morningstar stock screener\" (1,900 US searches a month versus 390) by owner decision of 2026-10-15.",
+    "pending": "None."
   }
 }

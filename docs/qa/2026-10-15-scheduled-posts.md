@@ -42,5 +42,5 @@ Every post passes `check:content` when dry-run as published:
 
 ## Open
 
-1. Owner fact-check and QA sign-off.
-2. **S24 keyword.** "morningstar stock screener" gets 1,900 US searches a month, against 390 for the supplied "stock screener morningstar". The natural word order also reads better.
+1. Signed off by Darlene Aberin on 2026-10-15. All five research records are verified and the posts approved for their slots.
+2. **S24 keyword.** Switched to "morningstar stock screener" by owner decision of 2026-10-15.

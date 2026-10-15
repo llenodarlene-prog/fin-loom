@@ -5,7 +5,7 @@ description: Analyze Forrester Research stock in 2026 using revenue, contract va
 slug: /markets-stocks/forrester-research-stock/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S23
 primary_keyword: forrester research stock
 secondary_keywords: FORR stock; Forrester stock; Forrester Research earnings; Forrester contract value
@@ -18,9 +18,9 @@ link_placement_site:
 charts_pending: 0
 ai_exceptions: 
 ai_exception_reason: 
-author: 
-published: 
-modified: 
+author: Darlene Aberin
+published: 2026-10-17
+modified: 2026-10-17
 ---
 
 # Forrester Research Stock: Revenue Pressure, AI Adoption, and the 2026 Reset

@@ -1,14 +1,14 @@
 ---
-title: Stock Screener Morningstar Review: Research Depth, Ratings, and Portfolio Fit
-seo_title: Stock Screener Morningstar Review for 2026
-description: A stock screener Morningstar review for 2026: filters, analyst ratings, portfolio tools, pricing, strengths, and limitations for long-term investors.
+title: Morningstar Stock Screener Review: Research Depth, Ratings, and Portfolio Fit
+seo_title: Morningstar Stock Screener Review for 2026
+description: A Morningstar stock screener review for 2026: filters, analyst ratings, portfolio tools, pricing, strengths, and limitations for long-term investors.
 slug: /markets-stocks/morningstar-stock-screener/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S24
-primary_keyword: stock screener morningstar
-secondary_keywords: morningstar stock screener; morningstar investor review; morningstar screener; morningstar portfolio x-ray
+primary_keyword: morningstar stock screener
+secondary_keywords: stock screener morningstar; morningstar investor review; morningstar screener; morningstar portfolio x-ray
 cluster: Markets & Stocks
 approved_internal_links: /investing/stock-risk-metrics/
 research_record: content/research/blog-s24.json
@@ -18,16 +18,16 @@ link_placement_site:
 charts_pending: 0
 ai_exceptions: 
 ai_exception_reason: 
-author: 
-published: 
-modified: 
+author: Darlene Aberin
+published: 2026-10-16
+modified: 2026-10-16
 ---
 
-# Stock Screener Morningstar Review: Research Depth, Ratings, and Portfolio Fit
+# Morningstar Stock Screener Review: Research Depth, Ratings, and Portfolio Fit
 
-The stock screener Morningstar includes in its Investor subscription is most useful for investors who do not want screening to stop at a list of tickers. The platform combines quantitative filters with Morningstar ratings, analyst research, fair-value estimates, watchlists, and portfolio analysis.
+The Morningstar stock screener included in its Investor subscription is most useful for investors who do not want screening to stop at a list of tickers. The platform combines quantitative filters with Morningstar ratings, analyst research, fair-value estimates, watchlists, and portfolio analysis.
 
-Morningstar Investor costs $249 per year or $34.95 per month, according to Morningstar's own pricing on October 15, 2026. The annual plan works out to $20.75 per month. Its value depends heavily on whether an investor uses the research and portfolio layers beyond the first set of filters, so the stock screener Morningstar offers is best judged as part of that whole package.
+Morningstar Investor costs $249 per year or $34.95 per month, according to Morningstar's own pricing on October 15, 2026. The annual plan works out to $20.75 per month. Its value depends heavily on whether an investor uses the research and portfolio layers beyond the first set of filters, so the Morningstar stock screener is best judged as part of that whole package.
 
 ## Key Takeaways
 
@@ -44,7 +44,7 @@ According to [Morningstar's screener page](https://www.morningstar.com/mm/invest
 
 Morningstar's overview page says users can start from pre-filtered investment lists or create their own screen using more than 200 unique data points. That gives newer users a starting framework and lets experienced investors build exactly the screen they want.
 
-The range of security types is useful because each one needs a different framework. A fund screen may focus on fees, risk, category, and performance, while a stock screen may focus on valuation, profitability, financial health, and analyst ratings. The stock screener Morningstar provides handles both within one subscription.
+The range of security types is useful because each one needs a different framework. A fund screen may focus on fees, risk, category, and performance, while a stock screen may focus on valuation, profitability, financial health, and analyst ratings. The Morningstar stock screener handles both within one subscription.
 
 ## Morningstar Ratings Add a Research Layer to Screening
 
@@ -74,7 +74,7 @@ Investors should still understand why each company passed. A stock can meet a li
 
 Morningstar's help center describes tools for editing data and columns in the screener, adding, removing, and arranging data points, and sending screened securities to watchlists.
 
-This becomes more valuable as a research process matures. Investors often find that only a handful of metrics consistently influence their decisions. A custom screen built around those metrics, with the matching columns on display, turns the stock screener Morningstar offers into a repeatable weekly routine.
+This becomes more valuable as a research process matures. Investors often find that only a handful of metrics consistently influence their decisions. A custom screen built around those metrics, with the matching columns on display, turns the Morningstar stock screener into a repeatable weekly routine.
 
 ## Portfolio Tools Are a Major Part of the Value
 
@@ -143,11 +143,11 @@ Morningstar's advantage is not that it screens faster. It is that the screen con
 
 A rating can save time, but it should not replace analysis. An investor can use Morningstar's fair-value or competitive-advantage measures to narrow a list, then review the business model, financial statements, current price, risks, and the assumptions behind each rating.
 
-Pairing those results with [stock risk metrics](/investing/stock-risk-metrics/) can also help separate companies that look attractive on valuation from stocks with unusually high volatility or drawdown risk. A stock screener Morningstar subscribers run well is one step in that process, not the whole of it.
+Pairing those results with [stock risk metrics](/investing/stock-risk-metrics/) can also help separate companies that look attractive on valuation from stocks with unusually high volatility or drawdown risk. A well-built Morningstar stock screener search is one step in that process, not the whole of it.
 
 ## A Sample Long-Term Screening Workflow
 
-The stock screener Morningstar offers works best as the first step in a longer process. The workflow below shows how its features fit together for a long-term investor.
+The Morningstar stock screener works best as the first step in a longer process. The workflow below shows how its features fit together for a long-term investor.
 
 ### Step One: Screen for Quality and Value
 
@@ -175,7 +175,7 @@ Run Portfolio X-Ray on your current holdings. Investors who own both funds and i
 
 ## Comparing and Tracking Screen Results
 
-Finding companies is only part of the job. The stock screener Morningstar includes connects with tools for comparing and tracking them afterward.
+Finding companies is only part of the job. The Morningstar stock screener connects with tools for comparing and tracking them afterward.
 
 ### Side-by-Side Comparison
 
@@ -217,11 +217,11 @@ Twelve monthly payments of $34.95 come to $419.40 a year, compared with $249 for
 
 Morningstar Investor is most attractive for investors who hold stocks and funds together, want independent analyst research, care about fair value and competitive advantage, and review portfolio allocation regularly.
 
-Investors focused mainly on short-term technical trading are less likely to use its strongest features. For them, the stock screener Morningstar offers covers more research than they need, while charting and alerts are deeper elsewhere.
+Investors focused mainly on short-term technical trading are less likely to use its strongest features. For them, the Morningstar stock screener covers more research than they need, while charting and alerts are deeper elsewhere.
 
 ## Morningstar Is More Than a Screener, Which Is Also Its Main Tradeoff
 
-The stock screener Morningstar provides is valuable because it sits inside a larger research and portfolio system. That can make the $249 annual subscription worthwhile for investors who use ratings, analyst research, Portfolio X-Ray, watchlists, and screening together.
+The Morningstar stock screener is valuable because it sits inside a larger research and portfolio system. That can make the $249 annual subscription worthwhile for investors who use ratings, analyst research, Portfolio X-Ray, watchlists, and screening together.
 
 For someone who only needs to filter U.S. stocks by valuation or growth, a free screener may do the job more efficiently, and without any subscription cost. The seven-day trial is a sensible way to test which group an investor falls into before paying. A practical test is to run the same screen in Morningstar and in a free tool, then compare not only the lists but also how much further research each one supports. If the ratings, analyst notes, and portfolio checks change the decision, the subscription is doing work that a free screener cannot. If the lists and the next steps look the same, the free tool is likely enough for now.
 

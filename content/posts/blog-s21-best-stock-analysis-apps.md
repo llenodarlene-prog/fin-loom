@@ -5,7 +5,7 @@ description: Compare each app for stock analysis by financial data, screening, c
 slug: /markets-stocks/best-stock-analysis-apps/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S21
 primary_keyword: app for stock analysis
 secondary_keywords: best stock analysis apps; stock research app; stock analysis app; investing research apps
@@ -18,9 +18,9 @@ link_placement_site:
 charts_pending: 0
 ai_exceptions: 
 ai_exception_reason: 
-author: 
-published: 
-modified: 
+author: Darlene Aberin
+published: 2026-10-16
+modified: 2026-10-16
 ---
 
 # Choosing an App for Stock Analysis: Research Tools for Different Workflows

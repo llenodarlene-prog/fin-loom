@@ -5,7 +5,7 @@ description: Learn how equity research reports are structured, how analysts buil
 slug: /markets-stocks/equity-research-reports/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S22
 primary_keyword: equity research reports
 secondary_keywords: equity research report; how to read equity research; analyst price target; research report disclosures
@@ -18,9 +18,9 @@ link_placement_site:
 charts_pending: 0
 ai_exceptions: 
 ai_exception_reason: 
-author: 
-published: 
-modified: 
+author: Darlene Aberin
+published: 2026-10-15
+modified: 2026-10-15
 ---
 
 # Equity Research Reports: How to Read the Forecasts, Valuation, and Conflicts
