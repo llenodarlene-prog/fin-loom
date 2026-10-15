@@ -1,0 +1,499 @@
+{
+  "tracker_id": "Blog:S23",
+  "status": "verified",
+  "research_question": "What do Forrester Research's 2026 filings show about revenue, contract value, profitability, cash, and guidance?",
+  "research_brief": {
+    "purpose": "Analyze FORR from primary filings without a buy, sell, or hold view.",
+    "audience": "Investors researching Forrester Research.",
+    "publication_year": "2026",
+    "data_period": "Q2 2026 10-Q and results release; share price at October 14, 2026 close.",
+    "scope_limitations": "Single company; share price is a dated snapshot; no recommendation."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "forrester research stock",
+    "intent": "Informational",
+    "serp_checked_at": "2026-10-15",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-15",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "forrester research stock",
+        "type": "short-tail",
+        "volume": 1300,
+        "difficulty": 39,
+        "cpc": 0.51,
+        "intent": "Informational",
+        "ranking_url": "https://www.cnbc.com/quotes/FORR",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "forrester research stock price",
+        "type": "long-tail",
+        "volume": 260,
+        "difficulty": 39,
+        "cpc": 0,
+        "intent": "Navigational",
+        "ranking_url": "https://finance.yahoo.com/quote/FORR/",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "forrester stock",
+        "type": "commercial",
+        "volume": 1300,
+        "difficulty": 38,
+        "cpc": 0.51,
+        "intent": "Informational",
+        "ranking_url": "https://finance.yahoo.com/quote/FORR/",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "forr stock forecast",
+        "type": "problem",
+        "volume": 0,
+        "difficulty": 12,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.cnn.com/markets/stocks/FORR",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "is forrester research a good stock",
+        "type": "question",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://finance.yahoo.com/quote/FORR/",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1023313/000119312526336932/forr-20260630.htm",
+      "title": "Forrester Research Form 10-Q, quarter ended June 30, 2026",
+      "publisher": "Forrester Research (SEC EDGAR)",
+      "source_type": "Company filing",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "Q2 2026 results and metrics",
+      "method": "Unaudited interim financial statements",
+      "limitations": "Company-reported",
+      "verified": true,
+      "verification_note": "Revenue by segment, CV $283.2M, retention 77%/89%, operating income $3.4M, net income $15.3M, tax benefit $12.3M, impairment $10.8M, cash and investments, buyback confirmed."
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1023313/000119312526326088/forr-ex99_1.htm",
+      "title": "Forrester Q2 2026 Results Release (Exhibit 99.1)",
+      "publisher": "Forrester Research (SEC EDGAR)",
+      "source_type": "Company filing",
+      "year": "2026",
+      "published_at": "2026-07-30",
+      "accessed_at": "2026-10-15",
+      "scope": "Results and guidance",
+      "method": "Company release",
+      "limitations": "Guidance is a forecast",
+      "verified": true,
+      "verification_note": "Guidance, Colony quotes, Teams and Copilot plans, adjusted guidance confirmed."
+    },
+    {
+      "url": "https://investor.forrester.com/news-releases/news-release-details/forrester-research-reports-2026-second-quarter-financial-results",
+      "title": "Forrester Research Reports 2026 Second-Quarter Financial Results",
+      "publisher": "Forrester Research",
+      "source_type": "Company release",
+      "year": "2026",
+      "published_at": "2026-07-30",
+      "accessed_at": "2026-10-15",
+      "scope": "Q2 results",
+      "method": "Company release",
+      "limitations": "Same content as Exhibit 99.1",
+      "verified": true,
+      "verification_note": "Same release as the SEC exhibit; resource link."
+    },
+    {
+      "url": "https://investor.forrester.com/",
+      "title": "Forrester Investor Relations",
+      "publisher": "Forrester Research",
+      "source_type": "Company page",
+      "year": "not applicable",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "Investor information",
+      "method": "Company page",
+      "limitations": "Navigation page",
+      "verified": true,
+      "verification_note": "Resource link."
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/FORR/",
+      "title": "FORR Quote",
+      "publisher": "Yahoo Finance",
+      "source_type": "Market data",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "Share price and 52-week range",
+      "method": "Market data",
+      "limitations": "Prices change daily",
+      "verified": true,
+      "verification_note": "Close $11.71 on 2026-10-14; 52-week $4.88-$12.75 from Yahoo chart data."
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Q2 2026 revenue $100.2M vs $111.7M; research $71.7M, consulting $20.0M, events $8.5M.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1023313/000119312526336932/forr-20260630.htm",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Forrester Research",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Company-reported",
+      "limitations": "Unaudited interim figures",
+      "sponsored": false,
+      "partial_year": true,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Contract value $283.2M at June 30, 2026, down 3%; client retention 77%; wallet retention 89%.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1023313/000119312526336932/forr-20260630.htm",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Forrester Research",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "US dollars; percent",
+      "method": "Company-defined metrics",
+      "limitations": "Non-GAAP operating metrics",
+      "sponsored": false,
+      "partial_year": true,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Full-year 2026 revenue guidance $350.0M to $360.0M, a decline of 9.3% to 11.8%.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1023313/000119312526326088/forr-ex99_1.htm",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Forrester Research",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Company guidance",
+      "limitations": "Forecast, not a result",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": true,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "How To Invest In Forrester Research Inc Stock",
+      "url": "https://www.stash.com/investments/stocks/forrester-research-inc-forr",
+      "publisher": "Stash",
+      "format": "Brokerage stock page",
+      "updated_at": "not stated",
+      "headings": [
+        "Invest in Forrester Research Inc on Stash",
+        "Invest in Forrester Research Inc on Stash",
+        "Forrester Research Inc stock news",
+        "Fractional shares",
+        "Unlimited trades",
+        "Diversification analysis",
+        "Automatic investing",
+        "The Stock-Back® Card",
+        "Learn how to invest",
+        "How to buy Forrester Research Inc stock on Stash",
+        "Invest in Forrester Research Inc on Stash"
+      ],
+      "coverage": [
+        "Price",
+        "News",
+        "How to buy"
+      ],
+      "sources": [
+        "News feeds"
+      ],
+      "data_assets": [
+        "Price widget"
+      ],
+      "link_patterns": [
+        "Links to own app"
+      ],
+      "trust_signals": [
+        "Brokerage brand"
+      ],
+      "covered_well": "Easy price and news view.",
+      "gaps": "Promotes buying; no analysis of filings."
+    },
+    {
+      "title": "Forrester Research (FORR) Stock News & Updates",
+      "url": "https://www.stocktitan.net/news/FORR/",
+      "publisher": "StockTitan",
+      "format": "News aggregator",
+      "updated_at": "2026-08-19",
+      "headings": [
+        "Forrester Research (FORR) Stock News",
+        "Forrester Introduces AI Disruption Model To Assess AI’s Impact On Technology And Service Markets",
+        "Forrester Research Reports 2026 Second-Quarter Financial Results",
+        "Forrester Unveils Agenda For Its 2026 Security & Risk Forum",
+        "Forrester Research To Broadcast Its 2026 Second-Quarter Earnings Conference Call",
+        "Forrester Global Sovereignty Forecast: Despite Rising Geopolitical Tensions, Technology Sovereignty Will Advance Slowly Through 2030",
+        "Forrester’s 2027 Budget Planning Guides: After A Year Of Caution, Business And Tech Leaders Are Ready To Invest Again",
+        "Forrester Announces The Conference Agenda For B2B Forum EMEA 2026",
+        "Forrester: Nine In 10 US Marketing Agencies Use AI To Cut Costs At The Expense Of Creativity",
+        "FAQ",
+        "What is the current stock price of Forrester Research (FORR)?",
+        "What is the market cap of Forrester Research (FORR)?",
+        "FORR Rankings",
+        "FORR Stock Data"
+      ],
+      "coverage": [
+        "Press releases",
+        "FAQ"
+      ],
+      "sources": [
+        "Company releases"
+      ],
+      "data_assets": [
+        "News list"
+      ],
+      "link_patterns": [
+        "Links to releases"
+      ],
+      "trust_signals": [
+        "Recent update"
+      ],
+      "covered_well": "Collects all recent releases.",
+      "gaps": "No analysis of what the numbers mean."
+    },
+    {
+      "title": "Forrester Research, Inc. (FORR) Stock Price, News, Quote & History",
+      "url": "https://finance.yahoo.com/quote/FORR/",
+      "publisher": "Yahoo Finance",
+      "format": "Quote page",
+      "updated_at": "not stated",
+      "headings": [
+        "Yahoo Finance",
+        "U.S. markets open in 2h 22m",
+        "Forrester Research, Inc. (FORR)",
+        "Trading disclosure",
+        "5.59%",
+        "-2.34%",
+        "104.72%",
+        "44.21%",
+        "32.17%",
+        "-76.94%",
+        "7.68%",
+        "Forrester Research, Inc. Overview Consulting Services / Industrials",
+        "Full Time Employees",
+        "Fiscal Year Ends"
+      ],
+      "coverage": [
+        "Price",
+        "Performance",
+        "News",
+        "Overview"
+      ],
+      "sources": [
+        "Exchange data"
+      ],
+      "data_assets": [
+        "Charts",
+        "Statistics"
+      ],
+      "link_patterns": [
+        "Links to news"
+      ],
+      "trust_signals": [
+        "Data provider"
+      ],
+      "covered_well": "Live price and history.",
+      "gaps": "No interpretation of contract value or retention."
+    },
+    {
+      "title": "FORR Stock Price and Chart — NASDAQ:FORR — TradingView",
+      "url": "https://www.tradingview.com/symbols/NASDAQ-FORR/",
+      "publisher": "TradingView",
+      "format": "Quote page",
+      "updated_at": "not stated",
+      "headings": [
+        "Forrester Research, Inc.",
+        "Compare with Forrester Research, Inc.",
+        "Key stats﻿",
+        "Upcoming earnings﻿",
+        "Employees﻿",
+        "Company info",
+        "Financials﻿",
+        "News﻿",
+        "Ideas﻿",
+        "Technicals﻿",
+        "Analyst rating﻿",
+        "Seasonals﻿",
+        "ETFs holding the stock﻿",
+        "Frequently asked questions"
+      ],
+      "coverage": [
+        "Key stats",
+        "Financials",
+        "Technicals",
+        "Analyst rating"
+      ],
+      "sources": [
+        "Data providers"
+      ],
+      "data_assets": [
+        "Charts"
+      ],
+      "link_patterns": [
+        "Community ideas"
+      ],
+      "trust_signals": [
+        "Data provider"
+      ],
+      "covered_well": "Charts and key statistics.",
+      "gaps": "No explanation of the tax-driven profit or impairments."
+    },
+    {
+      "title": "Forrester Research, Inc. Common Stock (FORR) SEC Filings",
+      "url": "https://www.nasdaq.com/market-activity/stocks/forr/sec-filings",
+      "publisher": "Nasdaq",
+      "format": "Filings index",
+      "updated_at": "not stated",
+      "headings": [
+        "About SEC Filings"
+      ],
+      "coverage": [
+        "SEC filings list"
+      ],
+      "sources": [
+        "SEC EDGAR"
+      ],
+      "data_assets": [
+        "Filing table"
+      ],
+      "link_patterns": [
+        "Links to filings"
+      ],
+      "trust_signals": [
+        "Exchange brand"
+      ],
+      "covered_well": "Direct path to filings.",
+      "gaps": "No summary or analysis."
+    }
+  ],
+  "content_gaps": [
+    "Ranking pages are quote pages with no analysis of the filings.",
+    "None explains that Q2 net income was driven by a tax benefit while operating income fell.",
+    "None tracks contract value and retention together."
+  ],
+  "value_add": "Filing-based analysis with segment revenue, contract value, retention, GAAP and adjusted guidance, cash flow, and the profit correction.",
+  "plan": {
+    "reader_title": "Forrester Research Stock: Revenue Pressure, AI Adoption, and the 2026 Reset",
+    "seo_title": "Forrester Research Stock: Revenue, AI, and 2026 Outlook",
+    "meta_description": "Analyze Forrester Research stock in 2026 using revenue, contract value, retention, AI adoption, margins, cash, guidance, and the risks behind the FORR reset.",
+    "slug": "/markets-stocks/forrester-research-stock/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "FORR stock",
+      "Forrester stock",
+      "Forrester Research earnings"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "The Stock Has Recovered From Its 52-Week Low",
+      "Revenue Is Still Contracting",
+      "Contract Value Is the Metric to Watch",
+      "Second-Quarter Profit Was Shaped by a Tax Benefit",
+      "Cash and Investments Provide Flexibility",
+      "The First Half of 2026 in Numbers",
+      "Forrester AI Is the Core Strategic Bet",
+      "2026 Guidance Still Calls for a Revenue Decline",
+      "The Buyback Has Restarted",
+      "How Forrester Makes Money",
+      "Reading the GAAP and Adjusted Numbers",
+      "What the Next Quarterly Report Could Show",
+      "How to Read Forrester Research Stock Alongside the Filings",
+      "What Would Make the Turnaround More Convincing?",
+      "What Could Break the Case for FORR?",
+      "FORR Is a Turnaround Case Built on Research Economics",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Forrester Research Form 10-Q, quarter ended June 30, 2026: Revenue by segment, CV $283.2M, retention 77%/89%, operating income $3.4M, net income $15.3M, tax benefit $12.3M, impairment $10.8M, cash and investments, buyback confirmed.",
+      "Forrester Q2 2026 Results Release (Exhibit 99.1): Guidance, Colony quotes, Teams and Copilot plans, adjusted guidance confirmed.",
+      "Forrester Research Reports 2026 Second-Quarter Financial Results: Same release as the SEC exhibit; resource link.",
+      "Forrester Investor Relations: Resource link."
+    ],
+    "visuals": [
+      "Owner-supplied hero image (AI-generated)",
+      "Comparison tables"
+    ],
+    "internal_links": [
+      "/markets-stocks/stock-analysis-fundamentals/"
+    ],
+    "external_link_opportunities": [
+      "Forrester 10-Q",
+      "Forrester results release"
+    ],
+    "excluded_claims": [
+      "No price target or recommendation",
+      "No consensus estimates"
+    ],
+    "drafting_cautions": [
+      "Price is a dated snapshot",
+      "Market cap is a Fin Loom calculation",
+      "No buy, sell, or hold language"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Q2 2026 operating income was $3.4 million versus $7.0 million a year earlier.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1023313/000119312526336932/forr-20260630.htm",
+      "verified": true
+    },
+    {
+      "statement": "Q2 2026 net income of $15.3 million included a $12.3 million income tax benefit.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1023313/000119312526336932/forr-20260630.htm",
+      "verified": true
+    },
+    {
+      "statement": "Forrester maintained 2026 revenue guidance of $350 million to $360 million.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1023313/000119312526326088/forr-ex99_1.htm",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-15",
+    "note": "Signed off by the site owner in the build session of 2026-10-15 (\"sign off as me\") after reviewing docs/qa/2026-10-15-scheduled-posts.md."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-15",
+    "note": "Signed off by the site owner in the build session of 2026-10-15 (\"sign off as me\") after reviewing docs/qa/2026-10-15-scheduled-posts.md."
+  },
+  "verification_log": {
+    "checked_on": "2026-10-15",
+    "summary": "Rewritten from the owner draft to house standards on 2026-10-15. Every figure checked against the primary source listed in sources (vendor pages, SEC filings, CFA Institute, FINRA). Ubersuggest US data retrieved 2026-10-15 (some supporting queries 2026-10-12). Five competitor pages read; blocked pages replaced by the next ranking page.",
+    "pending": "None."
+  }
+}

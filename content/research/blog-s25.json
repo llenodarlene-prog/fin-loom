@@ -1,0 +1,483 @@
+{
+  "tracker_id": "Blog:S25",
+  "status": "verified",
+  "research_question": "What does the Zacks stock screener do, what does Zacks Premium add, and where are its limits?",
+  "research_brief": {
+    "purpose": "Review the Zacks screener and Premium tier from Zacks pages.",
+    "audience": "Investors considering Zacks Premium or comparing screeners.",
+    "publication_year": "2026",
+    "data_period": "Zacks pages checked October 15, 2026.",
+    "scope_limitations": "Single platform; prices can change; Zacks performance figures are its own hypothetical results; no endorsement."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "zacks stock screener",
+    "intent": "Informational",
+    "serp_checked_at": "2026-10-15",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-15",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "zacks stock screener",
+        "type": "short-tail",
+        "volume": 1600,
+        "difficulty": 47,
+        "cpc": 4.75,
+        "intent": "Informational",
+        "ranking_url": "https://www.zacks.com/articles/",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "is zacks premium worth it",
+        "type": "long-tail",
+        "volume": 40,
+        "difficulty": 24,
+        "cpc": 5.59,
+        "intent": "Informational",
+        "ranking_url": "https://www.wallstreetzen.com/blog/zacks-review/",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "zacks rank",
+        "type": "commercial",
+        "volume": 3600,
+        "difficulty": 20,
+        "cpc": 6.105,
+        "intent": "Informational",
+        "ranking_url": "https://www.zacks.com/stocks/zacks-rank",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "zacks premium screens",
+        "type": "problem",
+        "volume": 0,
+        "difficulty": 12,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.zacks.com/screening/premium-screens",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "is zacks premium worth it",
+        "type": "question",
+        "volume": 40,
+        "difficulty": 24,
+        "cpc": 5.59,
+        "intent": "Informational",
+        "ranking_url": "https://www.wallstreetzen.com/blog/zacks-review/",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.zacks.com/screening/",
+      "title": "Zacks Screening Tools",
+      "publisher": "Zacks",
+      "source_type": "Vendor tool page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "Custom and predefined screens",
+      "method": "Vendor statement",
+      "limitations": "Marketing page",
+      "verified": true,
+      "verification_note": "\"Screen stocks on virtually any item, including the Zacks Rank\"; predefined screen descriptions; #1 Rank List top 5% confirmed."
+    },
+    {
+      "url": "https://www.zacks.com/screening/premium-screens",
+      "title": "Zacks Premium Screens",
+      "publisher": "Zacks",
+      "source_type": "Vendor product page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "Premium Screens and price",
+      "method": "Vendor list price",
+      "limitations": "Price can change",
+      "verified": true,
+      "verification_note": "Over 45 predefined screens; $249/year; 30-day trial; Focus List of 50 confirmed."
+    },
+    {
+      "url": "https://www.zacks.com/premium/",
+      "title": "Zacks Premium",
+      "publisher": "Zacks",
+      "source_type": "Vendor product page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "Premium features",
+      "method": "Vendor statement",
+      "limitations": "Marketing page",
+      "verified": true,
+      "verification_note": "Premium features and Style Score screens confirmed."
+    },
+    {
+      "url": "https://www.zacks.com/p/p/7203",
+      "title": "Zacks Performance Disclosure",
+      "publisher": "Zacks",
+      "source_type": "Vendor disclosure",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "Zacks Rank performance",
+      "method": "Hypothetical portfolio, monthly rebalanced",
+      "limitations": "Vendor-reported hypothetical returns",
+      "verified": true,
+      "verification_note": "#1 Rank +23.82% annualized vs S&P 500 +11.58%, 1988 to October 5, 2026, hypothetical portfolios confirmed."
+    },
+    {
+      "url": "https://woas.zacks.com/zcom/researchwizard/tools3.php",
+      "title": "Zacks Research Wizard",
+      "publisher": "Zacks",
+      "source_type": "Vendor product page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "Research Wizard",
+      "method": "Vendor statement",
+      "limitations": "Marketing page",
+      "verified": true,
+      "verification_note": "\"Choose from over 650 traits\"; more than 8,800 stocks confirmed."
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Zacks Premium costs $249 per year after a 30-day trial.",
+      "source_url": "https://www.zacks.com/screening/premium-screens",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Retail subscription",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Vendor list price",
+      "limitations": "Price can change",
+      "sponsored": false,
+      "partial_year": true,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Zacks reports a 23.82% annualized gain for its hypothetical #1 Rank portfolio from 1988 to October 5, 2026, against 11.58% for the S&P 500.",
+      "source_url": "https://www.zacks.com/p/p/7203",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Zacks Rank #1 stocks",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "Percent per year",
+      "method": "Vendor-reported hypothetical portfolio, monthly rebalanced, exclusive of fees",
+      "limitations": "Not actual investor returns; vendor-calculated",
+      "sponsored": false,
+      "partial_year": true,
+      "estimate": true,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Zacks Review: Is Zacks Premium Worth It in 2026?",
+      "url": "https://www.wallstreetzen.com/blog/zacks-review/",
+      "publisher": "WallStreetZen",
+      "format": "Review (vendor)",
+      "updated_at": "2025-06-18",
+      "headings": [
+        "Zacks Review: Is Zacks Premium Worth It in 2026?",
+        "Is Zacks Premium Worth It in document.write( new Date().getFullYear() );?",
+        "What is Zacks? (Zacks Investment Research Review in 2022)",
+        "Key Features of Zacks Premium",
+        "Final Word – Why don’t I recommend Zacks Premium?",
+        "FAQs:",
+        "Is Zacks com trustworthy?",
+        "How good is Zacks Rank?",
+        "Which is better Zacks or Morningstar?",
+        "How much does Zacks cost?",
+        "Where to Invest $1,000 Right Now?",
+        "Sign up to get daily digests on the stocks that matter to you.",
+        "Keep reading",
+        "Seeking Alpha Review: Is Seeking Alpha Premium Worth It in 2026?"
+      ],
+      "coverage": [
+        "Premium features",
+        "Pricing",
+        "Verdict"
+      ],
+      "sources": [
+        "Zacks site"
+      ],
+      "data_assets": [
+        "Screenshots"
+      ],
+      "link_patterns": [
+        "Links to own product"
+      ],
+      "trust_signals": [
+        "Author byline"
+      ],
+      "covered_well": "Detailed feature walk-through.",
+      "gaps": "Competing vendor; last modified 2025; little on screening workflow."
+    },
+    {
+      "title": "Zacks Premium Review: Is Zacks Premium Worth the Hype?",
+      "url": "https://www.wallstreetsurvivor.com/zacks-premium-review/",
+      "publisher": "Wall Street Survivor",
+      "format": "Review",
+      "updated_at": "2024-01-31",
+      "headings": [
+        "Zacks Premium Review: Is Zacks Premium Worth the Hype?",
+        "What Is Zacks?",
+        "Zacks Investment Research History",
+        "Zacks Premium",
+        "Zacks Premium Pricing",
+        "Zacks Premium Features",
+        "Zacks #1 List",
+        "Equity Research Reports",
+        "Zacks Industry Rank",
+        "Earnings ESP Filter",
+        "Pre-Built Stock Screeners",
+        "Focus List",
+        "Is Zacks Premium Worth It?",
+        "Conclusion"
+      ],
+      "coverage": [
+        "Pricing",
+        "#1 List",
+        "Research reports",
+        "Industry Rank",
+        "Earnings ESP"
+      ],
+      "sources": [
+        "Zacks site"
+      ],
+      "data_assets": [
+        "Screenshots",
+        "Table"
+      ],
+      "link_patterns": [
+        "Affiliate links"
+      ],
+      "trust_signals": [
+        "Author byline"
+      ],
+      "covered_well": "Covers each Premium feature.",
+      "gaps": "Dated January 2024; affiliate-driven."
+    },
+    {
+      "title": "Stock Screening Made Simple: A Closer Look",
+      "url": "https://www.zacks.com/stock/news/2949835/stock-screening-made-simple-a-closer-look",
+      "publisher": "Zacks",
+      "format": "Vendor article",
+      "updated_at": "2026-07-07",
+      "headings": [
+        "Investor Services",
+        "Other Services",
+        "Trading Services",
+        "Innovators",
+        "Most Viewed Stocks on Zacks.com",
+        "Trending Stocks on Zacks.com",
+        "Top Articles",
+        "Member Sign In",
+        "Member Sign In",
+        "Most Viewed Stocks on Zacks.com",
+        "Trending Stocks on Zacks.com",
+        "Top Articles",
+        "Services Overview",
+        "Investor Services"
+      ],
+      "coverage": [
+        "Screening walkthrough"
+      ],
+      "sources": [
+        "Zacks"
+      ],
+      "data_assets": [
+        "Screen examples"
+      ],
+      "link_patterns": [
+        "Links to own screens"
+      ],
+      "trust_signals": [
+        "Recent date"
+      ],
+      "covered_well": "Shows how Zacks frames screening.",
+      "gaps": "Promotional; no limits discussed."
+    },
+    {
+      "title": "Stock Screening & System Backtesting With Zacks Research Wizard",
+      "url": "https://www.aaii.com/journal/article/stock-screening-system-backtesting-with-zacks-research-wizard",
+      "publisher": "AAII",
+      "format": "Product review",
+      "updated_at": "2008-09-01",
+      "headings": [
+        "Stock Screening & System Backtesting With Zacks Research Wizard",
+        "Discussion",
+        "FREE REPORT"
+      ],
+      "coverage": [
+        "Research Wizard screening",
+        "Backtesting"
+      ],
+      "sources": [
+        "Research Wizard"
+      ],
+      "data_assets": [
+        "Tables"
+      ],
+      "link_patterns": [
+        "Few outbound links"
+      ],
+      "trust_signals": [
+        "Independent association"
+      ],
+      "covered_well": "Independent detail on backtesting.",
+      "gaps": "Dated 2008; prices and features out of date."
+    },
+    {
+      "title": "Membership Benefits",
+      "url": "https://www.zacks.com/registration_info.php",
+      "publisher": "Zacks",
+      "format": "Membership page",
+      "updated_at": "not stated",
+      "headings": [
+        "Investor Services",
+        "Other Services",
+        "Trading Services",
+        "Innovators",
+        "Most Viewed Stocks on Zacks.com",
+        "Trending Stocks on Zacks.com",
+        "Top Articles",
+        "Member Sign In",
+        "Member Sign In",
+        "Most Viewed Stocks on Zacks.com",
+        "Trending Stocks on Zacks.com",
+        "Top Articles",
+        "Services Overview",
+        "Investor Services"
+      ],
+      "coverage": [
+        "Free vs Premium benefits"
+      ],
+      "sources": [
+        "Zacks"
+      ],
+      "data_assets": [
+        "Feature list"
+      ],
+      "link_patterns": [
+        "Sign-up links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Official tier comparison.",
+      "gaps": "Marketing page; no assessment."
+    }
+  ],
+  "content_gaps": [
+    "Ranking pages are mostly Zacks pages with no discussion of limits.",
+    "Third-party reviews are dated or affiliate-driven.",
+    "Few explain how to use the Rank without treating it as a signal to act."
+  ],
+  "value_add": "Zacks claims checked against Zacks pages on October 15, 2026, a Finviz comparison, a sample screening workflow, and trial questions.",
+  "plan": {
+    "reader_title": "Zacks Stock Screener: How the Rank, Screens, and Research Fit Together",
+    "seo_title": "Zacks Stock Screener Review for 2026",
+    "meta_description": "See how the Zacks stock screener works in 2026: Zacks Rank filters, Premium Screens, Research Wizard, pricing, strengths, and limits for investors.",
+    "slug": "/markets-stocks/zacks-stock-screener/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "zacks rank",
+      "zacks premium",
+      "is zacks premium worth it"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "What the Zacks Stock Screener Is Designed to Do",
+      "The Zacks Rank Changes the Screening Philosophy",
+      "Style Scores and Industry Rank Add Context",
+      "Premium Screens Add Ready-Made Strategies",
+      "Research Wizard Goes Beyond Basic Screening",
+      "Zacks Premium Pricing in 2026",
+      "Where the Zacks Stock Screener Is Strongest",
+      "Where Zacks Can Be Less Useful",
+      "Zacks Compared With Finviz",
+      "How to Use Zacks Rank Without Treating It as a Signal to Act",
+      "A Sample Zacks Screening Workflow",
+      "Questions to Answer During the 30-Day Trial",
+      "The Zacks Stock Screener Fits Investors Who Want a Defined Framework",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Zacks Screening Tools: \"Screen stocks on virtually any item, including the Zacks Rank\"; predefined screen descriptions; #1 Rank List top 5% confirmed.",
+      "Zacks Premium Screens: Over 45 predefined screens; $249/year; 30-day trial; Focus List of 50 confirmed.",
+      "Zacks Premium: Premium features and Style Score screens confirmed.",
+      "Zacks Performance Disclosure: #1 Rank +23.82% annualized vs S&P 500 +11.58%, 1988 to October 5, 2026, hypothetical portfolios confirmed."
+    ],
+    "visuals": [
+      "Owner-supplied hero image (AI-generated)",
+      "Comparison tables"
+    ],
+    "internal_links": [
+      "/markets-stocks/best-free-stock-screeners/"
+    ],
+    "external_link_opportunities": [
+      "Zacks screening tools",
+      "Zacks Premium Screens"
+    ],
+    "excluded_claims": [
+      "Research Wizard price",
+      "Finviz backtesting claim (not confirmed)",
+      "Zacks Rank factor list (not on fetched pages)"
+    ],
+    "drafting_cautions": [
+      "Label Zacks performance as hypothetical and vendor-reported",
+      "Rank labels are Zacks model output, not advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Zacks Premium includes more than 45 predefined Premium Screens.",
+      "source_url": "https://www.zacks.com/screening/premium-screens",
+      "verified": true
+    },
+    {
+      "statement": "Zacks describes its #1 Rank List as the top 5% of stocks.",
+      "source_url": "https://www.zacks.com/screening/",
+      "verified": true
+    },
+    {
+      "statement": "Research Wizard lets users choose from over 650 traits.",
+      "source_url": "https://woas.zacks.com/zcom/researchwizard/tools3.php",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-15",
+    "note": "Approved by the site owner in the build session of 2026-10-15 (\"do the revision for the errors and you can push\") after reviewing the fact-check findings in docs/qa/2026-10-17-scheduled-posts.md."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-15",
+    "note": "Approved by the site owner in the build session of 2026-10-15 (\"do the revision for the errors and you can push\") after reviewing the fact-check findings in docs/qa/2026-10-17-scheduled-posts.md."
+  },
+  "verification_log": {
+    "checked_on": "2026-10-15",
+    "summary": "Rewritten from the owner draft to house standards on 2026-10-15. Every figure checked against the primary source listed in sources. Ubersuggest US data retrieved 2026-10-15. Five competitor pages read; blocked pages replaced by the next ranking page.",
+    "pending": "None."
+  }
+}

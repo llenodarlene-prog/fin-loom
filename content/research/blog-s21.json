@@ -1,0 +1,487 @@
+{
+  "tracker_id": "Blog:S21",
+  "status": "verified",
+  "research_question": "Which stock analysis apps fit which research workflows in 2026, and what do they cost?",
+  "research_brief": {
+    "purpose": "Compare five research apps by workflow, coverage, and price.",
+    "audience": "Investors choosing a research app beyond their brokerage app.",
+    "publication_year": "2026",
+    "data_period": "Provider pages checked October 15, 2026.",
+    "scope_limitations": "Five apps; prices exclude tax and promotions; no app is endorsed."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "app for stock analysis",
+    "intent": "Informational",
+    "serp_checked_at": "2026-10-15",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-15",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "app for stock analysis",
+        "type": "short-tail",
+        "volume": 720,
+        "difficulty": 22,
+        "cpc": 5.345,
+        "intent": "Commercial",
+        "ranking_url": "https://www.wallstreetzen.com/blog/best-stock-analysis-software/",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best mobile app for stock analysis",
+        "type": "long-tail",
+        "volume": 10,
+        "difficulty": 33,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "https://play.google.com/store/apps/details?hl=en_US&id=com.stockanalysis.app",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "stock analysis app",
+        "type": "commercial",
+        "volume": 720,
+        "difficulty": 34,
+        "cpc": 6.92,
+        "intent": "Commercial",
+        "ranking_url": "https://play.google.com/store/apps/details?hl=en_IN&id=de.boersego.gmt.android",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best stock analysis app free",
+        "type": "problem",
+        "volume": 70,
+        "difficulty": 32,
+        "cpc": 7.22,
+        "intent": "Commercial",
+        "ranking_url": "https://play.google.com/store/apps/details?hl=en_US&id=com.stockanalysis.app",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best stock analysis app for beginners",
+        "type": "question",
+        "volume": 50,
+        "difficulty": 30,
+        "cpc": 6.27,
+        "intent": "Commercial",
+        "ranking_url": "https://apps.apple.com/sl/app/stock-analysis-stocks-funds/id6751272467",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://stockanalysis.com/pro/",
+      "title": "Stock Analysis Pro",
+      "publisher": "Stock Analysis",
+      "source_type": "Vendor pricing page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "Pro features and price",
+      "method": "Vendor list price",
+      "limitations": "Prices can change",
+      "verified": true,
+      "verification_note": "130,000+ stocks and funds, $79/year, $6.58/month, $9.99 monthly, 10-40 years, 300+ indicators confirmed."
+    },
+    {
+      "url": "https://stockanalysis.com/help/faq/stock-analysis-app/",
+      "title": "Stock Analysis App FAQ",
+      "publisher": "Stock Analysis",
+      "source_type": "Vendor help page",
+      "year": "2026",
+      "published_at": "2026-07-08",
+      "accessed_at": "2026-10-15",
+      "scope": "App availability",
+      "method": "Vendor documentation",
+      "limitations": "Vendor description",
+      "verified": true,
+      "verification_note": "iOS and Android apps; Windows via Microsoft Store web app confirmed."
+    },
+    {
+      "url": "https://www.koyfin.com/pricing/",
+      "title": "Koyfin Pricing",
+      "publisher": "Koyfin",
+      "source_type": "Vendor pricing page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "Plans and prices",
+      "method": "Vendor list price",
+      "limitations": "Prices can change",
+      "verified": true,
+      "verification_note": "Free and Plus details confirmed."
+    },
+    {
+      "url": "https://www.tradingview.com/pricing/",
+      "title": "TradingView Pricing",
+      "publisher": "TradingView",
+      "source_type": "Vendor pricing page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "Plans and prices",
+      "method": "Vendor list price",
+      "limitations": "Prices can change",
+      "verified": true,
+      "verification_note": "Essential $12.95/month annual confirmed."
+    },
+    {
+      "url": "https://finance.yahoo.com/about/plans/select-plan/",
+      "title": "Yahoo Finance Plans",
+      "publisher": "Yahoo Finance",
+      "source_type": "Vendor pricing page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "Plan prices",
+      "method": "Vendor list price",
+      "limitations": "Promotions vary",
+      "verified": true,
+      "verification_note": "Bronze $95.40/year ($7.95/month) confirmed."
+    },
+    {
+      "url": "https://simplywall.st/plans",
+      "title": "Simply Wall St Plans",
+      "publisher": "Simply Wall St",
+      "source_type": "Vendor pricing page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "Plans and coverage",
+      "method": "Vendor statement",
+      "limitations": "Vendor-reported user and coverage counts",
+      "verified": true,
+      "verification_note": "7M investors, 120K+ stocks, 90+ markets confirmed."
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Stock Analysis Pro covers 130,000+ global stocks and funds; Simply Wall St states 7 million investors and 120,000+ stocks across 90+ markets.",
+      "source_url": "https://stockanalysis.com/pro/",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Listed securities",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "Count",
+      "method": "Vendor statements",
+      "limitations": "Vendor-reported figures",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "9 Best Stock Analysis Software & Apps for Better Returns (2026)",
+      "url": "https://www.wallstreetzen.com/blog/best-stock-analysis-software/",
+      "publisher": "WallStreetZen",
+      "format": "Ranked list (vendor)",
+      "updated_at": "2026-08-04",
+      "headings": [
+        "9 Best Stock Analysis Software & Apps for Better Returns (2026)",
+        "The Best Stock Analysis Software & Apps For Fundamentals",
+        "1. WallStreetZen",
+        "2. Seeking Alpha",
+        "3. Stock Market Guides",
+        "4. Morningstar",
+        "5. Stock Analysis",
+        "6. Stock Rover",
+        "7. FINVIZ",
+        "The Best Stock Analysis Software & Apps For Technical Traders",
+        "8. TradingView",
+        "9. thinkorswim",
+        "10. TrendSpider",
+        "The 2 Types of Stock Analysis Software & Apps"
+      ],
+      "coverage": [
+        "Ten apps for fundamentals and technicals"
+      ],
+      "sources": [
+        "Vendor sites"
+      ],
+      "data_assets": [
+        "Screenshots"
+      ],
+      "link_patterns": [
+        "Links to own product"
+      ],
+      "trust_signals": [
+        "Recent update"
+      ],
+      "covered_well": "Splits apps by fundamental and technical use.",
+      "gaps": "Vendor ranks itself first."
+    },
+    {
+      "title": "The Best Mobile Stock Analysis Apps in 2026",
+      "url": "https://www.tradevision.io/blog/the-best-mobile-stock-analysis-apps-for-2025/",
+      "publisher": "TradeVision",
+      "format": "Comparison article",
+      "updated_at": "2026-08-27",
+      "headings": [
+        "The Best Mobile Stock Analysis Apps in 2026",
+        "Article details",
+        "Quick Answer: The Best Mobile Stock Analysis Apps in 2026",
+        "What Mobile Is Actually Good For",
+        "The Apps Compared",
+        "Comparison Table",
+        "Why Most Traders End Up Using Two",
+        "What to Look For in a Mobile Trading App",
+        "Frequently asked questions",
+        "Related Articles",
+        "Best Real-Time Market Data Analysis Services in 2026",
+        "The Best Automated Trading Platforms in 2026 (And When You Don't Need One)",
+        "Best Research Platform for Mobile Traders"
+      ],
+      "coverage": [
+        "Mobile apps",
+        "Why traders use two apps"
+      ],
+      "sources": [
+        "App stores"
+      ],
+      "data_assets": [
+        "Comparison table"
+      ],
+      "link_patterns": [
+        "App store links"
+      ],
+      "trust_signals": [
+        "Recent update"
+      ],
+      "covered_well": "Good point on using two apps.",
+      "gaps": "Mobile and trading focus only."
+    },
+    {
+      "title": "Best Stock Analysis App for Beginners and Seasoned Traders Alike",
+      "url": "https://www.vectorvest.com/blog/vectorvest/best-stock-analysis-app/",
+      "publisher": "VectorVest",
+      "format": "Vendor article",
+      "updated_at": "2023-12-07",
+      "headings": [
+        "Best Stock Analysis App for Beginners and Seasoned Traders Alike",
+        "Why You Need the Best Stock Analysis App as Part of Your Investment Strategy",
+        "Eliminate Stress",
+        "Save Time",
+        "Earn More Profits",
+        "What Separates the Best Stock Market Analysis App From the Rest?",
+        "Simple Approach to Analysis",
+        "Personalized Guidance and Education",
+        "Market Timing Considerations",
+        "Efficient Portfolio Management Tools",
+        "Track Record of Success That You Can Look Back and Validate",
+        "So, What is the Best Stock Analysis App? Introducing VectorVest: A Proven System to Simplify Your Trading Strategy!",
+        "A Proprietary Stock Rating System That Has Outperformed the S&P 500 by 10x For More Than Two Decades",
+        "Find Winning Opportunities on Autopilot For Any Strategy With Pre-Curated Stock Screeners"
+      ],
+      "coverage": [
+        "What makes a good app"
+      ],
+      "sources": [
+        "Own data"
+      ],
+      "data_assets": [
+        "Images"
+      ],
+      "link_patterns": [
+        "Links to own product"
+      ],
+      "trust_signals": [
+        "Vendor claims"
+      ],
+      "covered_well": "Lists features to look for.",
+      "gaps": "Promotional; dated 2023; performance claims not independently sourced."
+    },
+    {
+      "title": "Best Stock Research Apps in 2026 (We Tested the Top 10) — Barebone AI",
+      "url": "https://barebone.ai/resources/best-stock-research-apps",
+      "publisher": "Barebone AI",
+      "format": "Ranked review (vendor)",
+      "updated_at": "2026-06-11",
+      "headings": [
+        "Best Stock Research Apps in 2026 (We Tested the Top 10)",
+        "What Actually Matters in a Stock Research App",
+        "The Top 10 at a Glance",
+        "1. Barebone AI - Best Overall Stock Research App",
+        "What it does well",
+        "Where it falls short",
+        "2. Seeking Alpha - Best for Crowdsourced Analysis",
+        "What it does well",
+        "Where it falls short",
+        "3. TIKR - Best for Deep Fundamentals",
+        "What it does well",
+        "Where it falls short",
+        "4. Koyfin - Best for Dashboards and Macro",
+        "What it does well"
+      ],
+      "coverage": [
+        "Ten research apps",
+        "Strengths and weaknesses"
+      ],
+      "sources": [
+        "Vendor sites"
+      ],
+      "data_assets": [
+        "Comparison table"
+      ],
+      "link_patterns": [
+        "Links to own product"
+      ],
+      "trust_signals": [
+        "Tested claim"
+      ],
+      "covered_well": "Strength and weakness per app.",
+      "gaps": "Vendor ranks itself first."
+    },
+    {
+      "title": "Best Stock Analysis Apps 2026 (Free & Paid)",
+      "url": "https://www.openbookanalytics.com/articles/best-stock-analysis-apps-best-free-stock-market-software-top-technical-analysis-platforms",
+      "publisher": "Openbook",
+      "format": "Guide",
+      "updated_at": "2026-07-06",
+      "headings": [
+        "Best Stock Analysis Apps & Free Software (2026)",
+        "Why Your Choice of Stock Analysis App Matters",
+        "Core Features to Look for in Stock Analytics Software",
+        "Best Free Stock Market Software Worth Knowing",
+        "TradingView",
+        "Yahoo Finance",
+        "Finviz",
+        "Webull",
+        "Top Technical Analysis Platforms for More Advanced Users",
+        "TC2000",
+        "StockCharts",
+        "Thinkorswim by TD Ameritrade (now Schwab)",
+        "What to Look for in a Mobile Stock Analysis App",
+        "Integrating Multiple Tools Into a Coherent Workflow"
+      ],
+      "coverage": [
+        "Free software",
+        "Technical platforms",
+        "Mobile apps"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Lists"
+      ],
+      "link_patterns": [
+        "Few outbound links"
+      ],
+      "trust_signals": [
+        "Recent update"
+      ],
+      "covered_well": "Covers combining tools into a workflow.",
+      "gaps": "No prices or coverage figures."
+    }
+  ],
+  "content_gaps": [
+    "Several ranking pages are written by vendors that rank themselves first.",
+    "Few state coverage figures and prices from the providers themselves.",
+    "Few explain how to test an app before paying."
+  ],
+  "value_add": "Coverage and prices checked on provider pages, a same-task comparison across five apps, and a free-trial checklist.",
+  "plan": {
+    "reader_title": "Choosing an App for Stock Analysis: Research Tools for Different Workflows",
+    "seo_title": "Choosing an App for Stock Analysis in 2026",
+    "meta_description": "Compare each app for stock analysis by financial data, screening, charting, portfolio tools, coverage, and 2026 pricing to match your research style.",
+    "slug": "/markets-stocks/best-stock-analysis-apps/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "stock analysis app",
+      "best stock analysis app",
+      "best stock analysis app for beginners"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "What a Research App Should Do Better Than a Brokerage App",
+      "How to Choose an App for Stock Analysis",
+      "Stock Analysis Is the Low-Cost Fundamental Data Option",
+      "Koyfin Is Strongest for Research Depth",
+      "TradingView Is Best for Technical Analysis",
+      "Yahoo Finance Is the General-Purpose Starting Point",
+      "Simply Wall St Is Best for Visual Company Analysis",
+      "Stock Analysis Apps Compared",
+      "Price Counts Less Than Repeated Use",
+      "How Each App Handles the Same Research Task",
+      "Questions to Answer During a Free Trial",
+      "Mobile Versus Desktop Research",
+      "Where the Data Comes From",
+      "A Two-App Setup That Covers Most Needs",
+      "The Best App Depends on the Research Style",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Stock Analysis Pro: 130,000+ stocks and funds, $79/year, $6.58/month, $9.99 monthly, 10-40 years, 300+ indicators confirmed.",
+      "Stock Analysis App FAQ: iOS and Android apps; Windows via Microsoft Store web app confirmed.",
+      "Koyfin Pricing: Free and Plus details confirmed.",
+      "TradingView Pricing: Essential $12.95/month annual confirmed."
+    ],
+    "visuals": [
+      "Owner-supplied hero image (AI-generated)",
+      "Comparison tables"
+    ],
+    "internal_links": [
+      "/markets-stocks/stock-analysis-fundamentals/"
+    ],
+    "external_link_opportunities": [
+      "Stock Analysis Pro",
+      "TradingView pricing",
+      "Simply Wall St plans"
+    ],
+    "excluded_claims": [
+      "No ranking of one app as best overall"
+    ],
+    "drafting_cautions": [
+      "Vendor-reported counts labeled as vendor statements"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Stock Analysis Pro costs $79 per year.",
+      "source_url": "https://stockanalysis.com/pro/",
+      "verified": true
+    },
+    {
+      "statement": "Simply Wall St covers more than 120,000 stocks across 90 markets.",
+      "source_url": "https://simplywall.st/plans",
+      "verified": true
+    },
+    {
+      "statement": "TradingView Essential costs $12.95 per month on annual billing.",
+      "source_url": "https://www.tradingview.com/pricing/",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-15",
+    "note": "Signed off by the site owner in the build session of 2026-10-15 (\"sign off as me\") after reviewing docs/qa/2026-10-15-scheduled-posts.md."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-15",
+    "note": "Signed off by the site owner in the build session of 2026-10-15 (\"sign off as me\") after reviewing docs/qa/2026-10-15-scheduled-posts.md."
+  },
+  "verification_log": {
+    "checked_on": "2026-10-15",
+    "summary": "Rewritten from the owner draft to house standards on 2026-10-15. Every figure checked against the primary source listed in sources (vendor pages, SEC filings, CFA Institute, FINRA). Ubersuggest US data retrieved 2026-10-15 (some supporting queries 2026-10-12). Five competitor pages read; blocked pages replaced by the next ranking page.",
+    "pending": "None."
+  }
+}
