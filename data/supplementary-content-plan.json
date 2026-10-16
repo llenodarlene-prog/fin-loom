@@ -342,6 +342,150 @@
       "scheduled_publish": "2026-10-13",
       "min_words": 2500,
       "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S20",
+      "working_title": "Best Stock Screener for Free: What You Can Do Without Paying",
+      "primary_keyword": "best stock screener for free",
+      "secondary_keywords": "free stock screener; best free stock screener; free stock screening tools; stock screener no subscription",
+      "cluster": "Markets & Stocks",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/markets-stocks/best-free-stock-screeners/",
+      "seo_title": "Best Stock Screener for Free: 2026 Comparison",
+      "meta_description": "Find the best stock screener for free in 2026. Finviz, Yahoo Finance, Koyfin, TradingView, and Stock Analysis compared by features and upgrade limits.",
+      "link_placement_site": "",
+      "source_file": "Supplied by the site owner in chat on 2026-10-15 (best-free-stock-screeners)",
+      "scheduled_publish": "2026-10-15",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S21",
+      "working_title": "Choosing an App for Stock Analysis: Research Tools for Different Workflows",
+      "primary_keyword": "app for stock analysis",
+      "secondary_keywords": "best stock analysis apps; stock research app; stock analysis app; investing research apps",
+      "cluster": "Markets & Stocks",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/markets-stocks/best-stock-analysis-apps/",
+      "seo_title": "Choosing an App for Stock Analysis in 2026",
+      "meta_description": "Compare each app for stock analysis by financial data, screening, charting, portfolio tools, coverage, and 2026 pricing to match your research style.",
+      "link_placement_site": "",
+      "source_file": "Supplied by the site owner in chat on 2026-10-15 (best-stock-analysis-apps)",
+      "scheduled_publish": "2026-10-16",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S22",
+      "working_title": "Equity Research Reports: How to Read the Forecasts, Valuation, and Conflicts",
+      "primary_keyword": "equity research reports",
+      "secondary_keywords": "equity research report; how to read equity research; analyst price target; research report disclosures",
+      "cluster": "Markets & Stocks",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/markets-stocks/equity-research-reports/",
+      "seo_title": "Equity Research Reports: How to Read Them",
+      "meta_description": "Learn how equity research reports are structured, how analysts build forecasts and valuations, and which disclosures, conflicts, and assumptions to check.",
+      "link_placement_site": "",
+      "source_file": "Supplied by the site owner in chat on 2026-10-15 (equity-research-reports)",
+      "scheduled_publish": "2026-10-15",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S23",
+      "working_title": "Forrester Research Stock: Revenue Pressure, AI Adoption, and the 2026 Reset",
+      "primary_keyword": "forrester research stock",
+      "secondary_keywords": "FORR stock; Forrester stock; Forrester Research earnings; Forrester contract value",
+      "cluster": "Markets & Stocks",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/markets-stocks/forrester-research-stock/",
+      "seo_title": "Forrester Research Stock: Revenue, AI, and 2026 Outlook",
+      "meta_description": "Analyze Forrester Research stock in 2026 using revenue, contract value, retention, AI adoption, margins, cash, guidance, and the risks behind the FORR reset.",
+      "link_placement_site": "",
+      "source_file": "Supplied by the site owner in chat on 2026-10-15 (forrester-research-stock)",
+      "scheduled_publish": "2026-10-17",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S24",
+      "working_title": "Morningstar Stock Screener Review: Research Depth, Ratings, and Portfolio Fit",
+      "primary_keyword": "morningstar stock screener",
+      "secondary_keywords": "stock screener morningstar; morningstar investor review; morningstar screener; morningstar portfolio x-ray",
+      "cluster": "Markets & Stocks",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/markets-stocks/morningstar-stock-screener/",
+      "seo_title": "Morningstar Stock Screener Review for 2026",
+      "meta_description": "A Morningstar stock screener review for 2026: filters, analyst ratings, portfolio tools, pricing, strengths, and limitations for long-term investors.",
+      "link_placement_site": "",
+      "source_file": "Supplied by the site owner in chat on 2026-10-15 (morningstar-stock-screener)",
+      "scheduled_publish": "2026-10-16",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S25",
+      "working_title": "Zacks Stock Screener: How the Rank, Screens, and Research Fit Together",
+      "primary_keyword": "zacks stock screener",
+      "secondary_keywords": "zacks rank; zacks premium; is zacks premium worth it; zacks premium screens",
+      "cluster": "Markets & Stocks",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/markets-stocks/zacks-stock-screener/",
+      "seo_title": "Zacks Stock Screener Review for 2026",
+      "meta_description": "See how the Zacks stock screener works in 2026: Zacks Rank filters, Premium Screens, Research Wizard, pricing, strengths, and limits for investors.",
+      "link_placement_site": "",
+      "source_file": "Supplied by the site owner in chat on 2026-10-15 (zacks-stock-screener)",
+      "scheduled_publish": "2026-10-17",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S26",
+      "working_title": "Yahoo Finance Stock Research: What the Free Tools Cover and When Premium Adds Value",
+      "primary_keyword": "yahoo finance stock research",
+      "secondary_keywords": "yahoo stock research; yahoo finance premium; yahoo finance stock screener; is yahoo finance premium worth it",
+      "cluster": "Markets & Stocks",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/markets-stocks/yahoo-finance-stock-research/",
+      "seo_title": "Yahoo Finance Stock Research Review for 2026",
+      "meta_description": "Review Yahoo Finance stock research tools for 2026: free screeners, quote pages, Morningstar research, plan pricing, strengths, and limitations.",
+      "link_placement_site": "",
+      "source_file": "Supplied by the site owner in chat on 2026-10-15 (yahoo-finance-stock-research)",
+      "scheduled_publish": "2026-10-18",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S27",
+      "working_title": "Technical Analysis for Stocks: Indicators, Charts, and Limits",
+      "primary_keyword": "technical analysis for stocks",
+      "secondary_keywords": "stock technical analysis; technical indicators for stocks; does technical analysis work; stock exchange technical analysis",
+      "cluster": "Markets & Stocks",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/markets-stocks/technical-analysis-for-stocks/",
+      "seo_title": "Technical Analysis for Stocks: Indicators and Evidence",
+      "meta_description": "Learn how technical analysis for stocks uses price, volume, moving averages, RSI, and support levels, and what published research says about its limits.",
+      "link_placement_site": "",
+      "source_file": "Supplied by the site owner in chat on 2026-10-15 (technical-analysis-for-stocks)",
+      "scheduled_publish": "2026-10-18",
+      "min_words": 2500,
+      "no_word_ceiling": true
     }
   ],
   "links": [
@@ -514,6 +658,78 @@
       "primary_silo_hub": "/investing/",
       "approved_outbound_targets": [
         "/money-banking/saving-vs-investing/"
+      ]
+    },
+    {
+      "type": "Blog",
+      "content_number": "S20",
+      "url_slug": "/markets-stocks/best-free-stock-screeners/",
+      "primary_silo_hub": "/markets-stocks/",
+      "approved_outbound_targets": [
+        "/markets-stocks/stock-screener-metrics-guide/"
+      ]
+    },
+    {
+      "type": "Blog",
+      "content_number": "S21",
+      "url_slug": "/markets-stocks/best-stock-analysis-apps/",
+      "primary_silo_hub": "/markets-stocks/",
+      "approved_outbound_targets": [
+        "/markets-stocks/stock-analysis-fundamentals/"
+      ]
+    },
+    {
+      "type": "Blog",
+      "content_number": "S22",
+      "url_slug": "/markets-stocks/equity-research-reports/",
+      "primary_silo_hub": "/markets-stocks/",
+      "approved_outbound_targets": [
+        "/markets-stocks/stock-research-analyst-role/"
+      ]
+    },
+    {
+      "type": "Blog",
+      "content_number": "S23",
+      "url_slug": "/markets-stocks/forrester-research-stock/",
+      "primary_silo_hub": "/markets-stocks/",
+      "approved_outbound_targets": [
+        "/markets-stocks/stock-analysis-fundamentals/"
+      ]
+    },
+    {
+      "type": "Blog",
+      "content_number": "S24",
+      "url_slug": "/markets-stocks/morningstar-stock-screener/",
+      "primary_silo_hub": "/markets-stocks/",
+      "approved_outbound_targets": [
+        "/investing/stock-risk-metrics/"
+      ]
+    },
+    {
+      "type": "Blog",
+      "content_number": "S25",
+      "url_slug": "/markets-stocks/zacks-stock-screener/",
+      "primary_silo_hub": "/markets-stocks/",
+      "approved_outbound_targets": [
+        "/markets-stocks/best-free-stock-screeners/"
+      ]
+    },
+    {
+      "type": "Blog",
+      "content_number": "S26",
+      "url_slug": "/markets-stocks/yahoo-finance-stock-research/",
+      "primary_silo_hub": "/markets-stocks/",
+      "approved_outbound_targets": [
+        "/markets-stocks/best-stock-analysis-apps/"
+      ]
+    },
+    {
+      "type": "Blog",
+      "content_number": "S27",
+      "url_slug": "/markets-stocks/technical-analysis-for-stocks/",
+      "primary_silo_hub": "/markets-stocks/",
+      "approved_outbound_targets": [
+        "/markets-stocks/stock-analysis-fundamentals/"
       ]
     }
   ]

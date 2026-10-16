@@ -1,0 +1,443 @@
+{
+  "tracker_id": "Blog:S24",
+  "status": "verified",
+  "research_question": "What does Morningstar Investor's screener do, how does it connect to ratings and portfolio tools, and what does it cost?",
+  "research_brief": {
+    "purpose": "Review the Morningstar screener for long-term investors using Morningstar pages.",
+    "audience": "Investors considering Morningstar Investor.",
+    "publication_year": "2026",
+    "data_period": "Morningstar pages checked October 15, 2026.",
+    "scope_limitations": "Single platform; prices can change; no endorsement."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "morningstar stock screener",
+    "intent": "Informational",
+    "serp_checked_at": "2026-10-15",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-15",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "morningstar stock screener",
+        "type": "short-tail",
+        "volume": 1900,
+        "difficulty": 37,
+        "cpc": 8.16,
+        "intent": "Informational",
+        "ranking_url": "https://www.morningstar.com/mm/investor/etf-fund-stock-screener",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "morningstar stock screener free",
+        "type": "long-tail",
+        "volume": 30,
+        "difficulty": 45,
+        "cpc": 2.89,
+        "intent": "Commercial",
+        "ranking_url": "https://global.morningstar.com/",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "stock screener morningstar",
+        "type": "commercial",
+        "volume": 390,
+        "difficulty": 29,
+        "cpc": 6.23,
+        "intent": "Informational",
+        "ranking_url": "https://www.morningstar.com/mm/investor/etf-fund-stock-screener",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "morningstar investor review",
+        "type": "problem",
+        "volume": 0,
+        "difficulty": 12,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.reddit.com/r/investing/comments/1pvp83z/is_a_morningstar_subscription_worth_it/",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "morningstar investor review",
+        "type": "question",
+        "volume": 0,
+        "difficulty": 12,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.wallstreetsurvivor.com/is-morningstar-worth-it/",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.morningstar.com/mm/investor/etf-fund-stock-screener",
+      "title": "Stock, ETF, and Mutual Fund Screener Tools",
+      "publisher": "Morningstar",
+      "source_type": "Vendor product page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "Screener features and price",
+      "method": "Vendor statement",
+      "limitations": "Marketing page",
+      "verified": true,
+      "verification_note": "Thousands of securities and indexes; stocks, ETFs, mutual funds; compare five; $249/$34.95/$20.75; 41%; seven-day trial confirmed."
+    },
+    {
+      "url": "https://www.morningstar.com/help-center/screener",
+      "title": "Tools: Screener",
+      "publisher": "Morningstar",
+      "source_type": "Vendor help page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "Screener how-to",
+      "method": "Vendor documentation",
+      "limitations": "Vendor description",
+      "verified": true,
+      "verification_note": "Custom screens, editing data points, sending to watchlists confirmed."
+    },
+    {
+      "url": "https://www.morningstar.com/tools/portfolio/6808602/overview",
+      "title": "Portfolio Tools",
+      "publisher": "Morningstar",
+      "source_type": "Vendor product page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "Portfolio X-Ray and Stock Intersection",
+      "method": "Vendor statement",
+      "limitations": "Marketing page",
+      "verified": true,
+      "verification_note": "X-Ray allocation, sector weightings, fees; Stock Intersection concentration confirmed."
+    },
+    {
+      "url": "https://www.morningstar.com/mm/investor/learn",
+      "title": "Morningstar Investor Overview",
+      "publisher": "Morningstar",
+      "source_type": "Vendor product page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "Investor overview",
+      "method": "Vendor statement",
+      "limitations": "Marketing page",
+      "verified": true,
+      "verification_note": "More than 200 unique data points and pre-filtered lists confirmed."
+    },
+    {
+      "url": "https://www.morningstar.com/tools/watchlists",
+      "title": "Morningstar Investor Watchlists",
+      "publisher": "Morningstar",
+      "source_type": "Vendor product page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "Watchlists and pricing",
+      "method": "Vendor statement",
+      "limitations": "Marketing page",
+      "verified": true,
+      "verification_note": "Price and screener text confirmed."
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Morningstar Investor costs $249 per year or $34.95 per month; the annual plan equals $20.75 per month.",
+      "source_url": "https://www.morningstar.com/mm/investor/etf-fund-stock-screener",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Retail subscription",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Vendor list price",
+      "limitations": "Price can change without notice",
+      "sponsored": false,
+      "partial_year": true,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Is Morningstar Worth It in 2026? Review + $50 Discount Code",
+      "url": "https://www.wallstreetsurvivor.com/is-morningstar-worth-it/",
+      "publisher": "Wall Street Survivor",
+      "format": "Review",
+      "updated_at": "2026-09-16",
+      "headings": [
+        "Is Morningstar Worth It in 2026? Morningstar Investor Review",
+        "Quick Answer: Who Morningstar Is Worth It For (and Who Should Skip It)",
+        "What Is Morningstar & Morningstar Investor?",
+        "Morningstar Investor Pricing in 2026: Is the Cost Justified?",
+        "Current Morningstar Discount & Offer Code (2026)",
+        "Special Morningstar Discounts: Student, Teacher & Military Plans",
+        "Core Features That Might Make Morningstar Worth It",
+        "Independent Investment Research & Analyst Reports",
+        "Morningstar Star Ratings & Medalist Ratings",
+        "Portfolio X-Ray and Portfolio Monitoring Tools",
+        "Screeners, Investing Ideas, and Other Tools",
+        "User Experience: Strengths and Weak Spots",
+        "Learning Curve and Complexity",
+        "Who Morningstar Is Best For (And Who Should Avoid It)"
+      ],
+      "coverage": [
+        "Pricing",
+        "Features",
+        "Who it suits",
+        "Pros and cons"
+      ],
+      "sources": [
+        "Morningstar site"
+      ],
+      "data_assets": [
+        "Tables",
+        "Screenshots"
+      ],
+      "link_patterns": [
+        "Affiliate discount links"
+      ],
+      "trust_signals": [
+        "Recent update",
+        "Author byline"
+      ],
+      "covered_well": "Detailed pricing and who-it-suits view.",
+      "gaps": "Affiliate-driven; screener covered only briefly."
+    },
+    {
+      "title": "Stock Screener",
+      "url": "https://libguides.nypl.org/c.php?g=1093157&p=7985112",
+      "publisher": "New York Public Library",
+      "format": "Library user guide",
+      "updated_at": "not stated",
+      "headings": [
+        "Morningstar Database User's Guide: Stock Screener",
+        "Basic Stock Screener",
+        "Screener"
+      ],
+      "coverage": [
+        "Basic stock screener"
+      ],
+      "sources": [
+        "Morningstar database"
+      ],
+      "data_assets": [
+        "Screenshots"
+      ],
+      "link_patterns": [
+        "Library links"
+      ],
+      "trust_signals": [
+        "Public library"
+      ],
+      "covered_well": "Step-by-step screener use.",
+      "gaps": "Covers the library database version, not Morningstar Investor."
+    },
+    {
+      "title": "Morningstar® Integrated Web Tools™",
+      "url": "https://lt.morningstar.com/1c6qh1t6k9/stock/screener/default.aspx",
+      "publisher": "Morningstar",
+      "format": "Screener tool",
+      "updated_at": "not stated",
+      "headings": [
+        "You don't have Javascript enabled. For full functionality this page requires javascript to be enabled.",
+        "Share screener"
+      ],
+      "coverage": [
+        "Screener interface"
+      ],
+      "sources": [
+        "Morningstar data"
+      ],
+      "data_assets": [
+        "Interactive screener"
+      ],
+      "link_patterns": [
+        "None"
+      ],
+      "trust_signals": [
+        "Data provider"
+      ],
+      "covered_well": "Working screener.",
+      "gaps": "A tool page with no guidance."
+    },
+    {
+      "title": "Stock, ETF, & Mutual Fund Screener Tools",
+      "url": "https://www.morningstar.com/mm/investor/etf-fund-stock-screener",
+      "publisher": "Morningstar",
+      "format": "Product page",
+      "updated_at": "not stated",
+      "headings": [
+        "Morningstar Investor",
+        "Evaluate like an analyst",
+        "The search for your next investment starts (and ends) here",
+        "Comprehensive investment screener",
+        "Quickly compare securities",
+        "Watchlists for tracking what’s next",
+        "Cut out the guesswork with powerful ratings",
+        "Best Tool for Investment Research",
+        "Research smarter, not harder",
+        "Yearly",
+        "Monthly"
+      ],
+      "coverage": [
+        "Screener",
+        "Compare",
+        "Watchlists",
+        "Ratings",
+        "Pricing"
+      ],
+      "sources": [
+        "Morningstar"
+      ],
+      "data_assets": [
+        "Feature blocks"
+      ],
+      "link_patterns": [
+        "Trial sign-up"
+      ],
+      "trust_signals": [
+        "Brand",
+        "Investopedia quote"
+      ],
+      "covered_well": "Official feature and price summary.",
+      "gaps": "Marketing page; no limitations discussed."
+    },
+    {
+      "title": "Tools: Screener",
+      "url": "https://www.morningstar.com/help-center/screener",
+      "publisher": "Morningstar",
+      "format": "Help center",
+      "updated_at": "not stated",
+      "headings": [
+        "Tools: Screener",
+        "Transparency is our policy. Learn how it impacts everything we do",
+        "How we make money",
+        "How we use your personal data",
+        "How we approach editorial content"
+      ],
+      "coverage": [
+        "Screener tutorials"
+      ],
+      "sources": [
+        "Morningstar"
+      ],
+      "data_assets": [
+        "Video tutorial"
+      ],
+      "link_patterns": [
+        "Help articles"
+      ],
+      "trust_signals": [
+        "Official documentation"
+      ],
+      "covered_well": "How-to detail.",
+      "gaps": "No assessment of value or alternatives."
+    }
+  ],
+  "content_gaps": [
+    "Ranking pages are mostly Morningstar product pages with no assessment of limits.",
+    "Reviews focus on price rather than how the screener links to ratings and portfolio tools.",
+    "Few suggest how to use the free trial to decide."
+  ],
+  "value_add": "Independent review using Morningstar pages, a long-term screening workflow, rating explanations, and a trial checklist.",
+  "plan": {
+    "reader_title": "Morningstar Stock Screener Review: Research Depth, Ratings, and Portfolio Fit",
+    "seo_title": "Morningstar Stock Screener Review for 2026",
+    "meta_description": "A Morningstar stock screener review for 2026: filters, analyst ratings, portfolio tools, pricing, strengths, and limitations for long-term investors.",
+    "slug": "/markets-stocks/morningstar-stock-screener/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "stock screener morningstar",
+      "morningstar investor review",
+      "morningstar screener"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "What the Morningstar Stock Screener Can Filter",
+      "Morningstar Ratings Add a Research Layer to Screening",
+      "Pre-Filtered Lists Reduce the Work of Building Criteria",
+      "Custom Screens Become More Useful Over Time",
+      "Portfolio Tools Are a Major Part of the Value",
+      "Morningstar Investor Pricing in 2026",
+      "Where Morningstar Is Strongest",
+      "Where Morningstar Is Less Compelling",
+      "Morningstar Compared With a Basic Screener",
+      "How to Use Morningstar Screening Without Overrelying on Ratings",
+      "A Sample Long-Term Screening Workflow",
+      "Questions to Answer During the Free Trial",
+      "Comparing and Tracking Screen Results",
+      "Alternatives Worth Comparing",
+      "What Fair Value and Competitive Advantage Mean",
+      "Is the Annual Plan Worth It?",
+      "Who Gets the Most Value From Morningstar Investor?",
+      "Morningstar Is More Than a Screener, Which Is Also Its Main Tradeoff",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Stock, ETF, and Mutual Fund Screener Tools: Thousands of securities and indexes; stocks, ETFs, mutual funds; compare five; $249/$34.95/$20.75; 41%; seven-day trial confirmed.",
+      "Tools: Screener: Custom screens, editing data points, sending to watchlists confirmed.",
+      "Portfolio Tools: X-Ray allocation, sector weightings, fees; Stock Intersection concentration confirmed.",
+      "Morningstar Investor Overview: More than 200 unique data points and pre-filtered lists confirmed."
+    ],
+    "visuals": [
+      "Owner-supplied hero image (AI-generated)",
+      "Comparison tables"
+    ],
+    "internal_links": [
+      "/investing/stock-risk-metrics/"
+    ],
+    "external_link_opportunities": [
+      "Morningstar screener page",
+      "Morningstar portfolio tools"
+    ],
+    "excluded_claims": [
+      "Closed-end fund screening",
+      "X-Ray stock statistics"
+    ],
+    "drafting_cautions": [
+      "No closed-end fund or stock statistics claims (not on Morningstar pages)"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Morningstar Investor costs $249 per year or $34.95 per month.",
+      "source_url": "https://www.morningstar.com/mm/investor/etf-fund-stock-screener",
+      "verified": true
+    },
+    {
+      "statement": "Portfolio X-Ray shows asset allocation, sector weightings, and fees.",
+      "source_url": "https://www.morningstar.com/tools/portfolio/6808602/overview",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-15",
+    "note": "Signed off by the site owner in the build session of 2026-10-15 (\"sign off as me\") after reviewing docs/qa/2026-10-15-scheduled-posts.md."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-15",
+    "note": "Signed off by the site owner in the build session of 2026-10-15 (\"sign off as me\") after reviewing docs/qa/2026-10-15-scheduled-posts.md."
+  },
+  "verification_log": {
+    "checked_on": "2026-10-15",
+    "summary": "Rewritten from the owner draft to house standards on 2026-10-15. Every figure checked against the primary source listed in sources (vendor pages, SEC filings, CFA Institute, FINRA). Ubersuggest US data retrieved 2026-10-15 (some supporting queries 2026-10-12). Five competitor pages read; blocked pages replaced by the next ranking page. Primary keyword switched to \"morningstar stock screener\" (1,900 US searches a month versus 390) by owner decision of 2026-10-15.",
+    "pending": "None."
+  }
+}
