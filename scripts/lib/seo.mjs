@@ -38,15 +38,21 @@ export function headMeta({ metadata, site, siteUrl, image, article }) {
   return tags.filter(Boolean).join('\n  ');
 }
 
-export function articleSchema({ metadata, url, site, siteUrl, image, body, crumbs, logo }) {
+// One Organization node, reused on every page's @graph so all entities reference the same @id.
+export function organizationNode({ site, siteUrl, logo, email }) {
+  return {
+    '@type': 'Organization', '@id': `${siteUrl}/#organization`, name: site.name, url: `${siteUrl}/`,
+    ...(site.description ? { description: site.description } : {}), ...(site.tagline ? { slogan: site.tagline } : {}), ...(email ? { email } : {}),
+    ...(logo ? { logo: { '@type': 'ImageObject', url: `${siteUrl}${logo.path}`, width: logo.width, height: logo.height } } : {})
+  };
+}
+
+export function articleSchema({ metadata, url, site, siteUrl, image, body, crumbs, logo, hubUrl, email }) {
   const orgId = `${siteUrl}/#organization`;
   const websiteId = `${siteUrl}/#website`;
   const pageId = `${url}#webpage`;
   const articleId = `${url}#article`;
-  const organization = {
-    '@type': 'Organization', '@id': orgId, name: site.name, url: siteUrl,
-    ...(logo ? { logo: { '@type': 'ImageObject', url: `${siteUrl}${logo.path}`, width: logo.width, height: logo.height } } : {})
-  };
+  const organization = organizationNode({ site, siteUrl, logo, email });
   const website = {
     '@type': 'WebSite', '@id': websiteId, url: `${siteUrl}/`, name: site.name,
     publisher: { '@id': orgId }, inLanguage: site.locale || 'en-US'
@@ -63,7 +69,8 @@ export function articleSchema({ metadata, url, site, siteUrl, image, body, crumb
     mainEntityOfPage: { '@id': pageId }, inLanguage: site.locale || 'en-US',
     articleSection: metadata.cluster, wordCount: wordCount(body),
     keywords: [metadata.primary_keyword, ...String(metadata.secondary_keywords || '').split(';')].map(t => t?.trim()).filter(Boolean).join(', '),
-    publisher: { '@id': orgId }
+    publisher: { '@id': orgId },
+    ...(hubUrl ? { isPartOf: { '@id': `${hubUrl}#webpage` } } : {})
   };
   if (image) article.image = { '@type': 'ImageObject', url: `${siteUrl}${image.path}`, width: image.width, height: image.height, caption: image.alt };
   if (metadata.published) article.datePublished = metadata.published;

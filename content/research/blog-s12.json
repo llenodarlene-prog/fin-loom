@@ -446,7 +446,8 @@
       "Hero photograph of printed research reports"
     ],
     "internal_links": [
-      "/markets-stocks/"
+      "/markets-stocks/ai-capital-spending-big-tech/",
+      "/markets-stocks/stock-analysis-fundamentals/"
     ],
     "external_link_opportunities": [
       "https://abc.xyz/investor/events/event-details/2026/2025-Q4-Earnings-Call-2026-Dr_C033hS6/default.aspx",
@@ -490,6 +491,7 @@
   "verification_log": {
     "checked_on": "2026-10-04",
     "summary": "Keyword data from Ubersuggest (United States), five ranking pages reviewed. Headline segment figures checked against the fourth quarter 2025 call. Alphabet earnings and FAQ pages load and match their labels. Body claims checked against the fourth quarter 2025 call: YouTube above $60 billion, $240 billion Cloud backlog, Subscriptions, Platforms and Devices $13.6 billion, Google Services operating income $40.1 billion at a 41.9% margin, more than 325 million paid subscriptions, and more than 8 million Gemini Enterprise seats. One sentence giving a second quarter 2025 Cloud margin was removed because no cited source supports it. 2026 update of 2026-10-04: Added second quarter 2026 results and Alphabet's stated outlook from the second quarter 2026 call, and updated the 2026 capital expenditure guidance to the current range. Editorial pass of 2026-10-05: added short attributed executive statements, each read from the cited company source with the speaker's name and title.",
-    "pending": "None."
+    "pending": "None.",
+    "interlinking": "2026-10-18: body links rebuilt to the hub-and-spoke SOP (spoke to pillar, pillar to every spoke, sibling links). Linking sentences describe the linked post only and add no new factual claims."
   }
 }

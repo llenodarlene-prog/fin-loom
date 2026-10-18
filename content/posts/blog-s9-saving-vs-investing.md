@@ -10,7 +10,7 @@ tracker_id: Blog:S9
 primary_keyword: saving vs investing
 secondary_keywords: 
 cluster: Money & Banking
-approved_internal_links: /money-banking/
+approved_internal_links: /investing/per-capita-gdp-explained/; /money-banking/identity-theft-statistics/
 research_record: content/research/blog-s9.json
 image: /assets/images/posts/saving-vs-investing/reviewing-financial-plan-1600.jpg
 image_alt: Two people reviewing printed financial charts at a desk with a tablet and coffee
@@ -20,7 +20,7 @@ ai_exceptions:
 ai_exception_reason: 
 author: Darlene Aberin
 published: 2026-10-04
-modified: 2026-10-04
+modified: 2026-10-18
 ---
 
 # Saving vs Investing: How Time Horizon and Liquidity Change the Decision
@@ -95,7 +95,7 @@ Time horizon asks when the money may be needed. This should come before expected
 
 ### Money Needed Within Months
 
-For money needed within months, liquidity and preservation dominate. Examples include rent, taxes, an insurance deductible, tuition due soon, a planned move, or emergency expenses.
+For money needed within months, liquidity and preservation dominate. Examples include rent, taxes, an insurance deductible, tuition due soon, a planned move, or emergency expenses. Cash held for those needs also has to be protected from fraud; [identity theft statistics](/money-banking/identity-theft-statistics/) show the scale of reported losses.
 
 A stock portfolio is a poor match here. If the expense cannot be delayed and the market falls first, the investor is forced to sell at a loss, so savings are usually the better fit.
 
@@ -142,7 +142,7 @@ The emergency fund should not be optimized for maximum return. Availability is t
 
 Cash is stable in nominal terms. Its purchasing power, however, is not guaranteed.
 
-If prices rise faster than the savings yield, the account loses purchasing power. This is why Investor.gov warns that a savings account may fail to keep up with inflation over long periods. The effect compounds.
+If prices rise faster than the savings yield, the account loses purchasing power. This is why Investor.gov warns that a savings account may fail to keep up with inflation over long periods. The effect compounds. Inflation is one economy-wide measure, and [per capita GDP](/investing/per-capita-gdp-explained/) explains another, including what it misses.
 
 Suppose inflation averaged 3% and a savings balance earned 1%. The real return would be roughly negative before tax.
 
@@ -227,7 +227,7 @@ However, investors should compare annual percentage yield, account fees, withdra
 
 Moving money from savings into investments does not complete the decision. The investor must still choose how to allocate it. [Investor.gov's guidance on asset allocation](https://www.investor.gov/introduction-investing/getting-started/asset-allocation) explains that the right mix changes with an investor's circumstances, and that diversification spreads money among different investments to reduce risk.
 
-That is why [saving and investing decisions](/money-banking/) should be connected to the purpose of the money before the investor chooses individual securities. The cash-versus-market decision is only the first allocation decision.
+That is why saving and investing decisions should be connected to the purpose of the money before the investor chooses individual securities. The cash-versus-market decision is only the first allocation decision.
 
 ## Tax-Advantaged Accounts Change the Calculation
 

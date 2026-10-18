@@ -425,7 +425,8 @@
       "Hero photograph of an identity protection desk"
     ],
     "internal_links": [
-      "/money-banking/"
+      "/money-banking/saving-vs-investing/",
+      "/payments/paypal-statistics/"
     ],
     "external_link_opportunities": [
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-data-show-people-reported-losing-3-point-5-billion-imposter-scams-2025",
@@ -468,6 +469,7 @@
   "verification_log": {
     "checked_on": "2026-10-04",
     "summary": "Keyword data from Ubersuggest (United States), five ranking pages reviewed. Key Takeaways and the summary table checked against the FTC release and performance report. FTC identity theft topic page and IdentityTheft.gov load. Body claims checked: government impersonation losses of $920 million in 2025 against $789 million in 2024. The post gives no identity theft report count. Editorial pass of 2026-10-05: copy restructured under the owner's style rules; no facts changed.",
-    "pending": "None."
+    "pending": "None.",
+    "interlinking": "2026-10-18: body links rebuilt to the hub-and-spoke SOP (spoke to pillar, pillar to every spoke, sibling links). Linking sentences describe the linked post only and add no new factual claims."
   }
 }

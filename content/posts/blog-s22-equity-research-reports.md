@@ -10,7 +10,7 @@ tracker_id: Blog:S22
 primary_keyword: equity research reports
 secondary_keywords: equity research report; how to read equity research; analyst price target; research report disclosures
 cluster: Markets & Stocks
-approved_internal_links: /markets-stocks/stock-research-analyst-role/
+approved_internal_links: /markets-stocks/forrester-research-stock/; /markets-stocks/stock-analysis-fundamentals/; /markets-stocks/stock-research-analyst-role/
 research_record: content/research/blog-s22.json
 image: /assets/images/posts/equity-research-reports/analyst-two-monitor-desk-1600.jpg
 image_alt: An analyst studying two monitors of market charts and data tables at a desk overlooking a city
@@ -20,7 +20,7 @@ ai_exceptions:
 ai_exception_reason: 
 author: Darlene Aberin
 published: 2026-10-15
-modified: 2026-10-15
+modified: 2026-10-18
 ---
 
 # Equity Research Reports: How to Read the Forecasts, Valuation, and Conflicts
@@ -44,7 +44,7 @@ A research report turns a large amount of company information into an investment
 
 That structure explains why equity research reports can be long. Each conclusion rests on several layers of analysis, and a careful reader works back from the conclusion to the evidence.
 
-Reports are written by different people for different audiences. Sell-side analysts at banks and brokerages publish them for clients, while buy-side analysts write internal versions for portfolio managers. The [stock research analyst role](/markets-stocks/stock-research-analyst-role/) covers how that work is organized and who uses it.
+Reports are written by different people for different audiences. Sell-side analysts at banks and brokerages publish them for clients, while buy-side analysts write internal versions for portfolio managers. The [stock research analyst role](/markets-stocks/stock-research-analyst-role/) covers how that work is organized and who uses it. Individual investors apply the same company analysis through [stock analysis fundamentals](/markets-stocks/stock-analysis-fundamentals/).
 
 ## What Makes a Research Report Effective
 
@@ -78,7 +78,7 @@ Historical financials explain what happened. The price target depends on what th
 
 ### Questions to Ask About Revenue
 
-Revenue forecasts should connect to identifiable drivers such as volume, pricing, new products, or market share. A reader can ask what growth rate the analyst assumes, what has to go right for that rate to hold, and how it compares with the company's own guidance and recent history.
+Revenue forecasts should connect to identifiable drivers such as volume, pricing, new products, or market share. A reader can ask what growth rate the analyst assumes, what has to go right for that rate to hold, and how it compares with the company's own guidance and recent history. The [Forrester Research stock](/markets-stocks/forrester-research-stock/) analysis applies these questions to one company's filings.
 
 ### Questions to Ask About Margins and Cash
 

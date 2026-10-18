@@ -10,7 +10,7 @@ tracker_id: Blog:S24
 primary_keyword: morningstar stock screener
 secondary_keywords: stock screener morningstar; morningstar investor review; morningstar screener; morningstar portfolio x-ray
 cluster: Markets & Stocks
-approved_internal_links: /investing/stock-risk-metrics/
+approved_internal_links: /investing/stock-risk-metrics/; /markets-stocks/stock-analysis-fundamentals/; /markets-stocks/zacks-stock-screener/
 research_record: content/research/blog-s24.json
 image: /assets/images/posts/morningstar-stock-screener/monitor-portfolio-dashboard-1600.jpg
 image_alt: A large monitor showing a light investment dashboard with charts beside a tablet and notebook on a desk
@@ -20,7 +20,7 @@ ai_exceptions:
 ai_exception_reason: 
 author: Darlene Aberin
 published: 2026-10-16
-modified: 2026-10-16
+modified: 2026-10-18
 ---
 
 # Morningstar Stock Screener Review: Research Depth, Ratings, and Portfolio Fit
@@ -143,7 +143,7 @@ Morningstar's advantage is not that it screens faster. It is that the screen con
 
 A rating can save time, but it should not replace analysis. An investor can use Morningstar's fair-value or competitive-advantage measures to narrow a list, then review the business model, financial statements, current price, risks, and the assumptions behind each rating.
 
-Pairing those results with [stock risk metrics](/investing/stock-risk-metrics/) can also help separate companies that look attractive on valuation from stocks with unusually high volatility or drawdown risk. A well-built Morningstar stock screener search is one step in that process, not the whole of it.
+Pairing those results with [stock risk metrics](/investing/stock-risk-metrics/) can also help separate companies that look attractive on valuation from stocks with unusually high volatility or drawdown risk. A well-built Morningstar stock screener search is one step in that process, not the whole of it. The rest is [stock analysis fundamentals](/markets-stocks/stock-analysis-fundamentals/): reading the statements behind each result.
 
 ## A Sample Long-Term Screening Workflow
 
@@ -195,7 +195,7 @@ Finviz, Yahoo Finance, TradingView, Koyfin, and Stock Analysis all offer free sc
 
 ### Other Paid Research Platforms
 
-Koyfin's Plus plan costs $39 per month on annual billing and focuses on financial history, estimates, and dashboards rather than analyst ratings. Investors who want long histories more than analyst opinions may find that focus fits their process better, and its free plan allows a direct comparison.
+Koyfin's Plus plan costs $39 per month on annual billing and focuses on financial history, estimates, and dashboards rather than analyst ratings. Investors who want long histories more than analyst opinions may find that focus fits their process better, and its free plan allows a direct comparison. The [Zacks stock screener](/markets-stocks/zacks-stock-screener/) takes a different route, ranking stocks by earnings-estimate revisions.
 
 ## What Fair Value and Competitive Advantage Mean
 

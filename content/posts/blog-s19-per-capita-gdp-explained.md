@@ -10,7 +10,7 @@ tracker_id: Blog:S19
 primary_keyword: explain per capita GDP
 secondary_keywords: GDP per capita meaning; GDP per capita formula; real GDP per capita; nominal GDP per capita; GDP per capita PPP; GDP per capita by country
 cluster: Investing
-approved_internal_links: /money-banking/saving-vs-investing/
+approved_internal_links: /investing/crypto-vs-stocks/; /money-banking/saving-vs-investing/
 research_record: content/research/blog-s19.json
 image: /assets/images/posts/per-capita-gdp-explained/coin-stacks-and-globe-1600.jpg
 image_alt: Wooden figures standing on coin stacks of falling height in front of a globe and a city skyline
@@ -20,7 +20,7 @@ ai_exceptions: leverage
 ai_exception_reason: Leverage appears once as the financial noun for corporate debt, never as the filler verb the kill list targets.
 author: Darlene Aberin
 published: 2026-10-13
-modified: 2026-10-13
+modified: 2026-10-18
 ---
 
 # Explain Per Capita GDP: What It Measures and What It Misses
@@ -181,7 +181,7 @@ A household can earn a high income while owning relatively few assets, while ano
 
 GDP per capita does not tell us how much households hold in homes, retirement accounts, businesses, savings, stocks, or other assets. It also does not subtract household liabilities to produce a net-worth measure.
 
-The same distinction shows up in personal finance. Cash needed for emergencies or near-term spending has to remain accessible, while money intended for long-term growth can tolerate more market exposure. That is why [saving and investing](/money-banking/saving-vs-investing/) serve different jobs within the same financial plan: one protects liquidity, while the other accepts risk in pursuit of future returns.
+The same distinction shows up in personal finance. Cash needed for emergencies or near-term spending has to remain accessible, while money intended for long-term growth can tolerate more market exposure. That is why [saving and investing](/money-banking/saving-vs-investing/) serve different jobs within the same financial plan: one protects liquidity, while the other accepts risk in pursuit of future returns. How much volatility different assets add to that second job is compared in [crypto vs stocks](/investing/crypto-vs-stocks/).
 
 ## What GDP Per Capita Leaves Out of the Economic Picture
 

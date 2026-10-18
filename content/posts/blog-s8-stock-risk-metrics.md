@@ -10,7 +10,7 @@ tracker_id: Blog:S8
 primary_keyword: stock risk metrics
 secondary_keywords: 
 cluster: Investing
-approved_internal_links: /investing/
+approved_internal_links: /investing/bitcoin-allocation/; /investing/crypto-vs-stocks/
 research_record: content/research/blog-s8.json
 image: /assets/images/posts/stock-risk-metrics/financial-newspaper-and-charts-1600.jpg
 image_alt: A financial newspaper, reading glasses, and printed charts beside a laptop showing a price chart
@@ -20,7 +20,7 @@ ai_exceptions: leverage
 ai_exception_reason: Leverage is used in its technical financial sense: debt relative to equity, assets, or earnings.
 author: Darlene Aberin
 published: 2026-10-04
-modified: 2026-10-04
+modified: 2026-10-18
 ---
 
 # Stock Risk Metrics: Drawdown, Volatility, Beta, and Sharpe Ratio Compared
@@ -196,7 +196,7 @@ A stock can be excellent and still create a dangerous portfolio if the position 
 
 If that company falls 50%, the direct portfolio impact is roughly 20% before considering movement in other holdings. Position size converts stock risk into portfolio risk.
 
-This is why [portfolio risk analysis](/investing/) should combine individual stock metrics with sector exposure, correlation, and allocation size. A stock's volatility tells only part of the story; the weight determines how much that volatility is important.
+This is why portfolio risk analysis should combine individual stock metrics with sector exposure, correlation, and allocation size. A stock's volatility tells only part of the story; the weight determines how much that volatility is important. The same position-size logic drives [bitcoin allocation](/investing/bitcoin-allocation/), where a small weight can carry a large share of portfolio risk, and it is part of the portfolio comparison in [crypto vs stocks](/investing/crypto-vs-stocks/).
 
 ## Correlation Determines Whether Diversification Works
 

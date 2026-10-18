@@ -403,7 +403,9 @@
       "Chart: portfolio decline in the stress scenario"
     ],
     "internal_links": [
-      "/investing/"
+      "/investing/bitcoin-allocation/",
+      "/investing/per-capita-gdp-explained/",
+      "/investing/stock-risk-metrics/"
     ],
     "external_link_opportunities": [
       "https://www.sec.gov/edgar/search/",
@@ -447,6 +449,7 @@
   "verification_log": {
     "checked_on": "2026-10-04",
     "summary": "Keyword data from Ubersuggest (United States), five ranking pages reviewed. Asset allocation page, custody bulletin, and the 2023 investor alert checked. Charts are arithmetic from the post's own tables. Editorial pass of 2026-10-05: copy restructured under the owner's style rules; no facts changed.",
-    "pending": "None."
+    "pending": "None.",
+    "interlinking": "2026-10-18: body links rebuilt to the hub-and-spoke SOP (spoke to pillar, pillar to every spoke, sibling links). Linking sentences describe the linked post only and add no new factual claims."
   }
 }

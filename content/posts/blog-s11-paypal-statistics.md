@@ -10,7 +10,7 @@ tracker_id: Blog:S11
 primary_keyword: PayPal statistics
 secondary_keywords: 
 cluster: Payments
-approved_internal_links: /payments/
+approved_internal_links: /markets-stocks/apple-statistics/; /money-banking/identity-theft-statistics/
 research_record: content/research/blog-s11.json
 image: /assets/images/posts/paypal-statistics/phone-payment-at-card-terminal-1600.jpg
 image_alt: A phone showing a completed PayPal payment beside a card terminal on a cafe counter
@@ -20,7 +20,7 @@ ai_exceptions: leverage
 ai_exception_reason: Operating leverage is a technical financial term and is used in that sense only.
 author: Darlene Aberin
 published: 2026-10-04
-modified: 2026-10-04
+modified: 2026-10-18
 ---
 
 # PayPal Statistics 2026: Volume, Accounts, Revenue, and Payment Economics
@@ -144,9 +144,9 @@ PayPal once defined the online-wallet category for many consumers. Today, the ma
 - Local payment methods
 - Merchant-built checkout systems
 
-Competition now happens at multiple layers. A consumer may choose a wallet, and a merchant may choose a payment processor. Meanwhile, a platform may choose an orchestration layer, and a bank may provide the funding source.
+Competition now happens at multiple layers. A consumer may choose a wallet, and a merchant may choose a payment processor. Meanwhile, a platform may choose an orchestration layer, and a bank may provide the funding source. One of those rivals is profiled in [Apple statistics](/markets-stocks/apple-statistics/), which break down Apple's product and Services revenue.
 
-The card networks may still sit underneath the transaction. That is why understanding the broader [digital payments market](/payments/) is more informative than measuring PayPal only by wallet users. Payment economics increasingly depend on who controls checkout, processing, funding, fraud, settlement, and the customer relationship.
+The card networks may still sit underneath the transaction. That is why understanding the broader digital payments market is more informative than measuring PayPal only by wallet users. Payment economics increasingly depend on who controls checkout, processing, funding, fraud, settlement, and the customer relationship.
 
 ## Venmo Is More Than Peer-to-Peer Payments
 
@@ -297,7 +297,7 @@ The user chooses PayPal. PayPal chooses the most appropriate underlying funding 
 
 ## Cross-Border Payments Remain Strategically Valuable
 
-Cross-border commerce is harder than domestic commerce. It can involve currency conversion, local payment methods, regulatory requirements, sanctions screening, higher fraud risk, and settlement complexity.
+Cross-border commerce is harder than domestic commerce. It can involve currency conversion, local payment methods, regulatory requirements, sanctions screening, higher fraud risk, and settlement complexity. Fraud on the consumer side is tracked in [identity theft statistics](/money-banking/identity-theft-statistics/).
 
 Platforms that solve these problems can earn attractive economics. PayPal's stable 12% cross-border share of TPV shows this remains a meaningful business. It also gives the network exposure to global commerce rather than a single domestic market.
 

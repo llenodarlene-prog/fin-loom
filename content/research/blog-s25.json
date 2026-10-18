@@ -430,7 +430,9 @@
       "Comparison tables"
     ],
     "internal_links": [
-      "/markets-stocks/best-free-stock-screeners/"
+      "/markets-stocks/best-free-stock-screeners/",
+      "/markets-stocks/morningstar-stock-screener/",
+      "/markets-stocks/stock-analysis-fundamentals/"
     ],
     "external_link_opportunities": [
       "Zacks screening tools",
@@ -478,6 +480,7 @@
   "verification_log": {
     "checked_on": "2026-10-15",
     "summary": "Rewritten from the owner draft to house standards on 2026-10-15. Every figure checked against the primary source listed in sources. Ubersuggest US data retrieved 2026-10-15. Five competitor pages read; blocked pages replaced by the next ranking page.",
-    "pending": "None."
+    "pending": "None.",
+    "interlinking": "2026-10-18: body links rebuilt to the hub-and-spoke SOP (spoke to pillar, pillar to every spoke, sibling links). Linking sentences describe the linked post only and add no new factual claims."
   }
 }
