@@ -456,7 +456,9 @@
       "Hero photograph of a laptop, reports, and reading glasses"
     ],
     "internal_links": [
-      "/markets-stocks/"
+      "/markets-stocks/ai-capital-spending-big-tech/",
+      "/markets-stocks/stock-analysis-fundamentals/",
+      "/payments/paypal-statistics/"
     ],
     "external_link_opportunities": [
       "https://www.apple.com/newsroom/2026/04/apple-reports-second-quarter-results/",
@@ -499,6 +501,7 @@
   "verification_log": {
     "checked_on": "2026-10-04",
     "summary": "Keyword data from Ubersuggest (United States), five ranking pages reviewed. Headline figures checked against Apple's statements and releases. Apple investor relations page loads. First quarter table rows rechecked against the financial statements: Wearables, Home and Accessories $11,493 million, Europe $38,146 million, Japan $9,413 million, plus prior-year iPhone and Services figures. 2026 update of 2026-10-04: Added a nine-month fiscal 2026 summary (a sum of reported quarters, labeled as such), third quarter earnings per share and dividend, and a note that Apple's release gives no guidance. Editorial pass of 2026-10-05: added short attributed executive statements, each read from the cited company source with the speaker's name and title.",
-    "pending": "None."
+    "pending": "None.",
+    "interlinking": "2026-10-18: body links rebuilt to the hub-and-spoke SOP (spoke to pillar, pillar to every spoke, sibling links). Linking sentences describe the linked post only and add no new factual claims."
   }
 }

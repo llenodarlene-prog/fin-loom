@@ -10,7 +10,7 @@ tracker_id: Blog:S27
 primary_keyword: technical analysis for stocks
 secondary_keywords: stock technical analysis; technical indicators for stocks; does technical analysis work; stock exchange technical analysis
 cluster: Markets & Stocks
-approved_internal_links: /markets-stocks/stock-analysis-fundamentals/
+approved_internal_links: /markets-stocks/best-stock-analysis-apps/; /markets-stocks/stock-analysis-fundamentals/
 research_record: content/research/blog-s27.json
 image: /assets/images/posts/technical-analysis-for-stocks/laptop-phone-trading-charts-1600.jpg
 image_alt: A laptop and phone showing stock charts and market heatmaps on a desk with a bull figurine and city view
@@ -126,7 +126,7 @@ In the S&P 500 study discussed below, longer moving averages produced better res
 
 ## Common Technical Indicators Compared
 
-Each indicator answers a different question, and each has a known weakness. The table below summarizes the tools most often used in technical analysis for stocks.
+Each indicator answers a different question, and each has a known weakness. The table below summarizes the tools most often used in technical analysis for stocks. For choosing where to chart them, a comparison of each [app for stock analysis](/markets-stocks/best-stock-analysis-apps/) separates chart-first platforms from fundamentals-first ones.
 
 | Indicator | Main Question | Typical Use | Main Weakness |
 |---|---|---|---|

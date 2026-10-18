@@ -10,7 +10,7 @@ tracker_id: Blog:S5
 primary_keyword: DAO governance
 secondary_keywords: DAO governance model; token voting; governance token; Uniswap governance
 cluster: Fintech
-approved_internal_links: /fintech/
+approved_internal_links: /crypto/crypto-custody/
 research_record: content/research/blog-s5.json
 image: /assets/images/posts/dao-governance/governance-proposal-vote-1600.jpg
 image_alt: A laptop and phone showing a sample governance proposal and vote screen, with printed proposal documents
@@ -20,7 +20,7 @@ ai_exceptions:
 ai_exception_reason: 
 author: Darlene Aberin
 published: 2026-10-04
-modified: 2026-10-04
+modified: 2026-10-18
 ---
 
 # DAO Governance and DeFi: What Token Voting Controls
@@ -197,11 +197,11 @@ Those are economically meaningful controls. When evaluating a DeFi governance to
 | Grants | Can governance fund third parties? |
 | Legal structure | Can governance appoint representatives or service providers? |
 
-This is where [decentralized finance](/fintech/) becomes more than a technology label. Governance is one of the mechanisms through which financial protocols decide who can change rules, direct capital, and control shared infrastructure.
+This is where decentralized finance becomes more than a technology label. Governance is one of the mechanisms through which financial protocols decide who can change rules, direct capital, and control shared infrastructure.
 
 ## Treasury Governance Deserves Its Own Analysis
 
-A DAO treasury can hold stablecoins, governance tokens, protocol assets, or investments. Governance determines:
+A DAO treasury can hold stablecoins, governance tokens, protocol assets, or investments. Who controls the keys to those assets is a [crypto custody](/crypto/crypto-custody/) question as much as a governance one. Governance determines:
 
 - Who proposes spending
 - Who approves spending

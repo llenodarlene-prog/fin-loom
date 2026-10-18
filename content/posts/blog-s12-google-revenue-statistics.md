@@ -10,7 +10,7 @@ tracker_id: Blog:S12
 primary_keyword: Google revenue statistics
 secondary_keywords: 
 cluster: Markets & Stocks
-approved_internal_links: /markets-stocks/
+approved_internal_links: /markets-stocks/ai-capital-spending-big-tech/; /markets-stocks/stock-analysis-fundamentals/
 research_record: content/research/blog-s12.json
 image: /assets/images/posts/google-revenue-statistics/printed-research-reports-1600.jpg
 image_alt: Printed research reports, a notebook, and a tablet with charts laid out on a marble desk
@@ -20,7 +20,7 @@ ai_exceptions: leverage
 ai_exception_reason: Operating leverage is a technical financial term and is used in that sense only.
 author: Darlene Aberin
 published: 2026-10-04
-modified: 2026-10-04
+modified: 2026-10-18
 ---
 
 # Google Revenue Statistics 2026: Search, YouTube, Cloud, and the Business Mix
@@ -149,7 +149,7 @@ Google Services includes:
 
 In Q4 2025, Google Services generated **$95.5 billion in revenue** and **$40.1 billion in operating income**. That equates to an operating margin of about 41.9%.
 
-Few businesses of this scale produce margins at that level. It explains how Alphabet can fund enormous AI infrastructure investments while continuing to return capital to shareholders.
+Few businesses of this scale produce margins at that level. It explains how Alphabet can fund enormous AI infrastructure investments while continuing to return capital to shareholders. How that spending compares across the largest companies is the subject of [AI capital spending](/markets-stocks/ai-capital-spending-big-tech/) by big tech.
 
 ## Revenue Mix Is More Important Than the Headline Total
 
@@ -210,7 +210,7 @@ That strategic diversification is meaningful. A business built around explicit s
 
 Cloud creates a third major economic engine. Search is advertising, and YouTube mixes ads and subscriptions. Cloud, by contrast, is enterprise technology.
 
-The revenue models, customer bases, and competitive sets are different. For investors, this means Alphabet increasingly resembles a portfolio of major technology businesses rather than a single advertising company. That is why broader [company financial analysis](/markets-stocks/) should focus on revenue mix, margins, reinvestment, and capital intensity rather than a single top-line growth rate.
+The revenue models, customer bases, and competitive sets are different. For investors, this means Alphabet increasingly resembles a portfolio of major technology businesses rather than a single advertising company. That is why broader [fundamental analysis](/markets-stocks/stock-analysis-fundamentals/) should focus on revenue mix, margins, reinvestment, and capital intensity rather than a single top-line growth rate.
 
 ## The Advertising Concentration Question
 

@@ -10,7 +10,7 @@ tracker_id: Blog:S25
 primary_keyword: zacks stock screener
 secondary_keywords: zacks rank; zacks premium; is zacks premium worth it; zacks premium screens
 cluster: Markets & Stocks
-approved_internal_links: /markets-stocks/best-free-stock-screeners/
+approved_internal_links: /markets-stocks/best-free-stock-screeners/; /markets-stocks/morningstar-stock-screener/; /markets-stocks/stock-analysis-fundamentals/
 research_record: content/research/blog-s25.json
 image: /assets/images/posts/zacks-stock-screener/analyst-reviewing-printed-charts-1600.jpg
 image_alt: A person reviewing printed financial charts at a desk beside a laptop showing market dashboards and a city skyline
@@ -20,7 +20,7 @@ ai_exceptions:
 ai_exception_reason: 
 author: Darlene Aberin
 published: 2026-10-17
-modified: 2026-10-17
+modified: 2026-10-18
 ---
 
 # Zacks Stock Screener: How the Rank, Screens, and Research Fit Together
@@ -139,7 +139,7 @@ Zacks is less neutral than a general-purpose screener. Much of its value comes f
 
 ### Investors Who Build From Raw Data
 
-Some investors prefer to start from financial statements and their own assumptions. For them, a ranking layer can feel like a distraction. A neutral screener with deep fundamental data may fit better, and many capable free options exist for that style of research.
+Some investors prefer to start from financial statements and their own assumptions. For them, a ranking layer can feel like a distraction. A neutral screener with deep fundamental data may fit better, and many capable free options exist for that style of research. Investors who prefer analyst ratings to rankings can compare the [Morningstar stock screener](/markets-stocks/morningstar-stock-screener/), which builds fair value and competitive-advantage ratings into its filters.
 
 ### Short-Term Technical Traders
 
@@ -164,7 +164,7 @@ A rank can point toward a company worth investigating. It cannot tell an investo
 
 ### Add Balance-Sheet and Valuation Filters
 
-A company with rising estimates may still carry excessive debt, trade at a demanding valuation, or depend on a few large customers. Adding filters for debt levels, cash flow, and valuation alongside the rank narrows the list to companies where the estimate trend is supported by a sound financial position.
+A company with rising estimates may still carry excessive debt, trade at a demanding valuation, or depend on a few large customers. Adding filters for debt levels, cash flow, and valuation alongside the rank narrows the list to companies where the estimate trend is supported by a sound financial position. Checking that position is the work of [stock analysis fundamentals](/markets-stocks/stock-analysis-fundamentals/).
 
 ### Read the Underlying Research
 

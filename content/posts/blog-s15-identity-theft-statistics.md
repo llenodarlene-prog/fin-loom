@@ -10,7 +10,7 @@ tracker_id: Blog:S15
 primary_keyword: identity theft statistics
 secondary_keywords: 
 cluster: Money & Banking
-approved_internal_links: /money-banking/
+approved_internal_links: /money-banking/saving-vs-investing/; /payments/paypal-statistics/
 research_record: content/research/blog-s15.json
 image: /assets/images/posts/identity-theft-statistics/identity-protection-desk-1600.jpg
 image_alt: A laptop and phone showing sample account security screens beside a passport, a card, and an identity protection checklist
@@ -20,7 +20,7 @@ ai_exceptions:
 ai_exception_reason: 
 author: Darlene Aberin
 published: 2026-10-04
-modified: 2026-10-04
+modified: 2026-10-18
 ---
 
 # Identity Theft Statistics and Fraud Losses: What FTC Consumer Sentinel Data Shows
@@ -153,11 +153,11 @@ The scammer then instructs the customer to move the money. Technically, the legi
 
 ## Payment Speed Changes Fraud Dynamics
 
-Real-time payments improve convenience. They can also reduce the window for stopping a fraudulent transfer.
+Real-time payments improve convenience. Payment platforms face the same speed question, and [PayPal statistics](/payments/paypal-statistics/) cover the scale of one major wallet and checkout provider. They can also reduce the window for stopping a fraudulent transfer.
 
 Once money moves quickly, recovery may become harder. That does not make faster payments inherently unsafe.
 
-It means fraud controls must also operate quickly. The financial system needs: identity verification, behavioral analytics, transaction monitoring, customer warnings, and rapid intervention. This is one reason [consumer financial security](/money-banking/) increasingly depends on the interaction between banking controls and consumer behavior rather than passwords alone.
+It means fraud controls must also operate quickly. The financial system needs: identity verification, behavioral analytics, transaction monitoring, customer warnings, and rapid intervention. This is one reason consumer financial security increasingly depends on the interaction between banking controls and consumer behavior rather than passwords alone.
 
 ## Identity Theft Has Direct and Indirect Costs
 
@@ -268,7 +268,7 @@ A bank can score transactions more quickly. The technology does not inherently f
 
 ## Recovery Is Part of Financial Resilience
 
-Prevention receives most attention, but recovery counts too. A resilient consumer setup includes backup access to funds, documented financial accounts, secure recovery methods, emergency contact procedures, and knowledge of where to report.
+Prevention receives most attention, but recovery counts too. A resilient consumer setup includes backup access to funds, documented financial accounts, secure recovery methods, emergency contact procedures, and knowledge of where to report. Keeping accessible cash for those moments is part of the [saving vs investing](/money-banking/saving-vs-investing/) decision.
 
 If one account becomes unavailable, the household should still be able to function. This turns identity protection into a broader financial-planning issue.
 

@@ -52,7 +52,10 @@ test('supplementary blog posts map to a plan record, a silo record, and a resear
     assert.equal(record.min_words, 2500, 'owner rule: at least 2,500 words');
     assert.equal(record.no_word_ceiling, true, 'owner rule: no ceiling');
     const silo = plan.links.find(item => item.content_number === record.content_number);
-    assert.ok(silo && silo.approved_outbound_targets.length === 1, `${record.content_number}: one approved Fin Loom link`);
+    // SOP of 2026-10-18 (hub-and-spoke): a Hub links to its spokes; a spoke carries 2 to 3 links, one to its pillar.
+    assert.ok(silo && ['Hub', 'Supporting', 'Bridge', 'Commercial Support'].includes(silo.silo_role), `${record.content_number}: silo role`);
+    assert.ok(silo.pillar && silo.pillar.split('/')[1] === record.url_slug.split('/')[1], `${record.content_number}: pillar in the same silo`);
+    if (silo.silo_role !== 'Hub') assert.ok(silo.approved_outbound_targets.includes(silo.pillar) && silo.approved_outbound_targets.length >= 2 && silo.approved_outbound_targets.length <= 3, `${record.content_number}: spoke links to its pillar with 2 to 3 links`);
     const research = await readJson(`content/research/blog-${record.content_number.toLowerCase()}.json`);
     assert.equal(research.tracker_id, `Blog:${record.content_number}`);
   }

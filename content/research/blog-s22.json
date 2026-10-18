@@ -428,6 +428,8 @@
       "Comparison tables"
     ],
     "internal_links": [
+      "/markets-stocks/forrester-research-stock/",
+      "/markets-stocks/stock-analysis-fundamentals/",
       "/markets-stocks/stock-research-analyst-role/"
     ],
     "external_link_opportunities": [
@@ -474,6 +476,7 @@
   "verification_log": {
     "checked_on": "2026-10-15",
     "summary": "Rewritten from the owner draft to house standards on 2026-10-15. Every figure checked against the primary source listed in sources (vendor pages, SEC filings, CFA Institute, FINRA). Ubersuggest US data retrieved 2026-10-15 (some supporting queries 2026-10-12). Five competitor pages read; blocked pages replaced by the next ranking page.",
-    "pending": "None."
+    "pending": "None.",
+    "interlinking": "2026-10-18: body links rebuilt to the hub-and-spoke SOP (spoke to pillar, pillar to every spoke, sibling links). Linking sentences describe the linked post only and add no new factual claims."
   }
 }

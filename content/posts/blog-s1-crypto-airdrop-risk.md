@@ -10,7 +10,7 @@ tracker_id: Blog:S1
 primary_keyword: crypto airdrop
 secondary_keywords: airdrop scam; crypto airdrop scam; how to get crypto airdrop; token airdrop risk
 cluster: Crypto & Digital Assets
-approved_internal_links: /crypto/
+approved_internal_links: /crypto/crypto-analytics-tools/; /crypto/crypto-custody/; /fintech/dao-governance/
 research_record: content/research/blog-s1.json
 image: /assets/images/posts/crypto-airdrop-risk/airdrop-claim-review-1600.jpg
 image_alt: A phone showing an airdrop claim screen beside a printed checklist titled Before You Claim, a hardware wallet, and a sample token overview
@@ -19,7 +19,7 @@ ai_exceptions: unlock
 ai_exception_reason: Unlock is the standard technical term for scheduled token releases and is used in that sense only.
 author: Darlene Aberin
 published: 2026-10-04
-modified: 2026-10-04
+modified: 2026-10-18
 ---
 
 # Crypto Airdrop Risk: How to Evaluate Tokens Before You Claim
@@ -137,7 +137,7 @@ A blockchain explorer can help confirm the contract address, token standard, tra
 
 ## Evaluate Holder Concentration
 
-After establishing that the token is real, move from security research to economic research. One of the first questions is who owns the supply.
+After establishing that the token is real, move from security research to economic research. One of the first questions is who owns the supply. A wider toolkit for this stage, from token pages to on-chain dashboards, is covered in [crypto analytics tools](/crypto/crypto-analytics-tools/).
 
 If a very small group of wallets controls a large percentage of circulating tokens, those holders may have significant influence on liquidity and price. The analysis becomes harder when one entity uses many wallets, when exchange wallets are counted as holders, or when treasury and vesting contracts are included alongside freely tradable balances.
 
@@ -181,7 +181,7 @@ That does not mean there is enough executable liquidity to sell all 5,000 near $
 - Slippage on decentralized exchanges
 - Whether markets are organic or thin
 
-This is where broader [digital asset research](/crypto/) earns its place. Price alone is one field in a larger market structure that includes liquidity, supply, custody, investor behavior, and token economics.
+This is where broader digital asset research earns its place. Price alone is one field in a larger market structure that includes liquidity, supply, [crypto custody](/crypto/crypto-custody/), investor behavior, and token economics.
 
 ## Compare Market Cap With Fully Diluted Valuation Carefully
 
@@ -208,7 +208,7 @@ Ask what the token does after distribution. Possible functions include:
 
 None of these automatically makes a token valuable. The important question is whether the mechanism creates durable demand or simply adds another reason to issue tokens.
 
-Governance tokens deserve special scrutiny. Voting rights count only if governance controls something economically or operationally meaningful and if voting power is not so concentrated that small holders have negligible influence.
+Governance tokens deserve special scrutiny. Voting rights count only if governance controls something economically or operationally meaningful and if voting power is not so concentrated that small holders have negligible influence. How those votes work in practice is the subject of [DAO governance](/fintech/dao-governance/).
 
 ## Measure the Real Cost of “Free”
 

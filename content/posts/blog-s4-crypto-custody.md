@@ -10,7 +10,7 @@ tracker_id: Blog:S4
 primary_keyword: crypto custody
 secondary_keywords: institutional crypto custody; crypto custody services; self custody crypto; bank crypto custody
 cluster: Crypto & Digital Assets
-approved_internal_links: /crypto/
+approved_internal_links: /crypto/crypto-airdrop-risk/; /crypto/crypto-analytics-tools/
 research_record: content/research/blog-s4.json
 image: /assets/images/posts/crypto-custody/hardware-wallet-and-seed-backup-1600.jpg
 image_alt: A hardware wallet and a handwritten seed backup card beside a laptop showing a sample account overview
@@ -20,7 +20,7 @@ ai_exceptions:
 ai_exception_reason: 
 author: Darlene Aberin
 published: 2026-10-04
-modified: 2026-10-04
+modified: 2026-10-18
 ---
 
 # Crypto Custody Explained: Self-Custody, Exchanges, and Institutional Custodians
@@ -76,7 +76,7 @@ It also lets you interact with blockchain applications directly and move funds a
 
 ### Risks of Self-Custody
 
-The same control creates the main risks. Keys can be lost, seed phrases stolen, and devices compromised, while phishing sites and wallet drainers target exactly this kind of user.
+The same control creates the main risks. Keys can be lost, seed phrases stolen, and devices compromised, while phishing sites and wallet drainers target exactly this kind of user. The same risks apply to token claims, which is why [crypto airdrop](/crypto/crypto-airdrop-risk/) research starts with wallet permissions.
 
 Human factors count as much as technical ones. Poor backups, a mistyped address, or knowledge held by one person with no succession plan can all cause permanent loss. Self-custody transfers responsibility; it does not remove it.
 
@@ -115,7 +115,7 @@ Institutional custody is not simply a larger hardware wallet. It is usually a go
 - Compliance screening
 - Independent oversight
 
-The aim is to prevent a single compromised device, employee, or credential from moving assets. That is why institutional [digital asset custody](/crypto/) sits at the intersection of cybersecurity, financial controls, regulation, trading infrastructure, and operational risk rather than being only a wallet choice.
+The aim is to prevent a single compromised device, employee, or credential from moving assets. That is why institutional digital asset custody sits at the intersection of cybersecurity, financial controls, regulation, trading infrastructure, and operational risk rather than being only a wallet choice.
 
 ## Multisignature and Multi-Party Computation Are Not the Same
 
@@ -204,7 +204,7 @@ Insurance may cover specific forms of theft or employee misconduct while excludi
 
 ## Proof of Reserves Is Not Full Custody Due Diligence
 
-After failures among crypto firms, proof-of-reserves systems became more common. Reserve evidence can help show that certain on-chain assets exist. It does not automatically prove:
+After failures among crypto firms, proof-of-reserves systems became more common. On-chain evidence of this kind is read with the same [crypto analytics tools](/crypto/crypto-analytics-tools/) investors use for token research. Reserve evidence can help show that certain on-chain assets exist. It does not automatically prove:
 
 - Liabilities
 - Legal ownership

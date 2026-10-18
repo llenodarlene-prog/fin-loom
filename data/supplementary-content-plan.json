@@ -495,8 +495,12 @@
       "url_slug": "/crypto/crypto-airdrop-risk/",
       "primary_silo_hub": "/crypto/",
       "approved_outbound_targets": [
-        "/crypto/"
-      ]
+        "/crypto/crypto-analytics-tools/",
+        "/crypto/crypto-custody/",
+        "/fintech/dao-governance/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/crypto/crypto-custody/"
     },
     {
       "type": "Blog",
@@ -504,8 +508,12 @@
       "url_slug": "/crypto/crypto-analytics-tools/",
       "primary_silo_hub": "/crypto/",
       "approved_outbound_targets": [
-        "/crypto/"
-      ]
+        "/crypto/crypto-airdrop-risk/",
+        "/crypto/crypto-custody/",
+        "/fintech/dao-governance/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/crypto/crypto-custody/"
     },
     {
       "type": "Blog",
@@ -513,8 +521,11 @@
       "url_slug": "/investing/bitcoin-allocation/",
       "primary_silo_hub": "/investing/",
       "approved_outbound_targets": [
-        "/investing/"
-      ]
+        "/crypto/crypto-custody/",
+        "/investing/crypto-vs-stocks/"
+      ],
+      "silo_role": "Bridge",
+      "pillar": "/investing/crypto-vs-stocks/"
     },
     {
       "type": "Blog",
@@ -522,8 +533,11 @@
       "url_slug": "/crypto/crypto-custody/",
       "primary_silo_hub": "/crypto/",
       "approved_outbound_targets": [
-        "/crypto/"
-      ]
+        "/crypto/crypto-airdrop-risk/",
+        "/crypto/crypto-analytics-tools/"
+      ],
+      "silo_role": "Hub",
+      "pillar": "/crypto/crypto-custody/"
     },
     {
       "type": "Blog",
@@ -531,8 +545,10 @@
       "url_slug": "/fintech/dao-governance/",
       "primary_silo_hub": "/fintech/",
       "approved_outbound_targets": [
-        "/fintech/"
-      ]
+        "/crypto/crypto-custody/"
+      ],
+      "silo_role": "Hub",
+      "pillar": "/fintech/dao-governance/"
     },
     {
       "type": "Blog",
@@ -540,8 +556,12 @@
       "url_slug": "/investing/crypto-vs-stocks/",
       "primary_silo_hub": "/investing/",
       "approved_outbound_targets": [
-        "/investing/"
-      ]
+        "/investing/bitcoin-allocation/",
+        "/investing/per-capita-gdp-explained/",
+        "/investing/stock-risk-metrics/"
+      ],
+      "silo_role": "Hub",
+      "pillar": "/investing/crypto-vs-stocks/"
     },
     {
       "type": "Blog",
@@ -549,8 +569,11 @@
       "url_slug": "/markets-stocks/stock-screener-metrics-guide/",
       "primary_silo_hub": "/markets-stocks/",
       "approved_outbound_targets": [
-        "/markets-stocks/"
-      ]
+        "/markets-stocks/best-stock-screeners-compared/",
+        "/markets-stocks/stock-analysis-fundamentals/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/markets-stocks/stock-analysis-fundamentals/"
     },
     {
       "type": "Blog",
@@ -558,8 +581,11 @@
       "url_slug": "/investing/stock-risk-metrics/",
       "primary_silo_hub": "/investing/",
       "approved_outbound_targets": [
-        "/investing/"
-      ]
+        "/investing/bitcoin-allocation/",
+        "/investing/crypto-vs-stocks/"
+      ],
+      "silo_role": "Bridge",
+      "pillar": "/investing/crypto-vs-stocks/"
     },
     {
       "type": "Blog",
@@ -567,8 +593,11 @@
       "url_slug": "/money-banking/saving-vs-investing/",
       "primary_silo_hub": "/money-banking/",
       "approved_outbound_targets": [
-        "/money-banking/"
-      ]
+        "/investing/per-capita-gdp-explained/",
+        "/money-banking/identity-theft-statistics/"
+      ],
+      "silo_role": "Hub",
+      "pillar": "/money-banking/saving-vs-investing/"
     },
     {
       "type": "Blog",
@@ -576,8 +605,12 @@
       "url_slug": "/markets-stocks/ai-capital-spending-big-tech/",
       "primary_silo_hub": "/markets-stocks/",
       "approved_outbound_targets": [
-        "/markets-stocks/"
-      ]
+        "/markets-stocks/amazon-statistics/",
+        "/markets-stocks/google-revenue-statistics/",
+        "/markets-stocks/stock-analysis-fundamentals/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/markets-stocks/stock-analysis-fundamentals/"
     },
     {
       "type": "Blog",
@@ -585,8 +618,11 @@
       "url_slug": "/payments/paypal-statistics/",
       "primary_silo_hub": "/payments/",
       "approved_outbound_targets": [
-        "/payments/"
-      ]
+        "/markets-stocks/apple-statistics/",
+        "/money-banking/identity-theft-statistics/"
+      ],
+      "silo_role": "Hub",
+      "pillar": "/payments/paypal-statistics/"
     },
     {
       "type": "Blog",
@@ -594,8 +630,11 @@
       "url_slug": "/markets-stocks/google-revenue-statistics/",
       "primary_silo_hub": "/markets-stocks/",
       "approved_outbound_targets": [
-        "/markets-stocks/"
-      ]
+        "/markets-stocks/ai-capital-spending-big-tech/",
+        "/markets-stocks/stock-analysis-fundamentals/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/markets-stocks/stock-analysis-fundamentals/"
     },
     {
       "type": "Blog",
@@ -603,8 +642,11 @@
       "url_slug": "/markets-stocks/amazon-statistics/",
       "primary_silo_hub": "/markets-stocks/",
       "approved_outbound_targets": [
-        "/markets-stocks/"
-      ]
+        "/markets-stocks/ai-capital-spending-big-tech/",
+        "/markets-stocks/stock-analysis-fundamentals/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/markets-stocks/stock-analysis-fundamentals/"
     },
     {
       "type": "Blog",
@@ -612,8 +654,12 @@
       "url_slug": "/markets-stocks/apple-statistics/",
       "primary_silo_hub": "/markets-stocks/",
       "approved_outbound_targets": [
-        "/markets-stocks/"
-      ]
+        "/markets-stocks/ai-capital-spending-big-tech/",
+        "/markets-stocks/stock-analysis-fundamentals/",
+        "/payments/paypal-statistics/"
+      ],
+      "silo_role": "Bridge",
+      "pillar": "/markets-stocks/stock-analysis-fundamentals/"
     },
     {
       "type": "Blog",
@@ -621,8 +667,11 @@
       "url_slug": "/money-banking/identity-theft-statistics/",
       "primary_silo_hub": "/money-banking/",
       "approved_outbound_targets": [
-        "/money-banking/"
-      ]
+        "/money-banking/saving-vs-investing/",
+        "/payments/paypal-statistics/"
+      ],
+      "silo_role": "Bridge",
+      "pillar": "/money-banking/saving-vs-investing/"
     },
     {
       "type": "Blog",
@@ -630,8 +679,24 @@
       "url_slug": "/markets-stocks/stock-analysis-fundamentals/",
       "primary_silo_hub": "/markets-stocks/",
       "approved_outbound_targets": [
-        "/markets-stocks/stock-screener-metrics-guide/"
-      ]
+        "/markets-stocks/ai-capital-spending-big-tech/",
+        "/markets-stocks/amazon-statistics/",
+        "/markets-stocks/apple-statistics/",
+        "/markets-stocks/best-free-stock-screeners/",
+        "/markets-stocks/best-stock-analysis-apps/",
+        "/markets-stocks/best-stock-screeners-compared/",
+        "/markets-stocks/equity-research-reports/",
+        "/markets-stocks/forrester-research-stock/",
+        "/markets-stocks/google-revenue-statistics/",
+        "/markets-stocks/morningstar-stock-screener/",
+        "/markets-stocks/stock-research-analyst-role/",
+        "/markets-stocks/stock-screener-metrics-guide/",
+        "/markets-stocks/technical-analysis-for-stocks/",
+        "/markets-stocks/yahoo-finance-stock-research/",
+        "/markets-stocks/zacks-stock-screener/"
+      ],
+      "silo_role": "Hub",
+      "pillar": "/markets-stocks/stock-analysis-fundamentals/"
     },
     {
       "type": "Blog",
@@ -639,8 +704,12 @@
       "url_slug": "/markets-stocks/best-stock-screeners-compared/",
       "primary_silo_hub": "/markets-stocks/",
       "approved_outbound_targets": [
+        "/markets-stocks/best-free-stock-screeners/",
+        "/markets-stocks/stock-analysis-fundamentals/",
         "/markets-stocks/stock-screener-metrics-guide/"
-      ]
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/markets-stocks/stock-analysis-fundamentals/"
     },
     {
       "type": "Blog",
@@ -648,8 +717,12 @@
       "url_slug": "/markets-stocks/stock-research-analyst-role/",
       "primary_silo_hub": "/markets-stocks/",
       "approved_outbound_targets": [
+        "/markets-stocks/equity-research-reports/",
+        "/markets-stocks/stock-analysis-fundamentals/",
         "/markets-stocks/stock-screener-metrics-guide/"
-      ]
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/markets-stocks/stock-analysis-fundamentals/"
     },
     {
       "type": "Blog",
@@ -657,8 +730,11 @@
       "url_slug": "/investing/per-capita-gdp-explained/",
       "primary_silo_hub": "/investing/",
       "approved_outbound_targets": [
+        "/investing/crypto-vs-stocks/",
         "/money-banking/saving-vs-investing/"
-      ]
+      ],
+      "silo_role": "Bridge",
+      "pillar": "/investing/crypto-vs-stocks/"
     },
     {
       "type": "Blog",
@@ -666,8 +742,11 @@
       "url_slug": "/markets-stocks/best-free-stock-screeners/",
       "primary_silo_hub": "/markets-stocks/",
       "approved_outbound_targets": [
+        "/markets-stocks/stock-analysis-fundamentals/",
         "/markets-stocks/stock-screener-metrics-guide/"
-      ]
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/markets-stocks/stock-analysis-fundamentals/"
     },
     {
       "type": "Blog",
@@ -675,8 +754,12 @@
       "url_slug": "/markets-stocks/best-stock-analysis-apps/",
       "primary_silo_hub": "/markets-stocks/",
       "approved_outbound_targets": [
-        "/markets-stocks/stock-analysis-fundamentals/"
-      ]
+        "/markets-stocks/stock-analysis-fundamentals/",
+        "/markets-stocks/technical-analysis-for-stocks/",
+        "/markets-stocks/yahoo-finance-stock-research/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/markets-stocks/stock-analysis-fundamentals/"
     },
     {
       "type": "Blog",
@@ -684,8 +767,12 @@
       "url_slug": "/markets-stocks/equity-research-reports/",
       "primary_silo_hub": "/markets-stocks/",
       "approved_outbound_targets": [
+        "/markets-stocks/forrester-research-stock/",
+        "/markets-stocks/stock-analysis-fundamentals/",
         "/markets-stocks/stock-research-analyst-role/"
-      ]
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/markets-stocks/stock-analysis-fundamentals/"
     },
     {
       "type": "Blog",
@@ -693,8 +780,11 @@
       "url_slug": "/markets-stocks/forrester-research-stock/",
       "primary_silo_hub": "/markets-stocks/",
       "approved_outbound_targets": [
+        "/markets-stocks/equity-research-reports/",
         "/markets-stocks/stock-analysis-fundamentals/"
-      ]
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/markets-stocks/stock-analysis-fundamentals/"
     },
     {
       "type": "Blog",
@@ -702,8 +792,12 @@
       "url_slug": "/markets-stocks/morningstar-stock-screener/",
       "primary_silo_hub": "/markets-stocks/",
       "approved_outbound_targets": [
-        "/investing/stock-risk-metrics/"
-      ]
+        "/investing/stock-risk-metrics/",
+        "/markets-stocks/stock-analysis-fundamentals/",
+        "/markets-stocks/zacks-stock-screener/"
+      ],
+      "silo_role": "Bridge",
+      "pillar": "/markets-stocks/stock-analysis-fundamentals/"
     },
     {
       "type": "Blog",
@@ -711,8 +805,12 @@
       "url_slug": "/markets-stocks/zacks-stock-screener/",
       "primary_silo_hub": "/markets-stocks/",
       "approved_outbound_targets": [
-        "/markets-stocks/best-free-stock-screeners/"
-      ]
+        "/markets-stocks/best-free-stock-screeners/",
+        "/markets-stocks/morningstar-stock-screener/",
+        "/markets-stocks/stock-analysis-fundamentals/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/markets-stocks/stock-analysis-fundamentals/"
     },
     {
       "type": "Blog",
@@ -720,8 +818,11 @@
       "url_slug": "/markets-stocks/yahoo-finance-stock-research/",
       "primary_silo_hub": "/markets-stocks/",
       "approved_outbound_targets": [
-        "/markets-stocks/best-stock-analysis-apps/"
-      ]
+        "/markets-stocks/best-stock-analysis-apps/",
+        "/markets-stocks/stock-analysis-fundamentals/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/markets-stocks/stock-analysis-fundamentals/"
     },
     {
       "type": "Blog",
@@ -729,8 +830,11 @@
       "url_slug": "/markets-stocks/technical-analysis-for-stocks/",
       "primary_silo_hub": "/markets-stocks/",
       "approved_outbound_targets": [
+        "/markets-stocks/best-stock-analysis-apps/",
         "/markets-stocks/stock-analysis-fundamentals/"
-      ]
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/markets-stocks/stock-analysis-fundamentals/"
     }
   ]
 }

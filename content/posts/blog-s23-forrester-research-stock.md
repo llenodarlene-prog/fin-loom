@@ -10,7 +10,7 @@ tracker_id: Blog:S23
 primary_keyword: forrester research stock
 secondary_keywords: FORR stock; Forrester stock; Forrester Research earnings; Forrester contract value
 cluster: Markets & Stocks
-approved_internal_links: /markets-stocks/stock-analysis-fundamentals/
+approved_internal_links: /markets-stocks/equity-research-reports/; /markets-stocks/stock-analysis-fundamentals/
 research_record: content/research/blog-s23.json
 image: /assets/images/posts/forrester-research-stock/pen-pointing-candlestick-chart-1600.jpg
 image_alt: A hand pointing a pen at a candlestick price chart on a laptop screen
@@ -20,7 +20,7 @@ ai_exceptions:
 ai_exception_reason: 
 author: Darlene Aberin
 published: 2026-10-17
-modified: 2026-10-17
+modified: 2026-10-18
 ---
 
 # Forrester Research Stock: Revenue Pressure, AI Adoption, and the 2026 Reset
@@ -29,7 +29,7 @@ Forrester Research stock enters late 2026 with shrinking revenue, a smaller but 
 
 Shares of Forrester (Nasdaq: FORR) closed at $11.71 on October 14, 2026, according to Yahoo Finance. Yahoo listed the 52-week range as $4.88 to $12.75. Using the 19.4 million diluted shares reported for the second quarter, that price implies a market capitalization of roughly $225 million, a Fin Loom calculation rather than a reported figure.
 
-This analysis of Forrester Research stock covers what the second-quarter 10-Q and results release show, which metrics carry the most weight, and the risks around the plan. It is informational and does not recommend buying, selling, or holding the shares.
+This analysis of Forrester Research stock covers what the second-quarter 10-Q and results release show, which metrics carry the most weight, and the risks around the plan. It is informational and does not recommend buying, selling, or holding the shares. Readers can compare its structure with how professional analysts package this work in [equity research reports](/markets-stocks/equity-research-reports/).
 
 ## Key Takeaways
 

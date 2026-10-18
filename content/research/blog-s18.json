@@ -459,6 +459,8 @@
       "Hero image analyst-reviewing-reports"
     ],
     "internal_links": [
+      "/markets-stocks/equity-research-reports/",
+      "/markets-stocks/stock-analysis-fundamentals/",
       "/markets-stocks/stock-screener-metrics-guide/"
     ],
     "external_link_opportunities": [
@@ -502,6 +504,7 @@
   "verification_log": {
     "checked_on": "2026-10-12",
     "summary": "Ubersuggest (United States) data retrieved 2026-10-12. Corrections: projections relabeled from 2024 to 2034 to 2025 to 2035 (the current BLS edition), growth stated as BLS publishes it (7%), the 24,700 openings figure removed because it could not be matched to the current BLS page, and the Series 86 exemption now states its conditions per FINRA. Network opened 2026-10-12: five competitor pages read for each post (pages that blocked access were replaced by the next ranking page). Vendor pricing pages read directly and match. IMF WEO values for all six economies confirmed through the IMF data API (dataset WEO 9.0.0). CFA Institute wording on duties, coverage depth, and the Series 86 exemption confirmed. World Bank data confirmed to run through 2025. All cited links resolve; SEC and OECD block automated requests but the pages are valid. H3 expansion of 2026-10-12: every added sentence reviewed. No new figures. Product statements checked against vendor pages (Finviz Elite features, Koyfin Plus 10-year data); general statements on organic growth reporting, satellite accounts, and composite development indices worded so they hold without a specific figure.",
-    "pending": "None."
+    "pending": "None.",
+    "interlinking": "2026-10-18: body links rebuilt to the hub-and-spoke SOP (spoke to pillar, pillar to every spoke, sibling links). Linking sentences describe the linked post only and add no new factual claims."
   }
 }

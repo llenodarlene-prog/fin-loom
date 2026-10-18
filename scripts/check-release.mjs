@@ -82,7 +82,7 @@ if (!privacyPage || !privacyPage.body.includes(release.privacy?.policy_effective
 
 // Every published item, including one added the day before a deploy, must pass the full research and content validators.
 const here = path.dirname(fileURLToPath(import.meta.url));
-for (const script of ['check-research.mjs', 'check-content.mjs']) {
+for (const script of ['check-research.mjs', 'check-content.mjs', 'check-silo.mjs']) {
   const result = spawnSync(process.execPath, [path.join(here, script)], { cwd: process.cwd(), encoding: 'utf8' });
   if (result.status !== 0) fail(`${script} failed for published content:\n${(result.stderr || result.stdout).trim()}`);
 }

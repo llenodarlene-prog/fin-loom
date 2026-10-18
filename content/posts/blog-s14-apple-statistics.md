@@ -10,7 +10,7 @@ tracker_id: Blog:S14
 primary_keyword: Apple statistics
 secondary_keywords: 
 cluster: Markets & Stocks
-approved_internal_links: /markets-stocks/
+approved_internal_links: /markets-stocks/ai-capital-spending-big-tech/; /markets-stocks/stock-analysis-fundamentals/; /payments/paypal-statistics/
 research_record: content/research/blog-s14.json
 image: /assets/images/posts/apple-statistics/laptop-reports-and-reading-glasses-1600.jpg
 image_alt: A laptop showing a price chart beside a newspaper, printed reports, and reading glasses on a marble desk
@@ -20,7 +20,7 @@ ai_exceptions:
 ai_exception_reason: 
 author: Darlene Aberin
 published: 2026-10-04
-modified: 2026-10-04
+modified: 2026-10-18
 ---
 
 # Apple Statistics 2026: Revenue, iPhone, Services, and the Changing Business Mix
@@ -61,7 +61,7 @@ Apple's quarter ended December 27, 2025 produced **$143.756 billion in net sales
 
 Net income reached **$42.1 billion**. This was an exceptionally strong holiday quarter.
 
-But the more interesting statistic is the mix. Products generated $113.7 billion, while Services generated $30.0 billion. The Services component is now large enough to count independently.
+But the more interesting statistic is the mix. Products generated $113.7 billion, while Services generated $30.0 billion. The Services component is now large enough to count independently. Apple Pay also competes with PayPal in digital wallets, and [PayPal statistics](/payments/paypal-statistics/) cover that rival's scale.
 
 ## iPhone Revenue Reached $85.3 Billion
 
@@ -198,7 +198,7 @@ These is important can affect Services economics even if hardware sales remain s
 
 ## AI Is Becoming Part of the Product Cycle
 
-Apple's 2026 announcements have placed greater emphasis on AI software and Siri. Unlike hyperscale cloud vendors, Apple monetizes AI partly through devices and ecosystem retention rather than selling infrastructure directly.
+Apple's 2026 announcements have placed greater emphasis on AI software and Siri. Unlike hyperscale cloud vendors, Apple monetizes AI partly through devices and ecosystem retention rather than selling infrastructure directly. The cloud providers' side of that contrast is covered in [AI capital spending](/markets-stocks/ai-capital-spending-big-tech/) by big tech.
 
 The investment thesis is therefore different. AI may help Apple: increase device upgrade demand, strengthen ecosystem loyalty, improve Services, and differentiate hardware. The financial evidence should be measured through product demand and monetization rather than AI narrative alone.
 
@@ -208,7 +208,7 @@ Not every dollar of Apple revenue has the same margin. Services typically carry 
 
 Product mix therefore affects gross margin. If Services grows faster than hardware, total company margin can benefit.
 
-If lower-margin products grow faster, the opposite can occur. This is why [company financial performance](/markets-stocks/) should be analyzed through revenue mix and margin quality rather than only total sales growth.
+If lower-margin products grow faster, the opposite can occur. This is why [fundamental analysis](/markets-stocks/stock-analysis-fundamentals/) looks at company performance through revenue mix and margin quality rather than only total sales growth.
 
 ## Apple's Business Model Creates Recurring Upgrade Cycles
 

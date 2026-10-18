@@ -10,7 +10,7 @@ tracker_id: Blog:S7
 primary_keyword: stock screener
 secondary_keywords: 
 cluster: Markets & Stocks
-approved_internal_links: /markets-stocks/
+approved_internal_links: /markets-stocks/best-stock-screeners-compared/; /markets-stocks/stock-analysis-fundamentals/
 research_record: content/research/blog-s7.json
 image: /assets/images/posts/stock-screener-metrics-guide/market-monitors-desk-1600.jpg
 image_alt: A desk with four market monitors in an office overlooking a city and river
@@ -20,7 +20,7 @@ ai_exceptions: leverage
 ai_exception_reason: Leverage is used in its technical financial sense: debt relative to equity or earnings, and operating leverage.
 author: Darlene Aberin
 published: 2026-10-04
-modified: 2026-10-04
+modified: 2026-10-18
 ---
 
 # Stock Screener Explained: Which Metrics Help Narrow the Market
@@ -47,7 +47,7 @@ The screener cannot tell the investor which explanation is correct. That is the 
 
 A stock screener applies rules to a database. A basic screen might ask for companies with market capitalization above $2 billion, positive earnings, revenue growth above 10%, debt-to-equity below a threshold, and average daily trading volume above a certain level. The output is simply the group that passed.
 
-It does not prove those companies are undervalued, durable, or appropriate for the investor. Popular screeners such as TradingView, Finviz, Yahoo Finance, and Stock Analysis expose dozens or hundreds of filters.
+It does not prove those companies are undervalued, durable, or appropriate for the investor. Popular screeners such as TradingView, Finviz, Yahoo Finance, and Stock Analysis expose dozens or hundreds of filters. A comparison of the [top rated stock screener](/markets-stocks/best-stock-screeners-compared/) platforms shows how those tools differ.
 
 Their breadth can encourage users to build increasingly complicated screens because complexity feels like precision. In practice, a small set of well-chosen filters is usually easier to understand and audit.
 
@@ -253,7 +253,7 @@ Do not assume disagreement means one platform is wrong. Check the definition. Th
 
 A stock can pass every company-level filter and still face a difficult macro environment. Rates, credit conditions, commodity prices, currencies, regulation, and economic growth can affect entire sectors.
 
-For that reason, stock screening works better when paired with broader [stock market research](/markets-stocks/) that places company metrics inside market and sector conditions. A screen tells you which companies meet the rules. Market context helps explain whether the rules are identifying opportunity, cyclicality, or temporary distortion.
+For that reason, stock screening works better when paired with broader stock market research that places company metrics inside market and sector conditions, and with the [stock analysis fundamentals](/markets-stocks/stock-analysis-fundamentals/) that test each company the screen returns. A screen tells you which companies meet the rules. Market context helps explain whether the rules are identifying opportunity, cyclicality, or temporary distortion.
 
 ## What a Screener Cannot Tell You
 

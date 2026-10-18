@@ -10,7 +10,7 @@ tracker_id: Blog:S21
 primary_keyword: app for stock analysis
 secondary_keywords: best stock analysis apps; stock research app; stock analysis app; investing research apps
 cluster: Markets & Stocks
-approved_internal_links: /markets-stocks/stock-analysis-fundamentals/
+approved_internal_links: /markets-stocks/stock-analysis-fundamentals/; /markets-stocks/technical-analysis-for-stocks/; /markets-stocks/yahoo-finance-stock-research/
 research_record: content/research/blog-s21.json
 image: /assets/images/posts/best-stock-analysis-apps/phone-tablet-laptop-charts-1600.jpg
 image_alt: A phone, tablet, and laptop showing stock charts and market data on a marble desk with a city view
@@ -20,7 +20,7 @@ ai_exceptions:
 ai_exception_reason: 
 author: Darlene Aberin
 published: 2026-10-16
-modified: 2026-10-16
+modified: 2026-10-18
 ---
 
 # Choosing an App for Stock Analysis: Research Tools for Different Workflows
@@ -94,7 +94,7 @@ The amount of data and dashboard options means there is more to set up than in a
 
 TradingView is built around interactive charts, indicators, screeners, alerts, and multi-market monitoring. Its free Basic plan covers entry-level use.
 
-The app works particularly well for investors who move quickly between a screening condition and the underlying chart. According to [TradingView's pricing page](https://www.tradingview.com/pricing/), Essential costs $12.95 per month on annual billing, with higher tiers adding chart layouts, indicators, and alerts.
+The app works particularly well for investors who move quickly between a screening condition and the underlying chart. The indicators those charts carry are explained in [technical analysis for stocks](/markets-stocks/technical-analysis-for-stocks/). According to [TradingView's pricing page](https://www.tradingview.com/pricing/), Essential costs $12.95 per month on annual billing, with higher tiers adding chart layouts, indicators, and alerts.
 
 ### Why Chart-First Investors Choose It
 
@@ -106,7 +106,7 @@ TradingView includes fundamental data, but its defining strength is charting. Lo
 
 ## Yahoo Finance Is the General-Purpose Starting Point
 
-Yahoo Finance remains one of the easiest apps for monitoring markets, following companies, building watchlists, reading news, reviewing quotes, and reaching basic financial data. Its screener states that it covers 50 regions.
+Yahoo Finance remains one of the easiest apps for monitoring markets, following companies, building watchlists, reading news, reviewing quotes, and reaching basic financial data. Its screener states that it covers 50 regions. A fuller review of [Yahoo Finance stock research](/markets-stocks/yahoo-finance-stock-research/) covers what the free and paid plans include.
 
 Paid plans are priced by the year. Bronze costs $95.40 per year, which works out to $7.95 per month, and Silver and Gold add more data and tools.
 
