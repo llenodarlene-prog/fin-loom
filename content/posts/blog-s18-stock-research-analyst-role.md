@@ -10,7 +10,7 @@ tracker_id: Blog:S18
 primary_keyword: stock research analyst
 secondary_keywords: equity research analyst; financial research analyst; buy side analyst; sell side analyst; equity research career
 cluster: Markets & Stocks
-approved_internal_links: /markets-stocks/stock-screener-metrics-guide/
+approved_internal_links: /markets-stocks/equity-research-reports/; /markets-stocks/stock-analysis-fundamentals/; /markets-stocks/stock-screener-metrics-guide/
 research_record: content/research/blog-s18.json
 image: /assets/images/posts/stock-research-analyst-role/analyst-reviewing-reports-1600.jpg
 image_alt: An analyst taking notes beside a laptop with market charts and printed reports on a desk
@@ -20,7 +20,7 @@ ai_exceptions: leverage
 ai_exception_reason: Leverage appears only as the accounting noun (operating leverage, financial leverage), never as the filler verb the kill list targets.
 author: Darlene Aberin
 published: 2026-10-13
-modified: 2026-10-13
+modified: 2026-10-18
 ---
 
 # Stock Research Analyst: What the Role Does and How the Work Gets Used
@@ -61,7 +61,7 @@ A stock research analyst's process usually moves through eight recurring tasks.
 
 ## Buy-Side and Sell-Side Analysts Do Similar Work for Different Audiences
 
-The terms buy-side and sell-side describe where research sits in the investment ecosystem. Both analysts may cover the same company and use similar financial statements, but the audience and purpose of the work differ.
+The terms buy-side and sell-side describe where research sits in the investment ecosystem. Both analysts may cover the same company and use similar financial statements, but the audience and purpose of the work differ. Published sell-side work takes the form of [equity research reports](/markets-stocks/equity-research-reports/), which follow a standard structure.
 
 | Area | Sell-Side Research | Buy-Side Research |
 |---|---|---|
@@ -94,7 +94,7 @@ An analyst covering semiconductor equipment might compare management's outlook w
 
 ## Financial Statements Turn the Business Story Into Numbers
 
-The SEC identifies four core financial statements: the balance sheet, income statement, cash flow statement, and statement of shareholders' equity.
+The SEC identifies four core financial statements: the balance sheet, income statement, cash flow statement, and statement of shareholders' equity. Reading them together is the core of [stock analysis fundamentals](/markets-stocks/stock-analysis-fundamentals/).
 
 Analysts use them together rather than treating earnings as a complete picture.
 

@@ -10,7 +10,7 @@ tracker_id: Blog:S13
 primary_keyword: Amazon statistics
 secondary_keywords: 
 cluster: Markets & Stocks
-approved_internal_links: /markets-stocks/
+approved_internal_links: /markets-stocks/ai-capital-spending-big-tech/; /markets-stocks/stock-analysis-fundamentals/
 research_record: content/research/blog-s13.json
 image: /assets/images/posts/amazon-statistics/fulfilment-center-seller-dashboard-1600.jpg
 image_alt: A laptop showing a sample seller dashboard on a packing table in an Amazon fulfilment center
@@ -20,7 +20,7 @@ ai_exceptions: leverage
 ai_exception_reason: Operating leverage is a technical financial term and is used in that sense only.
 author: Darlene Aberin
 published: 2026-10-04
-modified: 2026-10-04
+modified: 2026-10-18
 ---
 
 # Amazon Statistics 2026: Revenue, AWS, Profit, and the Business Behind the Marketplace
@@ -152,7 +152,7 @@ Amazon reported trailing-twelve-month free cash flow of **$11.2 billion** at the
 
 This point is central. The business did not suddenly stop generating operating cash.
 
-Amazon's operating cash flow increased 20% to **$139.5 billion**. The decline in free cash flow reflected massive capital investment. Much of that investment supports AWS and AI infrastructure.
+Amazon's operating cash flow increased 20% to **$139.5 billion**. The decline in free cash flow reflected massive capital investment. Much of that investment supports AWS and AI infrastructure, a trend tracked across companies in [AI capital spending](/markets-stocks/ai-capital-spending-big-tech/) by big tech.
 
 ## Operating Cash Flow and Free Cash Flow Tell Different Stories
 
@@ -178,7 +178,7 @@ A company that grows revenue 20% and operating income 43% is converting more of 
 
 AWS growth accelerated to 37%. The business's profitability means every additional dollar of AWS revenue can have an outsized effect on Amazon's consolidated operating income.
 
-This is why investors should avoid analyzing Amazon purely as an e-commerce stock. Its valuation increasingly depends on a mix of retail, cloud, advertising, subscriptions, logistics, and AI infrastructure. Broader [stock market research](/markets-stocks/) becomes more informative when it separates those economic engines instead of treating Amazon's $200 billion quarterly revenue as one homogeneous business.
+This is why investors should avoid analyzing Amazon purely as an e-commerce stock. Its valuation increasingly depends on a mix of retail, cloud, advertising, subscriptions, logistics, and AI infrastructure. Broader [fundamental stock analysis](/markets-stocks/stock-analysis-fundamentals/) becomes more informative when it separates those economic engines instead of treating Amazon's $200 billion quarterly revenue as one homogeneous business.
 
 ## The Retail Business Still Is Important Enormously
 

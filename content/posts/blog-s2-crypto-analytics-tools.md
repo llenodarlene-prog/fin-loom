@@ -10,7 +10,7 @@ tracker_id: Blog:S2
 primary_keyword: crypto analytics tools
 secondary_keywords: crypto research tools; crypto research; token research; on-chain analytics
 cluster: Crypto & Digital Assets
-approved_internal_links: /crypto/
+approved_internal_links: /crypto/crypto-airdrop-risk/; /crypto/crypto-custody/; /fintech/dao-governance/
 research_record: content/research/blog-s2.json
 image: /assets/images/posts/crypto-analytics-tools/on-chain-metrics-dashboards-1600.jpg
 image_alt: Three monitors showing sample on-chain metrics, market structure, and token screener dashboards on a desk
@@ -20,7 +20,7 @@ ai_exceptions: unlock
 ai_exception_reason: Unlock is the standard technical term for scheduled token releases and is used in that sense only.
 author: Darlene Aberin
 published: 2026-10-04
-modified: 2026-10-04
+modified: 2026-10-18
 ---
 
 # Crypto Analytics Tools: How to Research Tokens Without Dashboard Overload
@@ -81,7 +81,7 @@ Broad crypto market platforms are useful because they standardize a large amount
 - Contract addresses
 - Market rankings
 
-This is the first layer of [crypto market research](/crypto/). It establishes what the asset is, how large its market appears to be, and how actively it trades before you move into deeper blockchain evidence.
+This is the first layer of crypto market research. It establishes what the asset is, how large its market appears to be, and how actively it trades before you move into deeper blockchain evidence.
 
 The limitation is that each headline number has assumptions. Market capitalization, for example, is commonly calculated as price multiplied by circulating supply. If circulating supply is uncertain or inconsistently defined, the resulting market cap inherits that uncertainty.
 
@@ -109,7 +109,7 @@ An address is not a business explanation. Transaction evidence must still be int
 
 ## Contract Verification Should Happen Before Token Comparison
 
-Crypto markets reuse names and symbols. Different tokens can share the same ticker, and scam tokens can copy branding.
+Crypto markets reuse names and symbols. Different tokens can share the same ticker, and scam tokens can copy branding. The same checks apply to anyone weighing a [crypto airdrop](/crypto/crypto-airdrop-risk/) before connecting a wallet.
 
 That makes contract identity foundational. Before comparing a token across platforms:
 
@@ -191,7 +191,7 @@ The statement “this address belongs to Entity X” depends on attribution qual
 
 ## Holder Concentration Needs Address Classification
 
-A top-holder table can look alarming if exchange wallets and protocol contracts are not identified. Imagine the top address holds 20% of supply. That could be an exchange custody wallet representing many customers, a vesting contract, a treasury, a bridge, a burn address, a liquidity pool, or an individual holder.
+A top-holder table can look alarming if exchange wallets and protocol contracts are not identified. Imagine the top address holds 20% of supply. That could be an exchange custody wallet representing many customers ([crypto custody](/crypto/crypto-custody/) explains how those arrangements work), a vesting contract, a treasury, a bridge, a burn address, a liquidity pool, or an individual holder.
 
 Those cases imply very different concentration risks. Instead of reporting “the top 10 wallets hold 60%,” classify the wallets when possible. A better table is:
 
@@ -279,7 +279,7 @@ The goal of this layer is identity and tradability. A token can have an impressi
 
 ### Layer 3: Protocol Fundamentals
 
-For DeFi and application tokens, move on to the activity the protocol produces: TVL, fees, revenue, users, transaction types, developer activity, governance, and treasury. These figures show whether anyone is paying to use the product.
+For DeFi and application tokens, move on to the activity the protocol produces: TVL, fees, revenue, users, transaction types, developer activity, governance, and treasury. For the governance side, [DAO governance](/fintech/dao-governance/) explains how token holders and delegates make protocol decisions. These figures show whether anyone is paying to use the product.
 
 Read each metric with its definition beside it. Fees and revenue are different numbers, and crypto analytics tools do not always define them the same way.
 

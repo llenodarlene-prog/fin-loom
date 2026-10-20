@@ -10,7 +10,7 @@ tracker_id: Blog:S3
 primary_keyword: bitcoin allocation
 secondary_keywords: bitcoin portfolio allocation; bitcoin diversification; bitcoin in a portfolio; crypto allocation
 cluster: Investing
-approved_internal_links: /investing/
+approved_internal_links: /crypto/crypto-custody/; /investing/crypto-vs-stocks/
 research_record: content/research/blog-s3.json
 image: /assets/images/posts/bitcoin-allocation/portfolio-allocation-report-1600.jpg
 image_alt: A laptop and printed report showing a sample portfolio allocation pie chart, with a gold coin beside them
@@ -20,7 +20,7 @@ ai_exceptions: leverage
 ai_exception_reason: Leverage is used in its technical financial sense, describing borrowed exposure in futures.
 author: Darlene Aberin
 published: 2026-10-04
-modified: 2026-10-04
+modified: 2026-10-18
 ---
 
 # Bitcoin Allocation: Risk, Volatility, and Diversification in a Portfolio
@@ -33,7 +33,7 @@ At a 4% allocation, its estimate rose to roughly 14% of portfolio risk. BlackRoc
 
 That is one framework, not a universal allocation rule. [Fidelity Digital Assets argued in its 2026 research](https://fidelitydigitalassets.com/research-and-insights/getting-zero-evaluating-bitcoin-2026) that institutional investors and money managers should have a well-informed rationale for maintaining a zero-weight position. [CoinShares’ May 2026 fund-manager survey](https://coinshares.com/us/insights/research-data/digital-asset-quarterly-fund-manager-survey-05-2026/) found a 1% median digital-asset allocation among respondents, although the weighted average was only 0.1% because the sample included a larger share of institutions with very low exposure.
 
-Taken together, the better question is not “What percentage should everyone own?” It is “What does a given Bitcoin allocation do to this portfolio’s risk, liquidity, drawdown, and investment thesis?”
+Taken together, the better question is not “What percentage should everyone own?” It is “What does a given Bitcoin allocation do to this portfolio’s risk, liquidity, drawdown, and investment thesis?” A broader comparison of [crypto vs stocks](/investing/crypto-vs-stocks/) covers volatility, liquidity, and portfolio role.
 
 ## Key Takeaways
 
@@ -91,7 +91,7 @@ The lesson is not “1% to 2% always works.” The lesson is that a small alloca
 
 Bitcoin is sometimes presented as either completely uncorrelated with traditional assets or simply another risk asset. Neither description is stable enough to serve as a permanent rule. BlackRock’s 2026 work describes Bitcoin as having a “dual personality”: it can trade alongside risk assets during deleveraging episodes and behave differently during some geopolitical or monetary shocks.
 
-That means correlation should be treated as a changing input. For [portfolio diversification](/investing/) analysis, the better question is not whether Bitcoin has one fixed correlation number.
+That means correlation should be treated as a changing input. For portfolio diversification analysis, the better question is not whether Bitcoin has one fixed correlation number.
 
 It is how its relationship with equities, bonds, gold, and cash behaves across different regimes. An investor should therefore examine long-term average correlation, rolling correlation, stress-period correlation, downside correlation, and correlation during liquidity events. Diversification is most valuable when assets behave differently when the portfolio needs it most.
 
@@ -146,7 +146,7 @@ If Bitcoin is 1% of a portfolio and falls 70%, the direct capital effect is abou
 
 Bitcoin is one of the most liquid crypto assets, with deep global markets and regulated investment vehicles in several jurisdictions. Portfolio liquidity still involves more than trading availability.
 
-An investor using an ETF faces market-hour, spread, tax, and brokerage considerations. A self-custody holder faces transfer, exchange, custody, and operational considerations. A fund may face mandate, custodian, compliance, and redemption constraints.
+An investor using an ETF faces market-hour, spread, tax, and brokerage considerations. A self-custody holder faces transfer, exchange, custody, and operational considerations, which [crypto custody](/crypto/crypto-custody/) compares across self-custody, exchanges, and institutional arrangements. A fund may face mandate, custodian, compliance, and redemption constraints.
 
 Institutional investors also need to consider whether their governance and operational infrastructure can support the exposure. CoinShares’ May 2026 survey found that institutional constraints and regulation remained important barriers to larger digital-asset allocations. That suggests the investment thesis can be stronger than the organization’s ability to implement it.
 

@@ -5,7 +5,7 @@ import { escapeHtml, markdownToHtml, readContent } from './lib/content.mjs';
 import { contactEmail, renderAbout, renderContact, renderHome, renderHub, renderPartner } from './lib/pages.mjs';
 import { buildCharts } from './lib/illustrations.mjs';
 import { renderChart, resetCharts } from './lib/charts.mjs';
-import { articleSchema, headMeta } from './lib/seo.mjs';
+import { articleSchema, headMeta, organizationNode } from './lib/seo.mjs';
 import { assertUniqueRoute, validateRedirects } from './lib/workflow.mjs';
 import { publicationState, publishDate } from './lib/schedule.mjs';
 
@@ -98,6 +98,7 @@ const header = replace(headerTemplate, { ...shared, WORDMARK: headerLogo ? `<img
 const footer = replace(footerTemplate, shared);
 const sourceFiles = (await walk('content')).filter(file => file.endsWith('.md')).sort();
 const parsed = [];
+const orgEmail = (await readOptionalJson('data/release.json'))?.contact?.email || '';
 const sourceRoutes = new Map();
 // Production omits drafts and approved posts whose publication date has not arrived; their routes are
 // remembered so links to them can be unlinked below. Staging shows both so they can be reviewed.
@@ -121,9 +122,23 @@ for (const page of parsed) {
   if (metadata.image && !featured) throw new Error(`${source}: featured image ${metadata.image} is not registered in data/assets.json`);
   const hub = nav.primary.find(item => item.url !== '/' && metadata.slug.startsWith(item.url));
   const crumbs = [{ name: 'Home', url: `${siteUrl}/` }, ...(hub && hub.url !== metadata.slug ? [{ name: hub.label, url: canonical(hub.url) }] : []), { name: metadata.title, url }];
-  const schema = article ? articleSchema({ metadata, url, site, siteUrl, image: featured, body, crumbs, logo: logoImage }) : {
-    '@context': 'https://schema.org', '@type': metadata.schema || 'WebPage', name: metadata.title, description: metadata.description,
-    url, isPartOf: { '@type': 'WebSite', name: site.name, url: siteUrl }
+  const hubUrl = hub && hub.url !== metadata.slug ? canonical(hub.url) : null;
+  // Hubs list their live posts as hasPart; scheduled posts join on their publish date (SOP step 5).
+  const hubParts = metadata.schema === 'CollectionPage' ? publishedPosts.filter(post => post.slug.startsWith(metadata.slug) && publicationState(post, today) === 'live') : [];
+  const breadcrumbList = { '@type': 'BreadcrumbList', '@id': `${url}#breadcrumb`, itemListElement: crumbs.map((crumb, i) => ({ '@type': 'ListItem', position: i + 1, name: crumb.name, item: crumb.url })) };
+  const schema = article ? articleSchema({ metadata, url, site, siteUrl, image: featured, body, crumbs, logo: logoImage, hubUrl, email: orgEmail }) : {
+    '@context': 'https://schema.org',
+    '@graph': [
+      organizationNode({ site, siteUrl, logo: logoImage, email: orgEmail }),
+      { '@type': 'WebSite', '@id': `${siteUrl}/#website`, name: site.name, url: `${siteUrl}/`, publisher: { '@id': `${siteUrl}/#organization` }, inLanguage: site.locale || 'en-US' },
+      {
+        '@type': metadata.schema || 'WebPage', '@id': `${url}#webpage`, name: metadata.title, description: metadata.description,
+        url, isPartOf: { '@id': `${siteUrl}/#website` }, inLanguage: site.locale || 'en-US',
+        ...(metadata.slug !== '/' ? { breadcrumb: { '@id': `${url}#breadcrumb` } } : {}),
+        ...(hubParts.length ? { hasPart: hubParts.map(post => ({ '@type': post.schema === 'BlogPosting' ? 'BlogPosting' : 'Article', '@id': `${canonical(post.slug)}#article`, headline: post.title, url: canonical(post.slug) })) } : {})
+      },
+      ...(metadata.slug !== '/' ? [breadcrumbList] : [])
+    ]
   };
   // Designed pages render from approved copy files; everything else renders from Markdown.
   const designedCopy = { home: homeCopy, about: aboutCopy, contact: contactCopy, hub: hubCopy, partner: partnerCopy }[metadata.template];
@@ -169,6 +184,15 @@ await writeFile(path.join(dist, 'sitemap.xml'), `<?xml version="1.0" encoding="U
 const posts = indexed.filter(page => page.article).sort((a, b) => String(b.modified).localeCompare(String(a.modified)));
 const updated = isoDate(posts[0]?.modified || posts[0]?.published) || site.source_modified || '2026-09-22T00:00:00Z';
 await writeFile(path.join(dist, 'feed.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<feed xmlns="http://www.w3.org/2005/Atom"><title>${escapeHtml(site.name)}</title><id>${siteUrl}/</id><link href="${siteUrl}/feed.xml" rel="self"/><updated>${updated}</updated>${posts.slice(0, 20).map(page => `<entry><title>${escapeHtml(page.title)}</title><id>${page.url}</id><link href="${page.url}"/><updated>${isoDate(page.modified || page.published)}</updated></entry>`).join('')}</feed>\n`);
+// llms.txt (SOP step 6): every live post grouped by silo, from the same set as the sitemap.
+const livePosts = posts.filter(page => publicationState(page, today) === 'live');
+const llms = [`# ${site.name}`, '', `> ${site.description || site.tagline || ''}`.trimEnd(), ''];
+for (const item of nav.primary.filter(entry => entry.url !== '/' && livePosts.some(page => page.slug.startsWith(entry.url)))) {
+  llms.push(`## ${item.label}`, '', `- [${item.label}](${canonical(item.url)})`);
+  for (const page of livePosts.filter(entry => entry.slug.startsWith(item.url)).sort((a, b) => a.title.localeCompare(b.title))) llms.push(`- [${page.title}](${page.url}): ${page.description}`);
+  llms.push('');
+}
+await writeFile(path.join(dist, 'llms.txt'), llms.join('\n'));
 const robotsText = await readFile(indexable ? 'src/static/robots-production.txt' : 'src/static/robots-staging.txt', 'utf8');
 await writeFile(path.join(dist, 'robots.txt'), robotsText.replaceAll('{{SITE_URL}}', siteUrl));
 const htaccess = await readFile('src/static/.htaccess', 'utf8');

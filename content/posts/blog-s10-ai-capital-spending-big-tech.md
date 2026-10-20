@@ -10,7 +10,7 @@ tracker_id: Blog:S10
 primary_keyword: AI capital spending
 secondary_keywords: 
 cluster: Markets & Stocks
-approved_internal_links: /markets-stocks/
+approved_internal_links: /markets-stocks/amazon-statistics/; /markets-stocks/google-revenue-statistics/; /markets-stocks/stock-analysis-fundamentals/
 research_record: content/research/blog-s10.json
 image: /assets/images/posts/ai-capital-spending-big-tech/boardroom-presentation-screen-1600.jpg
 image_alt: An empty boardroom with a wall screen showing a chart and a city skyline beyond the windows
@@ -20,7 +20,7 @@ ai_exceptions:
 ai_exception_reason: 
 author: Darlene Aberin
 published: 2026-10-04
-modified: 2026-10-04
+modified: 2026-10-18
 ---
 
 # AI Capital Spending: How Investors Can Evaluate Big Tech's Investment Cycle
@@ -203,7 +203,7 @@ AI can create value by improving the monetization of its enormous existing user 
 
 ## Alphabet: Search, Cloud, and the Infrastructure Stack
 
-Alphabet's capex supports multiple businesses. Google Cloud needs capacity for enterprise workloads, while Search increasingly uses AI. In addition, YouTube recommendations and advertising use large-scale machine learning.
+Alphabet's capex supports multiple businesses, and [Google revenue statistics](/markets-stocks/google-revenue-statistics/) break down what each one earns. Google Cloud needs capacity for enterprise workloads, while Search increasingly uses AI. In addition, YouTube recommendations and advertising use large-scale machine learning.
 
 Gemini requires training and inference infrastructure. Alphabet began 2026 expecting capital expenditure of $175 billion to $185 billion.
 
@@ -211,7 +211,7 @@ On its [second-quarter 2026 earnings call](https://abc.xyz/investor/events/event
 
 ## Amazon: AWS Makes CapEx a Cloud Capacity Decision
 
-Amazon's infrastructure spending is tied heavily to AWS as well as fulfillment and logistics. The AI component includes:
+Amazon's infrastructure spending is tied heavily to AWS as well as fulfillment and logistics. The revenue side of that picture is covered in [Amazon statistics](/markets-stocks/amazon-statistics/). The AI component includes:
 
 - Trainium
 - Graviton
@@ -289,7 +289,7 @@ Meta's 2026 spending increase, for example, has changed the discussion around ca
 
 Even value-creating capex does not guarantee a good stock return. If investors already expect extraordinary AI growth, the valuation may require near-perfect execution. The business can improve while the stock falls because expectations were higher.
 
-This is why [stock market analysis](/markets-stocks/) must separate company economics from the price already embedded in the shares. AI infrastructure can be strategically necessary and financially productive while the equity remains expensive.
+This is why [stock analysis](/markets-stocks/stock-analysis-fundamentals/) must separate company economics from the price already embedded in the shares. AI infrastructure can be strategically necessary and financially productive while the equity remains expensive.
 
 ## A Framework for Earnings Season
 

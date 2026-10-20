@@ -10,7 +10,7 @@ tracker_id: Blog:S16
 primary_keyword: stock analysis fundamentals
 secondary_keywords: fundamental stock analysis; how to analyze stocks; stock fundamentals; financial statement analysis; stock valuation fundamentals
 cluster: Markets & Stocks
-approved_internal_links: /markets-stocks/stock-screener-metrics-guide/
+approved_internal_links: /markets-stocks/ai-capital-spending-big-tech/; /markets-stocks/amazon-statistics/; /markets-stocks/apple-statistics/; /markets-stocks/best-free-stock-screeners/; /markets-stocks/best-stock-analysis-apps/; /markets-stocks/best-stock-screeners-compared/; /markets-stocks/equity-research-reports/; /markets-stocks/forrester-research-stock/; /markets-stocks/google-revenue-statistics/; /markets-stocks/morningstar-stock-screener/; /markets-stocks/stock-research-analyst-role/; /markets-stocks/stock-screener-metrics-guide/; /markets-stocks/technical-analysis-for-stocks/; /markets-stocks/yahoo-finance-stock-research/; /markets-stocks/zacks-stock-screener/
 research_record: content/research/blog-s16.json
 image: /assets/images/posts/stock-analysis-fundamentals/research-desk-charts-1600.jpg
 image_alt: A laptop showing bar and line charts beside a calculator, notebook, and printed financial reports on an office desk
@@ -20,7 +20,7 @@ ai_exceptions: leverage
 ai_exception_reason: Operating leverage and financial leverage are standard accounting terms with no plain substitute in a fundamentals explainer.
 author: Darlene Aberin
 published: 2026-10-12
-modified: 2026-10-12
+modified: 2026-10-18
 ---
 
 # Stock Analysis Fundamentals: How to Evaluate a Company
@@ -190,6 +190,8 @@ The difficult part comes after the screen. Investors still have to determine whe
 
 For example, [stock screener metrics](/markets-stocks/stock-screener-metrics-guide/) can identify companies with low debt and strong margins, but the screen cannot explain whether a competitor is about to disrupt the business or whether management is allocating capital poorly.
 
+Choosing the tool comes before running the screen. A comparison of the [top rated stock screener](/markets-stocks/best-stock-screeners-compared/) platforms weighs paid options, the [best stock screener for free](/markets-stocks/best-free-stock-screeners/) covers no-cost plans, and single-platform reviews of the [Morningstar stock screener](/markets-stocks/morningstar-stock-screener/) and the [Zacks stock screener](/markets-stocks/zacks-stock-screener/) show how ratings and rankings change a screen. For research beyond the screen, each [app for stock analysis](/markets-stocks/best-stock-analysis-apps/) is compared by workflow, and [Yahoo Finance stock research](/markets-stocks/yahoo-finance-stock-research/) covers what Yahoo's free and paid tools include.
+
 ## Risk Analysis Should Be Specific to the Business
 
 Generic statements such as "competition could increase" are not enough. Investors should identify the risks capable of changing the forecast. The categories below are a starting list, not a complete one.
@@ -222,6 +224,8 @@ Seven trends are worth checking across at least three to five years of reports.
 - **Valuation:** Is the stock priced above or below its own historical range?
 
 This helps distinguish structural improvement from a single unusually strong quarter.
+
+The same reading applies to the largest companies. [Apple statistics](/markets-stocks/apple-statistics/) show how product and Services mix affects margins, [Amazon statistics](/markets-stocks/amazon-statistics/) separate retail from cloud, [Google revenue statistics](/markets-stocks/google-revenue-statistics/) break Alphabet into its main businesses, and [AI capital spending](/markets-stocks/ai-capital-spending-big-tech/) by big tech tracks how much the largest companies are investing in AI infrastructure. The [Forrester Research stock](/markets-stocks/forrester-research-stock/) analysis applies the same steps to a smaller company in transition.
 
 ## A Practical Fundamental Analysis Checklist
 
@@ -266,6 +270,8 @@ The strongest stock analysis does not end with a ratio. It connects the business
 Microsoft's fiscal 2026 results demonstrate the principle. Revenue grew 18%, but the more interesting questions are why operating income grew faster, how much of net income came from investment gains, how much investment supports future growth, whether current margins are sustainable, and what valuation investors are paying for those future earnings.
 
 Stock analysis fundamentals become valuable when each number changes the interpretation of another. Growth is worth more when it produces cash. High margins are worth more when competition cannot easily erode them. A low valuation means more when the underlying business remains healthy.
+
+Professional analysts follow the same process. The [stock research analyst](/markets-stocks/stock-research-analyst-role/) role describes how that work is organized, and [equity research reports](/markets-stocks/equity-research-reports/) show how it is presented to clients. Price-based methods are a separate discipline: [technical analysis for stocks](/markets-stocks/technical-analysis-for-stocks/) covers the trend and momentum tools some investors pair with fundamentals.
 
 ## Frequently Asked Questions
 

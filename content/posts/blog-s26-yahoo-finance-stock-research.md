@@ -10,7 +10,7 @@ tracker_id: Blog:S26
 primary_keyword: yahoo finance stock research
 secondary_keywords: yahoo stock research; yahoo finance premium; yahoo finance stock screener; is yahoo finance premium worth it
 cluster: Markets & Stocks
-approved_internal_links: /markets-stocks/best-stock-analysis-apps/
+approved_internal_links: /markets-stocks/best-stock-analysis-apps/; /markets-stocks/stock-analysis-fundamentals/
 research_record: content/research/blog-s26.json
 image: /assets/images/posts/yahoo-finance-stock-research/laptop-market-dashboard-globe-1600.jpg
 image_alt: A laptop showing market charts and a world map dashboard on a marble desk beside a globe, notebook, and coffee cup
@@ -60,7 +60,7 @@ That integration is the core of Yahoo Finance stock research. Analysis often mov
 
 ### Financials and Analysis Tabs
 
-The Financials tab shows annual and quarterly income statements, balance sheets, and cash flow data. The Analysis tab shows current and future estimates for earnings, revenue, and growth, along with earnings history, EPS trends, and EPS revisions. Together they give a quick view of past results and what analysts expect next.
+The Financials tab shows annual and quarterly income statements, balance sheets, and cash flow data. The Analysis tab shows current and future estimates for earnings, revenue, and growth, along with earnings history, EPS trends, and EPS revisions. Together they give a quick view of past results and what analysts expect next. Reading those statements together is covered in [stock analysis fundamentals](/markets-stocks/stock-analysis-fundamentals/).
 
 ### Historical Data and Statistics
 

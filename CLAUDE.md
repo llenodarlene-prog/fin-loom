@@ -25,6 +25,10 @@ If sources conflict, stop and report the exact conflict. The tracker controls ti
 8. Review generated drift with `git diff --exit-code` after a clean build.
 9. Open a PR into `staging`. Production requires human approval.
 
+## Owner-supplied posts: final AI QA and fact-check layer
+
+When the owner supplies blogs or articles, treat them as researched and fact-checked by the owner, then always run one more independent QA and fact-check layer before anything is scheduled or pushed (owner rule, 2026-10-20). Never skip it because the owner already checked. Follow `docs/CONTENT-WORKFLOW.md` ("Final QA layer for owner-supplied posts"): re-verify every figure, price, date, quote and product claim against the primary source; remove or correct anything that cannot be confirmed; check the editorial, link, schema and compliance rules; and report every change and every unverifiable claim to the owner before sign-off. The owner gives the final approval.
+
 ## Editorial rules
 
 - Publishable pieces are 2,000–2,500 words; never exceed 2,600 without approval.
@@ -32,6 +36,7 @@ If sources conflict, stop and report the exact conflict. The tracker controls ti
 - Articles place `Key Statistics and Data` immediately after the introduction. Blogs place `Key Takeaways` there and use `Frequently Asked Questions` before Resources.
 - `Key Takeaways` and `Frequently Asked Questions` never have an introduction: the first bullet or the first question comes directly after the heading (owner rule, 2026-10-12, enforced by `npm run check:content`).
 - Every H3 section outside the FAQ carries at least 40 words of real content, with no padding or invented claims (owner rule, 2026-10-12, enforced by `npm run check:content`).
+- Internal links follow the hub-and-spoke silo SOP in `docs/SEO-AEO-GEO-SOP.md` (owner rule, 2026-10-18, enforced by `npm run check:silo`): every spoke links in its body to its silo pillar, every pillar links to each live spoke, spokes carry 2 to 3 post links, and every live post receives body links from at least 2 other posts. Category hubs, menus, and Resources do not count. When a spoke publishes, add the pillar's link to it in the same release.
 - Use every approved launch target naturally and no unrelated launch-set links. Avoid mechanical anchors such as “click here,” “learn more,” “our guide,” “our page,” or “deep dive.”
 - Use two or three reputable external links contextually before Resources. Put additional approved sources in Resources. Every cited URL must match a verified research source; Resources never substitutes for body citations.
 - Preserve the real evidence year. Label estimates, forecasts, calculations, partial-year data, and sponsored studies.

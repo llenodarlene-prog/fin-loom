@@ -10,7 +10,7 @@ tracker_id: Blog:S6
 primary_keyword: crypto vs stocks
 secondary_keywords: 
 cluster: Investing
-approved_internal_links: /investing/
+approved_internal_links: /investing/bitcoin-allocation/; /investing/per-capita-gdp-explained/; /investing/stock-risk-metrics/
 research_record: content/research/blog-s6.json
 image: /assets/images/posts/crypto-vs-stocks/market-chart-and-coin-desk-1600.jpg
 image_alt: A laptop showing a market chart beside a gold coin and a stack of finance books, with a city skyline at sunrise
@@ -19,7 +19,7 @@ ai_exceptions: unlock
 ai_exception_reason: Unlock is the standard technical term for scheduled token releases and is used in that sense only.
 author: Darlene Aberin
 published: 2026-10-04
-modified: 2026-10-04
+modified: 2026-10-18
 ---
 
 # Crypto vs Stocks: Comparing Volatility, Drawdowns, Liquidity, and Returns
@@ -80,7 +80,7 @@ Volatility measures how widely returns move around their average. It does not te
 
 Consider two assets with the same long-term return. If one reaches that return through relatively modest swings and the other repeatedly falls 50% before recovering, those investments are not interchangeable for a person who may need cash at an inconvenient time.
 
-The SEC's investor education materials continue to describe crypto assets as potentially exceptionally volatile and speculative. The agency also emphasizes asset allocation and diversification when investors consider speculative or complex assets.
+The SEC's investor education materials continue to describe crypto assets as potentially exceptionally volatile and speculative. The agency also emphasizes asset allocation and diversification when investors consider speculative or complex assets. Sizing that allocation is the focus of [bitcoin allocation](/investing/bitcoin-allocation/), which tests how a small weight changes portfolio risk.
 
 That combination is important. An asset does not need to be “bad” to be inappropriate at a certain portfolio weight. It only needs to create more drawdown risk than the investor can tolerate.
 
@@ -157,11 +157,11 @@ That means an investor should not assume that adding crypto automatically provid
 4. What happens if the asset falls 50%?
 5. Would the investor rebalance into the decline or sell?
 
-This is where broader [portfolio allocation and investment risk](/investing/) analysis becomes more informative than simply comparing the historic return of Bitcoin with a stock index. The real decision is how the asset changes the behavior of the whole portfolio.
+This is where broader portfolio allocation analysis, using [stock risk metrics](/investing/stock-risk-metrics/) such as volatility and drawdown, becomes more informative than simply comparing the historic return of Bitcoin with a stock index. The real decision is how the asset changes the behavior of the whole portfolio.
 
 ## Stocks Also Carry Concentration Risk
 
-Stocks are not inherently diversified. An investor who owns five technology companies may have multiple tickers but one economic bet.
+Stocks are not inherently diversified. An investor who owns five technology companies may have multiple tickers but one economic bet. Economy-wide data is a separate lens; [per capita GDP](/investing/per-capita-gdp-explained/) explains what output per person measures and what it misses.
 
 The companies may depend on similar forces: advertising spending, cloud demand, interest rates, semiconductor supply, enterprise technology budgets, or consumer discretionary spending. A diversified stock index reduces individual-company risk, but it can still contain sector concentration.
 

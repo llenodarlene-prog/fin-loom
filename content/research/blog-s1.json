@@ -388,7 +388,9 @@
       "Chart: average crypto scam payment (Chainalysis)"
     ],
     "internal_links": [
-      "/crypto/"
+      "/crypto/crypto-analytics-tools/",
+      "/crypto/crypto-custody/",
+      "/fintech/dao-governance/"
     ],
     "external_link_opportunities": [
       "https://www.chainalysis.com/blog/crypto-scams-2026/",
@@ -437,6 +439,7 @@
   "verification_log": {
     "checked_on": "2026-10-04",
     "summary": "Keyword data from Ubersuggest, five ranking pages reviewed, three sources and both chart datasets checked against the originals. Two unverified Resources links (Binance Academy, Coinbase) were removed before publication. Editorial pass of 2026-10-05: copy restructured under the owner's style rules; no facts changed.",
-    "pending": "None."
+    "pending": "None.",
+    "interlinking": "2026-10-18: body links rebuilt to the hub-and-spoke SOP (spoke to pillar, pillar to every spoke, sibling links). Linking sentences describe the linked post only and add no new factual claims."
   }
 }
