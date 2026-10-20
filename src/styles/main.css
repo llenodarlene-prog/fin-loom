@@ -556,3 +556,42 @@ html:not(.js) .ill-pie-arc{stroke-dashoffset:0}
 .post-featured{margin:2rem 0 2.5rem}
 .post-featured img{border-radius:24px;box-shadow:0 40px 80px -44px rgba(43,31,91,.6)}
 @media(min-width:1000px){.post-featured{margin-inline:-5rem}}
+
+/* Calculators (APY, savings interest). Everything is scoped under .finloom-calc. */
+.finloom-calc{--c-ink:var(--ink);--c-accent:var(--accent);--c-soft:var(--soft);--c-paper:var(--paper);--c-line:var(--line);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:1.5rem;margin:1.75rem 0 2.25rem;padding:1.5rem;border:1px solid var(--c-line);border-radius:var(--radius);background:var(--tint)}
+.finloom-calc fieldset{border:0;margin:0;padding:0;min-width:0}
+.finloom-calc legend{font-family:var(--display);color:var(--c-ink);font-size:1.15rem;margin-bottom:.75rem}
+.finloom-calc .finloom-calc-field{display:flex;flex-direction:column;gap:.3rem;margin-bottom:1rem}
+.finloom-calc label{font-weight:600;font-size:.92rem;color:var(--charcoal)}
+.finloom-calc input[type=number],.finloom-calc select{min-height:44px;padding:.55rem .75rem;font:inherit;font-size:1rem;border:1px solid #BDB7DA;border-radius:10px;background:#fff;color:var(--charcoal);width:100%}
+.finloom-calc input[aria-invalid=true]{border-color:#B42318}
+.finloom-calc .finloom-calc-error{color:#B42318;font-size:.85rem;min-height:1em}
+.finloom-calc .finloom-calc-hint{color:var(--muted);font-size:.82rem}
+.finloom-calc .finloom-calc-radios label{display:flex;align-items:center;gap:.5rem;min-height:44px;font-weight:500}
+.finloom-calc .finloom-calc-radios legend{font-family:var(--body);font-size:.92rem;font-weight:600;margin-bottom:.2rem}
+.finloom-calc .finloom-calc-actions{display:flex;gap:.75rem;flex-wrap:wrap}
+.finloom-calc .finloom-calc-button{min-height:44px;padding:.6rem 1.3rem;border-radius:999px;border:1px solid var(--c-accent);background:var(--c-accent);color:#fff;font:inherit;font-weight:600;cursor:pointer}
+.finloom-calc .finloom-calc-button--ghost{background:#fff;color:var(--c-accent)}
+.finloom-calc .finloom-calc-results{background:#fff;border:1px solid var(--c-line);border-radius:12px;padding:1.25rem;min-width:0}
+.finloom-calc .finloom-calc-label{margin:0;font-size:.8rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.finloom-calc .finloom-calc-big{font-family:var(--display);font-size:clamp(2rem,5vw,2.6rem);color:var(--c-ink);margin:.2rem 0 .8rem;font-variant-numeric:tabular-nums}
+.finloom-calc .finloom-calc-list{margin:0 0 .8rem}
+.finloom-calc .finloom-calc-row{display:flex;justify-content:space-between;gap:1rem;padding:.4rem 0;border-bottom:1px solid var(--c-line)}
+.finloom-calc .finloom-calc-row dt{color:var(--muted)}.finloom-calc .finloom-calc-row dd{margin:0;font-weight:600;font-variant-numeric:tabular-nums;text-align:right}
+.finloom-calc .finloom-calc-summary{font-size:.95rem;margin:.6rem 0}
+.finloom-calc .finloom-calc-chart{width:100%;height:auto;display:block;margin:.5rem 0}
+.finloom-calc .finloom-calc-grid{stroke:var(--c-line);stroke-width:1}
+.finloom-calc .finloom-calc-axis{fill:var(--muted);font-size:12px;font-family:var(--body)}
+.finloom-calc .finloom-calc-line{stroke-width:3;stroke-linejoin:round}
+.finloom-calc .finloom-calc-line--balance{stroke:var(--c-accent)}
+.finloom-calc .finloom-calc-line--contributions{stroke:var(--c-soft);stroke-dasharray:6 5}
+.finloom-calc .finloom-calc-legend{font-size:.85rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:.4rem 1rem;align-items:center}
+.finloom-calc .finloom-calc-key{display:inline-block;width:1.4rem;height:0;border-top:3px solid var(--c-accent);margin-right:.35rem;vertical-align:middle}
+.finloom-calc .finloom-calc-key--contributions{border-top:3px dashed var(--c-soft)}
+.finloom-calc .finloom-calc-note{font-size:.82rem;color:var(--muted);margin:.8rem 0 0}
+.finloom-calc .table-wrap{margin:.8rem 0 0}
+.finloom-calc table{width:100%;border-collapse:collapse;font-size:.9rem}
+.finloom-calc caption{text-align:left;font-weight:600;padding-bottom:.4rem}
+.finloom-calc th,.finloom-calc td{padding:.4rem .5rem;border-bottom:1px solid var(--c-line)}
+.finloom-calc .num{text-align:right;font-variant-numeric:tabular-nums}
+@media(max-width:760px){.finloom-calc{grid-template-columns:minmax(0,1fr);padding:1rem}}

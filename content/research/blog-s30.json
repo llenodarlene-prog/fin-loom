@@ -1,0 +1,441 @@
+{
+  "tracker_id": "Blog:S30",
+  "status": "planned",
+  "research_question": "What APY results from a given interest rate and compounding frequency?",
+  "research_brief": {
+    "purpose": "Interactive APY calculator with an explanatory article.",
+    "audience": "Savers converting a quoted rate to APY.",
+    "publication_year": "2026",
+    "data_period": "CFPB pages checked October 20, 2026; calculator engine tested.",
+    "scope_limitations": "Constant-rate assumptions; disclosed APY governs."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "apy calculator",
+    "intent": "Informational",
+    "serp_checked_at": "2026-10-20",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-20",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "apy calculator",
+        "type": "short-tail",
+        "volume": 40500,
+        "difficulty": 37,
+        "cpc": 4.66,
+        "intent": "Informational",
+        "ranking_url": "https://www.axosbank.com/tools/calculators/apy-calculator",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "annual percentage yield calculator",
+        "type": "long-tail",
+        "volume": 40500,
+        "difficulty": 53,
+        "cpc": 4.66,
+        "intent": "Informational",
+        "ranking_url": "https://www.sofi.com/calculators/apy-calculator/",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "calculate apy",
+        "type": "commercial",
+        "volume": 49500,
+        "difficulty": 52,
+        "cpc": 4.54,
+        "intent": "Informational",
+        "ranking_url": "https://www.omnicalculator.com/finance/apy",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "interest rate to apy",
+        "type": "problem",
+        "volume": 50,
+        "difficulty": 23,
+        "cpc": 23.44,
+        "intent": "Informational",
+        "ranking_url": "https://www.ufbdirect.com/support/apy-calculator",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "how do you calculate apy",
+        "type": "question",
+        "volume": 2400,
+        "difficulty": 11,
+        "cpc": 3.685,
+        "intent": "Informational",
+        "ranking_url": "https://www.omnicalculator.com/finance/apy",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      }
+    ],
+    "historical_note": "Owner draft listed Ahrefs US volume and KD; kept for attribution in the owner file. Ubersuggest data above retrieved 2026-10-20."
+  },
+  "sources": [
+    {
+      "url": "https://www.consumerfinance.gov/rules-policy/regulations/1030/a/",
+      "title": "Regulation DD Appendix A: APY Calculation",
+      "publisher": "Consumer Financial Protection Bureau",
+      "source_type": "Federal regulation",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "APY calculation rules",
+      "method": "Regulatory text",
+      "limitations": "Disclosure method",
+      "verified": true,
+      "verification_note": "365-day assumed term for accounts without maturity; principal and interest assumed on deposit for the term (quoted)."
+    },
+    {
+      "url": "https://www.consumerfinance.gov/rules-policy/regulations/1030/2/",
+      "title": "Regulation DD 1030.2 Definitions",
+      "publisher": "Consumer Financial Protection Bureau",
+      "source_type": "Federal regulation",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "APY and interest rate definitions",
+      "method": "Regulatory text",
+      "limitations": "Definitions only",
+      "verified": true,
+      "verification_note": "APY reflects interest rate and compounding over 365 days; interest rate does not reflect compounding (quoted)."
+    },
+    {
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-the-difference-between-a-loan-interest-rate-and-the-apr-en-733/",
+      "title": "Interest rate vs APR",
+      "publisher": "Consumer Financial Protection Bureau",
+      "source_type": "Consumer guidance",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "APR definition",
+      "method": "Agency guidance",
+      "limitations": "General guidance",
+      "verified": true,
+      "verification_note": "APR is interest rate plus additional fees charged with the loan (quoted)."
+    },
+    {
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-money-market-account-en-1007/",
+      "title": "What is a money market account?",
+      "publisher": "Consumer Financial Protection Bureau",
+      "source_type": "Consumer guidance",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Money market accounts",
+      "method": "Agency guidance",
+      "limitations": "General guidance",
+      "verified": true,
+      "verification_note": "Deposit accounts at banks and credit unions; FDIC or NCUA insured up to $250,000 per owner; differ from money market funds (page reviewed Aug 28, 2026)."
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "5.00% compounded monthly gives about 5.116% APY; $10,000 grows to about $10,511.62 in a year.",
+      "source_url": "https://www.consumerfinance.gov/rules-policy/regulations/1030/a/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Illustrative deposit",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "Percent; US dollars",
+      "method": "Fin Loom calculation, engine-tested",
+      "limitations": "Illustration",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": true,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "APY Interest Calculator",
+      "url": "https://www.axosbank.com/tools/calculators/apy-calculator",
+      "publisher": "axosbank.com",
+      "format": "Ranking page",
+      "updated_at": "not stated",
+      "headings": [
+        "APY Interest Calculator",
+        "Calculator definitions",
+        "What is APY?",
+        "Rate matters more than you think",
+        "Your interest earns interest",
+        "Every contribution counts",
+        "Growth and security go together",
+        "How to calculate APY",
+        "5.00% APY.* Calculate it. Then claim it with Axos ONE.®",
+        "Calculate your APY with confidence.",
+        "What is APY?",
+        "What is the average savings account interest rate?",
+        "What is an online savings account?",
+        "Frequently Asked Questions"
+      ],
+      "coverage": [
+        "Definition",
+        "Examples"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Clear definition.",
+      "gaps": "No primary-source citations or worked comparisons."
+    },
+    {
+      "title": "APY Interest Calculator",
+      "url": "https://www.sofi.com/calculators/apy-calculator/",
+      "publisher": "sofi.com",
+      "format": "Ranking page",
+      "updated_at": "2024-05-24",
+      "headings": [
+        "Select a product to get started.",
+        "Received mail from us?",
+        "Received an offer from us?",
+        "Leaving SoFi Website",
+        "APY Calculator",
+        "What Is APY?",
+        "How Do You Calculate APY?",
+        "FAQ",
+        "Is APY compounded daily, monthly, or yearly?",
+        "What’s the difference between APY and APR?",
+        "What is 5.00% APY on $1,000?",
+        "Learn more about APY:",
+        "Looking for a savings account with a competitive APY?",
+        "SoFi Products"
+      ],
+      "coverage": [
+        "Definition",
+        "Examples"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Clear definition.",
+      "gaps": "No primary-source citations or worked comparisons."
+    },
+    {
+      "title": "APY Calculator",
+      "url": "https://www.omnicalculator.com/finance/apy",
+      "publisher": "omnicalculator.com",
+      "format": "Ranking page",
+      "updated_at": "2016-01-06",
+      "headings": [
+        "APY Calculator",
+        "What is APY?",
+        "How does this APY calculator work?",
+        "How to calculate annual percentage yield",
+        "Difference between APR and APY",
+        "FAQs",
+        "What is an APY in a savings account?",
+        "What is the difference between APY and interest rate?",
+        "What is a good APY for a savings account?",
+        "Is APY calculated monthly?"
+      ],
+      "coverage": [
+        "Definition",
+        "Examples"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Clear definition.",
+      "gaps": "No primary-source citations or worked comparisons."
+    },
+    {
+      "title": "Simple Savings Calculator",
+      "url": "https://www.bankrate.com/banking/savings/simple-savings-calculator/",
+      "publisher": "bankrate.com",
+      "format": "Ranking page",
+      "updated_at": "not stated",
+      "headings": [
+        "Simple Savings Calculator",
+        "Help us shape the future of personal finance",
+        "How to use this calculator",
+        "Factors that affect your savings",
+        "Simple savings formula",
+        "Understanding your results",
+        "Next steps to start saving",
+        "Popular next steps",
+        "Best high-yield savings accounts",
+        "How to begin saving from scratch",
+        "Bankrate logo",
+        "Browse",
+        "Help",
+        "Legal"
+      ],
+      "coverage": [
+        "Definition",
+        "Examples"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Clear definition.",
+      "gaps": "No primary-source citations or worked comparisons."
+    },
+    {
+      "title": "APY Calculator",
+      "url": "https://www.ufbdirect.com/support/apy-calculator",
+      "publisher": "ufbdirect.com",
+      "format": "Ranking page",
+      "updated_at": "not stated",
+      "headings": [
+        "APY Interest Calculator",
+        "APY Interest Calculator",
+        "UFB Portfolio Money Market",
+        "Recommended Accounts",
+        "Built for Wealth Builders Like You"
+      ],
+      "coverage": [
+        "Definition",
+        "Examples"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Clear definition.",
+      "gaps": "No primary-source citations or worked comparisons."
+    }
+  ],
+  "content_gaps": [
+    "Bank pages explain APY without citing Regulation DD.",
+    "Few show fees or tiers reversing an APY ranking with worked numbers.",
+    "Few link the calculation to the disclosed APY rule."
+  ],
+  "value_add": "Regulation DD quoted from the CFPB, engine-tested worked examples, and fee and tier illustrations.",
+  "plan": {
+    "reader_title": "APY Calculator: Calculate Annual Percentage Yield",
+    "seo_title": "APY Calculator: Convert Interest Rate to Annual Yield",
+    "meta_description": "Free APY calculator: convert an interest rate and compounding frequency into annual percentage yield, with the formula and worked examples for savings and CDs.",
+    "slug": "/money-banking/apy-calculator/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "annual percentage yield calculator",
+      "calculate APY",
+      "APY formula"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "How the APY Formula Works",
+      "How Compounding Frequency Changes APY",
+      "The CFPB Uses a Regulatory APY Formula for Deposit Disclosures",
+      "How to Calculate APY From a 5% Interest Rate",
+      "APY and Interest Rate Should Not Be Used Interchangeably",
+      "APY Is Not the Same as APR",
+      "Calculating Dollar Interest From APY Is a Different Question",
+      "Savings Accounts, Money Market Accounts, and CDs Use APY Differently",
+      "Why a Calculator Result Can Differ From Your Actual Bank Balance",
+      "What to Compare After You Calculate APY",
+      "An APY Calculator Is Best Used for Comparison",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Regulation DD Appendix A: APY Calculation: 365-day assumed term for accounts without maturity; principal and interest assumed on deposit for the term (quoted).",
+      "Regulation DD 1030.2 Definitions: APY reflects interest rate and compounding over 365 days; interest rate does not reflect compounding (quoted).",
+      "Interest rate vs APR: APR is interest rate plus additional fees charged with the loan (quoted).",
+      "What is a money market account?: Deposit accounts at banks and credit unions; FDIC or NCUA insured up to $250,000 per owner; differ from money market funds (page reviewed Aug 28, 2026)."
+    ],
+    "visuals": [
+      "Owner-supplied hero image (AI-generated)",
+      "Tables",
+      "Interactive calculator"
+    ],
+    "internal_links": [
+      "/money-banking/apy-meaning/",
+      "/money-banking/apy-vs-interest-rate/",
+      "/money-banking/saving-vs-investing/"
+    ],
+    "external_link_opportunities": [
+      "Appendix A",
+      "CFPB definitions"
+    ],
+    "excluded_claims": [
+      "Brief savings example figures ($44,216 and $46,336) replaced with engine-tested $46,669.68"
+    ],
+    "drafting_cautions": [
+      "Label all Fin Loom calculations",
+      "No account or product recommendations"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Appendix A assumes a 365-day term for accounts without a stated maturity.",
+      "source_url": "https://www.consumerfinance.gov/rules-policy/regulations/1030/a/",
+      "verified": true
+    },
+    {
+      "statement": "Regulation DD defines APY over a 365-day period.",
+      "source_url": "https://www.consumerfinance.gov/rules-policy/regulations/1030/2/",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": false,
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  "qa": {
+    "completed": false,
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  "verification_log": {
+    "checked_on": "2026-10-20",
+    "summary": "Final AI QA layer (2026-10-20): every figure recomputed, CFPB Regulation DD and myFICO claims checked on the primary pages, FICO bands confirmed via Experian and Capital One. Ubersuggest US data retrieved 2026-10-20; five competitor pages read, blocked pages replaced by the next ranking page.",
+    "pending": "Owner fact-check and QA sign-off."
+  }
+}

@@ -10,7 +10,7 @@ tracker_id: Blog:S15
 primary_keyword: identity theft statistics
 secondary_keywords: 
 cluster: Money & Banking
-approved_internal_links: /money-banking/saving-vs-investing/; /payments/paypal-statistics/
+approved_internal_links: /money-banking/saving-vs-investing/; /money-banking/what-is-a-credit-score/; /payments/paypal-statistics/
 research_record: content/research/blog-s15.json
 image: /assets/images/posts/identity-theft-statistics/identity-protection-desk-1600.jpg
 image_alt: A laptop and phone showing sample account security screens beside a passport, a card, and an identity protection checklist
@@ -20,7 +20,7 @@ ai_exceptions:
 ai_exception_reason: 
 author: Darlene Aberin
 published: 2026-10-04
-modified: 2026-10-18
+modified: 2026-10-20
 ---
 
 # Identity Theft Statistics and Fraud Losses: What FTC Consumer Sentinel Data Shows
@@ -117,7 +117,7 @@ Financial identity theft includes misuse of personal information in financial ac
 
 In new-account fraud, a criminal uses stolen identity information to open an account the victim never asked for. This may be a credit card, a loan, a deposit account, a phone contract, or another service.
 
-Victims often learn of it late, through a bill, a collections notice, or a credit report. That delay is one reason report-based identity theft statistics lag the events they count.
+Victims often learn of it late, through a bill, a collections notice, or a credit report. That delay is one reason report-based identity theft statistics lag the events they count. Fraudulent accounts can also damage a person's credit file, and [how credit scores work](/money-banking/what-is-a-credit-score/) shows how report data feeds the score lenders see.
 
 ### Account Takeover
 
