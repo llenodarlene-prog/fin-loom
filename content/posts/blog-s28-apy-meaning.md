@@ -5,7 +5,7 @@ description: Learn the APY meaning, how annual percentage yield is calculated, w
 slug: /money-banking/apy-meaning/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S28
 primary_keyword: apy meaning
 secondary_keywords: what is APY; annual percentage yield; APY formula; APY savings account

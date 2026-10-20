@@ -5,7 +5,7 @@ description: APY vs interest rate explained: see how compounding changes savings
 slug: /money-banking/apy-vs-interest-rate/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S29
 primary_keyword: apy vs interest rate
 secondary_keywords: interest rate vs APY; APY and interest rate difference; savings interest rate vs APY

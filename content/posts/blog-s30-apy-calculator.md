@@ -5,7 +5,7 @@ description: Free APY calculator: convert an interest rate and compounding frequ
 slug: /money-banking/apy-calculator/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S30
 primary_keyword: apy calculator
 secondary_keywords: annual percentage yield calculator; calculate APY; APY formula; interest rate to APY
