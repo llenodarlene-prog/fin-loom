@@ -486,6 +486,96 @@
       "scheduled_publish": "2026-10-18",
       "min_words": 2500,
       "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S28",
+      "working_title": "APY Meaning: How Annual Percentage Yield Works",
+      "primary_keyword": "apy meaning",
+      "secondary_keywords": "what is APY; annual percentage yield; APY formula; APY savings account",
+      "cluster": "Money & Banking",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/money-banking/apy-meaning/",
+      "seo_title": "APY Meaning: Formula, Compounding, and Examples",
+      "meta_description": "Learn the APY meaning, how annual percentage yield is calculated, why compounding counts, and how to compare savings accounts, CDs, and money market accounts.",
+      "link_placement_site": "",
+      "source_file": "Supplied by the site owner in chat on 2026-10-20 (apy-meaning)",
+      "scheduled_publish": "2026-10-21",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S29",
+      "working_title": "APY vs Interest Rate: Why the Numbers Are Different",
+      "primary_keyword": "apy vs interest rate",
+      "secondary_keywords": "interest rate vs APY; APY and interest rate difference; savings interest rate vs APY",
+      "cluster": "Money & Banking",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/money-banking/apy-vs-interest-rate/",
+      "seo_title": "APY vs Interest Rate: The Difference With Examples",
+      "meta_description": "APY vs interest rate explained: see how compounding changes savings returns, with worked examples, and which number to use when comparing deposit accounts.",
+      "link_placement_site": "",
+      "source_file": "Supplied by the site owner in chat on 2026-10-20 (apy-vs-interest-rate)",
+      "scheduled_publish": "2026-10-21",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S30",
+      "working_title": "APY Calculator: Calculate Annual Percentage Yield",
+      "primary_keyword": "apy calculator",
+      "secondary_keywords": "annual percentage yield calculator; calculate APY; APY formula; interest rate to APY",
+      "cluster": "Money & Banking",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/money-banking/apy-calculator/",
+      "seo_title": "APY Calculator: Convert Interest Rate to Annual Yield",
+      "meta_description": "Free APY calculator: convert an interest rate and compounding frequency into annual percentage yield, with the formula and worked examples for savings and CDs.",
+      "link_placement_site": "",
+      "source_file": "Supplied by the site owner in chat on 2026-10-20 (apy-calculator)",
+      "scheduled_publish": "2026-10-22",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S31",
+      "working_title": "What Is a Credit Score? How Scores Work and What Affects Them",
+      "primary_keyword": "what is a credit score",
+      "secondary_keywords": "credit score meaning; credit score factors; FICO score; credit score range",
+      "cluster": "Money & Banking",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/money-banking/what-is-a-credit-score/",
+      "seo_title": "What Is a Credit Score? FICO Factors and Score Ranges",
+      "meta_description": "What is a credit score? Learn how lenders use it, which factors affect FICO Scores, why your scores differ, and what the 300 to 850 range means.",
+      "link_placement_site": "",
+      "source_file": "Supplied by the site owner in chat on 2026-10-20 (what-is-a-credit-score)",
+      "scheduled_publish": "2026-10-22",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S32",
+      "working_title": "Savings Interest Calculator: See How Your Savings Can Grow",
+      "primary_keyword": "savings interest calculator",
+      "secondary_keywords": "savings calculator; interest on savings calculator; savings growth calculator; how much interest will I earn",
+      "cluster": "Money & Banking",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/money-banking/savings-interest-calculator/",
+      "seo_title": "Savings Interest Calculator: Estimate Savings Growth",
+      "meta_description": "Use this savings interest calculator to estimate growth from a starting balance, APY, and monthly contributions, with a chart and a year-by-year table.",
+      "link_placement_site": "",
+      "source_file": "Drafted by the AI assistant from the owner calculator brief of 2026-10-20 (owner approved drafting)",
+      "scheduled_publish": "2026-10-23",
+      "min_words": 2500,
+      "no_word_ceiling": true
     }
   ],
   "links": [
@@ -594,7 +684,12 @@
       "primary_silo_hub": "/money-banking/",
       "approved_outbound_targets": [
         "/investing/per-capita-gdp-explained/",
-        "/money-banking/identity-theft-statistics/"
+        "/money-banking/apy-calculator/",
+        "/money-banking/apy-meaning/",
+        "/money-banking/apy-vs-interest-rate/",
+        "/money-banking/identity-theft-statistics/",
+        "/money-banking/savings-interest-calculator/",
+        "/money-banking/what-is-a-credit-score/"
       ],
       "silo_role": "Hub",
       "pillar": "/money-banking/saving-vs-investing/"
@@ -668,6 +763,7 @@
       "primary_silo_hub": "/money-banking/",
       "approved_outbound_targets": [
         "/money-banking/saving-vs-investing/",
+        "/money-banking/what-is-a-credit-score/",
         "/payments/paypal-statistics/"
       ],
       "silo_role": "Bridge",
@@ -835,6 +931,70 @@
       ],
       "silo_role": "Supporting",
       "pillar": "/markets-stocks/stock-analysis-fundamentals/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S28",
+      "url_slug": "/money-banking/apy-meaning/",
+      "primary_silo_hub": "/money-banking/",
+      "approved_outbound_targets": [
+        "/money-banking/apy-vs-interest-rate/",
+        "/money-banking/saving-vs-investing/",
+        "/money-banking/savings-interest-calculator/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/money-banking/saving-vs-investing/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S29",
+      "url_slug": "/money-banking/apy-vs-interest-rate/",
+      "primary_silo_hub": "/money-banking/",
+      "approved_outbound_targets": [
+        "/money-banking/apy-calculator/",
+        "/money-banking/apy-meaning/",
+        "/money-banking/saving-vs-investing/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/money-banking/saving-vs-investing/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S30",
+      "url_slug": "/money-banking/apy-calculator/",
+      "primary_silo_hub": "/money-banking/",
+      "approved_outbound_targets": [
+        "/money-banking/apy-meaning/",
+        "/money-banking/apy-vs-interest-rate/",
+        "/money-banking/saving-vs-investing/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/money-banking/saving-vs-investing/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S31",
+      "url_slug": "/money-banking/what-is-a-credit-score/",
+      "primary_silo_hub": "/money-banking/",
+      "approved_outbound_targets": [
+        "/money-banking/identity-theft-statistics/",
+        "/money-banking/saving-vs-investing/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/money-banking/saving-vs-investing/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S32",
+      "url_slug": "/money-banking/savings-interest-calculator/",
+      "primary_silo_hub": "/money-banking/",
+      "approved_outbound_targets": [
+        "/money-banking/apy-calculator/",
+        "/money-banking/apy-meaning/",
+        "/money-banking/saving-vs-investing/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/money-banking/saving-vs-investing/"
     }
   ]
 }

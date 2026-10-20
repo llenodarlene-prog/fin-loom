@@ -1,0 +1,442 @@
+{
+  "tracker_id": "Blog:S29",
+  "status": "planned",
+  "research_question": "How do APY and interest rate differ, and which should savers compare?",
+  "research_brief": {
+    "purpose": "Contrast the two measures with Regulation DD and worked examples.",
+    "audience": "Savers comparing deposit accounts.",
+    "publication_year": "2026",
+    "data_period": "CFPB pages checked October 20, 2026; calculations are Fin Loom.",
+    "scope_limitations": "Illustrative calculations assume constant rates."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "apy vs interest rate",
+    "intent": "Informational",
+    "serp_checked_at": "2026-10-20",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-20",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "apy vs interest rate",
+        "type": "short-tail",
+        "volume": 4400,
+        "difficulty": 28,
+        "cpc": 10.07,
+        "intent": "Informational",
+        "ranking_url": "https://www.citizensbank.com/learning/apy-vs-interest-rate.aspx",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "interest rate vs apy",
+        "type": "long-tail",
+        "volume": 2400,
+        "difficulty": 38,
+        "cpc": 10.93,
+        "intent": "Informational",
+        "ranking_url": "https://www.nerdwallet.com/banking/learn/apy-vs-interest-rate",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "apy and interest rate difference",
+        "type": "commercial",
+        "volume": 50,
+        "difficulty": 21,
+        "cpc": 26.09,
+        "intent": "Informational",
+        "ranking_url": "https://www.chase.com/personal/banking/education/basics/apy-vs-interest-rate",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "savings interest rate vs apy",
+        "type": "problem",
+        "volume": 10,
+        "difficulty": 12,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.bankwith1st.com/apy-vs-interest-rate-savings-account/",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "is apy the same as interest rate",
+        "type": "question",
+        "volume": 390,
+        "difficulty": 30,
+        "cpc": 31.8,
+        "intent": "Informational",
+        "ranking_url": "https://www.sofi.com/learn/content/apy-vs-interest-rate/",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      }
+    ],
+    "historical_note": "Owner draft listed Ahrefs US volume and KD; kept for attribution in the owner file. Ubersuggest data above retrieved 2026-10-20."
+  },
+  "sources": [
+    {
+      "url": "https://www.consumerfinance.gov/rules-policy/regulations/1030/2/",
+      "title": "Regulation DD 1030.2 Definitions",
+      "publisher": "Consumer Financial Protection Bureau",
+      "source_type": "Federal regulation",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "APY and interest rate definitions",
+      "method": "Regulatory text",
+      "limitations": "Definitions only",
+      "verified": true,
+      "verification_note": "APY reflects interest rate and compounding over 365 days; interest rate does not reflect compounding (quoted)."
+    },
+    {
+      "url": "https://www.consumerfinance.gov/rules-policy/regulations/1030/8/",
+      "title": "Regulation DD 1030.8 Advertising",
+      "publisher": "Consumer Financial Protection Bureau",
+      "source_type": "Federal regulation",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Advertising rate rules",
+      "method": "Regulatory text",
+      "limitations": "Advertising only",
+      "verified": true,
+      "verification_note": "Rate of return stated as APY; interest rate not more conspicuous than APY (quoted)."
+    },
+    {
+      "url": "https://www.consumerfinance.gov/rules-policy/regulations/1030/a/",
+      "title": "Regulation DD Appendix A: APY Calculation",
+      "publisher": "Consumer Financial Protection Bureau",
+      "source_type": "Federal regulation",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "APY calculation rules",
+      "method": "Regulatory text",
+      "limitations": "Disclosure method",
+      "verified": true,
+      "verification_note": "365-day assumed term for accounts without maturity; principal and interest assumed on deposit for the term (quoted)."
+    },
+    {
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-the-difference-between-a-loan-interest-rate-and-the-apr-en-733/",
+      "title": "Interest rate vs APR",
+      "publisher": "Consumer Financial Protection Bureau",
+      "source_type": "Consumer guidance",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "APR definition",
+      "method": "Agency guidance",
+      "limitations": "General guidance",
+      "verified": true,
+      "verification_note": "APR is interest rate plus additional fees charged with the loan (quoted)."
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "$100,000 at 4% daily compounding earns about $81 more in a year than annual compounding.",
+      "source_url": "https://www.consumerfinance.gov/rules-policy/regulations/1030/a/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Illustrative deposit",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Fin Loom calculation",
+      "limitations": "Illustration",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": true,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "APY vs. Interest Rate: Learn the Difference Here",
+      "url": "https://www.citizensbank.com/learning/apy-vs-interest-rate.aspx",
+      "publisher": "citizensbank.com",
+      "format": "Ranking page",
+      "updated_at": "not stated",
+      "headings": [
+        "APY vs. interest rate: Learn the difference",
+        "Key takeaways",
+        "What is an interest rate?",
+        "What is an APY?",
+        "What's the difference between interest rate, APY and APR?",
+        "How to compare APYs",
+        "Explore your savings account options",
+        "Related topics",
+        "What is a money market account?",
+        "What is a CD?",
+        "How to start an emergency savings fund"
+      ],
+      "coverage": [
+        "Definition",
+        "Examples"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Clear definition.",
+      "gaps": "No primary-source citations or worked comparisons."
+    },
+    {
+      "title": "APY vs Interest Rate: What's the Difference?",
+      "url": "https://www.nerdwallet.com/banking/learn/apy-vs-interest-rate",
+      "publisher": "nerdwallet.com",
+      "format": "Ranking page",
+      "updated_at": "2023-06-02",
+      "headings": [
+        "APY vs. Interest Rate: What’s the Difference?",
+        "APY vs. interest rate: What’s the difference?",
+        "Interest rate vs. APY: Which is important to know for savings accounts?",
+        "Example of the difference between APY and interest rate",
+        "APY to interest rate calculator"
+      ],
+      "coverage": [
+        "Definition",
+        "Examples"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Clear definition.",
+      "gaps": "No primary-source citations or worked comparisons."
+    },
+    {
+      "title": "APY vs. Interest Rate Savings Account: Which is Right for You?",
+      "url": "https://www.bankwith1st.com/apy-vs-interest-rate-savings-account/",
+      "publisher": "bankwith1st.com",
+      "format": "Ranking page",
+      "updated_at": "2026-04-16",
+      "headings": [
+        "Online Banking",
+        "APY vs. Interest Rate Savings Account: The Real Difference That Impacts Your Savings Growth",
+        "Key Takeaways",
+        "APY vs. Interest Rate Savings Accounts — What They Are and How They Compare",
+        "What Is Interest Rate?",
+        "What Is APY (Annual Percentage Yield)?",
+        "APY vs. Interest Rate: Side-by-Side Comparison",
+        "Real-World Examples: APY and Interest Rate in Action",
+        "Example 1: A $1,000 Deposit at 3% Interest Rate vs. APY",
+        "Example 2: Same Interest Rate, Different APYs",
+        "Maximize Your Savings: How to Choose the Right Account for Bigger Returns",
+        "Start by Comparing APYs",
+        "Look for Higher Frequency Compounding",
+        "Don’t Forget About Fees"
+      ],
+      "coverage": [
+        "Definition",
+        "Examples"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Clear definition.",
+      "gaps": "No primary-source citations or worked comparisons."
+    },
+    {
+      "title": "APY vs. Interest Rates",
+      "url": "https://www.chase.com/personal/banking/education/basics/apy-vs-interest-rate",
+      "publisher": "chase.com",
+      "format": "Ranking page",
+      "updated_at": "2025-10-23",
+      "headings": [
+        "APY vs. interest rate: What's the difference?",
+        "Quick insights",
+        "What is an interest rate?",
+        "What is an annual percentage yield (APY)?",
+        "How to calculate APY",
+        "Why APY matters for savings",
+        "In summary",
+        "Discover banking with Chase",
+        "What to read next",
+        "banking basicsMoney order vs. cashier's check: What's the difference?",
+        "banking basicsWhat is a discretionary expense?",
+        "banking basicsHow to find your checking account number without a check",
+        "banking basicsWhat time does direct deposit hit?",
+        "Checking Accounts"
+      ],
+      "coverage": [
+        "Definition",
+        "Examples"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Clear definition.",
+      "gaps": "No primary-source citations or worked comparisons."
+    },
+    {
+      "title": "Difference Between APY vs Interest Rate",
+      "url": "https://www.sofi.com/learn/content/apy-vs-interest-rate/",
+      "publisher": "sofi.com",
+      "format": "Ranking page",
+      "updated_at": "2026-03-24",
+      "headings": [
+        "Select a product to get started.",
+        "Received mail from us?",
+        "Received an offer from us?",
+        "Leaving SoFi Website",
+        "APY vs Interest Rate",
+        "APY and Interest Rate Defined",
+        "What Is APY?",
+        "What Is an Interest Rate?",
+        "The APY Formula",
+        "Calculating APR",
+        "How Simple and Compound Interest Differ",
+        "Types of High-Interest Accounts for Savings",
+        "High-Interest Checking Accounts",
+        "The Takeaway"
+      ],
+      "coverage": [
+        "Definition",
+        "Examples"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Clear definition.",
+      "gaps": "No primary-source citations or worked comparisons."
+    }
+  ],
+  "content_gaps": [
+    "Bank pages explain APY without citing Regulation DD.",
+    "Few show fees or tiers reversing an APY ranking with worked numbers.",
+    "Few link the calculation to the disclosed APY rule."
+  ],
+  "value_add": "Regulation DD quoted from the CFPB, engine-tested worked examples, and fee and tier illustrations.",
+  "plan": {
+    "reader_title": "APY vs Interest Rate: Why the Numbers Are Different",
+    "seo_title": "APY vs Interest Rate: The Difference With Examples",
+    "meta_description": "APY vs interest rate explained: see how compounding changes savings returns, with worked examples, and which number to use when comparing deposit accounts.",
+    "slug": "/money-banking/apy-vs-interest-rate/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "interest rate vs APY",
+      "APY and interest rate difference",
+      "savings interest rate vs APY"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "What Is the Difference Between APY and Interest Rate?",
+      "A 4% Interest Rate Does Not Always Mean a 4% APY",
+      "Why APY Is Usually the Better Number for Comparing Savings Accounts",
+      "How the APY Formula Converts an Interest Rate Into Yield",
+      "When APY and Interest Rate Can Be the Same",
+      "Which Number Should You Use When Comparing Accounts?",
+      "Why APY Can Change While the Account Stays Open",
+      "APY vs Interest Rate vs APR",
+      "Why a Higher APY Can Still Produce Lower Actual Earnings",
+      "The Most Useful Number Depends on the Question",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Regulation DD 1030.2 Definitions: APY reflects interest rate and compounding over 365 days; interest rate does not reflect compounding (quoted).",
+      "Regulation DD 1030.8 Advertising: Rate of return stated as APY; interest rate not more conspicuous than APY (quoted).",
+      "Regulation DD Appendix A: APY Calculation: 365-day assumed term for accounts without maturity; principal and interest assumed on deposit for the term (quoted).",
+      "Interest rate vs APR: APR is interest rate plus additional fees charged with the loan (quoted)."
+    ],
+    "visuals": [
+      "Owner-supplied hero image (AI-generated)",
+      "Tables",
+      "Comparison tables"
+    ],
+    "internal_links": [
+      "/money-banking/apy-calculator/",
+      "/money-banking/apy-meaning/",
+      "/money-banking/saving-vs-investing/"
+    ],
+    "external_link_opportunities": [
+      "CFPB definitions",
+      "Advertising rules",
+      "Appendix A"
+    ],
+    "excluded_claims": [
+      "Brief savings example figures ($44,216 and $46,336) replaced with engine-tested $46,669.68"
+    ],
+    "drafting_cautions": [
+      "Label all Fin Loom calculations",
+      "No account or product recommendations"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "The interest rate does not reflect compounding under Regulation DD.",
+      "source_url": "https://www.consumerfinance.gov/rules-policy/regulations/1030/2/",
+      "verified": true
+    },
+    {
+      "statement": "The interest rate may not be more conspicuous than the APY in advertising.",
+      "source_url": "https://www.consumerfinance.gov/rules-policy/regulations/1030/8/",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": false,
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  "qa": {
+    "completed": false,
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  "verification_log": {
+    "checked_on": "2026-10-20",
+    "summary": "Final AI QA layer (2026-10-20): every figure recomputed, CFPB Regulation DD and myFICO claims checked on the primary pages, FICO bands confirmed via Experian and Capital One. Ubersuggest US data retrieved 2026-10-20; five competitor pages read, blocked pages replaced by the next ranking page.",
+    "pending": "Owner fact-check and QA sign-off."
+  }
+}

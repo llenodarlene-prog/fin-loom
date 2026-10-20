@@ -10,7 +10,7 @@ tracker_id: Blog:S9
 primary_keyword: saving vs investing
 secondary_keywords: 
 cluster: Money & Banking
-approved_internal_links: /investing/per-capita-gdp-explained/; /money-banking/identity-theft-statistics/
+approved_internal_links: /investing/per-capita-gdp-explained/; /money-banking/apy-calculator/; /money-banking/apy-meaning/; /money-banking/apy-vs-interest-rate/; /money-banking/identity-theft-statistics/; /money-banking/savings-interest-calculator/; /money-banking/what-is-a-credit-score/
 research_record: content/research/blog-s9.json
 image: /assets/images/posts/saving-vs-investing/reviewing-financial-plan-1600.jpg
 image_alt: Two people reviewing printed financial charts at a desk with a tablet and coffee
@@ -20,7 +20,7 @@ ai_exceptions:
 ai_exception_reason: 
 author: Darlene Aberin
 published: 2026-10-04
-modified: 2026-10-18
+modified: 2026-10-20
 ---
 
 # Saving vs Investing: How Time Horizon and Liquidity Change the Decision
@@ -77,9 +77,9 @@ The FDIC publishes [national deposit-rate data](https://www.fdic.gov/resources/b
 | 6-month CD | 1.41% |
 | 12-month CD | 1.73% |
 
-These are national averages used for the FDIC's rate-cap framework, not a list of the highest rates available to consumers. Individual banks may offer meaningfully different yields.
+These are national averages used for the FDIC's rate-cap framework, not a list of the highest rates available to consumers. Individual banks may offer meaningfully different yields. When comparing them, the figure to use is the [APY](/money-banking/apy-meaning/), which builds compounding into the annual yield, and [APY vs interest rate](/money-banking/apy-vs-interest-rate/) explains why the two quoted numbers can differ.
 
-The lesson is not that saving pays a specific rate. It is that the return on safe cash changes with the interest-rate environment. A decision made when cash yields almost nothing can look different when deposits pay materially more.
+The lesson is not that saving pays a specific rate. It is that the return on safe cash changes with the interest-rate environment. A decision made when cash yields almost nothing can look different when deposits pay materially more. An [APY calculator](/money-banking/apy-calculator/) converts a quoted rate into its annual yield, and a [savings interest calculator](/money-banking/savings-interest-calculator/) projects how regular deposits grow at that yield.
 
 ## What Investing Does
 
@@ -177,7 +177,7 @@ The long-term expected return did not count. The asset and goal were mismatched.
 
 ## Debt Comes Before the Saving-vs-Investing Debate in Some Cases
 
-A household paying 24% interest on a credit-card balance faces a different problem. Reducing that balance produces a certain reduction in future interest expense.
+A household paying 24% interest on a credit-card balance faces a different problem. The rate a borrower is offered often depends on credit history, and [how credit scores work](/money-banking/what-is-a-credit-score/) is covered in its own guide. Reducing that balance produces a certain reduction in future interest expense.
 
 Investor.gov's crypto-risk guidance, for example, explicitly reminds investors that paying high-interest credit-card debt can be financially powerful before taking investment risk. A practical order may be:
 

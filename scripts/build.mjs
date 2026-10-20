@@ -6,6 +6,7 @@ import { contactEmail, renderAbout, renderContact, renderHome, renderHub, render
 import { buildCharts } from './lib/illustrations.mjs';
 import { renderChart, resetCharts } from './lib/charts.mjs';
 import { articleSchema, headMeta, organizationNode } from './lib/seo.mjs';
+import { calculatorBlock } from './lib/calculators.mjs';
 import { assertUniqueRoute, validateRedirects } from './lib/workflow.mjs';
 import { publicationState, publishDate } from './lib/schedule.mjs';
 
@@ -38,7 +39,7 @@ const canonical = slug => `${siteUrl}${slug === '/' ? '/' : `/${cleanSlug(slug)}
 const isoDate = value => value ? new Date(`${value}T00:00:00Z`).toISOString() : null;
 // The host caches CSS and JavaScript for a week, so each file's URL carries a hash of its content.
 const contentVersion = async file => createHash('sha256').update(await readFile(file)).digest('hex').slice(0, 10);
-const [styleVersion, scriptVersion] = await Promise.all([contentVersion('src/styles/main.css'), contentVersion('src/scripts/main.js')]);
+const [styleVersion, scriptVersion, calculatorVersion] = await Promise.all([contentVersion('src/styles/main.css'), contentVersion('src/scripts/main.js'), contentVersion('src/scripts/calculators.js')]);
 const uniqueFonts = [...new Set(Object.values(site.fonts || {}).filter(Boolean))];
 const fontLinks = uniqueFonts.length ? `<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?${uniqueFonts.map(font => `family=${encodeURIComponent(font).replaceAll('%20', '+')}:wght@${site.font_weights?.[font] || '400;500;600;700'}`).join('&')}&display=swap" rel="stylesheet">` : '';
 
@@ -152,7 +153,7 @@ for (const page of parsed) {
       return renderHub(hub, hubCopy.shared, publishedPosts.filter(post => post.slug.startsWith(metadata.slug)), nav, pageCharts);
     } }[metadata.template];
   resetCharts();
-  let renderedBody = designed ? designed() : markdownToHtml(body, { chart: chartBlock, image: figure });
+  let renderedBody = designed ? designed() : markdownToHtml(body, { chart: chartBlock, image: figure, calculator: id => calculatorBlock(id, calculatorVersion) });
   if (article) {
     // Posts open with a breadcrumb trail, then the H1, then the featured image.
     const trail = `<nav class="breadcrumb" aria-label="Breadcrumb"><ol>${crumbs.map((crumb, i) => i < crumbs.length - 1 ? `<li><a href="${escapeHtml(crumb.url.replace(siteUrl, '') || '/')}">${escapeHtml(crumb.name)}</a></li>` : `<li aria-current="page">${escapeHtml(crumb.name)}</li>`).join('')}</ol></nav>`;
