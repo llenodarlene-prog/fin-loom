@@ -47,7 +47,7 @@ export function organizationNode({ site, siteUrl, logo, email }) {
   };
 }
 
-export function articleSchema({ metadata, url, site, siteUrl, image, body, crumbs, logo, hubUrl, email }) {
+export function articleSchema({ metadata, url, site, siteUrl, image, body, crumbs, logo, hubUrl, email, authorUrl }) {
   const orgId = `${siteUrl}/#organization`;
   const websiteId = `${siteUrl}/#website`;
   const pageId = `${url}#webpage`;
@@ -75,7 +75,7 @@ export function articleSchema({ metadata, url, site, siteUrl, image, body, crumb
   if (image) article.image = { '@type': 'ImageObject', url: `${siteUrl}${image.path}`, width: image.width, height: image.height, caption: image.alt };
   if (metadata.published) article.datePublished = metadata.published;
   if (metadata.modified) article.dateModified = metadata.modified;
-  if (metadata.author) article.author = { '@type': 'Person', name: metadata.author };
+  if (metadata.author) article.author = { '@type': 'Person', name: metadata.author, ...(authorUrl ? { url: authorUrl } : {}) };
   const breadcrumb = {
     '@type': 'BreadcrumbList', '@id': `${url}#breadcrumb`,
     itemListElement: crumbs.map((crumb, i) => ({ '@type': 'ListItem', position: i + 1, name: crumb.name, item: crumb.url }))
