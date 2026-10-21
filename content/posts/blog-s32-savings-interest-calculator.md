@@ -5,7 +5,7 @@ description: Use this savings interest calculator to estimate growth from a star
 slug: /money-banking/savings-interest-calculator/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S32
 primary_keyword: savings interest calculator
 secondary_keywords: savings calculator; interest on savings calculator; savings growth calculator; how much interest will I earn

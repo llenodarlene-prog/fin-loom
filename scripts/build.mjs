@@ -100,6 +100,8 @@ const footer = replace(footerTemplate, shared);
 const sourceFiles = (await walk('content')).filter(file => file.endsWith('.md')).sort();
 const parsed = [];
 const orgEmail = (await readOptionalJson('data/release.json'))?.contact?.email || '';
+// Verified authors with a bio page get a Person url in Article schema.
+const authorUrls = Object.fromEntries(Object.values((await readOptionalJson('data/authors.json')) || {}).filter(a => a.verified && a.url).map(a => [a.name, `${siteUrl}${a.url}`]));
 const sourceRoutes = new Map();
 // Production omits drafts and approved posts whose publication date has not arrived; their routes are
 // remembered so links to them can be unlinked below. Staging shows both so they can be reviewed.
@@ -127,7 +129,7 @@ for (const page of parsed) {
   // Hubs list their live posts as hasPart; scheduled posts join on their publish date (SOP step 5).
   const hubParts = metadata.schema === 'CollectionPage' ? publishedPosts.filter(post => post.slug.startsWith(metadata.slug) && publicationState(post, today) === 'live') : [];
   const breadcrumbList = { '@type': 'BreadcrumbList', '@id': `${url}#breadcrumb`, itemListElement: crumbs.map((crumb, i) => ({ '@type': 'ListItem', position: i + 1, name: crumb.name, item: crumb.url })) };
-  const schema = article ? articleSchema({ metadata, url, site, siteUrl, image: featured, body, crumbs, logo: logoImage, hubUrl, email: orgEmail }) : {
+  const schema = article ? articleSchema({ metadata, url, site, siteUrl, image: featured, body, crumbs, logo: logoImage, hubUrl, email: orgEmail, authorUrl: authorUrls[metadata.author] }) : {
     '@context': 'https://schema.org',
     '@graph': [
       organizationNode({ site, siteUrl, logo: logoImage, email: orgEmail }),

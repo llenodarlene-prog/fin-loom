@@ -5,7 +5,7 @@ description: What is a credit score? Learn how lenders use it, which factors aff
 slug: /money-banking/what-is-a-credit-score/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S31
 primary_keyword: what is a credit score
 secondary_keywords: credit score meaning; credit score factors; FICO score; credit score range

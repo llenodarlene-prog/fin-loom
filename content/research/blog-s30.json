@@ -1,6 +1,6 @@
 {
   "tracker_id": "Blog:S30",
-  "status": "planned",
+  "status": "verified",
   "research_question": "What APY results from a given interest rate and compounding frequency?",
   "research_brief": {
     "purpose": "Interactive APY calculator with an explanatory article.",
@@ -424,18 +424,20 @@
     }
   ],
   "fact_check": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-20",
+    "note": "Signed off by the site owner in the build session of 2026-10-20 (\"sign off as me\") after reviewing docs/qa/2026-10-20-apy-credit-calculators.md."
   },
   "qa": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-20",
+    "note": "Signed off by the site owner in the build session of 2026-10-20 (\"sign off as me\") after reviewing docs/qa/2026-10-20-apy-credit-calculators.md."
   },
   "verification_log": {
     "checked_on": "2026-10-20",
     "summary": "Final AI QA layer (2026-10-20): every figure recomputed, CFPB Regulation DD and myFICO claims checked on the primary pages, FICO bands confirmed via Experian and Capital One. Ubersuggest US data retrieved 2026-10-20; five competitor pages read, blocked pages replaced by the next ranking page.",
-    "pending": "Owner fact-check and QA sign-off."
+    "pending": "None."
   }
 }
