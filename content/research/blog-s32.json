@@ -1,0 +1,395 @@
+{
+  "tracker_id": "Blog:S32",
+  "status": "verified",
+  "research_question": "How much will savings grow with a known APY, balance, contributions, and time?",
+  "research_brief": {
+    "purpose": "Interactive savings calculator with explanatory article.",
+    "audience": "Savers planning a goal.",
+    "publication_year": "2026",
+    "data_period": "CFPB pages checked October 20, 2026; calculator engine tested.",
+    "scope_limitations": "Constant APY; excludes fees, taxes, withdrawals, inflation."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "savings interest calculator",
+    "intent": "Informational",
+    "serp_checked_at": "2026-10-20",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-20",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "savings interest calculator",
+        "type": "short-tail",
+        "volume": 18100,
+        "difficulty": 60,
+        "cpc": 3.82,
+        "intent": "Informational",
+        "ranking_url": "https://www.firstbank.com/financial-calculators/savings-interest-calculator/",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "savings calculator",
+        "type": "long-tail",
+        "volume": 60500,
+        "difficulty": 61,
+        "cpc": 3.16,
+        "intent": "Informational",
+        "ranking_url": "https://www.bankofamerica.com/deposits/savings/savings-goal-calculator/",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "interest on savings calculator",
+        "type": "commercial",
+        "volume": 22200,
+        "difficulty": 24,
+        "cpc": 2.78,
+        "intent": "Informational",
+        "ranking_url": "https://www.mycentral.bank/interest-calculator",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "how to calculate savings interest",
+        "type": "problem",
+        "volume": 260,
+        "difficulty": 40,
+        "cpc": 4.55,
+        "intent": "Informational",
+        "ranking_url": "https://www.capitalone.com/bank/money-management/banking-basics/how-to-calculate-savings-interest/",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "how much interest will i earn on savings",
+        "type": "question",
+        "volume": 10,
+        "difficulty": 5,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://ifdm.stanford.edu/resourcehub/calculators/savings-calculator",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      }
+    ],
+    "historical_note": "Owner draft listed Ahrefs US volume and KD; kept for attribution in the owner file. Ubersuggest data above retrieved 2026-10-20."
+  },
+  "sources": [
+    {
+      "url": "https://www.consumerfinance.gov/rules-policy/regulations/1030/2/",
+      "title": "Regulation DD 1030.2 Definitions",
+      "publisher": "Consumer Financial Protection Bureau",
+      "source_type": "Federal regulation",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "APY and interest rate definitions",
+      "method": "Regulatory text",
+      "limitations": "Definitions only",
+      "verified": true,
+      "verification_note": "APY reflects interest rate and compounding over 365 days; interest rate does not reflect compounding (quoted)."
+    },
+    {
+      "url": "https://www.consumerfinance.gov/rules-policy/regulations/1030/a/",
+      "title": "Regulation DD Appendix A: APY Calculation",
+      "publisher": "Consumer Financial Protection Bureau",
+      "source_type": "Federal regulation",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "APY calculation rules",
+      "method": "Regulatory text",
+      "limitations": "Disclosure method",
+      "verified": true,
+      "verification_note": "365-day assumed term for accounts without maturity; principal and interest assumed on deposit for the term (quoted)."
+    },
+    {
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-money-market-account-en-1007/",
+      "title": "What is a money market account?",
+      "publisher": "Consumer Financial Protection Bureau",
+      "source_type": "Consumer guidance",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Money market accounts",
+      "method": "Agency guidance",
+      "limitations": "General guidance",
+      "verified": true,
+      "verification_note": "Deposit accounts at banks and credit unions; FDIC or NCUA insured up to $250,000 per owner; differ from money market funds (page reviewed Aug 28, 2026)."
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "$10,000 plus $500 a month at 5% APY for five years ends near $46,669.68 (end-of-month deposits).",
+      "source_url": "https://www.consumerfinance.gov/rules-policy/regulations/1030/a/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Illustrative savings plan",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Fin Loom calculation, engine-tested",
+      "limitations": "Illustration; constant APY",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": true,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Savings Calculator",
+      "url": "https://www.firstbank.com/financial-calculators/savings-interest-calculator/",
+      "publisher": "firstbank.com",
+      "format": "Ranking page",
+      "updated_at": "not stated",
+      "headings": [
+        "Savings Calculator",
+        "Let's Get Started Working Together",
+        "Your Financial Journey Matters"
+      ],
+      "coverage": [
+        "Definition",
+        "Examples"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Clear definition.",
+      "gaps": "No primary-source citations or worked comparisons."
+    },
+    {
+      "title": "Savings Goal Calculator for Short Term Financial Goals",
+      "url": "https://www.bankofamerica.com/deposits/savings/savings-goal-calculator/",
+      "publisher": "bankofamerica.com",
+      "format": "Ranking page",
+      "updated_at": "not stated",
+      "headings": [
+        "Please select your county",
+        "Enter your zip code"
+      ],
+      "coverage": [
+        "Definition",
+        "Examples"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Clear definition.",
+      "gaps": "No primary-source citations or worked comparisons."
+    },
+    {
+      "title": "How to Calculate Savings Account Interest",
+      "url": "https://www.capitalone.com/bank/money-management/banking-basics/how-to-calculate-savings-interest/",
+      "publisher": "capitalone.com",
+      "format": "Ranking page",
+      "updated_at": "2024-09-25",
+      "headings": [
+        "How to calculate interest earned on a savings account",
+        "Know how much you’re earning to better plan your savings goals",
+        "APY vs. monthly interest rate",
+        "How do you calculate monthly interest earned on a savings account?",
+        "The two types of interest",
+        "How much interest will I get on $1,000 after a year in a savings account?",
+        "Growing your savings over time",
+        "Understanding secured and unsecured loans and interest rates",
+        "Opening a bank account online",
+        "All about interest",
+        "You're now leaving Capital One"
+      ],
+      "coverage": [
+        "Definition",
+        "Examples"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Clear definition.",
+      "gaps": "No primary-source citations or worked comparisons."
+    },
+    {
+      "title": "Interest Calculator",
+      "url": "https://www.mycentral.bank/interest-calculator",
+      "publisher": "mycentral.bank",
+      "format": "Ranking page",
+      "updated_at": "not stated",
+      "headings": [
+        "YOU ARE NOW LEAVING CENTRAL BANK",
+        "Speed Bump",
+        "Calculators",
+        "Calculate Your Interest",
+        "Customer Care"
+      ],
+      "coverage": [
+        "Definition",
+        "Examples"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Clear definition.",
+      "gaps": "No primary-source citations or worked comparisons."
+    },
+    {
+      "title": "Savings Calculator",
+      "url": "https://ifdm.stanford.edu/resourcehub/calculators/savings-calculator",
+      "publisher": "ifdm.stanford.edu",
+      "format": "Ranking page",
+      "updated_at": "not stated",
+      "headings": [
+        "Savings Calculator",
+        "Main navigation",
+        "Stay in touch",
+        "IFDM LinkedIn",
+        "X @Dr_AnnaLusardi",
+        "Contact Us"
+      ],
+      "coverage": [
+        "Definition",
+        "Examples"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Clear definition.",
+      "gaps": "No primary-source citations or worked comparisons."
+    }
+  ],
+  "content_gaps": [
+    "Bank pages explain APY without citing Regulation DD.",
+    "Few show fees or tiers reversing an APY ranking with worked numbers.",
+    "Few link the calculation to the disclosed APY rule."
+  ],
+  "value_add": "Regulation DD quoted from the CFPB, engine-tested worked examples, and fee and tier illustrations.",
+  "plan": {
+    "reader_title": "Savings Interest Calculator: See How Your Savings Can Grow",
+    "seo_title": "Savings Interest Calculator: Estimate Savings Growth",
+    "meta_description": "Use this savings interest calculator to estimate growth from a starting balance, APY, and monthly contributions, with a chart and a year-by-year table.",
+    "slug": "/money-banking/savings-interest-calculator/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "savings calculator",
+      "interest on savings calculator",
+      "savings growth calculator"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "How Much Can Your Savings Grow?",
+      "How Savings Interest Is Calculated",
+      "How Monthly Contributions Change the Result",
+      "How APY Affects Savings Growth",
+      "What the Calculator Does Not Include",
+      "When to Use a Savings Interest Calculator",
+      "A Savings Interest Calculator Is a Planning Tool",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Regulation DD 1030.2 Definitions: APY reflects interest rate and compounding over 365 days; interest rate does not reflect compounding (quoted).",
+      "Regulation DD Appendix A: APY Calculation: 365-day assumed term for accounts without maturity; principal and interest assumed on deposit for the term (quoted).",
+      "What is a money market account?: Deposit accounts at banks and credit unions; FDIC or NCUA insured up to $250,000 per owner; differ from money market funds (page reviewed Aug 28, 2026)."
+    ],
+    "visuals": [
+      "Owner-supplied hero image (AI-generated)",
+      "Tables",
+      "Interactive calculator"
+    ],
+    "internal_links": [
+      "/money-banking/apy-calculator/",
+      "/money-banking/apy-meaning/",
+      "/money-banking/saving-vs-investing/"
+    ],
+    "external_link_opportunities": [
+      "CFPB definitions",
+      "Appendix A",
+      "CFPB money market accounts"
+    ],
+    "excluded_claims": [
+      "Brief savings example figures ($44,216 and $46,336) replaced with engine-tested $46,669.68"
+    ],
+    "drafting_cautions": [
+      "Label all Fin Loom calculations",
+      "No account or product recommendations"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "APY reflects compounding over a 365-day period, so the monthly rate is (1 + APY)^(1/12) - 1.",
+      "source_url": "https://www.consumerfinance.gov/rules-policy/regulations/1030/2/",
+      "verified": true
+    },
+    {
+      "statement": "Money market deposit accounts are FDIC or NCUA insured up to $250,000 per owner.",
+      "source_url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-money-market-account-en-1007/",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-20",
+    "note": "Signed off by the site owner in the build session of 2026-10-20 (\"sign off as me\") after reviewing docs/qa/2026-10-20-apy-credit-calculators.md."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-20",
+    "note": "Signed off by the site owner in the build session of 2026-10-20 (\"sign off as me\") after reviewing docs/qa/2026-10-20-apy-credit-calculators.md."
+  },
+  "verification_log": {
+    "checked_on": "2026-10-20",
+    "summary": "Final AI QA layer (2026-10-20): every figure recomputed, CFPB Regulation DD and myFICO claims checked on the primary pages, FICO bands confirmed via Experian and Capital One. Ubersuggest US data retrieved 2026-10-20; five competitor pages read, blocked pages replaced by the next ranking page.",
+    "pending": "None."
+  }
+}

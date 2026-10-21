@@ -27,7 +27,7 @@ If sources conflict, stop and report the exact conflict. The tracker controls ti
 
 ## Owner-supplied posts: final AI QA and fact-check layer
 
-When the owner supplies blogs or articles, treat them as researched and fact-checked by the owner, then always run one more independent QA and fact-check layer before anything is scheduled or pushed (owner rule, 2026-10-20). Never skip it because the owner already checked. Follow `docs/CONTENT-WORKFLOW.md` ("Final QA layer for owner-supplied posts"): re-verify every figure, price, date, quote and product claim against the primary source; remove or correct anything that cannot be confirmed; check the editorial, link, schema and compliance rules; and report every change and every unverifiable claim to the owner before sign-off. The owner gives the final approval.
+When the owner supplies blogs or articles, treat them as researched and fact-checked by the owner, then always run one more independent QA and fact-check layer before anything is scheduled or pushed (owner rule, 2026-10-20). Never skip it because the owner already checked. Follow `docs/CONTENT-WORKFLOW.md` ("Final QA layer for owner-supplied posts"): re-verify every figure, price, date, quote and product claim against the primary source; remove or correct anything that cannot be confirmed; check the editorial, link, schema and compliance rules; and report every change and every unverifiable claim to the owner before sign-off. The owner gives the final approval. Every draft and QA pass also follows `docs/EDITORIAL-QA-SOP.md` (owner rule, 2026-10-21): direct answers, title promise, verified evidence, added reader value, the three-part link test, and a PASS / REVISE / HOLD status. Do not send the owner the QA summary unless asked.
 
 ## Editorial rules
 

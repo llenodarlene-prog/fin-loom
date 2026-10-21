@@ -1,0 +1,470 @@
+{
+  "tracker_id": "Blog:S28",
+  "status": "verified",
+  "research_question": "What does APY mean, how is it calculated, and how should savers compare it?",
+  "research_brief": {
+    "purpose": "Explain APY with Regulation DD sources and worked calculations.",
+    "audience": "Savers comparing deposit accounts.",
+    "publication_year": "2026",
+    "data_period": "CFPB pages checked October 20, 2026; calculations are Fin Loom.",
+    "scope_limitations": "U.S. deposit accounts; illustrative calculations assume constant rates."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "apy meaning",
+    "intent": "Informational",
+    "serp_checked_at": "2026-10-20",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-20",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "apy meaning",
+        "type": "short-tail",
+        "volume": 40500,
+        "difficulty": 22,
+        "cpc": 8.14,
+        "intent": "Informational",
+        "ranking_url": "https://www.fidelity.com/learning-center/smart-money/what-is-apy",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is apy",
+        "type": "long-tail",
+        "volume": 22200,
+        "difficulty": 28,
+        "cpc": 13.68,
+        "intent": "Informational",
+        "ranking_url": "https://www.fidelity.com/learning-center/smart-money/what-is-apy",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "annual percentage yield",
+        "type": "commercial",
+        "volume": 33100,
+        "difficulty": 55,
+        "cpc": 11.47,
+        "intent": "Informational",
+        "ranking_url": "https://www.axosbank.com/personal/insights/finance/digital-banking/what-is-apy",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "apy savings account",
+        "type": "problem",
+        "volume": 2400,
+        "difficulty": 57,
+        "cpc": 8.81,
+        "intent": "Informational",
+        "ranking_url": "https://www.bankwith1st.com/how-does-apy-work-in-a-savings-account/",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what does apy mean",
+        "type": "question",
+        "volume": 8100,
+        "difficulty": 21,
+        "cpc": 11.48,
+        "intent": "Informational",
+        "ranking_url": "https://www.peopledrivencu.org/faqs/what-does-apy-mean/",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      }
+    ],
+    "historical_note": "Owner draft listed Ahrefs US volume and KD; kept for attribution in the owner file. Ubersuggest data above retrieved 2026-10-20."
+  },
+  "sources": [
+    {
+      "url": "https://www.consumerfinance.gov/rules-policy/regulations/1030/2/",
+      "title": "Regulation DD 1030.2 Definitions",
+      "publisher": "Consumer Financial Protection Bureau",
+      "source_type": "Federal regulation",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "APY and interest rate definitions",
+      "method": "Regulatory text",
+      "limitations": "Definitions only",
+      "verified": true,
+      "verification_note": "APY reflects interest rate and compounding over 365 days; interest rate does not reflect compounding (quoted)."
+    },
+    {
+      "url": "https://www.consumerfinance.gov/rules-policy/regulations/1030/a/",
+      "title": "Regulation DD Appendix A: APY Calculation",
+      "publisher": "Consumer Financial Protection Bureau",
+      "source_type": "Federal regulation",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "APY calculation rules",
+      "method": "Regulatory text",
+      "limitations": "Disclosure method",
+      "verified": true,
+      "verification_note": "365-day assumed term for accounts without maturity; principal and interest assumed on deposit for the term (quoted)."
+    },
+    {
+      "url": "https://www.consumerfinance.gov/rules-policy/regulations/1030/8/",
+      "title": "Regulation DD 1030.8 Advertising",
+      "publisher": "Consumer Financial Protection Bureau",
+      "source_type": "Federal regulation",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Advertising rate rules",
+      "method": "Regulatory text",
+      "limitations": "Advertising only",
+      "verified": true,
+      "verification_note": "Rate of return stated as APY; interest rate not more conspicuous than APY (quoted)."
+    },
+    {
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-money-market-account-en-1007/",
+      "title": "What is a money market account?",
+      "publisher": "Consumer Financial Protection Bureau",
+      "source_type": "Consumer guidance",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Money market accounts",
+      "method": "Agency guidance",
+      "limitations": "General guidance",
+      "verified": true,
+      "verification_note": "Deposit accounts at banks and credit unions; FDIC or NCUA insured up to $250,000 per owner; differ from money market funds (page reviewed Aug 28, 2026)."
+    },
+    {
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-the-difference-between-a-loan-interest-rate-and-the-apr-en-733/",
+      "title": "Interest rate vs APR",
+      "publisher": "Consumer Financial Protection Bureau",
+      "source_type": "Consumer guidance",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "APR definition",
+      "method": "Agency guidance",
+      "limitations": "General guidance",
+      "verified": true,
+      "verification_note": "APR is interest rate plus additional fees charged with the loan (quoted)."
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "A 4.00% nominal rate compounded monthly gives about 4.074% APY; daily about 4.081%.",
+      "source_url": "https://www.consumerfinance.gov/rules-policy/regulations/1030/a/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Illustrative deposit",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Fin Loom calculation with the standard formula",
+      "limitations": "Illustration; constant rate",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": true,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "What is APY and how is it calculated?",
+      "url": "https://www.fidelity.com/learning-center/smart-money/what-is-apy",
+      "publisher": "fidelity.com",
+      "format": "Ranking page",
+      "updated_at": "not stated",
+      "headings": [
+        "Learn",
+        "What is APY and how is it calculated?",
+        "Key takeaways",
+        "What is APY?",
+        "APY formula and how to calculate APY",
+        "APY vs. APR",
+        "APY vs. interest rate",
+        "Evaluating APYs",
+        "There's a better way to spend and save",
+        "More to explore",
+        "Research CDs quickly and easily",
+        "How does a CD work?",
+        "Subscribe to  \n              Fidelity Smart Money℠",
+        "Looking for more ideas and insights?"
+      ],
+      "coverage": [
+        "Definition",
+        "Examples"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Clear definition.",
+      "gaps": "No primary-source citations or worked comparisons."
+    },
+    {
+      "title": "What Is APY? How Annual Percentage Yield Works",
+      "url": "https://www.axosbank.com/personal/insights/finance/digital-banking/what-is-apy",
+      "publisher": "axosbank.com",
+      "format": "Ranking page",
+      "updated_at": "not stated",
+      "headings": [
+        "What is APY?",
+        "Table of Contents",
+        "How is APY calculated?",
+        "Axos One® Checking and Savings",
+        "Earn more with a competitive APY.",
+        "APY (Annual Percentage Yield)",
+        "APR (Annual Percentage Rate)",
+        "Table of Contents",
+        "Elevate your earnings.",
+        "Personal",
+        "Business",
+        "Partners",
+        "All your finances. In one place.",
+        "Sign up for our newsletter."
+      ],
+      "coverage": [
+        "Definition",
+        "Examples"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Clear definition.",
+      "gaps": "No primary-source citations or worked comparisons."
+    },
+    {
+      "title": "How Does APY Work in a Savings Account?",
+      "url": "https://www.bankwith1st.com/how-does-apy-work-in-a-savings-account/",
+      "publisher": "bankwith1st.com",
+      "format": "Ranking page",
+      "updated_at": "2026-04-16",
+      "headings": [
+        "Online Banking",
+        "How Does APY Work in a Savings Account?",
+        "What APY Means in Simple Terms",
+        "Key Takeaways",
+        "What Is APY? Breaking Down the Components",
+        "APY Explained in Plain Language",
+        "APY vs. Interest Rate (Clear Comparison)",
+        "How Does APY Work on a Savings Account? (Mechanics + Compounding)",
+        "How Compounding Frequency Affects APY",
+        "A Real‑World Example: How APY Translates to Earnings",
+        "Why APY Matters for Your Savings Goals",
+        "APY and Types of Savings Accounts",
+        "Traditional Savings Accounts",
+        "High‑Yield Savings Accounts"
+      ],
+      "coverage": [
+        "Definition",
+        "Examples"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Clear definition.",
+      "gaps": "No primary-source citations or worked comparisons."
+    },
+    {
+      "title": "What is APY and How is it Calculated",
+      "url": "https://hfsfcu.org/education/what-is-apy/",
+      "publisher": "hfsfcu.org",
+      "format": "Ranking page",
+      "updated_at": "2026-02-13",
+      "headings": [
+        "What is APY?",
+        "What Is APY? Understanding Annual Percentage Yield",
+        "What Does APY Mean?",
+        "How Is APY Calculated?",
+        "APY vs Interest Rate: What’s the Difference?",
+        "APY vs APR: Know the Difference",
+        "How Compound Interest Affects Your APY",
+        "APY in Action: A Real-World Example",
+        "What Is a Good APY for a Savings Account?",
+        "Fixed vs Variable APY",
+        "Tips for Maximizing Your APY",
+        "Start Earning Competitive APY with HFS FCU",
+        "FAQs About APY",
+        "Open Account"
+      ],
+      "coverage": [
+        "Definition",
+        "Examples"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Clear definition.",
+      "gaps": "No primary-source citations or worked comparisons."
+    },
+    {
+      "title": "What Is APY and How Is It Calculated?",
+      "url": "https://www.sofi.com/learn/banking/what-is-apy/",
+      "publisher": "sofi.com",
+      "format": "Ranking page",
+      "updated_at": "2026-06-10",
+      "headings": [
+        "Select a product to get started.",
+        "Received mail from us?",
+        "Received an offer from us?",
+        "Leaving SoFi Website",
+        "What Is APY and How Is It Calculated?",
+        "What Is APY?",
+        "Simple Interest vs Compound Interest",
+        "APY Calculation Examples",
+        "Fixed vs Variable APY",
+        "Limitations and Considerations of APY",
+        "The Takeaway",
+        "FAQ",
+        "What’s the difference between APY and interest rate on savings accounts?",
+        "How do you calculate the APY for a savings account or investment?"
+      ],
+      "coverage": [
+        "Definition",
+        "Examples"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Clear definition.",
+      "gaps": "No primary-source citations or worked comparisons."
+    }
+  ],
+  "content_gaps": [
+    "Bank pages explain APY without citing Regulation DD.",
+    "Few show fees or tiers reversing an APY ranking with worked numbers.",
+    "Few link the calculation to the disclosed APY rule."
+  ],
+  "value_add": "Regulation DD quoted from the CFPB, engine-tested worked examples, and fee and tier illustrations.",
+  "plan": {
+    "reader_title": "APY Meaning: How Annual Percentage Yield Works",
+    "seo_title": "APY Meaning: Formula, Compounding, and Examples",
+    "meta_description": "Learn the APY meaning, how annual percentage yield is calculated, why compounding counts, and how to compare savings accounts, CDs, and money market accounts.",
+    "slug": "/money-banking/apy-meaning/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "what is APY",
+      "annual percentage yield",
+      "APY formula"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "What Does APY Mean?",
+      "Why APY and Interest Rate Are Not Always the Same",
+      "How Compounding Changes APY",
+      "How Is APY Calculated?",
+      "Why Banks Advertise APY Instead of Only the Interest Rate",
+      "Which Accounts Commonly Use APY?",
+      "APY Can Be Fixed or Variable",
+      "A Higher APY Does Not Automatically Mean a Better Account",
+      "APY Is Different From APR",
+      "How to Compare APYs Without Being Misled",
+      "APY Is a Standard Yield, Not a Promise About Your Exact Earnings",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Regulation DD 1030.2 Definitions: APY reflects interest rate and compounding over 365 days; interest rate does not reflect compounding (quoted).",
+      "Regulation DD Appendix A: APY Calculation: 365-day assumed term for accounts without maturity; principal and interest assumed on deposit for the term (quoted).",
+      "Regulation DD 1030.8 Advertising: Rate of return stated as APY; interest rate not more conspicuous than APY (quoted).",
+      "What is a money market account?: Deposit accounts at banks and credit unions; FDIC or NCUA insured up to $250,000 per owner; differ from money market funds (page reviewed Aug 28, 2026)."
+    ],
+    "visuals": [
+      "Owner-supplied hero image (AI-generated)",
+      "Tables",
+      "Comparison tables"
+    ],
+    "internal_links": [
+      "/money-banking/apy-vs-interest-rate/",
+      "/money-banking/saving-vs-investing/",
+      "/money-banking/savings-interest-calculator/"
+    ],
+    "external_link_opportunities": [
+      "CFPB Regulation DD definitions",
+      "Appendix A"
+    ],
+    "excluded_claims": [
+      "Brief savings example figures ($44,216 and $46,336) replaced with engine-tested $46,669.68"
+    ],
+    "drafting_cautions": [
+      "Label all Fin Loom calculations",
+      "No account or product recommendations"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Regulation DD defines APY as reflecting the interest rate and compounding over a 365-day period.",
+      "source_url": "https://www.consumerfinance.gov/rules-policy/regulations/1030/2/",
+      "verified": true
+    },
+    {
+      "statement": "Advertisements stating a rate of return must state it as an APY.",
+      "source_url": "https://www.consumerfinance.gov/rules-policy/regulations/1030/8/",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-20",
+    "note": "Signed off by the site owner in the build session of 2026-10-20 (\"sign off as me\") after reviewing docs/qa/2026-10-20-apy-credit-calculators.md."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-20",
+    "note": "Signed off by the site owner in the build session of 2026-10-20 (\"sign off as me\") after reviewing docs/qa/2026-10-20-apy-credit-calculators.md."
+  },
+  "verification_log": {
+    "checked_on": "2026-10-20",
+    "summary": "Final AI QA layer (2026-10-20): every figure recomputed, CFPB Regulation DD and myFICO claims checked on the primary pages, FICO bands confirmed via Experian and Capital One. Ubersuggest US data retrieved 2026-10-20; five competitor pages read, blocked pages replaced by the next ranking page.",
+    "pending": "None."
+  }
+}

@@ -1,0 +1,429 @@
+{
+  "tracker_id": "Blog:S31",
+  "status": "verified",
+  "research_question": "What is a credit score, how is a FICO Score built, and why do scores differ?",
+  "research_brief": {
+    "purpose": "Explain credit scores from CFPB and FICO pages.",
+    "audience": "Consumers learning about credit.",
+    "publication_year": "2026",
+    "data_period": "CFPB and myFICO pages checked October 20, 2026.",
+    "scope_limitations": "U.S. scoring; FICO bands confirmed via Experian and Capital One as myFICO band page did not load."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "what is a credit score",
+    "intent": "Informational",
+    "serp_checked_at": "2026-10-20",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-20",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "what is a credit score",
+        "type": "short-tail",
+        "volume": 12100,
+        "difficulty": 64,
+        "cpc": 3.71,
+        "intent": "Informational",
+        "ranking_url": "https://knowledge.umassfive.coop/credit-and-debt/credit/article/what-your-credit-score-means",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "credit score meaning",
+        "type": "long-tail",
+        "volume": 9900,
+        "difficulty": 68,
+        "cpc": 1.26,
+        "intent": "Informational",
+        "ranking_url": "https://www.o2mtg.com/blog/credit/what-is-a-credit-score-and-why-is-it-important/",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "credit score factors",
+        "type": "commercial",
+        "volume": 880,
+        "difficulty": 64,
+        "cpc": 0.15,
+        "intent": "Informational",
+        "ranking_url": "https://finance.yahoo.com/news/whats-used-determine-credit-score-150057314.html",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "credit score range",
+        "type": "problem",
+        "volume": 90500,
+        "difficulty": 61,
+        "cpc": 3.42,
+        "intent": "Informational",
+        "ranking_url": "https://www.linkedin.com/pulse/what-credit-score-definition-factors-ranges-mark-wygant",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is a good credit score",
+        "type": "question",
+        "volume": 74000,
+        "difficulty": 60,
+        "cpc": 3.06,
+        "intent": "Informational",
+        "ranking_url": "https://knowledge.umassfive.coop/credit-and-debt/credit/article/what-your-credit-score-means",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      }
+    ],
+    "historical_note": "Owner draft listed Ahrefs US volume and KD; kept for attribution in the owner file. Ubersuggest data above retrieved 2026-10-20."
+  },
+  "sources": [
+    {
+      "url": "https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/understand-your-credit-score/",
+      "title": "Understand your credit score",
+      "publisher": "Consumer Financial Protection Bureau",
+      "source_type": "Consumer guidance",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Score ranges, multiple scores",
+      "method": "Agency guidance",
+      "limitations": "General guidance",
+      "verified": true,
+      "verification_note": "Many scores range 300 to 850; you can have more than one score; shop around (quoted)."
+    },
+    {
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-credit-score-en-315/",
+      "title": "What is a credit score?",
+      "publisher": "Consumer Financial Protection Bureau",
+      "source_type": "Consumer guidance",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Definition",
+      "method": "Agency guidance",
+      "limitations": "General guidance",
+      "verified": true,
+      "verification_note": "Most credit scores range from 300-850 (quoted)."
+    },
+    {
+      "url": "https://www.myfico.com/credit-education/whats-in-your-credit-score",
+      "title": "What's in my FICO Scores?",
+      "publisher": "FICO (myFICO)",
+      "source_type": "Vendor education page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Score factor weights",
+      "method": "Vendor methodology summary",
+      "limitations": "Typical weights vary by person",
+      "verified": true,
+      "verification_note": "35/30/15/10/10 weights; income, age, where you live excluded; excluded-information list (quoted)."
+    },
+    {
+      "url": "https://www.annualcreditreport.com/",
+      "title": "AnnualCreditReport.com",
+      "publisher": "Central Source LLC",
+      "source_type": "Official reports portal",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Free credit reports",
+      "method": "Federally authorized source",
+      "limitations": "Portal",
+      "verified": true,
+      "verification_note": "Free reports from Equifax, Experian, TransUnion."
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "FICO typical weights: payment history 35%, amounts owed 30%, length of history 15%, new credit 10%, credit mix 10%.",
+      "source_url": "https://www.myfico.com/credit-education/whats-in-your-credit-score",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "FICO Score model",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Vendor methodology",
+      "limitations": "Weights vary by credit profile",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "What Your Credit Score Means",
+      "url": "https://knowledge.umassfive.coop/credit-and-debt/credit/article/what-your-credit-score-means",
+      "publisher": "knowledge.umassfive.coop",
+      "format": "Ranking page",
+      "updated_at": "not stated",
+      "headings": [
+        "What can we help you with?",
+        "What Your Credit Score Means",
+        "Scoring",
+        "What lenders want",
+        "More Credit Content",
+        "Article",
+        "Calculator",
+        "Quiz",
+        "Video"
+      ],
+      "coverage": [
+        "Definition",
+        "Examples"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Clear definition.",
+      "gaps": "No primary-source citations or worked comparisons."
+    },
+    {
+      "title": "What is a credit score",
+      "url": "https://teamusamortgagepr.mymortgage-online.com/Whatisacreditscore.html",
+      "publisher": "teamusamortgagepr.mymortgage-online.com",
+      "format": "Ranking page",
+      "updated_at": "not stated",
+      "headings": [
+        "Credit Scoring",
+        "Team USA Mortgage can answer your questions about credit reporting. Give us a call: 218-237-5128."
+      ],
+      "coverage": [
+        "Definition",
+        "Examples"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Clear definition.",
+      "gaps": "No primary-source citations or worked comparisons."
+    },
+    {
+      "title": "What is a credit score, and why is it important?",
+      "url": "https://www.o2mtg.com/blog/credit/what-is-a-credit-score-and-why-is-it-important/",
+      "publisher": "o2mtg.com",
+      "format": "Ranking page",
+      "updated_at": "2023-03-14",
+      "headings": [
+        "our blog",
+        "What is a credit score, and why is it important?",
+        "Your credit score shows lenders your creditworthiness",
+        "A good credit score helps you get a mortgage",
+        "Be aware of what can raise or lower your score",
+        "Are you buying a home?",
+        "Get started today with o2 Mortgage",
+        "Hear from our clients",
+        "Hear from our clients",
+        "Hear from our clients",
+        "We have a great newsletter\nSign up to stay in touch"
+      ],
+      "coverage": [
+        "Definition",
+        "Examples"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Clear definition.",
+      "gaps": "No primary-source citations or worked comparisons."
+    },
+    {
+      "title": "What's Used to Determine My Credit Score?",
+      "url": "https://finance.yahoo.com/news/whats-used-determine-credit-score-150057314.html",
+      "publisher": "finance.yahoo.com",
+      "format": "Ranking page",
+      "updated_at": "2013-07-13",
+      "headings": [
+        "Yahoo Finance",
+        "U.S. markets open in 6h 2m",
+        "What's Used to Determine My Credit Score?",
+        "Recommended Stories",
+        "More News"
+      ],
+      "coverage": [
+        "Definition",
+        "Examples"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Clear definition.",
+      "gaps": "No primary-source citations or worked comparisons."
+    },
+    {
+      "title": "What is a Credit Score: Definition, Factors and Credit Score Ranges",
+      "url": "https://www.linkedin.com/pulse/what-credit-score-definition-factors-ranges-mark-wygant",
+      "publisher": "linkedin.com",
+      "format": "Ranking page",
+      "updated_at": "2026-04-10",
+      "headings": [
+        "Sign in to view more content",
+        "What is a Credit Score: Definition, Factors and Credit Score Ranges",
+        "Mark Wygant, EA",
+        "What is a credit score?",
+        "Key Takeaways",
+        "Who calculates credit scores?",
+        "What Factors Affect Your Credit Score: How Your Score Is Calculated",
+        "What Information Credit Scores Do Not Consider",
+        "Why There Are Different Credit Scores",
+        "You Can Get a Free Credit Score",
+        "Conclusion",
+        "Finding Affluence",
+        "More articles by Mark Wygant, EA",
+        "Everything Changes the Day You Retire: How the Rules of the Game Change and What You Need to Know About Retirement Risks"
+      ],
+      "coverage": [
+        "Definition",
+        "Examples"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Clear definition.",
+      "gaps": "No primary-source citations or worked comparisons."
+    }
+  ],
+  "content_gaps": [
+    "Bank pages explain APY without citing Regulation DD.",
+    "Few show fees or tiers reversing an APY ranking with worked numbers.",
+    "Few link the calculation to the disclosed APY rule."
+  ],
+  "value_add": "Regulation DD quoted from the CFPB, engine-tested worked examples, and fee and tier illustrations.",
+  "plan": {
+    "reader_title": "What Is a Credit Score? How Scores Work and What Affects Them",
+    "seo_title": "What Is a Credit Score? FICO Factors and Score Ranges",
+    "meta_description": "What is a credit score? Learn how lenders use it, which factors affect FICO Scores, why your scores differ, and what the 300 to 850 range means.",
+    "slug": "/money-banking/what-is-a-credit-score/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "credit score meaning",
+      "credit score factors",
+      "FICO score"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "What Does a Credit Score Measure?",
+      "What Is the Typical Credit Score Range?",
+      "How FICO Scores Are Calculated",
+      "What Information Does Not Go Into a FICO Score?",
+      "Why Do I Have More Than One Credit Score?",
+      "FICO and VantageScore Are Different Scoring Systems",
+      "Credit Score and Credit Report Are Not the Same Thing",
+      "How Lenders Use Credit Scores",
+      "Why Higher Credit Scores Can Lower Borrowing Costs",
+      "What Can Hurt a Credit Score?",
+      "What Can Help a Credit Score Over Time?",
+      "How to Check Your Credit Reports",
+      "A Credit Score Is a Risk Signal, Not a Financial Report Card",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Understand your credit score: Many scores range 300 to 850; you can have more than one score; shop around (quoted).",
+      "What is a credit score?: Most credit scores range from 300-850 (quoted).",
+      "What's in my FICO Scores?: 35/30/15/10/10 weights; income, age, where you live excluded; excluded-information list (quoted).",
+      "AnnualCreditReport.com: Free reports from Equifax, Experian, TransUnion."
+    ],
+    "visuals": [
+      "Hero image pending from owner",
+      "Tables",
+      "Comparison tables"
+    ],
+    "internal_links": [
+      "/money-banking/identity-theft-statistics/",
+      "/money-banking/saving-vs-investing/"
+    ],
+    "external_link_opportunities": [
+      "CFPB understand your score",
+      "myFICO factors",
+      "AnnualCreditReport.com"
+    ],
+    "excluded_claims": [
+      "Brief savings example figures ($44,216 and $46,336) replaced with engine-tested $46,669.68"
+    ],
+    "drafting_cautions": [
+      "Label all Fin Loom calculations",
+      "No account or product recommendations"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Many credit scores range from 300 to 850.",
+      "source_url": "https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/understand-your-credit-score/",
+      "verified": true
+    },
+    {
+      "statement": "Income, age, and where you live do not factor into FICO Scores.",
+      "source_url": "https://www.myfico.com/credit-education/whats-in-your-credit-score",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-20",
+    "note": "Signed off by the site owner in the build session of 2026-10-20 (\"sign off as me\") after reviewing docs/qa/2026-10-20-apy-credit-calculators.md."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-20",
+    "note": "Signed off by the site owner in the build session of 2026-10-20 (\"sign off as me\") after reviewing docs/qa/2026-10-20-apy-credit-calculators.md."
+  },
+  "verification_log": {
+    "checked_on": "2026-10-20",
+    "summary": "Final AI QA layer (2026-10-20): every figure recomputed, CFPB Regulation DD and myFICO claims checked on the primary pages, FICO bands confirmed via Experian and Capital One. Ubersuggest US data retrieved 2026-10-20; five competitor pages read, blocked pages replaced by the next ranking page.",
+    "pending": "Hero image from owner (optional; post can publish without it)."
+  }
+}
