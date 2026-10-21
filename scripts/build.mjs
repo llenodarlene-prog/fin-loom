@@ -172,7 +172,7 @@ for (const page of parsed) {
       renderedBody = renderedBody.replace(/(<\/h1>)/, `$1<p class="byline">${avatar}<span>By ${name} <span aria-hidden="true">·</span> <time datetime="${escapeHtml(metadata.published)}">${when(metadata.published)}</time>${updated}</span></p>`);
     }
     // The featured image follows the byline, or the H1 when a post has no byline.
-    if (featured) renderedBody = renderedBody.replace(/<p class="byline">[\s\S]*?<\/span><\/p>|<\/h1>/, match => `${match}${figure({ alt: metadata.image_alt || featured.alt, src: featured.path, caption: '' }, { eager: true, className: 'post-featured' })}`);
+    if (featured) renderedBody = renderedBody.replace(renderedBody.includes('<p class="byline">') ? /<p class="byline">[\s\S]*?<\/span><\/p>/ : /<\/h1>/, match => `${match}${figure({ alt: metadata.image_alt || featured.alt, src: featured.path, caption: '' }, { eager: true, className: 'post-featured' })}`);
   }
   if (!designed && !article && metadata.slug === '/') renderedBody += contentCards(publishedPosts.slice(0, 12), 'Latest Research');
   else if (!designed && !article && metadata.schema === 'CollectionPage') renderedBody += contentCards(publishedPosts.filter(post => post.slug.startsWith(metadata.slug)), 'Published Coverage');
