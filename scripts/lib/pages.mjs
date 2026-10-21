@@ -317,3 +317,42 @@ export function renderPartner(copy, email) {
     </div>
   </section>`;
 }
+
+// Author profile: compact hero with portrait and topics, the bio beside an at-a-glance card, then the author's live posts.
+export function renderAuthor(copy, posts, nav) {
+  const { photo: image } = copy;
+  return `
+  <section class="hero hero--compact author-hero" aria-labelledby="author-heading">
+    <div class="shell author-hero-grid">
+      <img class="author-photo" src="${escapeHtml(image.src)}" width="${image.width}" height="${image.height}" alt="${escapeHtml(image.alt)}" fetchpriority="high" decoding="async">
+      <div class="hero-copy">
+        <p class="eyebrow">${escapeHtml(copy.role)}</p>
+        <h1 id="author-heading">${escapeHtml(copy.name)}</h1>
+        <p>${inline(copy.intro)}</p>
+        <ul class="author-topics" aria-label="Topics">${copy.topics.map(topic => `<li>${escapeHtml(topic)}</li>`).join('')}</ul>
+        <div class="cta-row"><a class="button button--light" href="${escapeHtml(mailto(copy.email, copy.email_subject))}">${escapeHtml(copy.email_label)}</a></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band band--tint" aria-labelledby="author-bio">
+    <div class="shell author-body">
+      <div class="author-bio" data-reveal>
+        <h2 id="author-bio">${escapeHtml(copy.bio_heading)}</h2>
+        ${paragraphs(copy.bio)}
+        <h3>${escapeHtml(copy.contact_heading)}</h3>
+        <p>${inline(copy.contact_copy)}</p>
+      </div>
+      <aside class="author-facts" aria-label="At a glance" data-reveal>
+        <dl>${copy.facts.map(fact => `<div><dt>${escapeHtml(fact.label)}</dt><dd>${escapeHtml(fact.value)}</dd></div>`).join('')}</dl>
+      </aside>
+    </div>
+  </section>
+${posts.length ? `
+  <section class="band" aria-labelledby="author-posts">
+    <div class="shell">
+      <header class="band-head" data-reveal><h2 id="author-posts">${escapeHtml(copy.posts_heading)}</h2></header>
+      <div class="post-grid">${posts.slice(0, copy.posts_limit || 6).map(post => postCard(post, nav)).join('')}</div>
+    </div>
+  </section>` : ''}`;
+}

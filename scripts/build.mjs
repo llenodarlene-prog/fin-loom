@@ -2,7 +2,7 @@ import { cp, mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
 import { escapeHtml, markdownToHtml, readContent } from './lib/content.mjs';
-import { contactEmail, renderAbout, renderContact, renderHome, renderHub, renderPartner } from './lib/pages.mjs';
+import { contactEmail, renderAbout, renderAuthor, renderContact, renderHome, renderHub, renderPartner } from './lib/pages.mjs';
 import { buildCharts } from './lib/illustrations.mjs';
 import { renderChart, resetCharts } from './lib/charts.mjs';
 import { articleSchema, headMeta, organizationNode } from './lib/seo.mjs';
@@ -15,9 +15,9 @@ const dist = path.join(cwd, 'dist');
 const readJson = async file => JSON.parse(await readFile(file, 'utf8'));
 // Designed-page copy files exist only once approved copy has been supplied; until then pages render from Markdown.
 const readOptionalJson = file => readJson(file).catch(error => { if (error.code === 'ENOENT') return null; throw error; });
-const [site, nav, redirects, homeCopy, aboutCopy, hubCopy, contactCopy, footerCopy, assetList, chartData, partnerCopy, marketData] = await Promise.all([
+const [site, nav, redirects, homeCopy, aboutCopy, hubCopy, contactCopy, footerCopy, assetList, chartData, partnerCopy, marketData, authorCopy] = await Promise.all([
   
-  readJson('data/site.json'), readJson('data/navigation.json'), readJson('data/redirects.json'), readOptionalJson('data/home-page.json'), readOptionalJson('data/about-page.json'), readOptionalJson('data/hub-pages.json'), readOptionalJson('data/contact-page.json'), readJson('data/footer.json'), readJson('data/assets.json'), readJson('data/charts.json'), readOptionalJson('data/partner-page.json'), readJson('data/market-data.json')
+  readJson('data/site.json'), readJson('data/navigation.json'), readJson('data/redirects.json'), readOptionalJson('data/home-page.json'), readOptionalJson('data/about-page.json'), readOptionalJson('data/hub-pages.json'), readOptionalJson('data/contact-page.json'), readJson('data/footer.json'), readJson('data/assets.json'), readJson('data/charts.json'), readOptionalJson('data/partner-page.json'), readJson('data/market-data.json'), readOptionalJson('data/author-page.json')
 ]);
 // Charts on designed pages: official series with their sources, plus arithmetic illustrations.
 const pageCharts = buildCharts(marketData);
@@ -101,6 +101,7 @@ const sourceFiles = (await walk('content')).filter(file => file.endsWith('.md'))
 const parsed = [];
 const orgEmail = (await readOptionalJson('data/release.json'))?.contact?.email || '';
 // Verified authors with a bio page get a Person url in Article schema.
+const authorPhotos = { [authorCopy?.name]: authorCopy?.photo?.src };
 const authorUrls = Object.fromEntries(Object.values((await readOptionalJson('data/authors.json')) || {}).filter(a => a.verified && a.url).map(a => [a.name, `${siteUrl}${a.url}`]));
 const sourceRoutes = new Map();
 // Production omits drafts and approved posts whose publication date has not arrived; their routes are
@@ -144,9 +145,10 @@ for (const page of parsed) {
     ]
   };
   // Designed pages render from approved copy files; everything else renders from Markdown.
-  const designedCopy = { home: homeCopy, about: aboutCopy, contact: contactCopy, hub: hubCopy, partner: partnerCopy }[metadata.template];
+  const designedCopy = { home: homeCopy, about: aboutCopy, contact: contactCopy, hub: hubCopy, partner: partnerCopy, author: authorCopy }[metadata.template];
   if (metadata.template && !designedCopy) throw new Error(`${source}: template "${metadata.template}" needs its approved copy file in data/`);
   const designed = article ? null : { home: () => renderHome(homeCopy, publishedPosts, nav, pageCharts), about: () => renderAbout(aboutCopy),
+    author: () => renderAuthor(authorCopy, publishedPosts.filter(post => post.author === authorCopy.name && publicationState(post, today) === 'live'), nav),
     partner: () => renderPartner(partnerCopy, contactEmail(body, source)),
     contact: () => renderContact(contactCopy, contactEmail(body, source)),
     hub: () => {
@@ -157,10 +159,20 @@ for (const page of parsed) {
   resetCharts();
   let renderedBody = designed ? designed() : markdownToHtml(body, { chart: chartBlock, image: figure, calculator: id => calculatorBlock(id, calculatorVersion) });
   if (article) {
-    // Posts open with a breadcrumb trail, then the H1, then the featured image.
+    // Posts open with a breadcrumb trail, then the H1, the byline, and the featured image.
     const trail = `<nav class="breadcrumb" aria-label="Breadcrumb"><ol>${crumbs.map((crumb, i) => i < crumbs.length - 1 ? `<li><a href="${escapeHtml(crumb.url.replace(siteUrl, '') || '/')}">${escapeHtml(crumb.name)}</a></li>` : `<li aria-current="page">${escapeHtml(crumb.name)}</li>`).join('')}</ol></nav>`;
     renderedBody = trail + renderedBody;
-    if (featured) renderedBody = renderedBody.replace(/(<\/h1>)/, `$1${figure({ alt: metadata.image_alt || featured.alt, src: featured.path, caption: '' }, { eager: true, className: 'post-featured' })}`);
+    // Byline under the H1: verified author linked to their bio page, plus the published and updated dates.
+    const when = value => new Date(`${value}T00:00:00Z`).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
+    const authorHref = authorUrls[metadata.author]?.replace(siteUrl, '');
+    if (metadata.author && metadata.published) {
+      const name = authorHref ? `<a href="${escapeHtml(authorHref)}" rel="author">${escapeHtml(metadata.author)}</a>` : escapeHtml(metadata.author);
+      const avatar = authorHref && authorPhotos[metadata.author] ? `<img class="byline-photo" src="${escapeHtml(authorPhotos[metadata.author])}" width="40" height="40" alt="${escapeHtml(`Portrait of ${metadata.author}`)}" decoding="async">` : '';
+      const updated = metadata.modified && metadata.modified !== metadata.published ? ` <span aria-hidden="true">·</span> Updated <time datetime="${escapeHtml(metadata.modified)}">${when(metadata.modified)}</time>` : '';
+      renderedBody = renderedBody.replace(/(<\/h1>)/, `$1<p class="byline">${avatar}<span>By ${name} <span aria-hidden="true">·</span> <time datetime="${escapeHtml(metadata.published)}">${when(metadata.published)}</time>${updated}</span></p>`);
+    }
+    // The featured image follows the byline, or the H1 when a post has no byline.
+    if (featured) renderedBody = renderedBody.replace(renderedBody.includes('<p class="byline">') ? /<p class="byline">[\s\S]*?<\/span><\/p>/ : /<\/h1>/, match => `${match}${figure({ alt: metadata.image_alt || featured.alt, src: featured.path, caption: '' }, { eager: true, className: 'post-featured' })}`);
   }
   if (!designed && !article && metadata.slug === '/') renderedBody += contentCards(publishedPosts.slice(0, 12), 'Latest Research');
   else if (!designed && !article && metadata.schema === 'CollectionPage') renderedBody += contentCards(publishedPosts.filter(post => post.slug.startsWith(metadata.slug)), 'Published Coverage');
