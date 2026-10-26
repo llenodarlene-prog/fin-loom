@@ -1,0 +1,475 @@
+{
+ "tracker_id": "Blog:S37",
+ "status": "verified",
+ "research_question": "What makes a dividend qualified, and how are qualified dividends taxed in 2026?",
+ "research_brief": {
+  "purpose": "Explain qualified dividend rules, 2026 thresholds, holding periods, and reporting.",
+  "audience": "U.S. investors reading Form 1099-DIV.",
+  "publication_year": "2026",
+  "data_period": "IRS Publication 550 (2025 edition), Rev. Proc. 2025-32 for tax year 2026, checked October 26, 2026.",
+  "scope_limitations": "Federal income tax only; not tax advice; state rules differ."
+ },
+ "keyword_research": {
+  "approved_primary_keyword": "qualified dividends",
+  "intent": "Informational",
+  "serp_checked_at": "2026-10-26",
+  "tools": [
+   {
+    "name": "Ubersuggest",
+    "status": "verified",
+    "retrieved_at": "2026-10-26",
+    "location": "United States"
+   }
+  ],
+  "queries": [
+   {
+    "keyword": "qualified dividends",
+    "type": "short-tail",
+    "volume": 9900,
+    "difficulty": 23,
+    "cpc": 0.19,
+    "intent": "Informational",
+    "ranking_url": "https://corporatefinanceinstitute.com/resources/accounting/qualified-dividend/",
+    "retrieved_at": "2026-10-26",
+    "tool": "Ubersuggest"
+   },
+   {
+    "keyword": "what are qualified dividends",
+    "type": "question",
+    "volume": 9900,
+    "difficulty": 39,
+    "cpc": 1.38,
+    "intent": "Informational",
+    "ranking_url": "https://www.ramseysolutions.com/retirement/what-are-qualified-dividends",
+    "retrieved_at": "2026-10-26",
+    "tool": "Ubersuggest"
+   },
+   {
+    "keyword": "qualified dividend tax rate",
+    "type": "commercial",
+    "volume": 2900,
+    "difficulty": 50,
+    "cpc": 33.64,
+    "intent": "Informational",
+    "ranking_url": "https://corporatefinanceinstitute.com/resources/accounting/qualified-dividend/",
+    "retrieved_at": "2026-10-26",
+    "tool": "Ubersuggest"
+   },
+   {
+    "keyword": "qualified vs ordinary dividends",
+    "type": "long-tail",
+    "volume": 5400,
+    "difficulty": 39,
+    "cpc": 0.74,
+    "intent": "Informational",
+    "ranking_url": "https://www.bluechippartners.com/blog/qualified-dividends-vs-ordinary-dividends/",
+    "retrieved_at": "2026-10-26",
+    "tool": "Ubersuggest"
+   },
+   {
+    "keyword": "qualified dividend holding period",
+    "type": "problem",
+    "volume": 170,
+    "difficulty": 35,
+    "cpc": 0,
+    "intent": "Informational",
+    "ranking_url": "https://www.ramseysolutions.com/retirement/what-are-qualified-dividends",
+    "retrieved_at": "2026-10-26",
+    "tool": "Ubersuggest"
+   }
+  ],
+  "historical_note": "Owner draft listed Ubersuggest US volume 9,900 and SD 23; confirmed 2026-10-26."
+ },
+ "sources": [
+  {
+   "url": "https://www.irs.gov/publications/p550",
+   "title": "Publication 550, Investment Income and Expenses",
+   "publisher": "Internal Revenue Service",
+   "source_type": "Government tax guidance",
+   "year": "2025",
+   "published_at": "not stated",
+   "accessed_at": "2026-10-26",
+   "scope": "Qualified dividend definition, holding periods, foreign corporations, excluded dividends, DRIPs, Schedule B",
+   "method": "Official guidance text",
+   "limitations": "Federal rules only; check the instructions for the tax year filed",
+   "verified": true,
+   "verification_note": "Definition, 121-day and 181-day tests, counting rule, excluded list, credit union interest, DRIP reporting quoted (2025 edition)."
+  },
+  {
+   "url": "https://www.irs.gov/irb/2025-45_IRB",
+   "title": "Internal Revenue Bulletin 2025-45 (Rev. Proc. 2025-32)",
+   "publisher": "Internal Revenue Service",
+   "source_type": "Government tax guidance",
+   "year": "2025",
+   "published_at": "not stated",
+   "accessed_at": "2026-10-26",
+   "scope": "2026 inflation adjustments, capital gain rate thresholds, 2026 tax brackets",
+   "method": "Official guidance text",
+   "limitations": "Federal rules only; check the instructions for the tax year filed",
+   "verified": true,
+   "verification_note": "2026 0% and 15% maximum amounts for all filing statuses quoted; single bracket $1,240 plus 12% over $12,400."
+  },
+  {
+   "url": "https://www.irs.gov/instructions/i1099div",
+   "title": "Instructions for Form 1099-DIV",
+   "publisher": "Internal Revenue Service",
+   "source_type": "Government tax guidance",
+   "year": "2025",
+   "published_at": "not stated",
+   "accessed_at": "2026-10-26",
+   "scope": "Box 1a and box 1b reporting; 61-day rule",
+   "method": "Official guidance text",
+   "limitations": "Federal rules only; check the instructions for the tax year filed",
+   "verified": true,
+   "verification_note": "Box 1a includes box 1b; box 1b is the qualified portion; 61-day holding period wording quoted."
+  },
+  {
+   "url": "https://www.irs.gov/instructions/i1040gi",
+   "title": "Instructions for Form 1040",
+   "publisher": "Internal Revenue Service",
+   "source_type": "Government tax guidance",
+   "year": "2025",
+   "published_at": "not stated",
+   "accessed_at": "2026-10-26",
+   "scope": "Lines 3a and 3b",
+   "method": "Official guidance text",
+   "limitations": "Federal rules only; check the instructions for the tax year filed",
+   "verified": true,
+   "verification_note": "Qualified dividends on line 3a and included in line 3b (quoted)."
+  },
+  {
+   "url": "https://www.irs.gov/individuals/net-investment-income-tax",
+   "title": "Net Investment Income Tax",
+   "publisher": "Internal Revenue Service",
+   "source_type": "Government tax guidance",
+   "year": "2025",
+   "published_at": "not stated",
+   "accessed_at": "2026-10-26",
+   "scope": "NIIT rate, thresholds, inclusion of dividends",
+   "method": "Official guidance text",
+   "limitations": "Federal rules only; check the instructions for the tax year filed",
+   "verified": true,
+   "verification_note": "3.8% rate, thresholds, dividends included in net investment income (quoted)."
+  }
+ ],
+ "statistics": [
+  {
+   "claim": "2026 single filer 0% band to $49,450 and 15% band to $545,500.",
+   "source_url": "https://www.irs.gov/irb/2025-45_IRB",
+   "data_year": "2026",
+   "geography": "United States",
+   "population": "Individual taxpayers",
+   "sample": "Not applicable: full reported figure",
+   "denominator": "Not applicable",
+   "unit": "US dollars; percent",
+   "method": "Rev. Proc. 2025-32 table",
+   "limitations": "Federal income tax only",
+   "sponsored": false,
+   "partial_year": false,
+   "estimate": false,
+   "verified": true
+  },
+  {
+   "claim": "Single filer with $40,000 ordinary and $20,000 qualified: $9,450 at 0%, $10,550 at 15% ($1,582.50), about $6,134.50 total tax.",
+   "source_url": "https://www.irs.gov/irb/2025-45_IRB",
+   "data_year": "2026",
+   "geography": "United States",
+   "population": "Individual taxpayers",
+   "sample": "Not applicable: full reported figure",
+   "denominator": "Not applicable",
+   "unit": "US dollars; percent",
+   "method": "Fin Loom illustrative calculation using Rev. Proc. 2025-32 brackets",
+   "limitations": "Federal income tax only",
+   "sponsored": false,
+   "partial_year": false,
+   "estimate": true,
+   "verified": true
+  },
+  {
+   "claim": "$500 at 15% leaves $425; $500 at a 22% marginal rate leaves $390.",
+   "source_url": "https://www.irs.gov/irb/2025-45_IRB",
+   "data_year": "2026",
+   "geography": "United States",
+   "population": "Individual taxpayers",
+   "sample": "Not applicable: full reported figure",
+   "denominator": "Not applicable",
+   "unit": "US dollars; percent",
+   "method": "Fin Loom illustrative calculation with assumed rates",
+   "limitations": "Federal income tax only",
+   "sponsored": false,
+   "partial_year": false,
+   "estimate": true,
+   "verified": true
+  }
+ ],
+ "competitors": [
+  {
+   "title": "Qualified Dividend - Overview, Tax Rates, and Requirements",
+   "url": "https://corporatefinanceinstitute.com/resources/accounting/qualified-dividend/",
+   "publisher": "corporatefinanceinstitute.com",
+   "format": "Ranking page",
+   "updated_at": "not stated",
+   "headings": [
+    "What is a Qualified Dividend?",
+    "Criteria for a Dividend to be Qualified",
+    "Unqualified Dividends vs. Qualified Dividends",
+    "Qualified Dividend Tax Rate - 2020 Tax Year",
+    "Practical Example"
+   ],
+   "coverage": [
+    "Definition",
+    "Tax rates",
+    "Holding period"
+   ],
+   "sources": [
+    "Not stated"
+   ],
+   "data_assets": [
+    "Text"
+   ],
+   "link_patterns": [
+    "Internal links"
+   ],
+   "trust_signals": [
+    "Brand"
+   ],
+   "covered_well": "Clear definition of qualified versus ordinary dividends.",
+   "gaps": "Uses 2020 tax-year thresholds; no 2026 figures."
+  },
+  {
+   "title": "What Are Qualified Dividends?",
+   "url": "https://www.ramseysolutions.com/retirement/what-are-qualified-dividends",
+   "publisher": "ramseysolutions.com",
+   "format": "Ranking page",
+   "updated_at": "not stated",
+   "headings": [
+    "What Is a Qualified Dividend?",
+    "Qualified Dividends: Terms You Need to Know",
+    "How the Holding Period Works",
+    "How Are Qualified Dividends Taxed?",
+    "What Are the Requirements of a Qualified Dividend?"
+   ],
+   "coverage": [
+    "Definition",
+    "Tax rates",
+    "Holding period"
+   ],
+   "sources": [
+    "Not stated"
+   ],
+   "data_assets": [
+    "Text"
+   ],
+   "link_patterns": [
+    "Internal links"
+   ],
+   "trust_signals": [
+    "Brand"
+   ],
+   "covered_well": "Clear definition of qualified versus ordinary dividends.",
+   "gaps": "No stacking example or Form 1099-DIV box detail."
+  },
+  {
+   "title": "Qualified Dividends vs. Ordinary Dividends",
+   "url": "https://www.bluechippartners.com/blog/qualified-dividends-vs-ordinary-dividends/",
+   "publisher": "bluechippartners.com",
+   "format": "Ranking page",
+   "updated_at": "not stated",
+   "headings": [
+    "Qualified Dividends vs. Ordinary Dividends"
+   ],
+   "coverage": [
+    "Definition",
+    "Tax rates",
+    "Holding period"
+   ],
+   "sources": [
+    "Not stated"
+   ],
+   "data_assets": [
+    "Text"
+   ],
+   "link_patterns": [
+    "Internal links"
+   ],
+   "trust_signals": [
+    "Brand"
+   ],
+   "covered_well": "Clear definition of qualified versus ordinary dividends.",
+   "gaps": "Short; no excluded-dividend list or NIIT."
+  },
+  {
+   "title": "What are Qualified Dividends and How Do They Work?",
+   "url": "https://www.fool.com/terms/q/qualified-dividends/",
+   "publisher": "fool.com",
+   "format": "Ranking page",
+   "updated_at": "not stated",
+   "headings": [
+    "What Are Qualified Dividends?",
+    "Qualified dividend requirements",
+    "Why qualified dividends can be advantageous",
+    "Ordinary vs. qualified dividends: What's the difference?"
+   ],
+   "coverage": [
+    "Definition",
+    "Tax rates",
+    "Holding period"
+   ],
+   "sources": [
+    "Not stated"
+   ],
+   "data_assets": [
+    "Text"
+   ],
+   "link_patterns": [
+    "Internal links"
+   ],
+   "trust_signals": [
+    "Brand"
+   ],
+   "covered_well": "Clear definition of qualified versus ordinary dividends.",
+   "gaps": "No preferred-stock test or reduced-risk day rules."
+  },
+  {
+   "title": "Qualified Dividends: Definition and Tax Advantages",
+   "url": "https://www.simplysafedividends.com/world-of-dividends/posts/235-qualified-dividends-definition-and-tax-advantages",
+   "publisher": "simplysafedividends.com",
+   "format": "Ranking page",
+   "updated_at": "not stated",
+   "headings": [
+    "Ordinary Dividends",
+    "Qualified Dividends: Tax Implications",
+    "What Qualifies as a Qualified Dividend?",
+    "Dividends that are Never Qualified Dividends"
+   ],
+   "coverage": [
+    "Definition",
+    "Tax rates",
+    "Holding period"
+   ],
+   "sources": [
+    "Not stated"
+   ],
+   "data_assets": [
+    "Text"
+   ],
+   "link_patterns": [
+    "Internal links"
+   ],
+   "trust_signals": [
+    "Brand"
+   ],
+   "covered_well": "Clear definition of qualified versus ordinary dividends.",
+   "gaps": "No 2026 thresholds or worked stacking numbers."
+  }
+ ],
+ "content_gaps": [
+  "Top pages use old tax-year thresholds or give none for 2026.",
+  "Few show a worked stacking example or explain box 1a versus box 1b."
+ ],
+ "value_add": "2026 thresholds quoted from Rev. Proc. 2025-32, a worked stacking calculation, the full Publication 550 excluded list, and 1099-DIV box guidance.",
+ "plan": {
+  "reader_title": "Qualified Dividends: 2026 Tax Rates, Holding Rules, and Examples",
+  "seo_title": "Qualified Dividends: 2026 Tax Rates and Holding Period Rules",
+  "meta_description": "Learn what qualified dividends are, the 2026 0%, 15%, and 20% thresholds, the 61-day holding rule, Form 1099-DIV reporting, and what does not qualify.",
+  "slug": "/investing/qualified-dividends/",
+  "search_intent": "Informational",
+  "secondary_keywords": [
+   "what are qualified dividends",
+   "qualified dividend tax rate",
+   "qualified vs ordinary dividends"
+  ],
+  "outline": [
+   "Key Takeaways",
+   "What Is a Qualified Dividend?",
+   "Qualified Dividend Tax Rates for 2026",
+   "How Qualified Dividends Stack on Other Income",
+   "Qualified Dividends Are Still Ordinary Dividends",
+   "Where Qualified Dividends Go on Form 1040",
+   "The 61-Day Holding Period Rule",
+   "Preferred Stock Can Have a 91-Day Rule",
+   "Days With Reduced Risk Do Not Count",
+   "Which Companies Can Pay Qualified Dividends?",
+   "ADR Dividends Can Sometimes Qualify",
+   "Which Dividends Are Not Qualified?",
+   "Credit Union Dividends Are Usually Interest",
+   "REIT and Fund Distributions Need a Closer Look",
+   "Reinvested Dividends Are Still Taxable",
+   "Qualified Dividends Can Still Face the NIIT",
+   "Qualified vs Ordinary Dividends Compared",
+   "Why the Classification Changes After-Tax Income",
+   "Do Qualified Dividends Count as Income?",
+   "Why the Tax Year Must Be Named",
+   "Frequently Asked Questions",
+   "Resources"
+  ],
+  "evidence_map": [
+   "Publication 550, Investment Income and Expenses: Definition, 121-day and 181-day tests, counting rule, excluded list, credit union interest, DRIP reporting quoted (2025 edition).",
+   "Internal Revenue Bulletin 2025-45 (Rev. Proc. 2025-32): 2026 0% and 15% maximum amounts for all filing statuses quoted; single bracket $1,240 plus 12% over $12,400.",
+   "Instructions for Form 1099-DIV: Box 1a includes box 1b; box 1b is the qualified portion; 61-day holding period wording quoted.",
+   "Instructions for Form 1040: Qualified dividends on line 3a and included in line 3b (quoted).",
+   "Net Investment Income Tax: 3.8% rate, thresholds, dividends included in net investment income (quoted)."
+  ],
+  "visuals": [
+   "Owner-supplied hero image (AI-generated)",
+   "Tables"
+  ],
+  "internal_links": [
+   "/investing/crypto-vs-stocks/",
+   "/investing/dividend-reinvestment-plan-calculator/",
+   "/investing/index-fund-vs-mutual-fund/"
+  ],
+  "external_link_opportunities": [
+   "IRS Publication 550",
+   "Rev. Proc. 2025-32",
+   "Form 1099-DIV instructions"
+  ],
+  "excluded_claims": [
+   "Owner link to /investing/ex-dividend-date-explained/ removed (page does not exist)",
+   "REIT and RIC exclusion no longer attributed to the Publication 550 list"
+  ],
+  "drafting_cautions": [
+   "Label all Fin Loom calculations",
+   "No tax advice or product recommendations"
+  ]
+ },
+ "claims": [
+  {
+   "statement": "Qualified dividends are subject to the same 0%, 15%, or 20% maximum rate as net capital gain.",
+   "source_url": "https://www.irs.gov/publications/p550",
+   "verified": true
+  },
+  {
+   "statement": "Common stock must be held more than 60 days during the 121-day period beginning 60 days before the ex-dividend date.",
+   "source_url": "https://www.irs.gov/publications/p550",
+   "verified": true
+  },
+  {
+   "statement": "2026 single filer 0% band ends at $49,450 and 15% band at $545,500.",
+   "source_url": "https://www.irs.gov/irb/2025-45_IRB",
+   "verified": true
+  },
+  {
+   "statement": "Box 1a includes amounts in box 1b; box 1b is the qualified portion.",
+   "source_url": "https://www.irs.gov/instructions/i1099div",
+   "verified": true
+  }
+ ],
+ "fact_check": {
+  "completed": true,
+  "reviewer": "AI QA layer (pending owner sign-off)",
+  "reviewed_at": "2026-10-26",
+  "note": "Every figure checked against IRS primary pages fetched 2026-10-26; REIT/RIC wording corrected to box 1b guidance; stacking example computed."
+ },
+ "qa": {
+  "completed": true,
+  "reviewer": "AI QA layer (pending owner sign-off)",
+  "reviewed_at": "2026-10-26",
+  "note": "Editorial QA SOP and repository content checks applied; owner sign-off pending."
+ },
+ "verification_log": {
+  "checked_on": "2026-10-26",
+  "summary": "Final AI QA layer (2026-10-26): IRS Publication 550, Rev. Proc. 2025-32, 1099-DIV and 1040 instructions, and the NIIT page fetched and quoted. Ubersuggest US data retrieved 2026-10-26; five competitor pages read, Investopedia blocked and skipped.",
+  "pending": "Owner sign-off."
+ }
+}
