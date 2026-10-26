@@ -10,7 +10,7 @@ tracker_id: Blog:S19
 primary_keyword: explain per capita GDP
 secondary_keywords: GDP per capita meaning; GDP per capita formula; real GDP per capita; nominal GDP per capita; GDP per capita PPP; GDP per capita by country
 cluster: Investing
-approved_internal_links: /investing/crypto-vs-stocks/; /money-banking/saving-vs-investing/
+approved_internal_links: /investing/crypto-vs-stocks/; /money-banking/inflation-rate-by-year/; /money-banking/saving-vs-investing/
 research_record: content/research/blog-s19.json
 image: /assets/images/posts/per-capita-gdp-explained/coin-stacks-and-globe-1600.jpg
 image_alt: Wooden figures standing on coin stacks of falling height in front of a globe and a city skyline
@@ -72,7 +72,7 @@ The arithmetic is straightforward, which is why it is easy to explain per capita
 
 A GDP-per-capita figure is only meaningful when the reader knows how it was calculated. Nominal, real, and purchasing-power-parity measures can all describe the same economy correctly while producing very different values.
 
-The differences become easier to follow when each measure is matched to the question it is designed to answer. Any attempt to explain per capita GDP should name which of the three it uses.
+The differences become easier to follow when each measure is matched to the question it is designed to answer. Real figures strip out price changes, and the U.S. [inflation rate year by year](/money-banking/inflation-rate-by-year/) shows how large those adjustments can be. Any attempt to explain per capita GDP should name which of the three it uses.
 
 | Measure | What It Adjusts For | Best Used For | Main Limitation |
 |---|---|---|---|
