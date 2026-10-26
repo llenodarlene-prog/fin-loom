@@ -1,0 +1,544 @@
+{
+ "tracker_id": "Blog:S33",
+ "status": "verified",
+ "research_question": "How do ACH and wire transfers differ in speed, cost, finality, and best uses?",
+ "research_brief": {
+  "purpose": "Compare the ACH and Fedwire payment rails for consumers and businesses.",
+  "audience": "U.S. consumers and small businesses choosing how to send money.",
+  "publication_year": "2026",
+  "data_period": "Nacha Q3 2026; Fedwire September 2026; rules checked October 26, 2026.",
+  "scope_limitations": "Network-level facts; bank fees, cutoffs, and limits vary by institution."
+ },
+ "keyword_research": {
+  "approved_primary_keyword": "ach vs wire transfer",
+  "intent": "Informational",
+  "serp_checked_at": "2026-10-26",
+  "tools": [
+   {
+    "name": "Ubersuggest",
+    "status": "verified",
+    "retrieved_at": "2026-10-26",
+    "location": "United States"
+   }
+  ],
+  "queries": [
+   {
+    "keyword": "ach vs wire transfer",
+    "type": "short-tail",
+    "volume": 9900,
+    "difficulty": 19,
+    "cpc": 7.73,
+    "intent": "Informational",
+    "ranking_url": "https://www.experian.com/blogs/ask-experian/what-is-the-difference-between-ach-and-wire-transfer/",
+    "retrieved_at": "2026-10-26",
+    "tool": "Ubersuggest"
+   },
+   {
+    "keyword": "difference between ach and wire transfer",
+    "type": "long-tail",
+    "volume": 9900,
+    "difficulty": 19,
+    "cpc": 7.73,
+    "intent": "Informational",
+    "ranking_url": "https://www.experian.com/blogs/ask-experian/what-is-the-difference-between-ach-and-wire-transfer/",
+    "retrieved_at": "2026-10-26",
+    "tool": "Ubersuggest"
+   },
+   {
+    "keyword": "ach vs bank wire",
+    "type": "commercial",
+    "volume": 9900,
+    "difficulty": 19,
+    "cpc": 7.73,
+    "intent": "Informational",
+    "ranking_url": "https://wise.com/gb/blog/ach-vs-wire-transfer",
+    "retrieved_at": "2026-10-26",
+    "tool": "Ubersuggest"
+   },
+   {
+    "keyword": "wire transfer vs ach fees",
+    "type": "problem",
+    "volume": 9900,
+    "difficulty": 19,
+    "cpc": 7.73,
+    "intent": "Informational",
+    "ranking_url": "https://www.airwallex.com/en-au/blog/ach-vs-wire",
+    "retrieved_at": "2026-10-26",
+    "tool": "Ubersuggest"
+   },
+   {
+    "keyword": "is ach faster than a wire transfer",
+    "type": "question",
+    "volume": 9900,
+    "difficulty": 19,
+    "cpc": 7.73,
+    "intent": "Informational",
+    "ranking_url": "https://relayfi.com/blog/ach-vs-wire-transfer/",
+    "retrieved_at": "2026-10-26",
+    "tool": "Ubersuggest"
+   }
+  ],
+  "historical_note": "Owner draft listed Ubersuggest US volume 9,900 and SD 19; confirmed in Ubersuggest on 2026-10-26. Secondary queries share the head-term data as Ubersuggest reports no separate volume for them."
+ },
+ "sources": [
+  {
+   "url": "https://www.nacha.org/news/same-day-ach-growth-propels-ach-network-forward-third-quarter-2026",
+   "title": "Same Day ACH Growth Propels ACH Network Forward in Third Quarter 2026",
+   "publisher": "Nacha",
+   "source_type": "Industry rule-maker statistics",
+   "year": "2026",
+   "published_at": "2026-10-20",
+   "accessed_at": "2026-10-26",
+   "scope": "Q3 2026 ACH volume and value",
+   "method": "Primary publication",
+   "limitations": "Network-level data; bank pricing and timing vary",
+   "verified": true,
+   "verification_note": "\"9.3 billion payments with a total value of $25.6 trillion ... increases of 5.9% and 10.2%\"; Same Day ACH 470.4 million, up 36.7%, $1.3 trillion; YTD 1.3 billion worth more than $3.6 trillion (quoted)."
+  },
+  {
+   "url": "https://www.federalreserve.gov/paymentsystems/fedfunds_about.htm",
+   "title": "Fedwire Funds Services",
+   "publisher": "Board of Governors of the Federal Reserve System",
+   "source_type": "Central bank publication",
+   "year": "2026",
+   "published_at": "not stated",
+   "accessed_at": "2026-10-26",
+   "scope": "Fedwire design and finality",
+   "method": "Primary publication",
+   "limitations": "Network-level data; bank pricing and timing vary",
+   "verified": true,
+   "verification_note": "\"a real-time gross settlement system that enables participants to initiate funds transfer that are immediate, final, and irrevocable once processed\" (quoted)."
+  },
+  {
+   "url": "https://www.consumerfinance.gov/compliance/compliance-resources/deposit-accounts-resources/electronic-fund-transfers/electronic-fund-transfers-faqs/",
+   "title": "Electronic Fund Transfers FAQs",
+   "publisher": "Consumer Financial Protection Bureau",
+   "source_type": "Federal regulator guidance",
+   "year": "2026",
+   "published_at": "not stated",
+   "accessed_at": "2026-10-26",
+   "scope": "Regulation E unauthorized EFTs",
+   "method": "Primary publication",
+   "limitations": "Network-level data; bank pricing and timing vary",
+   "verified": true,
+   "verification_note": "\"Does an EFT initiated by a fraudster using stolen credentials meet the Regulation E definition of an unauthorized EFT? Yes.\" (quoted)."
+  },
+  {
+   "url": "https://www.nacha.org/content/how-ach-payments-work",
+   "title": "How ACH Payments Work",
+   "publisher": "Nacha",
+   "source_type": "Industry rule-maker explainer",
+   "year": "2026",
+   "published_at": "not stated",
+   "accessed_at": "2026-10-26",
+   "scope": "ACH operators and settlement timing",
+   "method": "Primary publication",
+   "limitations": "Network-level data; bank pricing and timing vary",
+   "verified": true,
+   "verification_note": "Two ACH Operators (Federal Reserve, The Clearing House); 80% settle in one banking day or less; credit and debit settlement windows (quoted)."
+  },
+  {
+   "url": "https://www.nacha.org/content/ach-payments-fact-sheet",
+   "title": "ACH Payments Fact Sheet",
+   "publisher": "Nacha",
+   "source_type": "Industry rule-maker fact sheet",
+   "year": "2026",
+   "published_at": "not stated",
+   "accessed_at": "2026-10-26",
+   "scope": "ACH reach and use",
+   "method": "Primary publication",
+   "limitations": "Network-level data; bank pricing and timing vary",
+   "verified": true,
+   "verification_note": "93% of American workers paid via ACH; 99% of Social Security payments; reaches all U.S. bank and credit union accounts; complementary payment options (quoted)."
+  },
+  {
+   "url": "https://www.nacha.org/rules/funds-availability-requirements-non-same-day-credit-entries",
+   "title": "Funds Availability Requirements for Non-Same Day Credit Entries",
+   "publisher": "Nacha",
+   "source_type": "Network rule",
+   "year": "2026",
+   "published_at": "not stated",
+   "accessed_at": "2026-10-26",
+   "scope": "September 18, 2026 funds availability rule",
+   "method": "Primary publication",
+   "limitations": "Network-level data; bank pricing and timing vary",
+   "verified": true,
+   "verification_note": "Eliminates the 5:00 pm local time receipt condition; funds available no later than 9:00 a.m. RDFI local time on the Settlement Date (quoted)."
+  },
+  {
+   "url": "https://www.frbservices.org/financial-services/fedwire-funds-service/",
+   "title": "Fedwire Funds Service",
+   "publisher": "Federal Reserve Financial Services",
+   "source_type": "Central bank service page",
+   "year": "2026",
+   "published_at": "not stated",
+   "accessed_at": "2026-10-26",
+   "scope": "Fedwire service description",
+   "method": "Primary publication",
+   "limitations": "Network-level data; bank pricing and timing vary",
+   "verified": true,
+   "verification_note": "Service page for Fedwire; replaces the redirected /financial-services/wires URL in the owner draft."
+  },
+  {
+   "url": "https://www.frbservices.org/wp-content/uploads/102026-monthly-september-funds-ascii.txt",
+   "title": "Fedwire Funds Service Monthly Statistics, September 2026",
+   "publisher": "Federal Reserve Financial Services",
+   "source_type": "Official statistics",
+   "year": "2026",
+   "published_at": "2026-10-20",
+   "accessed_at": "2026-10-26",
+   "scope": "September 2026 Fedwire volume and value",
+   "method": "Primary publication",
+   "limitations": "Network-level data; bank pricing and timing vary",
+   "verified": true,
+   "verification_note": "\"2026:September 19,786,425 ... 105,151,617 [$ millions] ... 5.31 ... 5,007,220\" (quoted)."
+  },
+  {
+   "url": "https://www.frbservices.org/resources/service-fees/ach-2026/",
+   "title": "FedACH Services 2026 Fee Schedules",
+   "publisher": "Federal Reserve Financial Services",
+   "source_type": "Official fee schedule",
+   "year": "2026",
+   "published_at": "not stated",
+   "accessed_at": "2026-10-26",
+   "scope": "FedACH per-item fees",
+   "method": "Primary publication",
+   "limitations": "Network-level data; bank pricing and timing vary",
+   "verified": true,
+   "verification_note": "\"Item fee - forward or return ... $0.0035\", lower at higher volume tiers (quoted)."
+  },
+  {
+   "url": "https://www.consumerfinance.gov/rules-policy/regulations/1005/34/",
+   "title": "Regulation E 1005.34 Procedures for Cancellation and Refund of Remittance Transfers",
+   "publisher": "Consumer Financial Protection Bureau",
+   "source_type": "Federal regulation",
+   "year": "2026",
+   "published_at": "not stated",
+   "accessed_at": "2026-10-26",
+   "scope": "Remittance cancellation",
+   "method": "Primary publication",
+   "limitations": "Network-level data; bank pricing and timing vary",
+   "verified": true,
+   "verification_note": "\"no later than 30 minutes after the sender makes payment\" when funds not yet picked up or deposited (quoted)."
+  }
+ ],
+ "statistics": [
+  {
+   "claim": "ACH Network carried 9.3 billion payments worth $25.6 trillion in Q3 2026, up 5.9% and 10.2%.",
+   "source_url": "https://www.nacha.org/news/same-day-ach-growth-propels-ach-network-forward-third-quarter-2026",
+   "data_year": "2026",
+   "geography": "United States",
+   "population": "ACH Network payments",
+   "sample": "Not applicable: full reported figure",
+   "denominator": "Not applicable",
+   "unit": "Payments; US dollars",
+   "method": "Reported by the source",
+   "limitations": "Network totals, not consumer pricing",
+   "sponsored": false,
+   "partial_year": true,
+   "estimate": false,
+   "verified": true
+  },
+  {
+   "claim": "Same Day ACH carried 470.4 million payments worth $1.3 trillion in Q3 2026, up 36.7%.",
+   "source_url": "https://www.nacha.org/news/same-day-ach-growth-propels-ach-network-forward-third-quarter-2026",
+   "data_year": "2026",
+   "geography": "United States",
+   "population": "Same Day ACH payments",
+   "sample": "Not applicable: full reported figure",
+   "denominator": "Not applicable",
+   "unit": "Payments; US dollars",
+   "method": "Reported by the source",
+   "limitations": "Network totals, not consumer pricing",
+   "sponsored": false,
+   "partial_year": true,
+   "estimate": false,
+   "verified": true
+  },
+  {
+   "claim": "Fedwire handled 19,786,425 transfers worth about $105.15 trillion in September 2026, averaging $5.31 million.",
+   "source_url": "https://www.frbservices.org/wp-content/uploads/102026-monthly-september-funds-ascii.txt",
+   "data_year": "2026",
+   "geography": "United States",
+   "population": "Fedwire Funds transfers",
+   "sample": "Not applicable: full reported figure",
+   "denominator": "Not applicable",
+   "unit": "Transfers; US dollars",
+   "method": "Reported by the source",
+   "limitations": "Network totals, not consumer pricing",
+   "sponsored": false,
+   "partial_year": true,
+   "estimate": false,
+   "verified": true
+  }
+ ],
+ "competitors": [
+  {
+   "title": "ACH vs. Wire Transfer: What's the Difference?",
+   "url": "https://www.experian.com/blogs/ask-experian/what-is-the-difference-between-ach-and-wire-transfer/",
+   "publisher": "experian.com",
+   "format": "Ranking page",
+   "updated_at": "2025-09-10",
+   "headings": [
+    "What Is an ACH Transfer?",
+    "What Is a Wire Transfer?",
+    "ACH vs. Wire Transfer",
+    "When to Choose an ACH Transfer",
+    "When to Choose a Wire Transfer"
+   ],
+   "coverage": [
+    "Definitions",
+    "Speed and cost comparison"
+   ],
+   "sources": [
+    "Not stated"
+   ],
+   "data_assets": [
+    "Text"
+   ],
+   "link_patterns": [
+    "Internal links"
+   ],
+   "trust_signals": [
+    "Brand"
+   ],
+   "covered_well": "Clear consumer definitions and use cases.",
+   "gaps": "No network statistics or Fedwire finality source."
+  },
+  {
+   "title": "ACH vs Wire Transfer: What's the Difference?",
+   "url": "https://wise.com/gb/blog/ach-vs-wire-transfer",
+   "publisher": "wise.com",
+   "format": "Ranking page",
+   "updated_at": "2026-04-10",
+   "headings": [
+    "Understanding ACH transfers",
+    "Understanding wire transfers",
+    "Comparing cost for UK businesses",
+    "Comparing speed for UK businesses"
+   ],
+   "coverage": [
+    "Definitions",
+    "Speed and cost comparison"
+   ],
+   "sources": [
+    "Not stated"
+   ],
+   "data_assets": [
+    "Text"
+   ],
+   "link_patterns": [
+    "Internal links"
+   ],
+   "trust_signals": [
+    "Brand"
+   ],
+   "covered_well": "Fee and speed framing for businesses.",
+   "gaps": "UK business angle; promotes own product; no 2026 rule change."
+  },
+  {
+   "title": "ACH vs Wire: What's the Difference and How Do They Work?",
+   "url": "https://www.airwallex.com/en-au/blog/ach-vs-wire",
+   "publisher": "airwallex.com",
+   "format": "Ranking page",
+   "updated_at": "2025-04-28",
+   "headings": [
+    "How ACH transfers work",
+    "How wire transfers work",
+    "Bank wire vs local transfer: speed, costs, reversals and reach"
+   ],
+   "coverage": [
+    "Definitions",
+    "Speed and cost comparison"
+   ],
+   "sources": [
+    "Not stated"
+   ],
+   "data_assets": [
+    "Text"
+   ],
+   "link_patterns": [
+    "Internal links"
+   ],
+   "trust_signals": [
+    "Brand"
+   ],
+   "covered_well": "Reversals and reach comparison.",
+   "gaps": "No primary-source figures; product-led."
+  },
+  {
+   "title": "Understanding ACH vs. Wire Transfers",
+   "url": "https://gulfbank.com/resources/insights/understanding-ach-vs-wire-transfers",
+   "publisher": "gulfbank.com",
+   "format": "Ranking page",
+   "updated_at": "2024-05-16",
+   "headings": [
+    "Understanding ACH vs. Wire Transfers"
+   ],
+   "coverage": [
+    "Definitions",
+    "Speed and cost comparison"
+   ],
+   "sources": [
+    "Not stated"
+   ],
+   "data_assets": [
+    "Text"
+   ],
+   "link_patterns": [
+    "Internal links"
+   ],
+   "trust_signals": [
+    "Brand"
+   ],
+   "covered_well": "Short bank explainer.",
+   "gaps": "Dated 2024; no data or regulation detail."
+  },
+  {
+   "title": "ACH vs. wire transfer: everything business owners should know",
+   "url": "https://relayfi.com/blog/ach-vs-wire-transfer/",
+   "publisher": "relayfi.com",
+   "format": "Ranking page",
+   "updated_at": "2023-12-11",
+   "headings": [
+    "What is an ACH payment?",
+    "What is a wire transfer?",
+    "Processing speed",
+    "Transaction costs",
+    "Security and fraud",
+    "Transfer limits"
+   ],
+   "coverage": [
+    "Definitions",
+    "Speed and cost comparison"
+   ],
+   "sources": [
+    "Not stated"
+   ],
+   "data_assets": [
+    "Text"
+   ],
+   "link_patterns": [
+    "Internal links"
+   ],
+   "trust_signals": [
+    "Brand"
+   ],
+   "covered_well": "Business-owner checklist of differences.",
+   "gaps": "Dated 2023; misses Same Day ACH growth and the 2026 funds rule."
+  }
+ ],
+ "content_gaps": [
+  "Ranking pages rarely cite Nacha or Federal Reserve figures for 2026.",
+  "Few explain the September 18, 2026 Nacha funds-availability change.",
+  "Few separate settlement risk from fraud risk when calling wires safer."
+ ],
+ "value_add": "Q3 2026 Nacha and September 2026 Fedwire data quoted from primary sources, the 2026 funds-availability rule, and a settlement-risk versus fraud-risk breakdown.",
+ "plan": {
+  "reader_title": "ACH vs Wire Transfer: Speed, Cost, Limits, and Best Uses",
+  "seo_title": "ACH vs Wire Transfer: Speed, Cost, Safety, and Timing",
+  "meta_description": "ACH vs wire transfer compared: speed, cost, settlement, reversibility, and best uses, using Q3 2026 Nacha and September 2026 Fedwire data.",
+  "slug": "/payments/ach-vs-wire-transfer/",
+  "search_intent": "Informational",
+  "secondary_keywords": [
+   "wire transfer vs ACH",
+   "ACH transfer vs wire transfer",
+   "difference between ACH and wire transfer",
+   "ACH vs bank wire"
+  ],
+  "outline": [
+   "Key Takeaways",
+   "ACH vs Wire Transfer at a Glance",
+   "How ACH Transfers Work",
+   "ACH Is Much Larger Than Many Consumers Realize",
+   "How Wire Transfers Work",
+   "Fedwire Handles Fewer Payments but Far More Value Per Transfer",
+   "Which Is Faster: ACH or Wire?",
+   "A September 2026 Rule Improved ACH Funds Availability",
+   "Which Costs More?",
+   "Are Wire Transfers Safer?",
+   "ACH Has Different Error and Return Mechanisms",
+   "Can an ACH Transfer Be Reversed?",
+   "Can a Wire Transfer Be Cancelled?",
+   "When ACH Usually Makes More Sense",
+   "When a Wire Usually Makes More Sense",
+   "ACH vs Wire Transfer Is Not the Only Choice",
+   "Frequently Asked Questions",
+   "Resources"
+  ],
+  "evidence_map": [
+   {
+    "section": "ACH Is Much Larger Than Many Consumers Realize",
+    "source_url": "https://www.nacha.org/news/same-day-ach-growth-propels-ach-network-forward-third-quarter-2026"
+   },
+   {
+    "section": "How Wire Transfers Work",
+    "source_url": "https://www.federalreserve.gov/paymentsystems/fedfunds_about.htm"
+   },
+   {
+    "section": "ACH Has Different Error and Return Mechanisms",
+    "source_url": "https://www.consumerfinance.gov/compliance/compliance-resources/deposit-accounts-resources/electronic-fund-transfers/electronic-fund-transfers-faqs/"
+   }
+  ],
+  "visuals": [
+   "Owner-supplied hero image",
+   "Comparison table"
+  ],
+  "internal_links": [
+   "/payments/how-long-does-a-wire-transfer-take/",
+   "/payments/paypal-statistics/",
+   "/payments/what-is-a-wire-transfer/"
+  ],
+  "external_link_opportunities": [
+   "https://www.nacha.org/news/same-day-ach-growth-propels-ach-network-forward-third-quarter-2026",
+   "https://www.federalreserve.gov/paymentsystems/fedfunds_about.htm",
+   "https://www.consumerfinance.gov/compliance/compliance-resources/deposit-accounts-resources/electronic-fund-transfers/electronic-fund-transfers-faqs/"
+  ],
+  "excluded_claims": [
+   "Owner draft cited the frbservices /financial-services/wires URL for RTGS finality; that page redirects and lacks the wording, so the Federal Reserve Board page is cited instead."
+  ],
+  "drafting_cautions": [
+   "No fee figures for any bank.",
+   "Label network fees as bank costs, not consumer prices."
+  ]
+ },
+ "claims": [
+  {
+   "statement": "ACH Network carried 9.3 billion payments worth $25.6 trillion in Q3 2026.",
+   "source_url": "https://www.nacha.org/news/same-day-ach-growth-propels-ach-network-forward-third-quarter-2026",
+   "verified": true
+  },
+  {
+   "statement": "Same Day ACH carried 470.4 million payments in Q3 2026, up 36.7%.",
+   "source_url": "https://www.nacha.org/news/same-day-ach-growth-propels-ach-network-forward-third-quarter-2026",
+   "verified": true
+  },
+  {
+   "statement": "Fedwire is a real-time gross settlement system with immediate, final, and irrevocable transfers.",
+   "source_url": "https://www.federalreserve.gov/paymentsystems/fedfunds_about.htm",
+   "verified": true
+  },
+  {
+   "statement": "An EFT started by a fraudster using stolen credentials is an unauthorized EFT under Regulation E.",
+   "source_url": "https://www.consumerfinance.gov/compliance/compliance-resources/deposit-accounts-resources/electronic-fund-transfers/electronic-fund-transfers-faqs/",
+   "verified": true
+  }
+ ],
+ "fact_check": {
+  "completed": true,
+  "reviewer": "AI QA layer (pending owner sign-off)",
+  "reviewed_at": "2026-10-26",
+  "note": "Every figure checked on Nacha, Federal Reserve, and CFPB primary pages on 2026-10-26."
+ },
+ "qa": {
+  "completed": true,
+  "reviewer": "AI QA layer (pending owner sign-off)",
+  "reviewed_at": "2026-10-26",
+  "note": "Editorial QA SOP applied; awaiting owner final approval."
+ },
+ "verification_log": {
+  "checked_on": "2026-10-26",
+  "summary": "Final AI QA layer (2026-10-26): all owner figures verified against Nacha Q3 2026 release, Nacha rules and fact sheet, Fedwire September 2026 statistics, Federal Reserve Board Fedwire page, FedACH 2026 fees, and CFPB Regulation E pages. Ubersuggest US data and SERP retrieved 2026-10-26.",
+  "pending": "Owner sign-off."
+ }
+}

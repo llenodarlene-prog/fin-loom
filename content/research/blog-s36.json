@@ -1,0 +1,401 @@
+{
+  "tracker_id": "Blog:S36",
+  "status": "verified",
+  "research_question": "How does dividend reinvestment change share count, dividend income, and position value over time, and which assumptions drive the result?",
+  "research_brief": {
+    "purpose": "Interactive DRIP calculator with an explanatory article.",
+    "audience": "Investors modeling dividend reinvestment.",
+    "publication_year": "2026",
+    "data_period": "IRS pages checked October 26, 2026; calculator method recomputed.",
+    "scope_limitations": "Illustrative constant-rate assumptions; no taxes or fees modeled; not a forecast."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "dividend reinvestment plan calculator",
+    "intent": "Informational",
+    "serp_checked_at": "2026-10-25",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-26",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "dividend reinvestment plan calculator",
+        "type": "short-tail",
+        "volume": 9900,
+        "difficulty": 8,
+        "cpc": 2.88,
+        "intent": "Informational",
+        "ranking_url": "https://www.sharesight.com/au/dividend-calculator/",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "drip calculator",
+        "type": "long-tail",
+        "volume": 9900,
+        "difficulty": 22,
+        "cpc": 4.64,
+        "intent": "Informational",
+        "ranking_url": "https://www.sharesight.com/au/dividend-calculator/",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "dividend reinvestment calculator",
+        "type": "commercial",
+        "volume": 4400,
+        "difficulty": 21,
+        "cpc": 3.4,
+        "intent": "Informational",
+        "ranking_url": "https://dividendcalculator.ca/",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "dividend compounding calculator",
+        "type": "problem",
+        "volume": 880,
+        "difficulty": 16,
+        "cpc": 1.96,
+        "intent": "Informational",
+        "ranking_url": "https://www.wisesheets.io/monthly-dividend-calculator",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "are reinvested dividends taxable",
+        "type": "question",
+        "volume": 1000,
+        "difficulty": 29,
+        "cpc": 1.06,
+        "intent": "Informational",
+        "ranking_url": "https://www.irs.gov/publications/p550",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      }
+    ],
+    "historical_note": "Owner draft listed Ubersuggest 9,900 volume and SD 8; re-retrieved and confirmed 2026-10-26."
+  },
+  "sources": [
+    {
+      "url": "https://www.irs.gov/publications/p550",
+      "title": "Publication 550, Investment Income and Expenses",
+      "publisher": "Internal Revenue Service",
+      "source_type": "Federal tax guidance",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "DRIP taxation, holding period, discounted DRIP basis",
+      "method": "Official guidance text",
+      "limitations": "Federal tax guidance; 2025 tax-year edition",
+      "verified": true,
+      "verification_note": "Quoted: dividends used to buy more stock must still be reported as income; holding period of each reinvested share begins the day after purchase; discounted DRIP basis is full FMV on the payment date."
+    },
+    {
+      "url": "https://www.irs.gov/taxtopics/tc703",
+      "title": "Topic 703, Basis of Assets",
+      "publisher": "Internal Revenue Service",
+      "source_type": "Federal tax guidance",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "Cost basis of purchased stock",
+      "method": "Official guidance text",
+      "limitations": "Federal tax guidance; 2025 tax-year edition",
+      "verified": true,
+      "verification_note": "Quoted: basis of purchased stocks or bonds is the purchase price plus additional costs such as commissions."
+    },
+    {
+      "url": "https://www.irs.gov/taxtopics/tc404",
+      "title": "Topic 404, Dividends",
+      "publisher": "Internal Revenue Service",
+      "source_type": "Federal tax guidance",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "Dividends as taxable income",
+      "method": "Official guidance text",
+      "limitations": "Federal tax guidance; 2025 tax-year edition",
+      "verified": true,
+      "verification_note": "General page on dividend taxation; HTTP 200 on 2026-10-26."
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "100 shares at $50 with a $0.50 quarterly dividend, reinvested for five years with no growth, reach about 122.019 shares worth about $6,100.95; annual dividend income about $244.04.",
+      "source_url": "https://www.irs.gov/publications/p550",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Illustrative position",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "Shares; US dollars",
+      "method": "Fin Loom calculation, period by period (100 x 1.01^20)",
+      "limitations": "Illustration; constant price and dividend",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": true,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Dividend Calculator",
+      "url": "https://www.sharesight.com/au/dividend-calculator/",
+      "publisher": "sharesight.com",
+      "format": "Ranking page",
+      "updated_at": "not stated",
+      "headings": [
+        "Dividend calculator",
+        "Track your dividends with Sharesight",
+        "Our supported brokers",
+        "Pricing and plans"
+      ],
+      "coverage": [
+        "Calculator",
+        "Product promotion"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Interactive calculator"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Working calculator.",
+      "gaps": "No method explanation, tax, or cost-basis coverage."
+    },
+    {
+      "title": "Dividend Calculator",
+      "url": "https://www.empowerfcu.com/personal/tools-education/financial-calculators/dividend-calculator",
+      "publisher": "empowerfcu.com",
+      "format": "Ranking page",
+      "updated_at": "not stated",
+      "headings": [
+        "Dividend Calculator",
+        "Calculate your investment's growth based on compound dividends over time"
+      ],
+      "coverage": [
+        "Calculator"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Interactive calculator"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Simple inputs.",
+      "gaps": "No explanation of assumptions or limits."
+    },
+    {
+      "title": "Dividend Calculator Canada: Free DRIP Calculator",
+      "url": "https://dividendcalculator.ca/",
+      "publisher": "dividendcalculator.ca",
+      "format": "Ranking page",
+      "updated_at": "not stated",
+      "headings": [
+        "Canada Dividend Calculator",
+        "Total Investment Value",
+        "Annual Dividend Income",
+        "Total Dividends Earned",
+        "How This DRIP Calculator Works",
+        "Reinvest Dividends",
+        "Initial Investment",
+        "Monthly Contribution"
+      ],
+      "coverage": [
+        "Calculator",
+        "Method"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Interactive calculator"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Explains inputs and DRIP toggle.",
+      "gaps": "Canadian focus; no U.S. tax or basis rules."
+    },
+    {
+      "title": "Dividend Calculator: Monthly Income & DRIP",
+      "url": "https://www.wisesheets.io/monthly-dividend-calculator",
+      "publisher": "wisesheets.io",
+      "format": "Ranking page",
+      "updated_at": "not stated",
+      "headings": [
+        "Projected dividend income",
+        "Adjust your scenario",
+        "Year-by-year dividend projection",
+        "Worked example: income from 100 shares",
+        "Calculation method and assumptions",
+        "Dividend calculator FAQs"
+      ],
+      "coverage": [
+        "Calculator",
+        "Worked example",
+        "Assumptions"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Interactive calculator"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Year-by-year table and worked example.",
+      "gaps": "No IRS sourcing on taxes or holding periods."
+    },
+    {
+      "title": "Dividend Retirement Calculator",
+      "url": "https://www.dripcalc.com/retirement-calculator/",
+      "publisher": "dripcalc.com",
+      "format": "Ranking page",
+      "updated_at": "not stated",
+      "headings": [
+        "Dividend Retirement Calculator",
+        "How to Use the Dividend Income Calculator",
+        "Benefits of Investing in Dividend Stocks for Retirement"
+      ],
+      "coverage": [
+        "Calculator",
+        "Promotion of dividend investing"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Interactive calculator"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Retirement framing.",
+      "gaps": "Promotional tone; no dividend-cut or price-effect discussion."
+    }
+  ],
+  "content_gaps": [
+    "Calculator pages rarely explain the period-by-period method.",
+    "Few cover U.S. tax treatment, holding periods, or cost basis from IRS sources.",
+    "Few show how price growth reduces shares bought or how a dividend cut changes results."
+  ],
+  "value_add": "Period-by-period method explained, recomputed worked examples, and IRS-sourced tax, holding-period, and cost-basis rules.",
+  "plan": {
+    "reader_title": "Dividend Reinvestment Plan Calculator: How DRIP Compounding Works",
+    "seo_title": "Dividend Reinvestment Plan Calculator: DRIP Growth",
+    "meta_description": "Use this dividend reinvestment plan calculator to see how reinvested dividends can change share count and income over time, and which assumptions drive it.",
+    "slug": "/investing/dividend-reinvestment-plan-calculator/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "DRIP calculator",
+      "dividend reinvestment calculator",
+      "dividend compounding calculator"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "How Dividend Reinvestment Works",
+      "How This Dividend Reinvestment Plan Calculator Works",
+      "Example: Five Years of Reinvestment",
+      "Dividend Growth Can Have a Large Effect",
+      "Share-Price Growth Has a Mixed Effect",
+      "DRIPs Can Use Fractional Shares",
+      "Reinvested Dividends Can Still Be Taxable",
+      "Cost Basis Becomes More Complicated With Reinvestment",
+      "Dividend Yield Alone Is Not Enough",
+      "A DRIP Is Different From a Direct Stock Purchase Plan",
+      "What the Calculator Does Not Assume",
+      "Dividend Reinvestment Is a Process, Not a Guarantee",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Publication 550: reinvested dividends reportable as income; holding period per reinvested share; discounted DRIP basis (quoted).",
+      "Topic 703: basis is purchase price plus costs (quoted).",
+      "Worked examples: Fin Loom calculations recomputed 2026-10-26."
+    ],
+    "visuals": [
+      "Owner-supplied hero image (AI-generated)",
+      "Tables",
+      "Interactive calculator"
+    ],
+    "internal_links": [
+      "/investing/crypto-vs-stocks/",
+      "/investing/index-fund-vs-mutual-fund/",
+      "/investing/qualified-dividends/"
+    ],
+    "external_link_opportunities": [
+      "IRS Publication 550",
+      "IRS Topic 703"
+    ],
+    "excluded_claims": [
+      "Investor.gov attributions on plan fees, scheduled purchase dates, average pricing, and direct stock plans removed: source returned HTTP 403 and could not be verified; points kept as general unattributed description.",
+      "Owner-draft build instructions and Ubersuggest metrics removed from reader copy."
+    ],
+    "drafting_cautions": [
+      "Label all Fin Loom calculations",
+      "No security or plan recommendations"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Dividends used to buy more stock must still be reported as income.",
+      "source_url": "https://www.irs.gov/publications/p550",
+      "verified": true
+    },
+    {
+      "statement": "The holding period of each reinvested share begins the day after that share was purchased.",
+      "source_url": "https://www.irs.gov/publications/p550",
+      "verified": true
+    },
+    {
+      "statement": "Basis of purchased stock is the purchase price plus additional costs such as commissions.",
+      "source_url": "https://www.irs.gov/taxtopics/tc703",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "AI QA layer (pending owner sign-off)",
+    "reviewed_at": "2026-10-26",
+    "note": "Final AI QA layer 2026-10-26: IRS claims quoted from primary pages; Investor.gov (403) attributions removed; worked examples recomputed."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "AI QA layer (pending owner sign-off)",
+    "reviewed_at": "2026-10-26",
+    "note": "Editorial QA SOP applied 2026-10-26; owner sign-off pending."
+  },
+  "verification_log": {
+    "checked_on": "2026-10-26",
+    "summary": "IRS Publication 550, Topic 703 and Topic 404 fetched (HTTP 200) and quoted. Investor.gov direct-investing page returned 403; its attributions removed. Ubersuggest US data retrieved 2026-10-26; five SERP competitors read.",
+    "pending": "Owner sign-off."
+  }
+}
