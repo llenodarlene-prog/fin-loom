@@ -1,0 +1,482 @@
+{
+  "tracker_id": "Blog:S34",
+  "status": "verified",
+  "research_question": "What is a wire transfer, how does it move money, and what protections and risks apply?",
+  "research_brief": {
+    "purpose": "Explain wire transfers for consumers using Federal Reserve and CFPB primary sources.",
+    "audience": "U.S. consumers and small-business owners sending or receiving wires.",
+    "publication_year": "2026",
+    "data_period": "Fedwire statistics through September 2026; Federal Reserve and CFPB pages checked October 26, 2026.",
+    "scope_limitations": "U.S. focus; bank fees and cutoffs vary by institution and are not quoted."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "what is a wire transfer",
+    "intent": "Informational",
+    "serp_checked_at": "2026-10-26",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-26",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "what is a wire transfer",
+        "type": "short-tail",
+        "volume": 8100,
+        "difficulty": 38,
+        "cpc": 12.35,
+        "intent": "Informational",
+        "ranking_url": "https://www.westernunion.com/blog/en/us/how-to-make-a-wire-transfer-western-union-us/",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "wire transfer what is it",
+        "type": "question",
+        "volume": 9900,
+        "difficulty": 8,
+        "cpc": 2.17,
+        "intent": "Informational",
+        "ranking_url": "https://www.westernunion.com/blog/en/us/how-to-make-a-wire-transfer-western-union-us/",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "how does a wire transfer work",
+        "type": "question",
+        "volume": 2900,
+        "difficulty": 34,
+        "cpc": 0.65,
+        "intent": "Informational",
+        "ranking_url": "https://stripe.com/resources/more/bank-transfers-explained",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "bank wire transfer",
+        "type": "commercial",
+        "volume": 2400,
+        "difficulty": 45,
+        "cpc": 15.25,
+        "intent": "Transactional",
+        "ranking_url": "https://www.thebalancemoney.com/bank-wire-transfer-basics-315444",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "wire transfer meaning",
+        "type": "long-tail",
+        "volume": 1900,
+        "difficulty": 35,
+        "cpc": 2.83,
+        "intent": "Informational",
+        "ranking_url": "https://softco.com/glossary/wire-transfer/",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "can a wire transfer be reversed",
+        "type": "problem",
+        "volume": 1300,
+        "difficulty": 25,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "not retrieved",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      }
+    ],
+    "historical_note": "Owner draft targeted 'wire transfer what is it' (Ubersuggest 9,900, SD 8). Primary switched to the grammatical 'what is a wire transfer' (8,100, SD 38) so it can appear naturally 8 times; owner phrase kept as secondary. Pending owner approval."
+  },
+  "sources": [
+    {
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-wire-transfer-en-1163/",
+      "title": "What Is a Wire Transfer?",
+      "publisher": "Consumer Financial Protection Bureau",
+      "source_type": "Federal regulator guidance",
+      "year": "2026",
+      "published_at": "2024-10-10",
+      "accessed_at": "2026-10-26",
+      "scope": "Wire transfer definition; domestic vs international",
+      "method": "Primary page reviewed",
+      "limitations": "Describes U.S. systems and rules",
+      "verified": true,
+      "verification_note": "Quoted: 'a common way to electronically move money from one bank account to another'; domestic or between a U.S. and an international account."
+    },
+    {
+      "url": "https://www.frbservices.org/financial-services/fedwire-funds-service/fedwire-funds-service-business-continuity-guide/",
+      "title": "Fedwire Funds Service Business Continuity Guide",
+      "publisher": "Federal Reserve Financial Services",
+      "source_type": "Central bank operator documentation",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "Fedwire ownership, RTGS, participants, finality",
+      "method": "Primary page reviewed",
+      "limitations": "Describes U.S. systems and rules",
+      "verified": true,
+      "verification_note": "Quoted: RTGS 'owned and operated by the Federal Reserve Banks'; 'over 5,000 participants'; 'final and irrevocable once made'."
+    },
+    {
+      "url": "https://www.frbservices.org/wp-content/uploads/102026-monthly-september-funds-ascii.txt",
+      "title": "Fedwire Funds Service Monthly Statistics, September 2026",
+      "publisher": "Federal Reserve Financial Services",
+      "source_type": "Official statistics",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "Fedwire volume and value by month",
+      "method": "Primary page reviewed",
+      "limitations": "Describes U.S. systems and rules",
+      "verified": true,
+      "verification_note": "Sept 2026 row: 19,786,425 transfers; $105,151,617M; average $5.31M; average daily $5,007,220M. 2025 monthly rows sum to 217,296,700 transfers and $1,148,267,267M (Fin Loom sum)."
+    },
+    {
+      "url": "https://www.frbservices.org/financial-services/fedwire-funds-service/",
+      "title": "Fedwire Funds Service",
+      "publisher": "Federal Reserve Financial Services",
+      "source_type": "Central bank operator documentation",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "Uses of Fedwire; mission-critical same-day",
+      "method": "Primary page reviewed",
+      "limitations": "Describes U.S. systems and rules",
+      "verified": true,
+      "verification_note": "Quoted: 'mission-critical, same-day transactions'; listed uses (client payments, commercial settlement, federal tax payments, federal funds)."
+    },
+    {
+      "url": "https://www.frbservices.org/resources/financial-services/wires/fedwire-funds-service-national-settlement-service-operating-hours/",
+      "title": "Fedwire Funds Service and NSS Operating Hours",
+      "publisher": "Federal Reserve Financial Services",
+      "source_type": "Central bank operator documentation",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "Business day and cutoffs",
+      "method": "Primary page reviewed",
+      "limitations": "Describes U.S. systems and rules",
+      "verified": true,
+      "verification_note": "Quoted: business day begins 9:00 p.m. ET preceding calendar day, ends 7:00 p.m. ET; 6:45 p.m. ET core customer transfer cutoff."
+    },
+    {
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-remittance-transfer-and-what-are-my-rights-en-1161/",
+      "title": "What Is a Remittance Transfer and What Are My Rights?",
+      "publisher": "Consumer Financial Protection Bureau",
+      "source_type": "Federal regulator guidance",
+      "year": "2026",
+      "published_at": "2024-10-10",
+      "accessed_at": "2026-10-26",
+      "scope": "Remittance disclosures, cancellation, errors",
+      "method": "Primary page reviewed",
+      "limitations": "Describes U.S. systems and rules",
+      "verified": true,
+      "verification_note": "Quoted: disclosures list; up to 30 minutes to cancel unless picked up or deposited; 180 days to report errors from disclosed availability date; refund or resend."
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "In September 2026 Fedwire processed 19,786,425 transfers worth about $105.15 trillion, averaging about $5.31 million, with average daily value about $5.01 trillion.",
+      "source_url": "https://www.frbservices.org/wp-content/uploads/102026-monthly-september-funds-ascii.txt",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Fedwire Funds Service transfers",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "Count; US dollars",
+      "method": "Official monthly statistics",
+      "limitations": "Includes wholesale and interbank payments",
+      "sponsored": false,
+      "partial_year": true,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "2025 Fedwire volume about 217.3 million transfers worth about $1.148 quadrillion.",
+      "source_url": "https://www.frbservices.org/wp-content/uploads/102026-monthly-september-funds-ascii.txt",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Fedwire Funds Service transfers",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "Count; US dollars",
+      "method": "Fin Loom sum of published monthly rows",
+      "limitations": "Calculated, not a separately published annual total",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": true,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "How to make a wire transfer",
+      "url": "https://www.westernunion.com/blog/en/us/how-to-make-a-wire-transfer-western-union-us/",
+      "publisher": "westernunion.com",
+      "format": "Ranking page",
+      "updated_at": "not stated",
+      "headings": [
+        "How to make a wire transfer",
+        "How to transfer money",
+        "Through a bank",
+        "Through money transfer services",
+        "How to do a money transfer: step by step",
+        "Money transfer: fees",
+        "Is transferring money the best method?",
+        "FAQs and guides"
+      ],
+      "coverage": [
+        "Process",
+        "Fees"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Step-by-step sending process.",
+      "gaps": "Promotes its own service; no Fedwire or CFPB sourcing."
+    },
+    {
+      "title": "How a Bank Transfer, ACH Transfer, or Wire Transfer Works",
+      "url": "https://stripe.com/resources/more/bank-transfers-explained",
+      "publisher": "stripe.com",
+      "format": "Ranking page",
+      "updated_at": "not stated",
+      "headings": [
+        "What are bank transfers and how do they work?",
+        "Key takeaways",
+        "What is a bank transfer?",
+        "Bank debit transfers",
+        "Bank credit transfers"
+      ],
+      "coverage": [
+        "Definition",
+        "Comparison"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Clear comparison of transfer types.",
+      "gaps": "Business-focused; no consumer remittance rights or current Fedwire data."
+    },
+    {
+      "title": "What is a wire transfer, and is it the best choice for sending your money?",
+      "url": "https://treasuryxl.com/blog/what-is-a-wire-transfer-and-is-it-the-best-choice-for-sending-your-money/",
+      "publisher": "treasuryxl.com",
+      "format": "Ranking page",
+      "updated_at": "not stated",
+      "headings": [
+        "What does it mean to wire money?",
+        "Types of wire transfer",
+        "How does a bank wire transfer work?",
+        "How long does a wire transfer take?",
+        "How much does a wire transfer cost?",
+        "Is wiring money safe?"
+      ],
+      "coverage": [
+        "Definition",
+        "Timing",
+        "Cost",
+        "Safety"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Covers the main reader questions.",
+      "gaps": "No primary sources or statistics; generic timing claims."
+    },
+    {
+      "title": "What is a Wire transfer and what are its benefits?",
+      "url": "https://www.cobase.com/insight-hub/what-is-a-wire-transfer-and-what-are-its-benefits",
+      "publisher": "cobase.com",
+      "format": "Ranking page",
+      "updated_at": "not stated",
+      "headings": [
+        "What is a Wire transfer?",
+        "Key features of Wire transfers",
+        "How does a Wire transfer work?",
+        "Benefits of Wire transfers"
+      ],
+      "coverage": [
+        "Definition",
+        "Process"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Simple process outline.",
+      "gaps": "Treasury-marketing angle; no finality, fraud, or remittance-rights detail."
+    },
+    {
+      "title": "Wire Transfer | Glossary",
+      "url": "https://softco.com/glossary/wire-transfer/",
+      "publisher": "softco.com",
+      "format": "Ranking page",
+      "updated_at": "not stated",
+      "headings": [
+        "Wire Transfer"
+      ],
+      "coverage": [
+        "Definition"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Short definition.",
+      "gaps": "Glossary only; no process, data, or protections."
+    }
+  ],
+  "content_gaps": [
+    "Competitors rarely cite Fedwire's own description of RTGS and finality.",
+    "Few give current Fedwire volume data.",
+    "Few explain CFPB remittance rights (30-minute cancel, 180-day errors) versus domestic wire finality.",
+    "Few separate SWIFT messaging from settlement."
+  ],
+  "value_add": "Fedwire facts quoted from Federal Reserve documentation, September 2026 statistics, a labeled 2025 annual sum, CFPB remittance rights, and a fraud-verification section.",
+  "plan": {
+    "reader_title": "What Is a Wire Transfer? How Bank Wires Work",
+    "seo_title": "What Is a Wire Transfer? How Wires Work, Fees, and Safety",
+    "meta_description": "What is a wire transfer? Learn how domestic and international wires move money, what details banks need, how long wires take, and why finality counts.",
+    "slug": "/payments/what-is-a-wire-transfer/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "wire transfer what is it",
+      "how does a wire transfer work",
+      "bank wire transfer",
+      "wire transfer meaning"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "What Is a Wire Transfer in Plain Terms?",
+      "How a Wire Transfer Works Step by Step",
+      "What Is Fedwire and Who Runs It?",
+      "Wire Transfers Move Enormous Dollar Values",
+      "What Information Does a Wire Transfer Need?",
+      "Routing Numbers, SWIFT Codes, and IBANs Are Different",
+      "How Long Does a Domestic Wire Take?",
+      "Why Wire Transfers Are Hard to Reverse",
+      "Wire Fraud and Business Email Compromise",
+      "Remittance Protections for International Consumer Wires",
+      "How a Wire Transfer Compares With ACH",
+      "What Does a Wire Transfer Cost?",
+      "Fedwire and SWIFT Are Not the Same System",
+      "Where Wires Fit Among Other Ways to Pay",
+      "What Is a Wire Transfer Best Suited For?",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "What Is a Wire Transfer?: Quoted: 'a common way to electronically move money from one bank account to another'; domestic or between a U.S. and an international account.",
+      "Fedwire Funds Service Business Continuity Guide: Quoted: RTGS 'owned and operated by the Federal Reserve Banks'; 'over 5,000 participants'; 'final and irrevocable once made'.",
+      "Fedwire Funds Service Monthly Statistics, September 2026: Sept 2026 row: 19,786,425 transfers; $105,151,617M; average $5.31M; average daily $5,007,220M. 2025 monthly rows sum to 217,296,700 transfers and $1,148,267,267M (Fin Loom sum).",
+      "Fedwire Funds Service: Quoted: 'mission-critical, same-day transactions'; listed uses (client payments, commercial settlement, federal tax payments, federal funds).",
+      "Fedwire Funds Service and NSS Operating Hours: Quoted: business day begins 9:00 p.m. ET preceding calendar day, ends 7:00 p.m. ET; 6:45 p.m. ET core customer transfer cutoff.",
+      "What Is a Remittance Transfer and What Are My Rights?: Quoted: disclosures list; up to 30 minutes to cancel unless picked up or deposited; 180 days to report errors from disclosed availability date; refund or resend."
+    ],
+    "visuals": [
+      "Owner-supplied hero image (AI-generated)",
+      "Table"
+    ],
+    "internal_links": [
+      "/payments/ach-vs-wire-transfer/",
+      "/payments/how-long-does-a-wire-transfer-take/",
+      "/payments/paypal-statistics/"
+    ],
+    "external_link_opportunities": [
+      "CFPB wire transfer definition",
+      "Fedwire business continuity guide",
+      "September 2026 Fedwire statistics"
+    ],
+    "excluded_claims": [
+      "Draft link to /payments/how-long-does-a-wire-transfer-take/ kept (now an approved target); finloom.org absolute URLs made relative",
+      "'More than 5,000 participants can use the system directly' reworded to the source: 'over 5,000 participants may send and receive'",
+      "2025 annual figure labeled as a Fin Loom sum of monthly rows"
+    ],
+    "drafting_cautions": [
+      "No bank or provider recommendations",
+      "Fees described by type only; no invented amounts",
+      "Remittance rights limited to covered international consumer transfers"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "The CFPB describes a wire transfer as a common way to electronically move money between bank accounts, domestic or international.",
+      "source_url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-wire-transfer-en-1163/",
+      "verified": true
+    },
+    {
+      "statement": "Fedwire is an RTGS system owned and operated by the Reserve Banks; payments are final and irrevocable once made.",
+      "source_url": "https://www.frbservices.org/financial-services/fedwire-funds-service/fedwire-funds-service-business-continuity-guide/",
+      "verified": true
+    },
+    {
+      "statement": "September 2026 Fedwire: 19,786,425 transfers, about $105.15 trillion.",
+      "source_url": "https://www.frbservices.org/wp-content/uploads/102026-monthly-september-funds-ascii.txt",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "AI QA layer (pending owner sign-off)",
+    "reviewed_at": "2026-10-26",
+    "note": "Every figure checked on Federal Reserve and CFPB primary pages on 2026-10-26; 2025 total recomputed from monthly rows."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "AI QA layer (pending owner sign-off)",
+    "reviewed_at": "2026-10-26",
+    "note": "Editorial QA SOP applied; keyword switch to 'what is a wire transfer' pending owner approval."
+  },
+  "verification_log": {
+    "checked_on": "2026-10-26",
+    "summary": "Final AI QA layer (2026-10-26): Fedwire facts and statistics, operating hours, and CFPB remittance rights verified on primary pages. Ubersuggest US data and SERP retrieved 2026-10-26; five competitor pages read (thebalancemoney.com blocked, replaced by the next ranking page).",
+    "pending": "Owner sign-off; owner approval of primary keyword switch."
+  }
+}

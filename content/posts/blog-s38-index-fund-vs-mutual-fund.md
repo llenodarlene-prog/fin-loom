@@ -193,7 +193,7 @@ Index mutual funds are often used where automatic, dollar-based contributions an
 
 Active mutual funds tend to appear where an investor wants a specific mandate that a broad index does not offer, such as a defined income strategy or a specialist bond approach. For that flexibility, the investor accepts manager-selection risk and usually a higher expense ratio.
 
-Neither approach is suitable for every goal. Fund choice also sits inside a broader allocation decision; [crypto vs stocks](/investing/crypto-vs-stocks/) covers how asset classes with very different risk profiles compare.
+Neither side of the index fund vs mutual fund choice is suitable for every goal. Fund choice also sits inside a broader allocation decision; [crypto vs stocks](/investing/crypto-vs-stocks/) covers how asset classes with very different risk profiles compare.
 
 ## What to Compare in Any Fund Document
 
@@ -219,7 +219,7 @@ It can be. An index fund describes a strategy of tracking a market index, and th
 
 ### Are All Mutual Funds Actively Managed?
 
-No. Mutual funds can be actively managed or passively managed. A mutual fund that tracks an index, such as an S&P 500 fund, is both a mutual fund and an index fund.
+No. Mutual funds can be active or passive. A mutual fund tracking an index, such as an S&P 500 fund, is both a mutual fund and an index fund.
 
 ### Are Index Funds Cheaper Than Mutual Funds?
 

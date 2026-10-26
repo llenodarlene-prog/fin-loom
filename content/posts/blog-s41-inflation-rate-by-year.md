@@ -5,7 +5,7 @@ description: The U.S. inflation rate year by year from 2000 to 2025, plus the Se
 slug: /money-banking/inflation-rate-by-year/
 type: blog
 schema: BlogPosting
-draft: false
+draft: true
 tracker_id: Blog:S41
 primary_keyword: inflation rate year by year
 secondary_keywords: US inflation rate by year; historical inflation rates; CPI by year; inflation history
@@ -158,7 +158,7 @@ Grouping the inflation rate year by year into longer periods shows how the pace 
 
 | Period | Average Annual Inflation | Cumulative Rise in the Price Level |
 |---|---:|---:|
-| 2000 to 2009 | 2.6% | 28.7% |
+| 2000 to 2009 | 2.6% | 28.8% |
 | 2010 to 2019 | 1.8% | 19.2% |
 | 2020 to 2025 | 3.9% | 25.9% |
 

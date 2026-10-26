@@ -46,7 +46,7 @@ A wire transfer is a bank-to-bank payment instruction. The sender asks their ban
 
 The word "wire" comes from the telegraph era, but no physical cash travels anywhere today. What moves is an electronic message, followed by settlement between the two banks. That is why a wire can move a very large amount quickly: the banks settle the payment between themselves, then post it to customer accounts.
 
-The answer to what is a wire transfer also depends on where the money goes. The CFPB separates domestic wires, which move funds between two U.S. accounts, from international wires, which move money between a U.S. account and a foreign one. International consumer transfers can fall under extra federal rules, covered later in this article.
+The answer to what is a wire transfer also depends on where the money goes. The CFPB separates domestic wires, which move funds between two U.S. accounts, from international wires, which move money between a U.S. account and a foreign one. International consumer transfers can also fall under extra federal rules, described in the remittance section below.
 
 ## How a Wire Transfer Works Step by Step
 
