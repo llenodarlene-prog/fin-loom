@@ -5,7 +5,7 @@ description: Learn what qualified dividends are, the 2026 0%, 15%, and 20% thres
 slug: /investing/qualified-dividends/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S37
 primary_keyword: qualified dividends
 secondary_keywords: what are qualified dividends; qualified dividend tax rate; qualified vs ordinary dividends; qualified dividend holding period

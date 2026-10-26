@@ -1,436 +1,438 @@
 {
- "tracker_id": "Blog:S40",
- "status": "verified",
- "research_question": "How do bull and bear markets differ, how long have they lasted, and where did the S&P 500 stand in October 2026?",
- "research_brief": {
-  "purpose": "Explain bull, bear, and correction definitions with sourced history and current data.",
-  "audience": "Readers comparing market-cycle terms seen in the news.",
-  "publication_year": "2026",
-  "data_period": "Fidelity data since 1872 (Sept 2026 article); Hartford S&P 500 data since 1928 (2025 paper); FRED S&P 500 closes through 2026-10-21.",
-  "scope_limitations": "Price index only (no dividends); cycle counts vary by study method; no forecasts."
- },
- "keyword_research": {
-  "approved_primary_keyword": "bear vs bull stock market",
-  "intent": "Informational",
-  "serp_checked_at": "2026-10-25",
-  "tools": [
-   {
-    "name": "Ubersuggest",
-    "status": "verified",
-    "retrieved_at": "2026-10-26",
-    "location": "United States"
-   }
-  ],
-  "queries": [
-   {
-    "keyword": "bear vs bull stock market",
-    "type": "short-tail",
-    "volume": 12100,
-    "difficulty": 12,
-    "cpc": 0.385,
-    "intent": "Informational",
-    "ranking_url": "http://www.databankgroup.com/bfd_download/dont-fear-the-bear/",
-    "retrieved_at": "2026-10-26",
-    "tool": "Ubersuggest"
-   },
-   {
-    "keyword": "bear market vs bull market",
-    "type": "long-tail",
-    "volume": 12100,
-    "difficulty": 35,
-    "cpc": 0.75,
-    "intent": "Informational",
-    "ranking_url": "https://raseedinvest.com/en/learn/bear-vs-bull-market-explained",
-    "retrieved_at": "2026-10-26",
-    "tool": "Ubersuggest"
-   },
-   {
-    "keyword": "bull vs bear market",
-    "type": "commercial",
-    "volume": 9900,
-    "difficulty": 40,
-    "cpc": 1.09,
-    "intent": "Informational",
-    "ranking_url": "https://www.fultonbank.com/Education-Center/Investing/What-Are-Bull-and-Bear-Markets",
-    "retrieved_at": "2026-10-26",
-    "tool": "Ubersuggest"
-   },
-   {
-    "keyword": "what is a bear market",
-    "type": "question",
-    "volume": 5400,
-    "difficulty": 69,
-    "cpc": 0.98,
-    "intent": "Informational",
-    "ranking_url": "https://www.investopedia.com/terms/b/bearmarket.asp",
-    "retrieved_at": "2026-10-26",
-    "tool": "Ubersuggest"
-   },
-   {
-    "keyword": "what is a bull market",
-    "type": "problem",
-    "volume": 5400,
-    "difficulty": 51,
-    "cpc": 0.75,
-    "intent": "Informational",
-    "ranking_url": "https://www.nerdwallet.com/investing/learn/bullish-vs-bearish",
-    "retrieved_at": "2026-10-26",
-    "tool": "Ubersuggest"
-   }
-  ],
-  "historical_note": "Owner draft listed Ubersuggest 12,100 / SD 12 for the primary keyword; reconfirmed 2026-10-26."
- },
- "sources": [
-  {
-   "url": "https://www.fidelity.com/learning-center/smart-money/bear-vs-bull-market",
-   "title": "Bear vs. Bull Market: What's the Difference?",
-   "publisher": "Fidelity Investments",
-   "source_type": "Financial firm education",
-   "year": "2026",
-   "published_at": "2026-09-01",
-   "accessed_at": "2026-10-26",
-   "scope": "U.S. market cycles since 1872",
-   "method": "Historical cycle study",
-   "limitations": "Method and index not fully described",
-   "verified": true,
-   "verification_note": "Bear market is a 20% downturn from recent highs; 26 bear and 26 bull markets since 1872; medians 19 months/-33% and 42 months/+87%; ranges 1-113 and 14-98 months (quoted)."
+  "tracker_id": "Blog:S40",
+  "status": "verified",
+  "research_question": "How do bull and bear markets differ, how long have they lasted, and where did the S&P 500 stand in October 2026?",
+  "research_brief": {
+    "purpose": "Explain bull, bear, and correction definitions with sourced history and current data.",
+    "audience": "Readers comparing market-cycle terms seen in the news.",
+    "publication_year": "2026",
+    "data_period": "Fidelity data since 1872 (Sept 2026 article); Hartford S&P 500 data since 1928 (2025 paper); FRED S&P 500 closes through 2026-10-21.",
+    "scope_limitations": "Price index only (no dividends); cycle counts vary by study method; no forecasts."
   },
-  {
-   "url": "https://www.hartfordfunds.com/dam/en/docs/pub/whitepapers/CCWP045.pdf",
-   "title": "10 Things You Should Know About Bear Markets",
-   "publisher": "Hartford Funds",
-   "source_type": "Financial firm white paper",
-   "year": "2025",
-   "published_at": "not stated",
-   "accessed_at": "2026-10-26",
-   "scope": "S&P 500 since 1928",
-   "method": "Peak-to-trough closing prices",
-   "limitations": "Firm research; price index",
-   "verified": true,
-   "verification_note": "20% bear and bull thresholds; correction 10%-19.9%; 27 bear and 28 bull markets; 289 vs 988 days; -35%/+112%; 42% and 36% strongest days; 15 recessions; 1990 19.9% drop (quoted)."
+  "keyword_research": {
+    "approved_primary_keyword": "bear vs bull stock market",
+    "intent": "Informational",
+    "serp_checked_at": "2026-10-25",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-26",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "bear vs bull stock market",
+        "type": "short-tail",
+        "volume": 12100,
+        "difficulty": 12,
+        "cpc": 0.385,
+        "intent": "Informational",
+        "ranking_url": "http://www.databankgroup.com/bfd_download/dont-fear-the-bear/",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "bear market vs bull market",
+        "type": "long-tail",
+        "volume": 12100,
+        "difficulty": 35,
+        "cpc": 0.75,
+        "intent": "Informational",
+        "ranking_url": "https://raseedinvest.com/en/learn/bear-vs-bull-market-explained",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "bull vs bear market",
+        "type": "commercial",
+        "volume": 9900,
+        "difficulty": 40,
+        "cpc": 1.09,
+        "intent": "Informational",
+        "ranking_url": "https://www.fultonbank.com/Education-Center/Investing/What-Are-Bull-and-Bear-Markets",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is a bear market",
+        "type": "question",
+        "volume": 5400,
+        "difficulty": 69,
+        "cpc": 0.98,
+        "intent": "Informational",
+        "ranking_url": "https://www.investopedia.com/terms/b/bearmarket.asp",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is a bull market",
+        "type": "problem",
+        "volume": 5400,
+        "difficulty": 51,
+        "cpc": 0.75,
+        "intent": "Informational",
+        "ranking_url": "https://www.nerdwallet.com/investing/learn/bullish-vs-bearish",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      }
+    ],
+    "historical_note": "Owner draft listed Ubersuggest 12,100 / SD 12 for the primary keyword; reconfirmed 2026-10-26."
   },
-  {
-   "url": "https://fred.stlouisfed.org/series/SP500",
-   "title": "S&P 500 (SP500)",
-   "publisher": "Federal Reserve Bank of St. Louis (FRED)",
-   "source_type": "Official data series",
-   "year": "2026",
-   "published_at": "2026-10-21",
-   "accessed_at": "2026-10-26",
-   "scope": "Daily S&P 500 closes, last 10 years",
-   "method": "Index provider data republished by FRED",
-   "limitations": "Price index without dividends",
-   "verified": true,
-   "verification_note": "Closes 3,386.15 (2020-02-19), 2,237.40 (2020-03-23), 3,389.78 (2020-08-18), 4,796.56 (2022-01-03), 3,666.77 (2022-06-16), 3,577.03 (2022-10-12), 4,839.81 (2024-01-19), 6,845.50 (2025-12-31), 6,978.60 (2026-01-27), 6,343.72 (2026-03-30), 7,818.93 (2026-10-06), 7,757.17 (2026-10-21)."
+  "sources": [
+    {
+      "url": "https://www.fidelity.com/learning-center/smart-money/bear-vs-bull-market",
+      "title": "Bear vs. Bull Market: What's the Difference?",
+      "publisher": "Fidelity Investments",
+      "source_type": "Financial firm education",
+      "year": "2026",
+      "published_at": "2026-09-01",
+      "accessed_at": "2026-10-26",
+      "scope": "U.S. market cycles since 1872",
+      "method": "Historical cycle study",
+      "limitations": "Method and index not fully described",
+      "verified": true,
+      "verification_note": "Bear market is a 20% downturn from recent highs; 26 bear and 26 bull markets since 1872; medians 19 months/-33% and 42 months/+87%; ranges 1-113 and 14-98 months (quoted)."
+    },
+    {
+      "url": "https://www.hartfordfunds.com/dam/en/docs/pub/whitepapers/CCWP045.pdf",
+      "title": "10 Things You Should Know About Bear Markets",
+      "publisher": "Hartford Funds",
+      "source_type": "Financial firm white paper",
+      "year": "2025",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "S&P 500 since 1928",
+      "method": "Peak-to-trough closing prices",
+      "limitations": "Firm research; price index",
+      "verified": true,
+      "verification_note": "20% bear and bull thresholds; correction 10%-19.9%; 27 bear and 28 bull markets; 289 vs 988 days; -35%/+112%; 42% and 36% strongest days; 15 recessions; 1990 19.9% drop (quoted)."
+    },
+    {
+      "url": "https://fred.stlouisfed.org/series/SP500",
+      "title": "S&P 500 (SP500)",
+      "publisher": "Federal Reserve Bank of St. Louis (FRED)",
+      "source_type": "Official data series",
+      "year": "2026",
+      "published_at": "2026-10-21",
+      "accessed_at": "2026-10-26",
+      "scope": "Daily S&P 500 closes, last 10 years",
+      "method": "Index provider data republished by FRED",
+      "limitations": "Price index without dividends",
+      "verified": true,
+      "verification_note": "Closes 3,386.15 (2020-02-19), 2,237.40 (2020-03-23), 3,389.78 (2020-08-18), 4,796.56 (2022-01-03), 3,666.77 (2022-06-16), 3,577.03 (2022-10-12), 4,839.81 (2024-01-19), 6,845.50 (2025-12-31), 6,978.60 (2026-01-27), 6,343.72 (2026-03-30), 7,818.93 (2026-10-06), 7,757.17 (2026-10-21)."
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "S&P 500 price index up about 13.3% in 2026 through October 21; deepest 2026 drop about 9.1%; 2020 drop 33.9%; 2022 drops 23.6% and 25.4%.",
+      "source_url": "https://fred.stlouisfed.org/series/SP500",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "S&P 500 Index",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Prior closing high or 2025 year-end close",
+      "unit": "Percent",
+      "method": "Fin Loom calculation from FRED daily closes",
+      "limitations": "Price only; partial year",
+      "sponsored": false,
+      "partial_year": true,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Fidelity medians: bear 19 months and -33%; bull 42 months and +87%.",
+      "source_url": "https://www.fidelity.com/learning-center/smart-money/bear-vs-bull-market",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "U.S. stock market cycles since 1872",
+      "sample": "26 bull and 26 bear markets",
+      "denominator": "Not applicable",
+      "unit": "Months; percent",
+      "method": "Fidelity historical study",
+      "limitations": "Method not fully disclosed",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Hartford averages: bear 289 days and -35%; bull 988 days and +112%.",
+      "source_url": "https://www.hartfordfunds.com/dam/en/docs/pub/whitepapers/CCWP045.pdf",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "S&P 500 since 1928",
+      "sample": "27 bear and 28 bull markets",
+      "denominator": "Not applicable",
+      "unit": "Days; percent",
+      "method": "Peak-to-trough closing prices",
+      "limitations": "Firm research",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Bear vs. Bull Market, Explained",
+      "url": "https://raseedinvest.com/en/learn/bear-vs-bull-market-explained",
+      "publisher": "raseedinvest.com",
+      "format": "Ranking page",
+      "updated_at": "not stated",
+      "headings": [
+        "Bear vs. Bull Market, Explained",
+        "Bull market meaning",
+        "Bear market meaning",
+        "Bull and bear markets can occur within sectors",
+        "How to tell if a stock is 'bullish' or 'bearish'",
+        "How bulls and bears impact your investments"
+      ],
+      "coverage": [
+        "Definition"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "covered_well": "Plain definitions and sector point.",
+      "gaps": "No dated data or historical study.",
+      "trust_signals": [
+        "Publisher brand"
+      ]
+    },
+    {
+      "title": "Navigating Bull and Bear Markets: Key Differences Explained",
+      "url": "https://www.fultonbank.com/Education-Center/Investing/What-Are-Bull-and-Bear-Markets",
+      "publisher": "fultonbank.com",
+      "format": "Ranking page",
+      "updated_at": "not stated",
+      "headings": [
+        "Navigating Bull and Bear Markets: Key Differences Explained",
+        "What is the difference between Bull and Bear Markets?",
+        "What are Indexes?"
+      ],
+      "coverage": [
+        "Definition"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "covered_well": "Short and readable.",
+      "gaps": "No history, durations, or sources.",
+      "trust_signals": [
+        "Publisher brand"
+      ]
+    },
+    {
+      "title": "Bullish vs. Bearish Definition and Differences",
+      "url": "https://www.nerdwallet.com/investing/learn/bullish-vs-bearish",
+      "publisher": "nerdwallet.com",
+      "format": "Ranking page",
+      "updated_at": "not stated",
+      "headings": [
+        "Bullish vs. Bearish Definition and Differences",
+        "Bullish meaning",
+        "Bearish meaning",
+        "Investor responses to bull market vs. bear market cycles",
+        "Bear market vs. recession: What's the difference?",
+        "Other stock market changes: Dips, corrections and crashes"
+      ],
+      "coverage": [
+        "Definition",
+        "Examples"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "covered_well": "Covers recession and correction distinctions.",
+      "gaps": "No current-year market data.",
+      "trust_signals": [
+        "Publisher brand"
+      ]
+    },
+    {
+      "title": "Bear vs Bull market: How to Tell the Difference",
+      "url": "https://summitfc.net/blog/bull-vs-bear-market/",
+      "publisher": "summitfc.net",
+      "format": "Ranking page",
+      "updated_at": "not stated",
+      "headings": [
+        "Bear vs Bull market: How to Tell the Difference",
+        "Bull vs. Bear Market Characteristics",
+        "Symbolism of the Bull and Bear",
+        "How Do Market Trends Impact Investing?"
+      ],
+      "coverage": [
+        "Definition"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "covered_well": "Characteristics table.",
+      "gaps": "Advisor promotion; no sourced statistics.",
+      "trust_signals": [
+        "Publisher brand"
+      ]
+    },
+    {
+      "title": "Bear vs. Bull Market: What's the Difference?",
+      "url": "https://www.fidelity.com/learning-center/smart-money/bear-vs-bull-market",
+      "publisher": "fidelity.com",
+      "format": "Ranking page",
+      "updated_at": "not stated",
+      "headings": [
+        "Bear vs. bull market",
+        "How long bull and bear markets last"
+      ],
+      "coverage": [
+        "Definition",
+        "Statistics"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "covered_well": "Long-run cycle statistics since 1872.",
+      "gaps": "No 2026 market context or correction detail.",
+      "trust_signals": [
+        "Publisher brand",
+        "Dated article"
+      ]
+    }
+  ],
+  "content_gaps": [
+    "Few pages compare two historical datasets and explain why they differ.",
+    "Few give dated 2026 index context from an official series.",
+    "Few separate bear markets from recessions with counts."
+  ],
+  "value_add": "Two sourced cycle studies compared side by side, FRED-based 2020, 2022, and 2026 calculations, and the 1990 19.9% near-miss example.",
+  "plan": {
+    "reader_title": "Bear vs Bull Stock Market: What Each Market Cycle Means",
+    "seo_title": "Bear vs Bull Stock Market: Definitions and History",
+    "meta_description": "Bear vs bull stock market explained: the 20% definitions, historical durations, the 2020 and 2022 bear markets, corrections, and 2026 market context.",
+    "slug": "/markets-stocks/bear-vs-bull-market/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "bull vs bear market",
+      "bear market vs bull market",
+      "what is a bull market",
+      "what is a bear market"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "Bear vs Bull Stock Market at a Glance",
+      "What Is a Bull Market?",
+      "What Is a Bear Market?",
+      "Bear Market vs Correction",
+      "How Long Bull and Bear Markets Have Lasted",
+      "What Hartford Funds Found for the S&P 500",
+      "The 2020 Bear Market Was Unusually Fast",
+      "The 2022 Bear Market Had Different Causes",
+      "A Bear Market Is Not the Same as a Recession",
+      "What Tends to Drive Each Market Cycle",
+      "Where the S&P 500 Stood in October 2026",
+      "Bullish and Bearish Are Different From Bull and Bear Markets",
+      "Why Market Cycles Are Hard to Time",
+      "How Each Market Phase Can Affect Investor Behavior",
+      "Comparing the Bear vs Bull Stock Market Record",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Fidelity: 20% definition, 26/26 cycles since 1872, medians and ranges (quoted).",
+      "Hartford Funds: thresholds, correction, averages, frequency, best days, recessions (quoted).",
+      "FRED SP500: all index closes and Fin Loom calculations."
+    ],
+    "visuals": [
+      "Owner-supplied hero image (AI-generated)",
+      "Tables"
+    ],
+    "internal_links": [
+      "/markets-stocks/stock-analysis-fundamentals/",
+      "/markets-stocks/highest-yield-dividend-stocks/",
+      "/markets-stocks/technical-analysis-for-stocks/"
+    ],
+    "external_link_opportunities": [
+      "Fidelity cycle study",
+      "Hartford Funds bear market paper",
+      "FRED SP500"
+    ],
+    "excluded_claims": [
+      "S&P DJI 12.4% YTD total return and 14.46% one-year return (page blocked, unverifiable) replaced by FRED price calculation",
+      "Schwab since-1966 averages (page blocked)",
+      "Hartford CCWP134 27 bull markets / 113.9% / 992 days (kept to three body sources; Hartford CCWP045 averages used instead)",
+      "Investor.gov two-month wording (page blocked)"
+    ],
+    "drafting_cautions": [
+      "Label all Fin Loom calculations",
+      "Price index excludes dividends",
+      "No buy, sell, or hold language"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "A bear market is a 20% downturn from recent highs; 26 bear and 26 bull markets since 1872.",
+      "source_url": "https://www.fidelity.com/learning-center/smart-money/bear-vs-bull-market",
+      "verified": true
+    },
+    {
+      "statement": "A correction is a drop of 10%-19.9%; 42% of the strongest days occurred during a bear market.",
+      "source_url": "https://www.hartfordfunds.com/dam/en/docs/pub/whitepapers/CCWP045.pdf",
+      "verified": true
+    },
+    {
+      "statement": "S&P 500 closed at 7,757.17 on October 21, 2026 and 6,845.50 on December 31, 2025.",
+      "source_url": "https://fred.stlouisfed.org/series/SP500",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-26",
+    "note": "Every figure checked against Fidelity, Hartford Funds, and FRED; unverifiable owner-draft figures removed. Awaiting owner sign-off.",
+    "notes": "Signed off by the site owner (Darlene Aberin) on 2026-10-26 after the AI QA layer, approving the QA changes and the keyword switches for S34 and S35."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-26",
+    "note": "Editorial QA SOP applied: direct answer, title promise, added value, link test. Status PASS approved by the owner on 2026-10-26.",
+    "notes": "Signed off by the site owner (Darlene Aberin) on 2026-10-26 after the AI QA layer, approving the QA changes and the keyword switches for S34 and S35."
+  },
+  "verification_log": {
+    "checked_on": "2026-10-26",
+    "summary": "Final AI QA layer (2026-10-26): Fidelity page and Hartford CCWP045 PDF fetched and quoted; FRED SP500 CSV pulled and every percentage recomputed. Ubersuggest US data retrieved 2026-10-26; five competitor pages read, blocked pages replaced by the next ranking page.",
+    "pending": "Owner sign-off."
   }
- ],
- "statistics": [
-  {
-   "claim": "S&P 500 price index up about 13.3% in 2026 through October 21; deepest 2026 drop about 9.1%; 2020 drop 33.9%; 2022 drops 23.6% and 25.4%.",
-   "source_url": "https://fred.stlouisfed.org/series/SP500",
-   "data_year": "2026",
-   "geography": "United States",
-   "population": "S&P 500 Index",
-   "sample": "Not applicable: full reported figure",
-   "denominator": "Prior closing high or 2025 year-end close",
-   "unit": "Percent",
-   "method": "Fin Loom calculation from FRED daily closes",
-   "limitations": "Price only; partial year",
-   "sponsored": false,
-   "partial_year": true,
-   "estimate": false,
-   "verified": true
-  },
-  {
-   "claim": "Fidelity medians: bear 19 months and -33%; bull 42 months and +87%.",
-   "source_url": "https://www.fidelity.com/learning-center/smart-money/bear-vs-bull-market",
-   "data_year": "2026",
-   "geography": "United States",
-   "population": "U.S. stock market cycles since 1872",
-   "sample": "26 bull and 26 bear markets",
-   "denominator": "Not applicable",
-   "unit": "Months; percent",
-   "method": "Fidelity historical study",
-   "limitations": "Method not fully disclosed",
-   "sponsored": false,
-   "partial_year": false,
-   "estimate": false,
-   "verified": true
-  },
-  {
-   "claim": "Hartford averages: bear 289 days and -35%; bull 988 days and +112%.",
-   "source_url": "https://www.hartfordfunds.com/dam/en/docs/pub/whitepapers/CCWP045.pdf",
-   "data_year": "2025",
-   "geography": "United States",
-   "population": "S&P 500 since 1928",
-   "sample": "27 bear and 28 bull markets",
-   "denominator": "Not applicable",
-   "unit": "Days; percent",
-   "method": "Peak-to-trough closing prices",
-   "limitations": "Firm research",
-   "sponsored": false,
-   "partial_year": false,
-   "estimate": false,
-   "verified": true
-  }
- ],
- "competitors": [
-  {
-   "title": "Bear vs. Bull Market, Explained",
-   "url": "https://raseedinvest.com/en/learn/bear-vs-bull-market-explained",
-   "publisher": "raseedinvest.com",
-   "format": "Ranking page",
-   "updated_at": "not stated",
-   "headings": [
-    "Bear vs. Bull Market, Explained",
-    "Bull market meaning",
-    "Bear market meaning",
-    "Bull and bear markets can occur within sectors",
-    "How to tell if a stock is 'bullish' or 'bearish'",
-    "How bulls and bears impact your investments"
-   ],
-   "coverage": [
-    "Definition"
-   ],
-   "sources": [
-    "Not stated"
-   ],
-   "data_assets": [
-    "Text"
-   ],
-   "link_patterns": [
-    "Internal links"
-   ],
-   "covered_well": "Plain definitions and sector point.",
-   "gaps": "No dated data or historical study.",
-   "trust_signals": [
-    "Publisher brand"
-   ]
-  },
-  {
-   "title": "Navigating Bull and Bear Markets: Key Differences Explained",
-   "url": "https://www.fultonbank.com/Education-Center/Investing/What-Are-Bull-and-Bear-Markets",
-   "publisher": "fultonbank.com",
-   "format": "Ranking page",
-   "updated_at": "not stated",
-   "headings": [
-    "Navigating Bull and Bear Markets: Key Differences Explained",
-    "What is the difference between Bull and Bear Markets?",
-    "What are Indexes?"
-   ],
-   "coverage": [
-    "Definition"
-   ],
-   "sources": [
-    "Not stated"
-   ],
-   "data_assets": [
-    "Text"
-   ],
-   "link_patterns": [
-    "Internal links"
-   ],
-   "covered_well": "Short and readable.",
-   "gaps": "No history, durations, or sources.",
-   "trust_signals": [
-    "Publisher brand"
-   ]
-  },
-  {
-   "title": "Bullish vs. Bearish Definition and Differences",
-   "url": "https://www.nerdwallet.com/investing/learn/bullish-vs-bearish",
-   "publisher": "nerdwallet.com",
-   "format": "Ranking page",
-   "updated_at": "not stated",
-   "headings": [
-    "Bullish vs. Bearish Definition and Differences",
-    "Bullish meaning",
-    "Bearish meaning",
-    "Investor responses to bull market vs. bear market cycles",
-    "Bear market vs. recession: What's the difference?",
-    "Other stock market changes: Dips, corrections and crashes"
-   ],
-   "coverage": [
-    "Definition",
-    "Examples"
-   ],
-   "sources": [
-    "Not stated"
-   ],
-   "data_assets": [
-    "Text"
-   ],
-   "link_patterns": [
-    "Internal links"
-   ],
-   "covered_well": "Covers recession and correction distinctions.",
-   "gaps": "No current-year market data.",
-   "trust_signals": [
-    "Publisher brand"
-   ]
-  },
-  {
-   "title": "Bear vs Bull market: How to Tell the Difference",
-   "url": "https://summitfc.net/blog/bull-vs-bear-market/",
-   "publisher": "summitfc.net",
-   "format": "Ranking page",
-   "updated_at": "not stated",
-   "headings": [
-    "Bear vs Bull market: How to Tell the Difference",
-    "Bull vs. Bear Market Characteristics",
-    "Symbolism of the Bull and Bear",
-    "How Do Market Trends Impact Investing?"
-   ],
-   "coverage": [
-    "Definition"
-   ],
-   "sources": [
-    "Not stated"
-   ],
-   "data_assets": [
-    "Text"
-   ],
-   "link_patterns": [
-    "Internal links"
-   ],
-   "covered_well": "Characteristics table.",
-   "gaps": "Advisor promotion; no sourced statistics.",
-   "trust_signals": [
-    "Publisher brand"
-   ]
-  },
-  {
-   "title": "Bear vs. Bull Market: What's the Difference?",
-   "url": "https://www.fidelity.com/learning-center/smart-money/bear-vs-bull-market",
-   "publisher": "fidelity.com",
-   "format": "Ranking page",
-   "updated_at": "not stated",
-   "headings": [
-    "Bear vs. bull market",
-    "How long bull and bear markets last"
-   ],
-   "coverage": [
-    "Definition",
-    "Statistics"
-   ],
-   "sources": [
-    "Not stated"
-   ],
-   "data_assets": [
-    "Text"
-   ],
-   "link_patterns": [
-    "Internal links"
-   ],
-   "covered_well": "Long-run cycle statistics since 1872.",
-   "gaps": "No 2026 market context or correction detail.",
-   "trust_signals": [
-    "Publisher brand",
-    "Dated article"
-   ]
-  }
- ],
- "content_gaps": [
-  "Few pages compare two historical datasets and explain why they differ.",
-  "Few give dated 2026 index context from an official series.",
-  "Few separate bear markets from recessions with counts."
- ],
- "value_add": "Two sourced cycle studies compared side by side, FRED-based 2020, 2022, and 2026 calculations, and the 1990 19.9% near-miss example.",
- "plan": {
-  "reader_title": "Bear vs Bull Stock Market: What Each Market Cycle Means",
-  "seo_title": "Bear vs Bull Stock Market: Definitions and History",
-  "meta_description": "Bear vs bull stock market explained: the 20% definitions, historical durations, the 2020 and 2022 bear markets, corrections, and 2026 market context.",
-  "slug": "/markets-stocks/bear-vs-bull-market/",
-  "search_intent": "Informational",
-  "secondary_keywords": [
-   "bull vs bear market",
-   "bear market vs bull market",
-   "what is a bull market",
-   "what is a bear market"
-  ],
-  "outline": [
-   "Key Takeaways",
-   "Bear vs Bull Stock Market at a Glance",
-   "What Is a Bull Market?",
-   "What Is a Bear Market?",
-   "Bear Market vs Correction",
-   "How Long Bull and Bear Markets Have Lasted",
-   "What Hartford Funds Found for the S&P 500",
-   "The 2020 Bear Market Was Unusually Fast",
-   "The 2022 Bear Market Had Different Causes",
-   "A Bear Market Is Not the Same as a Recession",
-   "What Tends to Drive Each Market Cycle",
-   "Where the S&P 500 Stood in October 2026",
-   "Bullish and Bearish Are Different From Bull and Bear Markets",
-   "Why Market Cycles Are Hard to Time",
-   "How Each Market Phase Can Affect Investor Behavior",
-   "Comparing the Bear vs Bull Stock Market Record",
-   "Frequently Asked Questions",
-   "Resources"
-  ],
-  "evidence_map": [
-   "Fidelity: 20% definition, 26/26 cycles since 1872, medians and ranges (quoted).",
-   "Hartford Funds: thresholds, correction, averages, frequency, best days, recessions (quoted).",
-   "FRED SP500: all index closes and Fin Loom calculations."
-  ],
-  "visuals": [
-   "Owner-supplied hero image (AI-generated)",
-   "Tables"
-  ],
-  "internal_links": [
-   "/markets-stocks/stock-analysis-fundamentals/",
-   "/markets-stocks/highest-yield-dividend-stocks/",
-   "/markets-stocks/technical-analysis-for-stocks/"
-  ],
-  "external_link_opportunities": [
-   "Fidelity cycle study",
-   "Hartford Funds bear market paper",
-   "FRED SP500"
-  ],
-  "excluded_claims": [
-   "S&P DJI 12.4% YTD total return and 14.46% one-year return (page blocked, unverifiable) replaced by FRED price calculation",
-   "Schwab since-1966 averages (page blocked)",
-   "Hartford CCWP134 27 bull markets / 113.9% / 992 days (kept to three body sources; Hartford CCWP045 averages used instead)",
-   "Investor.gov two-month wording (page blocked)"
-  ],
-  "drafting_cautions": [
-   "Label all Fin Loom calculations",
-   "Price index excludes dividends",
-   "No buy, sell, or hold language"
-  ]
- },
- "claims": [
-  {
-   "statement": "A bear market is a 20% downturn from recent highs; 26 bear and 26 bull markets since 1872.",
-   "source_url": "https://www.fidelity.com/learning-center/smart-money/bear-vs-bull-market",
-   "verified": true
-  },
-  {
-   "statement": "A correction is a drop of 10%-19.9%; 42% of the strongest days occurred during a bear market.",
-   "source_url": "https://www.hartfordfunds.com/dam/en/docs/pub/whitepapers/CCWP045.pdf",
-   "verified": true
-  },
-  {
-   "statement": "S&P 500 closed at 7,757.17 on October 21, 2026 and 6,845.50 on December 31, 2025.",
-   "source_url": "https://fred.stlouisfed.org/series/SP500",
-   "verified": true
-  }
- ],
- "fact_check": {
-  "completed": true,
-  "reviewer": "AI QA layer (pending owner sign-off)",
-  "reviewed_at": "2026-10-26",
-  "note": "Every figure checked against Fidelity, Hartford Funds, and FRED; unverifiable owner-draft figures removed. Awaiting owner sign-off."
- },
- "qa": {
-  "completed": true,
-  "reviewer": "AI QA layer (pending owner sign-off)",
-  "reviewed_at": "2026-10-26",
-  "note": "Editorial QA SOP applied: direct answer, title promise, added value, link test. Status PASS pending owner sign-off."
- },
- "verification_log": {
-  "checked_on": "2026-10-26",
-  "summary": "Final AI QA layer (2026-10-26): Fidelity page and Hartford CCWP045 PDF fetched and quoted; FRED SP500 CSV pulled and every percentage recomputed. Ubersuggest US data retrieved 2026-10-26; five competitor pages read, blocked pages replaced by the next ranking page.",
-  "pending": "Owner sign-off."
- }
 }

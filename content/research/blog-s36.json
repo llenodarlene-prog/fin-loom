@@ -383,15 +383,17 @@
   ],
   "fact_check": {
     "completed": true,
-    "reviewer": "AI QA layer (pending owner sign-off)",
+    "reviewer": "Darlene Aberin",
     "reviewed_at": "2026-10-26",
-    "note": "Final AI QA layer 2026-10-26: IRS claims quoted from primary pages; Investor.gov (403) attributions removed; worked examples recomputed."
+    "note": "Final AI QA layer 2026-10-26: IRS claims quoted from primary pages; Investor.gov (403) attributions removed; worked examples recomputed.",
+    "notes": "Signed off by the site owner (Darlene Aberin) on 2026-10-26 after the AI QA layer, approving the QA changes and the keyword switches for S34 and S35."
   },
   "qa": {
     "completed": true,
-    "reviewer": "AI QA layer (pending owner sign-off)",
+    "reviewer": "Darlene Aberin",
     "reviewed_at": "2026-10-26",
-    "note": "Editorial QA SOP applied 2026-10-26; owner sign-off pending."
+    "note": "Editorial QA SOP applied 2026-10-26; owner sign-off pending.",
+    "notes": "Signed off by the site owner (Darlene Aberin) on 2026-10-26 after the AI QA layer, approving the QA changes and the keyword switches for S34 and S35."
   },
   "verification_log": {
     "checked_on": "2026-10-26",

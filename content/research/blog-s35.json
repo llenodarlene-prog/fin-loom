@@ -78,7 +78,7 @@
         "tool": "Ubersuggest"
       }
     ],
-    "historical_note": "Owner draft targeted 'how long does a wire transfer take to go through' (5,400, SD 7); primary switched to the higher-volume shorter phrase during AI QA, pending owner approval."
+    "historical_note": "Owner draft targeted 'how long does a wire transfer take to go through' (5,400, SD 7); primary switched to the higher-volume shorter phrase during AI QA, approved by the owner on 2026-10-26."
   },
   "sources": [
     {
@@ -491,15 +491,17 @@
   ],
   "fact_check": {
     "completed": true,
-    "reviewer": "AI QA layer (pending owner sign-off)",
+    "reviewer": "Darlene Aberin",
     "reviewed_at": "2026-10-26",
-    "note": "Final AI QA layer: every figure checked on primary pages; international range re-sourced to Citi; owner sign-off pending."
+    "note": "Final AI QA layer: every figure checked on primary pages; international range re-sourced to Citi; owner sign-off pending.",
+    "notes": "Signed off by the site owner (Darlene Aberin) on 2026-10-26 after the AI QA layer, approving the QA changes and the keyword switches for S34 and S35."
   },
   "qa": {
     "completed": true,
-    "reviewer": "AI QA layer (pending owner sign-off)",
+    "reviewer": "Darlene Aberin",
     "reviewed_at": "2026-10-26",
-    "note": "Editorial QA SOP applied; status PASS pending owner sign-off."
+    "note": "Editorial QA SOP applied; status PASS approved by the owner on 2026-10-26.",
+    "notes": "Signed off by the site owner (Darlene Aberin) on 2026-10-26 after the AI QA layer, approving the QA changes and the keyword switches for S34 and S35."
   },
   "verification_log": {
     "checked_on": "2026-10-26",

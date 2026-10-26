@@ -1,467 +1,469 @@
 {
- "tracker_id": "Blog:S38",
- "status": "verified",
- "research_question": "How does an index fund differ from a mutual fund, and what separates index and active mutual funds in cost, pricing, and taxes?",
- "research_brief": {
-  "purpose": "Explain that index is a strategy and mutual fund is a structure, and compare index and active mutual funds on verified data.",
-  "audience": "Individual investors comparing fund types.",
-  "publication_year": "2026",
-  "data_period": "FINRA guide and Vanguard fund pages checked October 26, 2026; Vanguard expense data as of April 28, 2026; industry averages as of December 31, 2025.",
-  "scope_limitations": "ICI asset-share data could not be verified (ici.org returned 403) and was removed. Fidelity FXAIX page did not render without scripts and was removed. No fund recommendation."
- },
- "keyword_research": {
-  "approved_primary_keyword": "index fund vs mutual fund",
-  "intent": "Informational",
-  "serp_checked_at": "2026-10-26",
-  "tools": [
-   {
-    "name": "Ubersuggest",
-    "status": "verified",
-    "retrieved_at": "2026-10-26",
-    "location": "United States"
-   }
+  "tracker_id": "Blog:S38",
+  "status": "verified",
+  "research_question": "How does an index fund differ from a mutual fund, and what separates index and active mutual funds in cost, pricing, and taxes?",
+  "research_brief": {
+    "purpose": "Explain that index is a strategy and mutual fund is a structure, and compare index and active mutual funds on verified data.",
+    "audience": "Individual investors comparing fund types.",
+    "publication_year": "2026",
+    "data_period": "FINRA guide and Vanguard fund pages checked October 26, 2026; Vanguard expense data as of April 28, 2026; industry averages as of December 31, 2025.",
+    "scope_limitations": "ICI asset-share data could not be verified (ici.org returned 403) and was removed. Fidelity FXAIX page did not render without scripts and was removed. No fund recommendation."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "index fund vs mutual fund",
+    "intent": "Informational",
+    "serp_checked_at": "2026-10-26",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-26",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "index fund vs mutual fund",
+        "type": "short-tail",
+        "volume": 6600,
+        "difficulty": 28,
+        "cpc": 2.36,
+        "intent": "Informational",
+        "ranking_url": "https://carry.com/learn/index-funds-vs-etfs-vs-mutual-funds",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "mutual fund vs index fund",
+        "type": "long-tail",
+        "volume": 6600,
+        "difficulty": 28,
+        "cpc": 2.36,
+        "intent": "Informational",
+        "ranking_url": "https://www.nerdwallet.com/article/investing/index-funds-vs-mutual-funds",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "index funds vs mutual funds fees",
+        "type": "commercial",
+        "volume": 6600,
+        "difficulty": 28,
+        "cpc": 2.36,
+        "intent": "Informational",
+        "ranking_url": "https://www.businessinsider.com/differences-index-mutual-funds-finally-know-2024-10",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "passive vs active mutual fund",
+        "type": "problem",
+        "volume": 6600,
+        "difficulty": 28,
+        "cpc": 2.36,
+        "intent": "Informational",
+        "ranking_url": "https://groww.in/blog/index-funds-vs-mutual-funds",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "is an index fund a mutual fund",
+        "type": "question",
+        "volume": 6600,
+        "difficulty": 28,
+        "cpc": 2.36,
+        "intent": "Informational",
+        "ranking_url": "https://bftwealth.com/what-you-need-to-know-about-index-funds-and-mutual-funds/",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.finra.org/investors/investing/investment-products/mutual-funds",
+      "title": "Mutual Funds",
+      "publisher": "FINRA",
+      "source_type": "Regulator investor education",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "Mutual fund structure, NAV pricing, active vs passive, fees, turnover, 12b-1, distributions",
+      "method": "Investor education page",
+      "limitations": "General guidance",
+      "verified": true,
+      "verification_note": "Quoted: open-end funds bought and redeemed daily at NAV; NAV calculated once a day when markets close; passive funds seek to replicate benchmarks; 12b-1 fees capped at 1 percent; transaction costs not in expense ratio."
+    },
+    {
+      "url": "https://investor.vanguard.com/investment-products/mutual-funds/profile/vfiax",
+      "title": "Vanguard 500 Index Fund Admiral Shares (VFIAX)",
+      "publisher": "Vanguard",
+      "source_type": "Fund company product page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "VFIAX expense ratio, minimum, strategy, YTD return, industry averages",
+      "method": "Fund page data",
+      "limitations": "Point-in-time figures",
+      "verified": true,
+      "verification_note": "Page data: expenseRatio 0.04% (as of 04/28/2026), investmentMinimum $3,000, ytdReturns 12.36% as of 10/23/2026; industry average mutual fund ER 0.50%, Vanguard 0.08%, ETF 0.23% and 0.04%, Vanguard and Morningstar as of 12/31/2025; 'industry's first index fund for individual investors'."
+    },
+    {
+      "url": "https://investor.vanguard.com/investment-products/etfs/profile/voo",
+      "title": "Vanguard S&P 500 ETF (VOO)",
+      "publisher": "Vanguard",
+      "source_type": "Fund company product page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "VOO expense ratio, minimum, ETF share class, YTD return",
+      "method": "Fund page data",
+      "limitations": "Point-in-time figures",
+      "verified": true,
+      "verification_note": "Page data: expenseRatio 0.03%, investmentMinimum $1.00, ytdReturns 12.37% as of 10/23/2026; 'exchange-traded share class of Vanguard 500 Index Fund'; ETF price can differ from NAV."
+    },
+    {
+      "url": "https://www.irs.gov/instructions/i1099div",
+      "title": "Instructions for Form 1099-DIV",
+      "publisher": "Internal Revenue Service",
+      "source_type": "Federal tax instructions",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "Box 2a capital gain distributions",
+      "method": "Official instructions",
+      "limitations": "Tax-year specific",
+      "verified": true,
+      "verification_note": "Box 2a: total capital gain distributions (long-term)."
+    }
   ],
-  "queries": [
-   {
-    "keyword": "index fund vs mutual fund",
-    "type": "short-tail",
-    "volume": 6600,
-    "difficulty": 28,
-    "cpc": 2.36,
-    "intent": "Informational",
-    "ranking_url": "https://carry.com/learn/index-funds-vs-etfs-vs-mutual-funds",
-    "retrieved_at": "2026-10-26",
-    "tool": "Ubersuggest"
-   },
-   {
-    "keyword": "mutual fund vs index fund",
-    "type": "long-tail",
-    "volume": 6600,
-    "difficulty": 28,
-    "cpc": 2.36,
-    "intent": "Informational",
-    "ranking_url": "https://www.nerdwallet.com/article/investing/index-funds-vs-mutual-funds",
-    "retrieved_at": "2026-10-26",
-    "tool": "Ubersuggest"
-   },
-   {
-    "keyword": "index funds vs mutual funds fees",
-    "type": "commercial",
-    "volume": 6600,
-    "difficulty": 28,
-    "cpc": 2.36,
-    "intent": "Informational",
-    "ranking_url": "https://www.businessinsider.com/differences-index-mutual-funds-finally-know-2024-10",
-    "retrieved_at": "2026-10-26",
-    "tool": "Ubersuggest"
-   },
-   {
-    "keyword": "passive vs active mutual fund",
-    "type": "problem",
-    "volume": 6600,
-    "difficulty": 28,
-    "cpc": 2.36,
-    "intent": "Informational",
-    "ranking_url": "https://groww.in/blog/index-funds-vs-mutual-funds",
-    "retrieved_at": "2026-10-26",
-    "tool": "Ubersuggest"
-   },
-   {
-    "keyword": "is an index fund a mutual fund",
-    "type": "question",
-    "volume": 6600,
-    "difficulty": 28,
-    "cpc": 2.36,
-    "intent": "Informational",
-    "ranking_url": "https://bftwealth.com/what-you-need-to-know-about-index-funds-and-mutual-funds/",
-    "retrieved_at": "2026-10-26",
-    "tool": "Ubersuggest"
-   }
-  ]
- },
- "sources": [
-  {
-   "url": "https://www.finra.org/investors/investing/investment-products/mutual-funds",
-   "title": "Mutual Funds",
-   "publisher": "FINRA",
-   "source_type": "Regulator investor education",
-   "year": "2026",
-   "published_at": "not stated",
-   "accessed_at": "2026-10-26",
-   "scope": "Mutual fund structure, NAV pricing, active vs passive, fees, turnover, 12b-1, distributions",
-   "method": "Investor education page",
-   "limitations": "General guidance",
-   "verified": true,
-   "verification_note": "Quoted: open-end funds bought and redeemed daily at NAV; NAV calculated once a day when markets close; passive funds seek to replicate benchmarks; 12b-1 fees capped at 1 percent; transaction costs not in expense ratio."
+  "statistics": [
+    {
+      "claim": "VFIAX expense ratio 0.04%, minimum $3,000, YTD return 12.36% through October 23, 2026.",
+      "source_url": "https://investor.vanguard.com/investment-products/mutual-funds/profile/vfiax",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "Percent; US dollars",
+      "method": "Vanguard published fund data",
+      "limitations": "Point in time; past returns",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "VOO expense ratio 0.03%, minimum $1.00, YTD return 12.37% through October 23, 2026.",
+      "source_url": "https://investor.vanguard.com/investment-products/etfs/profile/voo",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "Percent; US dollars",
+      "method": "Vanguard published fund data",
+      "limitations": "Point in time; past returns",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Asset-weighted industry average mutual fund expense ratio 0.50%; ETF 0.23%; Vanguard averages 0.08% and 0.04%, as of December 31, 2025.",
+      "source_url": "https://investor.vanguard.com/investment-products/mutual-funds/profile/vfiax",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "US mutual funds and ETFs",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Vanguard and Morningstar asset-weighted averages",
+      "limitations": "Not split by index vs active; industry average excludes Vanguard",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "$10,000 at a hypothetical 6% gross return for 20 years ends at $31,830.17, $29,177.57, and $26,532.98 at 0.04%, 0.50%, and 1.00% expense ratios.",
+      "source_url": "https://investor.vanguard.com/investment-products/mutual-funds/profile/vfiax",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Fin Loom calculation: 10000 x (1.06 - ER)^20",
+      "limitations": "Hypothetical constant return; no taxes",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": true,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Index Funds vs ETFs vs Mutual Funds: How To Choose",
+      "url": "https://carry.com/learn/index-funds-vs-etfs-vs-mutual-funds",
+      "publisher": "carry.com",
+      "format": "Ranking page",
+      "updated_at": "not stated",
+      "headings": [
+        "Key Differences Between Mutual Funds, Index Funds, and ETFs",
+        "Costs and Fees",
+        "Minimum Investment Amounts",
+        "Which One Should You Choose?"
+      ],
+      "coverage": [
+        "Definitions",
+        "Fees",
+        "Minimums"
+      ],
+      "sources": [
+        "No primary data citations visible"
+      ],
+      "data_assets": [
+        "Comparison text"
+      ],
+      "link_patterns": [
+        "Internal product and article links"
+      ],
+      "trust_signals": [
+        "Publisher brand"
+      ],
+      "covered_well": "Three-way structure comparison",
+      "gaps": "No verified fund data or regulator citations"
+    },
+    {
+      "title": "What You Need to Know about Index Funds and Mutual Funds",
+      "url": "https://bftwealth.com/what-you-need-to-know-about-index-funds-and-mutual-funds/",
+      "publisher": "Barnett Financial & Tax",
+      "format": "Ranking page",
+      "updated_at": "not stated",
+      "headings": [
+        "The Breakdown of Index Funds",
+        "The Mutual Fund Difference"
+      ],
+      "coverage": [
+        "Definitions"
+      ],
+      "sources": [
+        "No primary data citations visible"
+      ],
+      "data_assets": [
+        "Comparison text"
+      ],
+      "link_patterns": [
+        "Internal product and article links"
+      ],
+      "trust_signals": [
+        "Publisher brand"
+      ],
+      "covered_well": "Plain definitions",
+      "gaps": "Short; no costs, pricing, or tax detail"
+    },
+    {
+      "title": "Index Funds Vs Mutual Funds: 5 Key Differences",
+      "url": "https://groww.in/blog/index-funds-vs-mutual-funds",
+      "publisher": "Groww",
+      "format": "Ranking page",
+      "updated_at": "not stated",
+      "headings": [
+        "What are Index Funds?",
+        "What are Actively Managed Mutual Funds?",
+        "Differences Between Index Funds and Actively Managed Funds",
+        "Management Cost",
+        "Transparency and Tax Efficiency"
+      ],
+      "coverage": [
+        "Active vs passive",
+        "Costs",
+        "Tax"
+      ],
+      "sources": [
+        "No primary data citations visible"
+      ],
+      "data_assets": [
+        "Comparison text"
+      ],
+      "link_patterns": [
+        "Internal product and article links"
+      ],
+      "trust_signals": [
+        "Publisher brand"
+      ],
+      "covered_well": "Active versus passive framing",
+      "gaps": "Indian market focus; not US rules"
+    },
+    {
+      "title": "5 Differences Between Index Funds and Mutual Funds",
+      "url": "https://www.businessinsider.com/differences-index-mutual-funds-finally-know-2024-10",
+      "publisher": "Business Insider",
+      "format": "Ranking page",
+      "updated_at": "not stated",
+      "headings": [
+        "1. An index fund can be a mutual fund",
+        "2. Index funds have lower expenses",
+        "5. Mutual funds experience capital gain distributions"
+      ],
+      "coverage": [
+        "Structure vs strategy",
+        "Fees",
+        "Distributions"
+      ],
+      "sources": [
+        "No primary data citations visible"
+      ],
+      "data_assets": [
+        "Comparison text"
+      ],
+      "link_patterns": [
+        "Internal product and article links"
+      ],
+      "trust_signals": [
+        "Publisher brand"
+      ],
+      "covered_well": "Notes an index fund can be a mutual fund",
+      "gaps": "No NAV pricing detail or worked cost example"
+    },
+    {
+      "title": "Index Fund vs. Mutual Fund",
+      "url": "https://www.nerdwallet.com/article/investing/index-funds-vs-mutual-funds",
+      "publisher": "NerdWallet",
+      "format": "Ranking page",
+      "updated_at": "not stated",
+      "headings": [
+        "Index fund vs. mutual fund at a glance",
+        "1. Passive vs. active management",
+        "2. Investment goals",
+        "3. Costs"
+      ],
+      "coverage": [
+        "Active vs passive",
+        "Costs"
+      ],
+      "sources": [
+        "No primary data citations visible"
+      ],
+      "data_assets": [
+        "Comparison text"
+      ],
+      "link_patterns": [
+        "Internal product and article links"
+      ],
+      "trust_signals": [
+        "Publisher brand"
+      ],
+      "covered_well": "Clear at-a-glance table",
+      "gaps": "No same-fund wrapper comparison; financestrategists.com result blocked and replaced by this ranking page"
+    }
+  ],
+  "content_gaps": [
+    "Few pages show one strategy in two wrappers with current fund data.",
+    "Most omit NAV end-of-day pricing mechanics and costs outside the expense ratio.",
+    "No worked fee-compounding illustration with labeled assumptions."
+  ],
+  "value_add": "VFIAX vs VOO side-by-side from Vanguard's own pages, FINRA-quoted pricing and fee rules, a labeled 20-year fee illustration, and a nine-item fund document checklist.",
+  "plan": {
+    "reader_title": "Index Fund vs Mutual Fund: What Is the Real Difference?",
+    "seo_title": "Index Fund vs Mutual Fund: Fees, Strategy, Taxes, Trading",
+    "meta_description": "Index fund vs mutual fund explained: why strategy and structure differ, how fees, taxes, and NAV pricing work, and what 2026 fund data show.",
+    "slug": "/investing/index-fund-vs-mutual-fund/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "mutual fund vs index fund",
+      "index funds vs mutual funds",
+      "difference between index fund and mutual fund",
+      "passive vs active mutual fund"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "Definitions",
+      "Index vs active mutual funds",
+      "Pricing",
+      "Costs",
+      "Fee illustration",
+      "VFIAX and VOO",
+      "Active management",
+      "Tracking risk",
+      "Taxes",
+      "Decisions",
+      "Fund document checklist",
+      "FAQ",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Definitions and pricing: FINRA",
+      "Fund data: Vanguard VFIAX and VOO pages",
+      "Distributions: FINRA and IRS 1099-DIV instructions"
+    ],
+    "visuals": [
+      "Featured image supplied by owner",
+      "Comparison tables"
+    ],
+    "internal_links": [
+      "/investing/crypto-vs-stocks/",
+      "/investing/dividend-reinvestment-plan-calculator/",
+      "/investing/qualified-dividends/"
+    ],
+    "external_link_opportunities": [
+      "https://www.finra.org/investors/investing/investment-products/mutual-funds",
+      "https://investor.vanguard.com/investment-products/mutual-funds/profile/vfiax",
+      "https://investor.vanguard.com/investment-products/etfs/profile/voo"
+    ],
+    "excluded_claims": [
+      "ICI August 2026 index and active asset figures (source unreachable)",
+      "ICI mutual fund and ETF totals (source unreachable)",
+      "FXAIX expense ratio and minimum (page not verifiable)",
+      "Investor.gov definitions (source unreachable; FINRA used instead)"
+    ],
+    "drafting_cautions": [
+      "No fund recommendation",
+      "Label illustrations",
+      "Past returns do not predict future results"
+    ]
   },
-  {
-   "url": "https://investor.vanguard.com/investment-products/mutual-funds/profile/vfiax",
-   "title": "Vanguard 500 Index Fund Admiral Shares (VFIAX)",
-   "publisher": "Vanguard",
-   "source_type": "Fund company product page",
-   "year": "2026",
-   "published_at": "not stated",
-   "accessed_at": "2026-10-26",
-   "scope": "VFIAX expense ratio, minimum, strategy, YTD return, industry averages",
-   "method": "Fund page data",
-   "limitations": "Point-in-time figures",
-   "verified": true,
-   "verification_note": "Page data: expenseRatio 0.04% (as of 04/28/2026), investmentMinimum $3,000, ytdReturns 12.36% as of 10/23/2026; industry average mutual fund ER 0.50%, Vanguard 0.08%, ETF 0.23% and 0.04%, Vanguard and Morningstar as of 12/31/2025; 'industry's first index fund for individual investors'."
+  "claims": [
+    {
+      "statement": "Mutual funds calculate NAV once a day when markets close.",
+      "source_url": "https://www.finra.org/investors/investing/investment-products/mutual-funds",
+      "verified": true
+    },
+    {
+      "statement": "Index funds are passively managed and seek to replicate a benchmark.",
+      "source_url": "https://www.finra.org/investors/investing/investment-products/mutual-funds",
+      "verified": true
+    },
+    {
+      "statement": "VFIAX expense ratio 0.04% with $3,000 minimum.",
+      "source_url": "https://investor.vanguard.com/investment-products/mutual-funds/profile/vfiax",
+      "verified": true
+    },
+    {
+      "statement": "VOO is an ETF share class of Vanguard 500 Index Fund with a 0.03% expense ratio.",
+      "source_url": "https://investor.vanguard.com/investment-products/etfs/profile/voo",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-26",
+    "note": "Every figure checked on FINRA and Vanguard pages fetched 2026-10-26; unreachable ICI and Fidelity data removed.",
+    "notes": "Signed off by the site owner (Darlene Aberin) on 2026-10-26 after the AI QA layer, approving the QA changes and the keyword switches for S34 and S35."
   },
-  {
-   "url": "https://investor.vanguard.com/investment-products/etfs/profile/voo",
-   "title": "Vanguard S&P 500 ETF (VOO)",
-   "publisher": "Vanguard",
-   "source_type": "Fund company product page",
-   "year": "2026",
-   "published_at": "not stated",
-   "accessed_at": "2026-10-26",
-   "scope": "VOO expense ratio, minimum, ETF share class, YTD return",
-   "method": "Fund page data",
-   "limitations": "Point-in-time figures",
-   "verified": true,
-   "verification_note": "Page data: expenseRatio 0.03%, investmentMinimum $1.00, ytdReturns 12.37% as of 10/23/2026; 'exchange-traded share class of Vanguard 500 Index Fund'; ETF price can differ from NAV."
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-26",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "Signed off by the site owner (Darlene Aberin) on 2026-10-26 after the AI QA layer, approving the QA changes and the keyword switches for S34 and S35."
   },
-  {
-   "url": "https://www.irs.gov/instructions/i1099div",
-   "title": "Instructions for Form 1099-DIV",
-   "publisher": "Internal Revenue Service",
-   "source_type": "Federal tax instructions",
-   "year": "2026",
-   "published_at": "not stated",
-   "accessed_at": "2026-10-26",
-   "scope": "Box 2a capital gain distributions",
-   "method": "Official instructions",
-   "limitations": "Tax-year specific",
-   "verified": true,
-   "verification_note": "Box 2a: total capital gain distributions (long-term)."
+  "verification_log": {
+    "checked_on": "2026-10-26",
+    "summary": "FINRA and Vanguard pages fetched with curl on 2026-10-26; Ubersuggest US data and SERP retrieved 2026-10-26; five competitors read (financestrategists.com blocked, replaced by NerdWallet).",
+    "pending": "Owner sign-off."
   }
- ],
- "statistics": [
-  {
-   "claim": "VFIAX expense ratio 0.04%, minimum $3,000, YTD return 12.36% through October 23, 2026.",
-   "source_url": "https://investor.vanguard.com/investment-products/mutual-funds/profile/vfiax",
-   "data_year": "2026",
-   "geography": "United States",
-   "population": "Not applicable",
-   "sample": "Not applicable: full reported figure",
-   "denominator": "Not applicable",
-   "unit": "Percent; US dollars",
-   "method": "Vanguard published fund data",
-   "limitations": "Point in time; past returns",
-   "sponsored": false,
-   "partial_year": false,
-   "estimate": false,
-   "verified": true
-  },
-  {
-   "claim": "VOO expense ratio 0.03%, minimum $1.00, YTD return 12.37% through October 23, 2026.",
-   "source_url": "https://investor.vanguard.com/investment-products/etfs/profile/voo",
-   "data_year": "2026",
-   "geography": "United States",
-   "population": "Not applicable",
-   "sample": "Not applicable: full reported figure",
-   "denominator": "Not applicable",
-   "unit": "Percent; US dollars",
-   "method": "Vanguard published fund data",
-   "limitations": "Point in time; past returns",
-   "sponsored": false,
-   "partial_year": false,
-   "estimate": false,
-   "verified": true
-  },
-  {
-   "claim": "Asset-weighted industry average mutual fund expense ratio 0.50%; ETF 0.23%; Vanguard averages 0.08% and 0.04%, as of December 31, 2025.",
-   "source_url": "https://investor.vanguard.com/investment-products/mutual-funds/profile/vfiax",
-   "data_year": "2026",
-   "geography": "United States",
-   "population": "US mutual funds and ETFs",
-   "sample": "Not applicable: full reported figure",
-   "denominator": "Not applicable",
-   "unit": "Percent",
-   "method": "Vanguard and Morningstar asset-weighted averages",
-   "limitations": "Not split by index vs active; industry average excludes Vanguard",
-   "sponsored": false,
-   "partial_year": false,
-   "estimate": false,
-   "verified": true
-  },
-  {
-   "claim": "$10,000 at a hypothetical 6% gross return for 20 years ends at $31,830.17, $29,177.57, and $26,532.98 at 0.04%, 0.50%, and 1.00% expense ratios.",
-   "source_url": "https://investor.vanguard.com/investment-products/mutual-funds/profile/vfiax",
-   "data_year": "2026",
-   "geography": "United States",
-   "population": "Not applicable",
-   "sample": "Not applicable: full reported figure",
-   "denominator": "Not applicable",
-   "unit": "US dollars",
-   "method": "Fin Loom calculation: 10000 x (1.06 - ER)^20",
-   "limitations": "Hypothetical constant return; no taxes",
-   "sponsored": false,
-   "partial_year": false,
-   "estimate": true,
-   "verified": true
-  }
- ],
- "competitors": [
-  {
-   "title": "Index Funds vs ETFs vs Mutual Funds: How To Choose",
-   "url": "https://carry.com/learn/index-funds-vs-etfs-vs-mutual-funds",
-   "publisher": "carry.com",
-   "format": "Ranking page",
-   "updated_at": "not stated",
-   "headings": [
-    "Key Differences Between Mutual Funds, Index Funds, and ETFs",
-    "Costs and Fees",
-    "Minimum Investment Amounts",
-    "Which One Should You Choose?"
-   ],
-   "coverage": [
-    "Definitions",
-    "Fees",
-    "Minimums"
-   ],
-   "sources": [
-    "No primary data citations visible"
-   ],
-   "data_assets": [
-    "Comparison text"
-   ],
-   "link_patterns": [
-    "Internal product and article links"
-   ],
-   "trust_signals": [
-    "Publisher brand"
-   ],
-   "covered_well": "Three-way structure comparison",
-   "gaps": "No verified fund data or regulator citations"
-  },
-  {
-   "title": "What You Need to Know about Index Funds and Mutual Funds",
-   "url": "https://bftwealth.com/what-you-need-to-know-about-index-funds-and-mutual-funds/",
-   "publisher": "Barnett Financial & Tax",
-   "format": "Ranking page",
-   "updated_at": "not stated",
-   "headings": [
-    "The Breakdown of Index Funds",
-    "The Mutual Fund Difference"
-   ],
-   "coverage": [
-    "Definitions"
-   ],
-   "sources": [
-    "No primary data citations visible"
-   ],
-   "data_assets": [
-    "Comparison text"
-   ],
-   "link_patterns": [
-    "Internal product and article links"
-   ],
-   "trust_signals": [
-    "Publisher brand"
-   ],
-   "covered_well": "Plain definitions",
-   "gaps": "Short; no costs, pricing, or tax detail"
-  },
-  {
-   "title": "Index Funds Vs Mutual Funds: 5 Key Differences",
-   "url": "https://groww.in/blog/index-funds-vs-mutual-funds",
-   "publisher": "Groww",
-   "format": "Ranking page",
-   "updated_at": "not stated",
-   "headings": [
-    "What are Index Funds?",
-    "What are Actively Managed Mutual Funds?",
-    "Differences Between Index Funds and Actively Managed Funds",
-    "Management Cost",
-    "Transparency and Tax Efficiency"
-   ],
-   "coverage": [
-    "Active vs passive",
-    "Costs",
-    "Tax"
-   ],
-   "sources": [
-    "No primary data citations visible"
-   ],
-   "data_assets": [
-    "Comparison text"
-   ],
-   "link_patterns": [
-    "Internal product and article links"
-   ],
-   "trust_signals": [
-    "Publisher brand"
-   ],
-   "covered_well": "Active versus passive framing",
-   "gaps": "Indian market focus; not US rules"
-  },
-  {
-   "title": "5 Differences Between Index Funds and Mutual Funds",
-   "url": "https://www.businessinsider.com/differences-index-mutual-funds-finally-know-2024-10",
-   "publisher": "Business Insider",
-   "format": "Ranking page",
-   "updated_at": "not stated",
-   "headings": [
-    "1. An index fund can be a mutual fund",
-    "2. Index funds have lower expenses",
-    "5. Mutual funds experience capital gain distributions"
-   ],
-   "coverage": [
-    "Structure vs strategy",
-    "Fees",
-    "Distributions"
-   ],
-   "sources": [
-    "No primary data citations visible"
-   ],
-   "data_assets": [
-    "Comparison text"
-   ],
-   "link_patterns": [
-    "Internal product and article links"
-   ],
-   "trust_signals": [
-    "Publisher brand"
-   ],
-   "covered_well": "Notes an index fund can be a mutual fund",
-   "gaps": "No NAV pricing detail or worked cost example"
-  },
-  {
-   "title": "Index Fund vs. Mutual Fund",
-   "url": "https://www.nerdwallet.com/article/investing/index-funds-vs-mutual-funds",
-   "publisher": "NerdWallet",
-   "format": "Ranking page",
-   "updated_at": "not stated",
-   "headings": [
-    "Index fund vs. mutual fund at a glance",
-    "1. Passive vs. active management",
-    "2. Investment goals",
-    "3. Costs"
-   ],
-   "coverage": [
-    "Active vs passive",
-    "Costs"
-   ],
-   "sources": [
-    "No primary data citations visible"
-   ],
-   "data_assets": [
-    "Comparison text"
-   ],
-   "link_patterns": [
-    "Internal product and article links"
-   ],
-   "trust_signals": [
-    "Publisher brand"
-   ],
-   "covered_well": "Clear at-a-glance table",
-   "gaps": "No same-fund wrapper comparison; financestrategists.com result blocked and replaced by this ranking page"
-  }
- ],
- "content_gaps": [
-  "Few pages show one strategy in two wrappers with current fund data.",
-  "Most omit NAV end-of-day pricing mechanics and costs outside the expense ratio.",
-  "No worked fee-compounding illustration with labeled assumptions."
- ],
- "value_add": "VFIAX vs VOO side-by-side from Vanguard's own pages, FINRA-quoted pricing and fee rules, a labeled 20-year fee illustration, and a nine-item fund document checklist.",
- "plan": {
-  "reader_title": "Index Fund vs Mutual Fund: What Is the Real Difference?",
-  "seo_title": "Index Fund vs Mutual Fund: Fees, Strategy, Taxes, Trading",
-  "meta_description": "Index fund vs mutual fund explained: why strategy and structure differ, how fees, taxes, and NAV pricing work, and what 2026 fund data show.",
-  "slug": "/investing/index-fund-vs-mutual-fund/",
-  "search_intent": "Informational",
-  "secondary_keywords": [
-   "mutual fund vs index fund",
-   "index funds vs mutual funds",
-   "difference between index fund and mutual fund",
-   "passive vs active mutual fund"
-  ],
-  "outline": [
-   "Key Takeaways",
-   "Definitions",
-   "Index vs active mutual funds",
-   "Pricing",
-   "Costs",
-   "Fee illustration",
-   "VFIAX and VOO",
-   "Active management",
-   "Tracking risk",
-   "Taxes",
-   "Decisions",
-   "Fund document checklist",
-   "FAQ",
-   "Resources"
-  ],
-  "evidence_map": [
-   "Definitions and pricing: FINRA",
-   "Fund data: Vanguard VFIAX and VOO pages",
-   "Distributions: FINRA and IRS 1099-DIV instructions"
-  ],
-  "visuals": [
-   "Featured image supplied by owner",
-   "Comparison tables"
-  ],
-  "internal_links": [
-   "/investing/crypto-vs-stocks/",
-   "/investing/dividend-reinvestment-plan-calculator/",
-   "/investing/qualified-dividends/"
-  ],
-  "external_link_opportunities": [
-   "https://www.finra.org/investors/investing/investment-products/mutual-funds",
-   "https://investor.vanguard.com/investment-products/mutual-funds/profile/vfiax",
-   "https://investor.vanguard.com/investment-products/etfs/profile/voo"
-  ],
-  "excluded_claims": [
-   "ICI August 2026 index and active asset figures (source unreachable)",
-   "ICI mutual fund and ETF totals (source unreachable)",
-   "FXAIX expense ratio and minimum (page not verifiable)",
-   "Investor.gov definitions (source unreachable; FINRA used instead)"
-  ],
-  "drafting_cautions": [
-   "No fund recommendation",
-   "Label illustrations",
-   "Past returns do not predict future results"
-  ]
- },
- "claims": [
-  {
-   "statement": "Mutual funds calculate NAV once a day when markets close.",
-   "source_url": "https://www.finra.org/investors/investing/investment-products/mutual-funds",
-   "verified": true
-  },
-  {
-   "statement": "Index funds are passively managed and seek to replicate a benchmark.",
-   "source_url": "https://www.finra.org/investors/investing/investment-products/mutual-funds",
-   "verified": true
-  },
-  {
-   "statement": "VFIAX expense ratio 0.04% with $3,000 minimum.",
-   "source_url": "https://investor.vanguard.com/investment-products/mutual-funds/profile/vfiax",
-   "verified": true
-  },
-  {
-   "statement": "VOO is an ETF share class of Vanguard 500 Index Fund with a 0.03% expense ratio.",
-   "source_url": "https://investor.vanguard.com/investment-products/etfs/profile/voo",
-   "verified": true
-  }
- ],
- "fact_check": {
-  "completed": true,
-  "reviewer": "AI QA layer (pending owner sign-off)",
-  "reviewed_at": "2026-10-26",
-  "note": "Every figure checked on FINRA and Vanguard pages fetched 2026-10-26; unreachable ICI and Fidelity data removed."
- },
- "qa": {
-  "completed": true,
-  "reviewer": "AI QA layer (pending owner sign-off)",
-  "reviewed_at": "2026-10-26",
-  "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance."
- },
- "verification_log": {
-  "checked_on": "2026-10-26",
-  "summary": "FINRA and Vanguard pages fetched with curl on 2026-10-26; Ubersuggest US data and SERP retrieved 2026-10-26; five competitors read (financestrategists.com blocked, replaced by NerdWallet).",
-  "pending": "Owner sign-off."
- }
 }

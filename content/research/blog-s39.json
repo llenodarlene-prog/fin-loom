@@ -482,15 +482,17 @@
   ],
   "fact_check": {
     "completed": true,
-    "reviewer": "AI QA layer (pending owner sign-off)",
+    "reviewer": "Darlene Aberin",
     "reviewed_at": "2026-10-26",
-    "note": "Payouts checked against company releases; Oct 23 closes from Yahoo Finance daily data; every yield recomputed. Updated Pfizer 352nd dividend and raised guidance, Realty Income Q2 AFFO 74.5% and 676th monthly dividend. Removed unverified UPS country count."
+    "note": "Payouts checked against company releases; Oct 23 closes from Yahoo Finance daily data; every yield recomputed. Updated Pfizer 352nd dividend and raised guidance, Realty Income Q2 AFFO 74.5% and 676th monthly dividend. Removed unverified UPS country count.",
+    "notes": "Signed off by the site owner (Darlene Aberin) on 2026-10-26 after the AI QA layer, approving the QA changes and the keyword switches for S34 and S35."
   },
   "qa": {
     "completed": true,
-    "reviewer": "AI QA layer (pending owner sign-off)",
+    "reviewer": "Darlene Aberin",
     "reviewed_at": "2026-10-26",
-    "note": "Editorial QA SOP applied: direct answer in intro, no recommendation language, calculations labeled, structure and tax differences explained."
+    "note": "Editorial QA SOP applied: direct answer in intro, no recommendation language, calculations labeled, structure and tax differences explained.",
+    "notes": "Signed off by the site owner (Darlene Aberin) on 2026-10-26 after the AI QA layer, approving the QA changes and the keyword switches for S34 and S35."
   },
   "verification_log": {
     "checked_on": "2026-10-26",

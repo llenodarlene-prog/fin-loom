@@ -5,7 +5,7 @@ description: Index fund vs mutual fund explained: why strategy and structure dif
 slug: /investing/index-fund-vs-mutual-fund/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S38
 primary_keyword: index fund vs mutual fund
 secondary_keywords: mutual fund vs index fund; index funds vs mutual funds; difference between index fund and mutual fund; passive vs active mutual fund

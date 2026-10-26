@@ -5,7 +5,7 @@ description: Use this dividend reinvestment plan calculator to see how reinveste
 slug: /investing/dividend-reinvestment-plan-calculator/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S36
 primary_keyword: dividend reinvestment plan calculator
 secondary_keywords: DRIP calculator; dividend reinvestment calculator; dividend calculator with reinvestment; dividend compounding calculator

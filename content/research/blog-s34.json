@@ -464,15 +464,17 @@
   ],
   "fact_check": {
     "completed": true,
-    "reviewer": "AI QA layer (pending owner sign-off)",
+    "reviewer": "Darlene Aberin",
     "reviewed_at": "2026-10-26",
-    "note": "Every figure checked on Federal Reserve and CFPB primary pages on 2026-10-26; 2025 total recomputed from monthly rows."
+    "note": "Every figure checked on Federal Reserve and CFPB primary pages on 2026-10-26; 2025 total recomputed from monthly rows.",
+    "notes": "Signed off by the site owner (Darlene Aberin) on 2026-10-26 after the AI QA layer, approving the QA changes and the keyword switches for S34 and S35."
   },
   "qa": {
     "completed": true,
-    "reviewer": "AI QA layer (pending owner sign-off)",
+    "reviewer": "Darlene Aberin",
     "reviewed_at": "2026-10-26",
-    "note": "Editorial QA SOP applied; keyword switch to 'what is a wire transfer' pending owner approval."
+    "note": "Editorial QA SOP applied; keyword switch to 'what is a wire transfer' approved by the owner on 2026-10-26.",
+    "notes": "Signed off by the site owner (Darlene Aberin) on 2026-10-26 after the AI QA layer, approving the QA changes and the keyword switches for S34 and S35."
   },
   "verification_log": {
     "checked_on": "2026-10-26",

@@ -5,7 +5,7 @@ description: The U.S. inflation rate year by year from 2000 to 2025, plus the Se
 slug: /money-banking/inflation-rate-by-year/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S41
 primary_keyword: inflation rate year by year
 secondary_keywords: US inflation rate by year; historical inflation rates; CPI by year; inflation history

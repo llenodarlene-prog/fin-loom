@@ -5,7 +5,7 @@ description: ACH vs wire transfer compared: speed, cost, settlement, reversibili
 slug: /payments/ach-vs-wire-transfer/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S33
 primary_keyword: ach vs wire transfer
 secondary_keywords: wire transfer vs ACH; ACH transfer vs wire transfer; difference between ACH and wire transfer; ACH vs bank wire

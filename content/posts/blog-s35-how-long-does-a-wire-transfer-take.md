@@ -5,7 +5,7 @@ description: How long does a wire transfer take? Domestic wires often arrive the
 slug: /payments/how-long-does-a-wire-transfer-take/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S35
 primary_keyword: how long does a wire transfer take
 secondary_keywords: how long does a wire transfer take to go through; domestic wire transfer time; international wire transfer time; wire transfer pending

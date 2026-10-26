@@ -5,7 +5,7 @@ description: Six large-cap highest yield dividend stocks compared using October 
 slug: /markets-stocks/highest-yield-dividend-stocks/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S39
 primary_keyword: highest yield dividend stocks
 secondary_keywords: high yield dividend stocks; highest dividend yield stocks; high dividend stocks; dividend income stocks

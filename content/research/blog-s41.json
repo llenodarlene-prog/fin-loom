@@ -421,15 +421,17 @@
   ],
   "fact_check": {
     "completed": true,
-    "reviewer": "AI QA layer (pending owner sign-off)",
+    "reviewer": "Darlene Aberin",
     "reviewed_at": "2026-10-26",
-    "note": "Final AI QA layer: every annual rate recomputed from FRED CPIAUCNS; 2026 components cross-checked against FRED component series; unverifiable BLS wording warning removed; links to nonexistent Fin Loom pages removed."
+    "note": "Final AI QA layer: every annual rate recomputed from FRED CPIAUCNS; 2026 components cross-checked against FRED component series; unverifiable BLS wording warning removed; links to nonexistent Fin Loom pages removed.",
+    "notes": "Signed off by the site owner (Darlene Aberin) on 2026-10-26 after the AI QA layer, approving the QA changes and the keyword switches for S34 and S35."
   },
   "qa": {
     "completed": true,
-    "reviewer": "AI QA layer (pending owner sign-off)",
+    "reviewer": "Darlene Aberin",
     "reviewed_at": "2026-10-26",
-    "note": "Editorial QA SOP applied: direct answer in intro, title promise met with table, added value via 2026 monthly path and method, link test passed. Status PASS pending owner sign-off."
+    "note": "Editorial QA SOP applied: direct answer in intro, title promise met with table, added value via 2026 monthly path and method, link test passed. Status PASS approved by the owner on 2026-10-26.",
+    "notes": "Signed off by the site owner (Darlene Aberin) on 2026-10-26 after the AI QA layer, approving the QA changes and the keyword switches for S34 and S35."
   },
   "verification_log": {
     "checked_on": "2026-10-26",
