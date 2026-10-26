@@ -5,7 +5,7 @@ description: What is a wire transfer? Learn how domestic and international wires
 slug: /payments/what-is-a-wire-transfer/
 type: blog
 schema: BlogPosting
-draft: false
+draft: true
 tracker_id: Blog:S34
 primary_keyword: what is a wire transfer
 secondary_keywords: wire transfer what is it; how does a wire transfer work; bank wire transfer; wire transfer meaning

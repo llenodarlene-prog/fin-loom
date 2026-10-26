@@ -1,0 +1,500 @@
+{
+  "tracker_id": "Blog:S39",
+  "status": "verified",
+  "research_question": "Which large-cap U.S.-listed income stocks had the highest indicated dividend yields in late October 2026, and what supports or threatens each payout?",
+  "research_brief": {
+    "purpose": "Compare six large-cap high-yield income names using one pricing date and verified payouts, with the risk behind each yield.",
+    "audience": "Income-focused readers comparing high-yield stocks.",
+    "publication_year": "2026",
+    "data_period": "Payouts declared through October 22, 2026; prices are October 23, 2026 closes; results are Q2 2026.",
+    "scope_limitations": "Six selected large caps, not a full-market screen; yields are point-in-time Fin Loom calculations; no recommendation."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "highest yield dividend stocks",
+    "intent": "Informational",
+    "serp_checked_at": "2026-10-26",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-26",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "highest yield dividend stocks",
+        "type": "short-tail",
+        "volume": 22200,
+        "difficulty": 13,
+        "cpc": 2.01,
+        "intent": "Informational",
+        "ranking_url": "https://www.morningstar.com/stocks/10-top-performing-dividend-stocks-2025",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "high yield dividend stocks",
+        "type": "long-tail",
+        "volume": 27100,
+        "difficulty": 61,
+        "cpc": 3.29,
+        "intent": "Informational",
+        "ranking_url": "https://www.marketbeat.com/dividends/high-yield/",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best dividend stocks to buy",
+        "type": "commercial",
+        "volume": 1300,
+        "difficulty": 60,
+        "cpc": 2.22,
+        "intent": "Commercial",
+        "ranking_url": "https://www.fool.com/investing/stock-market/types-of-stocks/dividend-stocks/",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "highest dividend yield stocks",
+        "type": "problem",
+        "volume": 22200,
+        "difficulty": 63,
+        "cpc": 2.86,
+        "intent": "Informational",
+        "ranking_url": "https://public.com/markets/highest-dividend-yield",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "is a high dividend yield good",
+        "type": "question",
+        "volume": 70,
+        "difficulty": 70,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.marketbeat.com/dividends/high-yield/",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      }
+    ],
+    "historical_note": "Owner draft listed Ubersuggest US volume 22,200 and SD 13; reconfirmed 2026-10-26. SERP collected 2026-10-25."
+  },
+  "sources": [
+    {
+      "url": "https://www.verizon.com/about/investors/dividend-history",
+      "title": "Dividend History",
+      "publisher": "Verizon",
+      "source_type": "Company investor page",
+      "year": "2026",
+      "published_at": "2026-09-09",
+      "accessed_at": "2026-10-26",
+      "scope": "Verizon dividend declarations",
+      "method": "Company release or investor page",
+      "limitations": "Company statement; figures change with later declarations",
+      "verified": true,
+      "verification_note": "Shows $0.7075 declared 09/09/2026, payable 11/02/2026, and the same rate in prior 2026 quarters (fetched)."
+    },
+    {
+      "url": "https://www.financialcontent.com/article/bizwire-2026-8-27-altria-increases-quarterly-dividend-to-111-per-share",
+      "title": "Altria Increases Quarterly Dividend to $1.11 Per Share",
+      "publisher": "Altria via Business Wire",
+      "source_type": "Company press release",
+      "year": "2026",
+      "published_at": "2026-08-27",
+      "accessed_at": "2026-10-26",
+      "scope": "Altria dividend increase",
+      "method": "Company release or investor page",
+      "limitations": "Company statement; figures change with later declarations",
+      "verified": true,
+      "verification_note": "Raised 4.7% to $1.11 from $1.06; $4.44 annualized; 6.4% yield at $69.12 on Aug 26; 61st increase in 57 years; mid-single-digit growth goal through 2028 (fetched)."
+    },
+    {
+      "url": "https://www.realtyincome.com/sites/realty-income/files/09%2008%2026%20136th%20Common%20Stock%20Monthly%20Dividend%20Increase%20Declared%20by%20Realty%20Income.pdf",
+      "title": "136th Common Stock Monthly Dividend Increase Declared by Realty Income",
+      "publisher": "Realty Income",
+      "source_type": "Company press release",
+      "year": "2026",
+      "published_at": "2026-09-08",
+      "accessed_at": "2026-10-26",
+      "scope": "Realty Income dividend",
+      "method": "Company release or investor page",
+      "limitations": "Company statement; figures change with later declarations",
+      "verified": true,
+      "verification_note": "$0.2715 monthly, $3.258 annualized, 136th increase since 1994 listing, over 15,500 properties as of June 30, 2026 (fetched PDF)."
+    },
+    {
+      "url": "https://finviz.com/news/402015/realty-income-announces-676th-consecutive-common-stock-monthly-dividend",
+      "title": "Realty Income Announces 676th Consecutive Common Stock Monthly Dividend",
+      "publisher": "Realty Income via PR Newswire",
+      "source_type": "Company press release",
+      "year": "2026",
+      "published_at": "2026-10-13",
+      "accessed_at": "2026-10-26",
+      "scope": "Monthly dividend count",
+      "method": "Company release or investor page",
+      "limitations": "Company statement; figures change with later declarations",
+      "verified": true,
+      "verification_note": "676th consecutive monthly dividend, payable Nov 13 to holders of record Oct 30 (fetched)."
+    },
+    {
+      "url": "https://ir.energytransfer.com/news-releases/news-release-details/energy-transfer-announces-twentieth-consecutive-increase",
+      "title": "Energy Transfer Announces Twentieth Consecutive Increase in Quarterly Cash Distribution",
+      "publisher": "Energy Transfer",
+      "source_type": "Company press release",
+      "year": "2026",
+      "published_at": "2026-10-22",
+      "accessed_at": "2026-10-26",
+      "scope": "ET distribution",
+      "method": "Company release or investor page",
+      "limitations": "Company statement; figures change with later declarations",
+      "verified": true,
+      "verification_note": "$0.3425 per unit, $1.37 annualized, paid Nov 19 to holders of record Nov 6; more than 3% above Q3 2025 (company page and reprints via search; site blocks automated fetch)."
+    },
+    {
+      "url": "https://www.biospace.com/press-releases/pfizer-declares-fourth-quarter-2026-dividend",
+      "title": "Pfizer Declares Fourth-Quarter 2026 Dividend",
+      "publisher": "Pfizer via BioSpace",
+      "source_type": "Company press release",
+      "year": "2026",
+      "published_at": "2026-10-06",
+      "accessed_at": "2026-10-26",
+      "scope": "Pfizer dividend",
+      "method": "Company release or investor page",
+      "limitations": "Company statement; figures change with later declarations",
+      "verified": true,
+      "verification_note": "$0.43 per share payable Dec 7 to holders of record Nov 6; 352nd consecutive quarterly dividend (fetched)."
+    },
+    {
+      "url": "https://investors.ups.com/quarterly-earnings-and-financials/dividends",
+      "title": "Dividends",
+      "publisher": "UPS",
+      "source_type": "Company investor page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "UPS dividends",
+      "method": "Company release or investor page",
+      "limitations": "Company statement; figures change with later declarations",
+      "verified": true,
+      "verification_note": "$1.64 quarterly dividend declared Aug 5, 2026, payable Sep 3 (confirmed with Business Wire release and Q2 2026 earnings exhibit)."
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Altria's annualized dividend is $4.44 after a 4.7% increase to $1.11 per quarter; indicated yield about 5.97% at the $74.31 Oct 23 close.",
+      "source_url": "https://www.financialcontent.com/article/bizwire-2026-8-27-altria-increases-quarterly-dividend-to-111-per-share",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Altria common stock",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "October 23, 2026 closing price",
+      "unit": "US dollars; percent",
+      "method": "Company release; yield is a Fin Loom calculation",
+      "limitations": "Point-in-time; payout not guaranteed",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Realty Income's annualized dividend is $3.258; indicated yield about 5.73% at the $56.89 Oct 23 close.",
+      "source_url": "https://www.realtyincome.com/sites/realty-income/files/09%2008%2026%20136th%20Common%20Stock%20Monthly%20Dividend%20Increase%20Declared%20by%20Realty%20Income.pdf",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Realty Income common stock",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "October 23, 2026 closing price",
+      "unit": "US dollars; percent",
+      "method": "Company release; yield is a Fin Loom calculation",
+      "limitations": "Point-in-time; payout not guaranteed",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Verizon's quarterly dividend is $0.7075, $2.83 annualized; indicated yield about 6.34% at the $44.66 Oct 23 close.",
+      "source_url": "https://www.verizon.com/about/investors/dividend-history",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Verizon common stock",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "October 23, 2026 closing price",
+      "unit": "US dollars; percent",
+      "method": "Company page; yield is a Fin Loom calculation",
+      "limitations": "Point-in-time; payout not guaranteed",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "High-Yield Dividend Stocks",
+      "url": "https://www.marketbeat.com/dividends/high-yield/",
+      "publisher": "marketbeat.com",
+      "format": "Ranking page",
+      "updated_at": "2026-10-26",
+      "headings": [
+        "High Yield Dividend Stocks",
+        "Why Invest in High-Yield Dividend Stocks?",
+        "What is a High-Yielding Dividend Stock?",
+        "How to Use Fundamentals to Find the Highest-Yielding Dividend Stocks",
+        "Pros and Cons of High-Yielding Dividend Stocks",
+        "FAQs"
+      ],
+      "coverage": [
+        "Screener table",
+        "Definitions",
+        "Pros and cons"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text",
+        "Tables"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Large live screener and basic definitions.",
+      "gaps": "Raw yield ranking with no per-company payout verification or structure and tax differences."
+    },
+    {
+      "title": "Highest Dividend Yield Stocks",
+      "url": "https://public.com/markets/highest-dividend-yield",
+      "publisher": "public.com",
+      "format": "Ranking page",
+      "updated_at": "not stated",
+      "headings": [
+        "Highest Dividend Yield",
+        "Invest in stocks and more on Public"
+      ],
+      "coverage": [
+        "Ranked list"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text",
+        "Tables"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Simple ranked list.",
+      "gaps": "No explanation of why yields are high or what risks sit behind them."
+    },
+    {
+      "title": "20 Best High-Yield Dividend Stocks for 2026 and How to Invest",
+      "url": "https://www.fool.com/investing/stock-market/types-of-stocks/dividend-stocks/high-yield-dividend-stocks/",
+      "publisher": "fool.com",
+      "format": "Ranking page",
+      "updated_at": "2026-10-02",
+      "headings": [
+        "20 Best High-Yield Dividend Stocks for 2026 and How to Invest",
+        "Key Points",
+        "1. AbbVie",
+        "4. Brookfield Renewable",
+        "7. Chevron",
+        "20 top high-yield dividend stocks for 2026"
+      ],
+      "coverage": [
+        "Stock list",
+        "Brief company notes"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text",
+        "Tables"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Broad list with short company profiles.",
+      "gaps": "Framed as buy ideas; yields not tied to one stated pricing date."
+    },
+    {
+      "title": "9 Best Dividend Stocks to Buy and Hold for October 2026",
+      "url": "https://www.fool.com/investing/stock-market/types-of-stocks/dividend-stocks/",
+      "publisher": "fool.com",
+      "format": "Ranking page",
+      "updated_at": "2026-04-17",
+      "headings": [
+        "9 Best Dividend Stocks to Buy and Hold for October 2026",
+        "Key Points",
+        "Nine top dividend stocks to consider",
+        "Key data points"
+      ],
+      "coverage": [
+        "Stock list",
+        "Data points"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text",
+        "Tables"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Clear data points per company.",
+      "gaps": "Recommendation framing; little on payout coverage metrics such as AFFO."
+    },
+    {
+      "title": "Find the Best Dividend Stocks with DividendInvestor.com",
+      "url": "https://www.dividendinvestor.com/",
+      "publisher": "dividendinvestor.com",
+      "format": "Ranking page",
+      "updated_at": "2022-03-16",
+      "headings": [
+        "Find the Best Dividend Stocks with DividendInvestor.com",
+        "Top Dividend Articles",
+        "Dividend Investing Tools",
+        "Dividend Screener",
+        "Dividend Scorecards"
+      ],
+      "coverage": [
+        "Tools",
+        "Articles"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text",
+        "Tables"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Tool directory and screeners.",
+      "gaps": "Generic portal; no current company-level analysis."
+    }
+  ],
+  "content_gaps": [
+    "Ranking pages sort by yield without checking the latest declared payout at the company.",
+    "Few explain how structure (MLP, REIT, corporation) changes tax and coverage measures.",
+    "Few show how the same dividend produces different yields as the price moves."
+  ],
+  "value_add": "Every payout checked against company releases, one pricing date for all yields, structure-specific coverage measures (AFFO, DCF, FCF), and a worked example of yield moving with price.",
+  "plan": {
+    "reader_title": "Highest Yield Dividend Stocks: 6 Large-Cap Income Names and Their Risks",
+    "seo_title": "Highest Yield Dividend Stocks: 6 Large-Caps Compared",
+    "meta_description": "Six large-cap highest yield dividend stocks compared using October 23, 2026 prices, declared payouts, cash flow, debt, and payout risks. Not a recommendation.",
+    "slug": "/markets-stocks/highest-yield-dividend-stocks/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "high yield dividend stocks",
+      "highest dividend yield stocks",
+      "high dividend stocks",
+      "dividend income stocks"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "Six Large-Cap Income Names Compared",
+      "1. Energy Transfer",
+      "2. UPS",
+      "3. Verizon",
+      "4. Altria",
+      "5. Pfizer",
+      "6. Realty Income",
+      "Why This List Is Not Ranked Only by Yield",
+      "How Market Conditions Change Dividend Yields",
+      "The Tax Structure Changes the Comparison",
+      "What to Check When Evaluating a High-Yield Stock",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Verizon dividend history: $0.7075 declared Sep 9, 2026.",
+      "Altria release: $1.11, $4.44, 61st increase in 57 years.",
+      "Realty Income release: $3.258 annualized, 136th increase, 15,500+ properties.",
+      "Realty Income Oct 13 release: 676th monthly dividend.",
+      "Energy Transfer Oct 22 release: $0.3425, $1.37 annualized.",
+      "Pfizer Oct 6 release: $0.43, 352nd consecutive dividend."
+    ],
+    "visuals": [
+      "Owner-supplied hero image (AI-generated)",
+      "Comparison table"
+    ],
+    "internal_links": [
+      "/investing/qualified-dividends/",
+      "/markets-stocks/bear-vs-bull-market/",
+      "/markets-stocks/stock-analysis-fundamentals/"
+    ],
+    "external_link_opportunities": [
+      "Verizon dividend history",
+      "Altria dividend release",
+      "Realty Income dividend release"
+    ],
+    "excluded_claims": [
+      "UPS serves more than 200 countries and territories (not verified from a primary page; removed)",
+      "Pfizer 351st dividend (updated to 352nd)",
+      "Realty Income Q1 71.7% AFFO payout (updated to Q2 74.5%)",
+      "Pfizer original revenue guidance (updated to raised Aug 4 guidance)"
+    ],
+    "drafting_cautions": [
+      "No buy, sell, or hold language",
+      "Label every yield a Fin Loom calculation from the Oct 23 close",
+      "Use 'if maintained' for annualized payouts"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Verizon declared a $0.7075 quarterly dividend on September 9, 2026.",
+      "source_url": "https://www.verizon.com/about/investors/dividend-history",
+      "verified": true
+    },
+    {
+      "statement": "Altria raised its quarterly dividend 4.7% to $1.11 on August 27, 2026.",
+      "source_url": "https://www.financialcontent.com/article/bizwire-2026-8-27-altria-increases-quarterly-dividend-to-111-per-share",
+      "verified": true
+    },
+    {
+      "statement": "Realty Income raised its monthly dividend to an annualized $3.258 on September 8, 2026.",
+      "source_url": "https://www.realtyincome.com/sites/realty-income/files/09%2008%2026%20136th%20Common%20Stock%20Monthly%20Dividend%20Increase%20Declared%20by%20Realty%20Income.pdf",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "AI QA layer (pending owner sign-off)",
+    "reviewed_at": "2026-10-26",
+    "note": "Payouts checked against company releases; Oct 23 closes from Yahoo Finance daily data; every yield recomputed. Updated Pfizer 352nd dividend and raised guidance, Realty Income Q2 AFFO 74.5% and 676th monthly dividend. Removed unverified UPS country count."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "AI QA layer (pending owner sign-off)",
+    "reviewed_at": "2026-10-26",
+    "note": "Editorial QA SOP applied: direct answer in intro, no recommendation language, calculations labeled, structure and tax differences explained."
+  },
+  "verification_log": {
+    "checked_on": "2026-10-26",
+    "summary": "Final AI QA layer (2026-10-26). Fetched Verizon, Altria (Business Wire copy), Realty Income PDF and Oct 13 release, Pfizer release (BioSpace). Energy Transfer, UPS, Verizon and Pfizer Q2 figures confirmed via company releases and SEC exhibits in the fact-check pass. Ubersuggest US data retrieved 2026-10-26; five competitor pages read.",
+    "pending": "Owner sign-off."
+  }
+}
