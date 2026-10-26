@@ -1,0 +1,405 @@
+{
+  "tracker_id": "Blog:S41",
+  "status": "verified",
+  "research_question": "What was the U.S. inflation rate each year from 2000 to 2025, and what does the 2026 CPI data show so far?",
+  "research_brief": {
+    "purpose": "Year-by-year CPI-U inflation reference with the latest 2026 readings and method explained.",
+    "audience": "Readers comparing current inflation with history.",
+    "publication_year": "2026",
+    "data_period": "Annual averages 1973-2025 and monthly CPI-U through September 2026, FRED CPIAUCNS retrieved 2026-10-26.",
+    "scope_limitations": "National CPI-U only; 2025 average rests on 11 months; 2026 annual figure not yet available."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "inflation rate year by year",
+    "intent": "Informational",
+    "serp_checked_at": "2026-10-26",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-26",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "inflation rate year by year",
+        "type": "short-tail",
+        "volume": 14800,
+        "difficulty": 10,
+        "cpc": 1.745,
+        "intent": "Informational",
+        "ranking_url": "https://www.clevelandfed.org/center-for-inflation-research/inflation-charting",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "inflation rate by year",
+        "type": "long-tail",
+        "volume": 12100,
+        "difficulty": 73,
+        "cpc": 5.47,
+        "intent": "Informational",
+        "ranking_url": "https://www.usinflationcalculator.com/inflation/historical-inflation-rates/",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "us inflation rate by year",
+        "type": "long-tail",
+        "volume": 9900,
+        "difficulty": 73,
+        "cpc": 2.78,
+        "intent": "Informational",
+        "ranking_url": "https://www.usinflationcalculator.com/inflation/historical-inflation-rates/",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "historical inflation rates",
+        "type": "commercial",
+        "volume": 2900,
+        "difficulty": 71,
+        "cpc": 6.22,
+        "intent": "Informational",
+        "ranking_url": "https://www.stlouisfed.org/publications/regional-economist/second-quarter-2017/a-short-history-of-prices-inflation-since-founding-of-us",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what was the inflation rate in 2025",
+        "type": "question",
+        "volume": 880,
+        "difficulty": 75,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.us-debt-clock.com/inflation",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      }
+    ],
+    "historical_note": "Owner draft cited Ubersuggest 14,800 / SD 10; re-retrieved and confirmed 2026-10-26."
+  },
+  "sources": [
+    {
+      "url": "https://fred.stlouisfed.org/series/CPIAUCNS",
+      "title": "Consumer Price Index for All Urban Consumers: All Items in U.S. City Average (CPIAUCNS)",
+      "publisher": "Federal Reserve Bank of St. Louis (FRED), source U.S. Bureau of Labor Statistics",
+      "source_type": "Official statistics",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "Monthly CPI-U index, 1913 to September 2026",
+      "method": "Official statistics",
+      "limitations": "Not seasonally adjusted",
+      "verified": true,
+      "verification_note": "CSV retrieved 2026-10-26; annual averages recomputed and match BLS published rates for 2000-2025 (2007 and 1974 on rounding edge); September 2026 index 336.940 vs 324.800 = 3.7%; no October 2025 observation."
+    },
+    {
+      "url": "https://www.bls.gov/news.release/archives/cpi_10142026.htm",
+      "title": "Consumer Price Index, September 2026",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "source_type": "Official statistics",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "September 2026 CPI release",
+      "method": "Official statistics",
+      "limitations": "Single month",
+      "verified": true,
+      "verification_note": "Page returns 403 to automated fetch; figures (0.6% m/m SA, 3.7% y/y, core 2.6%, energy 20.4%, food 2.5%, shelter 3.2%, gasoline +9.1% over half of increase, Nov 10 release) confirmed from release excerpts and cross-checked against FRED series CPIAUCSL, CPILFENS, CPIENGNS, CPIUFDNS, CUUR0000SAH1, CUSR0000SETB01."
+    },
+    {
+      "url": "https://www.bls.gov/cpi/factsheets/calculating-percent-changes.htm",
+      "title": "Calculating Percent Changes in the CPI",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "source_type": "Methodology",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "Annual average and percent change method",
+      "method": "Official statistics",
+      "limitations": "Method note",
+      "verified": true,
+      "verification_note": "Page returns 403 to automated fetch; annual average as mean of monthly indexes confirmed from BLS excerpt."
+    },
+    {
+      "url": "https://www.federalreserve.gov/faqs/economy_14400.htm",
+      "title": "Why does the Federal Reserve aim for inflation of 2 percent over the longer run?",
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "source_type": "Agency guidance",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "Fed inflation goal",
+      "method": "Agency guidance",
+      "limitations": "General guidance",
+      "verified": true,
+      "verification_note": "Quoted: 2 percent over the longer run, as measured by the annual change in the price index for personal consumption expenditures."
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Annual-average CPI-U inflation was 2.6% in 2025, 2.9% in 2024, 4.1% in 2023, 8.0% in 2022.",
+      "source_url": "https://fred.stlouisfed.org/series/CPIAUCNS",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Urban consumers (CPI-U)",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Prior-year annual average CPI-U",
+      "unit": "Percent",
+      "method": "Fin Loom recomputation of BLS annual averages from FRED monthly data",
+      "limitations": "2025 rests on 11 months",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "September 2026 CPI-U was 3.7% above September 2025.",
+      "source_url": "https://www.bls.gov/news.release/archives/cpi_10142026.htm",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Urban consumers (CPI-U)",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "September 2025 CPI-U",
+      "unit": "Percent",
+      "method": "BLS release; checked against FRED",
+      "limitations": "Single month, not an annual rate",
+      "sponsored": false,
+      "partial_year": true,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Inflation Charting",
+      "url": "https://www.clevelandfed.org/center-for-inflation-research/inflation-charting",
+      "publisher": "clevelandfed.org",
+      "format": "Ranking page",
+      "updated_at": "not stated",
+      "headings": [
+        "Inflation Charting",
+        "Revisions and special notices"
+      ],
+      "coverage": [
+        "Data",
+        "Definition"
+      ],
+      "sources": [
+        "BLS"
+      ],
+      "data_assets": [
+        "Text",
+        "Table or chart"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Interactive charts of several measures.",
+      "gaps": "No year-by-year table or plain-language method."
+    },
+    {
+      "title": "A Short History of Prices, Inflation since the Founding of the U.S.",
+      "url": "https://www.stlouisfed.org/publications/regional-economist/second-quarter-2017/a-short-history-of-prices-inflation-since-founding-of-us",
+      "publisher": "stlouisfed.org",
+      "format": "Ranking page",
+      "updated_at": "2017",
+      "headings": [
+        "A Short History of Prices, Inflation since the Founding of the U.S.",
+        "Price Levels from the Beginning",
+        "A Look at Inflation",
+        "Measuring Volatility",
+        "The Basics of a Gold Standard"
+      ],
+      "coverage": [
+        "Data",
+        "Definition"
+      ],
+      "sources": [
+        "BLS"
+      ],
+      "data_assets": [
+        "Text",
+        "Table or chart"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Long-run history and volatility.",
+      "gaps": "Ends in 2017; no recent years."
+    },
+    {
+      "title": "U.S. Inflation Rates by Year: Historical Data (1914–2026)",
+      "url": "https://www.usinflationcalculator.com/inflation/historical-inflation-rates/",
+      "publisher": "usinflationcalculator.com",
+      "format": "Ranking page",
+      "updated_at": "2026-10-14",
+      "headings": [
+        "U.S. Inflation Rates by Year: Historical Data (1914–2026)",
+        "U.S. Inflation Rate by Year (1914-2026) — Historical Data",
+        "Inflation Rate 3.7%",
+        "Consumer Price Index (CPI) 336.940"
+      ],
+      "coverage": [
+        "Data",
+        "Definition"
+      ],
+      "sources": [
+        "BLS"
+      ],
+      "data_assets": [
+        "Text",
+        "Table or chart"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Long monthly table.",
+      "gaps": "Little explanation of annual-average vs 12-month or the missing October 2025 data."
+    },
+    {
+      "title": "Inflation Calculator: How Much Has Your Dollar Lost? (2026)",
+      "url": "https://www.us-debt-clock.com/inflation",
+      "publisher": "us-debt-clock.com",
+      "format": "Ranking page",
+      "updated_at": "2026-10-23",
+      "headings": [
+        "Inflation Calculator — How Much Has Your Dollar Lost? (2026)"
+      ],
+      "coverage": [
+        "Data",
+        "Definition"
+      ],
+      "sources": [
+        "BLS"
+      ],
+      "data_assets": [
+        "Text",
+        "Table or chart"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Purchasing-power calculator.",
+      "gaps": "Headline rate unsourced and mixes measures."
+    },
+    {
+      "title": "Inflation, Monthly: Economic Data Series",
+      "url": "https://fred.stlouisfed.org/tags/series?t=inflation;monthly",
+      "publisher": "fred.stlouisfed.org",
+      "format": "Ranking page",
+      "updated_at": "not stated",
+      "headings": [
+        "13,065 Series",
+        "With Tags:",
+        "Without Tag:",
+        "Filter by:"
+      ],
+      "coverage": [
+        "Data",
+        "Definition"
+      ],
+      "sources": [
+        "BLS"
+      ],
+      "data_assets": [
+        "Text",
+        "Table or chart"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Raw data access.",
+      "gaps": "No interpretation for general readers."
+    }
+  ],
+  "content_gaps": [
+    "Few pages explain why 2025 rests on 11 months.",
+    "Few separate annual-average, 12-month and December-to-December rates with a worked 2025 example.",
+    "Few show the 2026 monthly path alongside the annual table."
+  ],
+  "value_add": "Every annual rate recomputed from BLS data on FRED, the 2026 monthly 12-month path, the missing October 2025 note, worked method example, and purchasing-power illustrations.",
+  "plan": {
+    "reader_title": "U.S. Inflation Rate Year by Year: CPI Data From 2000 to 2026",
+    "seo_title": "Inflation Rate Year by Year: U.S. CPI History to 2026",
+    "meta_description": "The U.S. inflation rate year by year from 2000 to 2025, plus the September 2026 CPI reading, with BLS data and annual-average vs 12-month explained.",
+    "slug": "/money-banking/inflation-rate-by-year/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "US inflation rate by year",
+      "historical inflation rates",
+      "CPI by year"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "U.S. Inflation Rate by Year, 2000 to 2025",
+      "What Is the Inflation Rate in 2026?",
+      "Annual-Average Inflation vs 12-Month Inflation",
+      "How BLS Calculates Annual-Average Inflation",
+      "The 2021 and 2022 Inflation Surge",
+      "Deflation and Near-Zero Years",
+      "Why Energy Can Move Headline Inflation So Quickly",
+      "Which Inflation Measure Is Being Used?",
+      "What the Inflation Rate Year by Year Means for Savings",
+      "Why Historical Inflation Data Help",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "FRED CPIAUCNS: annual averages and 2026 monthly path.",
+      "BLS September 2026 release: component detail.",
+      "Federal Reserve FAQ: PCE-based 2% goal."
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Annual-average CPI-U inflation by year 2000-2025 as tabled.",
+      "source_url": "https://fred.stlouisfed.org/series/CPIAUCNS",
+      "verified": true
+    },
+    {
+      "statement": "September 2026: gasoline +9.1%, over half of monthly increase; energy +20.4%, food +2.5%, shelter +3.2%.",
+      "source_url": "https://www.bls.gov/news.release/archives/cpi_10142026.htm",
+      "verified": true
+    },
+    {
+      "statement": "Fed 2% goal is measured by PCE price index.",
+      "source_url": "https://www.federalreserve.gov/faqs/economy_14400.htm",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "AI QA layer (pending owner sign-off)",
+    "reviewed_at": "2026-10-26",
+    "note": "Final AI QA layer: every annual rate recomputed from FRED CPIAUCNS; 2026 components cross-checked against FRED component series; unverifiable BLS wording warning removed; links to nonexistent Fin Loom pages removed."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "AI QA layer (pending owner sign-off)",
+    "reviewed_at": "2026-10-26",
+    "note": "Editorial QA SOP applied: direct answer in intro, title promise met with table, added value via 2026 monthly path and method, link test passed. Status PASS pending owner sign-off."
+  },
+  "verification_log": {
+    "checked_on": "2026-10-26",
+    "summary": "FRED CSV retrieved 2026-10-26; BLS pages block automated fetch (403), figures confirmed via release excerpts and FRED series; Ubersuggest US data and SERP retrieved 2026-10-26; five competitor pages read.",
+    "pending": "Owner sign-off."
+  }
+}
