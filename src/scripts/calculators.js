@@ -1,9 +1,9 @@
-// Fin Loom calculators: APY and savings interest. One engine drives the summary, chart, and table.
+// Fin Loom calculators: APY, savings interest, and dividend reinvestment. One engine drives the summary, chart, and table.
 // Loaded only on pages that contain a calculator block. Also exported for Node tests.
 (function (root) {
   'use strict';
 
-  const LIMITS = { rate: [0, 100], balance: [0, 100000000], contribution: [0, 1000000], years: [1, 100] };
+  const LIMITS = { rate: [0, 100], balance: [0, 100000000], contribution: [0, 1000000], years: [1, 100], shares: [0, 10000000], price: [0.01, 1000000], dividend: [0, 10000], growth: [-50, 50], dripYears: [1, 50] };
 
   // APY = (1 + r / n)^n - 1, with r as a decimal.
   function apy(ratePercent, periods) {
@@ -48,6 +48,41 @@
     return { rows, end: current, contributions, interest, interestShare: current > 0 ? interest / current : 0 };
   }
 
+
+  // Dividend reinvestment engine, worked month by month. Share price grows smoothly at the annual
+  // price-growth rate; the dividend per share steps up once a year at the dividend-growth rate.
+  // Each payment buys new shares at that month's assumed price when reinvesting; otherwise it is
+  // kept as cash. Monthly contributions buy shares at the same assumed price. Fees and taxes are ignored.
+  function dripGrowth(o) {
+    const step = 12 / o.frequency;
+    const months = o.years * 12;
+    let shares = o.shares; let cash = 0; let paid = 0; let reinvested = 0; let added = 0;
+    let perShare = o.dividend;
+    const rows = [];
+    let year = null;
+    const priceAt = m => o.price * Math.pow(1 + o.priceGrowth / 100, m / 12);
+    for (let m = 0; m < months; m += 1) {
+      if (m % 12 === 0) {
+        if (m > 0) perShare *= 1 + o.dividendGrowth / 100;
+        year = { year: m / 12 + 1, startShares: shares, dividends: 0, reinvested: 0, newShares: 0, contributions: 0 };
+      }
+      const price = priceAt(m + 1);
+      if (o.monthly > 0) { const bought = o.monthly / price; shares += bought; added += o.monthly; year.contributions += o.monthly; year.newShares += bought; }
+      if ((m + 1) % step === 0) {
+        const cashDividend = shares * perShare;
+        paid += cashDividend; year.dividends += cashDividend;
+        if (o.reinvest) { const bought = cashDividend / price; shares += bought; reinvested += cashDividend; year.reinvested += cashDividend; year.newShares += bought; }
+        else cash += cashDividend;
+      }
+      if ((m + 1) % 12 === 0) {
+        year.endShares = shares; year.end = shares * price + cash; year.income = shares * perShare * o.frequency;
+        rows.push(year);
+      }
+    }
+    const last = rows[rows.length - 1];
+    return { rows, shares, cash, end: last.end, dividends: paid, reinvested, contributions: added, income: last.income, startValue: o.shares * o.price };
+  }
+
   function validate(name, value) {
     const [min, max] = LIMITS[name];
     if (!Number.isFinite(value)) return 'Enter a number.';
@@ -55,7 +90,7 @@
     return '';
   }
 
-  const engine = { apy, apyGrowth, savingsGrowth, validate, LIMITS };
+  const engine = { apy, apyGrowth, savingsGrowth, dripGrowth, validate, LIMITS };
   if (typeof module === 'object' && module.exports) module.exports = engine;
   if (typeof document === 'undefined') return;
 
@@ -66,11 +101,12 @@
   // A simple SVG line chart of ending balance by year, with a text summary for screen readers.
   function chart(svg, rows, series) {
     const w = 600; const h = 260; const pad = { l: 64, r: 16, t: 16, b: 32 };
-    const max = Math.max(...rows.map(row => row.end), 1);
+    const values = series.map(item => rows.map(row => item.value(row)));
+    const max = Math.max(...values.flat(), 1);
     const x = i => pad.l + (rows.length === 1 ? (w - pad.l - pad.r) / 2 : i * (w - pad.l - pad.r) / (rows.length - 1));
     const y = v => h - pad.b - v / max * (h - pad.t - pad.b);
     const ticks = [0, 0.5, 1].map(f => `<line x1="${pad.l}" x2="${w - pad.r}" y1="${y(max * f)}" y2="${y(max * f)}" class="finloom-calc-grid"/><text x="${pad.l - 8}" y="${y(max * f) + 4}" text-anchor="end" class="finloom-calc-axis">${money.format(max * f).replace(/\.\d+$/, '')}</text>`).join('');
-    const lines = series.map(item => `<polyline class="finloom-calc-line finloom-calc-line--${item.key}" fill="none" points="${rows.map((row, i) => `${x(i)},${y(item.value(row))}`).join(' ')}"/>`).join('');
+    const lines = series.map((item, s) => `<polyline class="finloom-calc-line finloom-calc-line--${item.key}" fill="none" points="${values[s].map((v, i) => `${x(i)},${y(v)}`).join(' ')}"/>`).join('');
     const labels = rows.length > 1 ? [0, rows.length - 1].map(i => `<text x="${x(i)}" y="${h - 8}" text-anchor="middle" class="finloom-calc-axis">Year ${rows[i].year}</text>`).join('') : `<text x="${x(0)}" y="${h - 8}" text-anchor="middle" class="finloom-calc-axis">Year 1</text>`;
     svg.setAttribute('viewBox', `0 0 ${w} ${h}`);
     svg.innerHTML = ticks + lines + labels;
@@ -146,6 +182,33 @@
     });
   }
 
+
+  function initDrip(root) {
+    const form = root.querySelector('form');
+    const f = name => form.elements[name];
+    const out = name => root.querySelector(`[data-out="${name}"]`);
+    const count = new Intl.NumberFormat('en-US', { minimumFractionDigits: 3, maximumFractionDigits: 3 });
+    const opt = name => f(name).value.trim() === '' ? 0 : num(f(name));
+    wire(form, () => {
+      const o = { shares: num(f('shares')), price: num(f('price')), dividend: num(f('dividend')), frequency: Number(f('frequency').value), dividendGrowth: opt('dgrowth'), priceGrowth: opt('pgrowth'), years: num(f('years')), monthly: opt('monthly'), reinvest: f('reinvest').checked };
+      if (!errors(form, [[f('shares'), validate('shares', o.shares)], [f('price'), validate('price', o.price)], [f('dividend'), validate('dividend', o.dividend)], [f('dgrowth'), validate('growth', o.dividendGrowth)], [f('pgrowth'), validate('growth', o.priceGrowth)], [f('years'), Number.isInteger(o.years) ? validate('dripYears', o.years) : 'Enter whole years.'], [f('monthly'), validate('contribution', o.monthly)]])) return;
+      const r = dripGrowth(o);
+      const without = o.reinvest ? dripGrowth({ ...o, reinvest: false }) : r;
+      out('end').textContent = money.format(r.end);
+      out('shares').textContent = count.format(r.shares);
+      out('dividends').textContent = money.format(r.dividends);
+      out('reinvested').textContent = money.format(r.reinvested);
+      out('income').textContent = money.format(r.income);
+      out('contributions').textContent = money.format(r.contributions);
+      out('gain').textContent = money.format(r.end - without.end);
+      let total = 0;
+      chart(root.querySelector('svg'), r.rows, [{ key: 'balance', value: row => row.income }, { key: 'contributions', value: row => (total += row.reinvested) }]);
+      root.querySelector('tbody').innerHTML = r.rows.map(row => `<tr><th scope="row">${row.year}</th><td class="num">${count.format(row.startShares)}</td><td class="num">${money.format(row.dividends)}</td><td class="num">${money.format(row.reinvested)}</td><td class="num">${count.format(row.newShares)}</td><td class="num">${count.format(row.endShares)}</td><td class="num">${money.format(row.contributions)}</td><td class="num">${money.format(row.end)}</td></tr>`).join('');
+      root.querySelector('[data-summary]').textContent = `${count.format(o.shares)} shares at ${money.format(o.price)} with dividends ${o.reinvest ? 'reinvested' : 'taken as cash'} grow to ${count.format(r.shares)} shares worth ${money.format(r.end)} after ${o.years} year${o.years === 1 ? '' : 's'}, under these assumptions.`;
+    });
+  }
+
   document.querySelectorAll('.finloom-calc[data-calculator="apy"]').forEach(initApy);
   document.querySelectorAll('.finloom-calc[data-calculator="savings"]').forEach(initSavings);
+  document.querySelectorAll('.finloom-calc[data-calculator="drip"]').forEach(initDrip);
 })(typeof window === 'undefined' ? globalThis : window);

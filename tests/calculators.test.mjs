@@ -34,3 +34,19 @@ test('validation rejects out-of-range and non-numeric input', () => {
   assert.ok(engine.validate('balance', NaN));
   assert.equal(engine.validate('contribution', 0), '');
 });
+
+test('dividend reinvestment engine matches the worked example and models cash, growth, and contributions', () => {
+  const base = { shares: 100, price: 50, dividend: 0.5, frequency: 4, dividendGrowth: 0, priceGrowth: 0, years: 5, monthly: 0, reinvest: true };
+  const r = engine.dripGrowth(base);
+  assert.equal(r.shares.toFixed(3), '122.019');
+  assert.equal(r.end.toFixed(2), '6100.95');
+  assert.equal(r.income.toFixed(2), '244.04');
+  assert.equal(r.rows.length, 5);
+  const cash = engine.dripGrowth({ ...base, reinvest: false });
+  assert.equal(cash.shares, 100);
+  assert.equal(cash.end.toFixed(2), '6000.00');
+  assert.ok(engine.dripGrowth({ ...base, dividendGrowth: 4 }).income > r.income);
+  assert.ok(engine.dripGrowth({ ...base, dividendGrowth: -50 }).income < r.income);
+  assert.equal(engine.dripGrowth({ ...base, monthly: 100 }).contributions, 6000);
+  assert.equal(engine.validate('price', 0), 'Enter a value from 0.01 to 1,000,000.');
+});
