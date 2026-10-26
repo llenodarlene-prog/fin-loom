@@ -5,7 +5,7 @@ description: Bear vs bull stock market explained: the 20% definitions, historica
 slug: /markets-stocks/bear-vs-bull-market/
 type: blog
 schema: BlogPosting
-draft: false
+draft: true
 tracker_id: Blog:S40
 primary_keyword: bear vs bull stock market
 secondary_keywords: bull vs bear market; bear market vs bull market; what is a bull market; what is a bear market

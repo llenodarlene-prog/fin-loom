@@ -152,6 +152,26 @@ The 8.0% annual average in 2022 was the highest since 1981, when it was 10.3%. I
 
 Annual-average inflation fell to 4.1% in 2023, 2.9% in 2024, and 2.6% in 2025. Slower inflation means prices kept rising at a lower pace. The price level stayed far above its 2020 level, because the earlier increases were not reversed, and that difference explains why many households still felt high prices.
 
+## Inflation by Period Since 2000
+
+Grouping the inflation rate year by year into longer periods shows how the pace of price increases has shifted. The figures below are Fin Loom calculations from the annual-average CPI-U, using the compound annual rate between the starting and ending averages for each period.
+
+| Period | Average Annual Inflation | Cumulative Rise in the Price Level |
+|---|---:|---:|
+| 2000 to 2009 | 2.6% | 28.7% |
+| 2010 to 2019 | 1.8% | 19.2% |
+| 2020 to 2025 | 3.9% | 25.9% |
+
+The 2010s were the calmest stretch, with no year above 3.2% and one year as low as 0.1%. The 2020 to 2025 period covers only six years, yet its cumulative rise in prices came close to the full 2000s decade. That compression is the main reason recent inflation has felt so much heavier to households than the single-year figures alone suggest.
+
+### Reading Period Averages
+
+A period average smooths out the year-to-year swings, which makes it useful for long-range comparisons and less useful for describing any one year. The 2000s average of 2.6%, for example, includes both the 3.8% reading of 2008 and the -0.4% reading of 2009. Readers should check the individual years before drawing conclusions about a particular point in time.
+
+### Why the Period Lengths Differ
+
+The first two periods each cover ten years, while the third covers six, because 2025 is the latest complete year. Comparing cumulative rises across unequal periods can mislead, so the average annual rate column is the fairer like-for-like measure. Once 2026 data are complete, the third period will extend by one more year.
+
 ## Deflation and Near-Zero Years
 
 The inflation rate year by year table includes two unusual readings. In 2009 the annual average was -0.4%, a rare year of deflation that followed the financial crisis and the recession that came with it. The average price level in 2009 was slightly lower than in 2008.

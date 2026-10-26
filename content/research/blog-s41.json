@@ -76,6 +76,17 @@
         "ranking_url": "https://www.us-debt-clock.com/inflation",
         "retrieved_at": "2026-10-26",
         "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "cpi by year",
+        "type": "problem",
+        "volume": 1300,
+        "difficulty": 73,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.usinflationcalculator.com/inflation/historical-inflation-rates/",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
       }
     ],
     "historical_note": "Owner draft cited Ubersuggest 14,800 / SD 10; re-retrieved and confirmed 2026-10-26."
@@ -208,7 +219,7 @@
       "url": "https://www.stlouisfed.org/publications/regional-economist/second-quarter-2017/a-short-history-of-prices-inflation-since-founding-of-us",
       "publisher": "stlouisfed.org",
       "format": "Ranking page",
-      "updated_at": "2017",
+      "updated_at": "not stated",
       "headings": [
         "A Short History of Prices, Inflation since the Founding of the U.S.",
         "Price Levels from the Beginning",
@@ -366,6 +377,29 @@
       "FRED CPIAUCNS: annual averages and 2026 monthly path.",
       "BLS September 2026 release: component detail.",
       "Federal Reserve FAQ: PCE-based 2% goal."
+    ],
+    "visuals": [
+      "Owner-supplied hero image (AI-generated)",
+      "Tables"
+    ],
+    "internal_links": [
+      "/money-banking/apy-meaning/",
+      "/money-banking/saving-vs-investing/",
+      "/money-banking/savings-interest-calculator/"
+    ],
+    "external_link_opportunities": [
+      "FRED CPIAUCNS",
+      "BLS September 2026 CPI release",
+      "Federal Reserve 2% goal FAQ"
+    ],
+    "excluded_claims": [
+      "BLS warning wording on confusing measures (could not be confirmed)",
+      "Links to /money-banking/what-causes-inflation/ and /money-banking/inflation-definition/ (pages do not exist)"
+    ],
+    "drafting_cautions": [
+      "Label 12-month vs annual-average figures",
+      "Label Fin Loom calculations",
+      "No investment advice"
     ]
   },
   "claims": [
