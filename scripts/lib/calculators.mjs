@@ -53,7 +53,36 @@ ${field('sav-years', 'Number of years', 'min="1" max="100" step="1" value="5" re
 ${disclaimer}</section></div>`;
 }
 
-const calculators = { apy: apyCalculator, savings: savingsCalculator };
+
+function dripCalculator() {
+  const o = { shares: 100, price: 50, dividend: 0.5, frequency: 4, dividendGrowth: 0, priceGrowth: 0, years: 5, monthly: 0, reinvest: true };
+  const d = engine.dripGrowth(o);
+  const cash = engine.dripGrowth({ ...o, reinvest: false });
+  const count = new Intl.NumberFormat('en-US', { minimumFractionDigits: 3, maximumFractionDigits: 3 });
+  const options = [[12, 'Monthly'], [4, 'Quarterly'], [2, 'Semiannual'], [1, 'Annual']].map(([n, label]) => `<option value="${n}"${n === 4 ? ' selected' : ''}>${label}</option>`).join('');
+  const note = '<p class="finloom-calc-note">This calculator shows an illustration for educational purposes, not a forecast. It assumes steady price and dividend growth and ignores taxes, fees, and plan execution rules. Dividends can be cut, and actual results can differ.</p>';
+  return `<div class="finloom-calc" data-calculator="drip">
+<form class="finloom-calc-form" novalidate><fieldset><legend>Your Holding</legend>
+${field('drip-shares', 'Starting number of shares', 'min="0" max="10000000" step="0.001" value="100" required')}
+${field('drip-price', 'Starting share price ($)', 'min="0.01" max="1000000" step="0.01" value="50" required')}
+${field('drip-dividend', 'Dividend per share, per payment ($)', 'min="0" max="10000" step="0.0001" value="0.50" required')}
+<div class="finloom-calc-field"><label for="drip-frequency">Dividend frequency</label><select id="drip-frequency" name="frequency">${options}</select></div>
+${field('drip-dgrowth', 'Annual dividend growth (%)', 'min="-50" max="50" step="0.1" value="0"', 'Use 0 to assume no change. Negative values model cuts.')}
+${field('drip-pgrowth', 'Annual share-price growth (%)', 'min="-50" max="50" step="0.1" value="0"')}
+${field('drip-years', 'Number of years', 'min="1" max="50" step="1" value="5" required')}
+${field('drip-monthly', 'Additional monthly investment ($, optional)', 'min="0" max="1000000" step="0.01" value="0"')}
+<div class="finloom-calc-field finloom-calc-check"><label><input type="checkbox" id="drip-reinvest" name="reinvest" checked> Reinvest dividends</label></div>
+</fieldset>${buttons}</form>
+<section class="finloom-calc-results" aria-label="Dividend reinvestment results"><p class="finloom-calc-label">Ending portfolio value</p><p class="finloom-calc-big"><output data-out="end">${money.format(d.end)}</output></p>
+<dl class="finloom-calc-list">${row('Ending share count', 'shares', count.format(d.shares))}${row('Total dividends generated', 'dividends', money.format(d.dividends))}${row('Dividends reinvested', 'reinvested', money.format(d.reinvested))}${row('Annual dividend income at the end', 'income', money.format(d.income))}${row('Outside contributions', 'contributions', money.format(d.contributions))}${row('Growth from reinvesting vs taking cash', 'gain', money.format(d.end - cash.end))}</dl>
+<p class="finloom-calc-summary" data-summary aria-live="polite">100.000 shares at $50.00 with dividends reinvested grow to ${count.format(d.shares)} shares worth ${money.format(d.end)} after 5 years, under these assumptions.</p>
+<svg class="finloom-calc-chart" role="img" aria-label="Annual dividend income and cumulative dividends reinvested by year" viewBox="0 0 600 260"></svg>
+<p class="finloom-calc-legend"><span class="finloom-calc-key finloom-calc-key--balance"></span>Annual dividend income <span class="finloom-calc-key finloom-calc-key--contributions"></span>Cumulative dividends reinvested</p>
+<div class="table-wrap"><table><caption>Year-by-year dividend reinvestment</caption><thead><tr><th scope="col">Year</th><th scope="col" class="num">Starting Shares</th><th scope="col" class="num">Dividends Paid</th><th scope="col" class="num">Dividends Reinvested</th><th scope="col" class="num">New Shares</th><th scope="col" class="num">Ending Shares</th><th scope="col" class="num">Contributions</th><th scope="col" class="num">Ending Value</th></tr></thead><tbody>${d.rows.map(r => `<tr><th scope="row">${r.year}</th><td class="num">${count.format(r.startShares)}</td><td class="num">${money.format(r.dividends)}</td><td class="num">${money.format(r.reinvested)}</td><td class="num">${count.format(r.newShares)}</td><td class="num">${count.format(r.endShares)}</td><td class="num">${money.format(r.contributions)}</td><td class="num">${money.format(r.end)}</td></tr>`).join('')}</tbody></table></div>
+${note}</section></div>`;
+}
+
+const calculators = { apy: apyCalculator, savings: savingsCalculator, drip: dripCalculator };
 
 export function calculatorBlock(id, version) {
   const render = calculators[id.trim()];

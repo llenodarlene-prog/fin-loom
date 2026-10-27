@@ -10,7 +10,7 @@ tracker_id: Blog:S9
 primary_keyword: saving vs investing
 secondary_keywords: 
 cluster: Money & Banking
-approved_internal_links: /investing/per-capita-gdp-explained/; /money-banking/apy-calculator/; /money-banking/apy-meaning/; /money-banking/apy-vs-interest-rate/; /money-banking/identity-theft-statistics/; /money-banking/savings-interest-calculator/; /money-banking/what-is-a-credit-score/
+approved_internal_links: /investing/per-capita-gdp-explained/; /money-banking/apy-calculator/; /money-banking/apy-meaning/; /money-banking/apy-vs-interest-rate/; /money-banking/identity-theft-statistics/; /money-banking/inflation-rate-by-year/; /money-banking/savings-interest-calculator/; /money-banking/what-is-a-credit-score/
 research_record: content/research/blog-s9.json
 image: /assets/images/posts/saving-vs-investing/reviewing-financial-plan-1600.jpg
 image_alt: Two people reviewing printed financial charts at a desk with a tablet and coffee
@@ -142,7 +142,7 @@ The emergency fund should not be optimized for maximum return. Availability is t
 
 Cash is stable in nominal terms. Its purchasing power, however, is not guaranteed.
 
-If prices rise faster than the savings yield, the account loses purchasing power. This is why Investor.gov warns that a savings account may fail to keep up with inflation over long periods. The effect compounds. Inflation is one economy-wide measure, and [per capita GDP](/investing/per-capita-gdp-explained/) explains another, including what it misses.
+If prices rise faster than the savings yield, the account loses purchasing power. The [inflation rate year by year](/money-banking/inflation-rate-by-year/) shows how widely that pace has swung, from -0.4% in 2009 to 8.0% in 2022. This is why Investor.gov warns that a savings account may fail to keep up with inflation over long periods. The effect compounds. Inflation is one economy-wide measure, and [per capita GDP](/investing/per-capita-gdp-explained/) explains another, including what it misses.
 
 Suppose inflation averaged 3% and a savings balance earned 1%. The real return would be roughly negative before tax.
 

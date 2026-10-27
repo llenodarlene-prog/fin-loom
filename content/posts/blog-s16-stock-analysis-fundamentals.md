@@ -10,7 +10,7 @@ tracker_id: Blog:S16
 primary_keyword: stock analysis fundamentals
 secondary_keywords: fundamental stock analysis; how to analyze stocks; stock fundamentals; financial statement analysis; stock valuation fundamentals
 cluster: Markets & Stocks
-approved_internal_links: /markets-stocks/ai-capital-spending-big-tech/; /markets-stocks/amazon-statistics/; /markets-stocks/apple-statistics/; /markets-stocks/best-free-stock-screeners/; /markets-stocks/best-stock-analysis-apps/; /markets-stocks/best-stock-screeners-compared/; /markets-stocks/equity-research-reports/; /markets-stocks/forrester-research-stock/; /markets-stocks/google-revenue-statistics/; /markets-stocks/morningstar-stock-screener/; /markets-stocks/stock-research-analyst-role/; /markets-stocks/stock-screener-metrics-guide/; /markets-stocks/technical-analysis-for-stocks/; /markets-stocks/yahoo-finance-stock-research/; /markets-stocks/zacks-stock-screener/
+approved_internal_links: /markets-stocks/ai-capital-spending-big-tech/; /markets-stocks/amazon-statistics/; /markets-stocks/apple-statistics/; /markets-stocks/bear-vs-bull-market/; /markets-stocks/best-free-stock-screeners/; /markets-stocks/best-stock-analysis-apps/; /markets-stocks/best-stock-screeners-compared/; /markets-stocks/equity-research-reports/; /markets-stocks/forrester-research-stock/; /markets-stocks/google-revenue-statistics/; /markets-stocks/highest-yield-dividend-stocks/; /markets-stocks/morningstar-stock-screener/; /markets-stocks/stock-research-analyst-role/; /markets-stocks/stock-screener-metrics-guide/; /markets-stocks/technical-analysis-for-stocks/; /markets-stocks/yahoo-finance-stock-research/; /markets-stocks/zacks-stock-screener/
 research_record: content/research/blog-s16.json
 image: /assets/images/posts/stock-analysis-fundamentals/research-desk-charts-1600.jpg
 image_alt: A laptop showing bar and line charts beside a calculator, notebook, and printed financial reports on an office desk
@@ -166,7 +166,7 @@ A ratio is most useful when compared with the company's history and with appropr
 
 ## Valuation Separates a Good Business From a Good Stock
 
-Fundamental analysis should eventually answer whether the price already reflects the quality of the business.
+Fundamental analysis should eventually answer whether the price already reflects the quality of the business. Dividend yield is a common example: a yield can rise simply because the share price fell, which is why the [highest yield dividend stocks](/markets-stocks/highest-yield-dividend-stocks/) comparison checks each payout against cash flow and debt.
 
 A rapidly growing company can still produce poor investment returns if the stock is purchased at an excessively high valuation and future results fail to meet expectations. A slower-growth company can outperform if expectations are low and the business delivers better results than the market anticipated.
 
@@ -207,7 +207,7 @@ Generic statements such as "competition could increase" are not enough. Investor
 - **Pricing Pressure:** Competitors cutting prices can force a company to follow and give up margin.
 - **Management Execution:** Even a sound plan can fail through poor hiring, integration, or capital allocation.
 
-The goal is not to create the longest risk list. It is to identify which risks would materially change revenue, margins, cash flow, or valuation.
+The goal is not to create the longest risk list. It is to identify which risks would materially change revenue, margins, cash flow, or valuation. Market-wide declines add another layer, and the [bear vs bull stock market](/markets-stocks/bear-vs-bull-market/) history shows how far broad indexes have fallen even when individual businesses held up.
 
 ## Compare the Company With Its Own History Before Comparing It With Peers
 

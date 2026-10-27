@@ -576,6 +576,168 @@
       "scheduled_publish": "2026-10-23",
       "min_words": 2500,
       "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S33",
+      "working_title": "ACH vs Wire Transfer: Speed, Cost, Limits, and Best Uses",
+      "primary_keyword": "ach vs wire transfer",
+      "secondary_keywords": "wire transfer vs ACH; ACH transfer vs wire transfer; difference between ACH and wire transfer; ACH vs bank wire",
+      "cluster": "Payments",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/payments/ach-vs-wire-transfer/",
+      "seo_title": "ACH vs Wire Transfer: Speed, Cost, Safety, and Timing",
+      "meta_description": "ACH vs wire transfer compared: speed, cost, settlement, reversibility, and best uses, using Q3 2026 Nacha and September 2026 Fedwire data.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft of 2026-10-26; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-10-27",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S34",
+      "working_title": "What Is a Wire Transfer? How Bank Wires Work",
+      "primary_keyword": "what is a wire transfer",
+      "secondary_keywords": "wire transfer what is it; how does a wire transfer work; bank wire transfer; wire transfer meaning",
+      "cluster": "Payments",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/payments/what-is-a-wire-transfer/",
+      "seo_title": "What Is a Wire Transfer? How Wires Work, Fees, and Safety",
+      "meta_description": "What is a wire transfer? Learn how domestic and international wires move money, what details banks need, how long wires take, and why finality counts.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft of 2026-10-26; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-10-27",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S35",
+      "working_title": "How Long Does a Wire Transfer Take? Domestic vs International Timing",
+      "primary_keyword": "how long does a wire transfer take",
+      "secondary_keywords": "how long does a wire transfer take to go through; domestic wire transfer time; international wire transfer time; wire transfer pending",
+      "cluster": "Payments",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/payments/how-long-does-a-wire-transfer-take/",
+      "seo_title": "How Long Does a Wire Transfer Take? 2026 Timing Guide",
+      "meta_description": "How long does a wire transfer take? Domestic wires often arrive the same business day. See 2026 Fedwire hours, bank cutoffs, delays, and cancellation rules.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft of 2026-10-26; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-10-29",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S36",
+      "working_title": "Dividend Reinvestment Plan Calculator: How DRIP Compounding Works",
+      "primary_keyword": "dividend reinvestment plan calculator",
+      "secondary_keywords": "DRIP calculator; dividend reinvestment calculator; dividend calculator with reinvestment; dividend compounding calculator",
+      "cluster": "Investing",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/investing/dividend-reinvestment-plan-calculator/",
+      "seo_title": "Dividend Reinvestment Plan Calculator: DRIP Growth",
+      "meta_description": "Use this dividend reinvestment plan calculator to see how reinvested dividends can change share count and income over time, and which assumptions drive it.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft of 2026-10-26; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-10-29",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S37",
+      "working_title": "Qualified Dividends: 2026 Tax Rates, Holding Rules, and Examples",
+      "primary_keyword": "qualified dividends",
+      "secondary_keywords": "what are qualified dividends; qualified dividend tax rate; qualified vs ordinary dividends; qualified dividend holding period",
+      "cluster": "Investing",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/investing/qualified-dividends/",
+      "seo_title": "Qualified Dividends: 2026 Tax Rates and Holding Period Rules",
+      "meta_description": "Learn what qualified dividends are, the 2026 0%, 15%, and 20% thresholds, the 61-day holding rule, Form 1099-DIV reporting, and what does not qualify.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft of 2026-10-26; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-10-28",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S38",
+      "working_title": "Index Fund vs Mutual Fund: What Is the Real Difference?",
+      "primary_keyword": "index fund vs mutual fund",
+      "secondary_keywords": "mutual fund vs index fund; index funds vs mutual funds; difference between index fund and mutual fund; passive vs active mutual fund",
+      "cluster": "Investing",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/investing/index-fund-vs-mutual-fund/",
+      "seo_title": "Index Fund vs Mutual Fund: Fees, Strategy, Taxes, Trading",
+      "meta_description": "Index fund vs mutual fund explained: why strategy and structure differ, how fees, taxes, and NAV pricing work, and what 2026 fund data show.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft of 2026-10-26; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-10-28",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S39",
+      "working_title": "Highest Yield Dividend Stocks: 6 Large-Cap Income Names and Their Risks",
+      "primary_keyword": "highest yield dividend stocks",
+      "secondary_keywords": "high yield dividend stocks; highest dividend yield stocks; high dividend stocks; dividend income stocks",
+      "cluster": "Markets & Stocks",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/markets-stocks/highest-yield-dividend-stocks/",
+      "seo_title": "Highest Yield Dividend Stocks: 6 Large-Caps Compared",
+      "meta_description": "Six large-cap highest yield dividend stocks compared using October 23, 2026 prices, declared payouts, cash flow, debt, and payout risks. Not a recommendation.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft of 2026-10-26; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-10-30",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S40",
+      "working_title": "Bear vs Bull Stock Market: What Each Market Cycle Means",
+      "primary_keyword": "bear vs bull stock market",
+      "secondary_keywords": "bull vs bear market; bear market vs bull market; what is a bull market; what is a bear market",
+      "cluster": "Markets & Stocks",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/markets-stocks/bear-vs-bull-market/",
+      "seo_title": "Bear vs Bull Stock Market: Definitions and History",
+      "meta_description": "Bear vs bull stock market explained: the 20% definitions, historical durations, the 2020 and 2022 bear markets, corrections, and 2026 market context.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft of 2026-10-26; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-10-30",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S41",
+      "working_title": "U.S. Inflation Rate Year by Year: CPI Data From 2000 to 2026",
+      "primary_keyword": "inflation rate year by year",
+      "secondary_keywords": "US inflation rate by year; historical inflation rates; CPI by year; inflation history",
+      "cluster": "Money & Banking",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/money-banking/inflation-rate-by-year/",
+      "seo_title": "Inflation Rate Year by Year: U.S. CPI History to 2026",
+      "meta_description": "The U.S. inflation rate year by year from 2000 to 2025, plus the September 2026 CPI reading, with BLS data and annual-average vs 12-month explained.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft of 2026-10-26; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-10-31",
+      "min_words": 2500,
+      "no_word_ceiling": true
     }
   ],
   "links": [
@@ -647,7 +809,10 @@
       "primary_silo_hub": "/investing/",
       "approved_outbound_targets": [
         "/investing/bitcoin-allocation/",
+        "/investing/dividend-reinvestment-plan-calculator/",
+        "/investing/index-fund-vs-mutual-fund/",
         "/investing/per-capita-gdp-explained/",
+        "/investing/qualified-dividends/",
         "/investing/stock-risk-metrics/"
       ],
       "silo_role": "Hub",
@@ -688,6 +853,7 @@
         "/money-banking/apy-meaning/",
         "/money-banking/apy-vs-interest-rate/",
         "/money-banking/identity-theft-statistics/",
+        "/money-banking/inflation-rate-by-year/",
         "/money-banking/savings-interest-calculator/",
         "/money-banking/what-is-a-credit-score/"
       ],
@@ -714,7 +880,10 @@
       "primary_silo_hub": "/payments/",
       "approved_outbound_targets": [
         "/markets-stocks/apple-statistics/",
-        "/money-banking/identity-theft-statistics/"
+        "/money-banking/identity-theft-statistics/",
+        "/payments/ach-vs-wire-transfer/",
+        "/payments/how-long-does-a-wire-transfer-take/",
+        "/payments/what-is-a-wire-transfer/"
       ],
       "silo_role": "Hub",
       "pillar": "/payments/paypal-statistics/"
@@ -778,12 +947,14 @@
         "/markets-stocks/ai-capital-spending-big-tech/",
         "/markets-stocks/amazon-statistics/",
         "/markets-stocks/apple-statistics/",
+        "/markets-stocks/bear-vs-bull-market/",
         "/markets-stocks/best-free-stock-screeners/",
         "/markets-stocks/best-stock-analysis-apps/",
         "/markets-stocks/best-stock-screeners-compared/",
         "/markets-stocks/equity-research-reports/",
         "/markets-stocks/forrester-research-stock/",
         "/markets-stocks/google-revenue-statistics/",
+        "/markets-stocks/highest-yield-dividend-stocks/",
         "/markets-stocks/morningstar-stock-screener/",
         "/markets-stocks/stock-research-analyst-role/",
         "/markets-stocks/stock-screener-metrics-guide/",
@@ -827,6 +998,7 @@
       "primary_silo_hub": "/investing/",
       "approved_outbound_targets": [
         "/investing/crypto-vs-stocks/",
+        "/money-banking/inflation-rate-by-year/",
         "/money-banking/saving-vs-investing/"
       ],
       "silo_role": "Bridge",
@@ -992,6 +1164,123 @@
         "/money-banking/apy-calculator/",
         "/money-banking/apy-meaning/",
         "/money-banking/saving-vs-investing/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/money-banking/saving-vs-investing/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S33",
+      "url_slug": "/payments/ach-vs-wire-transfer/",
+      "primary_silo_hub": "/payments/",
+      "approved_outbound_targets": [
+        "/payments/how-long-does-a-wire-transfer-take/",
+        "/payments/paypal-statistics/",
+        "/payments/what-is-a-wire-transfer/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/payments/paypal-statistics/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S34",
+      "url_slug": "/payments/what-is-a-wire-transfer/",
+      "primary_silo_hub": "/payments/",
+      "approved_outbound_targets": [
+        "/payments/ach-vs-wire-transfer/",
+        "/payments/how-long-does-a-wire-transfer-take/",
+        "/payments/paypal-statistics/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/payments/paypal-statistics/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S35",
+      "url_slug": "/payments/how-long-does-a-wire-transfer-take/",
+      "primary_silo_hub": "/payments/",
+      "approved_outbound_targets": [
+        "/payments/ach-vs-wire-transfer/",
+        "/payments/paypal-statistics/",
+        "/payments/what-is-a-wire-transfer/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/payments/paypal-statistics/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S36",
+      "url_slug": "/investing/dividend-reinvestment-plan-calculator/",
+      "primary_silo_hub": "/investing/",
+      "approved_outbound_targets": [
+        "/investing/crypto-vs-stocks/",
+        "/investing/index-fund-vs-mutual-fund/",
+        "/investing/qualified-dividends/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/investing/crypto-vs-stocks/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S37",
+      "url_slug": "/investing/qualified-dividends/",
+      "primary_silo_hub": "/investing/",
+      "approved_outbound_targets": [
+        "/investing/crypto-vs-stocks/",
+        "/investing/dividend-reinvestment-plan-calculator/",
+        "/investing/index-fund-vs-mutual-fund/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/investing/crypto-vs-stocks/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S38",
+      "url_slug": "/investing/index-fund-vs-mutual-fund/",
+      "primary_silo_hub": "/investing/",
+      "approved_outbound_targets": [
+        "/investing/crypto-vs-stocks/",
+        "/investing/dividend-reinvestment-plan-calculator/",
+        "/investing/qualified-dividends/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/investing/crypto-vs-stocks/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S39",
+      "url_slug": "/markets-stocks/highest-yield-dividend-stocks/",
+      "primary_silo_hub": "/markets-stocks/",
+      "approved_outbound_targets": [
+        "/investing/qualified-dividends/",
+        "/markets-stocks/bear-vs-bull-market/",
+        "/markets-stocks/stock-analysis-fundamentals/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/markets-stocks/stock-analysis-fundamentals/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S40",
+      "url_slug": "/markets-stocks/bear-vs-bull-market/",
+      "primary_silo_hub": "/markets-stocks/",
+      "approved_outbound_targets": [
+        "/markets-stocks/highest-yield-dividend-stocks/",
+        "/markets-stocks/stock-analysis-fundamentals/",
+        "/markets-stocks/technical-analysis-for-stocks/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/markets-stocks/stock-analysis-fundamentals/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S41",
+      "url_slug": "/money-banking/inflation-rate-by-year/",
+      "primary_silo_hub": "/money-banking/",
+      "approved_outbound_targets": [
+        "/money-banking/apy-meaning/",
+        "/money-banking/saving-vs-investing/",
+        "/money-banking/savings-interest-calculator/"
       ],
       "silo_role": "Supporting",
       "pillar": "/money-banking/saving-vs-investing/"
