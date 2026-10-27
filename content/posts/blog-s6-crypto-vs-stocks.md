@@ -10,7 +10,7 @@ tracker_id: Blog:S6
 primary_keyword: crypto vs stocks
 secondary_keywords: 
 cluster: Investing
-approved_internal_links: /investing/bitcoin-allocation/; /investing/per-capita-gdp-explained/; /investing/stock-risk-metrics/
+approved_internal_links: /investing/bitcoin-allocation/; /investing/dividend-reinvestment-plan-calculator/; /investing/index-fund-vs-mutual-fund/; /investing/per-capita-gdp-explained/; /investing/qualified-dividends/; /investing/stock-risk-metrics/
 research_record: content/research/blog-s6.json
 image: /assets/images/posts/crypto-vs-stocks/market-chart-and-coin-desk-1600.jpg
 image_alt: A laptop showing a market chart beside a gold coin and a stack of finance books, with a city skyline at sunrise
@@ -187,7 +187,7 @@ For example, transaction counts can be manipulated, and wallet counts do not equ
 
 ## Income Is Not Automatically Yield
 
-Stock dividends come from corporate capital-allocation decisions. They can be reduced or eliminated, but the accounting relationship is understandable.
+Stock dividends come from corporate capital-allocation decisions. They can be reduced or eliminated, but the accounting relationship is understandable. Their after-tax value also varies: [qualified dividends](/investing/qualified-dividends/) can be taxed at lower federal rates when holding-period rules are met, and a [dividend reinvestment plan calculator](/investing/dividend-reinvestment-plan-calculator/) shows how reinvested payouts change share count over time.
 
 Crypto “yield” can come from very different mechanisms: staking rewards, lending, liquidity provision, token emissions, protocol fees, or promotional incentives. A high quoted yield can compensate for high risk rather than represent free income.
 
@@ -363,7 +363,7 @@ Likewise, a great company can be a poor investment at an excessive price. The im
 
 ## Tax and Trading Friction Can Change the Result
 
-Investors comparing asset classes often focus on pre-tax returns. Real outcomes depend on transaction costs, spreads, custody fees, tax treatment, turnover, and the investor's jurisdiction.
+Investors comparing asset classes often focus on pre-tax returns. Real outcomes depend on transaction costs, spreads, custody fees, tax treatment, turnover, and the investor's jurisdiction. On the stock side, fund costs alone can separate similar portfolios, which the comparison of [index fund vs mutual fund](/investing/index-fund-vs-mutual-fund/) structures sets out with real expense ratios.
 
 Frequent crypto trading can create substantial recordkeeping complexity. Frequent stock trading can also create taxable events and increase behavioral mistakes. A long-term comparison should therefore use net outcomes rather than headline price appreciation alone.
 

@@ -1,0 +1,511 @@
+{
+  "tracker_id": "Blog:S35",
+  "status": "verified",
+  "research_question": "How long does a domestic or international wire transfer take, and what delays it?",
+  "research_brief": {
+    "purpose": "Explain wire timing with the current Fedwire schedule and consumer rights.",
+    "audience": "Consumers and small businesses sending urgent payments.",
+    "publication_year": "2026",
+    "data_period": "Fedwire schedule and CFPB pages checked October 26, 2026; Nacha Q3 2026 data.",
+    "scope_limitations": "U.S. focus; bank cutoffs and international ranges vary by provider."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "how long does a wire transfer take",
+    "intent": "Informational",
+    "serp_checked_at": "2026-10-26",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-26",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "how long does a wire transfer take",
+        "type": "short-tail",
+        "volume": 27100,
+        "difficulty": 31,
+        "cpc": 2.1,
+        "intent": "Informational",
+        "ranking_url": "https://www.citi.com/banking/personal-banking-guide/basic-finance/how-long-does-a-wire-transfer-take",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "how long does a wire transfer take to go through",
+        "type": "long-tail",
+        "volume": 5400,
+        "difficulty": 7,
+        "cpc": 0.095,
+        "intent": "Informational",
+        "ranking_url": "https://www.citi.com/banking/personal-banking-guide/basic-finance/how-long-does-a-wire-transfer-take",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "international wire transfer time",
+        "type": "commercial",
+        "volume": 320,
+        "difficulty": 25,
+        "cpc": 4.61,
+        "intent": "Informational",
+        "ranking_url": "https://www.citi.com/banking/personal-banking-guide/basic-finance/how-long-does-a-wire-transfer-take",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "wire transfer pending",
+        "type": "problem",
+        "volume": 70,
+        "difficulty": 22,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.citi.com/banking/personal-banking-guide/basic-finance/how-long-does-a-wire-transfer-take",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "domestic wire transfer time",
+        "type": "question",
+        "volume": 260,
+        "difficulty": 34,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.citi.com/banking/personal-banking-guide/basic-finance/how-long-does-a-wire-transfer-take",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      }
+    ],
+    "historical_note": "Owner draft targeted 'how long does a wire transfer take to go through' (5,400, SD 7); primary switched to the higher-volume shorter phrase during AI QA, approved by the owner on 2026-10-26."
+  },
+  "sources": [
+    {
+      "url": "https://www.frbservices.org/resources/financial-services/wires/fedwire-funds-service-national-settlement-service-operating-hours/",
+      "title": "Fedwire Funds Service and National Settlement Service Operating Hours",
+      "publisher": "Federal Reserve Financial Services",
+      "source_type": "Payment system operator",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "Fedwire business day, cutoffs, non-business days",
+      "method": "Operator schedule",
+      "limitations": "Network hours only; bank cutoffs differ",
+      "verified": true,
+      "verification_note": "Business day 9:00 p.m. ET preceding day to 7:00 p.m. ET; 6:45 p.m. ET core customer transfer cutoff; Saturdays, Sundays and holidays are non-business days (quoted)."
+    },
+    {
+      "url": "https://www.frbservices.org/financial-services/fedwire-funds-service/",
+      "title": "Fedwire Funds Service",
+      "publisher": "Federal Reserve Financial Services",
+      "source_type": "Payment system operator",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "Service description and IMAD/OMAD",
+      "method": "Operator documentation",
+      "limitations": "Service overview",
+      "verified": true,
+      "verification_note": "All successfully processed messages contain IMAD and OMAD identifications (quoted)."
+    },
+    {
+      "url": "https://www.frbservices.org/financial-services/fedwire-funds-service/fedwire-funds-service-business-continuity-guide/",
+      "title": "Fedwire Funds Service Business Continuity Guide",
+      "publisher": "Federal Reserve Financial Services",
+      "source_type": "Payment system operator",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "RTGS design and finality",
+      "method": "Operator documentation",
+      "limitations": "Operational guide",
+      "verified": true,
+      "verification_note": "RTGS owned and operated by the Reserve Banks; payments final and irrevocable once made (quoted)."
+    },
+    {
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20251009a.htm",
+      "title": "Federal Reserve announces expanded operating days for Fedwire and NSS",
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "source_type": "Central bank press release",
+      "year": "2025",
+      "published_at": "2025-10-09",
+      "accessed_at": "2026-10-26",
+      "scope": "Planned six-day schedule",
+      "method": "Official announcement",
+      "limitations": "Plan, not yet in effect",
+      "verified": true,
+      "verification_note": "Expansion to include Sundays and weekday holidays, no earlier than 2028 (quoted)."
+    },
+    {
+      "url": "https://www.consumerfinance.gov/ask-cfpb/can-i-cancel-an-international-money-transfer-en-1737/",
+      "title": "Can I cancel an international money transfer?",
+      "publisher": "Consumer Financial Protection Bureau",
+      "source_type": "Consumer guidance",
+      "year": "2024",
+      "published_at": "2024-10-10",
+      "accessed_at": "2026-10-26",
+      "scope": "Remittance cancellation",
+      "method": "Agency guidance",
+      "limitations": "Covered remittance transfers only",
+      "verified": true,
+      "verification_note": "30 minutes after payment if not picked up or deposited and provider can identify it; scheduled transfers up to three business days before (quoted)."
+    },
+    {
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-remittance-transfer-and-what-are-my-rights-en-1161/",
+      "title": "What is a remittance transfer and what are my rights?",
+      "publisher": "Consumer Financial Protection Bureau",
+      "source_type": "Consumer guidance",
+      "year": "2024",
+      "published_at": "2024-10-10",
+      "accessed_at": "2026-10-26",
+      "scope": "Remittance disclosures and error resolution",
+      "method": "Agency guidance",
+      "limitations": "Covered remittance transfers only",
+      "verified": true,
+      "verification_note": "180 days from disclosed availability date to report errors; providers generally have 90 days to investigate; refund or resend possible (quoted)."
+    },
+    {
+      "url": "https://www.nacha.org/content/how-ach-payments-work",
+      "title": "How ACH Payments Work",
+      "publisher": "Nacha",
+      "source_type": "Payment network rulemaker",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "ACH settlement timing",
+      "method": "Network estimate",
+      "limitations": "Estimate across all ACH entries",
+      "verified": true,
+      "verification_note": "Nacha estimates 80% of all ACH payments settle in one banking day or less (quoted)."
+    },
+    {
+      "url": "https://www.nacha.org/news/same-day-ach-growth-propels-ach-network-forward-third-quarter-2026",
+      "title": "Same Day ACH Growth Propels ACH Network Forward in Third Quarter 2026",
+      "publisher": "Nacha",
+      "source_type": "Payment network press release",
+      "year": "2026",
+      "published_at": "2026-10-20",
+      "accessed_at": "2026-10-26",
+      "scope": "Q3 2026 ACH volumes",
+      "method": "Network statistics",
+      "limitations": "Quarterly data",
+      "verified": true,
+      "verification_note": "Same Day ACH 470.4 million payments in Q3 2026, up 36.7% (quoted)."
+    },
+    {
+      "url": "https://www.citi.com/banking/personal-banking-guide/basic-finance/how-long-does-a-wire-transfer-take",
+      "title": "How Long Does a Wire Transfer Take?",
+      "publisher": "Citi",
+      "source_type": "Bank consumer guide",
+      "year": "2026",
+      "published_at": "2026-09-25",
+      "accessed_at": "2026-10-26",
+      "scope": "Bank-stated wire timing",
+      "method": "Provider guidance",
+      "limitations": "One bank's stated expectations",
+      "verified": true,
+      "verification_note": "Domestic wires usually within 24 hours; international may take up to 5 business days (quoted)."
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Same Day ACH handled 470.4 million payments in Q3 2026, up 36.7% year over year.",
+      "source_url": "https://www.nacha.org/news/same-day-ach-growth-propels-ach-network-forward-third-quarter-2026",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "ACH Network payments",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "Payments; percent",
+      "method": "Network statistics",
+      "limitations": "Quarterly data",
+      "sponsored": false,
+      "partial_year": true,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Fedwire business day runs 9:00 p.m. ET preceding day to 7:00 p.m. ET with a 6:45 p.m. ET customer cutoff.",
+      "source_url": "https://www.frbservices.org/resources/financial-services/wires/fedwire-funds-service-national-settlement-service-operating-hours/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Fedwire participants",
+      "sample": "Not applicable: full reported figure",
+      "denominator": "Not applicable",
+      "unit": "Time of day",
+      "method": "Operator schedule",
+      "limitations": "Network level only",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "How Long Does a Wire Transfer Take?",
+      "url": "https://www.citi.com/banking/personal-banking-guide/basic-finance/how-long-does-a-wire-transfer-take",
+      "publisher": "citi.com",
+      "format": "Ranking page",
+      "updated_at": "2026-09-25",
+      "headings": [
+        "How Long Does a Wire Transfer Take?",
+        "Factors that affect wire transfer timelines",
+        "Domestic vs. international wire transfers",
+        "Bank cut-off times",
+        "Regulatory or compliance checks",
+        "Alternatives to wire transfers",
+        "Tips to help avoid wire transfer delays",
+        "Wire transfer FAQs"
+      ],
+      "coverage": [
+        "Timing ranges",
+        "Factors"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Clear domestic vs international ranges.",
+      "gaps": "No Fedwire hours or federal remittance rights cited."
+    },
+    {
+      "title": "Wire Transfers: How They Work, Security & Fees",
+      "url": "https://www.jpmorgan.com/insights/treasury/payables-disbursements/wire-transfers-how-they-work-security-and-fees",
+      "publisher": "jpmorgan.com",
+      "format": "Ranking page",
+      "updated_at": "not stated",
+      "headings": [
+        "How wire transfers work and when to use them",
+        "Key takeaways",
+        "What is a wire transfer?",
+        "How does a wire transfer work?",
+        "Domestic vs. international transfers",
+        "How long does a wire transfer take?"
+      ],
+      "coverage": [
+        "Timing ranges",
+        "Factors"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Business-oriented process overview.",
+      "gaps": "No consumer cancellation rights or operating-hour detail."
+    },
+    {
+      "title": "How Long Does a Wire Transfer Take?",
+      "url": "https://www.bill.com/blog/how-long-does-a-wire-transfer-take",
+      "publisher": "bill.com",
+      "format": "Ranking page",
+      "updated_at": "not stated",
+      "headings": [
+        "How long does a wire transfer take?",
+        "Key takeaways",
+        "What is a wire transfer?",
+        "How do wire transfers work?",
+        "Wire transfers vs. ACH transfers",
+        "Are wire transfers safe?",
+        "Information required to send a wire transfer"
+      ],
+      "coverage": [
+        "Timing ranges",
+        "Factors"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Step-by-step timing factors.",
+      "gaps": "Ranges are uncited; no Fedwire schedule or planned expansion."
+    },
+    {
+      "title": "The ins and outs of wire transfers",
+      "url": "https://www.wellsfargo.com/financial-education/basic-finances/manage-money/payments/ins-outs-transfers/",
+      "publisher": "wellsfargo.com",
+      "format": "Ranking page",
+      "updated_at": "not stated",
+      "headings": [
+        "The ins and outs of wire transfers",
+        "When would I use a wire transfer?",
+        "Where can I send a wire transfer?",
+        "What else should I know about wire transfers?"
+      ],
+      "coverage": [
+        "Timing ranges",
+        "Factors"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Plain-language use cases.",
+      "gaps": "Little timing detail or primary-source citation."
+    },
+    {
+      "title": "How long does a wire transfer take?",
+      "url": "https://www.countrybank.com/faq/how-long-does-a-wire-transfer-take/",
+      "publisher": "countrybank.com",
+      "format": "Ranking page",
+      "updated_at": "2024-07-30",
+      "headings": [
+        "How long does a wire transfer take?"
+      ],
+      "coverage": [
+        "Timing ranges",
+        "Factors"
+      ],
+      "sources": [
+        "Not stated"
+      ],
+      "data_assets": [
+        "Text"
+      ],
+      "link_patterns": [
+        "Internal links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Short direct answer.",
+      "gaps": "No explanation of delays, holidays, or cancellation."
+    }
+  ],
+  "content_gaps": [
+    "Few pages cite the current Fedwire operating hours.",
+    "Few mention the planned six-day schedule and its 2028 earliest date.",
+    "Few separate domestic finality from remittance cancellation rights."
+  ],
+  "value_add": "Fedwire hours and cutoff quoted from the operator, the planned expansion dated, CFPB cancellation and error rights, and a Friday and holiday timing walkthrough.",
+  "plan": {
+    "reader_title": "How Long Does a Wire Transfer Take? Domestic vs International Timing",
+    "seo_title": "How Long Does a Wire Transfer Take? 2026 Timing Guide",
+    "meta_description": "How long does a wire transfer take? Domestic wires often arrive the same business day. See 2026 Fedwire hours, bank cutoffs, delays, and cancellation rules.",
+    "slug": "/payments/how-long-does-a-wire-transfer-take/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "how long does a wire transfer take to go through",
+      "domestic wire transfer time",
+      "international wire transfer time",
+      "wire transfer pending"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "Typical Wire Transfer Timing",
+      "Fedwire Itself Operates in Real Time",
+      "Current Fedwire Operating Hours in 2026",
+      "Why a Bank's Cutoff Can Be Earlier Than Fedwire's",
+      "Domestic timing",
+      "International timing",
+      "Compliance Reviews",
+      "Incorrect Details",
+      "Tracking a wire",
+      "Stopping a wire",
+      "After settlement",
+      "Remittance cancellation",
+      "ACH comparison",
+      "Friday timing",
+      "Checklist",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Operating hours page: business day, cutoff, non-business days.",
+      "CFPB 1737: 30-minute and three-business-day cancellation.",
+      "Citi guide: one bank's domestic and international ranges.",
+      "Fed Board release: six-day schedule no earlier than 2028.",
+      "Nacha: 80% and Q3 2026 Same Day ACH figures."
+    ],
+    "visuals": [
+      "Owner-supplied hero image",
+      "Timing table"
+    ],
+    "internal_links": [
+      "/payments/ach-vs-wire-transfer/",
+      "/payments/paypal-statistics/",
+      "/payments/what-is-a-wire-transfer/"
+    ],
+    "external_link_opportunities": [
+      "https://www.frbservices.org/resources/financial-services/wires/fedwire-funds-service-national-settlement-service-operating-hours/",
+      "https://www.consumerfinance.gov/ask-cfpb/can-i-cancel-an-international-money-transfer-en-1737/",
+      "https://www.citi.com/banking/personal-banking-guide/basic-finance/how-long-does-a-wire-transfer-take"
+    ],
+    "excluded_claims": [
+      "Industry-wide '1 to 5 business days' international range (no primary source; replaced by Citi's stated figure)."
+    ],
+    "drafting_cautions": [
+      "Do not present planned Fedwire expansion as current.",
+      "Label Citi ranges as one bank's figures."
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Fedwire business day runs 9:00 p.m. ET to 7:00 p.m. ET with a 6:45 p.m. ET customer cutoff.",
+      "source_url": "https://www.frbservices.org/resources/financial-services/wires/fedwire-funds-service-national-settlement-service-operating-hours/",
+      "verified": true
+    },
+    {
+      "statement": "Covered remittance transfers can be cancelled within 30 minutes; scheduled ones up to three business days before.",
+      "source_url": "https://www.consumerfinance.gov/ask-cfpb/can-i-cancel-an-international-money-transfer-en-1737/",
+      "verified": true
+    },
+    {
+      "statement": "Citi says domestic wires usually go through within 24 hours and international wires may take up to 5 business days.",
+      "source_url": "https://www.citi.com/banking/personal-banking-guide/basic-finance/how-long-does-a-wire-transfer-take",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-26",
+    "note": "Final AI QA layer: every figure checked on primary pages; international range re-sourced to Citi; owner sign-off pending.",
+    "notes": "Signed off by the site owner (Darlene Aberin) on 2026-10-26 after the AI QA layer, approving the QA changes and the keyword switches for S34 and S35."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-26",
+    "note": "Editorial QA SOP applied; status PASS approved by the owner on 2026-10-26.",
+    "notes": "Signed off by the site owner (Darlene Aberin) on 2026-10-26 after the AI QA layer, approving the QA changes and the keyword switches for S34 and S35."
+  },
+  "verification_log": {
+    "checked_on": "2026-10-26",
+    "summary": "Fedwire operator pages, Fed Board release, CFPB pages, Nacha pages and Citi guide fetched 2026-10-26. Ubersuggest US data and SERP retrieved 2026-10-26; five competitor pages read (veem.com blocked, replaced).",
+    "pending": "Owner sign-off."
+  }
+}

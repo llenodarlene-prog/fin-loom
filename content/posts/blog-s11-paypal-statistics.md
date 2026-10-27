@@ -10,7 +10,7 @@ tracker_id: Blog:S11
 primary_keyword: PayPal statistics
 secondary_keywords: 
 cluster: Payments
-approved_internal_links: /markets-stocks/apple-statistics/; /money-banking/identity-theft-statistics/
+approved_internal_links: /markets-stocks/apple-statistics/; /money-banking/identity-theft-statistics/; /payments/ach-vs-wire-transfer/; /payments/how-long-does-a-wire-transfer-take/; /payments/what-is-a-wire-transfer/
 research_record: content/research/blog-s11.json
 image: /assets/images/posts/paypal-statistics/phone-payment-at-card-terminal-1600.jpg
 image_alt: A phone showing a completed PayPal payment beside a card terminal on a cafe counter
@@ -290,6 +290,8 @@ If PayPal improves consumer conversion enough, a merchant may accept a higher pr
 Account-to-account payments are becoming faster in many markets. These rails can reduce dependence on cards for some transactions.
 
 That creates both opportunity and risk for PayPal. PayPal can integrate alternative funding sources.
+
+Bank rails already differ sharply from one another. [ACH vs wire transfer](/payments/ach-vs-wire-transfer/) compares the batch network behind payroll with the real-time system used for large payments, [what is a wire transfer](/payments/what-is-a-wire-transfer/) explains how Fedwire settles each payment individually, and [how long a wire transfer takes](/payments/how-long-does-a-wire-transfer-take/) shows why bank cutoffs still shape delivery times.
 
 It can also face competitors that move money directly between bank accounts at lower cost. The long-term winners may be platforms that abstract the rail from the consumer.
 
