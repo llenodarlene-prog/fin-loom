@@ -3,7 +3,7 @@
 (function (root) {
   'use strict';
 
-  const LIMITS = { rate: [0, 100], balance: [0, 100000000], contribution: [0, 1000000], years: [1, 100], shares: [0, 10000000], price: [0.01, 1000000], dividend: [0, 10000], growth: [-50, 50], dripYears: [1, 50] };
+  const LIMITS = { rate: [0, 100], balance: [0, 100000000], contribution: [0, 1000000], years: [1, 100], shares: [0, 100000000], price: [0.01, 1000000], dividend: [0, 100000], growth: [-100, 100], dripYears: [1, 50] };
 
   // APY = (1 + r / n)^n - 1, with r as a decimal.
   function apy(ratePercent, periods) {
@@ -49,38 +49,112 @@
   }
 
 
-  // Dividend reinvestment engine, worked month by month. Share price grows smoothly at the annual
-  // price-growth rate; the dividend per share steps up once a year at the dividend-growth rate.
-  // Each payment buys new shares at that month's assumed price when reinvesting; otherwise it is
-  // kept as cash. Monthly contributions buy shares at the same assumed price. Fees and taxes are ignored.
+  // Dividend reinvestment engine: a monthly simulation. Each month it (1) buys shares with a
+  // beginning-of-month contribution, (2) pays the dividend in scheduled months and reinvests it
+  // or keeps it as cash, (3) buys shares with an end-of-month contribution, then (4) moves the
+  // price by the equivalent monthly rate (1 + annual)^(1/12) - 1. The dividend per share changes
+  // once a year, after each year-end snapshot, and never falls below zero. Nothing is rounded.
+  const DRIP_CEILING = 1e15;
+
+  function dividendMonths(frequency) {
+    const step = 12 / frequency;
+    const months = [];
+    for (let month = step; month <= 12; month += step) months.push(month);
+    return months;
+  }
+
   function dripGrowth(o) {
-    const step = 12 / o.frequency;
-    const months = o.years * 12;
-    let shares = o.shares; let cash = 0; let paid = 0; let reinvested = 0; let added = 0;
-    let perShare = o.dividend;
+    const totalMonths = o.years * 12;
+    const payMonths = dividendMonths(o.frequency);
+    const monthlyRate = o.priceGrowth <= -100 ? -1 : Math.pow(1 + o.priceGrowth / 100, 1 / 12) - 1;
+    const startValue = o.shares * o.price;
+    let shares = o.shares; let price = o.price; let perShare = o.dividend;
+    let cash = 0; let idle = 0; let paid = 0; let reinvested = 0; let contributions = 0; let priceZero = false;
     const rows = [];
-    let year = null;
-    const priceAt = m => o.price * Math.pow(1 + o.priceGrowth / 100, m / 12);
-    for (let m = 0; m < months; m += 1) {
-      if (m % 12 === 0) {
-        if (m > 0) perShare *= 1 + o.dividendGrowth / 100;
-        year = { year: m / 12 + 1, startShares: shares, dividends: 0, reinvested: 0, newShares: 0, contributions: 0 };
+    const blank = () => ({ dividends: 0, reinvested: 0, contributions: 0, newShares: 0 });
+    let year = blank();
+
+    // A purchase needs a positive price; otherwise the money is held as uninvested cash.
+    const buy = amount => {
+      if (amount <= 0) return;
+      contributions += amount; year.contributions += amount;
+      if (price > 0) { const bought = amount / price; shares += bought; year.newShares += bought; } else { idle += amount; priceZero = true; }
+    };
+
+    for (let month = 1; month <= totalMonths; month += 1) {
+      if (o.timing === 'start') buy(o.monthly);
+      if (payMonths.includes(((month - 1) % 12) + 1)) {
+        const dividend = shares * perShare;
+        paid += dividend; year.dividends += dividend;
+        if (o.reinvest && price > 0) { const bought = dividend / price; shares += bought; reinvested += dividend; year.reinvested += dividend; year.newShares += bought; } else { cash += dividend; if (o.reinvest) priceZero = true; }
       }
-      const price = priceAt(m + 1);
-      if (o.monthly > 0) { const bought = o.monthly / price; shares += bought; added += o.monthly; year.contributions += o.monthly; year.newShares += bought; }
-      if ((m + 1) % step === 0) {
-        const cashDividend = shares * perShare;
-        paid += cashDividend; year.dividends += cashDividend;
-        if (o.reinvest) { const bought = cashDividend / price; shares += bought; reinvested += cashDividend; year.reinvested += cashDividend; year.newShares += bought; }
-        else cash += cashDividend;
-      }
-      if ((m + 1) % 12 === 0) {
-        year.endShares = shares; year.end = shares * price + cash; year.income = shares * perShare * o.frequency;
-        rows.push(year);
+      if (o.timing !== 'start') buy(o.monthly);
+      price = Math.max(0, price * (1 + monthlyRate));
+      if (month % 12 === 0) {
+        rows.push(Object.assign(year, { year: month / 12, endShares: shares, price, dividendPerShare: perShare, income: shares * perShare * o.frequency, end: shares * price + cash + idle, cumulativeDividends: paid, capital: startValue + contributions }));
+        if (month < totalMonths) perShare = Math.max(0, perShare * (1 + o.dividendGrowth / 100));
+        year = blank();
       }
     }
+
     const last = rows[rows.length - 1];
-    return { rows, shares, cash, end: last.end, dividends: paid, reinvested, contributions: added, income: last.income, startValue: o.shares * o.price };
+    const capital = startValue + contributions;
+    const tooLarge = !rows.every(row => Number.isFinite(row.end) && Number.isFinite(row.endShares) && row.end <= DRIP_CEILING && row.cumulativeDividends <= DRIP_CEILING);
+    return { rows, shares, end: last.end, stockValue: shares * price, cash, idle, dividends: paid, reinvested, contributions, startValue, capital, growth: last.end - capital, endPrice: price, endDividend: perShare, income: last.income, yieldOnCapital: capital > 0 ? last.income / capital : 0, priceZero, tooLarge };
+  }
+
+  // Display text for the dividend calculator, shared by the server render and the browser.
+  const fmt = {
+    money: new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', minimumFractionDigits: 2, maximumFractionDigits: 2 }),
+    compact: new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', notation: 'compact', maximumFractionDigits: 1 }),
+    shares: new Intl.NumberFormat('en-US', { minimumFractionDigits: 3, maximumFractionDigits: 3 }),
+    percent: new Intl.NumberFormat('en-US', { style: 'percent', minimumFractionDigits: 2, maximumFractionDigits: 2 }),
+    perShare: new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', minimumFractionDigits: 2, maximumFractionDigits: 4 })
+  };
+  const formatCurrency = value => fmt.money.format(value);
+  const formatShares = value => fmt.shares.format(value);
+  const formatPercent = value => fmt.percent.format(value);
+
+  function dripSummary(o, r) {
+    const span = `${o.years} year${o.years === 1 ? '' : 's'}`;
+    const start = o.shares > 0 ? `your ${new Intl.NumberFormat('en-US', { maximumFractionDigits: 3 }).format(o.shares)} starting shares could grow to` : 'your monthly contributions could build a position of';
+    return `Under these assumptions, ${start} ${formatShares(r.shares)} shares over ${span}, producing an estimated annual dividend income of ${formatCurrency(r.income)}.`;
+  }
+
+  function dripOutputs(o, r, cashRun) {
+    return {
+      end: formatCurrency(r.end), shares: formatShares(r.shares), income: formatCurrency(r.income), dividends: formatCurrency(r.dividends),
+      start: formatCurrency(r.startValue), contributions: formatCurrency(r.contributions), capital: formatCurrency(r.capital),
+      reinvested: formatCurrency(r.reinvested), growth: formatCurrency(r.growth), price: formatCurrency(r.endPrice),
+      perShare: fmt.perShare.format(r.endDividend), yoc: formatPercent(r.yieldOnCapital), cash: formatCurrency(r.cash + r.idle),
+      gain: o.reinvest ? formatCurrency(r.end - cashRun.end) : formatCurrency(0)
+    };
+  }
+
+  function dripRows(r) {
+    return r.rows.map(row => `<tr><th scope="row">${row.year}</th><td class="num">${formatShares(row.endShares)}</td><td class="num">${formatCurrency(row.price)}</td><td class="num">${fmt.perShare.format(row.dividendPerShare)}</td><td class="num">${formatCurrency(row.dividends)}</td><td class="num">${formatCurrency(row.contributions)}</td><td class="num">${formatCurrency(row.income)}</td><td class="num">${formatCurrency(row.end)}</td></tr>`).join('');
+  }
+
+  // Responsive SVG line chart: portfolio value, contributed capital, cumulative dividends.
+  function dripChart(r) {
+    const w = 640; const h = 280; const pad = { l: 70, r: 16, t: 16, b: 34 };
+    const series = [['value', row => row.end], ['capital', row => row.capital], ['dividends', row => row.cumulativeDividends]];
+    const max = Math.max(1, ...r.rows.flatMap(row => series.map(([, get]) => get(row))));
+    const n = r.rows.length;
+    const x = i => pad.l + (n === 1 ? (w - pad.l - pad.r) / 2 : i * (w - pad.l - pad.r) / (n - 1));
+    const y = v => h - pad.b - v / max * (h - pad.t - pad.b);
+    const grid = [0, 0.25, 0.5, 0.75, 1].map(f => `<line x1="${pad.l}" x2="${w - pad.r}" y1="${y(max * f)}" y2="${y(max * f)}" class="finloom-calc-grid"/><text x="${pad.l - 8}" y="${y(max * f) + 4}" text-anchor="end" class="finloom-calc-axis">${fmt.compact.format(max * f)}</text>`).join('');
+    const ticks = [...new Set([0, Math.floor((n - 1) / 2), n - 1])].map(i => `<text x="${x(i)}" y="${h - 10}" text-anchor="middle" class="finloom-calc-axis">Year ${r.rows[i].year}</text>`).join('');
+    const lines = series.map(([key, get]) => `<polyline class="finloom-calc-line finloom-calc-line--${key}" fill="none" points="${r.rows.map((row, i) => `${x(i)},${y(get(row))}`).join(' ')}"/>`).join('');
+    const desc = `Over ${n} year${n === 1 ? '' : 's'}, portfolio value reaches ${formatCurrency(r.end)}, contributed capital reaches ${formatCurrency(r.capital)}, and cumulative dividends reach ${formatCurrency(r.dividends)}.`;
+    return { svg: `<desc>${desc}</desc>${grid}${lines}${ticks}`, desc };
+  }
+
+  function dripWarnings(r) {
+    const notes = [];
+    if (r.tooLarge) notes.push('These assumptions produce an unrealistically large projection. Reduce the growth rate, contribution, or time period.');
+    if (r.priceZero) notes.push('The share price reaches zero under these assumptions, so later dividends and contributions are held as cash instead of buying shares.');
+    return notes;
   }
 
   function validate(name, value) {
@@ -90,7 +164,7 @@
     return '';
   }
 
-  const engine = { apy, apyGrowth, savingsGrowth, dripGrowth, validate, LIMITS };
+  const engine = { apy, apyGrowth, savingsGrowth, dividendMonths, dripGrowth, dripSummary, dripOutputs, dripRows, dripChart, dripWarnings, validate, LIMITS };
   if (typeof module === 'object' && module.exports) module.exports = engine;
   if (typeof document === 'undefined') return;
 
@@ -186,26 +260,36 @@
   function initDrip(root) {
     const form = root.querySelector('form');
     const f = name => form.elements[name];
-    const out = name => root.querySelector(`[data-out="${name}"]`);
-    const count = new Intl.NumberFormat('en-US', { minimumFractionDigits: 3, maximumFractionDigits: 3 });
     const opt = name => f(name).value.trim() === '' ? 0 : num(f(name));
-    wire(form, () => {
-      const o = { shares: num(f('shares')), price: num(f('price')), dividend: num(f('dividend')), frequency: Number(f('frequency').value), dividendGrowth: opt('dgrowth'), priceGrowth: opt('pgrowth'), years: num(f('years')), monthly: opt('monthly'), reinvest: f('reinvest').checked };
-      if (!errors(form, [[f('shares'), validate('shares', o.shares)], [f('price'), validate('price', o.price)], [f('dividend'), validate('dividend', o.dividend)], [f('dgrowth'), validate('growth', o.dividendGrowth)], [f('pgrowth'), validate('growth', o.priceGrowth)], [f('years'), Number.isInteger(o.years) ? validate('dripYears', o.years) : 'Enter whole years.'], [f('monthly'), validate('contribution', o.monthly)]])) return;
+    const parseInputs = () => ({ shares: num(f('shares')), price: num(f('price')), dividend: num(f('dividend')), frequency: Number(f('frequency').value), dividendGrowth: opt('dgrowth'), priceGrowth: opt('pgrowth'), years: num(f('years')), monthly: opt('monthly'), timing: form.querySelector('input[name="timing"]:checked').value, reinvest: form.querySelector('input[name="reinvest"]:checked').value === 'yes' });
+    const validateInputs = o => errors(form, [
+      [f('shares'), validate('shares', o.shares) || (o.shares === 0 && !(o.monthly > 0) ? 'Enter starting shares or a monthly contribution.' : '')],
+      [f('price'), validate('price', o.price)], [f('dividend'), validate('dividend', o.dividend)],
+      [f('dgrowth'), validate('growth', o.dividendGrowth)], [f('pgrowth'), validate('growth', o.priceGrowth)],
+      [f('years'), Number.isInteger(o.years) ? validate('dripYears', o.years) : 'Enter whole years.'], [f('monthly'), validate('contribution', o.monthly)]]);
+    const run = () => {
+      const o = parseInputs();
+      if (!validateInputs(o)) return;
       const r = dripGrowth(o);
-      const without = o.reinvest ? dripGrowth({ ...o, reinvest: false }) : r;
-      out('end').textContent = money.format(r.end);
-      out('shares').textContent = count.format(r.shares);
-      out('dividends').textContent = money.format(r.dividends);
-      out('reinvested').textContent = money.format(r.reinvested);
-      out('income').textContent = money.format(r.income);
-      out('contributions').textContent = money.format(r.contributions);
-      out('gain').textContent = money.format(r.end - without.end);
-      let total = 0;
-      chart(root.querySelector('svg'), r.rows, [{ key: 'balance', value: row => row.income }, { key: 'contributions', value: row => (total += row.reinvested) }]);
-      root.querySelector('tbody').innerHTML = r.rows.map(row => `<tr><th scope="row">${row.year}</th><td class="num">${count.format(row.startShares)}</td><td class="num">${money.format(row.dividends)}</td><td class="num">${money.format(row.reinvested)}</td><td class="num">${count.format(row.newShares)}</td><td class="num">${count.format(row.endShares)}</td><td class="num">${money.format(row.contributions)}</td><td class="num">${money.format(row.end)}</td></tr>`).join('');
-      root.querySelector('[data-summary]').textContent = `${count.format(o.shares)} shares at ${money.format(o.price)} with dividends ${o.reinvest ? 'reinvested' : 'taken as cash'} grow to ${count.format(r.shares)} shares worth ${money.format(r.end)} after ${o.years} year${o.years === 1 ? '' : 's'}, under these assumptions.`;
-    });
+      const values = dripOutputs(o, r, dripGrowth(Object.assign({}, o, { reinvest: false })));
+      root.querySelectorAll('[data-out]').forEach(el => { el.textContent = values[el.dataset.out]; });
+      root.querySelector('[data-cash-row]').hidden = o.reinvest;
+      root.querySelector('[data-gain-row]').hidden = !o.reinvest;
+      root.querySelector('[data-summary]').textContent = dripSummary(o, r);
+      const view = dripChart(r);
+      const svg = root.querySelector('svg');
+      svg.innerHTML = view.svg; svg.setAttribute('aria-label', view.desc);
+      root.querySelector('tbody').innerHTML = dripRows(r);
+      const notes = dripWarnings(r);
+      const box = root.querySelector('[data-warnings]');
+      box.hidden = notes.length === 0; box.innerHTML = notes.map(text => `<p>${text}</p>`).join('');
+    };
+    let timer;
+    form.addEventListener('submit', event => { event.preventDefault(); clearTimeout(timer); run(); });
+    form.addEventListener('input', () => { clearTimeout(timer); timer = setTimeout(run, 200); });
+    form.addEventListener('change', () => { clearTimeout(timer); timer = setTimeout(run, 200); });
+    form.addEventListener('reset', () => { clearTimeout(timer); setTimeout(run, 0); });
+    run();
   }
 
   document.querySelectorAll('.finloom-calc[data-calculator="apy"]').forEach(initApy);
