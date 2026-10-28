@@ -1,12 +1,24 @@
 // Server-rendered calculator markup. Default results are computed with the same engine the browser
 // uses (src/scripts/calculators.js), so the page shows correct figures before or without JavaScript.
-import { readFileSync } from 'node:fs';
+import { readFileSync, readdirSync } from 'node:fs';
 import vm from 'node:vm';
 
 // The browser script is a classic script; run it in a sandbox with a CommonJS-style module object.
 const sandbox = { module: { exports: {} }, Math, Number, Intl, globalThis: {} };
 vm.runInNewContext(readFileSync(new URL('../../src/scripts/calculators.js', import.meta.url), 'utf8'), sandbox);
 export const engine = sandbox.module.exports;
+
+// Suite tools: one browser file per calculator (src/scripts/calc-<id>.js), run here with the shared
+// toolkit so the server render uses the same engine, and one markup module per tool
+// (scripts/lib/calculators/<id>.mjs).
+const scriptsDir = new URL('../../src/scripts/', import.meta.url);
+export const toolIds = readdirSync(scriptsDir).filter(name => /^calc-[a-z-]+\.js$/.test(name)).map(name => name.slice(5, -3));
+const toolEngines = Object.fromEntries(toolIds.map(id => {
+  const box = { module: { exports: {} }, Math, Number, Intl, Date, FinLoomCalc: engine.kit };
+  vm.runInNewContext(readFileSync(new URL(`calc-${id}.js`, scriptsDir), 'utf8'), box);
+  return [id, box.module.exports];
+}));
+export const tools = toolEngines;
 const money = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', minimumFractionDigits: 2, maximumFractionDigits: 2 });
 const pct = value => `${(value * 100).toFixed(3)}%`;
 const disclaimer = '<p class="finloom-calc-note">This calculator provides estimates for educational purposes. Actual interest earnings may differ because rates, balances, fees, account terms, and contribution timing can change.</p>';
@@ -94,10 +106,40 @@ ${field('drip-monthly', 'Monthly contribution ($)', 'min="0" max="1000000" step=
 </div></div>`;
 }
 
+// Shared markup for suite tools.
+const esc = value => String(value).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+export const ui = {
+  esc,
+  field,
+  select: (id, label, options, selected, hint = '') => `<div class="finloom-calc-field"><label for="${id}">${label}</label><select id="${id}" name="${id.split('-').pop()}"${hint ? ` aria-describedby="${id}-hint"` : ''}>${options.map(([value, text]) => `<option value="${value}"${String(value) === String(selected) ? ' selected' : ''}>${text}</option>`).join('')}</select>${hint ? `<span class="finloom-calc-hint" id="${id}-hint">${hint}</span>` : ''}</div>`,
+  radios: (name, legend, options, checked) => `<fieldset class="finloom-calc-radios"><legend>${legend}</legend>${options.map(([value, text]) => `<label><input type="radio" name="${name}" value="${value}"${value === checked ? ' checked' : ''}> ${text}</label>`).join('')}</fieldset>`,
+  advanced: inner => `<details class="finloom-calc-advanced"><summary>Advanced options</summary>${inner}</details>`,
+  buttons,
+  row: (label, key, value, extra = '') => `<div class="finloom-calc-row"${extra}><dt>${label}</dt><dd><output data-out="${key}">${value}</output></dd></div>`,
+  chart: (chart, label) => `<svg class="finloom-calc-chart" role="img" aria-label="${esc(chart.desc)}" viewBox="${chart.viewBox}">${chart.svg}</svg>${label ? `<p class="finloom-calc-legend">${label}</p>` : ''}`,
+  key: (key, text) => `<span><span class="finloom-calc-key finloom-calc-key--${key}"></span>${text}</span>`,
+  table: (caption, headers, body) => `<div class="table-wrap" tabindex="0" role="region" aria-label="${esc(caption)}"><table${headers.length >= 5 ? ' class="finloom-calc-table--wide"' : ''}><caption>${caption}</caption><thead><tr>${headers.map((h, i) => `<th scope="col"${i ? ' class="num"' : ''}>${h}</th>`).join('')}</tr></thead><tbody>${body}</tbody></table></div>`,
+  assumptions: items => `<h3 class="finloom-calc-subtitle">Assumptions</h3><ul class="finloom-calc-assumptions">${items.map(item => `<li>${item}</li>`).join('')}</ul>`,
+  disclaimer: (tax = false) => `<div class="finloom-calc-disclaimer"><p><strong>Educational estimate only.</strong> This calculator uses the assumptions you enter to illustrate a possible financial outcome. It does not predict future investment performance, interest rates, inflation, taxes, market prices, or financial results. Actual outcomes may differ.</p>${tax ? '<p>Tax calculations are simplified estimates for educational purposes and do not replace tax advice. Federal and state rules can change, and individual circumstances vary.</p>' : ''}</div>`,
+  // Inputs on the left, results on the right, then full-width chart, table, assumptions, and disclaimer.
+  layout: ({ type, title, legend = 'Your Inputs', form, label, big, results, summary, wide }) => `<section class="finloom-calc finloom-calc--${type}" data-calculator="${type}" aria-label="${esc(title)}">
+<h2 class="finloom-calc-title">${title}</h2>
+<form class="finloom-calc-form" novalidate><fieldset><legend>${legend}</legend>${form}</fieldset>${buttons}</form>
+<div class="finloom-calc-results" aria-live="polite"><p class="finloom-calc-label">${label}</p><p class="finloom-calc-big"><output data-out="big">${big}</output></p>
+<p class="finloom-calc-summary" data-summary>${summary}</p><div class="finloom-calc-warning" data-warnings role="status" hidden></div>
+<dl class="finloom-calc-list">${results}</dl></div>
+<div class="finloom-calc-wide">${wide}</div></section>`
+};
+
 const calculators = { apy: apyCalculator, savings: savingsCalculator, drip: dripCalculator };
 
-export function calculatorBlock(id, version) {
-  const render = calculators[id.trim()];
-  if (!render) throw new Error(`calculator "${id.trim()}" is not defined in scripts/lib/calculators.mjs`);
-  return `${render()}<script src="/scripts/calculators.js?v=${version}" defer></script>`;
+const toolRenderers = Object.fromEntries(await Promise.all(toolIds.map(async id => [id, (await import(`./calculators/${id}.mjs`)).default])));
+
+// versions: { core, [toolId] } content hashes for cache-busting.
+export function calculatorBlock(id, versions) {
+  const key = id.trim();
+  const core = `<script src="/scripts/calculators.js?v=${versions.core}" defer></script>`;
+  if (calculators[key]) return `${calculators[key]()}${core}`;
+  if (!toolRenderers[key]) throw new Error(`calculator "${key}" is not defined in scripts/lib/calculators.mjs or scripts/lib/calculators/`);
+  return `${toolRenderers[key](tools[key], ui)}${core}<script src="/scripts/calc-${key}.js?v=${versions[key]}" defer></script>`;
 }
