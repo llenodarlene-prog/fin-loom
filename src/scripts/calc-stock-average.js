@@ -4,6 +4,9 @@
   'use strict';
 
   const kit = root.FinLoomCalc;
+  // Share counts keep up to four decimals for fractional shares but drop trailing zeros.
+  const shareFormat = new Intl.NumberFormat('en-US', { maximumFractionDigits: 4 });
+  const shareCount = value => shareFormat.format(Number.isFinite(value) ? value : 0);
   const MIN_ROWS = 2;
   const MAX_ROWS = 50;
   const DEFAULTS = [{ shares: 100, price: 50, fees: 0 }, { shares: 50, price: 40, fees: 0 }];
@@ -24,7 +27,7 @@
   }
 
   function summary(r) {
-    const base = `Under these purchases, your ${kit.number(r.shares, 4).replace(/\.?0+$/, '')} shares cost an estimated ${kit.money(r.invested)} in total, an average of ${kit.money(r.average)} per share including fees.`;
+    const base = `Under these purchases, your ${shareCount(r.shares)} shares cost an estimated ${kit.money(r.invested)} in total, an average of ${kit.money(r.average)} per share including fees.`;
     if (r.current === null) return base;
     const word = r.gain >= 0 ? 'unrealized gain' : 'unrealized loss';
     return `${base} At ${kit.money(r.current)} a share, the position could show an ${word} of ${kit.money(Math.abs(r.gain))} (${kit.percent(r.gainPct, 1)}).`;
@@ -32,7 +35,7 @@
 
   function outputs(r) {
     return {
-      big: kit.money(r.average), shares: kit.number(r.shares, 4), invested: kit.money(r.invested), fees: kit.money(r.fees),
+      big: kit.money(r.average), shares: shareCount(r.shares), invested: kit.money(r.invested), fees: kit.money(r.fees),
       avgNoFees: kit.money(r.averageBeforeFees),
       value: r.current === null ? 'Enter a current price' : kit.money(r.value),
       gain: r.current === null ? 'Enter a current price' : `${r.gain >= 0 ? 'Gain' : 'Loss'} ${kit.money(Math.abs(r.gain))} (${kit.percent(r.gainPct, 1)})`,
@@ -49,8 +52,8 @@
   }
 
   function tableRows(r) {
-    return r.rows.map(row => `<tr><th scope="row">${row.index}</th><td class="num">${kit.number(row.shares, 4)}</td><td class="num">${kit.money(row.price)}</td><td class="num">${kit.money(row.fees)}</td><td class="num">${kit.money(row.cost)}</td><td class="num">${r.shares > 0 ? kit.percent(row.shares / r.shares, 1) : '0%'}</td></tr>`).join('')
-      + `<tr><th scope="row">Total</th><td class="num">${kit.number(r.shares, 4)}</td><td class="num">${kit.money(r.average)} avg</td><td class="num">${kit.money(r.fees)}</td><td class="num">${kit.money(r.invested)}</td><td class="num">100%</td></tr>`;
+    return r.rows.map(row => `<tr><th scope="row">${row.index}</th><td class="num">${shareCount(row.shares)}</td><td class="num">${kit.money(row.price)}</td><td class="num">${kit.money(row.fees)}</td><td class="num">${kit.money(row.cost)}</td><td class="num">${r.shares > 0 ? kit.percent(row.shares / r.shares, 1) : '0%'}</td></tr>`).join('')
+      + `<tr><th scope="row">Total</th><td class="num">${shareCount(r.shares)}</td><td class="num">${kit.money(r.average)} avg</td><td class="num">${kit.money(r.fees)}</td><td class="num">${kit.money(r.invested)}</td><td class="num">100%</td></tr>`;
   }
 
   // Markup for one purchase row; shared by the server render and the Add purchase button.
