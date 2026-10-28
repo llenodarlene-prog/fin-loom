@@ -46,6 +46,10 @@ Real investments do not earn a steady return. Prices can fall for long stretches
 
 Whether money should be invested at all depends on when it is needed. [Saving vs investing](/money-banking/saving-vs-investing/) explains why short-term money usually belongs in savings rather than in assets whose value can drop.
 
+## More Fin Loom Calculators
+
+This tool is part of Fin Loom's set of [financial calculators and reference tools](/tools/), which covers inflation, compound interest, investment growth, dividends, withdrawals, capital gains tax, and stock trades.
+
 ## Frequently Asked Questions
 
 ### What Return Should I Enter?

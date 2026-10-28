@@ -47,6 +47,10 @@ The calculator does not include taxes. In a taxable account, dividends and reali
 
 A past total return describes what happened under the inputs entered. It does not predict what a stock will return next.
 
+## More Fin Loom Calculators
+
+This tool is part of Fin Loom's set of [financial calculators and reference tools](/tools/), which covers inflation, compound interest, investment growth, dividends, withdrawals, capital gains tax, and stock trades.
+
 ## Frequently Asked Questions
 
 ### What Is Dividend Total Return?

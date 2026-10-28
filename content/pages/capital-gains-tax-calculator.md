@@ -46,6 +46,10 @@ The estimate covers federal income tax on one sale. It does not include:
 
 The headline figure is the estimated additional federal tax on the gain. The effective rate divides that tax by the taxable gain, which can sit between two bracket rates when the gain spans a threshold. The breakdown table shows how much of the gain falls in each rate band. After-tax proceeds subtract selling fees and the estimated tax from the sale price.
 
+## More Fin Loom Calculators
+
+This tool is part of Fin Loom's set of [financial calculators and reference tools](/tools/), which covers inflation, compound interest, investment growth, dividends, withdrawals, capital gains tax, and stock trades.
+
 ## Frequently Asked Questions
 
 ### What Is the Difference Between Short-Term and Long-Term Capital Gains?

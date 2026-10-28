@@ -42,6 +42,10 @@ BLS did not publish an October 2025 index because of the 2025 lapse in appropria
 
 The CPI-U measures average price changes for urban consumers. Your own costs can rise faster or slower depending on what you buy, where you live, and how your spending changes over time. The calculator also does not account for wage growth, taxes, or investment returns, so it describes buying power rather than whether savings kept pace.
 
+## More Fin Loom Calculators
+
+This tool is part of Fin Loom's set of [financial calculators and reference tools](/tools/), which covers inflation, compound interest, investment growth, dividends, withdrawals, capital gains tax, and stock trades.
+
 ## Frequently Asked Questions
 
 ### Where Does the Inflation Data Come From?

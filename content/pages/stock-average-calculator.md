@@ -44,6 +44,10 @@ A lower average cost does not by itself make a position safer or more likely to 
 
 The calculator treats every purchase as part of one position with no sales in between. It does not adjust for stock splits, reinvested dividends, or corporate actions, which brokers handle in their own records. For taxes, brokers and the IRS track cost basis by individual lot, so the tax result of a sale can differ from what one blended average suggests.
 
+## More Fin Loom Calculators
+
+This tool is part of Fin Loom's set of [financial calculators and reference tools](/tools/), which covers inflation, compound interest, investment growth, dividends, withdrawals, capital gains tax, and stock trades.
+
 ## Frequently Asked Questions
 
 ### How Do You Calculate the Average Cost of a Stock?

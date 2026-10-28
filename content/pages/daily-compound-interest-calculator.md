@@ -42,6 +42,10 @@ The calculator assumes the rate never changes, which variable-rate savings accou
 
 For longer goals that combine a starting balance with regular monthly deposits at a disclosed APY, the [savings interest calculator](/money-banking/savings-interest-calculator/) works month by month from the APY instead of from a nominal rate.
 
+## More Fin Loom Calculators
+
+This tool is part of Fin Loom's set of [financial calculators and reference tools](/tools/), which covers inflation, compound interest, investment growth, dividends, withdrawals, capital gains tax, and stock trades.
+
 ## Frequently Asked Questions
 
 ### How Is Daily Compound Interest Calculated?

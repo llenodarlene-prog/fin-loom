@@ -49,6 +49,10 @@ The calculator also looks at a single purchase and a single sale. If you bought 
 
 A profit figure describes a trade, not whether a company is worth owning. Price targets and exit points are only as useful as the analysis behind them, which is why [stock analysis fundamentals](/markets-stocks/stock-analysis-fundamentals/) such as revenue, margins, cash flow, and valuation still sit at the center of any decision. Fin Loom is an informational publication and does not recommend buying or selling any security.
 
+## More Fin Loom Calculators
+
+This tool is part of Fin Loom's set of [financial calculators and reference tools](/tools/), which covers inflation, compound interest, investment growth, dividends, withdrawals, capital gains tax, and stock trades.
+
 ## Frequently Asked Questions
 
 ### How Do You Calculate Profit on a Stock?

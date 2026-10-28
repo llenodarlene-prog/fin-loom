@@ -38,6 +38,10 @@ Sequence-of-returns risk is not modeled in this basic projection. Real portfolio
 
 The calculator also leaves out taxes, fees, required minimum distributions, and changes in spending other than the yearly increase. Money set aside for near-term needs often sits in cash rather than investments, a tradeoff covered in [saving vs investing](/money-banking/saving-vs-investing/).
 
+## More Fin Loom Calculators
+
+This tool is part of Fin Loom's set of [financial calculators and reference tools](/tools/), which covers inflation, compound interest, investment growth, dividends, withdrawals, capital gains tax, and stock trades.
+
 ## Frequently Asked Questions
 
 ### Does the Calculator Account for Inflation?

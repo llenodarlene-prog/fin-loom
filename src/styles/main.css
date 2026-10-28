@@ -664,3 +664,4 @@ html:not(.js) .ill-pie-arc{stroke-dashoffset:0}
 .finloom-calc .finloom-calc-remove{min-width:44px;min-height:44px;border-radius:10px;border:1px solid var(--line);background:#fff;color:#B42318;font:inherit;font-weight:700;cursor:pointer}
 .finloom-calc .finloom-calc-add{margin-bottom:1rem}
 @media(max-width:560px){.finloom-calc .finloom-calc-purchase{grid-template-columns:1fr 1fr;border:1px solid var(--c-line);border-radius:10px;padding:.6rem}.finloom-calc .finloom-calc-purchase>.finloom-calc-index{grid-column:1/-1}.finloom-calc .finloom-calc-remove{grid-column:2;justify-self:end}}
+.finloom-calc [hidden]{display:none!important}
