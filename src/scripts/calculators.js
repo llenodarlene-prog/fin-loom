@@ -144,7 +144,7 @@
     const x = i => pad.l + (n === 1 ? (w - pad.l - pad.r) / 2 : i * (w - pad.l - pad.r) / (n - 1));
     const y = v => h - pad.b - v / max * (h - pad.t - pad.b);
     const grid = [0, 0.25, 0.5, 0.75, 1].map(f => `<line x1="${pad.l}" x2="${w - pad.r}" y1="${y(max * f)}" y2="${y(max * f)}" class="finloom-calc-grid"/><text x="${pad.l - 8}" y="${y(max * f) + 4}" text-anchor="end" class="finloom-calc-axis">${fmt.compact.format(max * f)}</text>`).join('');
-    const ticks = [...new Set([0, Math.floor((n - 1) / 2), n - 1])].map(i => `<text x="${x(i)}" y="${h - 10}" text-anchor="middle" class="finloom-calc-axis">Year ${r.rows[i].year}</text>`).join('');
+    const ticks = [...new Set([0, Math.floor((n - 1) / 2), n - 1])].map(i => `<text x="${x(i)}" y="${h - 10}" text-anchor="${n > 1 && i === 0 ? 'start' : n > 1 && i === n - 1 ? 'end' : 'middle'}" class="finloom-calc-axis">Year ${r.rows[i].year}</text>`).join('');
     const lines = series.map(([key, get]) => `<polyline class="finloom-calc-line finloom-calc-line--${key}" fill="none" points="${r.rows.map((row, i) => `${x(i)},${y(get(row))}`).join(' ')}"/>`).join('');
     const desc = `Over ${n} year${n === 1 ? '' : 's'}, portfolio value reaches ${formatCurrency(r.end)}, contributed capital reaches ${formatCurrency(r.capital)}, and cumulative dividends reach ${formatCurrency(r.dividends)}.`;
     return { svg: `<desc>${desc}</desc>${grid}${lines}${ticks}`, desc };
@@ -200,7 +200,7 @@
       const x = i => pad.l + (n === 1 ? (width - pad.l - pad.r) / 2 : i * (width - pad.l - pad.r) / (n - 1));
       const y = v => height - pad.b - (safe(v) - min) / (max - min) * (height - pad.t - pad.b);
       const grid = [0, 0.25, 0.5, 0.75, 1].map(f => { const v = min + (max - min) * f; return `<line x1="${pad.l}" x2="${width - pad.r}" y1="${y(v)}" y2="${y(v)}" class="finloom-calc-grid"/><text x="${pad.l - 8}" y="${y(v) + 4}" text-anchor="end" class="finloom-calc-axis">${yFormat(v)}</text>`; }).join('');
-      const ticks = [...new Set([0, Math.floor((n - 1) / 2), n - 1])].map(i => `<text x="${x(i)}" y="${height - 10}" text-anchor="middle" class="finloom-calc-axis">${labels[i]}</text>`).join('');
+      const ticks = [...new Set([0, Math.floor((n - 1) / 2), n - 1])].map(i => `<text x="${x(i)}" y="${height - 10}" text-anchor="${n > 1 && i === 0 ? 'start' : n > 1 && i === n - 1 ? 'end' : 'middle'}" class="finloom-calc-axis">${labels[i]}</text>`).join('');
       const lines = series.map(item => `<polyline class="finloom-calc-line finloom-calc-line--${item.key}" fill="none" points="${keep.map(i => `${x(i).toFixed(1)},${y(item.values[i]).toFixed(1)}`).join(' ')}"/>`).join('');
       const mark = highlight === null || highlight < 0 || highlight >= n ? '' : `<line x1="${x(highlight)}" x2="${x(highlight)}" y1="${pad.t}" y2="${height - pad.b}" class="finloom-calc-marker"/><circle cx="${x(highlight)}" cy="${y(series[0].values[highlight])}" r="5" class="finloom-calc-point"/>`;
       const desc = describe || series.map(item => `${item.label} ends at ${yFormat(item.values[n - 1])}`).join('; ') + '.';
