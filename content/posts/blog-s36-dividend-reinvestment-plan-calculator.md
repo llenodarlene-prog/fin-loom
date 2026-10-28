@@ -37,7 +37,7 @@ A DRIP uses each cash dividend to buy more shares of the same investment instead
 
 - A DRIP reinvests cash dividends into additional shares instead of paying them out.
 - New shares earn future dividends, so share count and dividend income can grow together.
-- With the default inputs, 100 shares at $50 paying $0.50 a quarter grow to about 122.019 shares in five years, a Fin Loom illustration.
+- With no growth assumed, 100 shares at $50 paying $0.50 a quarter grow to about 122.019 shares in five years, a Fin Loom illustration.
 - Reinvested dividends are still taxable in a taxable account, according to IRS Publication 550.
 - Each reinvested purchase starts its own holding period and carries its own cost basis.
 - Results depend heavily on assumptions about share price, dividend growth, and whether the dividend is maintained.
@@ -82,7 +82,7 @@ The calculator reports the ending share count, the ending value of the position,
 
 ## Example: Five Years of Reinvestment
 
-The dividend reinvestment plan calculator's default inputs make a clean worked example. They assume 100 starting shares, a $50 share price, a $0.50 quarterly dividend, no dividend growth, no share-price growth, no extra deposits, and every dividend reinvested. Because the price never moves, each quarter's dividend equals 1% of the position's value.
+A flat scenario in the dividend reinvestment plan calculator makes the cleanest worked example. Enter 100 starting shares, a $50 share price, a $0.50 quarterly dividend, no dividend growth, no share-price growth, no extra deposits, five years, and every dividend reinvested. Because the price never moves, each quarter's dividend equals 1% of the position's value.
 
 | Measure | Start | After Five Years |
 |---|---:|---:|
@@ -105,7 +105,7 @@ Real share prices move, dividends can be raised or cut, and some plans charge fe
 
 A growing dividend adds a second compounding force. More shares come from reinvestment, and each share also pays more. In the calculator, a dividend growth rate raises the dividend per share once each year, so the cash available to reinvest climbs even before the extra shares are counted.
 
-Using the default inputs with 4% annual dividend growth, five years of reinvestment produces about 124.046 shares and annual dividend income near $290.23, compared with $244.04 with no growth. That is a Fin Loom calculation that holds the share price flat. Dividend growth is never guaranteed, and many companies hold or lower their payouts in weaker years.
+Using the same flat inputs with 4% annual dividend growth, five years of reinvestment produces about 124.046 shares and annual dividend income near $290.23, compared with $244.04 with no growth. That is a Fin Loom calculation that holds the share price flat. Dividend growth is never guaranteed, and many companies hold or lower their payouts in weaker years.
 
 ### What a Dividend Cut Does
 
@@ -119,7 +119,7 @@ Running a dividend reinvestment plan calculator at a few dividend growth rates, 
 
 A rising stock price increases the market value of the shares already owned. It also means each dividend buys fewer new shares, because the same cash goes less far at a higher price. Both effects show up in the calculator when you enter a price growth rate.
 
-Using the default inputs with 5% annual price growth and no dividend growth, five years of reinvestment ends with about 119.198 shares instead of 122.019, yet the position is worth about $7,606.51 because each share is worth more. That is a Fin Loom illustration. A lower price lets the same dividend buy more shares, but a falling price can also reflect a weaker business, so lower prices are not automatically good news.
+Using the same flat inputs with 5% annual price growth and no dividend growth, five years of reinvestment ends with about 119.283 shares instead of 122.019, yet the position is worth about $7,611.93 because each share is worth more. That is a Fin Loom illustration. A lower price lets the same dividend buy more shares, but a falling price can also reflect a weaker business, so lower prices are not automatically good news.
 
 ## DRIPs Can Use Fractional Shares
 
@@ -169,17 +169,17 @@ Plan documents spell out the details that change the math: minimum purchases, fe
 
 ## What the Calculator Does Not Assume
 
-The calculator starts with no dividend growth, no price growth, and no fees, and each of those can be changed or tested. It does not assume by default that:
+The calculator opens with an illustrative 3% annual dividend growth and 4% annual share price change over 20 years. Under those opening inputs, 100 shares at $50 paying $0.50 a quarter could reach about 203.900 shares worth about $22,338.45, with estimated annual dividend income near $715.08, a Fin Loom illustration. Both rates can be set to zero or made negative. The calculator does not claim that:
 
-- **Dividend Growth:** The dividend rises every year.
-- **Price Growth:** The share price rises every year.
+- **Dividend Growth:** A company will keep raising its dividend.
+- **Price Growth:** The share price will rise in a straight line.
 - **Dividend Safety:** The dividend is never cut.
 - **Execution Price:** Reinvestment happens at a specific closing price.
-- **Taxes:** Taxes are zero; it simply leaves them out.
+- **Taxes:** Taxes are zero. It leaves them out of the math instead.
 - **Fees:** There are no plan or brokerage charges.
-- **Fractional Shares:** Every plan supports fractional purchases.
+- **Fractional Shares:** Every plan supports the fractional purchases it assumes.
 
-Each of these either stays at a cautious default or is disclosed, so the result stays honest about its limits. A smooth growth rate is a modeling choice, not a description of how real markets move.
+Each of these can be changed or is disclosed in the calculator's assumptions panel, so the result stays honest about its limits. A smooth growth rate is a modeling choice, not a description of how real markets move.
 
 ## Dividend Reinvestment Is a Process, Not a Guarantee
 
