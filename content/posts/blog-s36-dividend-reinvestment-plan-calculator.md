@@ -19,8 +19,8 @@ charts_pending: 0
 ai_exceptions: 
 ai_exception_reason: 
 author: Darlene Aberin
-published: 2026-10-29
-modified: 2026-10-29
+published: 2026-10-28
+modified: 2026-10-28
 ---
 
 # Dividend Reinvestment Plan Calculator: How DRIP Compounding Works
