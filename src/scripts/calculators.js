@@ -144,7 +144,7 @@
     const x = i => pad.l + (n === 1 ? (w - pad.l - pad.r) / 2 : i * (w - pad.l - pad.r) / (n - 1));
     const y = v => h - pad.b - v / max * (h - pad.t - pad.b);
     const grid = [0, 0.25, 0.5, 0.75, 1].map(f => `<line x1="${pad.l}" x2="${w - pad.r}" y1="${y(max * f)}" y2="${y(max * f)}" class="finloom-calc-grid"/><text x="${pad.l - 8}" y="${y(max * f) + 4}" text-anchor="end" class="finloom-calc-axis">${fmt.compact.format(max * f)}</text>`).join('');
-    const ticks = [...new Set([0, Math.floor((n - 1) / 2), n - 1])].map(i => `<text x="${x(i)}" y="${h - 10}" text-anchor="middle" class="finloom-calc-axis">Year ${r.rows[i].year}</text>`).join('');
+    const ticks = [...new Set([0, Math.floor((n - 1) / 2), n - 1])].map(i => `<text x="${x(i)}" y="${h - 10}" text-anchor="${n > 1 && i === 0 ? 'start' : n > 1 && i === n - 1 ? 'end' : 'middle'}" class="finloom-calc-axis">Year ${r.rows[i].year}</text>`).join('');
     const lines = series.map(([key, get]) => `<polyline class="finloom-calc-line finloom-calc-line--${key}" fill="none" points="${r.rows.map((row, i) => `${x(i)},${y(get(row))}`).join(' ')}"/>`).join('');
     const desc = `Over ${n} year${n === 1 ? '' : 's'}, portfolio value reaches ${formatCurrency(r.end)}, contributed capital reaches ${formatCurrency(r.capital)}, and cumulative dividends reach ${formatCurrency(r.dividends)}.`;
     return { svg: `<desc>${desc}</desc>${grid}${lines}${ticks}`, desc };
@@ -164,9 +164,53 @@
     return '';
   }
 
-  const engine = { apy, apyGrowth, savingsGrowth, dividendMonths, dripGrowth, dripSummary, dripOutputs, dripRows, dripChart, dripWarnings, validate, LIMITS };
+  // Shared toolkit for the calculator suite: formatting, range validation, and a responsive SVG
+  // line chart. Tool files (calc-*.js) reach it through FinLoomCalc in the browser and in Node.
+  const NF = (options) => new Intl.NumberFormat('en-US', options);
+  const formats = {
+    money: NF({ style: 'currency', currency: 'USD', minimumFractionDigits: 2, maximumFractionDigits: 2 }),
+    money0: NF({ style: 'currency', currency: 'USD', maximumFractionDigits: 0 }),
+    compact: NF({ style: 'currency', currency: 'USD', notation: 'compact', maximumFractionDigits: 1 })
+  };
+  const safe = value => (Number.isFinite(value) ? value : 0);
+  const kit = {
+    money: value => formats.money.format(safe(value)),
+    money0: value => formats.money0.format(safe(value)),
+    compact: value => formats.compact.format(safe(value)),
+    percent: (value, digits = 2) => NF({ style: 'percent', minimumFractionDigits: digits, maximumFractionDigits: digits }).format(safe(value)),
+    number: (value, digits = 0) => NF({ minimumFractionDigits: digits, maximumFractionDigits: digits }).format(safe(value)),
+    // Returns an error message, or '' when the value is valid.
+    range(value, min, max, options = {}) {
+      if (!Number.isFinite(value)) return options.required === false ? '' : 'Enter a number.';
+      if (options.integer && !Number.isInteger(value)) return 'Enter a whole number.';
+      if (value < min || value > max) return `Enter a value from ${NF({ maximumFractionDigits: 4 }).format(min)} to ${NF({ maximumFractionDigits: 4 }).format(max)}.`;
+      return '';
+    },
+    // Responsive line chart. series: [{ key, label, values }]. Long series are downsampled to
+    // about 120 points. highlight: index into labels to mark with a point and a guide line.
+    lineChart({ labels, series, yFormat = kit.compact, width = 640, height = 280, highlight = null, describe }) {
+      const pad = { l: 72, r: 16, t: 16, b: 34 };
+      const n = labels.length;
+      const step = Math.max(1, Math.ceil(n / 120));
+      const keep = [];
+      for (let i = 0; i < n; i += step) keep.push(i);
+      if (keep[keep.length - 1] !== n - 1) keep.push(n - 1);
+      const all = series.flatMap(item => item.values.map(safe));
+      const max = Math.max(1e-9, ...all); const min = Math.min(0, ...all);
+      const x = i => pad.l + (n === 1 ? (width - pad.l - pad.r) / 2 : i * (width - pad.l - pad.r) / (n - 1));
+      const y = v => height - pad.b - (safe(v) - min) / (max - min) * (height - pad.t - pad.b);
+      const grid = [0, 0.25, 0.5, 0.75, 1].map(f => { const v = min + (max - min) * f; return `<line x1="${pad.l}" x2="${width - pad.r}" y1="${y(v)}" y2="${y(v)}" class="finloom-calc-grid"/><text x="${pad.l - 8}" y="${y(v) + 4}" text-anchor="end" class="finloom-calc-axis">${yFormat(v)}</text>`; }).join('');
+      const ticks = [...new Set([0, Math.floor((n - 1) / 2), n - 1])].map(i => `<text x="${x(i)}" y="${height - 10}" text-anchor="${n > 1 && i === 0 ? 'start' : n > 1 && i === n - 1 ? 'end' : 'middle'}" class="finloom-calc-axis">${labels[i]}</text>`).join('');
+      const lines = series.map(item => `<polyline class="finloom-calc-line finloom-calc-line--${item.key}" fill="none" points="${keep.map(i => `${x(i).toFixed(1)},${y(item.values[i]).toFixed(1)}`).join(' ')}"/>`).join('');
+      const mark = highlight === null || highlight < 0 || highlight >= n ? '' : `<line x1="${x(highlight)}" x2="${x(highlight)}" y1="${pad.t}" y2="${height - pad.b}" class="finloom-calc-marker"/><circle cx="${x(highlight)}" cy="${y(series[0].values[highlight])}" r="5" class="finloom-calc-point"/>`;
+      const desc = describe || series.map(item => `${item.label} ends at ${yFormat(item.values[n - 1])}`).join('; ') + '.';
+      return { svg: `<desc>${desc}</desc>${grid}${lines}${mark}${ticks}`, desc, viewBox: `0 0 ${width} ${height}` };
+    }
+  };
+
+  const engine = { kit, apy, apyGrowth, savingsGrowth, dividendMonths, dripGrowth, dripSummary, dripOutputs, dripRows, dripChart, dripWarnings, validate, LIMITS };
   if (typeof module === 'object' && module.exports) module.exports = engine;
-  if (typeof document === 'undefined') return;
+  if (typeof document === 'undefined') { root.FinLoomCalc = kit; return; }
 
   const money = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', minimumFractionDigits: 2, maximumFractionDigits: 2 });
   const pct = value => `${(value * 100).toFixed(3)}%`;
@@ -291,6 +335,22 @@
     form.addEventListener('reset', () => { clearTimeout(timer); setTimeout(run, 0); });
     run();
   }
+
+  // Browser half of the toolkit: input parsing, inline errors, debounced live updates, and a
+  // registry each tool file calls once it loads.
+  root.FinLoomCalc = Object.assign({}, kit, {
+    num, errors,
+    live(form, run, delay = 200) {
+      let timer;
+      const later = () => { clearTimeout(timer); timer = setTimeout(run, delay); };
+      form.addEventListener('submit', event => { event.preventDefault(); clearTimeout(timer); run(); });
+      form.addEventListener('input', later);
+      form.addEventListener('change', later);
+      form.addEventListener('reset', () => { clearTimeout(timer); setTimeout(run, 0); });
+      run();
+    },
+    register(id, init) { document.querySelectorAll(`.finloom-calc[data-calculator="${id}"]`).forEach(init); }
+  });
 
   document.querySelectorAll('.finloom-calc[data-calculator="apy"]').forEach(initApy);
   document.querySelectorAll('.finloom-calc[data-calculator="savings"]').forEach(initSavings);
