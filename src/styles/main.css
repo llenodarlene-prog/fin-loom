@@ -629,7 +629,7 @@ html:not(.js) .ill-pie-arc{stroke-dashoffset:0}
 .finloom-calc .finloom-calc-key--capital{border-top:3px dashed #6B6F8A}
 .finloom-calc .finloom-calc-key--dividends{border-top:3px dotted var(--ink)}
 .finloom-calc .finloom-calc-wide .table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
-.finloom-calc .finloom-calc-wide table{min-width:36rem}.finloom-calc--drip .finloom-calc-wide table{min-width:44rem}
+.finloom-calc .finloom-calc-wide table.finloom-calc-table--wide{min-width:36rem}.finloom-calc--drip .finloom-calc-wide table{min-width:44rem}
 .finloom-calc .finloom-calc-warning{background:#FFF7E6;border:1px solid #E5B85C;border-radius:10px;padding:.6rem .8rem;margin:.6rem 0;color:#5C3D00;font-size:.9rem}
 .finloom-calc .finloom-calc-warning p{margin:0}
 .finloom-calc .finloom-calc-assumptions{margin:0;padding-left:1.2rem;font-size:.9rem;color:var(--charcoal)}
