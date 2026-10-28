@@ -10,7 +10,7 @@ export const engine = sandbox.module.exports;
 const money = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', minimumFractionDigits: 2, maximumFractionDigits: 2 });
 const pct = value => `${(value * 100).toFixed(3)}%`;
 const disclaimer = '<p class="finloom-calc-note">This calculator provides estimates for educational purposes. Actual interest earnings may differ because rates, balances, fees, account terms, and contribution timing can change.</p>';
-const field = (id, label, attrs, hint = '') => `<div class="finloom-calc-field"><label for="${id}">${label}</label><input id="${id}" name="${id.split('-').pop()}" inputmode="decimal" type="number" ${attrs}>${hint ? `<span class="finloom-calc-hint">${hint}</span>` : ''}<span class="finloom-calc-error" data-error-for="${id}" aria-live="polite"></span></div>`;
+const field = (id, label, attrs, hint = '') => `<div class="finloom-calc-field"><label for="${id}">${label}</label><input id="${id}" name="${id.split('-').pop()}" inputmode="decimal" type="number" ${attrs} aria-describedby="${hint ? `${id}-hint ` : ''}${id}-error">${hint ? `<span class="finloom-calc-hint" id="${id}-hint">${hint}</span>` : ''}<span class="finloom-calc-error" id="${id}-error" data-error-for="${id}" aria-live="polite"></span></div>`;
 const row = (label, key, value) => `<div class="finloom-calc-row"><dt>${label}</dt><dd><output data-out="${key}">${value}</output></dd></div>`;
 const buttons = '<div class="finloom-calc-actions"><button type="submit" class="finloom-calc-button">Calculate</button><button type="reset" class="finloom-calc-button finloom-calc-button--ghost">Reset</button></div>';
 const tableRows = (rows, keys) => rows.map(item => `<tr>${keys.map((key, i) => i === 0 ? `<th scope="row">${item[key]}</th>` : `<td class="num">${money.format(item[key])}</td>`).join('')}</tr>`).join('');
@@ -55,31 +55,43 @@ ${disclaimer}</section></div>`;
 
 
 function dripCalculator() {
-  const o = { shares: 100, price: 50, dividend: 0.5, frequency: 4, dividendGrowth: 0, priceGrowth: 0, years: 5, monthly: 0, reinvest: true };
-  const d = engine.dripGrowth(o);
-  const cash = engine.dripGrowth({ ...o, reinvest: false });
-  const count = new Intl.NumberFormat('en-US', { minimumFractionDigits: 3, maximumFractionDigits: 3 });
+  const o = { shares: 100, price: 50, dividend: 0.5, frequency: 4, dividendGrowth: 3, priceGrowth: 4, years: 20, monthly: 0, timing: 'end', reinvest: true };
+  const r = engine.dripGrowth(o);
+  const v = engine.dripOutputs(o, r, engine.dripGrowth({ ...o, reinvest: false }));
+  const chart = engine.dripChart(r);
   const options = [[12, 'Monthly'], [4, 'Quarterly'], [2, 'Semiannual'], [1, 'Annual']].map(([n, label]) => `<option value="${n}"${n === 4 ? ' selected' : ''}>${label}</option>`).join('');
-  const note = '<p class="finloom-calc-note">This calculator shows an illustration for educational purposes, not a forecast. It assumes steady price and dividend growth and ignores taxes, fees, and plan execution rules. Dividends can be cut, and actual results can differ.</p>';
-  return `<div class="finloom-calc" data-calculator="drip">
-<form class="finloom-calc-form" novalidate><fieldset><legend>Your Holding</legend>
-${field('drip-shares', 'Starting number of shares', 'min="0" max="10000000" step="0.001" value="100" required')}
+  const radio = (name, value, label, checked) => `<label><input type="radio" name="${name}" value="${value}"${checked ? ' checked' : ''}> ${label}</label>`;
+  const line = (label, key, extra = '') => `<div class="finloom-calc-row"${extra}><dt>${label}</dt><dd><output data-out="${key}">${v[key]}</output></dd></div>`;
+  return `<div class="finloom-calc finloom-calc--drip finloom-drip-calculator" data-calculator="drip">
+<h2 class="finloom-calc-title">Dividend Reinvestment Calculator</h2>
+<form class="finloom-calc-form" novalidate><fieldset><legend>Your Assumptions</legend>
+${field('drip-shares', 'Starting shares', 'min="0" max="100000000" step="0.001" value="100" required', 'Fractional shares are allowed.')}
 ${field('drip-price', 'Starting share price ($)', 'min="0.01" max="1000000" step="0.01" value="50" required')}
-${field('drip-dividend', 'Dividend per share, per payment ($)', 'min="0" max="10000" step="0.0001" value="0.50" required')}
-<div class="finloom-calc-field"><label for="drip-frequency">Dividend frequency</label><select id="drip-frequency" name="frequency">${options}</select></div>
-${field('drip-dgrowth', 'Annual dividend growth (%)', 'min="-50" max="50" step="0.1" value="0"', 'Use 0 to assume no change. Negative values model cuts.')}
-${field('drip-pgrowth', 'Annual share-price growth (%)', 'min="-50" max="50" step="0.1" value="0"')}
-${field('drip-years', 'Number of years', 'min="1" max="50" step="1" value="5" required')}
-${field('drip-monthly', 'Additional monthly investment ($, optional)', 'min="0" max="1000000" step="0.01" value="0"')}
-<div class="finloom-calc-field finloom-calc-check"><label><input type="checkbox" id="drip-reinvest" name="reinvest" checked> Reinvest dividends</label></div>
+${field('drip-dividend', 'Dividend per share ($)', 'min="0" max="100000" step="0.0001" value="0.50" required', 'Enter the dividend paid each distribution period, not the annual total.')}
+<div class="finloom-calc-field"><label for="drip-frequency">Dividend frequency</label><select id="drip-frequency" name="frequency" aria-describedby="drip-frequency-hint">${options}</select><span class="finloom-calc-hint" id="drip-frequency-hint">Payments are modeled in standard months (for example March, June, September, and December). Real companies may pay on different dates.</span></div>
+${field('drip-dgrowth', 'Annual dividend growth (%)', 'min="-100" max="100" step="0.1" value="3"', 'Use a negative number if you want to model dividend cuts.')}
+${field('drip-pgrowth', 'Annual share price change (%)', 'min="-100" max="100" step="0.1" value="4"', 'This growth rate is an illustration, not a forecast.')}
+${field('drip-years', 'Years to project', 'min="1" max="50" step="1" value="20" required')}
+${field('drip-monthly', 'Monthly contribution ($)', 'min="0" max="1000000" step="0.01" value="0"')}
+<fieldset class="finloom-calc-radios"><legend>Contribution timing</legend>${radio('timing', 'start', 'Beginning of month', false)}${radio('timing', 'end', 'End of month', true)}</fieldset>
+<fieldset class="finloom-calc-radios"><legend>Reinvest dividends</legend>${radio('reinvest', 'yes', 'Yes', true)}${radio('reinvest', 'no', 'No, keep dividends as cash', false)}</fieldset>
 </fieldset>${buttons}</form>
-<section class="finloom-calc-results" aria-label="Dividend reinvestment results"><p class="finloom-calc-label">Ending portfolio value</p><p class="finloom-calc-big"><output data-out="end">${money.format(d.end)}</output></p>
-<dl class="finloom-calc-list">${row('Ending share count', 'shares', count.format(d.shares))}${row('Total dividends generated', 'dividends', money.format(d.dividends))}${row('Dividends reinvested', 'reinvested', money.format(d.reinvested))}${row('Annual dividend income at the end', 'income', money.format(d.income))}${row('Outside contributions', 'contributions', money.format(d.contributions))}${row('Growth from reinvesting vs taking cash', 'gain', money.format(d.end - cash.end))}</dl>
-<p class="finloom-calc-summary" data-summary aria-live="polite">100.000 shares at $50.00 with dividends reinvested grow to ${count.format(d.shares)} shares worth ${money.format(d.end)} after 5 years, under these assumptions.</p>
-<svg class="finloom-calc-chart" role="img" aria-label="Annual dividend income and cumulative dividends reinvested by year" viewBox="0 0 600 260"></svg>
-<p class="finloom-calc-legend"><span class="finloom-calc-key finloom-calc-key--balance"></span>Annual dividend income <span class="finloom-calc-key finloom-calc-key--contributions"></span>Cumulative dividends reinvested</p>
-<div class="table-wrap"><table><caption>Year-by-year dividend reinvestment</caption><thead><tr><th scope="col">Year</th><th scope="col" class="num">Starting Shares</th><th scope="col" class="num">Dividends Paid</th><th scope="col" class="num">Dividends Reinvested</th><th scope="col" class="num">New Shares</th><th scope="col" class="num">Ending Shares</th><th scope="col" class="num">Contributions</th><th scope="col" class="num">Ending Value</th></tr></thead><tbody>${d.rows.map(r => `<tr><th scope="row">${r.year}</th><td class="num">${count.format(r.startShares)}</td><td class="num">${money.format(r.dividends)}</td><td class="num">${money.format(r.reinvested)}</td><td class="num">${count.format(r.newShares)}</td><td class="num">${count.format(r.endShares)}</td><td class="num">${money.format(r.contributions)}</td><td class="num">${money.format(r.end)}</td></tr>`).join('')}</tbody></table></div>
-${note}</section></div>`;
+<section class="finloom-calc-results" aria-label="Dividend reinvestment results" aria-live="polite">
+<p class="finloom-calc-label">Ending portfolio value</p><p class="finloom-calc-big"><output data-out="end">${v.end}</output></p>
+<dl class="finloom-calc-list finloom-calc-list--primary">${line('Ending shares', 'shares')}${line('Estimated annual dividend income', 'income')}${line('Total dividends generated', 'dividends')}</dl>
+<p class="finloom-calc-summary" data-summary>${engine.dripSummary(o, r)}</p>
+<div class="finloom-calc-warning" data-warnings role="status" hidden></div>
+<dl class="finloom-calc-list">${line('Starting portfolio value', 'start')}${line('Additional contributions', 'contributions')}${line('Total capital contributed', 'capital')}${line('Total dividends reinvested', 'reinvested')}${line('Investment growth above contributed capital', 'growth')}${line('Ending share price', 'price')}${line('Ending dividend per share', 'perShare')}${line('Projected yield on contributed capital', 'yoc')}${line('Growth from reinvesting vs taking cash', 'gain', ' data-gain-row')}${line('Cash dividends accumulated', 'cash', ' data-cash-row hidden')}</dl>
+</section>
+<div class="finloom-calc-wide">
+<h3 class="finloom-calc-subtitle">Growth Over Time</h3>
+<svg class="finloom-calc-chart" role="img" aria-label="${chart.desc}" viewBox="0 0 640 280">${chart.svg}</svg>
+<p class="finloom-calc-legend"><span><span class="finloom-calc-key finloom-calc-key--value"></span>Portfolio value (solid)</span><span><span class="finloom-calc-key finloom-calc-key--capital"></span>Contributed capital (dashed)</span><span><span class="finloom-calc-key finloom-calc-key--dividends"></span>Cumulative dividends (dotted)</span></p>
+<div class="table-wrap" tabindex="0" role="region" aria-label="Year-by-year projection table"><table><caption>Year-by-Year Projection</caption><thead><tr><th scope="col">Year</th><th scope="col" class="num">Ending Shares</th><th scope="col" class="num">Share Price</th><th scope="col" class="num">Dividend/Share</th><th scope="col" class="num">Dividends That Year</th><th scope="col" class="num">Contributions</th><th scope="col" class="num">Annual Dividend Income</th><th scope="col" class="num">Ending Value</th></tr></thead><tbody>${engine.dripRows(r)}</tbody></table></div>
+<h3 class="finloom-calc-subtitle">Assumptions</h3>
+<ul class="finloom-calc-assumptions"><li>Dividend growth is assumed constant and is applied once a year.</li><li>Share-price change is assumed constant and is applied monthly at the equivalent monthly rate.</li><li>Actual stock prices are volatile and do not move in a straight line.</li><li>Dividend payment months are standardized for illustration.</li><li>Fractional shares are assumed to be available for every purchase.</li><li>Fees and commissions are excluded.</li><li>Taxes are excluded.</li><li>Dividends can be reduced or eliminated at any time.</li></ul>
+<div class="finloom-calc-disclaimer"><p><strong>Educational estimate only.</strong> This calculator illustrates how dividend reinvestment could affect an investment under the assumptions you enter. It does not predict future stock prices, dividends, investment returns, taxes, or company performance. Dividends can be reduced or eliminated, share prices can fall, and actual results may differ materially.</p><p>Reinvested dividends can still be taxable in a taxable account. Tax treatment depends on the investment, account type, holding period, and individual circumstances.</p></div>
+</div></div>`;
 }
 
 const calculators = { apy: apyCalculator, savings: savingsCalculator, drip: dripCalculator };
