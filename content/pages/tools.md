@@ -1,7 +1,7 @@
 ---
 title: Financial Calculators and Reference Tools
 seo_title: Financial Calculators and Reference Tools | Fin Loom
-description: Free Fin Loom financial calculators for inflation, compound interest, savings, investing, dividends, withdrawals, capital gains tax, and stocks, with formulas explained.
+description: Free Fin Loom financial calculators for debt payoff, inflation, compound interest, investing, dividends, retirement withdrawals, taxes, and stocks, with formulas explained.
 slug: /tools/
 type: page
 schema: WebPage
@@ -15,6 +15,8 @@ Fin Loom's calculators turn the formulas behind our articles into tools you can 
 ## Money and Banking
 
 - **[Inflation Calculator](/money-banking/inflation-calculator/):** Compare a dollar amount across years using official BLS CPI-U data from 1913 to 2026.
+- **[Credit Card Debt Payoff Calculator](/money-banking/credit-card-payoff-calculator/):** See how long a card balance could take to clear and how much an extra payment could save.
+- **[Mortgage Payoff Calculator](/money-banking/mortgage-payoff-calculator/):** Estimate how much sooner extra payments could pay off a mortgage and the interest they could save.
 - **[Daily Compound Interest Calculator](/money-banking/daily-compound-interest-calculator/):** See how a balance grows over a set number of days, and compare daily, monthly, and annual compounding.
 - **[APY Calculator](/money-banking/apy-calculator/):** Convert an interest rate and compounding schedule into annual percentage yield.
 - **[Savings Interest Calculator](/money-banking/savings-interest-calculator/):** Estimate savings growth from a starting balance, APY, and monthly deposits.
@@ -25,7 +27,13 @@ Fin Loom's calculators turn the formulas behind our articles into tools you can 
 - **[Dividend Reinvestment Plan Calculator](/investing/dividend-reinvestment-plan-calculator/):** Model how reinvested dividends change share count and income over time.
 - **[Dividend Total Return Calculator](/investing/dividend-total-return-calculator/):** Split a holding's total return into price gain and dividend income, with an annualized rate.
 - **[Investment Withdrawal Calculator](/investing/investment-withdrawal-calculator/):** Estimate how long a portfolio could last at a given withdrawal, or how much it could support.
+
+## Tax
+
 - **[Capital Gains Tax Calculator](/investing/capital-gains-tax-calculator/):** Estimate 2026 federal tax on a short-term or long-term gain using IRS brackets.
+- **[401(k) Withdrawal Tax Calculator](/investing/401k-withdrawal-tax-calculator/):** Estimate federal tax, the 10% early-withdrawal additional tax, and the 20% withholding on a 401(k) withdrawal.
+- **[Self-Employment Tax Calculator](/money-banking/self-employment-tax-calculator/):** Work out 2026 Social Security and Medicare tax on net self-employment earnings.
+- **[1099 Tax Calculator](/money-banking/1099-tax-calculator/):** Estimate how much of 1099 income to set aside for federal self-employment and income tax.
 
 ## Markets and Stocks
 

@@ -12,7 +12,7 @@ export const engine = sandbox.module.exports;
 // toolkit so the server render uses the same engine, and one markup module per tool
 // (scripts/lib/calculators/<id>.mjs).
 const scriptsDir = new URL('../../src/scripts/', import.meta.url);
-export const toolIds = readdirSync(scriptsDir).filter(name => /^calc-[a-z-]+\.js$/.test(name)).map(name => name.slice(5, -3));
+export const toolIds = readdirSync(scriptsDir).filter(name => /^calc-[a-z0-9-]+\.js$/.test(name)).map(name => name.slice(5, -3));
 const toolEngines = Object.fromEntries(toolIds.map(id => {
   const box = { module: { exports: {} }, Math, Number, Intl, Date, FinLoomCalc: engine.kit };
   vm.runInNewContext(readFileSync(new URL(`calc-${id}.js`, scriptsDir), 'utf8'), box);
