@@ -1,0 +1,443 @@
+{
+  "slug": "/money-banking/faqs/",
+  "eyebrow": "Money & Banking FAQs",
+  "heading": "Money and Banking Questions, Answered",
+  "intro": [
+    "Short, sourced answers to the questions people ask most about credit scores, savings accounts, and inflation.",
+    "Every answer starts with the direct reply. Context follows, with a real number where one helps. Links point to deeper reading."
+  ],
+  "updated": "2026-10-31",
+  "reviewer": "Darlene Aberin",
+  "search_label": "Search money questions",
+  "popular": [
+    "good-credit-score",
+    "credit-score-drop",
+    "bank-fails",
+    "hysa-safe",
+    "current-inflation",
+    "inflation-savings"
+  ],
+  "topics": [
+    {
+      "id": "credit-scores",
+      "name": "Credit Scores",
+      "icon": "chart-bar",
+      "intro": "How scores work, why they move, and what the numbers mean.",
+      "questions": [
+        {
+          "id": "good-credit-score",
+          "q": "What is a good credit score?",
+          "a": [
+            "On the FICO scale, 670 to 739 counts as good. Scores of 740 and up sit in the very good and exceptional bands.",
+            {
+              "table": {
+                "head": [
+                  "FICO Score",
+                  "Rating"
+                ],
+                "rows": [
+                  [
+                    "300 to 579",
+                    "Poor"
+                  ],
+                  [
+                    "580 to 669",
+                    "Fair"
+                  ],
+                  [
+                    "670 to 739",
+                    "Good"
+                  ],
+                  [
+                    "740 to 799",
+                    "Very Good"
+                  ],
+                  [
+                    "800 to 850",
+                    "Exceptional"
+                  ]
+                ]
+              }
+            },
+            "Lenders set their own cutoffs, though. A good score helps, but it doesn't guarantee an approval or a specific rate."
+          ]
+        },
+        {
+          "id": "highest-credit-score",
+          "q": "What is the highest credit score?",
+          "a": [
+            "The highest base FICO Score is 850. Most widely used scores run from 300 to 850, according to the CFPB.",
+            "You don't need a perfect score to get approved. Each lender sets its own cutoffs and pricing."
+          ]
+        },
+        {
+          "id": "is-700-good",
+          "q": "Is 700 a good credit score?",
+          "a": [
+            "Yes. A 700 falls inside FICO's good band of 670 to 739.",
+            "It sits one band below very good, which starts at 740. Each lender sets its own cutoffs, so terms can still vary."
+          ]
+        },
+        {
+          "id": "900-score",
+          "q": "Is a 900 credit score possible?",
+          "a": [
+            "Only on certain industry scores. FICO's auto and bankcard versions run from 250 to 900. The base FICO Score most people see tops out at 850.",
+            "So a 900 can appear on a score built for car lenders or card issuers. It won't show up on a standard 300 to 850 score."
+          ]
+        },
+        {
+          "id": "starting-score",
+          "q": "What credit score do you start with?",
+          "a": [
+            "You don't start with a score. Scores are calculated from your credit reports, so with no reported history, there's nothing to score yet.",
+            "Your first score appears after a lender reports an account, such as a card or loan. Where it lands depends on how that account is handled."
+          ]
+        },
+        {
+          "id": "credit-score-drop",
+          "q": "Why did my credit score drop?",
+          "a": [
+            "Scores usually fall for one of a few reasons:",
+            {
+              "list": [
+                "**Late payment:** a missed bill reported to the bureaus.",
+                "**Higher balances:** using more of your available credit.",
+                "**New applications:** a hard inquiry from a recent loan or card.",
+                "**Closed or new accounts:** changes to your account mix or average age.",
+                "**Collections:** a debt sent to collection, or a foreclosure or bankruptcy."
+              ]
+            },
+            "Check your reports to see which one applies. A short dip from one inquiry often fades."
+          ]
+        },
+        {
+          "id": "different-scores",
+          "q": "Why is my credit score different between apps?",
+          "a": [
+            "Different apps often use different scoring models, versions, or bureaus. The CFPB notes you don't have just one credit score.",
+            "Each bureau can hold slightly different data, and scores refresh on different days. So two apps can both be right and still show different numbers."
+          ]
+        },
+        {
+          "id": "checking-lowers",
+          "q": "Does checking my credit score lower it?",
+          "a": [
+            "No. Checking your own score is a soft inquiry, and it doesn't affect your FICO Score.",
+            "Hard inquiries are different. They happen when you apply for credit. They can lower your score for up to a year."
+          ]
+        },
+        {
+          "id": "hard-inquiry",
+          "q": "How long does a hard inquiry affect my score?",
+          "a": [
+            "A hard inquiry affects your FICO Score for one year. It stays on your credit report for up to two years, according to myFICO.",
+            "After 12 months it still shows on the report, but FICO no longer counts it."
+          ]
+        },
+        {
+          "id": "improve-score",
+          "q": "How can I improve my credit score?",
+          "a": [
+            "Focus on the habits scoring models weigh most. Payment history and amounts owed make up about 65% of a typical FICO Score.",
+            {
+              "list": [
+                "**Pay on time:** set up autopay for at least the minimum.",
+                "**Lower your balances:** keep card use well under your limits.",
+                "**Apply sparingly:** each application can add a hard inquiry.",
+                "**Check your reports:** dispute errors with the credit bureau."
+              ]
+            },
+            "The full breakdown of [how credit scores work](/money-banking/what-is-a-credit-score/) covers each factor."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "savings",
+      "name": "Savings Accounts",
+      "icon": "pig-money",
+      "intro": "Safety, insurance, rates, and how much your money can earn.",
+      "questions": [
+        {
+          "id": "hysa",
+          "q": "What is a high-yield savings account?",
+          "a": [
+            "It's a savings account with a higher annual percentage yield, or APY, than most.",
+            "It works like any other savings account. Your deposits earn interest, and you can withdraw when you need to. The rate is usually variable, so it can change."
+          ]
+        },
+        {
+          "id": "hysa-safe",
+          "q": "Is a high-yield savings account safe?",
+          "a": [
+            "Yes, if it's at an FDIC-insured bank or an NCUA-insured credit union. Both insure deposits up to $250,000.",
+            "The coverage applies per depositor, per insured institution, for each ownership category. Always confirm the bank's insurance before you open an account."
+          ]
+        },
+        {
+          "id": "bank-fails",
+          "q": "What happens if a bank fails?",
+          "a": [
+            "Your insured deposits are protected. The FDIC began in 1933. It says no depositor has lost a penny of insured funds since.",
+            "Money above the $250,000 limit, or in products the FDIC doesn't insure, can be at risk. Stocks, bonds, mutual funds, and crypto aren't covered, even if you bought them through a bank."
+          ]
+        },
+        {
+          "id": "insurance-limit",
+          "q": "How much of my money is insured?",
+          "a": [
+            "The FDIC covers $250,000 per depositor, per insured bank, for each account ownership category. Credit unions get the same $250,000 limit through the NCUA.",
+            "You can be covered for more in a few ways:",
+            {
+              "list": [
+                "**Different banks:** each insured bank has its own limit.",
+                "**Different ownership categories:** single and joint accounts are insured separately.",
+                "**Joint accounts:** each co-owner's share has its own coverage."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "withdrawal-limit",
+          "q": "Is there a limit on savings account withdrawals?",
+          "a": [
+            "Not by federal rule anymore. In April 2020, the Federal Reserve removed the six-per-month limit on convenient transfers from savings accounts.",
+            "Some banks still set their own limits or fees. Check your account terms if you move money often."
+          ]
+        },
+        {
+          "id": "rates-change",
+          "q": "Why do savings account rates change?",
+          "a": [
+            "Most savings rates are variable. Banks can raise or lower them as market rates and their own funding needs change.",
+            "So the APY you see today is a snapshot, not a promise. A CD is different, because it usually locks a rate for a set term."
+          ]
+        },
+        {
+          "id": "apy-meaning",
+          "q": "What does APY mean on a savings account?",
+          "a": [
+            "APY stands for annual percentage yield. It shows the yearly return on a deposit after compounding.",
+            "Federal rules require banks to state savings returns as an APY. That lets you compare accounts on the same basis. Read more on [what APY means](/money-banking/apy-meaning/)."
+          ]
+        },
+        {
+          "id": "apy-vs-rate",
+          "q": "What is the difference between APY and the interest rate?",
+          "a": [
+            "The interest rate ignores compounding, while APY includes it. That's why APY can sit slightly above the rate.",
+            {
+              "table": {
+                "head": [
+                  "Compounding",
+                  "Rate",
+                  "APY"
+                ],
+                "rows": [
+                  [
+                    "Annually",
+                    "4.00%",
+                    "4.000%"
+                  ],
+                  [
+                    "Monthly",
+                    "4.00%",
+                    "4.074%"
+                  ],
+                  [
+                    "Daily",
+                    "4.00%",
+                    "4.081%"
+                  ]
+                ]
+              }
+            },
+            "These are Fin Loom calculations. The full breakdown of [APY vs interest rate](/money-banking/apy-vs-interest-rate/) shows why the gap grows with bigger balances."
+          ]
+        },
+        {
+          "id": "mma-vs-savings",
+          "q": "What is the difference between a savings account and a money market account?",
+          "a": [
+            "Both are insured deposit accounts that pay interest. A money market account may add some transaction features, and some need a minimum deposit.",
+            "Rates on both are usually variable. A money market fund is different. It's an investment, and the FDIC doesn't insure it."
+          ]
+        },
+        {
+          "id": "interest-10000",
+          "q": "How much interest will $10,000 earn in a savings account?",
+          "a": [
+            "At a 5% APY, $10,000 earns about $500 in a year. That assumes the balance and rate stay put.",
+            "Add $500 a month for five years at 5% APY, and the balance could reach about $46,670. These are Fin Loom calculations. Try your own numbers in the [savings interest calculator](/money-banking/savings-interest-calculator/)."
+          ]
+        },
+        {
+          "id": "emergency-fund",
+          "q": "Where do people keep an emergency fund?",
+          "a": [
+            "Emergency money usually needs to be safe and quick to reach. Insured savings and money market accounts meet both needs.",
+            "The tradeoff is simple. Cash you might need next month shouldn't swing in value like stocks can. The comparison of [saving vs investing](/money-banking/saving-vs-investing/) walks through how time horizon changes that choice."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inflation",
+      "name": "Inflation",
+      "icon": "receipt-2",
+      "intro": "What inflation is, how it's measured, and what it does to your money.",
+      "questions": [
+        {
+          "id": "what-is-inflation",
+          "q": "What is inflation?",
+          "a": [
+            "Inflation is a general rise in prices across the economy over time. As it happens, each dollar buys a little less.",
+            "The most cited U.S. gauge is the Consumer Price Index, or CPI. The Bureau of Labor Statistics publishes it monthly."
+          ]
+        },
+        {
+          "id": "measured",
+          "q": "How is inflation measured?",
+          "a": [
+            "The BLS tracks the prices of a broad basket of goods and services each month. The change in that index is the CPI inflation rate.",
+            "The Federal Reserve's 2% goal uses a different gauge. It's the Personal Consumption Expenditures index, or PCE. The two measures often differ."
+          ]
+        },
+        {
+          "id": "current-inflation",
+          "q": "What is the current inflation rate?",
+          "a": [
+            "Consumer prices rose 3.7% in the 12 months to September 2026, based on the BLS CPI. Core prices, which leave out food and energy, rose 2.6%.",
+            "Energy prices rose 20.4% over the same year. The next CPI report is due November 10, 2026."
+          ]
+        },
+        {
+          "id": "core-inflation",
+          "q": "What is core inflation?",
+          "a": [
+            "Core inflation is the price change for everything except food and energy. Those two categories swing a lot, so leaving them out shows the underlying trend more clearly.",
+            "Core CPI rose 2.6% in the year to September 2026, while headline CPI rose 3.7%."
+          ]
+        },
+        {
+          "id": "prices-falling",
+          "q": "Does lower inflation mean prices are falling?",
+          "a": [
+            "No. Lower inflation means prices are rising more slowly. They're still going up.",
+            "Falling prices are called deflation, and they're rare in the U.S. Prices that jumped in 2021 and 2022 mostly stayed higher, even as inflation cooled."
+          ]
+        },
+        {
+          "id": "deflation",
+          "q": "What is deflation?",
+          "a": [
+            "Deflation is a broad drop in prices. The U.S. last had a yearly drop in 2009, when the annual average CPI fell 0.4%.",
+            "It sounds like good news for shoppers. But the 2009 drop came during a severe recession."
+          ]
+        },
+        {
+          "id": "2021-2022",
+          "q": "Why did inflation rise in 2021 and 2022?",
+          "a": [
+            "Several pressures hit at once after the pandemic recession. Supply chains broke down, demand shifted fast, and energy prices spiked.",
+            "Annual inflation climbed from 1.2% in 2020 to 4.7% in 2021 and 8.0% in 2022. The 12-month rate peaked at 9.1% in June 2022."
+          ]
+        },
+        {
+          "id": "highest-inflation",
+          "q": "What is the highest U.S. inflation rate in recent history?",
+          "a": [
+            "Annual average inflation reached 13.5% in 1980. The recent peak was 8.0% in 2022.",
+            "Monthly readings tell a different story. The 12-month rate hit 9.1% in June 2022. Check which measure a headline uses before comparing years. The full table is in our [inflation rate year by year](/money-banking/inflation-rate-by-year/)."
+          ]
+        },
+        {
+          "id": "inflation-savings",
+          "q": "How does inflation affect my savings?",
+          "a": [
+            "If your savings earn less than inflation, your money loses buying power, even as the balance grows.",
+            "Say $10,000 earns 1% while prices rise 3%. After a year, it buys what about $9,806 bought before. That's a Fin Loom illustration, not a forecast."
+          ]
+        },
+        {
+          "id": "dollar-2000",
+          "q": "How much is $100 from 2000 worth today?",
+          "a": [
+            "About $195.67 in September 2026 dollars, based on the BLS CPI-U. Prices nearly doubled over that span, an average of about 2.6% a year.",
+            "Try any amount and any pair of years in our [inflation calculator](/money-banking/inflation-calculator/)."
+          ]
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "title": "Inflation Calculator",
+      "url": "/money-banking/inflation-calculator/",
+      "icon": "receipt-2"
+    },
+    {
+      "title": "Savings Interest Calculator",
+      "url": "/money-banking/savings-interest-calculator/",
+      "icon": "pig-money"
+    },
+    {
+      "title": "APY Calculator",
+      "url": "/money-banking/apy-calculator/",
+      "icon": "percentage"
+    },
+    {
+      "title": "Credit Card Debt Payoff Calculator",
+      "url": "/money-banking/credit-card-payoff-calculator/",
+      "icon": "credit-card"
+    },
+    {
+      "title": "Daily Compound Interest Calculator",
+      "url": "/money-banking/daily-compound-interest-calculator/",
+      "icon": "calendar-stats"
+    }
+  ],
+  "sources": [
+    [
+      "FDIC: Understanding Deposit Insurance",
+      "https://www.fdic.gov/resources/deposit-insurance/understanding-deposit-insurance"
+    ],
+    [
+      "NCUA: Share Insurance Coverage",
+      "https://ncua.gov/consumers/share-insurance-coverage"
+    ],
+    [
+      "CFPB: What Is a Credit Score?",
+      "https://www.consumerfinance.gov/ask-cfpb/what-is-a-credit-score-en-315/"
+    ],
+    [
+      "myFICO: What's in Your Credit Score",
+      "https://www.myfico.com/credit-education/whats-in-your-credit-score"
+    ],
+    [
+      "myFICO: FICO Score Versions",
+      "https://www.myfico.com/credit-education/credit-scores/fico-score-versions"
+    ],
+    [
+      "myFICO: Credit Checks and Inquiries",
+      "https://www.myfico.com/credit-education/credit-reports/credit-checks-and-inquiries"
+    ],
+    [
+      "Federal Reserve: Regulation D Savings Transfer Rule (April 24, 2020)",
+      "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20200424a.htm"
+    ],
+    [
+      "CFPB: Regulation DD Definitions",
+      "https://www.consumerfinance.gov/rules-policy/regulations/1030/2/"
+    ],
+    [
+      "BLS: CPI Release, September 2026",
+      "https://www.bls.gov/news.release/archives/cpi_10142026.htm"
+    ],
+    [
+      "FRED: CPI-U, All Items (CPIAUCNS)",
+      "https://fred.stlouisfed.org/series/CPIAUCNS"
+    ]
+  ]
+}

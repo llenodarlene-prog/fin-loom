@@ -92,3 +92,38 @@ if (reduceMotion || !('IntersectionObserver' in window)) {
     apply();
   }));
 })();
+
+// FAQ hubs: search across questions and answers, topic chips, and popular-question jumps.
+(() => {
+  const hub = document.querySelector('[data-faq-hub]');
+  if (!hub) return;
+  const input = hub.querySelector('[data-faq-search]');
+  const chips = [...hub.querySelectorAll('[data-faq-filter]')];
+  let filter = 'all';
+  const apply = () => {
+    const query = input.value.trim().toLowerCase();
+    let shown = 0;
+    hub.querySelectorAll('[data-faq-topic]').forEach(topic => {
+      let topicShown = 0;
+      topic.querySelectorAll('[data-faq-q]').forEach(item => {
+        const match = (filter === 'all' || topic.dataset.faqTopic === filter) && (!query || item.dataset.search.includes(query));
+        item.hidden = !match;
+        if (match) topicShown += 1;
+        if (query && match) item.open = true;
+      });
+      topic.hidden = topicShown === 0;
+      shown += topicShown;
+    });
+    hub.querySelector('[data-faq-count]').textContent = `${shown} question${shown === 1 ? '' : 's'}`;
+    hub.querySelector('[data-faq-empty]').hidden = shown > 0;
+  };
+  input.addEventListener('input', apply);
+  chips.forEach(chip => chip.addEventListener('click', () => {
+    filter = chip.dataset.faqFilter;
+    chips.forEach(other => other.setAttribute('aria-pressed', String(other === chip)));
+    apply();
+  }));
+  const openTarget = id => { const item = document.getElementById(id); if (item && item.tagName === 'DETAILS') { item.hidden = false; item.closest('[data-faq-topic]').hidden = false; item.open = true; } };
+  hub.querySelectorAll('[data-faq-jump]').forEach(link => link.addEventListener('click', () => openTarget(link.dataset.faqJump)));
+  if (location.hash) openTarget(location.hash.slice(1));
+})();
