@@ -33,7 +33,14 @@ To place a tool on a page, add a fenced block containing its id, for example ```
 | Stock Average Cost | `/markets-stocks/stock-average-calculator/` | Average cost = Σ(shares × price + fees) ÷ Σ shares. Takes 2 to 50 purchase rows. An optional current price gives the gain or loss and break-even price. |
 | Stock Profit | `/markets-stocks/stock-profit-calculator/` | Net profit = (sell × shares − sell fees) − (buy × shares + buy fees). Break-even = (cost basis + sell fees) ÷ shares. |
 
-The hub page is `/tools/`.
+The hub page is `/tools/`. It renders from `data/tools-page.json` as icon cards with search and category filters, handled in `src/scripts/main.js`.
+
+## Icons and Interaction
+
+- **Icons:** [Tabler Icons](https://github.com/tabler/tabler-icons) v3.50.0, MIT licensed. Only the icons in use are vendored in `src/icons/tabler/` (the licence is there too). `scripts/lib/icons.mjs` inlines them, so they cost no extra requests.
+- **Calculator icons:** each calculator gets a title badge icon (`toolIcons`).
+- **Result tiles:** results render as tiles, each with an icon picked from its label (`metricIcon`).
+- **Sliders:** number fields with a compact range (120 or less, such as rates, years and ages) get a synced slider. A capture-phase listener in `calculators.js` keeps the slider and its number box in step, and Reset restores both.
 
 ## QA
 
