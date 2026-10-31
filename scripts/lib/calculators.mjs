@@ -2,6 +2,7 @@
 // uses (src/scripts/calculators.js), so the page shows correct figures before or without JavaScript.
 import { readFileSync, readdirSync } from 'node:fs';
 import vm from 'node:vm';
+import { icon, metricIcon, toolIcons } from './icons.mjs';
 
 // The browser script is a classic script; run it in a sandbox with a CommonJS-style module object.
 const sandbox = { module: { exports: {} }, Math, Number, Intl, globalThis: {} };
@@ -22,8 +23,18 @@ export const tools = toolEngines;
 const money = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', minimumFractionDigits: 2, maximumFractionDigits: 2 });
 const pct = value => `${(value * 100).toFixed(3)}%`;
 const disclaimer = '<p class="finloom-calc-note">This calculator provides estimates for educational purposes. Actual interest earnings may differ because rates, balances, fees, account terms, and contribution timing can change.</p>';
-const field = (id, label, attrs, hint = '') => `<div class="finloom-calc-field"><label for="${id}">${label}</label><input id="${id}" name="${id.split('-').pop()}" inputmode="decimal" type="number" ${attrs} aria-describedby="${hint ? `${id}-hint ` : ''}${id}-error">${hint ? `<span class="finloom-calc-hint" id="${id}-hint">${hint}</span>` : ''}<span class="finloom-calc-error" id="${id}-error" data-error-for="${id}" aria-live="polite"></span></div>`;
-const row = (label, key, value) => `<div class="finloom-calc-row"><dt>${label}</dt><dd><output data-out="${key}">${value}</output></dd></div>`;
+// Fields with a compact range (rates, years, ages) also get a slider synced to the number box.
+const attr = (attrs, name) => { const m = attrs.match(new RegExp(`\\b${name}="([^"]*)"`)); return m ? m[1] : null; };
+const slider = (id, label, attrs) => {
+  const min = Number(attr(attrs, 'min')); const max = Number(attr(attrs, 'max')); const value = attr(attrs, 'value');
+  if (!Number.isFinite(min) || !Number.isFinite(max) || max - min > 120 || value === null) return '';
+  return `<input type="range" class="finloom-calc-slider" data-for="${id}" min="${min}" max="${max}" step="${attr(attrs, 'step') || 'any'}" value="${value}" aria-label="${label.replace(/"/g, '&quot;')} slider">`;
+};
+const field = (id, label, attrs, hint = '') => `<div class="finloom-calc-field"><label for="${id}">${label}</label><input id="${id}" name="${id.split('-').pop()}" inputmode="decimal" type="number" ${attrs} aria-describedby="${hint ? `${id}-hint ` : ''}${id}-error">${slider(id, label, attrs)}${hint ? `<span class="finloom-calc-hint" id="${id}-hint">${hint}</span>` : ''}<span class="finloom-calc-error" id="${id}-error" data-error-for="${id}" aria-live="polite"></span></div>`;
+// Result rows render as tiles, each with an icon chosen from its label.
+const tileLabel = label => `<span class="finloom-calc-ico">${icon(metricIcon(label))}</span><span>${label}</span>`;
+const row = (label, key, value) => `<div class="finloom-calc-row"><dt>${tileLabel(label)}</dt><dd><output data-out="${key}">${value}</output></dd></div>`;
+const titleBadge = type => toolIcons[type] ? `<span class="finloom-calc-badge">${icon(toolIcons[type])}</span>` : '';
 const buttons = '<div class="finloom-calc-actions"><button type="submit" class="finloom-calc-button">Calculate</button><button type="reset" class="finloom-calc-button finloom-calc-button--ghost">Reset</button></div>';
 const tableRows = (rows, keys) => rows.map(item => `<tr>${keys.map((key, i) => i === 0 ? `<th scope="row">${item[key]}</th>` : `<td class="num">${money.format(item[key])}</td>`).join('')}</tr>`).join('');
 
@@ -73,9 +84,9 @@ function dripCalculator() {
   const chart = engine.dripChart(r);
   const options = [[12, 'Monthly'], [4, 'Quarterly'], [2, 'Semiannual'], [1, 'Annual']].map(([n, label]) => `<option value="${n}"${n === 4 ? ' selected' : ''}>${label}</option>`).join('');
   const radio = (name, value, label, checked) => `<label><input type="radio" name="${name}" value="${value}"${checked ? ' checked' : ''}> ${label}</label>`;
-  const line = (label, key, extra = '') => `<div class="finloom-calc-row"${extra}><dt>${label}</dt><dd><output data-out="${key}">${v[key]}</output></dd></div>`;
+  const line = (label, key, extra = '') => `<div class="finloom-calc-row"${extra}><dt>${tileLabel(label)}</dt><dd><output data-out="${key}">${v[key]}</output></dd></div>`;
   return `<div class="finloom-calc finloom-calc--drip finloom-drip-calculator" data-calculator="drip">
-<h2 class="finloom-calc-title">Dividend Reinvestment Calculator</h2>
+<h2 class="finloom-calc-title">${titleBadge('drip')}<span>Dividend Reinvestment Calculator</span></h2>
 <form class="finloom-calc-form" novalidate><fieldset><legend>Your Assumptions</legend>
 ${field('drip-shares', 'Starting shares', 'min="0" max="100000000" step="0.001" value="100" required', 'Fractional shares are allowed.')}
 ${field('drip-price', 'Starting share price ($)', 'min="0.01" max="1000000" step="0.01" value="50" required')}
@@ -110,12 +121,13 @@ ${field('drip-monthly', 'Monthly contribution ($)', 'min="0" max="1000000" step=
 const esc = value => String(value).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 export const ui = {
   esc,
+  icon,
   field,
   select: (id, label, options, selected, hint = '') => `<div class="finloom-calc-field"><label for="${id}">${label}</label><select id="${id}" name="${id.split('-').pop()}"${hint ? ` aria-describedby="${id}-hint"` : ''}>${options.map(([value, text]) => `<option value="${value}"${String(value) === String(selected) ? ' selected' : ''}>${text}</option>`).join('')}</select>${hint ? `<span class="finloom-calc-hint" id="${id}-hint">${hint}</span>` : ''}</div>`,
   radios: (name, legend, options, checked) => `<fieldset class="finloom-calc-radios"><legend>${legend}</legend>${options.map(([value, text]) => `<label><input type="radio" name="${name}" value="${value}"${value === checked ? ' checked' : ''}> ${text}</label>`).join('')}</fieldset>`,
   advanced: inner => `<details class="finloom-calc-advanced"><summary>Advanced options</summary>${inner}</details>`,
   buttons,
-  row: (label, key, value, extra = '') => `<div class="finloom-calc-row"${extra}><dt>${label}</dt><dd><output data-out="${key}">${value}</output></dd></div>`,
+  row: (label, key, value, extra = '') => `<div class="finloom-calc-row"${extra}><dt>${tileLabel(label)}</dt><dd><output data-out="${key}">${value}</output></dd></div>`,
   chart: (chart, label) => `<svg class="finloom-calc-chart" role="img" aria-label="${esc(chart.desc)}" viewBox="${chart.viewBox}">${chart.svg}</svg>${label ? `<p class="finloom-calc-legend">${label}</p>` : ''}`,
   key: (key, text) => `<span><span class="finloom-calc-key finloom-calc-key--${key}"></span>${text}</span>`,
   table: (caption, headers, body) => `<div class="table-wrap" tabindex="0" role="region" aria-label="${esc(caption)}"><table${headers.length >= 5 ? ' class="finloom-calc-table--wide"' : ''}><caption>${caption}</caption><thead><tr>${headers.map((h, i) => `<th scope="col"${i ? ' class="num"' : ''}>${h}</th>`).join('')}</tr></thead><tbody>${body}</tbody></table></div>`,
@@ -123,9 +135,9 @@ export const ui = {
   disclaimer: (tax = false) => `<div class="finloom-calc-disclaimer"><p><strong>Educational estimate only.</strong> This calculator uses the assumptions you enter to illustrate a possible financial outcome. It does not predict future investment performance, interest rates, inflation, taxes, market prices, or financial results. Actual outcomes may differ.</p>${tax ? '<p>Tax calculations are simplified estimates for educational purposes and do not replace tax advice. Federal and state rules can change, and individual circumstances vary.</p>' : ''}</div>`,
   // Inputs on the left, results on the right, then full-width chart, table, assumptions, and disclaimer.
   layout: ({ type, title, legend = 'Your Inputs', form, label, big, results, summary, wide }) => `<section class="finloom-calc finloom-calc--${type}" data-calculator="${type}" aria-label="${esc(title)}">
-<h2 class="finloom-calc-title">${title}</h2>
+<h2 class="finloom-calc-title">${titleBadge(type)}<span>${title}</span></h2>
 <form class="finloom-calc-form" novalidate><fieldset><legend>${legend}</legend>${form}</fieldset>${buttons}</form>
-<div class="finloom-calc-results" aria-live="polite"><p class="finloom-calc-label">${label}</p><p class="finloom-calc-big"><output data-out="big">${big}</output></p>
+<div class="finloom-calc-results" aria-live="polite"><p class="finloom-calc-label">${icon('target-arrow')}<span>${label}</span></p><p class="finloom-calc-big"><output data-out="big">${big}</output></p>
 <p class="finloom-calc-summary" data-summary>${summary}</p><div class="finloom-calc-warning" data-warnings role="status" hidden></div>
 <dl class="finloom-calc-list">${results}</dl></div>
 <div class="finloom-calc-wide">${wide}</div></section>`

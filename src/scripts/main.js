@@ -63,3 +63,32 @@ if (reduceMotion || !('IntersectionObserver' in window)) {
   }, { threshold: 0.18 });
   for (const item of watched) observer.observe(item);
 }
+
+// Tools hub: live search and category filters.
+(() => {
+  const hub = document.querySelector('[data-tools-hub]');
+  if (!hub) return;
+  const input = hub.querySelector('[data-tools-search]');
+  const chips = [...hub.querySelectorAll('[data-filter]')];
+  let filter = 'all';
+  const apply = () => {
+    const query = input.value.trim().toLowerCase();
+    let shown = 0;
+    hub.querySelectorAll('[data-group]').forEach(group => {
+      let groupShown = 0;
+      group.querySelectorAll('[data-tool]').forEach(card => {
+        const match = (filter === 'all' || group.dataset.group === filter) && (!query || card.dataset.search.includes(query));
+        card.hidden = !match; if (match) groupShown += 1;
+      });
+      group.hidden = groupShown === 0; shown += groupShown;
+    });
+    hub.querySelector('[data-tools-count]').textContent = `${shown} calculator${shown === 1 ? '' : 's'}`;
+    hub.querySelector('[data-tools-empty]').hidden = shown > 0;
+  };
+  input.addEventListener('input', apply);
+  chips.forEach(chip => chip.addEventListener('click', () => {
+    filter = chip.dataset.filter;
+    chips.forEach(other => other.setAttribute('aria-pressed', String(other === chip)));
+    apply();
+  }));
+})();

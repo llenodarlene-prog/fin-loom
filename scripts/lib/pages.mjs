@@ -1,5 +1,6 @@
 import { escapeHtml, inline } from './content.mjs';
 import { renderHeroCard, renderLab } from './illustrations.mjs';
+import { icon } from './icons.mjs';
 
 // Designed pages render from the copy files in data/. Copy strings may use inline Markdown (links, bold).
 const paragraphs = (items = [], className = '') => items.map(text => `<p${className ? ` class="${className}"` : ''}>${inline(text)}</p>`).join('');
@@ -355,4 +356,38 @@ ${posts.length ? `
       <div class="post-grid">${posts.slice(0, copy.posts_limit || 6).map(post => postCard(post, nav)).join('')}</div>
     </div>
   </section>` : ''}`;
+}
+
+// Tools hub: icon cards grouped by category, with a search box and category filter chips.
+export function renderTools(copy) {
+  const slug = text => text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  const total = copy.categories.reduce((n, c) => n + c.tools.length, 0);
+  return `
+  <section class="hero hero--compact tools-hero" aria-labelledby="tools-heading">
+    <div class="shell hero-copy hero-copy--wide">
+      <p class="eyebrow">${icon('calculator')} ${escapeHtml(copy.eyebrow)}</p>
+      <h1 id="tools-heading">${escapeHtml(copy.heading)}</h1>
+      ${paragraphs(copy.intro)}
+    </div>
+  </section>
+  <section class="band band--tint" data-tools-hub aria-label="Calculator directory">
+    <div class="shell">
+      <div class="tools-controls">
+        <label class="tools-search"><span class="sr-only">${escapeHtml(copy.search_label)}</span>${icon('search')}<input type="search" placeholder="${escapeHtml(copy.search_label)}" data-tools-search autocomplete="off"></label>
+        <div class="tools-filters" role="group" aria-label="Filter by category">
+          <button type="button" class="tools-chip" aria-pressed="true" data-filter="all">${icon('adjustments-horizontal')}All <span>${total}</span></button>
+          ${copy.categories.map(c => `<button type="button" class="tools-chip" aria-pressed="false" data-filter="${slug(c.name)}">${icon(c.icon)}${escapeHtml(c.name)} <span>${c.tools.length}</span></button>`).join('')}
+        </div>
+        <p class="tools-count" data-tools-count aria-live="polite">${total} calculators</p>
+      </div>
+      ${copy.categories.map(c => `<div class="tools-group" data-group="${slug(c.name)}">
+        <h2 class="tools-group-title">${icon(c.icon)}${escapeHtml(c.name)}</h2>
+        <ul class="tools-grid">${c.tools.map(t => `<li class="tools-card" data-tool data-search="${escapeHtml(`${t.title} ${t.text} ${c.name}`.toLowerCase())}">
+          <a href="${escapeHtml(t.url)}"><span class="tools-card-icon">${icon(t.icon)}</span><span class="tools-card-body"><strong>${escapeHtml(t.title)}</strong><span>${escapeHtml(t.text)}</span></span><span class="tools-card-go" aria-hidden="true">${icon('arrow-up-right')}</span></a>
+        </li>`).join('')}</ul>
+      </div>`).join('')}
+      <p class="tools-empty" data-tools-empty hidden>No calculators match that search.</p>
+    </div>
+  </section>
+  <div class="shell rows rows--single"><section class="row" aria-labelledby="tools-how"><div class="row-head"><h2 id="tools-how">${escapeHtml(copy.how_heading)}</h2></div><div class="row-body">${paragraphs(copy.how)}</div></section></div>`;
 }
