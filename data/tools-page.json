@@ -131,6 +131,7 @@
   "how_heading": "How These Calculators Work",
   "how": [
     "Every calculator follows the same pattern. Inputs sit on the left, the main answer and key figures on the right, and a chart, a detailed table, the assumptions, and a disclaimer follow below. Results update as you type or drag a slider, and an invalid entry is flagged next to the field without clearing the last valid result.",
-    "The calculators use fixed assumptions to keep the math transparent. Real returns, rates, prices, and taxes vary, so treat each result as a starting point for understanding, not a forecast."
+    "The calculators use fixed assumptions to keep the math transparent. Real returns, rates, prices, and taxes vary, so treat each result as a starting point for understanding, not a forecast.",
+    "Want a quick answer before you calculate? The [Money and Banking FAQs](/money-banking/faqs/) cover credit scores, savings accounts, and inflation in plain language."
   ]
 }
