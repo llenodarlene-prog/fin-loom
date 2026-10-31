@@ -391,3 +391,61 @@ export function renderTools(copy) {
   </section>
   <div class="shell rows rows--single"><section class="row" aria-labelledby="tools-how"><div class="row-head"><h2 id="tools-how">${escapeHtml(copy.how_heading)}</h2></div><div class="row-body">${paragraphs(copy.how)}</div></section></div>`;
 }
+
+// FAQ hub: popular questions, a search box, topic chips, and accordion answers whose text stays in
+// the HTML. Answer blocks are paragraphs (inline Markdown), { list: [...] }, or { table: { head, rows } }.
+const faqBlock = block => {
+  if (typeof block === 'string') return `<p>${inline(block)}</p>`;
+  if (block.list) return `<ul class="faq-list">${block.list.map(item => `<li>${inline(item)}</li>`).join('')}</ul>`;
+  if (block.table) return `<div class="table-wrap"><table class="faq-table"><thead><tr>${block.table.head.map(h => `<th scope="col">${escapeHtml(h)}</th>`).join('')}</tr></thead><tbody>${block.table.rows.map(row => `<tr>${row.map((cell, i) => i === 0 ? `<th scope="row">${escapeHtml(cell)}</th>` : `<td>${escapeHtml(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
+  return '';
+};
+export const faqPlainAnswer = q => q.a.map(block => typeof block === 'string' ? block : block.list ? block.list.join(' ') : block.table.rows.map(row => row.join(': ')).join('; ')).join(' ').replace(/\*\*/g, '').replace(/\[([^\]]+)\]\([^)]+\)/g, '$1');
+
+export function renderFaq(copy) {
+  const all = copy.topics.flatMap(topic => topic.questions.map(q => ({ ...q, topic })));
+  const byId = Object.fromEntries(all.map(q => [q.id, q]));
+  const updated = new Date(`${copy.updated}T00:00:00Z`).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
+  return `
+  <section class="hero hero--compact faq-hero" aria-labelledby="faq-heading">
+    <div class="shell hero-copy hero-copy--wide">
+      <p class="eyebrow">${icon('help-circle')} ${escapeHtml(copy.eyebrow)}</p>
+      <h1 id="faq-heading">${escapeHtml(copy.heading)}</h1>
+      ${paragraphs(copy.intro)}
+      <p class="faq-meta">${icon('calendar')} Updated ${escapeHtml(updated)} <span aria-hidden="true">·</span> ${icon('user-check')} Reviewed by ${escapeHtml(copy.reviewer)} <span aria-hidden="true">·</span> ${all.length} questions</p>
+    </div>
+  </section>
+  <section class="band band--tint" data-faq-hub aria-label="Questions and answers">
+    <div class="shell faq-shell">
+      <div class="faq-popular" aria-labelledby="faq-popular-title">
+        <h2 id="faq-popular-title" class="faq-section-title">${icon('flame')} Popular Questions</h2>
+        <ul class="faq-popular-list">${copy.popular.map(id => `<li><a href="#${id}" data-faq-jump="${id}">${icon('arrow-up-right')}<span>${escapeHtml(byId[id].q)}</span></a></li>`).join('')}</ul>
+      </div>
+      <div class="tools-controls faq-controls">
+        <label class="tools-search"><span class="sr-only">${escapeHtml(copy.search_label)}</span>${icon('search')}<input type="search" placeholder="${escapeHtml(copy.search_label)}" data-faq-search autocomplete="off"></label>
+        <div class="tools-filters" role="group" aria-label="Filter by topic">
+          <button type="button" class="tools-chip" aria-pressed="true" data-faq-filter="all">${icon('adjustments-horizontal')}All <span>${all.length}</span></button>
+          ${copy.topics.map(t => `<button type="button" class="tools-chip" aria-pressed="false" data-faq-filter="${t.id}">${icon(t.icon)}${escapeHtml(t.name)} <span>${t.questions.length}</span></button>`).join('')}
+        </div>
+        <p class="tools-count" data-faq-count aria-live="polite">${all.length} questions</p>
+      </div>
+      ${copy.topics.map(t => `<div class="faq-topic" data-faq-topic="${t.id}" id="${t.id}">
+        <h2 class="faq-topic-title"><span class="faq-topic-icon">${icon(t.icon)}</span><span>${escapeHtml(t.name)}</span></h2>
+        <p class="faq-topic-intro">${escapeHtml(t.intro)}</p>
+        ${t.questions.map(q => `<details class="faq-item" id="${q.id}" data-faq-q data-search="${escapeHtml(`${q.q} ${faqPlainAnswer(q)}`.toLowerCase())}">
+          <summary><h3>${escapeHtml(q.q)}</h3><span class="faq-chevron" aria-hidden="true">${icon('chevron-down')}</span></summary>
+          <div class="faq-answer">${q.a.map(faqBlock).join('')}</div>
+        </details>`).join('')}
+      </div>`).join('')}
+      <p class="tools-empty" data-faq-empty hidden>No questions match that search. Try a shorter word.</p>
+    </div>
+  </section>
+  <section class="band" aria-labelledby="faq-tools">
+    <div class="shell">
+      <h2 id="faq-tools" class="faq-section-title">${icon('calculator')} Related Calculators</h2>
+      <ul class="tools-grid faq-tools-grid">${copy.tools.map(t => `<li class="tools-card"><a href="${escapeHtml(t.url)}"><span class="tools-card-icon">${icon(t.icon)}</span><span class="tools-card-body"><strong>${escapeHtml(t.title)}</strong></span><span class="tools-card-go" aria-hidden="true">${icon('arrow-up-right')}</span></a></li>`).join('')}</ul>
+      <h2 class="faq-section-title faq-sources-title">${icon('book')} Sources</h2>
+      <ul class="faq-sources">${copy.sources.map(([title, url]) => `<li><a href="${escapeHtml(url)}" rel="noopener">${escapeHtml(title)}</a></li>`).join('')}</ul>
+    </div>
+  </section>`;
+}

@@ -2,7 +2,7 @@ import { cp, mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
 import { escapeHtml, markdownToHtml, readContent } from './lib/content.mjs';
-import { contactEmail, renderAbout, renderAuthor, renderTools, renderContact, renderHome, renderHub, renderPartner } from './lib/pages.mjs';
+import { contactEmail, faqPlainAnswer, renderAbout, renderAuthor, renderFaq, renderTools, renderContact, renderHome, renderHub, renderPartner } from './lib/pages.mjs';
 import { buildCharts } from './lib/illustrations.mjs';
 import { renderChart, resetCharts } from './lib/charts.mjs';
 import { articleSchema, headMeta, organizationNode } from './lib/seo.mjs';
@@ -15,6 +15,7 @@ const dist = path.join(cwd, 'dist');
 const readJson = async file => JSON.parse(await readFile(file, 'utf8'));
 // Designed-page copy files exist only once approved copy has been supplied; until then pages render from Markdown.
 const readOptionalJson = file => readJson(file).catch(error => { if (error.code === 'ENOENT') return null; throw error; });
+const faqCopies = Object.fromEntries(await Promise.all((await readdir('data/faq').catch(() => [])).filter(f => f.endsWith('.json')).map(async f => [f.slice(0, -5), await readJson(`data/faq/${f}`)])));
 const [site, nav, redirects, homeCopy, aboutCopy, hubCopy, contactCopy, footerCopy, assetList, chartData, partnerCopy, marketData, authorCopy, toolsCopy] = await Promise.all([
   
   readJson('data/site.json'), readJson('data/navigation.json'), readJson('data/redirects.json'), readOptionalJson('data/home-page.json'), readOptionalJson('data/about-page.json'), readOptionalJson('data/hub-pages.json'), readOptionalJson('data/contact-page.json'), readJson('data/footer.json'), readJson('data/assets.json'), readJson('data/charts.json'), readOptionalJson('data/partner-page.json'), readJson('data/market-data.json'), readOptionalJson('data/author-page.json'), readOptionalJson('data/tools-page.json')
@@ -142,14 +143,16 @@ for (const page of parsed) {
         ...(metadata.slug !== '/' ? { breadcrumb: { '@id': `${url}#breadcrumb` } } : {}),
         ...(hubParts.length ? { hasPart: hubParts.map(post => ({ '@type': post.schema === 'BlogPosting' ? 'BlogPosting' : 'Article', '@id': `${canonical(post.slug)}#article`, headline: post.title, url: canonical(post.slug) })) } : {})
       },
-      ...(metadata.slug !== '/' ? [breadcrumbList] : [])
+      ...(metadata.slug !== '/' ? [breadcrumbList] : []),
+      ...(metadata.template === 'faq' && faqCopies[metadata.faq] ? [{ '@type': 'FAQPage', '@id': `${url}#faq`, mainEntity: faqCopies[metadata.faq].topics.flatMap(topic => topic.questions).map(q => ({ '@type': 'Question', name: q.q, acceptedAnswer: { '@type': 'Answer', text: faqPlainAnswer(q) } })) }] : [])
     ]
   };
   // Designed pages render from approved copy files; everything else renders from Markdown.
-  const designedCopy = { home: homeCopy, about: aboutCopy, contact: contactCopy, hub: hubCopy, partner: partnerCopy, author: authorCopy, tools: toolsCopy }[metadata.template];
+  const designedCopy = { home: homeCopy, about: aboutCopy, contact: contactCopy, hub: hubCopy, partner: partnerCopy, author: authorCopy, tools: toolsCopy, faq: faqCopies[metadata.faq] }[metadata.template];
   if (metadata.template && !designedCopy) throw new Error(`${source}: template "${metadata.template}" needs its approved copy file in data/`);
   const designed = article ? null : { home: () => renderHome(homeCopy, publishedPosts, nav, pageCharts), about: () => renderAbout(aboutCopy),
     tools: () => renderTools(toolsCopy),
+    faq: () => renderFaq(faqCopies[metadata.faq]),
     author: () => renderAuthor(authorCopy, publishedPosts.filter(post => post.author === authorCopy.name && publicationState(post, today) === 'live'), nav),
     partner: () => renderPartner(partnerCopy, contactEmail(body, source)),
     contact: () => renderContact(contactCopy, contactEmail(body, source)),
