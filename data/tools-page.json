@@ -1,0 +1,136 @@
+{
+  "eyebrow": "Free tools",
+  "heading": "Financial Calculators and Reference Tools",
+  "intro": [
+    "Fin Loom's calculators turn the formulas behind our articles into tools you can test with your own numbers. Each one runs in your browser, shows its formula and assumptions, and explains the result in plain language.",
+    "They are educational estimates, not predictions or advice."
+  ],
+  "search_label": "Search calculators",
+  "categories": [
+    {
+      "name": "Money and Banking",
+      "icon": "building-bank",
+      "tools": [
+        {
+          "title": "Inflation Calculator",
+          "url": "/money-banking/inflation-calculator/",
+          "icon": "receipt-2",
+          "text": "Compare a dollar amount across years using official BLS CPI-U data from 1913 to 2026."
+        },
+        {
+          "title": "Credit Card Debt Payoff Calculator",
+          "url": "/money-banking/credit-card-payoff-calculator/",
+          "icon": "credit-card",
+          "text": "See how long a card balance could take to clear and how much an extra payment could save."
+        },
+        {
+          "title": "Mortgage Payoff Calculator",
+          "url": "/money-banking/mortgage-payoff-calculator/",
+          "icon": "home-dollar",
+          "text": "Estimate how much sooner extra payments could pay off a mortgage and the interest they could save."
+        },
+        {
+          "title": "Daily Compound Interest Calculator",
+          "url": "/money-banking/daily-compound-interest-calculator/",
+          "icon": "calendar-stats",
+          "text": "See how a balance grows over a set number of days, and compare daily, monthly, and annual compounding."
+        },
+        {
+          "title": "APY Calculator",
+          "url": "/money-banking/apy-calculator/",
+          "icon": "percentage",
+          "text": "Convert an interest rate and compounding schedule into annual percentage yield."
+        },
+        {
+          "title": "Savings Interest Calculator",
+          "url": "/money-banking/savings-interest-calculator/",
+          "icon": "pig-money",
+          "text": "Estimate savings growth from a starting balance, APY, and monthly deposits."
+        }
+      ]
+    },
+    {
+      "name": "Investing",
+      "icon": "chart-pie",
+      "tools": [
+        {
+          "title": "Investment Growth Calculator",
+          "url": "/investing/investment-growth-calculator/",
+          "icon": "chart-line",
+          "text": "Project a portfolio from a starting amount, monthly contributions, and an assumed return, with an inflation-adjusted view."
+        },
+        {
+          "title": "Dividend Reinvestment Plan Calculator",
+          "url": "/investing/dividend-reinvestment-plan-calculator/",
+          "icon": "repeat",
+          "text": "Model how reinvested dividends change share count and income over time."
+        },
+        {
+          "title": "Dividend Total Return Calculator",
+          "url": "/investing/dividend-total-return-calculator/",
+          "icon": "coins",
+          "text": "Split a holding's total return into price gain and dividend income, with an annualized rate."
+        },
+        {
+          "title": "Investment Withdrawal Calculator",
+          "url": "/investing/investment-withdrawal-calculator/",
+          "icon": "wallet",
+          "text": "Estimate how long a portfolio could last at a given withdrawal, or how much it could support."
+        }
+      ]
+    },
+    {
+      "name": "Tax",
+      "icon": "receipt-tax",
+      "tools": [
+        {
+          "title": "Capital Gains Tax Calculator",
+          "url": "/investing/capital-gains-tax-calculator/",
+          "icon": "receipt-tax",
+          "text": "Estimate 2026 federal tax on a short-term or long-term gain using IRS brackets."
+        },
+        {
+          "title": "401(k) Withdrawal Tax Calculator",
+          "url": "/investing/401k-withdrawal-tax-calculator/",
+          "icon": "building-bank",
+          "text": "Estimate federal tax, the 10% early-withdrawal additional tax, and the 20% withholding on a 401(k) withdrawal."
+        },
+        {
+          "title": "Self-Employment Tax Calculator",
+          "url": "/money-banking/self-employment-tax-calculator/",
+          "icon": "briefcase",
+          "text": "Work out 2026 Social Security and Medicare tax on net self-employment earnings."
+        },
+        {
+          "title": "1099 Tax Calculator",
+          "url": "/money-banking/1099-tax-calculator/",
+          "icon": "file-invoice",
+          "text": "Estimate how much of 1099 income to set aside for federal self-employment and income tax."
+        }
+      ]
+    },
+    {
+      "name": "Markets and Stocks",
+      "icon": "chart-candle",
+      "tools": [
+        {
+          "title": "Stock Average Cost Calculator",
+          "url": "/markets-stocks/stock-average-calculator/",
+          "icon": "chart-candle",
+          "text": "Find the average cost per share across several purchases, including fees."
+        },
+        {
+          "title": "Stock Profit Calculator",
+          "url": "/markets-stocks/stock-profit-calculator/",
+          "icon": "report-money",
+          "text": "Work out the net gain or loss, return, and break-even price on a trade."
+        }
+      ]
+    }
+  ],
+  "how_heading": "How These Calculators Work",
+  "how": [
+    "Every calculator follows the same pattern. Inputs sit on the left, the main answer and key figures on the right, and a chart, a detailed table, the assumptions, and a disclaimer follow below. Results update as you type or drag a slider, and an invalid entry is flagged next to the field without clearing the last valid result.",
+    "The calculators use fixed assumptions to keep the math transparent. Real returns, rates, prices, and taxes vary, so treat each result as a starting point for understanding, not a forecast."
+  ]
+}

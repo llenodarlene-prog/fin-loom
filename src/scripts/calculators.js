@@ -352,6 +352,15 @@
     register(id, init) { document.querySelectorAll(`.finloom-calc[data-calculator="${id}"]`).forEach(init); }
   });
 
+  // Sliders mirror their number box. Capture-phase listeners update the partner before the
+  // calculator's own input handler reads the form.
+  document.addEventListener('input', event => {
+    const el = event.target;
+    if (el.matches && el.matches('.finloom-calc-slider')) { const box = document.getElementById(el.dataset.for); if (box) box.value = el.value; }
+    else if (el.id) { const twin = document.querySelector(`.finloom-calc-slider[data-for="${el.id}"]`); if (twin && el.value !== '') twin.value = el.value; }
+  }, true);
+  document.addEventListener('reset', event => { if (event.target.closest && event.target.closest('.finloom-calc')) setTimeout(() => event.target.querySelectorAll('.finloom-calc-slider').forEach(s => { const box = document.getElementById(s.dataset.for); if (box) s.value = box.value; }), 0); }, true);
+
   document.querySelectorAll('.finloom-calc[data-calculator="apy"]').forEach(initApy);
   document.querySelectorAll('.finloom-calc[data-calculator="savings"]').forEach(initSavings);
   document.querySelectorAll('.finloom-calc[data-calculator="drip"]').forEach(initDrip);
