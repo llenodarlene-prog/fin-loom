@@ -83,6 +83,8 @@ According to [Finviz's Elite page](https://finviz.com/elite), the paid plan adds
 
 Yahoo Finance has expanded its screener into a broader global tool. Its equity screener states that its coverage spans 50 regions, and the default U.S. view shows more than 10,000 results.
 
+![Yahoo Finance Screeners page showing popular preset screens such as Most Active Stocks and Undervalued Growth Stocks](/assets/images/screenshots/yahoo-screenshot-1600.jpg "Screenshot: Yahoo Finance, captured November 1, 2026.")
+
 Users can filter by region, market capitalization, price, sector, industry, and index, and switch between a table view and a heatmap view.
 
 ### Why Yahoo Finance Works Well for Beginners
@@ -97,6 +99,8 @@ Yahoo Finance does not offer the same depth of screening customization as specia
 
 Koyfin is useful when an investor wants the screen to lead directly into fundamental research, with financial statements, estimates, and charts in one workspace.
 
+![Koyfin homepage with the headline A modern investment platform for advisors and investors above a preview of its market dashboard](/assets/images/screenshots/koyfin-screenshot-1600.jpg "Screenshot: Koyfin, captured November 1, 2026.")
+
 Its free plan includes 2 years of financial data and 1 year of estimates, with limited screens and dashboards. The Plus plan, at $39 per month on annual billing, raises that to 10 years of financials and estimates with unlimited screens and watchlists.
 
 ### Why Koyfin Is Different
@@ -110,6 +114,8 @@ The main limitation is scale. Two years of financial history is enough for a qui
 ## TradingView Is the Best Free Screener for Chart-Driven Investors
 
 TradingView approaches screening from the technical side. Its free Basic plan connects screening with charts, indicators, price structure, and volume, so a filtered stock can be checked visually in seconds.
+
+![TradingView stock screener listing US stocks by market cap with price, change, P/E, dividend yield, sector and analyst rating columns](/assets/images/screenshots/tradingview-screenshot-1600.jpg "Screenshot: TradingView, captured November 1, 2026.")
 
 That makes it useful for investors who filter stocks and then immediately want to inspect the chart.
 

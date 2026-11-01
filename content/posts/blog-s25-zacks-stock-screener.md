@@ -42,6 +42,8 @@ Investors can still screen on familiar valuation, growth, profitability, and pri
 
 On its [screening tools page](https://www.zacks.com/screening/), Zacks describes the custom stock screener as a way to "screen stocks on virtually any item, including the Zacks Rank." Users can also start from predefined screens instead of building every filter by hand.
 
+![Zacks stock screener with a category list on the left and Zacks Rank, Style Score and other filters on the right](/assets/images/screenshots/zacks-screenshot-1600.jpg "Screenshot: Zacks, captured November 1, 2026.")
+
 The predefined screens on that page fall into recognizable groups. Some target value, such as stocks with strong Zacks Ranks, Value Style Scores of A or B, and Industry Ranks in the top half. Others target growth, momentum, income, or companies with rising estimates and price targets. The common thread is that most of them blend standard financial filters with at least one Zacks signal.
 
 ### Custom Screens

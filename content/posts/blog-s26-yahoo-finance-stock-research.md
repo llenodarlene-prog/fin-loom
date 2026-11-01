@@ -70,6 +70,8 @@ The Historical Data tab lets users view and download tables of historical prices
 
 Some predefined screens draw on Morningstar research. Yahoo's screener hub lists Morningstar 5-Star Stocks and Undervalued Wide-Moat Stocks, which Yahoo describes as equities recently labeled undervalued by Morningstar with an economic moat that can last 20 or more years.
 
+![Yahoo Finance Screeners page showing popular preset screens such as Most Active Stocks and Undervalued Growth Stocks](/assets/images/screenshots/yahoo-screenshot-1600.jpg "Screenshot: Yahoo Finance, captured November 1, 2026.")
+
 This brings research-based signals into the screening step itself. An investor can start from a list shaped by an outside research team instead of only raw financial filters.
 
 ### What These Lists Offer

@@ -70,6 +70,8 @@ The point of a research stack is not to open every platform. It is to avoid aski
 
 Broad crypto market platforms are useful because they standardize a large amount of basic information in one place. Typical fields include:
 
+![CoinMarketCap ranking table listing Bitcoin, Ethereum and other coins with price, percentage change, market cap and volume](/assets/images/screenshots/coinmarketcap-screenshot-1600.jpg "Screenshot: CoinMarketCap, captured November 1, 2026.")
+
 - Price
 - Market capitalization
 - Circulating supply
