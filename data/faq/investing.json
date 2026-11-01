@@ -1,0 +1,375 @@
+{
+  "slug": "/investing/faqs/",
+  "eyebrow": "Investing FAQs",
+  "heading": "Investing Questions, Answered",
+  "intro": [
+    "Plain answers on index funds, dividends, and retirement accounts, checked against IRS, FINRA, and fund company sources.",
+    "Each answer gives you the short version first. Where a number helps, you'll see one, along with where it came from."
+  ],
+  "updated": "2026-11-01",
+  "reviewer": "Darlene Aberin",
+  "search_label": "Search investing questions",
+  "popular": [
+    "what-index-fund",
+    "index-vs-mutual",
+    "ex-dividend",
+    "qualified-dividends",
+    "withdraw-401k",
+    "rmd-age"
+  ],
+  "topics": [
+    {
+      "id": "index-funds",
+      "name": "Index Funds",
+      "icon": "chart-pie",
+      "intro": "What index funds are, what they cost, and how they differ from other funds.",
+      "questions": [
+        {
+          "id": "what-index-fund",
+          "q": "What is an index fund?",
+          "a": [
+            "An index fund tries to match the return of a market index, like the S&P 500. It holds what's in that index instead of picking winners.",
+            "Index funds come as mutual funds or as ETFs. The strategy is the same in both. The way you buy and sell them is what changes."
+          ]
+        },
+        {
+          "id": "index-vs-mutual",
+          "q": "What is the difference between an index fund and a mutual fund?",
+          "a": [
+            "They aren't opposites. A mutual fund is a fund structure, and an index fund is an investing strategy. So an index fund can be a mutual fund.",
+            "The real comparison is index versus active. An index fund follows a benchmark. An active fund has a manager choosing what to buy. The full comparison of [index fund vs mutual fund](/investing/index-fund-vs-mutual-fund/) walks through fees, taxes, and trading."
+          ]
+        },
+        {
+          "id": "index-vs-etf",
+          "q": "How is an index mutual fund different from an index ETF?",
+          "a": [
+            "The main difference is how they trade. FINRA notes that mutual funds price shares only once a day, after markets close. ETFs trade all day like a stock.",
+            {
+              "table": {
+                "head": [
+                  "Feature",
+                  "Index Mutual Fund",
+                  "Index ETF"
+                ],
+                "rows": [
+                  [
+                    "Pricing",
+                    "Once a day, at NAV",
+                    "All day, at market price"
+                  ],
+                  [
+                    "How you buy",
+                    "Through the fund or a broker",
+                    "Through a brokerage account"
+                  ],
+                  [
+                    "Example",
+                    "Vanguard 500 Index Admiral (VFIAX)",
+                    "Vanguard S&P 500 ETF (VOO)"
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "low-cost",
+          "q": "Why are index funds low cost?",
+          "a": [
+            "Tracking an index takes less research than picking stocks, so many index funds charge very little. Vanguard lists 0.04% a year for VFIAX and 0.03% for VOO.",
+            "For context, Vanguard and Morningstar put the industry's average mutual fund fee at 0.50%. That's asset-weighted, as of December 31, 2025."
+          ]
+        },
+        {
+          "id": "fees-matter",
+          "q": "How much do fund fees cost over time?",
+          "a": [
+            "More than most people expect. Take $10,000 growing at a hypothetical 6% a year for 20 years:",
+            {
+              "table": {
+                "head": [
+                  "Annual Fee",
+                  "Ending Balance"
+                ],
+                "rows": [
+                  [
+                    "0.04%",
+                    "$31,830"
+                  ],
+                  [
+                    "0.50%",
+                    "$29,178"
+                  ],
+                  [
+                    "1.00%",
+                    "$26,533"
+                  ]
+                ]
+              }
+            },
+            "That's a gap of about $5,300 between the cheapest and priciest fund. These are Fin Loom calculations, not a forecast."
+          ]
+        },
+        {
+          "id": "lose-money",
+          "q": "Can you lose money in an index fund?",
+          "a": [
+            "Yes. An index fund rises and falls with its index. If the market drops, the fund drops too.",
+            "On October 12, 2022, the S&P 500 closed about 25.4% below its January high. A fund tracking it fell by a similar amount. You'd only lock in that loss by selling."
+          ]
+        },
+        {
+          "id": "index-dividends",
+          "q": "Do index funds pay dividends?",
+          "a": [
+            "Many do. A stock index fund collects dividends from its companies. It passes them on to you as distributions.",
+            "Part of that payout may count as qualified dividends for tax. Your Form 1099-DIV shows the split in boxes 1a and 1b."
+          ]
+        },
+        {
+          "id": "what-nav",
+          "q": "What is NAV?",
+          "a": [
+            "NAV means net asset value. It's the value of one fund share, based on what the fund owns minus what it owes.",
+            "FINRA explains that mutual funds calculate NAV once a day, when markets close. Orders placed during the day get that end-of-day price."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dividends",
+      "name": "Dividends",
+      "icon": "coins",
+      "intro": "How dividends get paid, taxed, and reinvested.",
+      "questions": [
+        {
+          "id": "what-dividend",
+          "q": "What is a dividend?",
+          "a": [
+            "A dividend is a payment a company makes to its shareholders, usually in cash. Many U.S. companies pay one each quarter.",
+            "The board decides whether to pay and how much. It can raise, cut, or stop the dividend at any time."
+          ]
+        },
+        {
+          "id": "ex-dividend",
+          "q": "What is an ex-dividend date?",
+          "a": [
+            "It's the cutoff for the next dividend. The IRS calls it the first date after a declaration when a buyer won't get that payment.",
+            "So you need to own the shares before the ex-dividend date. Buy on or after it, and the seller gets that payout instead."
+          ]
+        },
+        {
+          "id": "dividend-yield",
+          "q": "What is dividend yield?",
+          "a": [
+            "Dividend yield is the yearly dividend divided by the share price. It shows how much income you get per dollar invested.",
+            "Altria pays $4.44 a year. At its October 23, 2026 close of $74.31, that's a yield of about 5.97%. That's a Fin Loom calculation, not a recommendation."
+          ]
+        },
+        {
+          "id": "high-yield-risk",
+          "q": "Why can a very high dividend yield be risky?",
+          "a": [
+            "Because yield goes up when the share price falls. A sinking price can push the yield higher while the business gets weaker.",
+            "A very high yield can be a warning that investors expect a cut. Cash flow, debt, and payout history show whether the dividend looks sustainable. The comparison of [highest yield dividend stocks](/markets-stocks/highest-yield-dividend-stocks/) runs those checks on six large companies."
+          ]
+        },
+        {
+          "id": "dividends-taxable",
+          "q": "Are dividends taxable?",
+          "a": [
+            "Yes, in a taxable account. Your broker reports them on Form 1099-DIV.",
+            "Ordinary dividends are taxed at your regular income tax rate. Qualified dividends get lower rates of 0%, 15%, or 20%, based on taxable income."
+          ]
+        },
+        {
+          "id": "qualified-dividends",
+          "q": "What makes a dividend qualified?",
+          "a": [
+            "A dividend qualifies when it meets IRS rules on the company and your holding period. Those dividends get rates of 0%, 15%, or 20%.",
+            "For common stock, you generally need more than 60 days of ownership. They fall in a 121-day window around the ex-dividend date. The full rules on [qualified dividends](/investing/qualified-dividends/) include the 2026 income thresholds."
+          ]
+        },
+        {
+          "id": "reinvested-taxable",
+          "q": "Are reinvested dividends taxable?",
+          "a": [
+            "Yes. IRS Publication 550 says you must still report dividends as income, even when they buy more shares.",
+            "Each reinvested purchase also starts its own cost basis and holding period. Keep those records for when you sell."
+          ]
+        },
+        {
+          "id": "what-drip",
+          "q": "What is a DRIP?",
+          "a": [
+            "A DRIP is a dividend reinvestment plan. It uses your cash dividends to buy more shares of the same stock or fund.",
+            "Those new shares earn dividends too. Say you hold 100 shares at $50, paid $0.50 a quarter. Five years of reinvesting at a flat price builds about 122 shares. Model it in the [dividend reinvestment plan calculator](/investing/dividend-reinvestment-plan-calculator/)."
+          ]
+        },
+        {
+          "id": "dividend-cut",
+          "q": "What happens if a company cuts its dividend?",
+          "a": [
+            "You get less income from every share you own. The stock price often reacts too, since a cut can signal trouble.",
+            "If you reinvest dividends, a cut also slows how fast your share count grows. That's why dividend growth is never guaranteed."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "retirement",
+      "name": "Retirement",
+      "icon": "wallet",
+      "intro": "Withdrawals, taxes, and the rules on retirement accounts.",
+      "questions": [
+        {
+          "id": "withdraw-401k",
+          "q": "When can I withdraw from a 401(k) without a penalty?",
+          "a": [
+            "Generally at age 59½. The IRS adds a 10% early withdrawal tax to most withdrawals before then, unless an exception applies.",
+            "Regular income tax still applies either way. The penalty is an extra charge on top."
+          ]
+        },
+        {
+          "id": "age-55",
+          "q": "Is there an exception for leaving a job at 55?",
+          "a": [
+            "Yes. IRS Topic 558 covers it. Leave your job in or after the year you turn 55, and the penalty doesn't apply.",
+            "It covers the plan of the job you left. Other plans and IRAs follow different rules."
+          ]
+        },
+        {
+          "id": "tax-401k",
+          "q": "How much tax do I pay on a 401(k) withdrawal?",
+          "a": [
+            "Traditional 401(k) withdrawals count as ordinary income. You pay your regular rate, plus 10% if you're under 59½ without an exception. Here's one example:",
+            {
+              "list": [
+                "**The setup:** a single filer with $50,000 of taxable income withdraws $20,000 at age 50.",
+                "**Federal income tax:** about $4,360 under 2026 brackets.",
+                "**Early withdrawal tax:** $2,000.",
+                "**Total:** about $6,360, or 31.8% of the withdrawal."
+              ]
+            },
+            "These are Fin Loom calculations. Run your own in the [401(k) withdrawal tax calculator](/investing/401k-withdrawal-tax-calculator/)."
+          ]
+        },
+        {
+          "id": "withholding-20",
+          "q": "Why did my 401(k) withhold 20%?",
+          "a": [
+            "Plans generally withhold 20% for federal tax when they pay an eligible rollover distribution to you. That's from IRS Topic 413.",
+            "It's a prepayment, not your final bill. You settle any difference when you file your return."
+          ]
+        },
+        {
+          "id": "rmd-age",
+          "q": "At what age do required minimum distributions start?",
+          "a": [
+            "Age 73. The IRS says you generally must start withdrawals from IRAs and workplace plans once you reach it.",
+            "Your first one is due by April 1 of the year after you turn 73. Some workplace plans let you wait until you retire."
+          ]
+        },
+        {
+          "id": "roth-tax-free",
+          "q": "Are Roth IRA withdrawals tax-free?",
+          "a": [
+            "Qualified ones are. The IRS says qualified Roth IRA distributions are tax-free when you meet the requirements.",
+            "Withdrawals that don't qualify can owe tax on earnings, and possibly the 10% early tax. Check the rules before taking money out."
+          ]
+        },
+        {
+          "id": "savings-last",
+          "q": "How long will my retirement savings last?",
+          "a": [
+            "It depends on your balance, withdrawals, and returns. Here's one example. Start with $500,000 and draw $2,500 a month, rising 3% a year, while earning 5%.",
+            "Under those assumptions, the money could last about 20 years and 5 months. That's a Fin Loom calculation, and real returns won't be that smooth. Test your own numbers in the [investment withdrawal calculator](/investing/investment-withdrawal-calculator/)."
+          ]
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "title": "Investment Growth Calculator",
+      "url": "/investing/investment-growth-calculator/",
+      "icon": "chart-line"
+    },
+    {
+      "title": "Dividend Reinvestment Plan Calculator",
+      "url": "/investing/dividend-reinvestment-plan-calculator/",
+      "icon": "repeat"
+    },
+    {
+      "title": "Dividend Total Return Calculator",
+      "url": "/investing/dividend-total-return-calculator/",
+      "icon": "coins"
+    },
+    {
+      "title": "Investment Withdrawal Calculator",
+      "url": "/investing/investment-withdrawal-calculator/",
+      "icon": "wallet"
+    },
+    {
+      "title": "401(k) Withdrawal Tax Calculator",
+      "url": "/investing/401k-withdrawal-tax-calculator/",
+      "icon": "building-bank"
+    },
+    {
+      "title": "Capital Gains Tax Calculator",
+      "url": "/investing/capital-gains-tax-calculator/",
+      "icon": "receipt-tax"
+    }
+  ],
+  "sources": [
+    [
+      "FINRA: Mutual Funds",
+      "https://www.finra.org/investors/investing/investment-products/mutual-funds"
+    ],
+    [
+      "FINRA: Exchange-Traded Funds and Products",
+      "https://www.finra.org/investors/investing/investment-products/exchange-traded-funds-and-products"
+    ],
+    [
+      "Vanguard: VFIAX",
+      "https://investor.vanguard.com/investment-products/mutual-funds/profile/vfiax"
+    ],
+    [
+      "Vanguard: VOO",
+      "https://investor.vanguard.com/investment-products/etfs/profile/voo"
+    ],
+    [
+      "IRS Publication 550: Investment Income and Expenses",
+      "https://www.irs.gov/publications/p550"
+    ],
+    [
+      "IRS: Instructions for Form 1099-DIV",
+      "https://www.irs.gov/instructions/i1099div"
+    ],
+    [
+      "IRS: Tax on Early Distributions",
+      "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-tax-on-early-distributions"
+    ],
+    [
+      "IRS Topic 558: Additional Tax on Early Distributions",
+      "https://www.irs.gov/taxtopics/tc558"
+    ],
+    [
+      "IRS Topic 413: Rollovers From Retirement Plans",
+      "https://www.irs.gov/taxtopics/tc413"
+    ],
+    [
+      "IRS: Required Minimum Distributions",
+      "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-required-minimum-distributions-rmds"
+    ],
+    [
+      "IRS: Roth IRAs",
+      "https://www.irs.gov/retirement-plans/roth-iras"
+    ],
+    [
+      "FRED: S&P 500 (SP500)",
+      "https://fred.stlouisfed.org/series/SP500"
+    ]
+  ]
+}

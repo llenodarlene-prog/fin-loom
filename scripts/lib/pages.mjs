@@ -442,7 +442,7 @@ export function renderFaq(copy) {
   </section>
   <section class="band" aria-labelledby="faq-tools">
     <div class="shell">
-      <h2 id="faq-tools" class="faq-section-title">${icon('calculator')} Related Calculators</h2>
+      <h2 id="faq-tools" class="faq-section-title">${icon(copy.tools_icon || 'calculator')} ${escapeHtml(copy.tools_heading || 'Related Calculators')}</h2>
       <ul class="tools-grid faq-tools-grid">${copy.tools.map(t => `<li class="tools-card"><a href="${escapeHtml(t.url)}"><span class="tools-card-icon">${icon(t.icon)}</span><span class="tools-card-body"><strong>${escapeHtml(t.title)}</strong></span><span class="tools-card-go" aria-hidden="true">${icon('arrow-up-right')}</span></a></li>`).join('')}</ul>
       <h2 class="faq-section-title faq-sources-title">${icon('book')} Sources</h2>
       <ul class="faq-sources">${copy.sources.map(([title, url]) => `<li><a href="${escapeHtml(url)}" rel="noopener">${escapeHtml(title)}</a></li>`).join('')}</ul>
