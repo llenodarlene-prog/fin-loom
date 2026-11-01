@@ -1058,5 +1058,105 @@
     "rights_status": "approved",
     "rights_source": "Supplied by the site owner in chat on 2026-10-26 for this post (AI-generated image)",
     "alt_guidance": "Two laptops side by side showing different portfolio charts and pie charts, with a globe and wooden pie-chart pieces on the desk"
+  },
+  {
+    "path": "/assets/images/screenshots/koyfin-screenshot-1600.jpg",
+    "title": "Screenshot of Koyfin",
+    "use": "Inline product screenshot in tool posts",
+    "width": 1600,
+    "height": 1000,
+    "rights_status": "approved",
+    "rights_source": "Editorial screenshot of Koyfin public page https://www.koyfin.com/, captured 2026-11-01",
+    "alt_guidance": "Koyfin homepage with the headline A modern investment platform for advisors and investors above a preview of its market dashboard"
+  },
+  {
+    "path": "/assets/images/screenshots/koyfin-screenshot-800.jpg",
+    "title": "Screenshot of Koyfin",
+    "use": "Inline product screenshot in tool posts",
+    "width": 800,
+    "height": 500,
+    "rights_status": "approved",
+    "rights_source": "Editorial screenshot of Koyfin public page https://www.koyfin.com/, captured 2026-11-01",
+    "alt_guidance": "Koyfin homepage with the headline A modern investment platform for advisors and investors above a preview of its market dashboard"
+  },
+  {
+    "path": "/assets/images/screenshots/tradingview-screenshot-1600.jpg",
+    "title": "Screenshot of TradingView",
+    "use": "Inline product screenshot in tool posts",
+    "width": 1600,
+    "height": 1000,
+    "rights_status": "approved",
+    "rights_source": "Editorial screenshot of TradingView public page https://www.tradingview.com/screener/, captured 2026-11-01",
+    "alt_guidance": "TradingView stock screener listing US stocks by market cap with price, change, P/E, dividend yield, sector and analyst rating columns"
+  },
+  {
+    "path": "/assets/images/screenshots/tradingview-screenshot-800.jpg",
+    "title": "Screenshot of TradingView",
+    "use": "Inline product screenshot in tool posts",
+    "width": 800,
+    "height": 500,
+    "rights_status": "approved",
+    "rights_source": "Editorial screenshot of TradingView public page https://www.tradingview.com/screener/, captured 2026-11-01",
+    "alt_guidance": "TradingView stock screener listing US stocks by market cap with price, change, P/E, dividend yield, sector and analyst rating columns"
+  },
+  {
+    "path": "/assets/images/screenshots/yahoo-screenshot-1600.jpg",
+    "title": "Screenshot of Yahoo Finance",
+    "use": "Inline product screenshot in tool posts",
+    "width": 1600,
+    "height": 524,
+    "rights_status": "approved",
+    "rights_source": "Editorial screenshot of Yahoo Finance public page https://finance.yahoo.com/research-hub/screener/, captured 2026-11-01",
+    "alt_guidance": "Yahoo Finance Screeners page showing popular preset screens such as Most Active Stocks and Undervalued Growth Stocks"
+  },
+  {
+    "path": "/assets/images/screenshots/yahoo-screenshot-800.jpg",
+    "title": "Screenshot of Yahoo Finance",
+    "use": "Inline product screenshot in tool posts",
+    "width": 800,
+    "height": 262,
+    "rights_status": "approved",
+    "rights_source": "Editorial screenshot of Yahoo Finance public page https://finance.yahoo.com/research-hub/screener/, captured 2026-11-01",
+    "alt_guidance": "Yahoo Finance Screeners page showing popular preset screens such as Most Active Stocks and Undervalued Growth Stocks"
+  },
+  {
+    "path": "/assets/images/screenshots/coinmarketcap-screenshot-1600.jpg",
+    "title": "Screenshot of CoinMarketCap",
+    "use": "Inline product screenshot in tool posts",
+    "width": 1600,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Editorial screenshot of CoinMarketCap public page https://coinmarketcap.com/, captured 2026-11-01",
+    "alt_guidance": "CoinMarketCap ranking table listing Bitcoin, Ethereum and other coins with price, percentage change, market cap and volume"
+  },
+  {
+    "path": "/assets/images/screenshots/coinmarketcap-screenshot-800.jpg",
+    "title": "Screenshot of CoinMarketCap",
+    "use": "Inline product screenshot in tool posts",
+    "width": 800,
+    "height": 225,
+    "rights_status": "approved",
+    "rights_source": "Editorial screenshot of CoinMarketCap public page https://coinmarketcap.com/, captured 2026-11-01",
+    "alt_guidance": "CoinMarketCap ranking table listing Bitcoin, Ethereum and other coins with price, percentage change, market cap and volume"
+  },
+  {
+    "path": "/assets/images/screenshots/zacks-screenshot-1600.jpg",
+    "title": "Screenshot of Zacks",
+    "use": "Inline product screenshot in tool posts",
+    "width": 1600,
+    "height": 1388,
+    "rights_status": "approved",
+    "rights_source": "Editorial screenshot of Zacks public page https://www.zacks.com/screening/stock-screener, captured 2026-11-01",
+    "alt_guidance": "Zacks stock screener with a category list on the left and Zacks Rank, Style Score and other filters on the right"
+  },
+  {
+    "path": "/assets/images/screenshots/zacks-screenshot-800.jpg",
+    "title": "Screenshot of Zacks",
+    "use": "Inline product screenshot in tool posts",
+    "width": 800,
+    "height": 694,
+    "rights_status": "approved",
+    "rights_source": "Editorial screenshot of Zacks public page https://www.zacks.com/screening/stock-screener, captured 2026-11-01",
+    "alt_guidance": "Zacks stock screener with a category list on the left and Zacks Rank, Style Score and other filters on the right"
   }
 ]
