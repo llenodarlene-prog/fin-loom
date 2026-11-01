@@ -86,6 +86,8 @@ Finviz is optimized around U.S. markets and fast screening rather than deep glob
 
 Koyfin treats screening as one part of a larger research workspace. It combines global equities, financial statements, analyst estimates, charts, macro data, watchlists, dashboards, filings, and portfolio tools.
 
+![Koyfin homepage with the headline A modern investment platform for advisors and investors above a preview of its market dashboard](/assets/images/screenshots/koyfin-screenshot-1600.jpg "Screenshot: Koyfin, captured November 1, 2026.")
+
 The free plan includes two years of financial data, one year of estimates, two screens, and limited dashboards. [Koyfin's 2026 pricing](https://www.koyfin.com/pricing/) lists Plus at **$39 per month** when billed annually and Premium at $79 per month.
 
 ### Where Koyfin Has an Edge
@@ -118,6 +120,8 @@ Morningstar is not primarily designed as a rapid technical trading screener. Inv
 
 TradingView combines screeners with one of the most flexible retail charting environments. Technical traders can filter securities and then immediately examine the underlying price structure, volume, indicators, and alerts.
 
+![TradingView stock screener listing US stocks by market cap with price, change, P/E, dividend yield, sector and analyst rating columns](/assets/images/screenshots/tradingview-screenshot-1600.jpg "Screenshot: TradingView, captured November 1, 2026.")
+
 Its free Basic plan covers entry-level use. [TradingView's pricing](https://www.tradingview.com/pricing/) lists Essential at **$12.95 per month** when billed annually, with higher tiers increasing chart layouts, indicators, alerts, and historical bars.
 
 ### Where TradingView Has an Edge
@@ -133,6 +137,8 @@ TradingView includes fundamental data, but its defining advantage remains techni
 ## Yahoo Finance Is a Practical Starting Point
 
 Yahoo Finance remains useful because it combines quotes, news, financial statements, watchlists, portfolios, screening, and analyst information in a familiar interface.
+
+![Yahoo Finance Screeners page showing popular preset screens such as Most Active Stocks and Undervalued Growth Stocks](/assets/images/screenshots/yahoo-screenshot-1600.jpg "Screenshot: Yahoo Finance, captured November 1, 2026.")
 
 Its core experience is free. Yahoo Finance's plan page prices its paid tiers by the year: Bronze at $95.40, Silver at $239.40, and Gold at $479.40. That works out to **$7.95**, $19.95, and $39.95 per month. Monthly billing costs more, and first-year promotional prices change often, so the checkout page is the final word.
 

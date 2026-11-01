@@ -80,6 +80,8 @@ Stock Analysis is built around data tables rather than charting or portfolio ana
 
 Koyfin combines equities, financial statements, estimates, charts, macro data, dashboards, filings, transcripts, and portfolio tools in one workspace.
 
+![Koyfin homepage with the headline A modern investment platform for advisors and investors above a preview of its market dashboard](/assets/images/screenshots/koyfin-screenshot-1600.jpg "Screenshot: Koyfin, captured November 1, 2026.")
+
 Its free plan includes 2 years of financial data and 1 year of estimates, which is enough to test the workflow. Plus costs $39 per month on annual billing and raises that to 10 years of financials and estimates with unlimited screens and watchlists.
 
 ### Who Gets the Most From Koyfin
@@ -94,6 +96,8 @@ The amount of data and dashboard options means there is more to set up than in a
 
 TradingView is built around interactive charts, indicators, screeners, alerts, and multi-market monitoring. Its free Basic plan covers entry-level use.
 
+![TradingView stock screener listing US stocks by market cap with price, change, P/E, dividend yield, sector and analyst rating columns](/assets/images/screenshots/tradingview-screenshot-1600.jpg "Screenshot: TradingView, captured November 1, 2026.")
+
 The app works particularly well for investors who move quickly between a screening condition and the underlying chart. The indicators those charts carry are explained in [technical analysis for stocks](/markets-stocks/technical-analysis-for-stocks/). According to [TradingView's pricing page](https://www.tradingview.com/pricing/), Essential costs $12.95 per month on annual billing, with higher tiers adding chart layouts, indicators, and alerts.
 
 ### Why Chart-First Investors Choose It
@@ -107,6 +111,8 @@ TradingView includes fundamental data, but its defining strength is charting. Lo
 ## Yahoo Finance Is the General-Purpose Starting Point
 
 Yahoo Finance remains one of the easiest apps for monitoring markets, following companies, building watchlists, reading news, reviewing quotes, and reaching basic financial data. Its screener states that it covers 50 regions. A fuller review of [Yahoo Finance stock research](/markets-stocks/yahoo-finance-stock-research/) covers what the free and paid plans include.
+
+![Yahoo Finance Screeners page showing popular preset screens such as Most Active Stocks and Undervalued Growth Stocks](/assets/images/screenshots/yahoo-screenshot-1600.jpg "Screenshot: Yahoo Finance, captured November 1, 2026.")
 
 Paid plans are priced by the year. Bronze costs $95.40 per year, which works out to $7.95 per month, and Silver and Gold add more data and tools.
 
