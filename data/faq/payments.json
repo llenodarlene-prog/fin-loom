@@ -1,0 +1,335 @@
+{
+  "slug": "/payments/faqs/",
+  "eyebrow": "Payments FAQs",
+  "heading": "Payments Questions, Answered",
+  "intro": [
+    "Straight answers on wire transfers, ACH payments, and sending money abroad. They draw on Federal Reserve, Nacha, and CFPB sources.",
+    "Read the short answer under each question. Open it for the timing, the rules, and the fine print."
+  ],
+  "updated": "2026-11-01",
+  "reviewer": "Darlene Aberin",
+  "search_label": "Search payments questions",
+  "tools_heading": "Related Reading",
+  "tools_icon": "book",
+  "popular": [
+    "what-wire",
+    "wire-time",
+    "wire-reverse",
+    "what-ach",
+    "ach-vs-wire",
+    "remit-cancel"
+  ],
+  "topics": [
+    {
+      "id": "wire-transfers",
+      "name": "Wire Transfers",
+      "icon": "building-bank",
+      "intro": "How bank wires move money, how long they take, and what can go wrong.",
+      "questions": [
+        {
+          "id": "what-wire",
+          "q": "What is a wire transfer?",
+          "a": [
+            "A wire transfer is an electronic payment sent from one bank to another. Each one moves on its own. Many U.S. wires run on the Federal Reserve's Fedwire service.",
+            "Fedwire settles each payment on its own, in real time. That speed and finality suit large or urgent payments. Read more on [what a wire transfer is](/payments/what-is-a-wire-transfer/)."
+          ]
+        },
+        {
+          "id": "wire-time",
+          "q": "How long does a wire transfer take?",
+          "a": [
+            "A domestic wire often arrives the same business day, if your bank sends it before its cutoff. International wires can take longer.",
+            "Fedwire's business day runs from 9:00 p.m. ET the evening before until 7:00 p.m. ET. Your bank's cutoff is usually earlier. The guide to [how long a wire transfer takes](/payments/how-long-does-a-wire-transfer-take/) covers delays."
+          ]
+        },
+        {
+          "id": "wire-weekend",
+          "q": "Can you send a wire transfer on a weekend?",
+          "a": [
+            "You can usually request one, but it won't settle until the next business day. Weekends and Federal Reserve holidays aren't Fedwire business days.",
+            "The Fed announced plans in October 2025 to add Sundays and weekday holidays. That won't happen before 2028."
+          ]
+        },
+        {
+          "id": "wire-reverse",
+          "q": "Can a wire transfer be reversed?",
+          "a": [
+            "Usually not. The Federal Reserve says Fedwire payments are final and irrevocable once processed.",
+            "Your bank can send a return request, but the receiving bank doesn't have to honor it. Getting money back often depends on the recipient agreeing."
+          ]
+        },
+        {
+          "id": "wire-info",
+          "q": "What information do I need to send a wire?",
+          "a": [
+            "Your bank will tell you the exact fields. A domestic wire usually needs these details:",
+            {
+              "list": [
+                "**Recipient's name:** as it appears on the account.",
+                "**Bank details:** the receiving bank's name and ABA routing number.",
+                "**Account number:** the recipient's account.",
+                "**Amount and reference:** plus any purpose details the bank asks for."
+              ]
+            },
+            "International wires often add a SWIFT/BIC code, an IBAN in some countries, and intermediary bank details."
+          ]
+        },
+        {
+          "id": "wire-wrong",
+          "q": "What happens if I send a wire to the wrong account?",
+          "a": [
+            "Call your bank right away. If the wire hasn't gone out yet, they may be able to stop it.",
+            "Once it settles, your bank can only ask for the money back. Recovery isn't guaranteed, so double-check details before you send."
+          ]
+        },
+        {
+          "id": "wire-international",
+          "q": "How long does an international wire take?",
+          "a": [
+            "Longer than a domestic one. Extra banks, currency conversion, and compliance checks all add time.",
+            "Citi, for example, says some international wires can take up to five business days. That's one bank's figure, not a rule. Time zones and local holidays can stretch it too."
+          ]
+        },
+        {
+          "id": "wire-safe",
+          "q": "Are wire transfers safe?",
+          "a": [
+            "The payment system itself is secure. The bigger risk is paying a scammer, since wires are so hard to undo.",
+            "Fraud often starts with a fake email that changes the payment details. Confirm wire instructions by phone, using a number you already trust."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ach",
+      "name": "ACH Payments",
+      "icon": "repeat",
+      "intro": "The network behind payroll, bills, and most bank transfers.",
+      "questions": [
+        {
+          "id": "what-ach",
+          "q": "What is an ACH transfer?",
+          "a": [
+            "An ACH transfer is an electronic payment through the Automated Clearing House Network. It handles payroll, bills, and transfers between bank accounts.",
+            "Nacha says the network reaches every U.S. bank and credit union account. The Federal Reserve and The Clearing House are its two operators."
+          ]
+        },
+        {
+          "id": "ach-speed",
+          "q": "How long does an ACH transfer take?",
+          "a": [
+            "Most settle within one banking day. Nacha estimates 80% of ACH payments settle in one banking day or less.",
+            "ACH credits can settle the same day, the next banking day, or in two banking days. Debits usually settle the same or next banking day."
+          ]
+        },
+        {
+          "id": "same-day-ach",
+          "q": "What is Same Day ACH?",
+          "a": [
+            "Same Day ACH lets eligible payments settle on the day they're sent. It's growing fast.",
+            "Nacha reported 470.4 million Same Day ACH payments in the third quarter of 2026, worth $1.3 trillion. That was up 36.7% from a year earlier."
+          ]
+        },
+        {
+          "id": "ach-availability",
+          "q": "When does ACH money become available?",
+          "a": [
+            "A Nacha rule effective September 18, 2026 sets the deadline for regular ACH credits. Banks must release the money by 9:00 a.m. local time on settlement day.",
+            "That's earlier than the old rule allowed for some payments. Same Day ACH has its own availability rules."
+          ]
+        },
+        {
+          "id": "ach-weekend",
+          "q": "Do ACH transfers happen on weekends?",
+          "a": [
+            "No. ACH settles on banking days. A payment sent on a Saturday waits for the next one.",
+            "That's why a Friday evening transfer often lands on Monday or Tuesday."
+          ]
+        },
+        {
+          "id": "ach-reverse",
+          "q": "Can an ACH payment be reversed?",
+          "a": [
+            "Sometimes. ACH rules allow returns for set reasons. Common ones are an unauthorized debit, a closed account, or insufficient funds.",
+            "That's not the same as cancelling any payment you like. Consumer accounts also get error protections under Regulation E."
+          ]
+        },
+        {
+          "id": "ach-vs-wire",
+          "q": "What is the difference between ACH and a wire transfer?",
+          "a": [
+            "ACH is cheaper and works well for routine payments. Wires are faster and final, which suits large or urgent ones.",
+            {
+              "table": {
+                "head": [
+                  "Feature",
+                  "ACH",
+                  "Wire"
+                ],
+                "rows": [
+                  [
+                    "Processing",
+                    "Mostly in batches",
+                    "One payment at a time"
+                  ],
+                  [
+                    "Typical speed",
+                    "Same day to two banking days",
+                    "Often same business day"
+                  ],
+                  [
+                    "Cost to you",
+                    "Often free",
+                    "Often a bank fee"
+                  ],
+                  [
+                    "Reversals",
+                    "Returns allowed for set reasons",
+                    "Final once processed"
+                  ]
+                ]
+              }
+            },
+            "The full comparison of [ACH vs wire transfer](/payments/ach-vs-wire-transfer/) adds limits and fraud risks."
+          ]
+        },
+        {
+          "id": "ach-usage",
+          "q": "How common are ACH payments?",
+          "a": [
+            "Very common. Nacha says 93% of American workers get paid through the ACH Network. So do 99% of Social Security payments.",
+            "In the third quarter of 2026 alone, the network handled 9.3 billion payments worth $25.6 trillion."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "international",
+      "name": "Sending Money Abroad",
+      "icon": "credit-card",
+      "intro": "Remittance rights, fees, and what to check before you send.",
+      "questions": [
+        {
+          "id": "what-remittance",
+          "q": "What is a remittance transfer?",
+          "a": [
+            "A remittance transfer is an electronic payment a consumer sends to someone in another country. Banks, credit unions, and money transfer companies all offer them.",
+            "Federal rules give you specific rights when you send one. They cover disclosures, cancellations, and errors."
+          ]
+        },
+        {
+          "id": "remit-cancel",
+          "q": "Can I cancel an international money transfer?",
+          "a": [
+            "Usually, if you act fast. The CFPB says you have up to 30 minutes after paying to cancel at no charge.",
+            "That window closes if the money has already been picked up or deposited. For transfers scheduled ahead, you can cancel up to three business days before."
+          ]
+        },
+        {
+          "id": "remit-disclosures",
+          "q": "What must a provider tell me before I send money abroad?",
+          "a": [
+            "The provider has to disclose the key costs and timing up front. That includes these details:",
+            {
+              "list": [
+                "**Fees and taxes:** what you'll pay to send.",
+                "**Exchange rate:** the rate used for the transfer.",
+                "**Amount delivered:** what the recipient should get.",
+                "**Delivery date:** when the money will be available.",
+                "**Your rights:** how to cancel and report errors."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "remit-error",
+          "q": "What if my international transfer never arrives?",
+          "a": [
+            "Report it to the provider. The CFPB says you have 180 days from the promised delivery date to report an error.",
+            "The provider then has to investigate. In some cases, you may get a refund or have the transfer resent."
+          ]
+        },
+        {
+          "id": "amount-differs",
+          "q": "Why did the recipient get less than I sent?",
+          "a": [
+            "Fees and the exchange rate both cut into the amount. Your provider charges some fees, and other banks along the way can take a share.",
+            "Your disclosure shows the amount the recipient should receive. Compare that number across providers, not just the fee."
+          ]
+        },
+        {
+          "id": "remit-vs-wire",
+          "q": "Is a remittance the same as a wire transfer?",
+          "a": [
+            "Not exactly. A wire is a way of moving money between banks. A remittance is any consumer transfer abroad, however it's sent.",
+            "So an international wire you send as a consumer can count as a remittance. That's when the CFPB's cancellation and error rights apply."
+          ]
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "title": "What Is a Wire Transfer?",
+      "url": "/payments/what-is-a-wire-transfer/",
+      "icon": "building-bank"
+    },
+    {
+      "title": "ACH vs Wire Transfer",
+      "url": "/payments/ach-vs-wire-transfer/",
+      "icon": "repeat"
+    },
+    {
+      "title": "How Long Does a Wire Transfer Take?",
+      "url": "/payments/how-long-does-a-wire-transfer-take/",
+      "icon": "calendar"
+    },
+    {
+      "title": "PayPal Statistics",
+      "url": "/payments/paypal-statistics/",
+      "icon": "chart-bar"
+    }
+  ],
+  "sources": [
+    [
+      "Federal Reserve: About the Fedwire Funds Service",
+      "https://www.federalreserve.gov/paymentsystems/fedfunds_about.htm"
+    ],
+    [
+      "Federal Reserve Financial Services: Fedwire Operating Hours",
+      "https://www.frbservices.org/resources/financial-services/wires/fedwire-funds-service-national-settlement-service-operating-hours/"
+    ],
+    [
+      "Federal Reserve: Expanded Fedwire Operating Days (October 9, 2025)",
+      "https://www.federalreserve.gov/newsevents/pressreleases/other20251009a.htm"
+    ],
+    [
+      "Nacha: How ACH Payments Work",
+      "https://www.nacha.org/content/how-ach-payments-work"
+    ],
+    [
+      "Nacha: ACH Payments Fact Sheet",
+      "https://www.nacha.org/content/ach-payments-fact-sheet"
+    ],
+    [
+      "Nacha: Q3 2026 ACH Network Results",
+      "https://www.nacha.org/news/same-day-ach-growth-propels-ach-network-forward-third-quarter-2026"
+    ],
+    [
+      "Nacha: Funds Availability for Non-Same Day Credits",
+      "https://www.nacha.org/rules/funds-availability-requirements-non-same-day-credit-entries"
+    ],
+    [
+      "CFPB: Remittance Transfer Rights",
+      "https://www.consumerfinance.gov/ask-cfpb/what-is-a-remittance-transfer-and-what-are-my-rights-en-1161/"
+    ],
+    [
+      "CFPB: Cancelling an International Money Transfer",
+      "https://www.consumerfinance.gov/ask-cfpb/can-i-cancel-an-international-money-transfer-en-1737/"
+    ],
+    [
+      "Citi: How Long Does a Wire Transfer Take?",
+      "https://www.citi.com/banking/personal-banking-guide/basic-finance/how-long-does-a-wire-transfer-take"
+    ]
+  ]
+}
