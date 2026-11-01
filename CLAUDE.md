@@ -51,6 +51,7 @@ When the owner supplies blogs or articles, treat them as researched and fact-che
 - Canonical URL and `og:url` must exactly equal the production URL plus approved slug.
 - Published articles require truthful `published` and `modified` ISO dates, Article schema, and a verified author.
 - Every informative image requires a tracked asset, local file, dimensions, rights status, and useful alt text.
+- Articles and blogs that list, review, compare, or highlight a tool, app, or platform include a real screenshot of each product covered, with a caption naming the product and capture date (owner rule, 2026-11-01). Follow `docs/CONTENT-WORKFLOW.md` ("Tool and app screenshots"): real public screens or owner-supplied captures only, no personal data, no bypassing logins or bot protection, and every screenshot registered in `data/assets.json`.
 - Never commit secrets or generate SSH host keys dynamically. Use the pinned `SSH_KNOWN_HOSTS` environment secret.
 - Do not edit `dist/`; it is deterministic output. Do not deploy around staging, checks, or production approval.
 - Staging is always `noindex`: the page meta tag, the `X-Robots-Tag` header, and the staging target check all enforce it. Do not touch production; it deploys only from `main` after human approval.
