@@ -34,3 +34,28 @@ Owner rule of 2026-10-20: when the owner sends finished posts, the AI assistant 
 6. **Research record:** Ubersuggest data, five competitors, and every source with its check date. The record moves to `verified` only after this pass.
 7. **Images:** each image is registered in `data/assets.json` with dimensions, rights and alt text.
 8. **Report to the owner:** a QA report in `docs/qa/` that lists every correction, every removed claim, keyword or schedule issues, and check results. The owner signs off; only then does the post leave draft and go into a PR to `staging`.
+
+## Tool and app screenshots
+
+Owner rule of 2026-11-01: any article or blog that reviews, lists, compares, or highlights a tool, app, platform, or website includes a real screenshot of each product it covers. This covers listicles ("best stock screeners"), single-product guides ("Morningstar stock screener"), and comparisons of one or two named tools.
+
+1. **One screenshot per product,** placed in that product's section, right after its heading and first paragraph. A comparison of two tools shows both.
+2. **What to capture:**
+   - The product's real public interface: its homepage, product page, or a public screen such as a screener page.
+   - Use the owner's own screenshot when the owner supplies one, for example a logged-in app view.
+   - Never use stock photos, mockups, or AI-generated images in place of the real product.
+3. **Capture rules:**
+   - Capture at 1600 px wide (desktop) and also export an 800 px version.
+   - Crop to the part the text discusses.
+   - Never show personal data, account numbers, balances, or anyone's login. Blur them if they appear.
+   - Do not bypass logins, paywalls, or bot protection to get a screenshot. If a page cannot be captured, ask the owner for one.
+4. **Caption and alt text:**
+   - The caption names the product and the capture date, for example: "Screenshot: Zacks Stock Screener, captured October 17, 2026."
+   - The alt text describes what the screen shows.
+   - Screenshots are informative images, so the alt text must be specific.
+5. **Register every screenshot in `data/assets.json`:**
+   - path, dimensions, and alt guidance
+   - `rights_status: approved`
+   - `rights_source` noting it is an editorial screenshot of the named product, its URL, and the capture date (or "supplied by the site owner")
+6. **Keep it current.** Interfaces change. When a post is updated, recapture any screenshot that no longer matches the product, and update the caption date.
+7. **QA:** the final QA layer checks that every product named as a pick or a highlight has its screenshot, caption, and registered asset before sign-off.
