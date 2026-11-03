@@ -66,6 +66,8 @@ Many investors check markets on a phone but research on a larger screen. An app 
 
 StockAnalysis.com offers mobile apps for iOS and Android, and on Windows the website can be installed as an app through the Microsoft Store.
 
+![Stock Analysis stock screener listing 5,607 US stocks with market cap, price, percent change, industry, volume and P/E ratio columns](/assets/images/screenshots/stockanalysis-screenshot-1600.jpg "Screenshot: Stock Analysis, captured November 3, 2026.")
+
 According to the [Stock Analysis Pro page](https://stockanalysis.com/pro/), Pro gives access to data on more than 130,000 global stocks and funds, 10 to 40 years of financial history, more than 300 indicators in its data tables, saved screeners, up to 100 active alerts, ETF holdings, and one daily download to Excel, CSV, or Google Sheets.
 
 ### Pricing and Value
@@ -127,6 +129,8 @@ Yahoo Finance is broad rather than deep. Investors who need long financial histo
 ## Simply Wall St Is Best for Visual Company Analysis
 
 Simply Wall St uses visual reports to organize a company's valuation, growth, past performance, financial health, dividends, and risks into a single snapshot.
+
+![Simply Wall St homepage with a product preview showing a company snowflake chart and a revenue breakdown for NVIDIA](/assets/images/screenshots/simplywallst-screenshot-1600.jpg "Screenshot: Simply Wall St, captured November 3, 2026.")
 
 According to its [plans page](https://simplywall.st/plans), the platform has 7 million investors and covers more than 120,000 stocks across more than 90 markets. A free plan is available, with paid plans adding more reports and portfolio features.
 
