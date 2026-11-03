@@ -1158,5 +1158,165 @@
     "rights_status": "approved",
     "rights_source": "Editorial screenshot of Zacks public page https://www.zacks.com/screening/stock-screener, captured 2026-11-01",
     "alt_guidance": "Zacks stock screener with a category list on the left and Zacks Rank, Style Score and other filters on the right"
+  },
+  {
+    "path": "/assets/images/screenshots/finviz-screenshot-1600.jpg",
+    "title": "Screenshot of Finviz",
+    "use": "Inline product screenshot in tool posts",
+    "width": 1600,
+    "height": 675,
+    "rights_status": "approved",
+    "rights_source": "Owner-supplied screenshot of Finviz public page https://finviz.com/screener.ashx, captured 2026-11-03",
+    "alt_guidance": "Finviz stock screener with descriptive filters for exchange, sector, market cap and dividend yield above a table of US stocks"
+  },
+  {
+    "path": "/assets/images/screenshots/finviz-screenshot-800.jpg",
+    "title": "Screenshot of Finviz",
+    "use": "Inline product screenshot in tool posts",
+    "width": 800,
+    "height": 337,
+    "rights_status": "approved",
+    "rights_source": "Owner-supplied screenshot of Finviz public page https://finviz.com/screener.ashx, captured 2026-11-03",
+    "alt_guidance": "Finviz stock screener with descriptive filters for exchange, sector, market cap and dividend yield above a table of US stocks"
+  },
+  {
+    "path": "/assets/images/screenshots/stockanalysis-screenshot-1600.jpg",
+    "title": "Screenshot of Stock Analysis",
+    "use": "Inline product screenshot in tool posts",
+    "width": 1600,
+    "height": 960,
+    "rights_status": "approved",
+    "rights_source": "Owner-supplied screenshot of Stock Analysis public page https://stockanalysis.com/stocks/screener/, captured 2026-11-03",
+    "alt_guidance": "Stock Analysis stock screener listing 5,607 US stocks with market cap, price, percent change, industry, volume and P/E ratio columns"
+  },
+  {
+    "path": "/assets/images/screenshots/stockanalysis-screenshot-800.jpg",
+    "title": "Screenshot of Stock Analysis",
+    "use": "Inline product screenshot in tool posts",
+    "width": 800,
+    "height": 480,
+    "rights_status": "approved",
+    "rights_source": "Owner-supplied screenshot of Stock Analysis public page https://stockanalysis.com/stocks/screener/, captured 2026-11-03",
+    "alt_guidance": "Stock Analysis stock screener listing 5,607 US stocks with market cap, price, percent change, industry, volume and P/E ratio columns"
+  },
+  {
+    "path": "/assets/images/screenshots/simplywallst-screenshot-1600.jpg",
+    "title": "Screenshot of Simply Wall St",
+    "use": "Inline product screenshot in tool posts",
+    "width": 1600,
+    "height": 676,
+    "rights_status": "approved",
+    "rights_source": "Owner-supplied screenshot of Simply Wall St public page https://simplywall.st/, captured 2026-11-03",
+    "alt_guidance": "Simply Wall St homepage with a product preview showing a company snowflake chart and a revenue breakdown for NVIDIA"
+  },
+  {
+    "path": "/assets/images/screenshots/simplywallst-screenshot-800.jpg",
+    "title": "Screenshot of Simply Wall St",
+    "use": "Inline product screenshot in tool posts",
+    "width": 800,
+    "height": 338,
+    "rights_status": "approved",
+    "rights_source": "Owner-supplied screenshot of Simply Wall St public page https://simplywall.st/, captured 2026-11-03",
+    "alt_guidance": "Simply Wall St homepage with a product preview showing a company snowflake chart and a revenue breakdown for NVIDIA"
+  },
+  {
+    "path": "/assets/images/screenshots/coingecko-screenshot-1600.jpg",
+    "title": "Screenshot of CoinGecko",
+    "use": "Inline product screenshot in tool posts",
+    "width": 1600,
+    "height": 472,
+    "rights_status": "approved",
+    "rights_source": "Owner-supplied screenshot of CoinGecko public page https://www.coingecko.com/, captured 2026-11-03",
+    "alt_guidance": "CoinGecko cryptocurrency prices page showing total market cap, a 24-hour market cap chart, trending coins and top gainers"
+  },
+  {
+    "path": "/assets/images/screenshots/coingecko-screenshot-800.jpg",
+    "title": "Screenshot of CoinGecko",
+    "use": "Inline product screenshot in tool posts",
+    "width": 800,
+    "height": 236,
+    "rights_status": "approved",
+    "rights_source": "Owner-supplied screenshot of CoinGecko public page https://www.coingecko.com/, captured 2026-11-03",
+    "alt_guidance": "CoinGecko cryptocurrency prices page showing total market cap, a 24-hour market cap chart, trending coins and top gainers"
+  },
+  {
+    "path": "/assets/images/screenshots/etherscan-screenshot-1600.jpg",
+    "title": "Screenshot of Etherscan",
+    "use": "Inline product screenshot in tool posts",
+    "width": 1600,
+    "height": 966,
+    "rights_status": "approved",
+    "rights_source": "Owner-supplied screenshot of Etherscan public page https://etherscan.io/, captured 2026-11-03",
+    "alt_guidance": "Etherscan home page with the Ethereum search bar, ether price, transaction count, gas price and lists of the latest blocks and transactions"
+  },
+  {
+    "path": "/assets/images/screenshots/etherscan-screenshot-800.jpg",
+    "title": "Screenshot of Etherscan",
+    "use": "Inline product screenshot in tool posts",
+    "width": 800,
+    "height": 483,
+    "rights_status": "approved",
+    "rights_source": "Owner-supplied screenshot of Etherscan public page https://etherscan.io/, captured 2026-11-03",
+    "alt_guidance": "Etherscan home page with the Ethereum search bar, ether price, transaction count, gas price and lists of the latest blocks and transactions"
+  },
+  {
+    "path": "/assets/images/screenshots/dune-screenshot-1600.jpg",
+    "title": "Screenshot of Dune",
+    "use": "Inline product screenshot in tool posts",
+    "width": 1600,
+    "height": 796,
+    "rights_status": "approved",
+    "rights_source": "Owner-supplied screenshot of Dune public page https://dune.com/, captured 2026-11-03",
+    "alt_guidance": "Dune datasets page offering structured blockchain data for stablecoins, prediction markets, real-world assets and crypto tokens"
+  },
+  {
+    "path": "/assets/images/screenshots/dune-screenshot-800.jpg",
+    "title": "Screenshot of Dune",
+    "use": "Inline product screenshot in tool posts",
+    "width": 800,
+    "height": 398,
+    "rights_status": "approved",
+    "rights_source": "Owner-supplied screenshot of Dune public page https://dune.com/, captured 2026-11-03",
+    "alt_guidance": "Dune datasets page offering structured blockchain data for stablecoins, prediction markets, real-world assets and crypto tokens"
+  },
+  {
+    "path": "/assets/images/screenshots/defillama-screenshot-1600.jpg",
+    "title": "Screenshot of DefiLlama",
+    "use": "Inline product screenshot in tool posts",
+    "width": 1600,
+    "height": 756,
+    "rights_status": "approved",
+    "rights_source": "Owner-supplied screenshot of DefiLlama public page https://defillama.com/, captured 2026-11-03",
+    "alt_guidance": "DefiLlama dashboard showing total value locked in DeFi, a TVL chart from 2018 to 2026, and DEX and perpetuals volume"
+  },
+  {
+    "path": "/assets/images/screenshots/defillama-screenshot-800.jpg",
+    "title": "Screenshot of DefiLlama",
+    "use": "Inline product screenshot in tool posts",
+    "width": 800,
+    "height": 378,
+    "rights_status": "approved",
+    "rights_source": "Owner-supplied screenshot of DefiLlama public page https://defillama.com/, captured 2026-11-03",
+    "alt_guidance": "DefiLlama dashboard showing total value locked in DeFi, a TVL chart from 2018 to 2026, and DEX and perpetuals volume"
+  },
+  {
+    "path": "/assets/images/screenshots/arkham-screenshot-1600.jpg",
+    "title": "Screenshot of Arkham",
+    "use": "Inline product screenshot in tool posts",
+    "width": 1600,
+    "height": 763,
+    "rights_status": "approved",
+    "rights_source": "Owner-supplied screenshot of Arkham public page https://arkm.com/, captured 2026-11-03",
+    "alt_guidance": "Arkham homepage with a preview of its on-chain tracing tool linking wallets and listing token transfers"
+  },
+  {
+    "path": "/assets/images/screenshots/arkham-screenshot-800.jpg",
+    "title": "Screenshot of Arkham",
+    "use": "Inline product screenshot in tool posts",
+    "width": 800,
+    "height": 381,
+    "rights_status": "approved",
+    "rights_source": "Owner-supplied screenshot of Arkham public page https://arkm.com/, captured 2026-11-03",
+    "alt_guidance": "Arkham homepage with a preview of its on-chain tracing tool linking wallets and listing token transfers"
   }
 ]
