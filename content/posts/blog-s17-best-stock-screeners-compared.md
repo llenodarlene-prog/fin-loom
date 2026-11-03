@@ -68,6 +68,8 @@ The price range is wide because these tools are not identical substitutes. A low
 
 Finviz is built around speed. Its screener combines descriptive, fundamental, ownership, performance, and technical filters in a compact interface that makes it easy to move through a large U.S. equity universe.
 
+![Finviz stock screener with descriptive filters for exchange, sector, market cap and dividend yield above a table of US stocks](/assets/images/screenshots/finviz-screenshot-1600.jpg "Screenshot: Finviz, captured November 3, 2026.")
+
 The free version already supports broad stock screening, and it features in the guide to the [best stock screener for free](/markets-stocks/best-free-stock-screeners/). Finviz Elite adds real-time market data, more advanced filters, unlimited saved presets, alerts, exports, eight years of financial statements, and expanded charting.
 
 According to [Finviz's current Elite pricing](https://finviz.com/elite), the subscription costs **$39.50 per month** or **$299.50 per year**, which works out to about $24.96 per month on annual billing.

@@ -69,6 +69,8 @@ A screen is only the first step. The best stock screener for free makes it easy 
 
 Finviz is designed around rapid filtering. Its screener combines descriptive, fundamental, and technical criteria and updates results as filters change.
 
+![Finviz stock screener with descriptive filters for exchange, sector, market cap and dividend yield above a table of US stocks](/assets/images/screenshots/finviz-screenshot-1600.jpg "Screenshot: Finviz, captured November 3, 2026.")
+
 The free version covers the core workflow without a subscription. According to the [Finviz screener documentation](https://elite.finviz.com/help/screener), its stock universe covers companies listed on the NASDAQ, the New York Stock Exchange, and the American Stock Exchange.
 
 ### What the Free Version Does Well
@@ -130,6 +132,8 @@ The free plan limits chart layouts, indicators per chart, and alerts. According 
 ## Stock Analysis Offers a Strong Free Fundamental Starting Point
 
 StockAnalysis.com covers stocks, ETFs, financial statements, forecasts, analyst data, corporate actions, and screening in a clean, data-heavy interface.
+
+![Stock Analysis stock screener listing 5,607 US stocks with market cap, price, percent change, industry, volume and P/E ratio columns](/assets/images/screenshots/stockanalysis-screenshot-1600.jpg "Screenshot: Stock Analysis, captured November 3, 2026.")
 
 Its paid Pro plan costs $79 per year, or $9.99 per month. Pro expands access to 10 to 40 years of financial history, saved screeners, up to 100 active alerts, one download per day to Excel, CSV, or Google Sheets, and more than 300 indicators in its data tables.
 

@@ -83,6 +83,8 @@ Broad crypto market platforms are useful because they standardize a large amount
 - Contract addresses
 - Market rankings
 
+![CoinGecko cryptocurrency prices page showing total market cap, a 24-hour market cap chart, trending coins and top gainers](/assets/images/screenshots/coingecko-screenshot-1600.jpg "Screenshot: CoinGecko, captured November 3, 2026.")
+
 This is the first layer of crypto market research. It establishes what the asset is, how large its market appears to be, and how actively it trades before you move into deeper blockchain evidence.
 
 The limitation is that each headline number has assumptions. Market capitalization, for example, is commonly calculated as price multiplied by circulating supply. If circulating supply is uncertain or inconsistently defined, the resulting market cap inherits that uncertainty.
@@ -105,6 +107,8 @@ Explorers such as Etherscan expose blockchain activity more directly. They can h
 
 [Etherscan’s current documentation](https://docs.etherscan.io/) describes the service as a block explorer whose API serves the same on-chain data across more than 60 EVM-compatible chains. Its data can be especially useful when a dashboard makes a claim that can be traced back to public transactions.
 
+![Etherscan home page with the Ethereum search bar, ether price, transaction count, gas price and lists of the latest blocks and transactions](/assets/images/screenshots/etherscan-screenshot-1600.jpg "Screenshot: Etherscan, captured November 3, 2026.")
+
 Suppose a project says a treasury transferred tokens to a market maker. A block explorer can help confirm whether the transaction occurred, when it occurred, which addresses were involved, and how much moved. What it cannot automatically tell you is why.
 
 An address is not a business explanation. Transaction evidence must still be interpreted.
@@ -126,6 +130,8 @@ Skipping this step can produce an impressively detailed analysis of the wrong to
 ## DeFi Dashboards Require Metric Discipline
 
 DeFi analytics often introduce metrics that sound familiar but have specific definitions. [DefiLlama’s data definitions](https://defillama.com/data-definitions) define protocol TVL as the value of coins held in a protocol’s smart contracts.
+
+![DefiLlama dashboard showing total value locked in DeFi, a TVL chart from 2018 to 2026, and DEX and perpetuals volume](/assets/images/screenshots/defillama-screenshot-1600.jpg "Screenshot: DefiLlama, captured November 3, 2026.")
 
 It defines fees as the total fees users pay when using the protocol. Revenue is the portion of those fees the protocol keeps for itself, such as amounts going to a treasury, team, or token holders rather than liquidity providers.
 
@@ -156,6 +162,8 @@ Prebuilt dashboards are convenient. Custom queries are more powerful when the ex
 
 DuneSQL is designed for blockchain analysis and supports querying decoded blockchain data using SQL. Dune also makes decoded smart-contract calls and event logs available in structured tables for supported contracts.
 
+![Dune datasets page offering structured blockchain data for stablecoins, prediction markets, real-world assets and crypto tokens](/assets/images/screenshots/dune-screenshot-1600.jpg "Screenshot: Dune, captured November 3, 2026.")
+
 That opens the door to questions such as how many unique wallets used a contract each month, what percentage of volume came from the top 20 traders, how many wallets returned after their first interaction, how much of a token moved through a particular contract, and how did behavior change before and after a governance proposal. The strength of SQL analytics is reproducibility.
 
 The weakness is that a query can be technically valid and analytically misleading. Researchers must define:
@@ -181,6 +189,8 @@ For research, that means “transaction count” can often be replaced with a mo
 Raw blockchain data is pseudonymous. Wallet-intelligence platforms attempt to connect addresses with known or inferred entities.
 
 [Arkham’s documentation on entities, labels, and tags](https://info.arkm.com/research/a-guide-to-arkham-intels-industry-leading-tagging-system) describes a system that groups or identifies on-chain addresses. Its platform can show holdings, transfers, counterparties, and wallet behavior associated with labeled entities. This can help answer questions such as:
+
+![Arkham homepage with a preview of its on-chain tracing tool linking wallets and listing token transfers](/assets/images/screenshots/arkham-screenshot-1600.jpg "Screenshot: Arkham, captured November 3, 2026.")
 
 - Are exchange reserves changing?
 - Which wallets are linked to a fund or company?
