@@ -106,6 +106,8 @@ The depth can be unnecessary for a casual investor whose main need is finding U.
 
 Morningstar Investor is strongest when screening is only the first stage of a long-term investment process. Its platform combines security screening with analyst ratings, research, fair-value thinking, and portfolio tools.
 
+![Morningstar Investor screener showing a Large-Growth Medalist fund screen with Medalist Ratings, star ratings, category and expense ratio columns](/assets/images/screenshots/morningstar-screenshot-1600.jpg "Screenshot: Morningstar Investor, captured November 4, 2026.")
+
 Morningstar Investor lists annual pricing at **$249**, equivalent to about $20.75 per month, or $34.95 on monthly billing.
 
 ### Where Morningstar Has an Edge

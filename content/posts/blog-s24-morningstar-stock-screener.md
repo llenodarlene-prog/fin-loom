@@ -42,6 +42,8 @@ Morningstar Investor costs $249 per year or $34.95 per month, according to Morni
 
 According to [Morningstar's screener page](https://www.morningstar.com/mm/investor/etf-fund-stock-screener), the Investor screener searches thousands of securities and indexes, including global investments, filtered by the data points each user chooses. The same page covers stocks, ETFs, and mutual funds, and lets users compare up to five securities side by side.
 
+![Morningstar Investor screener showing a Large-Growth Medalist fund screen with Medalist Ratings, star ratings, category and expense ratio columns](/assets/images/screenshots/morningstar-screenshot-1600.jpg "Screenshot: Morningstar Investor, captured November 4, 2026.")
+
 Morningstar's overview page says users can start from pre-filtered investment lists or create their own screen using more than 200 unique data points. That gives newer users a starting framework and lets experienced investors build exactly the screen they want.
 
 The range of security types is useful because each one needs a different framework. A fund screen may focus on fees, risk, category, and performance, while a stock screen may focus on valuation, profitability, financial health, and analyst ratings. The Morningstar stock screener handles both within one subscription.
