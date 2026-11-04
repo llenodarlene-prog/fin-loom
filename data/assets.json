@@ -1318,5 +1318,25 @@
     "rights_status": "approved",
     "rights_source": "Owner-supplied screenshot of Arkham public page https://arkm.com/, captured 2026-11-03",
     "alt_guidance": "Arkham homepage with a preview of its on-chain tracing tool linking wallets and listing token transfers"
+  },
+  {
+    "path": "/assets/images/screenshots/morningstar-screenshot-1600.jpg",
+    "title": "Screenshot of Morningstar Investor",
+    "use": "Inline product screenshot in tool posts",
+    "width": 1600,
+    "height": 1066,
+    "rights_status": "approved",
+    "rights_source": "Owner-supplied screenshot of Morningstar Investor screener https://www.morningstar.com/, captured 2026-11-04",
+    "alt_guidance": "Morningstar Investor screener showing a Large-Growth Medalist fund screen with Medalist Ratings, star ratings, category and expense ratio columns"
+  },
+  {
+    "path": "/assets/images/screenshots/morningstar-screenshot-800.jpg",
+    "title": "Screenshot of Morningstar Investor",
+    "use": "Inline product screenshot in tool posts",
+    "width": 800,
+    "height": 533,
+    "rights_status": "approved",
+    "rights_source": "Owner-supplied screenshot of Morningstar Investor screener https://www.morningstar.com/, captured 2026-11-04",
+    "alt_guidance": "Morningstar Investor screener showing a Large-Growth Medalist fund screen with Medalist Ratings, star ratings, category and expense ratio columns"
   }
 ]
