@@ -13,7 +13,7 @@ cluster: Money & Banking
 approved_internal_links: /money-banking/apy-meaning/; /money-banking/saving-vs-investing/; /money-banking/savings-interest-calculator/
 research_record: content/research/blog-s41.json
 image: /assets/images/posts/inflation-rate-by-year/grocery-basket-capitol-inflation-chart-1600.jpg
-image_alt: A red grocery basket of fruit, vegetables, bread, and milk beside a calculator and a laptop showing a rising price chart, with the U.S. Capitol in the background
+image_alt: A grocery basket beside a calculator and a laptop with a rising price chart, the U.S. Capitol behind them
 link_placement_site: 
 charts_pending: 0
 ai_exceptions: 
