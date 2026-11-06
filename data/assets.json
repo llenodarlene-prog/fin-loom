@@ -1338,5 +1338,265 @@
     "rights_status": "approved",
     "rights_source": "Owner-supplied screenshot of Morningstar Investor screener https://www.morningstar.com/, captured 2026-11-04",
     "alt_guidance": "Morningstar Investor screener showing a Large-Growth Medalist fund screen with Medalist Ratings, star ratings, category and expense ratio columns"
+  },
+  {
+    "path": "/assets/images/posts/best-budgeting-apps/ynab-official-image.png",
+    "title": "YNAB official product image",
+    "use": "Inline product image in /money-banking/best-budgeting-apps/",
+    "width": 573,
+    "height": 420,
+    "rights_status": "approved",
+    "rights_source": "Official YNAB product image from its public website https://www.ynab.com/, supplied by the site owner 2026-11-05 for editorial use; captioned as an official image, not a FinLoom capture",
+    "alt_guidance": "YNAB budget screen on desktop with category rows for bills and loan payments, beside two phone screens showing spending and a home view"
+  },
+  {
+    "path": "/assets/images/posts/best-budgeting-apps/monarch-official-image.png",
+    "title": "Monarch official product image",
+    "use": "Inline product image in /money-banking/best-budgeting-apps/",
+    "width": 705,
+    "height": 492,
+    "rights_status": "approved",
+    "rights_source": "Official Monarch product image from its public website https://www.monarch.com/, supplied by the site owner 2026-11-05 for editorial use; captioned as an official image, not a FinLoom capture",
+    "alt_guidance": "Monarch accounts dashboard showing a net worth chart, cash, credit card and investment balances, and an asset and liability summary"
+  },
+  {
+    "path": "/assets/images/posts/best-budgeting-apps/quicken-simplifi-official-image.png",
+    "title": "Quicken Simplifi official product image",
+    "use": "Inline product image in /money-banking/best-budgeting-apps/",
+    "width": 1120,
+    "height": 630,
+    "rights_status": "approved",
+    "rights_source": "Official Quicken Simplifi product image from its public website https://www.quicken.com/simplifi, supplied by the site owner 2026-11-05 for editorial use; captioned as an official image, not a FinLoom capture",
+    "alt_guidance": "Quicken Simplifi Spending Plan on a laptop and phone, showing income, bills, planned spending and the amount left this month"
+  },
+  {
+    "path": "/assets/images/posts/best-budgeting-apps/rocket-money-official-image.png",
+    "title": "Rocket Money official product image",
+    "use": "Inline product image in /money-banking/best-budgeting-apps/",
+    "width": 466,
+    "height": 245,
+    "rights_status": "approved",
+    "rights_source": "Official Rocket Money product image from its public website https://www.rocketmoney.com/, supplied by the site owner 2026-11-05 for editorial use; captioned as an official image, not a FinLoom capture",
+    "alt_guidance": "Rocket Money phone screen showing current spending this month against a budget line"
+  },
+  {
+    "path": "/assets/images/posts/best-budgeting-apps/goodbudget-official-image.png",
+    "title": "Goodbudget official product image",
+    "use": "Inline product image in /money-banking/best-budgeting-apps/",
+    "width": 500,
+    "height": 859,
+    "rights_status": "approved",
+    "rights_source": "Official Goodbudget product image from its public website https://goodbudget.com/, supplied by the site owner 2026-11-05 for editorial use; captioned as an official image, not a FinLoom capture",
+    "alt_guidance": "Goodbudget phone screen listing monthly envelopes such as groceries, gas, rent and utilities with spent and remaining amounts"
+  },
+  {
+    "path": "/assets/images/posts/best-budgeting-apps/pocketguard-official-image.png",
+    "title": "PocketGuard official product image",
+    "use": "Inline product image in /money-banking/best-budgeting-apps/",
+    "width": 570,
+    "height": 490,
+    "rights_status": "approved",
+    "rights_source": "Official PocketGuard product image from its public website https://pocketguard.com/, supplied by the site owner 2026-11-05 for editorial use; captioned as an official image, not a FinLoom capture",
+    "alt_guidance": "PocketGuard monthly plan card listing budget amounts for electronics, auto and transport, groceries and goals"
+  },
+  {
+    "path": "/assets/images/posts/best-budgeting-apps/empower-official-image.png",
+    "title": "Empower Personal Dashboard official product image",
+    "use": "Inline product image in /money-banking/best-budgeting-apps/",
+    "width": 1253,
+    "height": 835,
+    "rights_status": "approved",
+    "rights_source": "Official Empower Personal Dashboard product image from its public website https://www.empower.com/, supplied by the site owner 2026-11-05 for editorial use; captioned as an official image, not a FinLoom capture",
+    "alt_guidance": "Empower Personal Dashboard showing net worth, linked cash and investment accounts, a monthly budget ring and cash flow bars"
+  },
+  {
+    "path": "/assets/images/posts/best-investment-apps/sofi-invest-official-image.png",
+    "title": "SoFi Invest official product image",
+    "use": "Inline product image in /investing/best-investment-apps/",
+    "width": 320,
+    "height": 499,
+    "rights_status": "approved",
+    "rights_source": "Official SoFi Invest product image from its public website https://www.sofi.com/invest/, supplied by the site owner 2026-11-05 for editorial use; captioned as an official image, not a FinLoom capture",
+    "alt_guidance": "SoFi Invest phone screen showing a portfolio balance chart and brokerage and Roth IRA account tiles"
+  },
+  {
+    "path": "/assets/images/posts/best-investment-apps/acorns-official-image.png",
+    "title": "Acorns official product image",
+    "use": "Inline product image in /investing/best-investment-apps/",
+    "width": 550,
+    "height": 936,
+    "rights_status": "approved",
+    "rights_source": "Official Acorns product image from its public website https://www.acorns.com/, supplied by the site owner 2026-11-05 for editorial use; captioned as an official image, not a FinLoom capture",
+    "alt_guidance": "Acorns Invest screen showing an account value chart, Round-Ups and transfer buttons, and a recurring daily investment setting"
+  },
+  {
+    "path": "/assets/images/posts/best-investment-apps/betterment-official-image.png",
+    "title": "Betterment official product image",
+    "use": "Inline product image in /investing/best-investment-apps/",
+    "width": 620,
+    "height": 800,
+    "rights_status": "approved",
+    "rights_source": "Official Betterment product image from its public website https://www.betterment.com/, supplied by the site owner 2026-11-05 for editorial use; captioned as an official image, not a FinLoom capture",
+    "alt_guidance": "Betterment automated investing screen on a phone with a goal progress forecast and projected balance"
+  },
+  {
+    "path": "/assets/images/posts/best-investment-apps/public-official-image.png",
+    "title": "Public official product image",
+    "use": "Inline product image in /investing/best-investment-apps/",
+    "width": 1363,
+    "height": 563,
+    "rights_status": "approved",
+    "rights_source": "Official Public product image from its public website https://public.com/, supplied by the site owner 2026-11-05 for editorial use; captioned as an official image, not a FinLoom capture",
+    "alt_guidance": "Public active agents screen listing automated agents and the activity log for a sample QQQ agent"
+  },
+  {
+    "path": "/assets/images/posts/best-budgeting-apps/phone-tablet-budget-dashboard-1600.jpg",
+    "title": "A phone and tablet showing budget charts and spending categories on a sunny desk with a calculator, notebook and piggy bank",
+    "use": "Featured image for best-budgeting-apps",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-05 (AI-generated editorial image)",
+    "alt_guidance": "A phone and tablet showing budget charts and spending categories on a sunny desk with a calculator, notebook and piggy bank"
+  },
+  {
+    "path": "/assets/images/posts/best-budgeting-apps/phone-tablet-budget-dashboard-800.jpg",
+    "title": "A phone and tablet showing budget charts and spending categories on a sunny desk with a calculator, notebook and piggy bank",
+    "use": "Featured image for best-budgeting-apps",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-05 (AI-generated editorial image)",
+    "alt_guidance": "A phone and tablet showing budget charts and spending categories on a sunny desk with a calculator, notebook and piggy bank"
+  },
+  {
+    "path": "/assets/images/posts/best-investment-apps/phone-laptop-investment-dashboard-1600.jpg",
+    "title": "A phone on a wooden stand and a laptop showing investment charts and allocation rings on a bright desk with coins",
+    "use": "Featured image for best-investment-apps",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-05 (AI-generated editorial image)",
+    "alt_guidance": "A phone on a wooden stand and a laptop showing investment charts and allocation rings on a bright desk with coins"
+  },
+  {
+    "path": "/assets/images/posts/best-investment-apps/phone-laptop-investment-dashboard-800.jpg",
+    "title": "A phone on a wooden stand and a laptop showing investment charts and allocation rings on a bright desk with coins",
+    "use": "Featured image for best-investment-apps",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-05 (AI-generated editorial image)",
+    "alt_guidance": "A phone on a wooden stand and a laptop showing investment charts and allocation rings on a bright desk with coins"
+  },
+  {
+    "path": "/assets/images/posts/best-etfs-for-roth-ira/tablet-allocation-wooden-blocks-1600.jpg",
+    "title": "A tablet showing a pie chart and growth chart behind five wooden blocks with chart, globe, target, leaf and people icons",
+    "use": "Featured image for best-etfs-for-roth-ira",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-05 (AI-generated editorial image)",
+    "alt_guidance": "A tablet showing a pie chart and growth chart behind five wooden blocks with chart, globe, target, leaf and people icons"
+  },
+  {
+    "path": "/assets/images/posts/best-etfs-for-roth-ira/tablet-allocation-wooden-blocks-800.jpg",
+    "title": "A tablet showing a pie chart and growth chart behind five wooden blocks with chart, globe, target, leaf and people icons",
+    "use": "Featured image for best-etfs-for-roth-ira",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-05 (AI-generated editorial image)",
+    "alt_guidance": "A tablet showing a pie chart and growth chart behind five wooden blocks with chart, globe, target, leaf and people icons"
+  },
+  {
+    "path": "/assets/images/posts/how-to-calculate-earnings-per-share/laptop-growth-chart-calculator-1600.jpg",
+    "title": "A laptop with a rising bar chart beside a calculator, printed financial reports and a piggy bank on a sunny desk",
+    "use": "Featured image for how-to-calculate-earnings-per-share",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-05 (AI-generated editorial image)",
+    "alt_guidance": "A laptop with a rising bar chart beside a calculator, printed financial reports and a piggy bank on a sunny desk"
+  },
+  {
+    "path": "/assets/images/posts/how-to-calculate-earnings-per-share/laptop-growth-chart-calculator-800.jpg",
+    "title": "A laptop with a rising bar chart beside a calculator, printed financial reports and a piggy bank on a sunny desk",
+    "use": "Featured image for how-to-calculate-earnings-per-share",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-05 (AI-generated editorial image)",
+    "alt_guidance": "A laptop with a rising bar chart beside a calculator, printed financial reports and a piggy bank on a sunny desk"
+  },
+  {
+    "path": "/assets/images/posts/best-hsa-accounts/piggy-bank-coin-stacks-plant-1600.jpg",
+    "title": "A white piggy bank beside stacks of coins and a small plant on a desk with a city view",
+    "use": "Featured image for best-hsa-accounts",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-05 (AI-generated editorial image)",
+    "alt_guidance": "A white piggy bank beside stacks of coins and a small plant on a desk with a city view"
+  },
+  {
+    "path": "/assets/images/posts/best-hsa-accounts/piggy-bank-coin-stacks-plant-800.jpg",
+    "title": "A white piggy bank beside stacks of coins and a small plant on a desk with a city view",
+    "use": "Featured image for best-hsa-accounts",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-05 (AI-generated editorial image)",
+    "alt_guidance": "A white piggy bank beside stacks of coins and a small plant on a desk with a city view"
+  },
+  {
+    "path": "/assets/images/posts/companies-with-biggest-market-caps/laptop-stock-charts-city-view-1600.jpg",
+    "title": "A laptop showing stock market charts and bar graphs on a marble desk by a window with a city skyline",
+    "use": "Featured image for companies-with-biggest-market-caps",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-05 (AI-generated editorial image)",
+    "alt_guidance": "A laptop showing stock market charts and bar graphs on a marble desk by a window with a city skyline"
+  },
+  {
+    "path": "/assets/images/posts/companies-with-biggest-market-caps/laptop-stock-charts-city-view-800.jpg",
+    "title": "A laptop showing stock market charts and bar graphs on a marble desk by a window with a city skyline",
+    "use": "Featured image for companies-with-biggest-market-caps",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-05 (AI-generated editorial image)",
+    "alt_guidance": "A laptop showing stock market charts and bar graphs on a marble desk by a window with a city skyline"
+  },
+  {
+    "path": "/assets/images/posts/best-investment-apps/robinhood-legend-screenshot-1600.jpg",
+    "title": "Screenshot of Robinhood Legend",
+    "use": "Inline product screenshot in /investing/best-investment-apps/",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Editorial screenshot of Robinhood Legend public page https://robinhood.com/us/en/legend/, captured 2026-11-06",
+    "alt_guidance": "Robinhood Legend page showing a trader in front of six monitors with candlestick charts and order tables"
+  },
+  {
+    "path": "/assets/images/posts/best-investment-apps/robinhood-legend-screenshot-800.jpg",
+    "title": "Screenshot of Robinhood Legend",
+    "use": "Inline product screenshot in /investing/best-investment-apps/",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Editorial screenshot of Robinhood Legend public page https://robinhood.com/us/en/legend/, captured 2026-11-06",
+    "alt_guidance": "Robinhood Legend page showing a trader in front of six monitors with candlestick charts and order tables"
+  },
+  {
+    "path": "/assets/images/posts/best-investment-apps/fidelity-official-image.jpg",
+    "title": "Fidelity official product image",
+    "use": "Inline product image in /investing/best-investment-apps/",
+    "width": 568,
+    "height": 400,
+    "rights_status": "approved",
+    "rights_source": "Official Fidelity product image from its public brokerage account page https://www.fidelity.com/investing/brokerage-account (image file on fidelity.com), downloaded 2026-11-06 for editorial use; captioned as an official image",
+    "alt_guidance": "A person at a laptop on a wooden desk with the Fidelity All accounts dashboard on screen"
   }
 ]

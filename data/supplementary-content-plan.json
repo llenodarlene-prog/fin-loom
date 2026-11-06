@@ -738,6 +738,42 @@
       "scheduled_publish": "2026-10-31",
       "min_words": 2500,
       "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S42",
+      "working_title": "Best Budgeting Apps for 2026: 7 Apps Compared by Cost, Method and Best Use",
+      "primary_keyword": "best budgeting apps",
+      "secondary_keywords": "best budget apps; budgeting app for couples; best free budgeting app; zero-based budgeting app",
+      "cluster": "Money & Banking",
+      "intent": "Commercial",
+      "status": "Scheduled",
+      "url_slug": "/money-banking/best-budgeting-apps/",
+      "seo_title": "Best Budgeting Apps for 2026: 7 Apps Compared by Cost",
+      "meta_description": "Compare the best budgeting apps for 2026 by price, budgeting method, account syncing, household sharing, subscription tools, debt features and privacy.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft of 2026-11-05; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-07",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S43",
+      "working_title": "Best Investment Apps for 2026: 6 Platforms Compared by Fees, Automation and Investor Fit",
+      "primary_keyword": "best investment apps",
+      "secondary_keywords": "best investing apps; best investment apps for beginners; best robo advisor app; investment app fees",
+      "cluster": "Investing",
+      "intent": "Commercial",
+      "status": "Scheduled",
+      "url_slug": "/investing/best-investment-apps/",
+      "seo_title": "Best Investment Apps for 2026: 6 Platforms Compared",
+      "meta_description": "Compare six of the best investment apps for 2026 by trading costs, advisory fees, IRA matches, fractional shares, automation, research tools and investor fit.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft of 2026-11-05; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-07",
+      "min_words": 2500,
+      "no_word_ceiling": true
     }
   ],
   "links": [
@@ -1284,6 +1320,32 @@
       ],
       "silo_role": "Supporting",
       "pillar": "/money-banking/saving-vs-investing/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S42",
+      "url_slug": "/money-banking/best-budgeting-apps/",
+      "primary_silo_hub": "/money-banking/",
+      "approved_outbound_targets": [
+        "/money-banking/hsa-vs-fsa/",
+        "/money-banking/saving-vs-investing/",
+        "/money-banking/savings-interest-calculator/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/money-banking/saving-vs-investing/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S43",
+      "url_slug": "/investing/best-investment-apps/",
+      "primary_silo_hub": "/investing/",
+      "approved_outbound_targets": [
+        "/investing/best-sp500-index-funds/",
+        "/investing/crypto-vs-stocks/",
+        "/investing/index-fund-vs-mutual-fund/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/investing/crypto-vs-stocks/"
     }
   ]
 }

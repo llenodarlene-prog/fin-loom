@@ -1,0 +1,539 @@
+{
+  "tracker_id": "Blog:S42",
+  "status": "verified",
+  "research_question": "Which budgeting apps fit which budgeting jobs in 2026, and what do they really cost after trials and promotions?",
+  "research_brief": {
+    "purpose": "Compare seven budgeting apps by method, verified price, household use and tradeoffs.",
+    "audience": "U.S. adults choosing a budgeting app.",
+    "publication_year": "2026",
+    "data_period": "Official pricing, help and security pages fetched November 5, 2026.",
+    "scope_limitations": "Monarch Plus price, a YNAB multi-currency claim and the Mint shutdown date could not be confirmed on fetched pages and were removed. No hands-on testing."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "best budgeting apps",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-11-01",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-06",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "best budgeting apps",
+        "type": "short-tail",
+        "volume": 14800,
+        "difficulty": 37,
+        "cpc": 8.16,
+        "intent": "Commercial",
+        "ranking_url": "http://thebudgeting.app/",
+        "retrieved_at": "2026-11-06",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best budget apps",
+        "type": "long-tail",
+        "volume": 18100,
+        "difficulty": 40,
+        "cpc": 8.23,
+        "intent": "Commercial",
+        "ranking_url": "https://goodbudget.com/",
+        "retrieved_at": "2026-11-06",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best free budgeting app",
+        "type": "commercial",
+        "volume": 14800,
+        "difficulty": 89,
+        "cpc": 3.97,
+        "intent": "Informational",
+        "ranking_url": "https://www.reddit.com/r/personalfinance/",
+        "retrieved_at": "2026-11-06",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "budgeting app for couples",
+        "type": "problem",
+        "volume": 1900,
+        "difficulty": 44,
+        "cpc": 8.73,
+        "intent": "Informational",
+        "ranking_url": "https://www.monarch.com/couples",
+        "retrieved_at": "2026-11-06",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "is ynab worth it",
+        "type": "question",
+        "volume": 390,
+        "difficulty": 48,
+        "cpc": 3.13,
+        "intent": "Informational",
+        "ranking_url": "https://www.ynab.com/pricing",
+        "retrieved_at": "2026-11-06",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.ynab.com/pricing",
+      "title": "YNAB Pricing",
+      "publisher": "YNAB",
+      "source_type": "Company pricing page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Price, 34-day trial, sharing with up to six people",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.monarch.com/pricing",
+      "title": "Monarch Pricing",
+      "publisher": "Monarch",
+      "source_type": "Company pricing page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Core price, Plus tier description, partner access",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.monarch.com/",
+      "title": "Monarch home page",
+      "publisher": "Monarch",
+      "source_type": "Company product page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "7-day trial, 13,000+ institutions, partner collaboration at no extra cost",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.monarch.com/security",
+      "title": "Monarch Security",
+      "publisher": "Monarch",
+      "source_type": "Company security page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Read-only permissions, encryption",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.quicken.com/simplifi",
+      "title": "Quicken Simplifi",
+      "publisher": "Quicken",
+      "source_type": "Company product page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Promotional $3.99 and regular $6.99 monthly price billed annually",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://help.rocketmoney.com/en/articles/2217739-how-much-does-rocket-money-cost",
+      "title": "How much does Rocket Money cost?",
+      "publisher": "Rocket Money",
+      "source_type": "Company help article",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Free, Premium sliding scale, Premium+ $15 plus tax, bill negotiation change Nov 2 2026",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://goodbudget.com/signup",
+      "title": "Goodbudget plans",
+      "publisher": "Goodbudget",
+      "source_type": "Company pricing page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Free and Premium plan limits and prices",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://pocketguard.com/pricing/",
+      "title": "PocketGuard Pricing",
+      "publisher": "PocketGuard",
+      "source_type": "Company pricing page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Monthly, yearly and lifetime prices, 7-day trial, features",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.empower.com/tools",
+      "title": "Empower financial tools",
+      "publisher": "Empower",
+      "source_type": "Company product page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Free dashboard and tools, security statement",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.ynab.com/security",
+      "title": "YNAB Security",
+      "publisher": "YNAB",
+      "source_type": "Company security page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Security practices",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "YNAB costs $109 per year or $14.99 per month with a 34-day trial.",
+      "source_url": "https://www.ynab.com/pricing",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Monarch Core costs $99.99 per year or $14.99 per month.",
+      "source_url": "https://www.monarch.com/pricing",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "PocketGuard costs $12.99 per month, $74.99 per year or $149.99 lifetime.",
+      "source_url": "https://pocketguard.com/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Rocket Money Premium+ costs $15 per month plus tax.",
+      "source_url": "https://help.rocketmoney.com/en/articles/2217739-how-much-does-rocket-money-cost",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Goodbudget Premium costs $10 per month or $80 per year.",
+      "source_url": "https://goodbudget.com/signup",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "What's the best budgeting app out there? r/personalfinance",
+      "url": "http://google.com/goto?url=CAESnAEB6zswFRvLgcKwHXEpaMqhBVd_DK3ssZr-haM4RQlpSSjus3gPJFZzYbJQFy6EyO8Klm-Hz9UKhfjUmQNstC3RgarWOjrzPORLaRUIQsLYdGi0K6iKXhvYLTqJLQTU5yUDl3DuwN40-BGoEyAXgIpj_qkqlQNWo52Wvh5LChW1EAsu9E5AueuCaCdDtg7GTUGreNTJ9M3g2jFXJQI",
+      "publisher": "reddit.com",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "best budgeting apps"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Generic awards without the after-trial price, household access or method fit."
+    },
+    {
+      "title": "Goodbudget: Best Home Budget App for Android, iPhone",
+      "url": "http://google.com/goto?url=CAESUgHrOzAVlYQszuaqZZoEI08E68YWKGAOw-HMiMgEB8BAVFugk1b6QlKjDd5uCHAGIzPR1Yp2QC3KsmbsduYpTAopRlIZ2TC6VcERxKUjqtmKiV4",
+      "publisher": "goodbudget.com",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "best budgeting apps"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Generic awards without the after-trial price, household access or method fit."
+    },
+    {
+      "title": "The Best Budget Apps for 2026",
+      "url": "http://google.com/goto?url=CAESdAHrOzAVZpHpBUo41FKQz-MGE1GJFVCgmgtB--SbEXdhsNAJx1aAmQzrZ9DvMXEqgVYy-30JGOwsn4ukJoO3cS6hhMEXhE_buouBH34NKswJEEvusp-f0dPxsqGS97cuyGxQPTOIvSF0vXZQRCXI0BjZY1LU",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "best budgeting apps"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Generic awards without the after-trial price, household access or method fit."
+    },
+    {
+      "title": "The Budgeting App: Free Budget App and Planner",
+      "url": "http://thebudgeting.app/",
+      "publisher": "thebudgeting.app",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "best budgeting apps"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Generic awards without the after-trial price, household access or method fit."
+    },
+    {
+      "title": "Top 5 budgeting apps to explore",
+      "url": "http://google.com/goto?url=CAESjAEB6zswFax5stKdhVvJNOyNmalrDb4xUi0eTncejZGfAtH3jUzc_KHgkc0yl9Xt5Y9lWaKv0Yp8F0gWOnUj8unxcbIfD5G-vabtBEeXsE3N2xas0sfprTl9YsYNpWSgvEHWhuG-nrm7oncn9DcXkjHwj1tIJlnvSSclQbx57k_FbWYH5anXyRjtHgF6VA",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "best budgeting apps"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Generic awards without the after-trial price, household access or method fit."
+    }
+  ],
+  "content_gaps": [
+    "Real price after trials and promotions",
+    "Budgeting method versus passive tracking",
+    "Household access cost",
+    "Rocket Money bill negotiation change of Nov 2 2026",
+    "Security framed as permissions and data handling"
+  ],
+  "value_add": "Seven apps mapped to distinct jobs, every price checked on official pages on November 5, 2026, and a problem-based chooser table.",
+  "plan": {
+    "reader_title": "Best Budgeting Apps for 2026: 7 Apps Compared by Cost, Method and Best Use",
+    "seo_title": "Best Budgeting Apps for 2026: 7 Apps Compared by Cost",
+    "meta_description": "Compare the best budgeting apps for 2026 by price, budgeting method, account syncing, household sharing, subscription tools, debt features and privacy.",
+    "slug": "/money-banking/best-budgeting-apps/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "best budget apps",
+      "budgeting app for couples",
+      "best free budgeting app",
+      "zero-based budgeting app"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "Best Budgeting Apps at a Glance",
+      "How We Chose These Apps",
+      "1. YNAB: Best for Zero-Based Budgeting",
+      "2. Monarch: Best for Couples and Households",
+      "3. Quicken Simplifi: Best Lower-Cost Paid All-Rounder",
+      "4. Rocket Money: Best for Subscriptions and Bill Management",
+      "5. Goodbudget: Best for Envelope Budgeting",
+      "6. PocketGuard: Best for Spending Guardrails and Debt Payoff",
+      "7. Empower Personal Dashboard: Best Free Net-Worth and Investment Overview",
+      "Which Budgeting App Is Best for You?",
+      "What Makes a Budgeting App Safe?",
+      "Free vs. Paid Budgeting Apps",
+      "Budgeting for Health Costs and Irregular Bills",
+      "How FinLoom Would Choose Among These Seven",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Prices and plans: each company pricing page",
+      "Security: YNAB and Monarch security pages",
+      "Rocket Money change: help center"
+    ],
+    "visuals": [
+      "Owner-supplied featured image",
+      "Seven official product images supplied by the owner, captioned as official images"
+    ],
+    "internal_links": [
+      "/money-banking/saving-vs-investing/",
+      "/money-banking/savings-interest-calculator/",
+      "/money-banking/hsa-vs-fsa/"
+    ],
+    "external_link_opportunities": [
+      "https://www.ynab.com/pricing",
+      "https://help.rocketmoney.com/en/articles/2217739-how-much-does-rocket-money-cost",
+      "https://goodbudget.com/signup"
+    ],
+    "excluded_claims": [
+      "Monarch Plus $199.99 price (not shown on fetched page)",
+      "YNAB multi-currency limitation (not found)",
+      "Mint shut down March 2024 (not verified on a primary page)",
+      "Empower encryption and MFA wording (page says multiple layers of security)"
+    ],
+    "drafting_cautions": [
+      "No hands-on testing claims",
+      "Promotional prices labeled",
+      "No universal best claim"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "YNAB lists $109 per year, $14.99 per month and a 34-day trial, shareable with up to six people.",
+      "source_url": "https://www.ynab.com/pricing",
+      "verified": true
+    },
+    {
+      "statement": "Bill negotiation became exclusive to Rocket Money Premium+ on November 2, 2026.",
+      "source_url": "https://help.rocketmoney.com/en/articles/2217739-how-much-does-rocket-money-cost",
+      "verified": true
+    },
+    {
+      "statement": "Goodbudget free plan: 10 regular and 10 more envelopes, 1 account, 2 devices, 1 year of history; Premium $10 or $80 a year.",
+      "source_url": "https://goodbudget.com/signup",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-06",
+    "note": "All prices and plan details checked on official pages fetched 2026-11-05; unverifiable items removed.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-06",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-06",
+    "summary": "All prices and plan details checked on official pages fetched 2026-11-05; unverifiable items removed.",
+    "pending": "Owner sign-off."
+  }
+}
