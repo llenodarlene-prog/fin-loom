@@ -7,7 +7,7 @@
     "audience": "U.S. investors choosing an S&P 500 fund.",
     "publication_year": "2026",
     "data_period": "Issuer pages and fact sheets: FXAIX fact sheet Sept 30 2026; IVV and SPYM pages Nov 5 2026; VOO page Oct 26 2026.",
-    "scope_limitations": "SWPPX removed: schwabassetmanagement.com returned Access Denied. VOO figures rely on the Vanguard page check of Oct 26 2026 used in S38, because the page did not render on Nov 6. No fund screenshots: Fidelity and Vanguard pages blocked automated capture."
+    "scope_limitations": "SWPPX removed: schwabassetmanagement.com returned Access Denied. VOO figures from Vanguard fund profile data fetched Nov 6 2026. No fund screenshots: Fidelity and Vanguard pages blocked automated capture."
   },
   "keyword_research": {
     "approved_primary_keyword": "best s&p 500 index fund",
@@ -101,9 +101,22 @@
       "year": "2026",
       "published_at": "not stated",
       "accessed_at": "2026-11-06",
-      "scope": "0.03% expense ratio and $1 minimum, checked Oct 26 2026",
+      "scope": "VOO fund page (resource link)",
       "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
-      "limitations": "Page did not render for automated access on Nov 6; figure from the Oct 26 check.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://investor.vanguard.com/vmf/api/VOO/profile",
+      "title": "Vanguard VOO fund profile data",
+      "publisher": "Vanguard",
+      "source_type": "Issuer fund data",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-06",
+      "scope": "0.03% expense ratio as of Apr 28 2026, inception Sept 7 2010",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
       "verified": true
     },
     {
@@ -381,6 +394,7 @@
       "The Risk All Four Share",
       "How S&P 500 Funds Fit Retirement Accounts",
       "Stocks, Funds and Other Assets",
+      "How to Check a Fund Before You Buy",
       "How to Make a Choice That Lasts",
       "Frequently Asked Questions",
       "Resources"
@@ -435,7 +449,7 @@
     "completed": true,
     "reviewer": "Darlene Aberin",
     "reviewed_at": "2026-11-06",
-    "note": "Costs checked on issuer pages and the FXAIX fact sheet fetched 2026-11-06; SWPPX removed; VOO from the 2026-10-26 Vanguard check.",
+    "note": "Costs checked on issuer pages and the FXAIX fact sheet fetched 2026-11-06; SWPPX removed; VOO from Vanguard fund data fetched 2026-11-06.",
     "notes": "AI QA layer complete; awaiting owner sign-off."
   },
   "qa": {
@@ -447,7 +461,7 @@
   },
   "verification_log": {
     "checked_on": "2026-11-06",
-    "summary": "Costs checked on issuer pages and the FXAIX fact sheet fetched 2026-11-06; SWPPX removed; VOO from the 2026-10-26 Vanguard check.",
+    "summary": "Costs checked on issuer pages and the FXAIX fact sheet fetched 2026-11-06; SWPPX removed; VOO from Vanguard fund data fetched 2026-11-06.",
     "pending": "Owner sign-off."
   }
 }

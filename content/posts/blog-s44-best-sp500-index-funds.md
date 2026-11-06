@@ -76,7 +76,7 @@ FXAIX's fact sheet also reports a three-year tracking error of 0.01, a measure o
 
 ## Vanguard S&P 500 ETF (VOO): A Familiar ETF for Long-Term Investors
 
-VOO tracks the S&P 500 and listed a 0.03% expense ratio and a $1 minimum when FinLoom checked Vanguard's VOO page on October 26, 2026, for our earlier comparison of index funds and mutual funds. Vanguard describes VOO as an exchange-traded share class of its 500 Index Fund.
+VOO tracks the S&P 500. Vanguard's fund data lists a 0.03% expense ratio as of April 28, 2026, and an inception date of September 7, 2010. Vanguard describes VOO as an exchange-traded share class of its 500 Index Fund.
 
 Because VOO trades on an exchange throughout the day, the price you pay can differ slightly from the fund's net asset value. For investors who already use a brokerage account, its plain benchmark objective makes it an uncomplicated core U.S. stock holding.
 
