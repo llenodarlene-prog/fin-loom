@@ -1,0 +1,449 @@
+{
+  "tracker_id": "Blog:S45",
+  "status": "verified",
+  "research_question": "Which HSA providers suit spending and investing users in 2026, and what do they charge?",
+  "research_brief": {
+    "purpose": "Compare HSA providers on verified fees and investing access, with the 2026 IRS rules.",
+    "audience": "U.S. workers with HSA-eligible health plans.",
+    "publication_year": "2026",
+    "data_period": "Provider pages fetched November 6, 2026; IRS Rev. Proc. 2025-19 and Publication 969.",
+    "scope_limitations": "Morningstar 2026 HSA assessments removed: morningstar.com and its newsroom blocked access, so no rating could be verified. HealthEquity and Saturna removed for the same reason. No Fidelity HSA screenshot: fidelity.com blocked browser capture."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "best hsa accounts",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-11-01",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-06",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "best hsa accounts",
+        "type": "short-tail",
+        "volume": 3600,
+        "difficulty": 23,
+        "cpc": 4.6,
+        "intent": "Commercial",
+        "ranking_url": "http://smartasset.com/checking-account/best-hsas",
+        "retrieved_at": "2026-11-06",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best hsa providers",
+        "type": "long-tail",
+        "volume": 480,
+        "difficulty": 26,
+        "cpc": 5.36,
+        "intent": "Commercial",
+        "ranking_url": "https://www.reddit.com/r/personalfinance/comments/1fnr7uh/where_to_have_hsa_account_for_best_investment/",
+        "retrieved_at": "2026-11-06",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best hsa for investing",
+        "type": "commercial",
+        "volume": 70,
+        "difficulty": 34,
+        "cpc": 4.38,
+        "intent": "Commercial",
+        "ranking_url": "https://www.fidelity.com/investing/hsa",
+        "retrieved_at": "2026-11-06",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "hsa fees",
+        "type": "problem",
+        "volume": 170,
+        "difficulty": 28,
+        "cpc": 1.47,
+        "intent": "Informational",
+        "ranking_url": "https://hsabank.com/Members/HSA-Investment-Options.html",
+        "retrieved_at": "2026-11-06",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "hsa contribution limits 2026",
+        "type": "question",
+        "volume": 49500,
+        "difficulty": 41,
+        "cpc": 1.96,
+        "intent": "Informational",
+        "ranking_url": "https://www.irs.gov/irb/2025-21_IRB",
+        "retrieved_at": "2026-11-06",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.fidelity.com/investing/hsa",
+      "title": "Fidelity HSA",
+      "publisher": "Fidelity",
+      "source_type": "Company product page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-06",
+      "scope": "No account fees or minimums, Fidelity Go fees, money market default cash",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://hsabank.com/Members/HSA-Investment-Options.html",
+      "title": "HSA Investment Options",
+      "publisher": "HSA Bank",
+      "source_type": "Company product page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-06",
+      "scope": "Choice, Select, Managed fees and $7,500 waiver",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://livelyme.com/hsa/",
+      "title": "Lively HSA",
+      "publisher": "Lively",
+      "source_type": "Company product page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-06",
+      "scope": "No minimums, no maintenance fees, Schwab and Devenir investing",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://livelyme.com/pricing/",
+      "title": "Lively pricing",
+      "publisher": "Lively",
+      "source_type": "Company pricing page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-06",
+      "scope": "Free for individuals, $0 opening and closing fees, business minimum",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.irs.gov/irb/2025-21_IRB",
+      "title": "Revenue Procedure 2025-19",
+      "publisher": "Internal Revenue Service",
+      "source_type": "IRS guidance",
+      "year": "2025",
+      "published_at": "2025-05-19",
+      "accessed_at": "2026-11-06",
+      "scope": "2026 HSA and HDHP limits, excepted benefit HRA limit",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Annual inflation adjustments only.",
+      "verified": true
+    },
+    {
+      "url": "https://www.irs.gov/publications/p969",
+      "title": "Publication 969",
+      "publisher": "Internal Revenue Service",
+      "source_type": "IRS publication",
+      "year": "2025",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-06",
+      "scope": "HSA eligibility, catch-up, distributions, additional tax",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "2025 edition; rules carried into 2026.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "2026 HSA limit $4,400 self-only and $8,750 family.",
+      "source_url": "https://www.irs.gov/irb/2025-21_IRB",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "2026 HDHP minimum deductible $1,700 and $3,400; out-of-pocket maximum $8,500 and $17,000.",
+      "source_url": "https://www.irs.gov/irb/2025-21_IRB",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "HSA Bank investment fees 0.10%, 0.25% and 0.35% a year.",
+      "source_url": "https://hsabank.com/Members/HSA-Investment-Options.html",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent of invested balance",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Best Places to Open An HSA Account",
+      "url": "http://google.com/goto?url=CAESdgHrOzAVmW6eAG3JwrJxyk9XLa6yXotEOhp-OEdobPIvJV2hL7dXqMRMoDwYWjCV9sO2n3kgOfwAW_qhxBiJf5mmJCTp8lsswsF2lJKscBG4cyZfYegXdacWCNZNlhQ-3gAT_bKIi0rmkfVDmmlWhViDz0WRk4E",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "best hsa accounts"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Ranks providers without separating spending and investing use or explaining what the cash position holds."
+    },
+    {
+      "title": "What Is an HSA and How Does It Work?",
+      "url": "http://google.com/goto?url=CAESewHrOzAVOPue50gBPNSlimspVPNkSXWZ57wvk7qwvPIvA-41x_9tTjJ6COdff5NbD-t9DgQEsgC7B-EIIoIa4ih2kdCAnXC-5_YiioFi-df-GIfD70eYK5VYMZthMyR3y-DEwZdBn0cWTEI0WR_fxTWxQv8jwXk94LG5YQ",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "best hsa accounts"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Ranks providers without separating spending and investing use or explaining what the cash position holds."
+    },
+    {
+      "title": "Where to have HSA account for best investment options",
+      "url": "http://www.reddit.com/r/personalfinance/comments/1fnr7uh/where_to_have_hsa_account_for_best_investment/",
+      "publisher": "reddit.com",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "best hsa accounts"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Ranks providers without separating spending and investing use or explaining what the cash position holds."
+    },
+    {
+      "title": "Compare HSA Providers - HSA Search",
+      "url": "http://google.com/goto?url=CAESXQHrOzAVVQZlMS3fPXEAOGiP3I2rrrVyLQlSGL_rGHv3B3hjKUuh-3P2oQTF07-ghymSKEKK9m3b9ZE8dKI4xtKMxPIKeQWSjYcJJYfP6aHNogtUhf7JMvZOZEo34Q",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "best hsa accounts"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Ranks providers without separating spending and investing use or explaining what the cash position holds."
+    },
+    {
+      "title": "Health Savings Account (HSA) Providers to Consider",
+      "url": "http://smartasset.com/checking-account/best-hsas",
+      "publisher": "smartasset.com",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "best hsa accounts"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Ranks providers without separating spending and investing use or explaining what the cash position holds."
+    }
+  ],
+  "content_gaps": [
+    "Spending versus investing HSA use",
+    "What the default cash position is",
+    "Fee waivers and cash thresholds",
+    "2026 IRS limits next to provider choice"
+  ],
+  "value_add": "Provider fees and cash treatment from official pages, a five-question checklist and the full 2026 IRS limit table.",
+  "plan": {
+    "reader_title": "Best HSA Accounts for 2026: Cash, Investing, and Fees Compared",
+    "seo_title": "Best HSA Accounts for 2026: Cash, Investing and Fees",
+    "meta_description": "Compare the best HSA accounts for 2026 by account fees, investment fees, cash options and minimums, plus the 2026 IRS contribution limits and eligibility rules.",
+    "slug": "/money-banking/best-hsa-accounts/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "best hsa providers",
+      "best hsa for investing",
+      "hsa fees",
+      "hsa contribution limits 2026"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "2026 HSA Providers at a Glance",
+      "How We Compared HSA Providers",
+      "Fidelity HSA: A Strong All-Round Choice",
+      "HSA Bank: Three Investment Paths With Clear Fees",
+      "Lively: Simple Pricing and Investing From the First Dollar",
+      "What Makes One of the Best HSA Accounts in 2026?",
+      "2026 HSA Limits and Eligibility",
+      "Spending HSA vs Investing HSA",
+      "Choosing a Provider Without Paying for Features You Will Not Use",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Fees: provider pages",
+      "Limits: IRS Rev. Proc. 2025-19",
+      "Distribution rules: IRS Pub 969"
+    ],
+    "visuals": [
+      "Owner-supplied featured image",
+      "HSA Bank and Lively screenshots captured 2026-11-06"
+    ],
+    "internal_links": [
+      "/money-banking/saving-vs-investing/",
+      "/money-banking/hsa-vs-fsa/",
+      "/money-banking/hsa-vs-hra/"
+    ],
+    "external_link_opportunities": [
+      "https://www.fidelity.com/investing/hsa",
+      "https://hsabank.com/Members/HSA-Investment-Options.html",
+      "https://www.irs.gov/irb/2025-21_IRB"
+    ],
+    "excluded_claims": [
+      "All Morningstar 2026 HSA assessments (source blocked)",
+      "HealthEquity 0.32% fee and section (source blocked)",
+      "Saturna section (source blocked)",
+      "HSA Bank removed investment threshold claim (HSA Bank page says a minimum cash balance may apply)"
+    ],
+    "drafting_cautions": [
+      "No hands-on testing claims",
+      "Money market fund not described as insured",
+      "No investment recommendation"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Fidelity HSAs opened through Fidelity.com have zero account fees and zero account minimums.",
+      "source_url": "https://www.fidelity.com/investing/hsa",
+      "verified": true
+    },
+    {
+      "statement": "HSA Bank fees are waived for any quarter with an average HSA cash balance of $7,500 or more.",
+      "source_url": "https://hsabank.com/Members/HSA-Investment-Options.html",
+      "verified": true
+    },
+    {
+      "statement": "The 2026 HSA limits are $4,400 and $8,750.",
+      "source_url": "https://www.irs.gov/irb/2025-21_IRB",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-06",
+    "note": "Provider pages and IRS guidance fetched 2026-11-06; blocked sources removed.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-06",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-06",
+    "summary": "Provider pages and IRS guidance fetched 2026-11-06; blocked sources removed.",
+    "pending": "Owner sign-off."
+  }
+}

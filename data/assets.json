@@ -1598,5 +1598,45 @@
     "rights_status": "approved",
     "rights_source": "Official Fidelity product image from its public brokerage account page https://www.fidelity.com/investing/brokerage-account (image file on fidelity.com), downloaded 2026-11-06 for editorial use; captioned as an official image",
     "alt_guidance": "A person at a laptop on a wooden desk with the Fidelity All accounts dashboard on screen"
+  },
+  {
+    "path": "/assets/images/posts/best-hsa-accounts/hsa-bank-screenshot-1600.jpg",
+    "title": "Screenshot of HSA Bank",
+    "use": "Inline product screenshot in /money-banking/best-hsa-accounts/",
+    "width": 1600,
+    "height": 700,
+    "rights_status": "approved",
+    "rights_source": "Editorial screenshot of HSA Bank public page https://hsabank.com/Members/HSA-Investment-Options.html, captured 2026-11-06",
+    "alt_guidance": "HSA Bank investment options page with the headline Invest your HSA today to benefit tomorrow and a Start investing button"
+  },
+  {
+    "path": "/assets/images/posts/best-hsa-accounts/hsa-bank-screenshot-800.jpg",
+    "title": "Screenshot of HSA Bank",
+    "use": "Inline product screenshot in /money-banking/best-hsa-accounts/",
+    "width": 800,
+    "height": 350,
+    "rights_status": "approved",
+    "rights_source": "Editorial screenshot of HSA Bank public page https://hsabank.com/Members/HSA-Investment-Options.html, captured 2026-11-06",
+    "alt_guidance": "HSA Bank investment options page with the headline Invest your HSA today to benefit tomorrow and a Start investing button"
+  },
+  {
+    "path": "/assets/images/posts/best-hsa-accounts/lively-screenshot-1600.jpg",
+    "title": "Screenshot of Lively",
+    "use": "Inline product screenshot in /money-banking/best-hsa-accounts/",
+    "width": 1600,
+    "height": 640,
+    "rights_status": "approved",
+    "rights_source": "Editorial screenshot of Lively public page https://livelyme.com/hsa/, captured 2026-11-06",
+    "alt_guidance": "Lively HSA page with the headline The HSA built for spenders, savers, and investors beside a dashboard showing spending, investment growth and account balances"
+  },
+  {
+    "path": "/assets/images/posts/best-hsa-accounts/lively-screenshot-800.jpg",
+    "title": "Screenshot of Lively",
+    "use": "Inline product screenshot in /money-banking/best-hsa-accounts/",
+    "width": 800,
+    "height": 320,
+    "rights_status": "approved",
+    "rights_source": "Editorial screenshot of Lively public page https://livelyme.com/hsa/, captured 2026-11-06",
+    "alt_guidance": "Lively HSA page with the headline The HSA built for spenders, savers, and investors beside a dashboard showing spending, investment growth and account balances"
   }
 ]

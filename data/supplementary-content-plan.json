@@ -774,6 +774,42 @@
       "scheduled_publish": "2026-11-07",
       "min_words": 2500,
       "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S44",
+      "working_title": "Best S&P 500 Index Funds for 2026: Four Low-Cost Choices Compared",
+      "primary_keyword": "best s&p 500 index fund",
+      "secondary_keywords": "best s&p 500 etf; cheapest s&p 500 index fund; voo vs ivv; spym vs spy",
+      "cluster": "Investing",
+      "intent": "Commercial",
+      "status": "Scheduled",
+      "url_slug": "/investing/best-sp500-index-funds/",
+      "seo_title": "Best S&P 500 Index Funds for 2026: Four Low-Cost Picks",
+      "meta_description": "Compare the best S&P 500 index fund choices for 2026, FXAIX, VOO, IVV and SPYM, by expense ratio, structure, minimums and how SPYM differs from SPY.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft of 2026-11-05; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-08",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S45",
+      "working_title": "Best HSA Accounts for 2026: Cash, Investing, and Fees Compared",
+      "primary_keyword": "best hsa accounts",
+      "secondary_keywords": "best hsa providers; best hsa for investing; hsa fees; hsa contribution limits 2026",
+      "cluster": "Money & Banking",
+      "intent": "Commercial",
+      "status": "Scheduled",
+      "url_slug": "/money-banking/best-hsa-accounts/",
+      "seo_title": "Best HSA Accounts for 2026: Cash, Investing and Fees",
+      "meta_description": "Compare the best HSA accounts for 2026 by account fees, investment fees, cash options and minimums, plus the 2026 IRS contribution limits and eligibility rules.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft of 2026-11-05; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-08",
+      "min_words": 2500,
+      "no_word_ceiling": true
     }
   ],
   "links": [
@@ -1346,6 +1382,32 @@
       ],
       "silo_role": "Supporting",
       "pillar": "/investing/crypto-vs-stocks/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S44",
+      "url_slug": "/investing/best-sp500-index-funds/",
+      "primary_silo_hub": "/investing/",
+      "approved_outbound_targets": [
+        "/investing/best-etfs-for-roth-ira/",
+        "/investing/best-investment-apps/",
+        "/investing/crypto-vs-stocks/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/investing/crypto-vs-stocks/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S45",
+      "url_slug": "/money-banking/best-hsa-accounts/",
+      "primary_silo_hub": "/money-banking/",
+      "approved_outbound_targets": [
+        "/money-banking/hsa-vs-fsa/",
+        "/money-banking/hsa-vs-hra/",
+        "/money-banking/saving-vs-investing/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/money-banking/saving-vs-investing/"
     }
   ]
 }

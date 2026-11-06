@@ -1,0 +1,453 @@
+{
+  "tracker_id": "Blog:S44",
+  "status": "verified",
+  "research_question": "How do the main low-cost S&P 500 funds differ in cost, structure and access, and what risks do they share?",
+  "research_brief": {
+    "purpose": "Compare four S&P 500 funds on verified issuer data and explain index concentration.",
+    "audience": "U.S. investors choosing an S&P 500 fund.",
+    "publication_year": "2026",
+    "data_period": "Issuer pages and fact sheets: FXAIX fact sheet Sept 30 2026; IVV and SPYM pages Nov 5 2026; VOO page Oct 26 2026.",
+    "scope_limitations": "SWPPX removed: schwabassetmanagement.com returned Access Denied. VOO figures rely on the Vanguard page check of Oct 26 2026 used in S38, because the page did not render on Nov 6. No fund screenshots: Fidelity and Vanguard pages blocked automated capture."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "best s&p 500 index fund",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-10-25",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-06",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "best s&p 500 index fund",
+        "type": "short-tail",
+        "volume": 6600,
+        "difficulty": 15,
+        "cpc": 2.63,
+        "intent": "Commercial",
+        "ranking_url": "http://money.usnews.com/investing/articles/best-s-p-500-index-funds-to-buy",
+        "retrieved_at": "2026-11-06",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best s&p 500 etf",
+        "type": "long-tail",
+        "volume": 4400,
+        "difficulty": 39,
+        "cpc": 3.45,
+        "intent": "Commercial",
+        "ranking_url": "http://global.morningstar.com/en-gb/etfs/best-sp-500-etfs-buy",
+        "retrieved_at": "2026-11-06",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "cheapest s&p 500 index fund",
+        "type": "commercial",
+        "volume": 170,
+        "difficulty": 38,
+        "cpc": 4.63,
+        "intent": "Commercial",
+        "ranking_url": "http://www.justetf.com/en/how-to/sp-500-etfs.html",
+        "retrieved_at": "2026-11-06",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "spym vs spy",
+        "type": "problem",
+        "volume": 880,
+        "difficulty": 28,
+        "cpc": 6.04,
+        "intent": "Informational",
+        "ranking_url": "https://www.ssga.com/us/en/intermediary/insights/comparing-spy-and-spym-two-state-street-etfs-for-s-p-500-exposure",
+        "retrieved_at": "2026-11-06",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "voo vs ivv",
+        "type": "question",
+        "volume": 3600,
+        "difficulty": 20,
+        "cpc": 4.71,
+        "intent": "Informational",
+        "ranking_url": "https://www.ishares.com/us/products/239726/ishares-core-sp-500-etf",
+        "retrieved_at": "2026-11-06",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://institutional.fidelity.com/app/proxy/content?literatureURL=%2F770893.PDF",
+      "title": "Fidelity 500 Index Fund fact sheet",
+      "publisher": "Fidelity",
+      "source_type": "Fund fact sheet",
+      "year": "2026",
+      "published_at": "2026-09-30",
+      "accessed_at": "2026-11-06",
+      "scope": "Expense ratio 0.015%, $0 minimum, inception, holdings, top 10 and sector weights",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Point-in-time fact sheet; holdings change.",
+      "verified": true
+    },
+    {
+      "url": "https://investor.vanguard.com/investment-products/etfs/profile/voo",
+      "title": "Vanguard S&P 500 ETF (VOO)",
+      "publisher": "Vanguard",
+      "source_type": "Fund page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-06",
+      "scope": "0.03% expense ratio and $1 minimum, checked Oct 26 2026",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page did not render for automated access on Nov 6; figure from the Oct 26 check.",
+      "verified": true
+    },
+    {
+      "url": "https://www.ishares.com/us/products/239726/ishares-core-sp-500-etf",
+      "title": "iShares Core S&P 500 ETF (IVV)",
+      "publisher": "BlackRock",
+      "source_type": "Fund page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-06",
+      "scope": "0.03% expense ratio, net assets, inception, benchmark",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.ssga.com/us/en/individual/etfs/state-street-spdr-portfolio-sp-500-etf-spym",
+      "title": "SPDR Portfolio S&P 500 ETF (SPYM)",
+      "publisher": "State Street",
+      "source_type": "Fund page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-06",
+      "scope": "0.02% gross expense ratio, NAV, inception",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.ssga.com/us/en/intermediary/insights/comparing-spy-and-spym-two-state-street-etfs-for-s-p-500-exposure",
+      "title": "Comparing SPY and SPYM",
+      "publisher": "State Street",
+      "source_type": "Issuer insight article",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-06",
+      "scope": "SPY 0.0945% and SPYM 0.02% in cost examples",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "FXAIX expense ratio 0.015%, minimum $0, 508 holdings.",
+      "source_url": "https://institutional.fidelity.com/app/proxy/content?literatureURL=%2F770893.PDF",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "FXAIX top 10 holdings 39.03% and information technology 39.68% of net assets on Sept 30 2026.",
+      "source_url": "https://institutional.fidelity.com/app/proxy/content?literatureURL=%2F770893.PDF",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent of net assets",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "IVV expense ratio 0.03% and net assets $849,980,834,760 on Nov 5 2026.",
+      "source_url": "https://www.ishares.com/us/products/239726/ishares-core-sp-500-etf",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent and US dollars",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "SPYM gross expense ratio 0.02% and NAV $86.28 on Nov 5 2026.",
+      "source_url": "https://www.ssga.com/us/en/individual/etfs/state-street-spdr-portfolio-sp-500-etf-spym",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent and US dollars",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "The 5 Best S&P 500 ETFs to Buy",
+      "url": "http://global.morningstar.com/en-gb/etfs/best-sp-500-etfs-buy",
+      "publisher": "morningstar.com",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "best s&p 500 index fund"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Ranks funds without the SPY versus SPYM distinction or the dollar size of fee gaps."
+    },
+    {
+      "title": "Opinions on best S&P 500 index fund? r/personalfinance",
+      "url": "http://www.reddit.com/r/personalfinance/comments/1duj41t/opinions_on_best_sp_500_index_fund/",
+      "publisher": "reddit.com",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "best s&p 500 index fund"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Ranks funds without the SPY versus SPYM distinction or the dollar size of fee gaps."
+    },
+    {
+      "title": "Find The Best S&P 500 ETF",
+      "url": "http://www.justetf.com/en/how-to/sp-500-etfs.html",
+      "publisher": "justetf.com",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "best s&p 500 index fund"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Ranks funds without the SPY versus SPYM distinction or the dollar size of fee gaps."
+    },
+    {
+      "title": "5 Best S&P 500 Index Funds to Buy for 2026",
+      "url": "http://money.usnews.com/investing/articles/best-s-p-500-index-funds-to-buy",
+      "publisher": "money.usnews.com",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "best s&p 500 index fund"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Ranks funds without the SPY versus SPYM distinction or the dollar size of fee gaps."
+    },
+    {
+      "title": "The Best Index Funds and How to Start Investing",
+      "url": "http://www.nerdwallet.com/investing/learn/how-to-invest-in-index-funds",
+      "publisher": "nerdwallet.com",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "best s&p 500 index fund"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Ranks funds without the SPY versus SPYM distinction or the dollar size of fee gaps."
+    }
+  ],
+  "content_gaps": [
+    "SPYM versus SPY ticker confusion",
+    "Dollar cost of basis-point gaps",
+    "Mutual fund versus ETF mechanics for monthly investing",
+    "Index concentration from issuer data"
+  ],
+  "value_add": "Issuer-verified costs, a fee-in-dollars table and concentration data from the FXAIX fact sheet.",
+  "plan": {
+    "reader_title": "Best S&P 500 Index Funds for 2026: Four Low-Cost Choices Compared",
+    "seo_title": "Best S&P 500 Index Funds for 2026: Four Low-Cost Picks",
+    "meta_description": "Compare the best S&P 500 index fund choices for 2026, FXAIX, VOO, IVV and SPYM, by expense ratio, structure, minimums and how SPYM differs from SPY.",
+    "slug": "/investing/best-sp500-index-funds/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "best s&p 500 etf",
+      "cheapest s&p 500 index fund",
+      "voo vs ivv",
+      "spym vs spy"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "S&P 500 Index Fund Comparison",
+      "How We Picked the Best S&P 500 Index Fund Options",
+      "Fidelity 500 Index Fund (FXAIX): Strongest for a Simple Mutual Fund Routine",
+      "Vanguard S&P 500 ETF (VOO): A Familiar ETF for Long-Term Investors",
+      "iShares Core S&P 500 ETF (IVV): An Equally Plausible Core ETF",
+      "SPDR Portfolio S&P 500 ETF (SPYM): The Lowest ETF Fee in This Shortlist",
+      "What a Small Expense Ratio Difference Costs",
+      "ETF or Index Mutual Fund: Which Works Better?",
+      "The Risk All Four Share",
+      "How S&P 500 Funds Fit Retirement Accounts",
+      "Stocks, Funds and Other Assets",
+      "How to Make a Choice That Lasts",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Costs: issuer pages and fact sheet",
+      "Concentration: FXAIX fact sheet",
+      "SPY vs SPYM: State Street comparison"
+    ],
+    "visuals": [
+      "No featured image supplied for this post",
+      "Fee table in text"
+    ],
+    "internal_links": [
+      "/investing/crypto-vs-stocks/",
+      "/investing/best-investment-apps/",
+      "/investing/best-etfs-for-roth-ira/"
+    ],
+    "external_link_opportunities": [
+      "https://institutional.fidelity.com/app/proxy/content?literatureURL=%2F770893.PDF",
+      "https://www.ishares.com/us/products/239726/ishares-core-sp-500-etf",
+      "https://www.ssga.com/us/en/intermediary/insights/comparing-spy-and-spym-two-state-street-etfs-for-s-p-500-exposure"
+    ],
+    "excluded_claims": [
+      "SWPPX section (Schwab page Access Denied)",
+      "Link to an ETF vs index fund page (page does not exist)"
+    ],
+    "drafting_cautions": [
+      "No buy recommendation",
+      "Fee examples labeled as illustrations",
+      "No return forecasts"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "FXAIX lists a 0.015% expense ratio and $0 minimum on its Sept 30 2026 fact sheet.",
+      "source_url": "https://institutional.fidelity.com/app/proxy/content?literatureURL=%2F770893.PDF",
+      "verified": true
+    },
+    {
+      "statement": "IVV lists a 0.03% expense ratio.",
+      "source_url": "https://www.ishares.com/us/products/239726/ishares-core-sp-500-etf",
+      "verified": true
+    },
+    {
+      "statement": "State Street uses 0.0945% for SPY and 0.02% for SPYM in its comparison.",
+      "source_url": "https://www.ssga.com/us/en/intermediary/insights/comparing-spy-and-spym-two-state-street-etfs-for-s-p-500-exposure",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-06",
+    "note": "Costs checked on issuer pages and the FXAIX fact sheet fetched 2026-11-06; SWPPX removed; VOO from the 2026-10-26 Vanguard check.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-06",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-06",
+    "summary": "Costs checked on issuer pages and the FXAIX fact sheet fetched 2026-11-06; SWPPX removed; VOO from the 2026-10-26 Vanguard check.",
+    "pending": "Owner sign-off."
+  }
+}
