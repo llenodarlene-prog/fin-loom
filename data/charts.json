@@ -275,5 +275,30 @@
     "suffix": "T",
     "caption": "Market values rounded to two decimals. The ranking moves daily, and Broadcom ($1.42 trillion) sat just below Tesla in the same snapshot.",
     "source": "CompaniesMarketCap global ranking, retrieved 11:00 a.m. ET on November 6, 2026, during trading."
+  },
+  "dividend-yield-price-sensitivity": {
+    "type": "bar",
+    "title": "Same Dividend, Different Yield",
+    "label_heading": "Share price",
+    "labels": [
+      "$60 share price",
+      "$50 share price",
+      "$40 share price",
+      "$25 share price"
+    ],
+    "series": [
+      {
+        "name": "Indicated yield, percent",
+        "values": [
+          3.33,
+          4,
+          5,
+          8
+        ]
+      }
+    ],
+    "suffix": "%",
+    "caption": "A hypothetical $2.00 annual dividend that never changes. The yield rises only because the share price falls.",
+    "source": "FinLoom calculation: $2.00 divided by each share price, times 100. Hypothetical, not data for any real stock."
   }
 }

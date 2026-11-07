@@ -1,0 +1,379 @@
+{
+  "tracker_id": "Blog:S49",
+  "status": "verified",
+  "research_question": "How do a dividend and dividend yield differ, and how should investors read yield?",
+  "research_brief": {
+    "purpose": "Explain the dividend versus yield distinction with verified definitions and checked calculations.",
+    "audience": "Investors comparing dividend stocks and funds.",
+    "publication_year": "2026",
+    "data_period": "FINRA and IRS pages fetched November 6, 2026; Vanguard BND fact sheet as of September 30, 2026.",
+    "scope_limitations": "Investor.gov blocked automated access, so its definitions were replaced with FINRA and IRS sources. All yield figures are hypothetical calculations, recomputed."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "dividend and dividend yield",
+    "intent": "Informational",
+    "serp_checked_at": "2026-11-02",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-06",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "dividend and dividend yield",
+        "type": "short-tail",
+        "volume": 14800,
+        "difficulty": 12,
+        "cpc": 2.43,
+        "intent": "Informational",
+        "ranking_url": "http://www.linkedin.com/pulse/dividend-vs-yield-understanding-key-differences-kukundakwe-samali-bjxif",
+        "retrieved_at": "2026-11-06",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "dividend vs dividend yield",
+        "type": "long-tail",
+        "volume": 320,
+        "difficulty": 31,
+        "cpc": 0.01,
+        "intent": "Informational",
+        "ranking_url": "https://www.finra.org/investors/investing/investment-products/stocks",
+        "retrieved_at": "2026-11-06",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "dividend yield formula",
+        "type": "commercial",
+        "volume": 2900,
+        "difficulty": 43,
+        "cpc": 0.79,
+        "intent": "Informational",
+        "ranking_url": "https://www.irs.gov/publications/p550",
+        "retrieved_at": "2026-11-06",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "how to calculate dividend yield",
+        "type": "problem",
+        "volume": 2400,
+        "difficulty": 38,
+        "cpc": 1.36,
+        "intent": "Informational",
+        "ranking_url": "https://fund-docs.vanguard.com/F0928.pdf",
+        "retrieved_at": "2026-11-06",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is a good dividend yield",
+        "type": "question",
+        "volume": 720,
+        "difficulty": 47,
+        "cpc": 4.28,
+        "intent": "Informational",
+        "ranking_url": "https://www.finra.org/investors",
+        "retrieved_at": "2026-11-06",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.finra.org/investors/investing/investment-products/stocks",
+      "title": "Stocks",
+      "publisher": "FINRA",
+      "source_type": "Regulator investor education",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-06",
+      "scope": "Dividend definition, not guaranteed, can be cut",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.irs.gov/publications/p550",
+      "title": "Publication 550",
+      "publisher": "Internal Revenue Service",
+      "source_type": "IRS publication",
+      "year": "2025",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-06",
+      "scope": "Ex-dividend date, ordinary and qualified dividends, holding period",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "2025 edition.",
+      "verified": true
+    },
+    {
+      "url": "https://fund-docs.vanguard.com/F0928.pdf",
+      "title": "Vanguard Total Bond Market ETF fact sheet",
+      "publisher": "Vanguard",
+      "source_type": "Fund fact sheet",
+      "year": "2026",
+      "published_at": "2026-09-30",
+      "accessed_at": "2026-11-06",
+      "scope": "Monthly dividend schedule",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Point-in-time fact sheet.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Qualified dividends are taxed at the 0%, 15% or 20% maximum rates that apply to net capital gain.",
+      "source_url": "https://www.irs.gov/publications/p550",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent tax rate",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "What is dividend yield and how is it calculated?",
+      "url": "http://google.com/goto?url=CAESggEB6zswFY3vfUMvsHcIYFnqyIt97g0h25pTSFHCKTBQcHZQcOs8H7IwcO3O_4xK1YV-qCwExdRkLd27TQRpCSmrJlJ1rPZQmHFqAkH2_LFzXLZyYyB-gU2mkm2sW92Mm2oU_0iWPAVTnyVS-2LW7Pk133lf_UTmKiT0dT5GaSqtpdbO",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "dividend and dividend yield"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Short definitions without price sensitivity, trailing versus forward yield or yield on cost."
+    },
+    {
+      "title": "What Is Dividend Yield in the Stock Market?",
+      "url": "http://google.com/goto?url=CAESZwHrOzAVnsjkifrkzB7PzXi1E1uVMUUAwC4Tq1CDBKLI7vdbMYD3Z0vu0NXx91nnJwbiZvwix_UvU-3HBE1EdZxgNm0wPT9hixjUP6d9Flj-xzE8f-lGBq3vlNpdTuo700AJJ6Anpq0",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "dividend and dividend yield"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Short definitions without price sensitivity, trailing versus forward yield or yield on cost."
+    },
+    {
+      "title": "Dividend vs. Dividend Yield: Understanding the Key Differences",
+      "url": "http://www.linkedin.com/pulse/dividend-vs-yield-understanding-key-differences-kukundakwe-samali-bjxif",
+      "publisher": "linkedin.com",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "dividend and dividend yield"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Short definitions without price sensitivity, trailing versus forward yield or yield on cost."
+    },
+    {
+      "title": "What is a Dividend Yield? Definition",
+      "url": "http://google.com/goto?url=CAESaAHrOzAV25eHEK8CJRj0k7iWwMd7qcgJnWbsrl_qqU9EEJM0Us4QKO5Nrd7szBXUn_ETTs383wWh6L2VkxhAh9nKCiOSBEavPem-vop0Dvh5Jfx5eukEyFGdsJOSEoYJ-lXvLE6dla_u",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "dividend and dividend yield"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Short definitions without price sensitivity, trailing versus forward yield or yield on cost."
+    },
+    {
+      "title": "What Is the Dividend Yield?",
+      "url": "http://google.com/goto?url=CAESiwEB6zswFcRx_LlZJghA3HGox7DvndUdW2H4SUSYCVg7HbwH-aEy5ikMIM4ujYOXwPNkLxdCts1Prb0eyqE957fMyrLUF3tTfvPtQ1V8L8GnnHmK3JTcFQZK11083_R_sLEbmMWBbnENf4Ogjk-Zm5-rtN-Fm6RNV-FGsGM2Ngle8r46K1UNA2cKBUrZ",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "dividend and dividend yield"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Short definitions without price sensitivity, trailing versus forward yield or yield on cost."
+    }
+  ],
+  "content_gaps": [
+    "Price sensitivity of yield",
+    "Trailing versus forward yield after a cut",
+    "Yield on cost",
+    "Payout ratio versus yield"
+  ],
+  "value_add": "Consistent hypothetical examples, a yield sensitivity chart and regulator and IRS sourcing.",
+  "plan": {
+    "reader_title": "Dividend and Dividend Yield: What Each Number Tells Investors",
+    "seo_title": "Dividend and Dividend Yield: Formula, Examples, Pitfalls",
+    "meta_description": "Dividend and dividend yield explained: how yield is calculated, why it rises when prices fall, trailing vs forward yield, payout ratio and yield on cost.",
+    "slug": "/investing/dividend-vs-dividend-yield/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "dividend vs dividend yield",
+      "how to calculate dividend yield",
+      "dividend yield formula",
+      "what is a good dividend yield"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "Dividend vs Dividend Yield at a Glance",
+      "What Is a Dividend?",
+      "How Is Dividend Yield Calculated?",
+      "Why a High Dividend Yield Can Mislead",
+      "Dividend Yield vs Payout Ratio",
+      "Trailing Yield vs Forward Yield",
+      "Does Yield on Cost Show What a Stock Earns Today?",
+      "Dividends, Ex-Dividend Dates and Total Return",
+      "How Dividends Are Taxed in the U.S.",
+      "How Often Dividends Are Paid",
+      "How to Compare Two Dividend Stocks Sensibly",
+      "What the Two Numbers Are Good For",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Definitions: FINRA",
+      "Tax and ex-dividend: IRS Pub 550",
+      "Frequency example: Vanguard BND"
+    ],
+    "visuals": [
+      "Yield sensitivity chart in data/charts.json",
+      "No featured image supplied"
+    ],
+    "internal_links": [
+      "/investing/crypto-vs-stocks/",
+      "/investing/qualified-dividends/",
+      "/investing/dividend-reinvestment-plan-calculator/"
+    ],
+    "external_link_opportunities": [
+      "https://www.finra.org/investors/investing/investment-products/stocks",
+      "https://www.irs.gov/publications/p550",
+      "https://fund-docs.vanguard.com/F0928.pdf"
+    ],
+    "excluded_claims": [
+      "Investor.gov definitions (blocked)",
+      "Link to an ex-dividend date guide (page does not exist)"
+    ],
+    "drafting_cautions": [
+      "Hypothetical examples labeled",
+      "No stock recommendation",
+      "No implied returns"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Companies may pay dividends but do not have to, and can cut or eliminate them.",
+      "source_url": "https://www.finra.org/investors/investing/investment-products/stocks",
+      "verified": true
+    },
+    {
+      "statement": "Qualified dividends use the 0%, 15% or 20% net capital gain rates.",
+      "source_url": "https://www.irs.gov/publications/p550",
+      "verified": true
+    },
+    {
+      "statement": "BND lists a monthly dividend schedule.",
+      "source_url": "https://fund-docs.vanguard.com/F0928.pdf",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-06",
+    "note": "Definitions from FINRA and IRS fetched 2026-11-06; all arithmetic recomputed.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-06",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-06",
+    "summary": "Definitions from FINRA and IRS fetched 2026-11-06; all arithmetic recomputed.",
+    "pending": "Owner sign-off."
+  }
+}

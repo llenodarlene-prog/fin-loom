@@ -864,6 +864,24 @@
       "scheduled_publish": "2026-11-10",
       "min_words": 2500,
       "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S49",
+      "working_title": "Dividend and Dividend Yield: What Each Number Tells Investors",
+      "primary_keyword": "dividend and dividend yield",
+      "secondary_keywords": "dividend vs dividend yield; how to calculate dividend yield; dividend yield formula; what is a good dividend yield",
+      "cluster": "Investing",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/investing/dividend-vs-dividend-yield/",
+      "seo_title": "Dividend and Dividend Yield: Formula, Examples, Pitfalls",
+      "meta_description": "Dividend and dividend yield explained: how yield is calculated, why it rises when prices fall, trailing vs forward yield, payout ratio and yield on cost.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft of 2026-11-05; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-10",
+      "min_words": 2500,
+      "no_word_ceiling": true
     }
   ],
   "links": [
@@ -1501,6 +1519,19 @@
       ],
       "silo_role": "Supporting",
       "pillar": "/markets-stocks/stock-analysis-fundamentals/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S49",
+      "url_slug": "/investing/dividend-vs-dividend-yield/",
+      "primary_silo_hub": "/investing/",
+      "approved_outbound_targets": [
+        "/investing/crypto-vs-stocks/",
+        "/investing/dividend-reinvestment-plan-calculator/",
+        "/investing/qualified-dividends/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/investing/crypto-vs-stocks/"
     }
   ]
 }
