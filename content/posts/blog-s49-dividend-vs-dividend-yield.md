@@ -5,7 +5,7 @@ description: Dividend and dividend yield explained: how yield is calculated, why
 slug: /investing/dividend-vs-dividend-yield/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S49
 primary_keyword: dividend and dividend yield
 secondary_keywords: dividend vs dividend yield; how to calculate dividend yield; dividend yield formula; what is a good dividend yield

@@ -5,7 +5,7 @@ description: The best ETFs for Roth IRA portfolios in 2026, compared by role, ex
 slug: /investing/best-etfs-for-roth-ira/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S46
 primary_keyword: best etfs for roth ira
 secondary_keywords: best etf for roth ira; roth ira etfs; vti vs voo roth ira; roth ira contribution limit 2026

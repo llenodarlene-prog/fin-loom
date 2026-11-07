@@ -5,7 +5,7 @@ description: The companies with biggest market cap in November 2026, ranked glob
 slug: /markets-stocks/companies-with-biggest-market-caps/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S48
 primary_keyword: companies with biggest market cap
 secondary_keywords: largest companies by market cap; biggest companies in the world by market cap; largest us companies by market cap; how is market cap calculated

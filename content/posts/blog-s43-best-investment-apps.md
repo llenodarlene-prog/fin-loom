@@ -5,7 +5,7 @@ description: Compare six of the best investment apps for 2026 by trading costs, 
 slug: /investing/best-investment-apps/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S43
 primary_keyword: best investment apps
 secondary_keywords: best investing apps; best investment apps for beginners; best robo advisor app; investment app fees

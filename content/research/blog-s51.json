@@ -377,18 +377,18 @@
     "reviewer": "Darlene Aberin",
     "reviewed_at": "2026-11-07",
     "note": "Apple figures recomputed from apple.com statements fetched 2026-11-07; hypothetical math checked.",
-    "notes": "AI QA layer complete; awaiting owner sign-off."
+    "notes": "Signed off by the site owner (Darlene Aberin) on 2026-11-07 after the AI QA layer, approving the QA changes, removals and schedule."
   },
   "qa": {
     "completed": true,
     "reviewer": "Darlene Aberin",
     "reviewed_at": "2026-11-07",
     "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
-    "notes": "AI QA layer complete; awaiting owner sign-off."
+    "notes": "Signed off by the site owner (Darlene Aberin) on 2026-11-07 after the AI QA layer, approving the QA changes, removals and schedule."
   },
   "verification_log": {
     "checked_on": "2026-11-07",
     "summary": "Apple figures recomputed from apple.com statements fetched 2026-11-07; hypothetical math checked.",
-    "pending": "Owner sign-off."
+    "pending": "None. Owner sign-off received 2026-11-07."
   }
 }

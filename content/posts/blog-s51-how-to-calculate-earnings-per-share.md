@@ -5,7 +5,7 @@ description: The calculation of earnings per share step by step: basic and dilut
 slug: /markets-stocks/how-to-calculate-earnings-per-share/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S51
 primary_keyword: calculation of earnings per share
 secondary_keywords: how to calculate earnings per share; eps formula; basic vs diluted eps; weighted average shares outstanding

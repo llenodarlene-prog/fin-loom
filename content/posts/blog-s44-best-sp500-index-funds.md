@@ -5,7 +5,7 @@ description: Compare the best S&P 500 index fund choices for 2026, FXAIX, VOO, I
 slug: /investing/best-sp500-index-funds/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S44
 primary_keyword: best s&p 500 index fund
 secondary_keywords: best s&p 500 etf; cheapest s&p 500 index fund; voo vs ivv; spym vs spy

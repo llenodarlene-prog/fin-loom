@@ -390,18 +390,18 @@
     "reviewer": "Darlene Aberin",
     "reviewed_at": "2026-11-07",
     "note": "All rules checked against IRS sources fetched 2026-11-06 and 2026-11-07.",
-    "notes": "AI QA layer complete; awaiting owner sign-off."
+    "notes": "Signed off by the site owner (Darlene Aberin) on 2026-11-07 after the AI QA layer, approving the QA changes, removals and schedule."
   },
   "qa": {
     "completed": true,
     "reviewer": "Darlene Aberin",
     "reviewed_at": "2026-11-07",
     "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
-    "notes": "AI QA layer complete; awaiting owner sign-off."
+    "notes": "Signed off by the site owner (Darlene Aberin) on 2026-11-07 after the AI QA layer, approving the QA changes, removals and schedule."
   },
   "verification_log": {
     "checked_on": "2026-11-07",
     "summary": "All rules checked against IRS sources fetched 2026-11-06 and 2026-11-07.",
-    "pending": "Owner sign-off."
+    "pending": "None. Owner sign-off received 2026-11-07."
   }
 }
