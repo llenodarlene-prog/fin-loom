@@ -10,7 +10,7 @@ tracker_id: Blog:S16
 primary_keyword: stock analysis fundamentals
 secondary_keywords: fundamental stock analysis; how to analyze stocks; stock fundamentals; financial statement analysis; stock valuation fundamentals
 cluster: Markets & Stocks
-approved_internal_links: /markets-stocks/ai-capital-spending-big-tech/; /markets-stocks/amazon-statistics/; /markets-stocks/apple-statistics/; /markets-stocks/bear-vs-bull-market/; /markets-stocks/best-free-stock-screeners/; /markets-stocks/best-stock-analysis-apps/; /markets-stocks/best-stock-screeners-compared/; /markets-stocks/equity-research-reports/; /markets-stocks/forrester-research-stock/; /markets-stocks/google-revenue-statistics/; /markets-stocks/highest-yield-dividend-stocks/; /markets-stocks/morningstar-stock-screener/; /markets-stocks/stock-research-analyst-role/; /markets-stocks/stock-screener-metrics-guide/; /markets-stocks/technical-analysis-for-stocks/; /markets-stocks/yahoo-finance-stock-research/; /markets-stocks/zacks-stock-screener/
+approved_internal_links: /markets-stocks/ai-capital-spending-big-tech/; /markets-stocks/amazon-statistics/; /markets-stocks/apple-statistics/; /markets-stocks/bear-vs-bull-market/; /markets-stocks/best-free-stock-screeners/; /markets-stocks/best-stock-analysis-apps/; /markets-stocks/best-stock-screeners-compared/; /markets-stocks/companies-with-biggest-market-caps/; /markets-stocks/equity-research-reports/; /markets-stocks/forrester-research-stock/; /markets-stocks/google-revenue-statistics/; /markets-stocks/highest-yield-dividend-stocks/; /markets-stocks/how-to-calculate-earnings-per-share/; /markets-stocks/morningstar-stock-screener/; /markets-stocks/stock-research-analyst-role/; /markets-stocks/stock-screener-metrics-guide/; /markets-stocks/technical-analysis-for-stocks/; /markets-stocks/yahoo-finance-stock-research/; /markets-stocks/zacks-stock-screener/
 research_record: content/research/blog-s16.json
 image: /assets/images/posts/stock-analysis-fundamentals/research-desk-charts-1600.jpg
 image_alt: A laptop showing bar and line charts beside a calculator, notebook, and printed financial reports on an office desk
@@ -181,6 +181,9 @@ Enterprise value incorporates equity value and net debt, making ratios such as E
 ### Discounted Cash Flow
 
 A DCF estimates the present value of future cash flows. It forces the investor to state assumptions about growth, margins, reinvestment, and the discount rate, but the result can be highly sensitive to those assumptions. Small changes in the discount rate or long-term growth rate can move the result a great deal. Testing a range of assumptions shows how much confidence the estimate deserves.
+
+Valuation starts with two building blocks. FinLoom's guide to the [calculation of earnings per share](/markets-stocks/how-to-calculate-earnings-per-share/) explains basic and diluted EPS with real figures, and the ranking of the [companies with biggest market cap](/markets-stocks/companies-with-biggest-market-caps/) shows how share price and share count combine into company size.
+
 
 ## Screening Helps Find Candidates, but It Does Not Complete the Analysis
 

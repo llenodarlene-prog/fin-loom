@@ -1,0 +1,491 @@
+{
+  "tracker_id": "Blog:S46",
+  "status": "verified",
+  "research_question": "Which low-cost ETFs fill which roles in a Roth IRA, and what are the 2026 IRA rules?",
+  "research_brief": {
+    "purpose": "Explain six ETF roles with verified Vanguard data and 2026 IRS IRA rules.",
+    "audience": "U.S. investors building a Roth IRA.",
+    "publication_year": "2026",
+    "data_period": "Vanguard fund data and fact sheets as of September 30, 2026, fetched November 6, 2026; IRS pages fetched November 6, 2026.",
+    "scope_limitations": "Expense ratios from Vanguard fund data endpoint (as of Feb 27 or Apr 28, 2026). No fund screenshots: Vanguard pages did not render for capture."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "best etfs for roth ira",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-11-01",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-06",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "best etfs for roth ira",
+        "type": "short-tail",
+        "volume": 2400,
+        "difficulty": 30,
+        "cpc": 4.34,
+        "intent": "Commercial",
+        "ranking_url": "http://thepersonalfinancepodcast.com/videos/best-etfs-for-a-roth-ira/",
+        "retrieved_at": "2026-11-06",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best etf for roth ira",
+        "type": "long-tail",
+        "volume": 1900,
+        "difficulty": 31,
+        "cpc": 5.59,
+        "intent": "Commercial",
+        "ranking_url": "http://www.facebook.com/groups/sensible.investing/posts/1651680139040733/",
+        "retrieved_at": "2026-11-06",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "roth ira etfs",
+        "type": "commercial",
+        "volume": 140,
+        "difficulty": 31,
+        "cpc": 5.21,
+        "intent": "Commercial",
+        "ranking_url": "https://fund-docs.vanguard.com/F3141.pdf",
+        "retrieved_at": "2026-11-06",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "vti vs voo",
+        "type": "problem",
+        "volume": 18100,
+        "difficulty": 27,
+        "cpc": 1.72,
+        "intent": "Commercial",
+        "ranking_url": "https://fund-docs.vanguard.com/F0970.pdf",
+        "retrieved_at": "2026-11-06",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "roth ira contribution limit 2026",
+        "type": "question",
+        "volume": 1900,
+        "difficulty": 56,
+        "cpc": 2.05,
+        "intent": "Informational",
+        "ranking_url": "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-ira-contribution-limits",
+        "retrieved_at": "2026-11-06",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://fund-docs.vanguard.com/F0970.pdf",
+      "title": "Vanguard Morningstar Total Stock Market ETF fact sheet",
+      "publisher": "Vanguard",
+      "source_type": "Fund fact sheet",
+      "year": "2026",
+      "published_at": "2026-09-30",
+      "accessed_at": "2026-11-06",
+      "scope": "Benchmark, 3,519 stocks",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Point-in-time fact sheet.",
+      "verified": true
+    },
+    {
+      "url": "https://fund-docs.vanguard.com/F3369.pdf",
+      "title": "Vanguard Total International Stock ETF fact sheet",
+      "publisher": "Vanguard",
+      "source_type": "Fund fact sheet",
+      "year": "2026",
+      "published_at": "2026-09-30",
+      "accessed_at": "2026-11-06",
+      "scope": "Benchmark, 8,901 stocks, Japan 16.1%",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Point-in-time fact sheet.",
+      "verified": true
+    },
+    {
+      "url": "https://fund-docs.vanguard.com/F3141.pdf",
+      "title": "Vanguard Total World Stock ETF fact sheet",
+      "publisher": "Vanguard",
+      "source_type": "Fund fact sheet",
+      "year": "2026",
+      "published_at": "2026-09-30",
+      "accessed_at": "2026-11-06",
+      "scope": "Benchmark, 10,185 stocks, $101,182 million, US 62.4%",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Point-in-time fact sheet.",
+      "verified": true
+    },
+    {
+      "url": "https://fund-docs.vanguard.com/F0928.pdf",
+      "title": "Vanguard Total Bond Market ETF fact sheet",
+      "publisher": "Vanguard",
+      "source_type": "Fund fact sheet",
+      "year": "2026",
+      "published_at": "2026-09-30",
+      "accessed_at": "2026-11-06",
+      "scope": "11,434 bonds, duration 5.7 years, maturity 8.3 years",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Point-in-time fact sheet.",
+      "verified": true
+    },
+    {
+      "url": "https://fund-docs.vanguard.com/F3711.pdf",
+      "title": "Vanguard Total International Bond ETF fact sheet",
+      "publisher": "Vanguard",
+      "source_type": "Fund fact sheet",
+      "year": "2026",
+      "published_at": "2026-09-30",
+      "accessed_at": "2026-11-06",
+      "scope": "6,837 bonds, duration 6.4 years, hedged benchmark",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Point-in-time fact sheet.",
+      "verified": true
+    },
+    {
+      "url": "https://investor.vanguard.com/vmf/api/VTI/profile",
+      "title": "Vanguard fund profile data",
+      "publisher": "Vanguard",
+      "source_type": "Issuer fund data",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-06",
+      "scope": "Expense ratios and as-of dates for VTI, VOO, VXUS, VT, BND, BNDX",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-ira-contribution-limits",
+      "title": "Retirement topics: IRA contribution limits",
+      "publisher": "Internal Revenue Service",
+      "source_type": "IRS guidance",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-06",
+      "scope": "2026 limit $7,500 or $8,600 at 50+",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.irs.gov/newsroom/saving-for-retirement-iras-are-an-option",
+      "title": "Saving for retirement: IRAs are an option",
+      "publisher": "Internal Revenue Service",
+      "source_type": "IRS news release",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-06",
+      "scope": "Roth contributions after-tax, qualified distributions tax-free, no RMD",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "VTI held 3,519 stocks on September 30, 2026.",
+      "source_url": "https://fund-docs.vanguard.com/F0970.pdf",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Count",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "VT held 62.4% U.S. stocks on September 30, 2026.",
+      "source_url": "https://fund-docs.vanguard.com/F3141.pdf",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent of common stock",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "BND average duration 5.7 years on September 30, 2026.",
+      "source_url": "https://fund-docs.vanguard.com/F0928.pdf",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Years",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "2026 IRA limit $7,500, or $8,600 at age 50 or older.",
+      "source_url": "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-ira-contribution-limits",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Roth IRA - mutual funds or ETFs? r/Bogleheads",
+      "url": "http://google.com/goto?url=CAESjgEB6zswFTUSqOXLAkBRaG-2AEdehPi5rWhUncEdkWv4ZGhcnwvaBbU6nLfMtxgNCNvxxCEND21xqO_Zqnggh8NpAFSvd0b6NzNL6luIR76EQN62ICVSv_054FiBoLuHZwXrqtlBJU3knqYvk1pejlFCLQ6xQyfuHtdn-3uKjzOdUCyTjjfPEnbXPGyySVn7",
+      "publisher": "reddit.com",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "best etfs for roth ira"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Lists funds to buy without explaining overlap or the role each fund plays."
+    },
+    {
+      "title": "8 best Roth IRA investments to maximize your retirement",
+      "url": "http://google.com/goto?url=CAEShAEB6zswFf-Ic-5QbzfA4htFLXjtw1zV7NyHThamwib-7Xb394M_aUC1MBdJk3OcA3MwpEyrxUDz08drgcbz4nNYwq3OoPkPEd6YOHC0RXY6fuMcC3Jf5gPiLDXlGtR0sTr-dCH6DbemX5vUPudLDkXWKExitLMV_qmRsPApAclFecDVS80",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "best etfs for roth ira"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Lists funds to buy without explaining overlap or the role each fund plays."
+    },
+    {
+      "title": "What are best ETFs for a Roth IRA?",
+      "url": "http://www.facebook.com/groups/sensible.investing/posts/1651680139040733/",
+      "publisher": "facebook.com",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "best etfs for roth ira"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Lists funds to buy without explaining overlap or the role each fund plays."
+    },
+    {
+      "title": "Powerful Vanguard Mutual Funds for Your Roth IRA",
+      "url": "http://google.com/goto?url=CAESoAEB6zswFVLjtdE2i22EVQjb5N8vvIFvzkIolLGtjg0SgV8Pu_CSy-uzL1SdpswhqDrI5xSSjVxPj07OFawspB2xZa5R_Kg3-Pnoy1Ikk-alCwL6T22qHvNUJqtRhNkrQ1AvZb3IjLkrdtUiH9_X_6fKMsoFOUt9506QGSVIQqqsSjVW2Cm8c_vyg7DSgrTooaOMpUp7DmNzFfpPFdqL-sFT",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "best etfs for roth ira"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Lists funds to buy without explaining overlap or the role each fund plays."
+    },
+    {
+      "title": "Best ETFs for a Roth IRA!",
+      "url": "http://thepersonalfinancepodcast.com/videos/best-etfs-for-a-roth-ira/",
+      "publisher": "thepersonalfinancepodcast.com",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "best etfs for roth ira"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Lists funds to buy without explaining overlap or the role each fund plays."
+    }
+  ],
+  "content_gaps": [
+    "Fund roles instead of a buy list",
+    "Overlap between VTI, VOO and VT",
+    "Bond duration explained",
+    "2026 IRA limits from the IRS"
+  ],
+  "value_add": "Six funds organized by portfolio role with September 2026 fact-sheet data and IRS-verified 2026 rules.",
+  "plan": {
+    "reader_title": "Best ETFs for Roth IRA Accounts in 2026: Six Funds for Different Portfolio Roles",
+    "seo_title": "Best ETFs for Roth IRA Portfolios in 2026: Six Funds",
+    "meta_description": "The best ETFs for Roth IRA portfolios in 2026, compared by role, expense ratio and holdings: VTI, VOO, VXUS, VT, BND and BNDX, plus 2026 IRA rules.",
+    "slug": "/investing/best-etfs-for-roth-ira/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "best etf for roth ira",
+      "roth ira etfs",
+      "vti vs voo roth ira",
+      "roth ira contribution limit 2026"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "Six ETF Choices Compared",
+      "VTI: Broad U.S. Stock Market Exposure",
+      "VOO: A Focused U.S. Large-Company Core",
+      "VXUS: International Stocks Beyond the U.S.",
+      "VT: A Global Stock Fund That Cuts Maintenance",
+      "BND: A Broad U.S. Bond Component",
+      "BNDX: International Bond Diversification",
+      "Three Illustrative Structures, Not Prescribed Portfolios",
+      "Do Low ETF Fees Count for Much Inside a Roth IRA?",
+      "Roth IRA Rules Worth Knowing in 2026",
+      "Stocks, Bonds and Other Assets in an IRA",
+      "How to Choose Among the Best ETFs for Roth IRA Accounts",
+      "Picking Fewer Funds Can Be a Stronger Decision",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Fund data: Vanguard fact sheets and fund data",
+      "IRA rules: IRS"
+    ],
+    "visuals": [
+      "Owner-supplied featured image",
+      "Comparison table"
+    ],
+    "internal_links": [
+      "/investing/crypto-vs-stocks/",
+      "/investing/best-sp500-index-funds/",
+      "/investing/dividend-vs-dividend-yield/"
+    ],
+    "external_link_opportunities": [
+      "https://fund-docs.vanguard.com/F0970.pdf",
+      "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-ira-contribution-limits",
+      "https://www.irs.gov/newsroom/saving-for-retirement-iras-are-an-option"
+    ],
+    "excluded_claims": [
+      "Links to ETF vs index fund and compound interest calculator pages (pages do not exist)"
+    ],
+    "drafting_cautions": [
+      "No buy recommendation",
+      "Structures labeled as examples",
+      "Duration effect labeled as approximation"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "VTI tracks the Morningstar US Total Market Index and held 3,519 stocks.",
+      "source_url": "https://fund-docs.vanguard.com/F0970.pdf",
+      "verified": true
+    },
+    {
+      "statement": "The 2026 IRA contribution limit is $7,500, or $8,600 at 50 or older.",
+      "source_url": "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-ira-contribution-limits",
+      "verified": true
+    },
+    {
+      "statement": "Roth IRAs have no required minimum distribution for the owner.",
+      "source_url": "https://www.irs.gov/newsroom/saving-for-retirement-iras-are-an-option",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-06",
+    "note": "Expense ratios, fund facts and IRS rules checked on primary sources fetched 2026-11-06.",
+    "notes": "Signed off by the site owner (Darlene Aberin) on 2026-11-07 after the AI QA layer, approving the QA changes, removals and schedule."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-06",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "Signed off by the site owner (Darlene Aberin) on 2026-11-07 after the AI QA layer, approving the QA changes, removals and schedule."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-06",
+    "summary": "Expense ratios, fund facts and IRS rules checked on primary sources fetched 2026-11-06.",
+    "pending": "None. Owner sign-off received 2026-11-07."
+  }
+}

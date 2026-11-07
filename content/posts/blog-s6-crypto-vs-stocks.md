@@ -10,7 +10,7 @@ tracker_id: Blog:S6
 primary_keyword: crypto vs stocks
 secondary_keywords: 
 cluster: Investing
-approved_internal_links: /investing/bitcoin-allocation/; /investing/dividend-reinvestment-plan-calculator/; /investing/index-fund-vs-mutual-fund/; /investing/per-capita-gdp-explained/; /investing/qualified-dividends/; /investing/stock-risk-metrics/
+approved_internal_links: /investing/best-etfs-for-roth-ira/; /investing/best-investment-apps/; /investing/best-sp500-index-funds/; /investing/bitcoin-allocation/; /investing/dividend-reinvestment-plan-calculator/; /investing/dividend-vs-dividend-yield/; /investing/index-fund-vs-mutual-fund/; /investing/per-capita-gdp-explained/; /investing/qualified-dividends/; /investing/stock-risk-metrics/
 research_record: content/research/blog-s6.json
 image: /assets/images/posts/crypto-vs-stocks/market-chart-and-coin-desk-1600.jpg
 image_alt: A laptop showing a market chart beside a gold coin and a stack of finance books, with a city skyline at sunrise
@@ -193,6 +193,9 @@ Crypto “yield” can come from very different mechanisms: staking rewards, len
 
 Investors should ask where the yield originates. If the answer is simply “more tokens are issued,” the investor may be earning units while being diluted economically.
 
+For stock investors, yield is one number among several. FinLoom's explainer on [dividend and dividend yield](/investing/dividend-vs-dividend-yield/) shows why a high yield can come from a falling share price rather than a stronger business.
+
+
 ## Custody Can Become Part of the Investment Thesis
 
 With stocks, custody is usually invisible to retail investors. They log into a brokerage account and see the securities. Crypto makes custody explicit.
@@ -248,6 +251,9 @@ Money needed next year should be treated differently from money intended for ret
 A large decline shortly before the money is needed can force the investor to sell at a loss. Investor.gov's asset-allocation guidance emphasizes that the appropriate mix depends partly on investing timeframe and risk tolerance.
 
 That principle is especially relevant for volatile assets. If a 50% decline would force a sale because the cash is needed, the position may be too large regardless of the investor's long-term conviction.
+
+Many long-term stock investors start with broad funds rather than single companies. The guides to the [best S&P 500 index fund](/investing/best-sp500-index-funds/) options and the [best ETFs for Roth IRA](/investing/best-etfs-for-roth-ira/) accounts compare costs and portfolio roles, and the comparison of the [best investment apps](/investing/best-investment-apps/) covers where those funds can be bought.
+
 
 ## Rebalancing Creates Discipline
 
