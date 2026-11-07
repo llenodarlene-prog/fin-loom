@@ -10,7 +10,7 @@ tracker_id: Blog:S9
 primary_keyword: saving vs investing
 secondary_keywords: 
 cluster: Money & Banking
-approved_internal_links: /investing/per-capita-gdp-explained/; /money-banking/apy-calculator/; /money-banking/apy-meaning/; /money-banking/apy-vs-interest-rate/; /money-banking/identity-theft-statistics/; /money-banking/inflation-rate-by-year/; /money-banking/savings-interest-calculator/; /money-banking/what-is-a-credit-score/
+approved_internal_links: /investing/per-capita-gdp-explained/; /money-banking/apy-calculator/; /money-banking/apy-meaning/; /money-banking/apy-vs-interest-rate/; /money-banking/best-budgeting-apps/; /money-banking/best-hsa-accounts/; /money-banking/hsa-vs-fsa/; /money-banking/hsa-vs-hra/; /money-banking/identity-theft-statistics/; /money-banking/inflation-rate-by-year/; /money-banking/savings-interest-calculator/; /money-banking/what-is-a-credit-score/
 research_record: content/research/blog-s9.json
 image: /assets/images/posts/saving-vs-investing/reviewing-financial-plan-1600.jpg
 image_alt: Two people reviewing printed financial charts at a desk with a tablet and coffee
@@ -235,6 +235,9 @@ Long-term investing may occur through employer retirement plans, IRAs, health sa
 
 For example, an employer match can materially change the economics of retirement contributions. Withdrawal restrictions can also reduce liquidity. The account wrapper and the investment inside it are separate decisions.
 
+Health savings accounts sit on the same boundary between saving and investing. FinLoom's comparisons of [HSA vs FSA](/money-banking/hsa-vs-fsa/) and [HSA vs HRA](/money-banking/hsa-vs-hra/) explain which health accounts let you keep and invest unused money, and the guide to the [best HSA accounts](/money-banking/best-hsa-accounts/) compares provider fees and cash options.
+
+
 ## Savings Accounts Are Not All the Same
 
 Consumers should distinguish: traditional savings accounts, high-yield savings accounts, money-market deposit accounts, money-market mutual funds, CDs, and treasury securities. They may sound similar but differ in insurance, liquidity, price behavior, and withdrawal terms.
@@ -354,6 +357,9 @@ The purpose is not to predict a crash. It is to reduce the dependence of the goa
 Behavior is easier when decisions are automated. For instance, savings can be transferred automatically after each paycheck, and retirement contributions can occur through payroll. Likewise, brokerage contributions can be scheduled.
 
 Automation reduces the temptation to wait for a “better time.” For long-term investing, waiting for certainty can keep money on the sidelines indefinitely. For saving, automation prevents near-term spending from consuming money intended for future goals.
+
+A budgeting app can automate the first step by showing what is left after bills each month. FinLoom's comparison of the [best budgeting apps](/money-banking/best-budgeting-apps/) explains which apps suit zero-based budgets, shared household views or simple spending limits.
+
 
 ## Review the Plan When Life Changes
 

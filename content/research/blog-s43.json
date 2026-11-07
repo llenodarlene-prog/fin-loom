@@ -1,0 +1,579 @@
+{
+  "tracker_id": "Blog:S43",
+  "status": "verified",
+  "research_question": "Which investing apps fit which investing jobs in 2026, and what do they cost beyond the headline commission?",
+  "research_brief": {
+    "purpose": "Compare six investing platforms by verified fees, automation, IRA matches and protection.",
+    "audience": "U.S. investors choosing an investing app.",
+    "publication_year": "2026",
+    "data_period": "Official pricing, disclosure and help pages fetched November 5 and 6, 2026.",
+    "scope_limitations": "Charles Schwab removed: schwab.com and intelligent.schwab.com blocked automated requests, so no Schwab figure could be verified. SoFi minimums and Public fee figures could not be confirmed and were removed."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "best investment apps",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-10-25",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-06",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "best investment apps",
+        "type": "short-tail",
+        "volume": 9900,
+        "difficulty": 35,
+        "cpc": 11.59,
+        "intent": "Commercial",
+        "ranking_url": "http://www.success.com/best-investing-apps",
+        "retrieved_at": "2026-11-06",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best investing apps",
+        "type": "long-tail",
+        "volume": 3600,
+        "difficulty": 31,
+        "cpc": 9.85,
+        "intent": "Commercial",
+        "ranking_url": "http://www.essence.com/lifestyle/tech/the-upgrade-stock-beginners/",
+        "retrieved_at": "2026-11-06",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best robo advisor",
+        "type": "commercial",
+        "volume": 1000,
+        "difficulty": 45,
+        "cpc": 8.07,
+        "intent": "Commercial",
+        "ranking_url": "https://www.betterment.com/",
+        "retrieved_at": "2026-11-06",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best investment apps for beginners",
+        "type": "problem",
+        "volume": 1900,
+        "difficulty": 39,
+        "cpc": 9.96,
+        "intent": "Commercial",
+        "ranking_url": "http://www.investors.com/ibd-videos/videos/best-investment-apps-for-you-5-picks-to-help-you-make-more-money",
+        "retrieved_at": "2026-11-06",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "are investment apps safe",
+        "type": "question",
+        "volume": 30,
+        "difficulty": 37,
+        "cpc": 2.33,
+        "intent": "Informational",
+        "ranking_url": "https://www.sipc.org/for-investors/what-sipc-protects",
+        "retrieved_at": "2026-11-06",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.fidelity.com/trading/commissions-margin-rates",
+      "title": "Commissions and margin rates",
+      "publisher": "Fidelity",
+      "source_type": "Company pricing page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-06",
+      "scope": "$0 online stock, ETF, option commissions; $0.65 per contract",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.fidelity.com/investing/brokerage-account",
+      "title": "Brokerage account",
+      "publisher": "Fidelity",
+      "source_type": "Company product page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-06",
+      "scope": "No minimum, fractional shares from $1",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.fidelity.com/managed-accounts/fidelity-go/overview",
+      "title": "Fidelity Go",
+      "publisher": "Fidelity",
+      "source_type": "Company product page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-06",
+      "scope": "$0 advisory fee under $25,000, 0.35% above, coaching",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.fidelity.com/crypto/overview",
+      "title": "Fidelity crypto",
+      "publisher": "Fidelity",
+      "source_type": "Company product page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-06",
+      "scope": "Crypto not insured by FDIC or SIPC",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://robinhood.com/us/en/support/articles/gold-overview/",
+      "title": "Robinhood Gold overview",
+      "publisher": "Robinhood",
+      "source_type": "Company help article",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-06",
+      "scope": "Gold $5 per month or $50 per year",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://robinhood.com/us/en/support/articles/ira-match-faq/",
+      "title": "IRA match FAQ",
+      "publisher": "Robinhood",
+      "source_type": "Company help article",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-06",
+      "scope": "3% with Gold, 1% without, 5-year hold",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.sofi.com/invest/automated/",
+      "title": "Automated investing",
+      "publisher": "SoFi",
+      "source_type": "Company product page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-06",
+      "scope": "0.25% fee based on account value",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.acorns.com/pricing/",
+      "title": "Acorns pricing",
+      "publisher": "Acorns",
+      "source_type": "Company pricing page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-06",
+      "scope": "$4, $8, $12 plans and first-year IRA matches",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.betterment.com/legal/fee-disclosure",
+      "title": "Fee disclosure",
+      "publisher": "Betterment",
+      "source_type": "Company disclosure",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-06",
+      "scope": "Digital 0.25% or $5 per month; Premium 0.65%",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://public.com/",
+      "title": "Public home page",
+      "publisher": "Public",
+      "source_type": "Company product page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-06",
+      "scope": "Products, IRAs, AI agents, Alpha, direct indexing",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://public.com/disclosures/customer-fee-schedule/",
+      "title": "Customer fee schedule",
+      "publisher": "Public",
+      "source_type": "Company disclosure",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-06",
+      "scope": "Fee schedule reference",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.sipc.org/for-investors/what-sipc-protects",
+      "title": "What SIPC protects",
+      "publisher": "SIPC",
+      "source_type": "Statutory body investor page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-06",
+      "scope": "$500,000 limit including $250,000 cash; no protection for value declines",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://robinhood.com/us/en/",
+      "title": "Robinhood home page",
+      "publisher": "Robinhood",
+      "source_type": "Company product page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-06",
+      "scope": "Products offered, $1 start",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Fidelity charges $0.65 per options contract and $0 online stock and ETF commissions.",
+      "source_url": "https://www.fidelity.com/trading/commissions-margin-rates",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Robinhood Gold costs $5 per month or $50 per year.",
+      "source_url": "https://robinhood.com/us/en/support/articles/gold-overview/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Betterment Digital costs 0.25% a year or $5 a month; Premium 0.65%.",
+      "source_url": "https://www.betterment.com/legal/fee-disclosure",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent of assets",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Acorns plans cost $4, $8 and $12 per month.",
+      "source_url": "https://www.acorns.com/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "SIPC protection limit is $500,000 including $250,000 for cash.",
+      "source_url": "https://www.sipc.org/for-investors/what-sipc-protects",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "What's the BEST Investing App for Beginners NOW?",
+      "url": "http://www.youtube.com/watch?v=DRLadxLX91g",
+      "publisher": "youtube.com",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "best investment apps"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Lists apps by commission without subscription cost on small balances, IRA match holding rules or custody protection."
+    },
+    {
+      "title": "Best Investing Apps for Making Smart Investment Decisions",
+      "url": "http://www.success.com/best-investing-apps",
+      "publisher": "success.com",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "best investment apps"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Lists apps by commission without subscription cost on small balances, IRA match holding rules or custody protection."
+    },
+    {
+      "title": "Get Into The Stock Game With These Beginner Investment Apps",
+      "url": "http://www.essence.com/lifestyle/tech/the-upgrade-stock-beginners/",
+      "publisher": "essence.com",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "best investment apps"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Lists apps by commission without subscription cost on small balances, IRA match holding rules or custody protection."
+    },
+    {
+      "title": "Best Investment Apps For You: 5 Picks",
+      "url": "http://www.investors.com/ibd-videos/videos/best-investment-apps-for-you-5-picks-to-help-you-make-more-money",
+      "publisher": "investors.com",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "best investment apps"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Lists apps by commission without subscription cost on small balances, IRA match holding rules or custody protection."
+    },
+    {
+      "title": "10 Best Stock Buying Apps",
+      "url": "http://www.creditdonkey.com/best-stock-buying-apps.html",
+      "publisher": "creditdonkey.com",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "best investment apps"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Lists apps by commission without subscription cost on small balances, IRA match holding rules or custody protection."
+    }
+  ],
+  "content_gaps": [
+    "Total cost beyond the $0 commission",
+    "Subscription cost on small balances",
+    "IRA match holding conditions",
+    "SIPC vs FDIC vs crypto custody",
+    "Who should not use each platform"
+  ],
+  "value_add": "Six platforms tied to distinct jobs, all figures from official pages, a fee-by-balance table and a plain SIPC versus FDIC explanation.",
+  "plan": {
+    "reader_title": "Best Investment Apps for 2026: 6 Platforms Compared by Fees, Automation and Investor Fit",
+    "seo_title": "Best Investment Apps for 2026: 6 Platforms Compared",
+    "meta_description": "Compare six of the best investment apps for 2026 by trading costs, advisory fees, IRA matches, fractional shares, automation, research tools and investor fit.",
+    "slug": "/investing/best-investment-apps/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "best investing apps",
+      "best investment apps for beginners",
+      "best robo advisor app",
+      "investment app fees"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "Best Investment Apps at a Glance",
+      "How We Evaluated Investment Apps",
+      "1. Fidelity: Best Overall for Long-Term Investors",
+      "2. Robinhood: Best Mobile-First Option With an IRA Match",
+      "3. SoFi Invest: Best Beginner Hybrid",
+      "4. Acorns: Best for Automatic Micro-Investing",
+      "5. Betterment: Best Robo-Advisor",
+      "6. Public: Best for Multi-Asset Access and AI Research Features",
+      "How Much Do Investment Apps Really Cost?",
+      "IRA Matches: Read the Conditions, Not Just the Percentage",
+      "SIPC vs. FDIC: What Protection Does an Investment App Have?",
+      "Which Investment App Is Best for Beginners?",
+      "Which Investment App Is Best for Hands-Off Investing?",
+      "How Investing Apps Fit a Wider Portfolio",
+      "The Best App Is the One That Fits the Account You Are Building",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Fees: company pricing and disclosure pages",
+      "IRA match rules: Robinhood FAQ and Acorns pricing",
+      "Protection: SIPC"
+    ],
+    "visuals": [
+      "Owner-supplied featured image",
+      "Robinhood Legend screenshot captured 2026-11-06",
+      "Official product images for Fidelity, SoFi, Acorns, Betterment and Public"
+    ],
+    "internal_links": [
+      "/investing/crypto-vs-stocks/",
+      "/investing/best-sp500-index-funds/",
+      "/investing/index-fund-vs-mutual-fund/"
+    ],
+    "external_link_opportunities": [
+      "https://www.fidelity.com/trading/commissions-margin-rates",
+      "https://robinhood.com/us/en/support/articles/ira-match-faq/",
+      "https://www.sipc.org/for-investors/what-sipc-protects"
+    ],
+    "excluded_claims": [
+      "Charles Schwab section (site blocked automated access; no figure verifiable)",
+      "SoFi $5 and $50 minimums (not found)",
+      "Public $2.99 extended-hours fee and $0 regular-hours commission (not found)"
+    ],
+    "drafting_cautions": [
+      "No buy or sell recommendation",
+      "Sample agent strategies labeled as the company examples",
+      "Forecast images labeled as estimates"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Fidelity lists $0 online stock, ETF and option commissions and a $0.65 per-contract fee.",
+      "source_url": "https://www.fidelity.com/trading/commissions-margin-rates",
+      "verified": true
+    },
+    {
+      "statement": "Robinhood IRA match is 3% with Gold and 1% without, with a 5-year holding requirement.",
+      "source_url": "https://robinhood.com/us/en/support/articles/ira-match-faq/",
+      "verified": true
+    },
+    {
+      "statement": "SIPC limit is $500,000 including $250,000 cash and does not protect against value declines.",
+      "source_url": "https://www.sipc.org/for-investors/what-sipc-protects",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-06",
+    "note": "All fees checked on official pages fetched 2026-11-05 and 2026-11-06; Schwab and other unverifiable items removed.",
+    "notes": "Signed off by the site owner (Darlene Aberin) on 2026-11-07 after the AI QA layer, approving the QA changes, removals and schedule."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-06",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "Signed off by the site owner (Darlene Aberin) on 2026-11-07 after the AI QA layer, approving the QA changes, removals and schedule."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-06",
+    "summary": "All fees checked on official pages fetched 2026-11-05 and 2026-11-06; Schwab and other unverifiable items removed.",
+    "pending": "None. Owner sign-off received 2026-11-07."
+  }
+}

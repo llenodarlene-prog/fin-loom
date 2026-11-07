@@ -1,0 +1,407 @@
+{
+  "tracker_id": "Blog:S50",
+  "status": "verified",
+  "research_question": "How do HSAs and HRAs differ in ownership, funding and tax rules, and when can they be combined?",
+  "research_brief": {
+    "purpose": "Explain HSA and HRA differences and compatibility using IRS sources.",
+    "audience": "U.S. employees comparing employer health benefits.",
+    "publication_year": "2026",
+    "data_period": "IRS Publication 969, Rev. Proc. 2025-19 and the premium tax credit Q&A (updated Feb 19 2026), fetched November 6 and 7, 2026.",
+    "scope_limitations": "QSEHRA paragraph removed: the cited IRS page did not cover QSEHRAs and no primary source was confirmed."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "hsa vs hra",
+    "intent": "Informational",
+    "serp_checked_at": "2026-11-02",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-07",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "hsa vs hra",
+        "type": "short-tail",
+        "volume": 12100,
+        "difficulty": 27,
+        "cpc": 2.18,
+        "intent": "Informational",
+        "ranking_url": "http://www.peoplekeep.com/blog/hra-vs-hsa-vs-fsa-comparison-chart",
+        "retrieved_at": "2026-11-07",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "hra vs hsa",
+        "type": "long-tail",
+        "volume": 12100,
+        "difficulty": 36,
+        "cpc": 2.4,
+        "intent": "Informational",
+        "ranking_url": "https://www.irs.gov/publications/p969",
+        "retrieved_at": "2026-11-07",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "difference between hsa and hra",
+        "type": "commercial",
+        "volume": 1300,
+        "difficulty": 28,
+        "cpc": 2.15,
+        "intent": "Informational",
+        "ranking_url": "https://www.irs.gov/irb/2025-21_IRB",
+        "retrieved_at": "2026-11-07",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "can you have an hsa and hra",
+        "type": "problem",
+        "volume": 170,
+        "difficulty": 29,
+        "cpc": 0.01,
+        "intent": "Informational",
+        "ranking_url": "https://www.irs.gov/publications/p15b",
+        "retrieved_at": "2026-11-07",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is an hra",
+        "type": "question",
+        "volume": 6600,
+        "difficulty": 33,
+        "cpc": 12.99,
+        "intent": "Informational",
+        "ranking_url": "https://www.irs.gov/affordable-care-act/individuals-and-families/questions-and-answers-on-the-premium-tax-credit",
+        "retrieved_at": "2026-11-07",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.irs.gov/publications/p969",
+      "title": "Publication 969",
+      "publisher": "Internal Revenue Service",
+      "source_type": "IRS publication",
+      "year": "2025",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-07",
+      "scope": "HRA funding, tax treatment, carryforward, compatibility exceptions, rollovers, excess contributions",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "2025 edition.",
+      "verified": true
+    },
+    {
+      "url": "https://www.irs.gov/irb/2025-21_IRB",
+      "title": "Revenue Procedure 2025-19",
+      "publisher": "Internal Revenue Service",
+      "source_type": "IRS guidance",
+      "year": "2025",
+      "published_at": "2025-05-19",
+      "accessed_at": "2026-11-07",
+      "scope": "2026 HSA, HDHP and excepted benefit HRA limits",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Annual adjustments only.",
+      "verified": true
+    },
+    {
+      "url": "https://www.irs.gov/affordable-care-act/individuals-and-families/questions-and-answers-on-the-premium-tax-credit",
+      "title": "Questions and answers on the premium tax credit",
+      "publisher": "Internal Revenue Service",
+      "source_type": "IRS guidance",
+      "year": "2026",
+      "published_at": "2026-02-19",
+      "accessed_at": "2026-11-07",
+      "scope": "ICHRA and premium tax credit (Q22, updated Feb 19 2026)",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Detailed affordability rules in regulations.",
+      "verified": true
+    },
+    {
+      "url": "https://www.irs.gov/publications/p15b",
+      "title": "Publication 15-B",
+      "publisher": "Internal Revenue Service",
+      "source_type": "IRS publication",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-07",
+      "scope": "Employer fringe benefit context",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Employer-focused.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "2026 excepted benefit HRA newly available amount capped at $2,200.",
+      "source_url": "https://www.irs.gov/irb/2025-21_IRB",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "2026 HSA limits $4,400 and $8,750.",
+      "source_url": "https://www.irs.gov/irb/2025-21_IRB",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Should I Offer an HRA or HSA?",
+      "url": "http://google.com/goto?url=CAESdwHrOzAVY9FRXGxqXqfzGqgEiyu8Zdz0rP2_-SkcLaXHsb8dr6MYBmhaR8orZDWDX287ENbFsjbKm_smHEUZslavTjP1I_hePl91IGFjS_jQ2XYOxQxE_3YDQHH9jWHAANLcaXwOon_dHLakXwCsMyexwPUR4ZjH",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "hsa vs hra"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Comparison charts without the general-purpose HRA disqualification rule or the narrow $2,200 limit."
+    },
+    {
+      "title": "HSA vs. HRA: are they different? 2025 guide",
+      "url": "http://google.com/goto?url=CAESaQHrOzAVJEzsLs_YSLWvrSsjTDRHaH460GQ3C-tzrAyL40fsl7PoISXzgW8av2GkKX60JxnL2ud3APZ9qmH11RXH9SdQ_FH2A2BIMyYl91_lr9zVuAVPYFf41pD3P1AtjXoCmD-anAf8WQ",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "hsa vs hra"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Comparison charts without the general-purpose HRA disqualification rule or the narrow $2,200 limit."
+    },
+    {
+      "title": "HRA vs. HSA vs. FSA Comparison Chart",
+      "url": "http://www.peoplekeep.com/blog/hra-vs-hsa-vs-fsa-comparison-chart",
+      "publisher": "peoplekeep.com",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "hsa vs hra"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Comparison charts without the general-purpose HRA disqualification rule or the narrow $2,200 limit."
+    },
+    {
+      "title": "HSA vs HRA: Know the differences for open enrollment",
+      "url": "http://google.com/goto?url=CAESawHrOzAVH9IF5Gmohra0AZBHO3E44844ATRtcVSSsJqynW4Z3AIGZSF_L3rkqalCmrq-iG1zPhZ5ZyHb8NTqH8Y74Et1YLlLpnqoziS38s8FACKwYb87iG2BZMAf-_AjGQBsPao8pQrPQDqZ",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "hsa vs hra"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Comparison charts without the general-purpose HRA disqualification rule or the narrow $2,200 limit."
+    },
+    {
+      "title": "What is the difference between an HSA, HRA and FSA?",
+      "url": "http://google.com/goto?url=CAESqwEB6zswFT72EwRYbwV27cB9pPxXzOn5cY4-ogrom1R75JKeaGjXAZbY3IqrInlrymYEDz2WbGIWFkrNfBR7FvCMZjjxRkatK_-Pp7FBkNgZAlMeoCmtbsTY4tPGAQg7ja4fNstych5AQilMArzfAzVSGq2BmlU3gQ5-LuYNO5uWrkXXlgmPxRXq_x34Ib3Ayt0grgK5D8tTYZZuRyvnrxa0BG6KNVjRQTLtsJs",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "hsa vs hra"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Comparison charts without the general-purpose HRA disqualification rule or the narrow $2,200 limit."
+    }
+  ],
+  "content_gaps": [
+    "General-purpose HRA disqualification",
+    "Limited-purpose, post-deductible, suspended and retirement HRAs",
+    "Narrow scope of the $2,200 limit",
+    "ICHRA and premium tax credit"
+  ],
+  "value_add": "Every rule quoted from IRS sources, with the excepted benefit limit scoped correctly and worked eligibility examples.",
+  "plan": {
+    "reader_title": "HSA vs HRA in 2026: Who Owns the Money and Which Benefits Can You Combine?",
+    "seo_title": "HSA vs HRA in 2026: Ownership, Taxes and Eligibility",
+    "meta_description": "HSA vs HRA in 2026 compared: who funds each, who keeps unused money, the tax rules, and the limited-purpose and post-deductible HRAs that work with an HSA.",
+    "slug": "/money-banking/hsa-vs-hra/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "hra vs hsa",
+      "difference between hsa and hra",
+      "can you have an hsa and hra",
+      "what is an hra"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "HSA vs HRA Comparison",
+      "How an HSA Works",
+      "How an HRA Works",
+      "Can You Have an HSA and an HRA Together?",
+      "Example: A Qualifying HDHP With a General-Purpose HRA",
+      "Example: A Qualifying HDHP With a Limited-Purpose HRA",
+      "How ICHRAs Interact With Marketplace Coverage",
+      "Which One Offers More Flexibility?",
+      "HSA vs HRA in Common Situations",
+      "Comparing HSAs With FSAs Too",
+      "Choosing an HSA Provider",
+      "Questions to Ask During Open Enrollment",
+      "The Decision Depends on the Plan, Not the Account Name",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Rules: IRS Publication 969",
+      "Limits: Rev. Proc. 2025-19",
+      "ICHRA: IRS premium tax credit Q&A"
+    ],
+    "visuals": [
+      "No featured image supplied",
+      "Comparison and limit tables"
+    ],
+    "internal_links": [
+      "/money-banking/saving-vs-investing/",
+      "/money-banking/hsa-vs-fsa/",
+      "/money-banking/best-hsa-accounts/"
+    ],
+    "external_link_opportunities": [
+      "https://www.irs.gov/publications/p969",
+      "https://www.irs.gov/irb/2025-21_IRB",
+      "https://www.irs.gov/affordable-care-act/individuals-and-families/questions-and-answers-on-the-premium-tax-credit"
+    ],
+    "excluded_claims": [
+      "QSEHRA paragraph (no primary source confirmed)"
+    ],
+    "drafting_cautions": [
+      "No individual tax advice",
+      "Plan documents control"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "An HRA must be funded solely by an employer and cannot use salary reduction.",
+      "source_url": "https://www.irs.gov/publications/p969",
+      "verified": true
+    },
+    {
+      "statement": "The 2026 excepted benefit HRA amount is capped at $2,200.",
+      "source_url": "https://www.irs.gov/irb/2025-21_IRB",
+      "verified": true
+    },
+    {
+      "statement": "An ICHRA offer bars the premium tax credit unless it is unaffordable and the employee opts out.",
+      "source_url": "https://www.irs.gov/affordable-care-act/individuals-and-families/questions-and-answers-on-the-premium-tax-credit",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-07",
+    "note": "All rules checked against IRS sources fetched 2026-11-06 and 2026-11-07.",
+    "notes": "Signed off by the site owner (Darlene Aberin) on 2026-11-07 after the AI QA layer, approving the QA changes, removals and schedule."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-07",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "Signed off by the site owner (Darlene Aberin) on 2026-11-07 after the AI QA layer, approving the QA changes, removals and schedule."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-07",
+    "summary": "All rules checked against IRS sources fetched 2026-11-06 and 2026-11-07.",
+    "pending": "None. Owner sign-off received 2026-11-07."
+  }
+}

@@ -1,0 +1,457 @@
+{
+  "tracker_id": "Blog:S48",
+  "status": "verified",
+  "research_question": "Which companies had the biggest market caps in November 2026, and why do rankings differ by source?",
+  "research_brief": {
+    "purpose": "Provide a dated, reproducible top 10 ranking and explain market cap.",
+    "audience": "Readers comparing the largest public companies.",
+    "publication_year": "2026",
+    "data_period": "CompaniesMarketCap snapshot retrieved 11:00 a.m. ET Nov 6 2026 (intraday); Money League Nov 5 2026 close; TradingView US screener captured Nov 1 2026 showing the Oct 30 close.",
+    "scope_limitations": "Owner draft source StockTitan returned 403 and its Oct 30 figures were replaced with a verifiable Nov 6 snapshot. Investor.gov blocked; FINRA used for definitions. Intraday values change."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "companies with biggest market cap",
+    "intent": "Informational",
+    "serp_checked_at": "2026-11-02",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-06",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "companies with biggest market cap",
+        "type": "short-tail",
+        "volume": 27100,
+        "difficulty": 14,
+        "cpc": 1.16,
+        "intent": "Informational",
+        "ranking_url": "https://companiesmarketcap.com/usa/largest-companies-in-the-usa-by-market-cap/",
+        "retrieved_at": "2026-11-06",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "largest companies by market cap",
+        "type": "long-tail",
+        "volume": 27100,
+        "difficulty": 55,
+        "cpc": 0.62,
+        "intent": "Informational",
+        "ranking_url": "https://companiesmarketcap.com/",
+        "retrieved_at": "2026-11-06",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "biggest companies in the world by market cap",
+        "type": "commercial",
+        "volume": 2400,
+        "difficulty": 5,
+        "cpc": 0.65,
+        "intent": "Informational",
+        "ranking_url": "https://market-cap-tracker.com/en/",
+        "retrieved_at": "2026-11-06",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "largest us companies by market cap",
+        "type": "problem",
+        "volume": 1300,
+        "difficulty": 61,
+        "cpc": 1.26,
+        "intent": "Informational",
+        "ranking_url": "https://companiesmarketcap.com/usa/largest-companies-in-the-usa-by-market-cap/#us",
+        "retrieved_at": "2026-11-06",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "how is market cap calculated",
+        "type": "question",
+        "volume": 720,
+        "difficulty": 61,
+        "cpc": 0.04,
+        "intent": "Informational",
+        "ranking_url": "https://www.finra.org/investors/insights/market-cap",
+        "retrieved_at": "2026-11-06",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://companiesmarketcap.com/",
+      "title": "Companies ranked by Market Cap",
+      "publisher": "CompaniesMarketCap",
+      "source_type": "Market data ranking",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-06",
+      "scope": "Global top 12 values, company count and total market value",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Live data; snapshot taken during trading on Nov 6 2026.",
+      "verified": true
+    },
+    {
+      "url": "https://companiesmarketcap.com/usa/largest-companies-in-the-usa-by-market-cap/",
+      "title": "Largest American companies by market capitalization",
+      "publisher": "CompaniesMarketCap",
+      "source_type": "Market data ranking",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-06",
+      "scope": "U.S. top 10",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Live data; snapshot taken during trading on Nov 6 2026.",
+      "verified": true
+    },
+    {
+      "url": "https://market-cap-tracker.com/en/",
+      "title": "Global market cap Top 100",
+      "publisher": "Money League",
+      "source_type": "Market data ranking",
+      "year": "2026",
+      "published_at": "2026-11-05",
+      "accessed_at": "2026-11-06",
+      "scope": "Nov 5 2026 close values, Nvidia -9.26%, Samsung rank 14, no SpaceX",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Coverage differs from other providers.",
+      "verified": true
+    },
+    {
+      "url": "https://www.finra.org/investors/insights/market-cap",
+      "title": "Market Cap Explained",
+      "publisher": "FINRA",
+      "source_type": "Regulator investor education",
+      "year": "2022",
+      "published_at": "2022-09-30",
+      "accessed_at": "2026-11-06",
+      "scope": "Definition, formula, example, size tiers, S&P 500 weighting",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Size tier cut-offs vary by source.",
+      "verified": true
+    },
+    {
+      "url": "https://www.tradingview.com/screener/",
+      "title": "Stock Screener",
+      "publisher": "TradingView",
+      "source_type": "Market data screener",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-06",
+      "scope": "Oct 30 2026 close: Apple $5.03T, Nvidia $4.93T (FinLoom capture Nov 1 2026)",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Screenshot evidence held by FinLoom.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Apple $5.014T and Nvidia $4.575T at 11 a.m. ET on Nov 6 2026.",
+      "source_url": "https://companiesmarketcap.com/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "11,396 companies with total market cap $146.755T.",
+      "source_url": "https://companiesmarketcap.com/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Top 10 sum about $28.36T, about 19.3% of the tracked total (FinLoom calculation).",
+      "source_url": "https://companiesmarketcap.com/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars and percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Nvidia $4.39T at the Nov 5 2026 close after a 9.26% fall.",
+      "source_url": "https://market-cap-tracker.com/en/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Largest American companies by market capitalization",
+      "url": "http://google.com/goto?url=CAESjQEB6zswFZO5pGwpmWJ58e_XSf5c1tFB0dbeSqDUP9NkDa4uszyqeoZp5Q3nTbDmuDUJ-Cv0w_9nWXvIJZ9-4MwE3qGzBZPBOAUxzD7jn8F5__IUhH6UqqKIUioaGWbLLLXK1fulgo8812keCtzH5BDYrbr4o5RrxWrYKlKQhDFp18M0ooULCAzVJ2HSjrw",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "companies with biggest market cap"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Live lists without a dated snapshot or explanation of why providers disagree."
+    },
+    {
+      "title": "Global Top 100 companies by market capitalisation",
+      "url": "http://google.com/goto?url=CAEShgEB6zswFYIXWsuvd-YD04hVYRucvya0j-pj7N6UbMqr5h1nWyDqEwYoocJIt6hCC7ABCfl9sPBqPblwXwidw2xViHgsLKNhmVwt660GqvuUGfwNpI94nDLWr0QFbmh7E30AhCZoMUJznxwTB_9gup6CvgWMfdOd75yl6YA-LFQbbsHcz2bGlA",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "companies with biggest market cap"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Live lists without a dated snapshot or explanation of why providers disagree."
+    },
+    {
+      "title": "Most Valuable American Companies over 30 Years",
+      "url": "http://google.com/goto?url=CAESmAEB6zswFcDKyOYMVoklslpk8Vt-RUn-oS6KPPwstmrIj088ZCM246-D4qyo5oWxDMislxeXPdEEki9OkwaMbRDptEZOCODixwhJHpiesptr5o4w0no7UrUBM0HJA20YC3Fw7gdd1oGILQ38TwQtvaFajlo_R3GpvMt64UN9RYPbV9NiDrcRZ6f8Ea_pz6MGe7hPUKjboOZaKQ",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "companies with biggest market cap"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Live lists without a dated snapshot or explanation of why providers disagree."
+    },
+    {
+      "title": "Largest Companies in the United States by Market Cap",
+      "url": "http://google.com/goto?url=CAESigEB6zswFYfg-uAPwfuwljpjnSzwfXMSaRCs2c-uEd40ZkFQsj_UrVsnfNE_lSFej5ctUtuJ9fWlG-5ohTBAG0AXPXdf9hXINgrtBwSnmnMwq0TfOY9EzK-SXfCQ6a5vTBj9-AxtajMt0qm7afV2zkXZ-7CC7yT1jwS_HeyjJt5ukre7i-yjeFWTfvg",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "companies with biggest market cap"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Live lists without a dated snapshot or explanation of why providers disagree."
+    },
+    {
+      "title": "World's Largest Companies by Market Cap (1998-2025)",
+      "url": "http://google.com/goto?url=CAESZgHrOzAV6bPqDUonz8G_vbYHQ_74hx7dexn96s6pHyNRZ4IyVdrAM0JRZNAhDs4T4t6eFIOWCXLNsUoenkXLmcdo7QbNaIBl8Zz7uJ1D-VtLVINBN9fiteQzunyr-Kqc4fiSvb-UIA",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "companies with biggest market cap"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Live lists without a dated snapshot or explanation of why providers disagree."
+    }
+  ],
+  "content_gaps": [
+    "Dated reproducible snapshot",
+    "Why providers disagree on coverage",
+    "Headquarters versus listing location",
+    "Market cap versus revenue and enterprise value"
+  ],
+  "value_add": "Fixed timestamped ranking cross-checked against two other sources, with FINRA definitions and a chart.",
+  "plan": {
+    "reader_title": "Companies With Biggest Market Cap in 2026: The Global Top 10 Ranked",
+    "seo_title": "Companies With Biggest Market Cap in 2026: Global Top 10",
+    "meta_description": "The companies with biggest market cap in November 2026, ranked globally and in the U.S., with how market cap is calculated and why rankings differ by source.",
+    "slug": "/markets-stocks/companies-with-biggest-market-caps/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "largest companies by market cap",
+      "biggest companies in the world by market cap",
+      "largest us companies by market cap",
+      "how is market cap calculated"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "The Global Top 10 by Market Cap",
+      "Ranks 11 to 20 in the Same Snapshot",
+      "How Much of the Market the Top 10 Represent",
+      "The U.S. Top 10 Is a Different List",
+      "Why Rankings Differ From Source to Source",
+      "Why Apple and Nvidia Sit Close at the Top",
+      "What Gives the Other Eight Such Large Values?",
+      "How Is Market Cap Calculated?",
+      "Stock Price Alone Does Not Show Size",
+      "Market Cap vs Revenue, Profit and Enterprise Value",
+      "Does a Higher Market Cap Mean a Safer Stock?",
+      "Concentration in Index Funds",
+      "How to Use a Market Cap Ranking in Research",
+      "How We Built This Ranking",
+      "What the Ranking Shows",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Ranking: CompaniesMarketCap",
+      "Cross-checks: Money League and TradingView capture",
+      "Definitions: FINRA"
+    ],
+    "visuals": [
+      "Owner-supplied featured image",
+      "Bar chart built from the snapshot in data/charts.json"
+    ],
+    "internal_links": [
+      "/markets-stocks/stock-analysis-fundamentals/",
+      "/markets-stocks/how-to-calculate-earnings-per-share/",
+      "/markets-stocks/bear-vs-bull-market/"
+    ],
+    "external_link_opportunities": [
+      "https://companiesmarketcap.com/",
+      "https://market-cap-tracker.com/en/",
+      "https://www.finra.org/investors/insights/market-cap"
+    ],
+    "excluded_claims": [
+      "StockTitan Oct 30 ranking (source 403)",
+      "Investor.gov EPS reference (source blocked)",
+      "Link to ETF vs index fund page (does not exist)"
+    ],
+    "drafting_cautions": [
+      "No buy or sell language",
+      "Snapshot time stated everywhere",
+      "Business descriptions kept general"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Apple led the global ranking at about $5.01 trillion in the Nov 6 snapshot.",
+      "source_url": "https://companiesmarketcap.com/",
+      "verified": true
+    },
+    {
+      "statement": "Money League showed Nvidia at $4.39 trillion after a 9.26% one-day fall on Nov 5 2026.",
+      "source_url": "https://market-cap-tracker.com/en/",
+      "verified": true
+    },
+    {
+      "statement": "Market cap is shares outstanding multiplied by the current share price.",
+      "source_url": "https://www.finra.org/investors/insights/market-cap",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-06",
+    "note": "All values taken from sources fetched 2026-11-06 and a TradingView capture of 2026-11-01.",
+    "notes": "Signed off by the site owner (Darlene Aberin) on 2026-11-07 after the AI QA layer, approving the QA changes, removals and schedule."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-06",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "Signed off by the site owner (Darlene Aberin) on 2026-11-07 after the AI QA layer, approving the QA changes, removals and schedule."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-06",
+    "summary": "All values taken from sources fetched 2026-11-06 and a TradingView capture of 2026-11-01.",
+    "pending": "None. Owner sign-off received 2026-11-07."
+  }
+}

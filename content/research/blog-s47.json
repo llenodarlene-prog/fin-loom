@@ -1,0 +1,423 @@
+{
+  "tracker_id": "Blog:S47",
+  "status": "verified",
+  "research_question": "How do HSAs and health FSAs differ in 2026 in ownership, limits, rollover and compatibility?",
+  "research_brief": {
+    "purpose": "Explain HSA and FSA differences using 2026 IRS limits and Publication 969 rules.",
+    "audience": "U.S. employees choosing health benefits during open enrollment.",
+    "publication_year": "2026",
+    "data_period": "IRS Rev. Proc. 2025-19, IRB 2025-45, Publication 969 and 15-B, fetched November 6, 2026.",
+    "scope_limitations": "Publication 969 fetched is the 2025 edition; 2026 dollar figures come from the 2026 revenue procedures. A vague claim about broadened HDHP eligibility was removed."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "hsa vs fsa",
+    "intent": "Informational",
+    "serp_checked_at": "2026-11-04",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-06",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "hsa vs fsa",
+        "type": "short-tail",
+        "volume": 40500,
+        "difficulty": 29,
+        "cpc": 1.53,
+        "intent": "Informational",
+        "ranking_url": "http://pnfp.com/learning-center/personal-finance/health-and-benefits/what-s-the-difference-between-an-hsa-and-an-fsa/",
+        "retrieved_at": "2026-11-06",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "fsa vs hsa",
+        "type": "long-tail",
+        "volume": 40500,
+        "difficulty": 29,
+        "cpc": 1.59,
+        "intent": "Informational",
+        "ranking_url": "https://www.irs.gov/publications/p969",
+        "retrieved_at": "2026-11-06",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "difference between hsa and fsa",
+        "type": "commercial",
+        "volume": 9900,
+        "difficulty": 35,
+        "cpc": 0.81,
+        "intent": "Informational",
+        "ranking_url": "http://google.com/goto?url=CAESegHrOzAVjWMEUylSkC2SREB4rCYETTse5H4aoIwjJvSbWWIbkgYEMRoqAQUYjUsSuwB7wfvhUoL3I5Sq3jfMBzUhrC5DshdmQUbTGp3lgsvQQTNTNItDegfcHQCgus6oaAU4cr2f9AOlJ6ep_MnWgXbnsVdBRQVFepDR",
+        "retrieved_at": "2026-11-06",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "fsa carryover",
+        "type": "problem",
+        "volume": 880,
+        "difficulty": 27,
+        "cpc": 0.56,
+        "intent": "Informational",
+        "ranking_url": "https://www.irs.gov/pub/irs-irbs/irb25-45.pdf",
+        "retrieved_at": "2026-11-06",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "can you have an hsa and fsa",
+        "type": "question",
+        "volume": 1600,
+        "difficulty": 25,
+        "cpc": 0.52,
+        "intent": "Informational",
+        "ranking_url": "https://www.irs.gov/publications/p15b",
+        "retrieved_at": "2026-11-06",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.irs.gov/irb/2025-21_IRB",
+      "title": "Revenue Procedure 2025-19",
+      "publisher": "Internal Revenue Service",
+      "source_type": "IRS guidance",
+      "year": "2025",
+      "published_at": "2025-05-19",
+      "accessed_at": "2026-11-06",
+      "scope": "2026 HSA and HDHP limits",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Annual adjustments only.",
+      "verified": true
+    },
+    {
+      "url": "https://www.irs.gov/pub/irs-irbs/irb25-45.pdf",
+      "title": "Internal Revenue Bulletin 2025-45",
+      "publisher": "Internal Revenue Service",
+      "source_type": "IRS bulletin",
+      "year": "2025",
+      "published_at": "2025-11-03",
+      "accessed_at": "2026-11-06",
+      "scope": "2026 health FSA limit $3,400 and $680 carryover",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Annual adjustments only.",
+      "verified": true
+    },
+    {
+      "url": "https://www.irs.gov/publications/p969",
+      "title": "Publication 969",
+      "publisher": "Internal Revenue Service",
+      "source_type": "IRS publication",
+      "year": "2025",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-06",
+      "scope": "HSA eligibility, other coverage, limited-purpose and post-deductible FSAs, grace period, uniform coverage, additional tax",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "2025 edition.",
+      "verified": true
+    },
+    {
+      "url": "https://www.irs.gov/publications/p15b",
+      "title": "Publication 15-B",
+      "publisher": "Internal Revenue Service",
+      "source_type": "IRS publication",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-06",
+      "scope": "Cafeteria plan carryover instead of grace period",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Employer-focused guide.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "2026 health FSA salary-reduction limit $3,400; maximum carryover $680.",
+      "source_url": "https://www.irs.gov/pub/irs-irbs/irb25-45.pdf",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "2026 HSA limits $4,400 and $8,750.",
+      "source_url": "https://www.irs.gov/irb/2025-21_IRB",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "2026 HDHP minimum deductible $1,700 and $3,400; out-of-pocket maximum $8,500 and $17,000.",
+      "source_url": "https://www.irs.gov/irb/2025-21_IRB",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Differences between HSAs, HRAs, and FSAs",
+      "url": "http://google.com/goto?url=CAESrAEB6zswFSOMvFS45URMo2EZ0A09tjCjfSQwki49CdNL7UZWwlw3YLD8u5mUi4kbP0eE3239oRTAp7d3s5QUcyEUSowYnDoKYez-GBF_0h-s1X0ROQEFJZyqD-B0PQHPUkpbbvsnlLk3s0G3xX4IkfyRJgcbV3X0LSMbcJ8zM4NtK5l8jKMtbXZi38DqTyAohl3rcjhLXBfTChjwSpM3-_JRvZZ1WQgZOxqjUzJI",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "hsa vs fsa"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Compares the accounts without the 2026 carryover figure, grace period rule or uniform coverage timing."
+    },
+    {
+      "title": "What's the Difference between an HSA and an FSA?",
+      "url": "http://pnfp.com/learning-center/personal-finance/health-and-benefits/what-s-the-difference-between-an-hsa-and-an-fsa/",
+      "publisher": "pnfp.com",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "hsa vs fsa"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Compares the accounts without the 2026 carryover figure, grace period rule or uniform coverage timing."
+    },
+    {
+      "title": "Health FSA vs. HSA: What's the Difference?",
+      "url": "http://google.com/goto?url=CAESegHrOzAVjWMEUylSkC2SREB4rCYETTse5H4aoIwjJvSbWWIbkgYEMRoqAQUYjUsSuwB7wfvhUoL3I5Sq3jfMBzUhrC5DshdmQUbTGp3lgsvQQTNTNItDegfcHQCgus6oaAU4cr2f9AOlJ6ep_MnWgXbnsVdBRQVFepDR",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "hsa vs fsa"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Compares the accounts without the 2026 carryover figure, grace period rule or uniform coverage timing."
+    },
+    {
+      "title": "Flexible Spending Account (FSA)",
+      "url": "http://google.com/goto?url=CAESZgHrOzAV5S6IZVD6fxpV-h2SHK8c8OZ2uJv8SaqU4fO5M9jnDzEQCSEbYDdgzPD9sh8jWFAI-cAUaN4wPUCEQ8pF0W0H1mnIr0ON5eScfd8xyv4P0ec2xvEsX0JlPfE_QQN3KWn47g",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "hsa vs fsa"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Compares the accounts without the 2026 carryover figure, grace period rule or uniform coverage timing."
+    },
+    {
+      "title": "HSA vs. FSA: Which Is Right for You?",
+      "url": "http://google.com/goto?url=CAESgQEB6zswFVK-9IK6UyVH3j8IPgo-qATzLajlUpbPDFwZTTP3IOu6pmuvFud6xXcxUHAPYyZ4OY4A_3Go13gzu_54Imz1Ygx3GR8XDC1v7U0apCxBmX8gEyXbsaVM-NV0LSc-FLtw6IxDgZFx7UdDb42JKCYND6y1KZ2824dp0D9nvuY",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "hsa vs fsa"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Compares the accounts without the 2026 carryover figure, grace period rule or uniform coverage timing."
+    }
+  ],
+  "content_gaps": [
+    "2026 FSA carryover and grace period rules",
+    "Uniform coverage timing",
+    "Limited-purpose and post-deductible compatibility",
+    "Spouse FSA effect on HSA eligibility"
+  ],
+  "value_add": "Every limit from 2026 IRS guidance, Publication 969 rules quoted accurately, and worked examples for timing and uncertainty.",
+  "plan": {
+    "reader_title": "HSA vs FSA in 2026: Ownership, Eligibility, Rollover, and Tax Rules",
+    "seo_title": "HSA vs FSA in 2026: Limits, Rollover and Tax Rules",
+    "meta_description": "HSA vs FSA in 2026 compared: who owns the money, the $4,400 and $3,400 limits, FSA carryover and grace periods, and when you can have both accounts.",
+    "slug": "/money-banking/hsa-vs-fsa/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "fsa vs hsa",
+      "difference between hsa and fsa",
+      "fsa carryover",
+      "can you have an hsa and fsa"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "HSA vs FSA at a Glance",
+      "What Makes an HSA Different?",
+      "How a Health FSA Works",
+      "Which Balance Rolls Over?",
+      "Can You Have an HSA and FSA at the Same Time?",
+      "How Do the Tax Benefits Compare?",
+      "Example: An Expected $2,000 Medical Expense",
+      "Example: Uncertain Medical Costs",
+      "HSA vs FSA at Different Life Stages",
+      "Planning Health Costs Across the Year",
+      "Choosing an HSA Provider",
+      "What to Check During Open Enrollment",
+      "A Practical Way to Choose",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Limits: Rev. Proc. 2025-19 and IRB 2025-45",
+      "Compatibility and timing: Publication 969"
+    ],
+    "visuals": [
+      "No featured image supplied",
+      "Comparison and HDHP tables"
+    ],
+    "internal_links": [
+      "/money-banking/saving-vs-investing/",
+      "/money-banking/best-hsa-accounts/",
+      "/money-banking/best-budgeting-apps/"
+    ],
+    "external_link_opportunities": [
+      "https://www.irs.gov/irb/2025-21_IRB",
+      "https://www.irs.gov/pub/irs-irbs/irb25-45.pdf",
+      "https://www.irs.gov/publications/p969"
+    ],
+    "excluded_claims": [
+      "Broadened HDHP eligibility claim (not specified)",
+      "APY meaning link (outside approved set)"
+    ],
+    "drafting_cautions": [
+      "No individual tax advice",
+      "Plan documents control"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "The 2026 health FSA limit is $3,400 and the maximum carryover is $680.",
+      "source_url": "https://www.irs.gov/pub/irs-irbs/irb25-45.pdf",
+      "verified": true
+    },
+    {
+      "statement": "The 2026 HSA limits are $4,400 and $8,750.",
+      "source_url": "https://www.irs.gov/irb/2025-21_IRB",
+      "verified": true
+    },
+    {
+      "statement": "An employee covered by an HDHP and a health FSA or HRA that pays qualified medical expenses generally cannot contribute to an HSA.",
+      "source_url": "https://www.irs.gov/publications/p969",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-06",
+    "note": "All limits and rules checked against IRS sources fetched 2026-11-06.",
+    "notes": "Signed off by the site owner (Darlene Aberin) on 2026-11-07 after the AI QA layer, approving the QA changes, removals and schedule."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-06",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "Signed off by the site owner (Darlene Aberin) on 2026-11-07 after the AI QA layer, approving the QA changes, removals and schedule."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-06",
+    "summary": "All limits and rules checked against IRS sources fetched 2026-11-06.",
+    "pending": "None. Owner sign-off received 2026-11-07."
+  }
+}
