@@ -19,8 +19,8 @@ charts_pending: 0
 ai_exceptions: 
 ai_exception_reason: 
 author: Darlene Aberin
-published: 2026-11-10
-modified: 2026-11-10
+published: 2026-11-09
+modified: 2026-11-09
 ---
 
 # Dividend and Dividend Yield: What Each Number Tells Investors

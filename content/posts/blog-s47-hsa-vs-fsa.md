@@ -19,8 +19,8 @@ charts_pending: 0
 ai_exceptions: 
 ai_exception_reason: 
 author: Darlene Aberin
-published: 2026-11-09
-modified: 2026-11-09
+published: 2026-11-10
+modified: 2026-11-10
 ---
 
 # HSA vs FSA in 2026: Ownership, Eligibility, Rollover, and Tax Rules
@@ -114,7 +114,7 @@ Publication 969 also explains the HSA's penalty for misuse. Non-medical HSA with
 
 ## Example: An Expected $2,000 Medical Expense
 
-Suppose an employee expects $2,000 of qualifying treatment early in the plan year. If the employer offers an FSA and the employee elects $2,000, the plan must make that full amount available during the coverage period, so the bill can be reimbursed before most payroll deductions have been taken. That timing helps someone facing an early-year expense.
+Suppose an employee expects $2,000 of qualifying treatment early in the plan year. If the employer offers an FSA and the employee elects $2,000, the plan must make that full amount available during the coverage period, so the bill can be reimbursed before most payroll deductions have been taken. That timing helps someone facing an early-year expense. If the employee later leaves the job, what happens to any amount reimbursed but not yet deducted from pay depends on the plan's rules, so it is worth asking the benefits team before electing a large amount.
 
 An HSA can be more flexible over time because unused money carries forward, but it can only pay out what is already in the account. If the employee has just started contributing, the HSA balance may not yet cover the bill. The better tool depends on eligibility, timing and whether the worker wants to build savings for future years.
 

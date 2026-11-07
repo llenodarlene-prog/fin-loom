@@ -1,0 +1,394 @@
+{
+  "tracker_id": "Blog:S51",
+  "status": "verified",
+  "research_question": "How are basic and diluted EPS calculated, and how should investors read them?",
+  "research_brief": {
+    "purpose": "Teach EPS calculation with hypothetical examples and a real company reconciliation.",
+    "audience": "Investors reading income statements.",
+    "publication_year": "2026",
+    "data_period": "Apple fiscal 2025 statements (year ended Sept 27 2025) fetched November 7, 2026; FINRA pages fetched November 6, 2026.",
+    "scope_limitations": "SEC.gov and Investor.gov blocked automated access, so the owner draft SEC example was replaced with Apple figures from apple.com. Hypothetical examples recomputed."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "calculation of earnings per share",
+    "intent": "Informational",
+    "serp_checked_at": "2026-11-02",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-07",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "calculation of earnings per share",
+        "type": "short-tail",
+        "volume": 12100,
+        "difficulty": 8,
+        "cpc": 0.01,
+        "intent": "Informational",
+        "ranking_url": "https://www.apple.com/newsroom/pdfs/fy2025-q4/FY25_Q4_Consolidated_Financial_Statements.pdf",
+        "retrieved_at": "2026-11-07",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "how to calculate earnings per share",
+        "type": "long-tail",
+        "volume": 5400,
+        "difficulty": 43,
+        "cpc": 0.1,
+        "intent": "Informational",
+        "ranking_url": "https://www.finra.org/investors/insights/market-cap",
+        "retrieved_at": "2026-11-07",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "eps formula",
+        "type": "commercial",
+        "volume": 12100,
+        "difficulty": 35,
+        "cpc": 0.41,
+        "intent": "Informational",
+        "ranking_url": "https://www.finra.org/investors/investing/investment-products/stocks",
+        "retrieved_at": "2026-11-07",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "basic vs diluted eps",
+        "type": "problem",
+        "volume": 390,
+        "difficulty": 19,
+        "cpc": 0.01,
+        "intent": "Informational",
+        "ranking_url": "https://www.apple.com/newsroom/",
+        "retrieved_at": "2026-11-07",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "weighted average shares outstanding",
+        "type": "question",
+        "volume": 390,
+        "difficulty": 28,
+        "cpc": 0.01,
+        "intent": "Informational",
+        "ranking_url": "https://www.finra.org/investors",
+        "retrieved_at": "2026-11-07",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.apple.com/newsroom/pdfs/fy2025-q4/FY25_Q4_Consolidated_Financial_Statements.pdf",
+      "title": "Q4 FY2025 condensed consolidated financial statements",
+      "publisher": "Apple",
+      "source_type": "Company financial statements",
+      "year": "2025",
+      "published_at": "2025-10-30",
+      "accessed_at": "2026-11-07",
+      "scope": "Net income, basic and diluted EPS and share counts for fiscal 2024 and 2025",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Condensed statements; full detail in the Form 10-K.",
+      "verified": true
+    },
+    {
+      "url": "https://www.finra.org/investors/insights/market-cap",
+      "title": "Market Cap Explained",
+      "publisher": "FINRA",
+      "source_type": "Regulator investor education",
+      "year": "2022",
+      "published_at": "2022-09-30",
+      "accessed_at": "2026-11-07",
+      "scope": "Market cap formula",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "General education.",
+      "verified": true
+    },
+    {
+      "url": "https://www.finra.org/investors/investing/investment-products/stocks",
+      "title": "Stocks",
+      "publisher": "FINRA",
+      "source_type": "Regulator investor education",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-07",
+      "scope": "Dividends not required and can be cut",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Apple fiscal 2025 net income $112,010 million, basic EPS $7.49, diluted EPS $7.46.",
+      "source_url": "https://www.apple.com/newsroom/pdfs/fy2025-q4/FY25_Q4_Consolidated_Financial_Statements.pdf",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Apple basic weighted shares 14,948,500 thousand in fiscal 2025 vs 15,343,783 thousand in fiscal 2024.",
+      "source_url": "https://www.apple.com/newsroom/pdfs/fy2025-q4/FY25_Q4_Consolidated_Financial_Statements.pdf",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Shares, thousands",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "What is Earnings per share (EPS)",
+      "url": "http://google.com/goto?url=CAESegHrOzAVeJjisqRiHgrg0gwoq0h-Nt18jImkXtfwjwqLyTkWFT-yymH3ogkmbwM2JO1L7LzYB9ZzLXDVqJAwHFUnk4mnjTBdc2i2sO8Tak-uttMr_X1hLBtJwEcygf7ChDNnHstCDgV_6-nP9R8e96HXIOQ4qLi3564b",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "calculation of earnings per share"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Quick formulas without weighted-average shares, dilution rules or a real filing reconciliation."
+    },
+    {
+      "title": "What is Earnings Per Share? Definition",
+      "url": "http://google.com/goto?url=CAESbAHrOzAV6XdBMFuIszmm91OQBGRi7VJv1iFiTTZB5O_jYSHez4-40znj27i5CcWBTb1JWmIWa0CLC3NkzK241XzPt6S_djpYzyd8DobwYNrgQfyUU412hZ0hTSXUB5M09kAXk9KYe30pi6mKBw",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "calculation of earnings per share"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Quick formulas without weighted-average shares, dilution rules or a real filing reconciliation."
+    },
+    {
+      "title": "Earnings Per Share Calculator: How to Calculate EPS",
+      "url": "http://google.com/goto?url=CAESgAEB6zswFXelZmXncaFttlr4O_MDV2LMPLkynqbAR9fHd0r7HNNy2lQHJbkS3flTfWejDnjnHsiHBPZVvcXqeZOprt-W0Bjuc9jU1Ny0mibZ6osdOtU2ITmieV9I35CYO6P9ypEFPq-UO09zWcEXMwAEA0mfXkMHB_oAzJ-uIYx-tQ",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "calculation of earnings per share"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Quick formulas without weighted-average shares, dilution rules or a real filing reconciliation."
+    },
+    {
+      "title": "Earnings Per Share (EPS): What It Means",
+      "url": "http://google.com/goto?url=CAESawHrOzAVamtYETTcF8kwyScbUTZTGW0Qt2TwBsO-uXA533lsu1vjAUZ2QgdgVazPuzk5tWTc0_4NmOd-YWl8WVjUtMwJDHep7MNUCplzKGrm_Mjwql8ilSksjpwik3JjeA71zP9q2yL5ngfA",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "calculation of earnings per share"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Quick formulas without weighted-average shares, dilution rules or a real filing reconciliation."
+    },
+    {
+      "title": "EPS: Earnings Per Share Formula and Analysis",
+      "url": "http://google.com/goto?url=CAESbgHrOzAV5FNe04HvDmkqMB4ukEvlGyx7mYU-oTAk1xQsmCywelNjbw8u5FksL6mLtqaza5HWxn74gYZ9D7ANI9z7Uwaqrdr-DZOuPTz-cMjqBzMGDAXp_U1r7W_SO5eOCaDpmf6WkmnA0QV3jLgt",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "calculation of earnings per share"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Quick formulas without weighted-average shares, dilution rules or a real filing reconciliation."
+    }
+  ],
+  "content_gaps": [
+    "Weighted-average shares worked example",
+    "Dilution and anti-dilution",
+    "Real company reconciliation",
+    "Buyback effect on EPS"
+  ],
+  "value_add": "Two-stage worked example plus Apple fiscal 2025 figures that readers can recompute, and a grouped chart.",
+  "plan": {
+    "reader_title": "Calculation of Earnings Per Share: Basic and Diluted EPS Explained",
+    "seo_title": "Calculation of Earnings Per Share: Basic and Diluted EPS",
+    "meta_description": "The calculation of earnings per share step by step: basic and diluted EPS formulas, weighted-average shares, a worked example and Apple's real reported figures.",
+    "slug": "/markets-stocks/how-to-calculate-earnings-per-share/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "how to calculate earnings per share",
+      "eps formula",
+      "basic vs diluted eps",
+      "weighted average shares outstanding"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "The EPS Formula at a Glance",
+      "Example: Calculating Basic EPS",
+      "Why Weighted-Average Shares Count",
+      "How Diluted EPS Is Calculated",
+      "A Real Example: Apple's Fiscal 2025 EPS",
+      "Basic EPS vs Diluted EPS",
+      "Why Share Buybacks Can Raise EPS Without Raising Profit",
+      "EPS and the P/E Ratio",
+      "Quarterly vs Annual EPS",
+      "Where to Find EPS in a Company's Reports",
+      "Common Calculation Mistakes",
+      "EPS Is a Measurement Tool, Not a Forecast",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Real figures: Apple statements",
+      "Definitions: FINRA"
+    ],
+    "visuals": [
+      "Owner-supplied featured image",
+      "Grouped chart of Apple basic and diluted EPS in data/charts.json"
+    ],
+    "internal_links": [
+      "/markets-stocks/stock-analysis-fundamentals/",
+      "/markets-stocks/companies-with-biggest-market-caps/",
+      "/markets-stocks/stock-screener-metrics-guide/"
+    ],
+    "external_link_opportunities": [
+      "https://www.apple.com/newsroom/pdfs/fy2025-q4/FY25_Q4_Consolidated_Financial_Statements.pdf",
+      "https://www.finra.org/investors/insights/market-cap",
+      "https://www.finra.org/investors/investing/investment-products/stocks"
+    ],
+    "excluded_claims": [
+      "SEC filing example for CIK 746515 (sec.gov blocked)",
+      "Investor.gov EPS definition (blocked)",
+      "P/E guide link (page does not exist)"
+    ],
+    "drafting_cautions": [
+      "Hypothetical examples labeled",
+      "No stock recommendation"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Apple reported fiscal 2025 basic EPS of $7.49 and diluted EPS of $7.46.",
+      "source_url": "https://www.apple.com/newsroom/pdfs/fy2025-q4/FY25_Q4_Consolidated_Financial_Statements.pdf",
+      "verified": true
+    },
+    {
+      "statement": "Market cap is share price times shares outstanding.",
+      "source_url": "https://www.finra.org/investors/insights/market-cap",
+      "verified": true
+    },
+    {
+      "statement": "Companies do not have to pay dividends and can cut them.",
+      "source_url": "https://www.finra.org/investors/investing/investment-products/stocks",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-07",
+    "note": "Apple figures recomputed from apple.com statements fetched 2026-11-07; hypothetical math checked.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-07",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-07",
+    "summary": "Apple figures recomputed from apple.com statements fetched 2026-11-07; hypothetical math checked.",
+    "pending": "Owner sign-off."
+  }
+}

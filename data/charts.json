@@ -300,5 +300,33 @@
     "suffix": "%",
     "caption": "A hypothetical $2.00 annual dividend that never changes. The yield rises only because the share price falls.",
     "source": "FinLoom calculation: $2.00 divided by each share price, times 100. Hypothetical, not data for any real stock."
+  },
+  "apple-eps-basic-diluted": {
+    "type": "grouped",
+    "title": "Apple Basic and Diluted EPS",
+    "label_heading": "Fiscal year",
+    "labels": [
+      "Fiscal 2024",
+      "Fiscal 2025"
+    ],
+    "series": [
+      {
+        "name": "Basic EPS, US dollars",
+        "values": [
+          6.11,
+          7.49
+        ]
+      },
+      {
+        "name": "Diluted EPS, US dollars",
+        "values": [
+          6.08,
+          7.46
+        ]
+      }
+    ],
+    "prefix": "$",
+    "caption": "Apple's diluted EPS sits a few cents below basic EPS in both years because share-based awards add to the diluted share count. Fiscal years ended September 28, 2024 and September 27, 2025.",
+    "source": "Apple, Q4 FY2025 condensed consolidated statements of operations, published with its October 2025 earnings release. Checked November 7, 2026."
   }
 }

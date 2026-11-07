@@ -19,8 +19,8 @@ charts_pending: 0
 ai_exceptions: 
 ai_exception_reason: 
 author: Darlene Aberin
-published: 2026-11-09
-modified: 2026-11-09
+published: 2026-11-08
+modified: 2026-11-08
 ---
 
 # Best ETFs for Roth IRA Accounts in 2026: Six Funds for Different Portfolio Roles

@@ -19,8 +19,8 @@ charts_pending: 0
 ai_exceptions: 
 ai_exception_reason: 
 author: Darlene Aberin
-published: 2026-11-10
-modified: 2026-11-10
+published: 2026-11-12
+modified: 2026-11-12
 ---
 
 # Companies With Biggest Market Cap in 2026: The Global Top 10 Ranked
