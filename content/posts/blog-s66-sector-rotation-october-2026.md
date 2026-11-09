@@ -69,7 +69,7 @@ The table lists all eleven sectors, ranked by their October 2026 return. The win
 | Information Technology | -6.8% |
 | Communication Services | -15.1% |
 
-The Energy, Consumer Staples, Utilities, Health Care, Information Technology and Communication Services figures appear in Janus Henderson's October 2026 market review, published November 2. The Materials, Financials, Real Estate, Consumer Discretionary and Industrials figures come from Nasdaq's October 2026 review, published the same day. These are sector index returns, not the returns of any sector fund, and they exclude fund fees and trading costs.
+The Energy, Consumer Staples, Utilities, Health Care, Information Technology and Communication Services figures appear in Janus Henderson's October 2026 market review, published November 2. The Materials, Financials, Real Estate, Consumer Discretionary and Industrials figures come from Nasdaq's October 2026 review, published the same day. These are sector index returns, not the returns of any sector fund, and they exclude any fund fees and trading costs.
 
 ### The Spread Between First and Last
 
@@ -143,7 +143,7 @@ A leaderboard can also hide variation inside a sector. A financially strong comp
 
 ### Using Sector Data to Check a Portfolio
 
-Sector results are useful for spotting unwanted concentration. If one or two sectors make up most of your stock holdings, a rotation like October's will affect you more. Comparing your sector mix with a broad index shows where you differ from the market. Many fund providers publish sector weights on each fund's fact sheet, which makes this comparison quick to do once or twice a year without special tools.
+Sector results are useful for spotting unwanted concentration. If one or two sectors make up most of your stock holdings, a rotation like October's will affect you more. Comparing your sector mix with a broad index shows where you differ from the market. Many fund providers publish sector weights on each fund's fact sheet, which makes this comparison quick and easy to do once or twice a year without special tools.
 
 ### Why Chasing Last Month's Winner Is Risky
 
