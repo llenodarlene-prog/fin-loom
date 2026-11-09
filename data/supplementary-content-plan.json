@@ -1044,6 +1044,24 @@
       "scheduled_publish": "2026-11-15",
       "min_words": 2500,
       "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S58",
+      "working_title": "High Yield Savings vs Money Market Account in 2026: Rates, Access and Safety",
+      "primary_keyword": "high yield savings vs money market",
+      "secondary_keywords": "money market vs high yield savings; high yield savings or money market; money market account vs savings account; is a money market account safe",
+      "cluster": "Money & Banking",
+      "intent": "Commercial",
+      "status": "Scheduled",
+      "url_slug": "/money-banking/high-yield-savings-vs-money-market-account/",
+      "seo_title": "High Yield Savings vs Money Market Account: Rates and Access",
+      "meta_description": "High yield savings vs money market account compared with CFPB, FDIC and Federal Reserve sources: national rates, access, minimums, insurance and fund confusion.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft of 2026-11-05; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-16",
+      "min_words": 2500,
+      "no_word_ceiling": true
     }
   ],
   "links": [
@@ -1817,6 +1835,19 @@
       "approved_outbound_targets": [
         "/money-banking/credit-union-vs-bank/",
         "/money-banking/high-yield-savings-vs-money-market-account/",
+        "/money-banking/saving-vs-investing/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/money-banking/saving-vs-investing/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S58",
+      "url_slug": "/money-banking/high-yield-savings-vs-money-market-account/",
+      "primary_silo_hub": "/money-banking/",
+      "approved_outbound_targets": [
+        "/money-banking/checking-vs-savings-account/",
+        "/money-banking/money-market-vs-cd/",
         "/money-banking/saving-vs-investing/"
       ],
       "silo_role": "Supporting",
