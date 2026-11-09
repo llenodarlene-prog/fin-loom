@@ -1,0 +1,433 @@
+{
+  "tracker_id": "Blog:S69",
+  "status": "verified",
+  "research_question": "How do major stock market crashes compare when measured consistently, and where does 2026 fit?",
+  "research_brief": {
+    "purpose": "Compare 1929, 1987, 2008, 2020, 2022 and 2026 by measurement type using primary historical and data sources.",
+    "audience": "Readers comparing the 2026 selloff with past crashes.",
+    "publication_year": "2026",
+    "data_period": "October 2026 monthly returns and daily closes through November 6, 2026.",
+    "scope_limitations": "Slickcharts, AP and Reuters blocked automated access; annual figures use the Damodaran series instead."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "stock market crash history",
+    "intent": "Informational",
+    "serp_checked_at": "2026-11-09",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-09",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "stock market crash history",
+        "type": "short-tail",
+        "volume": 1000,
+        "difficulty": 53,
+        "cpc": 2.93,
+        "intent": "Informational",
+        "ranking_url": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what caused the stock market crash of 1929",
+        "type": "long-tail",
+        "volume": 6600,
+        "difficulty": 44,
+        "cpc": 2.36,
+        "intent": "Informational",
+        "ranking_url": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "stock market crashes",
+        "type": "commercial",
+        "volume": 135000,
+        "difficulty": 68,
+        "cpc": 3.64,
+        "intent": "Informational",
+        "ranking_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "biggest stock market crashes",
+        "type": "problem",
+        "volume": 590,
+        "difficulty": 55,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1987",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "black monday 1987",
+        "type": "question",
+        "volume": 27100,
+        "difficulty": 24,
+        "cpc": 0.02,
+        "intent": "Informational",
+        "ranking_url": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1987",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929",
+      "title": "Stock Market Crash of 1929",
+      "publisher": "Federal Reserve History",
+      "source_type": "Central bank history essay",
+      "year": "2013",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-09",
+      "scope": "Dow declines of October 28 and 29, 1929 and the 89 percent fall by July 1932",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Historical essay.",
+      "verified": true
+    },
+    {
+      "url": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1987",
+      "title": "Stock Market Crash of 1987",
+      "publisher": "Federal Reserve History",
+      "source_type": "Central bank history essay",
+      "year": "2013",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-09",
+      "scope": "Dow fell 22.6 percent on October 19, 1987; circuit breakers",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Historical essay.",
+      "verified": true
+    },
+    {
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html",
+      "title": "Historical Returns on Stocks, Bonds and Bills",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "source_type": "Academic dataset",
+      "year": "2026",
+      "published_at": "2026-01-05",
+      "accessed_at": "2026-11-09",
+      "scope": "S&P 500 annual returns including dividends, 1928 to 2025",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Updated annually; differs slightly from other providers.",
+      "verified": true
+    },
+    {
+      "url": "https://fred.stlouisfed.org/series/NASDAQCOM",
+      "title": "Nasdaq Composite Index (NASDAQCOM)",
+      "publisher": "Federal Reserve Bank of St. Louis, FRED",
+      "source_type": "Official data series",
+      "year": "2026",
+      "published_at": "2026-11-06",
+      "accessed_at": "2026-11-09",
+      "scope": "Daily Nasdaq Composite closes",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Price index.",
+      "verified": true
+    },
+    {
+      "url": "https://www.janushenderson.com/en-us/advisor/article/market-moves-themes-that-mattered-october-2026/",
+      "title": "Market moves and themes that mattered: October 2026",
+      "publisher": "Janus Henderson Investors",
+      "source_type": "Asset manager market review",
+      "year": "2026",
+      "published_at": "2026-11-02",
+      "accessed_at": "2026-11-09",
+      "scope": "October index and sector returns, SOX, Russell style indexes",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Monthly commentary; rounded figures.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Dow nearly -13% Oct 28 1929, nearly -12% Oct 29; 41.22 on July 8 1932, 89% below 381.17 peak; high regained Nov 23 1954.",
+      "source_url": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent, index points",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Dow -508 points (-22.6%) Oct 19 1987; regained 57% in two sessions; pre-crash high passed within two years.",
+      "source_url": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1987",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "S&P 500 total returns: 1929 -8.30%, 1930 -25.12%, 1931 -43.84%, 2008 -36.55%, 2020 +18.02%, 2022 -18.04%.",
+      "source_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "List of stock market crashes and bear markets",
+      "url": "http://google.com/goto?url=CAESiAEBxCJF19jeSELJ9VoEE3iLIo8PDu7du13hP_3o7hZSF36MCnYwOUsT4VfNAl1rq34oqxcAnQhFNbA5qVuUTedXmZCjgeRpOBwQUd8rLfjgXCbBdRQhgIoeyrrkSGUmF_kR19Y-kwoEBUoOYDSTUqOUWC_iqcG-NjTruz9_bSXs_m2KJhg0kfS5",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "stock market crash history"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitor lists rank crashes by mixing one-day, multi-year and annual figures."
+    },
+    {
+      "title": "Stock Market Crash of 1929",
+      "url": "http://google.com/goto?url=CAEShAEBxCJF1wc9rg__y_6Q2h6q4CBcnJNQQ1SJCthGY21nY3epdVlauI6Ah_sT94q2Zar9p84s1NIVoNShTur6-aX8JZ76nVsSxBk8s0liCIb-NBUxfLv0hiIETDQDGeQ1nzvcN8u9Cm9280XbxhkBQKI9DGMIM3CCDdCBG53-XSFegpPfz3Q",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "stock market crash history"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitor lists rank crashes by mixing one-day, multi-year and annual figures."
+    },
+    {
+      "title": "Stock Market Crashes: A Look at 150 Years of Bear Markets",
+      "url": "http://google.com/goto?url=CAESkQEBxCJF158wKc6ywcEyWHqdLt899Tez9z5EoMwBeqrkSDPv8BYrpWRj6rilCmvtorQtasJrz_vA-h-HLeMhafrEmyqNmN7UcOlAjZpjo1IMsYNLesGL8w5PxbDcCeIlwPDZMFMrdZMp-JI7Vp17fjoYUXx0x89z6B_nK9FsphdkNJZ8YQwANryrAfL0IUZLsg6Z",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "stock market crash history"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitor lists rank crashes by mixing one-day, multi-year and annual figures."
+    },
+    {
+      "title": "Since the stock market crash of 1929, there have been 27 ...",
+      "url": "http://google.com/goto?url=CAESqAEBxCJF1_5eC0SgqQ3z7He33rT4Zf-4Pd39PVCr4maZe2C3C9C8izOmPtSXnR69JPgoyfgPM6FceEPp0dqzzeT6CIod8L6qOxk2XW2gX7q9LK_N0xbwtJUmDotf6HGz7W5nvmsvW615DEM9DEm0TVX-y7--BPw2-_e1PCsi4QFN91pgVLKNpyid2hnGaYz1eOlzKwa1ADkEhKp9DN6kuusLua7mdPB7Piw",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "stock market crash history"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitor lists rank crashes by mixing one-day, multi-year and annual figures."
+    },
+    {
+      "title": "Timeline of U.S. Stock Market Crashes",
+      "url": "http://google.com/goto?url=CAESggEBxCJF1wmxtOmpNnso9K694wfmeh_TokjRhla1UqVae3TPtLPgheEoSz8lWuuFQp8VKAdcKK6xiQYa1Sm1Fe1K3peXwkrTYxyrL0iaterUOd1jNw_v2whX2Yd6oeZat9HUaRoybWmtGbXmkKxMV6oJ5hzrl5yc8TdgIRuVJVwTyhF6",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "stock market crash history"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitor lists rank crashes by mixing one-day, multi-year and annual figures."
+    }
+  ],
+  "content_gaps": [
+    "Measurement-type table",
+    "1987 causes and reforms from the Fed",
+    "Recovery-time contrast",
+    "2026 placed without forecasting"
+  ],
+  "value_add": "A labeled comparison table, Federal Reserve History detail and explicit limits on ranking unlike measures.",
+  "plan": {
+    "reader_title": "Stock Market Crash History: 1929, 1987, 2008 and What Makes 2026 Different",
+    "seo_title": "Stock Market Crash History: 1929, 1987, 2008 and 2026",
+    "meta_description": "Stock market crash history compared by what was measured: one-day falls, multi-year declines and calendar-year returns, from 1929 and 1987 to the 2026 correction.",
+    "slug": "/markets-stocks/stock-market-crash-history-statistics/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "stock market crashes",
+      "biggest stock market crashes",
+      "black monday 1987",
+      "what caused the stock market crash of 1929"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "What Counts as a Stock Market Crash?",
+      "How Major Crashes Compare by Measurement Type",
+      "Why Did 1929 Become More Than a Bad Week?",
+      "What Made 1987 Different?",
+      "How Should 2008 and 2020 Be Understood?",
+      "What Makes the 2026 Episode Distinctive So Far?",
+      "How Crash History Shaped Today's Safeguards",
+      "What Is the Most Useful Lesson From Crash History?",
+      "Common Mistakes When Reading Stock Market Crash History",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "1929 and 1987: Federal Reserve History",
+      "Annual returns: Damodaran",
+      "2026: FRED and Janus Henderson"
+    ],
+    "visuals": [
+      "Owner-supplied featured image"
+    ],
+    "internal_links": [
+      "/markets-stocks/stock-analysis-fundamentals/",
+      "/markets-stocks/stock-market-crash-2026-statistics/",
+      "/markets-stocks/stock-market-return-by-year/"
+    ],
+    "external_link_opportunities": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html",
+      "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929",
+      "https://www.federalreservehistory.org/essays/stock-market-crash-of-1987"
+    ],
+    "excluded_claims": [
+      "Slickcharts returns (blocked; replaced with Damodaran)",
+      "Reuters and AP links (blocked)"
+    ],
+    "drafting_cautions": [
+      "No buy, sell or hold recommendation",
+      "Calculations labeled",
+      "Dates and observation windows stated"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "The Dow fell nearly 13% on October 28, 1929 and was 89% below its peak by July 1932.",
+      "source_url": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929",
+      "verified": true
+    },
+    {
+      "statement": "The Dow fell 22.6% on October 19, 1987.",
+      "source_url": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1987",
+      "verified": true
+    },
+    {
+      "statement": "The S&P 500 total return was -36.55% in 2008.",
+      "source_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-09",
+    "note": "Historical figures checked against Federal Reserve History and Damodaran on 2026-11-09; 2026 figures recomputed from FRED.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-09",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-09",
+    "summary": "Historical figures checked against Federal Reserve History and Damodaran on 2026-11-09; 2026 figures recomputed from FRED.",
+    "pending": "Owner sign-off."
+  }
+}
