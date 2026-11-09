@@ -156,7 +156,7 @@ In October 2026, breadth improved even as the S&P 500 fell slightly. In early No
 
 There is no fixed answer. Some spikes fade within days as the event that caused them passes. Others last for weeks or months during prolonged stress. The November 6 close of 25.64, lower than the day before but still well above late-October levels, shows that a spike can ease partway without returning to calm immediately.
 
-Watching how the VIX behaves over the following weeks gives more information than any single reading. A gradual return toward the mid-teens would suggest expectations settling. A series of further spikes would suggest continued uncertainty. Either way, the readings describe expectations at each moment, not a forecast of where stock prices will settle.
+Watching how the VIX behaves over the following weeks gives more information than any single reading. A gradual return toward the mid-teens would suggest expectations settling. A series of further spikes would suggest continued uncertainty. Either way, the readings describe expectations at each moment, not a forecast of where stock prices will finally settle.
 
 ### Using Weekly Closes for Perspective
 
