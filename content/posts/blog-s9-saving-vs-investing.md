@@ -10,7 +10,7 @@ tracker_id: Blog:S9
 primary_keyword: saving vs investing
 secondary_keywords: 
 cluster: Money & Banking
-approved_internal_links: /investing/per-capita-gdp-explained/; /money-banking/apy-calculator/; /money-banking/apy-meaning/; /money-banking/apy-vs-interest-rate/; /money-banking/best-budgeting-apps/; /money-banking/best-hsa-accounts/; /money-banking/hsa-vs-fsa/; /money-banking/hsa-vs-hra/; /money-banking/identity-theft-statistics/; /money-banking/inflation-rate-by-year/; /money-banking/savings-interest-calculator/; /money-banking/what-is-a-credit-score/
+approved_internal_links: /investing/per-capita-gdp-explained/; /money-banking/apy-calculator/; /money-banking/apy-meaning/; /money-banking/apy-vs-interest-rate/; /money-banking/best-budgeting-apps/; /money-banking/best-hsa-accounts/; /money-banking/checking-vs-savings-account/; /money-banking/credit-union-vs-bank/; /money-banking/high-yield-savings-vs-money-market-account/; /money-banking/hsa-vs-fsa/; /money-banking/hsa-vs-hra/; /money-banking/identity-theft-statistics/; /money-banking/inflation-rate-by-year/; /money-banking/money-market-vs-cd/; /money-banking/savings-interest-calculator/; /money-banking/what-is-a-credit-score/
 research_record: content/research/blog-s9.json
 image: /assets/images/posts/saving-vs-investing/reviewing-financial-plan-1600.jpg
 image_alt: Two people reviewing printed financial charts at a desk with a tablet and coffee
@@ -137,6 +137,8 @@ The right amount varies. A household with stable dual incomes may need a differe
 - Access to other liquidity
 
 The emergency fund should not be optimized for maximum return. Availability is the return.
+
+Where that money sits still affects what it earns. FinLoom's comparisons of [checking vs savings accounts](/money-banking/checking-vs-savings-account/), [high-yield savings vs money market accounts](/money-banking/high-yield-savings-vs-money-market-account/) and [money market vs CD](/money-banking/money-market-vs-cd/) explain how access, rates and penalties differ, and the guide to [credit union vs bank](/money-banking/credit-union-vs-bank/) covers how deposit insurance works at each.
 
 ## Inflation Creates the Cost of Excess Cash
 

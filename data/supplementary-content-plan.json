@@ -1156,10 +1156,15 @@
         "/investing/bitcoin-allocation/",
         "/investing/dividend-reinvestment-plan-calculator/",
         "/investing/dividend-vs-dividend-yield/",
+        "/investing/fidelity-vs-vanguard/",
+        "/investing/fxaix-vs-voo/",
         "/investing/index-fund-vs-mutual-fund/",
         "/investing/per-capita-gdp-explained/",
         "/investing/qualified-dividends/",
-        "/investing/stock-risk-metrics/"
+        "/investing/stock-risk-metrics/",
+        "/investing/voo-vs-spy/",
+        "/investing/vti-vs-voo/",
+        "/investing/vug-vs-voo/"
       ],
       "silo_role": "Hub",
       "pillar": "/investing/crypto-vs-stocks/"
@@ -1200,10 +1205,14 @@
         "/money-banking/apy-vs-interest-rate/",
         "/money-banking/best-budgeting-apps/",
         "/money-banking/best-hsa-accounts/",
+        "/money-banking/checking-vs-savings-account/",
+        "/money-banking/credit-union-vs-bank/",
+        "/money-banking/high-yield-savings-vs-money-market-account/",
         "/money-banking/hsa-vs-fsa/",
         "/money-banking/hsa-vs-hra/",
         "/money-banking/identity-theft-statistics/",
         "/money-banking/inflation-rate-by-year/",
+        "/money-banking/money-market-vs-cd/",
         "/money-banking/savings-interest-calculator/",
         "/money-banking/what-is-a-credit-score/"
       ],
