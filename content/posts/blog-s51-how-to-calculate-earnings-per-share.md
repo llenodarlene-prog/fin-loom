@@ -19,8 +19,8 @@ charts_pending: 0
 ai_exceptions: 
 ai_exception_reason: 
 author: Darlene Aberin
-published: 2026-11-12
-modified: 2026-11-12
+published: 2026-11-14
+modified: 2026-11-14
 ---
 
 # Calculation of Earnings Per Share: Basic and Diluted EPS Explained

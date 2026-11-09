@@ -19,8 +19,8 @@ charts_pending: 0
 ai_exceptions: 
 ai_exception_reason: 
 author: Darlene Aberin
-published: 2026-11-16
-modified: 2026-11-16
+published: 2026-11-18
+modified: 2026-11-18
 ---
 
 # Money Market vs CD in 2026: Flexible Access or a Locked-In Rate?
