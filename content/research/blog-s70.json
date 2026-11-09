@@ -1,0 +1,398 @@
+{
+  "tracker_id": "Blog:S70",
+  "status": "verified",
+  "research_question": "What did the VIX show during the 2026 selloff, and how should readers interpret it?",
+  "research_brief": {
+    "purpose": "Give dated VIX closes and explain what implied volatility does and does not indicate.",
+    "audience": "Investors watching market volatility.",
+    "publication_year": "2026",
+    "data_period": "October 2026 monthly returns and daily closes through November 6, 2026.",
+    "scope_limitations": "YCharts and Reuters blocked automated access; the November 6 VIX close is owner-verified pending FRED posting."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "vix index",
+    "intent": "Informational",
+    "serp_checked_at": "2026-11-09",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-09",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "vix index",
+        "type": "short-tail",
+        "volume": 135000,
+        "difficulty": 47,
+        "cpc": 6.38,
+        "intent": "Informational",
+        "ranking_url": "https://fred.stlouisfed.org/series/VIXCLS",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is the vix",
+        "type": "long-tail",
+        "volume": 2400,
+        "difficulty": 23,
+        "cpc": 0.83,
+        "intent": "Informational",
+        "ranking_url": "https://fred.stlouisfed.org/series/VIXCLS",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "vix",
+        "type": "commercial",
+        "volume": 368000,
+        "difficulty": 30,
+        "cpc": 1.84,
+        "intent": "Informational",
+        "ranking_url": "https://fred.stlouisfed.org/series/VIXCLS",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "vix fear index",
+        "type": "problem",
+        "volume": 880,
+        "difficulty": 67,
+        "cpc": 6.5,
+        "intent": "Informational",
+        "ranking_url": "https://fred.stlouisfed.org/series/VIXCLS",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "volatility index",
+        "type": "question",
+        "volume": 5400,
+        "difficulty": 38,
+        "cpc": 5.75,
+        "intent": "Informational",
+        "ranking_url": "https://fred.stlouisfed.org/series/VIXCLS",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://fred.stlouisfed.org/series/VIXCLS",
+      "title": "CBOE Volatility Index: VIX (VIXCLS)",
+      "publisher": "Federal Reserve Bank of St. Louis, FRED",
+      "source_type": "Official data series",
+      "year": "2026",
+      "published_at": "2026-11-05",
+      "accessed_at": "2026-11-09",
+      "scope": "Daily VIX closes",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Source is Cboe; November 6 close not yet posted at QA.",
+      "verified": true
+    },
+    {
+      "url": "https://fred.stlouisfed.org/series/SP500",
+      "title": "S&P 500 (SP500)",
+      "publisher": "Federal Reserve Bank of St. Louis, FRED",
+      "source_type": "Official data series",
+      "year": "2026",
+      "published_at": "2026-11-06",
+      "accessed_at": "2026-11-09",
+      "scope": "Daily S&P 500 closes used to recompute October and November 5 changes",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Price index, excludes dividends.",
+      "verified": true
+    },
+    {
+      "url": "https://ycharts.com/indices/%5EVIX/level",
+      "title": "VIX historical levels",
+      "publisher": "YCharts",
+      "source_type": "Market data provider",
+      "year": "2026",
+      "published_at": "2026-11-06",
+      "accessed_at": "2026-11-09",
+      "scope": "November 6, 2026 VIX close",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Owner-verified figure; automated access to this page was blocked during QA, so FinLoom could not re-fetch it.",
+      "verified": true
+    },
+    {
+      "url": "https://ca.finance.yahoo.com/news/major-us-stock-indexes-fared-212218583.html",
+      "title": "How major US stock indexes fared",
+      "publisher": "Associated Press via Yahoo Finance",
+      "source_type": "News wire",
+      "year": "2026",
+      "published_at": "2026-11-05",
+      "accessed_at": "2026-11-09",
+      "scope": "November 5 index closes and single-stock moves",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Owner-verified figure; automated access to this page was blocked during QA, so FinLoom could not re-fetch it.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "VIX closes: Oct 30 19.42, Nov 2 21.15, Nov 3 20.83, Nov 4 16.61, Nov 5 28.18 (2026).",
+      "source_url": "https://fred.stlouisfed.org/series/VIXCLS",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Index points",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "VIX close 25.64 on November 6, 2026.",
+      "source_url": "https://ycharts.com/indices/%5EVIX/level",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Index points",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "What is the VIX?",
+      "url": "http://www.fidelity.com/learning-center/smart-money/what-is-vix",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "vix index"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitor pages show live charts or definitions without dated readings for the 2026 selloff."
+    },
+    {
+      "title": "VIX Volatility Index (1990-2026)",
+      "url": "http://www.macrotrends.net/2603/vix-volatility-index-historical-chart",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "vix index"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitor pages show live charts or definitions without dated readings for the 2026 selloff."
+    },
+    {
+      "title": "VIX Options",
+      "url": "http://www.cboe.com/tradable-products/vix/vix-options/",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "vix index"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitor pages show live charts or definitions without dated readings for the 2026 selloff."
+    },
+    {
+      "title": "Volatility Index (VIX) Futures",
+      "url": "http://www.cboe.com/en/tradable-products/vix/vix-futures/",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "vix index"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitor pages show live charts or definitions without dated readings for the 2026 selloff."
+    },
+    {
+      "title": "CBOE Volatility Index (^VIX)",
+      "url": "http://sg.finance.yahoo.com/quote/%5EVIX/",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "vix index"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitor pages show live charts or definitions without dated readings for the 2026 selloff."
+    }
+  ],
+  "content_gaps": [
+    "Dated closing table",
+    "Point and percent change calculations",
+    "Monthly scaling illustration",
+    "Closes vs intraday highs"
+  ],
+  "value_add": "Dated FRED closes, labeled calculations and clear limits on what the VIX can say.",
+  "plan": {
+    "reader_title": "VIX Index Statistics: What Volatility Showed During the 2026 Selloff",
+    "seo_title": "VIX Index Statistics: October and November 2026 Volatility",
+    "meta_description": "VIX index readings from October 30 to November 6, 2026, what the volatility index measures, how to read a jump from 16.61 to 28.18, and why it is not a forecast.",
+    "slug": "/markets-stocks/vix-index-statistics-2026/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "vix",
+      "volatility index",
+      "what is the vix",
+      "vix fear index"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "What Is the VIX Index?",
+      "How Did the VIX Change During the November 2026 Selloff?",
+      "Why Did Volatility Rise on November 5?",
+      "Does a VIX Reading of 28 Mean Stocks Will Fall 28%?",
+      "Why Can the VIX Fall After a Very Bad Day?",
+      "How Is VIX Data Different From a Normal Price Chart?",
+      "How the VIX Fits With Other Market Measures",
+      "How Long Do VIX Spikes Usually Last?",
+      "Common Mistakes When Reading the VIX Index",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "VIX closes: FRED (Cboe data)",
+      "Nov 6 close: YCharts (owner-verified)",
+      "Index closes: FRED"
+    ],
+    "visuals": [
+      "Owner-supplied featured image"
+    ],
+    "internal_links": [
+      "/markets-stocks/stock-analysis-fundamentals/",
+      "/markets-stocks/stock-market-crash-2026-statistics/",
+      "/markets-stocks/market-breadth-statistics-2026/"
+    ],
+    "external_link_opportunities": [
+      "https://fred.stlouisfed.org/series/VIXCLS",
+      "https://fred.stlouisfed.org/series/SP500"
+    ],
+    "excluded_claims": [
+      "Cboe historical data page (not fetched during QA)",
+      "Reuters link (blocked)"
+    ],
+    "drafting_cautions": [
+      "No buy, sell or hold recommendation",
+      "Calculations labeled",
+      "Dates and observation windows stated"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "The VIX closed at 16.61 on November 4 and 28.18 on November 5, 2026.",
+      "source_url": "https://fred.stlouisfed.org/series/VIXCLS",
+      "verified": true
+    },
+    {
+      "statement": "The S&P 500 closed at 7,353.73 on November 5, 2026.",
+      "source_url": "https://fred.stlouisfed.org/series/SP500",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-09",
+    "note": "VIX closes through Nov 5 checked against FRED on 2026-11-09; Nov 6 close owner-verified; all changes recomputed.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-09",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-09",
+    "summary": "VIX closes through Nov 5 checked against FRED on 2026-11-09; Nov 6 close owner-verified; all changes recomputed.",
+    "pending": "Owner sign-off."
+  }
+}
