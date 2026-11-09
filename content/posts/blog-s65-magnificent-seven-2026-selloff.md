@@ -170,9 +170,9 @@ Index weights move with prices. After a selloff in the largest companies, their 
 
 ## What the October Figures Do Not Show
 
-The October data describes one month of prices. It does not show that the magnificent 7 stocks have stopped growing as businesses, that their earnings have fallen, or that the market will keep favoring smaller and value-style companies. It is a record of how investors priced these companies over a specific window of about one month.
+The October data describes one month of prices. It does not show that the magnificent 7 stocks have stopped growing as businesses, that their earnings have fallen, or that the market will keep favoring smaller and value-style companies. It is a record of how investors priced these companies over a specific window of about one trading month.
 
-It also does not show what any single investor earned. Someone who held the group through a fund, bought individual shares or held a broad index fund would each have had a different October, depending on their weights and entry dates.
+It also does not show what any single investor earned. Someone who held the group through a fund, bought individual shares or held a broad index fund would each have had a different October, depending on their weights, costs and entry dates.
 
 ## Common Mistakes With Magnificent 7 Stocks Figures
 
