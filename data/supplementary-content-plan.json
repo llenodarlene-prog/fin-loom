@@ -1026,6 +1026,24 @@
       "scheduled_publish": "2026-11-15",
       "min_words": 2500,
       "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S57",
+      "working_title": "Checking vs Savings Account in 2026: What Each Is For and How to Use Both",
+      "primary_keyword": "checking vs savings account",
+      "secondary_keywords": "savings vs checking account; checking or savings account; difference between checking and savings account; checking vs savings account interest",
+      "cluster": "Money & Banking",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/money-banking/checking-vs-savings-account/",
+      "seo_title": "Checking vs Savings Account: Differences and How to Use Both",
+      "meta_description": "Checking vs savings account compared with FDIC, CFPB and Federal Reserve sources: national average rates, transfer rules, overdrafts, insurance and setup.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft of 2026-11-05; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-15",
+      "min_words": 2500,
+      "no_word_ceiling": true
     }
   ],
   "links": [
@@ -1785,6 +1803,19 @@
       "primary_silo_hub": "/money-banking/",
       "approved_outbound_targets": [
         "/money-banking/checking-vs-savings-account/",
+        "/money-banking/high-yield-savings-vs-money-market-account/",
+        "/money-banking/saving-vs-investing/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/money-banking/saving-vs-investing/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S57",
+      "url_slug": "/money-banking/checking-vs-savings-account/",
+      "primary_silo_hub": "/money-banking/",
+      "approved_outbound_targets": [
+        "/money-banking/credit-union-vs-bank/",
         "/money-banking/high-yield-savings-vs-money-market-account/",
         "/money-banking/saving-vs-investing/"
       ],
