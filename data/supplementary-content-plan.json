@@ -1008,6 +1008,24 @@
       "scheduled_publish": "2026-11-17",
       "min_words": 2500,
       "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S56",
+      "working_title": "Credit Union vs Bank in 2026: Ownership, Insurance, Fees and Access",
+      "primary_keyword": "credit union vs bank",
+      "secondary_keywords": "bank vs credit union; credit union or bank; credit union vs bank pros and cons; is a credit union safer than a bank",
+      "cluster": "Money & Banking",
+      "intent": "Commercial",
+      "status": "Scheduled",
+      "url_slug": "/money-banking/credit-union-vs-bank/",
+      "seo_title": "Credit Union vs Bank: Ownership, Insurance and Fees",
+      "meta_description": "Credit union vs bank compared from NCUA and FDIC sources: who owns each, how $250,000 coverage works, membership rules and how to compare accounts.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft of 2026-11-05; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-15",
+      "min_words": 2500,
+      "no_word_ceiling": true
     }
   ],
   "links": [
@@ -1759,6 +1777,19 @@
       ],
       "silo_role": "Supporting",
       "pillar": "/investing/crypto-vs-stocks/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S56",
+      "url_slug": "/money-banking/credit-union-vs-bank/",
+      "primary_silo_hub": "/money-banking/",
+      "approved_outbound_targets": [
+        "/money-banking/checking-vs-savings-account/",
+        "/money-banking/high-yield-savings-vs-money-market-account/",
+        "/money-banking/saving-vs-investing/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/money-banking/saving-vs-investing/"
     }
   ]
 }
