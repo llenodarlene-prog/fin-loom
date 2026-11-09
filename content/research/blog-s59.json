@@ -1,0 +1,385 @@
+{
+  "tracker_id": "Blog:S59",
+  "status": "verified",
+  "research_question": "How do money market accounts and CDs differ on rates, access, penalties and insurance?",
+  "research_brief": {
+    "purpose": "Compare the two with CFPB definitions and FDIC national averages and match each to a timeline.",
+    "audience": "Savers with short- to medium-term goals.",
+    "publication_year": "2026",
+    "data_period": "FDIC national rates published October 19, 2026; CFPB and FDIC pages fetched November 7 to 9, 2026.",
+    "scope_limitations": "Penalty amounts vary by institution and are not quoted. National averages are not quotes for any account."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "money market vs cd",
+    "intent": "Informational",
+    "serp_checked_at": "2026-11-07",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-09",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "money market vs cd",
+        "type": "short-tail",
+        "volume": 3600,
+        "difficulty": 20,
+        "cpc": 3.88,
+        "intent": "Informational",
+        "ranking_url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-certificate-of-deposit-cd-en-917/",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "cd vs money market",
+        "type": "long-tail",
+        "volume": 4400,
+        "difficulty": 16,
+        "cpc": 6.33,
+        "intent": "Informational",
+        "ranking_url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-money-market-account-en-1007/",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "money market or cd",
+        "type": "commercial",
+        "volume": 3600,
+        "difficulty": 15,
+        "cpc": 4.82,
+        "intent": "Informational",
+        "ranking_url": "https://www.fdic.gov/resources/bankers/national-rates/",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "money market account vs cd",
+        "type": "problem",
+        "volume": 1300,
+        "difficulty": 17,
+        "cpc": 3.59,
+        "intent": "Informational",
+        "ranking_url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-certificate-of-deposit-cd-en-917/",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "cd vs money market account rates",
+        "type": "question",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.fdic.gov/resources/bankers/national-rates/",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-certificate-of-deposit-cd-en-917/",
+      "title": "What is a certificate of deposit (CD)?",
+      "publisher": "CFPB",
+      "source_type": "Federal regulator consumer page",
+      "year": "2026",
+      "published_at": "2026-11-07",
+      "accessed_at": "2026-11-09",
+      "scope": "Definition, early withdrawal penalty, choosing a term, insurance up to $250,000",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-money-market-account-en-1007/",
+      "title": "What is a money market account?",
+      "publisher": "CFPB",
+      "source_type": "Federal regulator consumer page",
+      "year": "2026",
+      "published_at": "2026-11-07",
+      "accessed_at": "2026-11-09",
+      "scope": "Definition, transaction limits, minimums, fund distinction",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.fdic.gov/resources/bankers/national-rates/",
+      "title": "National Rates and Rate Caps",
+      "publisher": "FDIC",
+      "source_type": "Federal regulator data",
+      "year": "2026",
+      "published_at": "2026-10-19",
+      "accessed_at": "2026-11-09",
+      "scope": "12-month CD 1.76%, money market 0.63% national averages",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Average of $10,000 and $100,000 tiers.",
+      "verified": true
+    },
+    {
+      "url": "https://www.fdic.gov/resources/deposit-insurance/faq",
+      "title": "Deposit Insurance FAQs",
+      "publisher": "FDIC",
+      "source_type": "Federal regulator page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-09",
+      "scope": "CDs and MMDAs covered up to at least $250,000",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "FDIC national average rates published Oct 19, 2026: 12-month CD 1.76%, money market 0.63%.",
+      "source_url": "https://www.fdic.gov/resources/bankers/national-rates/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "The Difference Between Money Market and CDs",
+      "url": "http://google.com/goto?url=CAESiQEBxCJF189NZcB0e6_-tHqy57ccXTIcrbUaMLrwijBiIoQ5HFXPvYGKZs-UdHrhDHMNH4HtZX9m5x1-VFJ5WcbOPA7WBPWL1pJDN8dgku7etwYIq-pUxnjIcBafoXmdbA_KxJ_SXBARYtnvRnJQFSLyAiQwFU87HklbqWSa3RgpFWMLg9C78V9jmQ",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "money market vs cd"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors quote bank-specific rates that date quickly and rarely use regulator averages or timeline-based framing."
+    },
+    {
+      "title": "Savings Account vs. CD vs. Money Market Account",
+      "url": "http://google.com/goto?url=CAEStQEBxCJF17cUAl6Inssql_D6snthEsOwawNSA2ODwFR8xWEuj8Cmp4JZfTuRz1AohCH68-4mqKAyXwCcD3DBGfH-j2fJEbYe1auoolmvwRzR42B8qKTRKrkRAj8guc1iE911YsLG4htPLRE5jN0V3pqIhMRzOpv_Wyk1y0N9j43yqNJIXydOj9DU6Aupzw3HM7mhbHFr_wZxNZSS-U2O2vMWhw7c83CjJB5_pF40xeOlYFtQaKuB",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "money market vs cd"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors quote bank-specific rates that date quickly and rarely use regulator averages or timeline-based framing."
+    },
+    {
+      "title": "Money Market vs. CDs",
+      "url": "http://google.com/goto?url=CAEShwEBxCJF1wrTWRWVDEWFAdI6WTyotrQThLYd1URk2LStxT2BBZsL7WG_MWosqhs-6vooqZHqSDCt1rkBsfP2Antptw2izUDUGcM1xeTyKB3eJXDvpsF-wlulq83_yh7BcySCm4KkPExTt3zr784O9To3C0Zm4bT4ZGr5xAwgUgyk4h39n_rJfnQ",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "money market vs cd"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors quote bank-specific rates that date quickly and rarely use regulator averages or timeline-based framing."
+    },
+    {
+      "title": "Money Markets Vs CD's for investing",
+      "url": "http://google.com/goto?url=CAESaAHEIkXXsbhS8-BmOPEo783apEyVJxdON_UGwoU7bX82e_lirVKYIN9Mj-I1hg2FmgynY5oM9ETcYqcbJdqQtqKdCW7Jo45FR0DOjQLiHwqErZhwEJ-ABW40LjLG13GszXJXjcibf0CO",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "money market vs cd"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors quote bank-specific rates that date quickly and rarely use regulator averages or timeline-based framing."
+    },
+    {
+      "title": "CD vs Money Market : r/Fire",
+      "url": "http://google.com/goto?url=CAESfwHEIkXXPu_ZYu7WifcWrD-MsTKWjT5xBprDFxZk0O8D4a29HAmhTCdHdbGC2aCHjkkjepmdLxZYQhOKkisGPcAb0FhBpOSvEiIQFrcQKYh-yq0DCFbE-PDLrT_ts356xCky5FHoX6Qt5LVHvzv60BljlSY1Hd-TUDzOEGOH_CY",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "money market vs cd"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors quote bank-specific rates that date quickly and rarely use regulator averages or timeline-based framing."
+    }
+  ],
+  "content_gaps": [
+    "Current FDIC national averages",
+    "Penalty comparison guidance from CFPB",
+    "Timeline-based decision",
+    "Money market fund confusion"
+  ],
+  "value_add": "Regulator-sourced rates and definitions, dollar example and goal-matching framework, with a calculator link.",
+  "plan": {
+    "reader_title": "Money Market vs CD in 2026: Flexible Access or a Locked-In Rate?",
+    "seo_title": "Money Market vs CD in 2026: Access or a Locked-In Rate?",
+    "meta_description": "Money market vs CD compared with CFPB and FDIC sources: national average rates, early withdrawal penalties, access, insurance and how to match each to a goal.",
+    "slug": "/money-banking/money-market-vs-cd/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "cd vs money market",
+      "money market or cd",
+      "money market account vs cd",
+      "cd vs money market account rates"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "Money Market vs CD at a Glance",
+      "What Is a CD?",
+      "Which Pays More?",
+      "How Early Withdrawal Penalties Work",
+      "Access and Flexibility",
+      "Are Both Insured?",
+      "Matching Each Account to a Goal",
+      "Two Hypothetical Savers",
+      "Common Mistakes in the Money Market vs CD Choice",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Definitions: CFPB",
+      "Rates and insurance: FDIC"
+    ],
+    "visuals": [
+      "Featured image pending from owner"
+    ],
+    "internal_links": [
+      "/money-banking/saving-vs-investing/",
+      "/money-banking/high-yield-savings-vs-money-market-account/",
+      "/money-banking/savings-interest-calculator/"
+    ],
+    "external_link_opportunities": [
+      "https://www.fdic.gov/resources/bankers/national-rates/",
+      "https://www.consumerfinance.gov/ask-cfpb/what-is-a-certificate-of-deposit-cd-en-917/",
+      "https://www.consumerfinance.gov/ask-cfpb/what-is-a-money-market-account-en-1007/"
+    ],
+    "excluded_claims": [
+      "Specific bank CD and money market rates from owner draft (not verifiable as current)"
+    ],
+    "drafting_cautions": [
+      "No account recommendation",
+      "Dollar examples labeled illustrative"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Withdrawing money from a CD early generally means paying a penalty.",
+      "source_url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-certificate-of-deposit-cd-en-917/",
+      "verified": true
+    },
+    {
+      "statement": "Money market accounts usually limit transactions by check, debit card or transfer.",
+      "source_url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-money-market-account-en-1007/",
+      "verified": true
+    },
+    {
+      "statement": "The national average 12-month CD rate was 1.76% and money market 0.63%.",
+      "source_url": "https://www.fdic.gov/resources/bankers/national-rates/",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-09",
+    "note": "Definitions and averages rechecked on CFPB and FDIC pages November 7 to 9, 2026; math recomputed.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-09",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-09",
+    "summary": "Definitions and averages rechecked on CFPB and FDIC pages November 7 to 9, 2026; math recomputed.",
+    "pending": "Owner sign-off."
+  }
+}

@@ -1062,6 +1062,24 @@
       "scheduled_publish": "2026-11-16",
       "min_words": 2500,
       "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S59",
+      "working_title": "Money Market vs CD in 2026: Flexible Access or a Locked-In Rate?",
+      "primary_keyword": "money market vs cd",
+      "secondary_keywords": "cd vs money market; money market or cd; money market account vs cd; cd vs money market account rates",
+      "cluster": "Money & Banking",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/money-banking/money-market-vs-cd/",
+      "seo_title": "Money Market vs CD in 2026: Access or a Locked-In Rate?",
+      "meta_description": "Money market vs CD compared with CFPB and FDIC sources: national average rates, early withdrawal penalties, access, insurance and how to match each to a goal.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft of 2026-11-05; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-16",
+      "min_words": 2500,
+      "no_word_ceiling": true
     }
   ],
   "links": [
@@ -1849,6 +1867,19 @@
         "/money-banking/checking-vs-savings-account/",
         "/money-banking/money-market-vs-cd/",
         "/money-banking/saving-vs-investing/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/money-banking/saving-vs-investing/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S59",
+      "url_slug": "/money-banking/money-market-vs-cd/",
+      "primary_silo_hub": "/money-banking/",
+      "approved_outbound_targets": [
+        "/money-banking/high-yield-savings-vs-money-market-account/",
+        "/money-banking/saving-vs-investing/",
+        "/money-banking/savings-interest-calculator/"
       ],
       "silo_role": "Supporting",
       "pillar": "/money-banking/saving-vs-investing/"
