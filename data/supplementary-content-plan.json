@@ -1098,6 +1098,24 @@
       "scheduled_publish": "2026-11-10",
       "min_words": 2500,
       "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S63",
+      "working_title": "Why Are Tech Stocks Down? Nasdaq and AI Selloff Statistics for 2026",
+      "primary_keyword": "why are tech stocks down",
+      "secondary_keywords": "tech stocks; nasdaq selloff; ai stocks selloff; why are tech stocks falling",
+      "cluster": "Markets & Stocks",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/markets-stocks/why-tech-stocks-fell-2026/",
+      "seo_title": "Why Are Tech Stocks Down? 2026 Nasdaq and AI Selloff Data",
+      "meta_description": "Why are tech stocks down in 2026? October and November data on the Nasdaq, semiconductors and AI spending concerns, with every figure dated and sourced.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft of 2026-11-08 (market statistics series); final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-10",
+      "min_words": 2500,
+      "no_word_ceiling": true
     }
   ],
   "links": [
@@ -1920,6 +1938,19 @@
         "/markets-stocks/sector-rotation-october-2026-statistics/",
         "/markets-stocks/stock-analysis-fundamentals/",
         "/markets-stocks/why-tech-stocks-fell-2026/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/markets-stocks/stock-analysis-fundamentals/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S63",
+      "url_slug": "/markets-stocks/why-tech-stocks-fell-2026/",
+      "primary_silo_hub": "/markets-stocks/",
+      "approved_outbound_targets": [
+        "/markets-stocks/semiconductor-stocks-october-2026-statistics/",
+        "/markets-stocks/stock-analysis-fundamentals/",
+        "/markets-stocks/stock-market-crash-2026-statistics/"
       ],
       "silo_role": "Supporting",
       "pillar": "/markets-stocks/stock-analysis-fundamentals/"
