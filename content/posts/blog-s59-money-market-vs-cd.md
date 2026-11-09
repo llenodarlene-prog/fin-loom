@@ -148,7 +148,7 @@ These examples show how the money market vs CD choice can follow from a goal. Th
 
 ### Saver A Builds an Emergency Fund
 
-Saver A is building a $12,000 emergency fund and cannot predict when it will be needed. A money market account fits, because money can be withdrawn anytime without a penalty. Saver A accepts that the rate may change and checks it every few months.
+Saver A is building a $12,000 emergency fund and cannot predict when it will be needed. A money market account fits, because money can be withdrawn anytime without a penalty. Saver A accepts that the rate may change and checks it every few months. If it falls well below other accounts, Saver A can move the money without a penalty.
 
 ### Saver B Plans a Purchase
 
