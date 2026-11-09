@@ -10,7 +10,7 @@ tracker_id: Blog:S6
 primary_keyword: crypto vs stocks
 secondary_keywords: 
 cluster: Investing
-approved_internal_links: /investing/best-etfs-for-roth-ira/; /investing/best-investment-apps/; /investing/best-sp500-index-funds/; /investing/bitcoin-allocation/; /investing/dividend-reinvestment-plan-calculator/; /investing/dividend-vs-dividend-yield/; /investing/index-fund-vs-mutual-fund/; /investing/per-capita-gdp-explained/; /investing/qualified-dividends/; /investing/stock-risk-metrics/
+approved_internal_links: /investing/best-etfs-for-roth-ira/; /investing/best-investment-apps/; /investing/best-sp500-index-funds/; /investing/bitcoin-allocation/; /investing/dividend-reinvestment-plan-calculator/; /investing/dividend-vs-dividend-yield/; /investing/fidelity-vs-vanguard/; /investing/fxaix-vs-voo/; /investing/index-fund-vs-mutual-fund/; /investing/per-capita-gdp-explained/; /investing/qualified-dividends/; /investing/stock-risk-metrics/; /investing/voo-vs-spy/; /investing/vti-vs-voo/; /investing/vug-vs-voo/
 research_record: content/research/blog-s6.json
 image: /assets/images/posts/crypto-vs-stocks/market-chart-and-coin-desk-1600.jpg
 image_alt: A laptop showing a market chart beside a gold coin and a stack of finance books, with a city skyline at sunrise
@@ -253,6 +253,8 @@ A large decline shortly before the money is needed can force the investor to sel
 That principle is especially relevant for volatile assets. If a 50% decline would force a sale because the cash is needed, the position may be too large regardless of the investor's long-term conviction.
 
 Many long-term stock investors start with broad funds rather than single companies. The guides to the [best S&P 500 index fund](/investing/best-sp500-index-funds/) options and the [best ETFs for Roth IRA](/investing/best-etfs-for-roth-ira/) accounts compare costs and portfolio roles, and the comparison of the [best investment apps](/investing/best-investment-apps/) covers where those funds can be bought.
+
+Picking between similar funds is its own decision. FinLoom compares [VTI vs VOO](/investing/vti-vs-voo/) for total-market versus S&P 500 coverage, [VOO vs SPY](/investing/voo-vs-spy/) and [FXAIX vs VOO](/investing/fxaix-vs-voo/) for funds tracking the same index, and [VUG vs VOO](/investing/vug-vs-voo/) for a growth tilt. The comparison of [Fidelity vs Vanguard](/investing/fidelity-vs-vanguard/) looks at the brokerages that offer many of these funds.
 
 
 ## Rebalancing Creates Discipline
