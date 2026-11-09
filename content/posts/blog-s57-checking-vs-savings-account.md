@@ -5,7 +5,7 @@ description: Checking vs savings account compared with FDIC, CFPB and Federal Re
 slug: /money-banking/checking-vs-savings-account/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S57
 primary_keyword: checking vs savings account
 secondary_keywords: savings vs checking account; checking or savings account; difference between checking and savings account; checking vs savings account interest

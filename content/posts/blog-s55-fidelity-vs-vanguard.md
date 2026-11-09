@@ -5,7 +5,7 @@ description: Fidelity vs Vanguard compared from each firm's own fee pages: commi
 slug: /investing/fidelity-vs-vanguard/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S55
 primary_keyword: fidelity vs vanguard
 secondary_keywords: vanguard vs fidelity; fidelity or vanguard; fidelity vs vanguard fees; fidelity vs vanguard roth ira

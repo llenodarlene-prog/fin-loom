@@ -5,7 +5,7 @@ description: VUG vs VOO compared with Vanguard's September 2026 fact sheets: hol
 slug: /investing/vug-vs-voo/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S61
 primary_keyword: vug vs voo
 secondary_keywords: voo vs vug; vug or voo; vug vs voo overlap; vug and voo together

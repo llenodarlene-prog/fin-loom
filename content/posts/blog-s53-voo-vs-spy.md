@@ -5,7 +5,7 @@ description: VOO vs SPY compared with issuer data: expense ratios, holdings, fun
 slug: /investing/voo-vs-spy/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S53
 primary_keyword: voo vs spy
 secondary_keywords: spy vs voo; voo or spy; voo vs spy expense ratio; voo vs spy dividends

@@ -5,7 +5,7 @@ description: VTI vs VOO compared with Vanguard's September 2026 data: holdings, 
 slug: /investing/vti-vs-voo/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S52
 primary_keyword: vti vs voo
 secondary_keywords: voo vs vti; vti or voo; vti vs voo overlap; vti vs voo expense ratio

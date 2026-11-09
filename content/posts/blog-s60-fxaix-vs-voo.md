@@ -5,7 +5,7 @@ description: FXAIX vs VOO compared with Fidelity and Vanguard data: expense rati
 slug: /investing/fxaix-vs-voo/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S60
 primary_keyword: fxaix vs voo
 secondary_keywords: voo vs fxaix; fxaix or voo; fxaix vs voo expense ratio; fxaix vs voo roth ira

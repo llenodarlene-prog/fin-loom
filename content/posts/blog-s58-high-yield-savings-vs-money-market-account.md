@@ -5,7 +5,7 @@ description: High yield savings vs money market account compared with CFPB, FDIC
 slug: /money-banking/high-yield-savings-vs-money-market-account/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S58
 primary_keyword: high yield savings vs money market
 secondary_keywords: money market vs high yield savings; high yield savings or money market; money market account vs savings account; is a money market account safe

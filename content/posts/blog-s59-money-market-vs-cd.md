@@ -5,7 +5,7 @@ description: Money market vs CD compared with CFPB and FDIC sources: national av
 slug: /money-banking/money-market-vs-cd/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S59
 primary_keyword: money market vs cd
 secondary_keywords: cd vs money market; money market or cd; money market account vs cd; cd vs money market account rates
