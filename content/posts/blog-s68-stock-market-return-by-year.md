@@ -195,7 +195,7 @@ Large losses and large gains often sit close together in time. After 2008's loss
 
 ### What This Means for Planning
 
-Planning around the average alone can understate risk. A plan that only works if every year returns 10% will fail in practice, because single years have ranged from about -44% to more than +30%. Building in room for bad years makes a plan more durable and easier to stick with.
+Planning around the average alone can understate risk. A plan that only works if every year returns 10% will fail in practice, because single years have ranged from about -44% to more than +30%. Building in room for bad years makes a plan more durable and easier to stick with over time.
 
 ## Common Mistakes With Stock Market Return by Year Data
 
