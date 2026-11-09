@@ -936,6 +936,24 @@
       "scheduled_publish": "2026-11-13",
       "min_words": 2500,
       "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S53",
+      "working_title": "VOO vs SPY in 2026: Same S&P 500, Different Costs and Structure",
+      "primary_keyword": "voo vs spy",
+      "secondary_keywords": "spy vs voo; voo or spy; voo vs spy expense ratio; voo vs spy dividends",
+      "cluster": "Investing",
+      "intent": "Commercial",
+      "status": "Scheduled",
+      "url_slug": "/investing/voo-vs-spy/",
+      "seo_title": "VOO vs SPY in 2026: Same S&P 500, Different Costs",
+      "meta_description": "VOO vs SPY compared with issuer data: expense ratios, holdings, fund structure, trading and dividends for two ETFs that track the S&P 500.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft of 2026-11-05; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-13",
+      "min_words": 2500,
+      "no_word_ceiling": true
     }
   ],
   "links": [
@@ -1632,6 +1650,19 @@
         "/investing/crypto-vs-stocks/",
         "/investing/voo-vs-spy/",
         "/investing/vug-vs-voo/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/investing/crypto-vs-stocks/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S53",
+      "url_slug": "/investing/voo-vs-spy/",
+      "primary_silo_hub": "/investing/",
+      "approved_outbound_targets": [
+        "/investing/crypto-vs-stocks/",
+        "/investing/fxaix-vs-voo/",
+        "/investing/vti-vs-voo/"
       ],
       "silo_role": "Supporting",
       "pillar": "/investing/crypto-vs-stocks/"

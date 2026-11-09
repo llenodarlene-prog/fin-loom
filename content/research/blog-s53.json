@@ -1,0 +1,412 @@
+{
+  "tracker_id": "Blog:S53",
+  "status": "verified",
+  "research_question": "How do VOO and SPY differ when both track the S&P 500?",
+  "research_brief": {
+    "purpose": "Compare cost, structure, holdings and trading use of VOO and SPY from issuer data.",
+    "audience": "Investors choosing an S&P 500 ETF.",
+    "publication_year": "2026",
+    "data_period": "State Street SPY page fetched November 8, 2026 (data as of November 5 to 8); Vanguard VOO fact sheet dated September 30, 2026.",
+    "scope_limitations": "Bid-ask spreads and options liquidity change constantly and are not quoted. Return figures are not used."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "voo vs spy",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-11-08",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-09",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "voo vs spy",
+        "type": "short-tail",
+        "volume": 14800,
+        "difficulty": 21,
+        "cpc": 2.21,
+        "intent": "Commercial",
+        "ranking_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-500-etf-trust-spy",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "spy vs voo",
+        "type": "long-tail",
+        "volume": 14800,
+        "difficulty": 34,
+        "cpc": 3.81,
+        "intent": "Informational",
+        "ranking_url": "https://fund-docs.vanguard.com/F0968.pdf",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "voo or spy",
+        "type": "commercial",
+        "volume": 720,
+        "difficulty": 35,
+        "cpc": 0.25,
+        "intent": "Informational",
+        "ranking_url": "https://advisors.vanguard.com/investments/products/voo/vanguard-sp-500-etf",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "voo vs spy expense ratio",
+        "type": "problem",
+        "volume": 210,
+        "difficulty": 34,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-500-etf-trust-spy",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "voo vs spy dividends",
+        "type": "question",
+        "volume": 10,
+        "difficulty": 5,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://fund-docs.vanguard.com/F0968.pdf",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-500-etf-trust-spy",
+      "title": "SPDR S&P 500 ETF Trust fund page",
+      "publisher": "State Street Global Advisors",
+      "source_type": "Fund issuer page",
+      "year": "2026",
+      "published_at": "2026-11-08",
+      "accessed_at": "2026-11-08",
+      "scope": "Gross expense ratio, listing date, holdings, AUM, options, distribution frequency, trustee and sponsor",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Daily-updated figures.",
+      "verified": true
+    },
+    {
+      "url": "https://fund-docs.vanguard.com/F0968.pdf",
+      "title": "Vanguard S&P 500 ETF fact sheet",
+      "publisher": "Vanguard",
+      "source_type": "Fund issuer fact sheet",
+      "year": "2026",
+      "published_at": "2026-09-30",
+      "accessed_at": "2026-11-08",
+      "scope": "Holdings count, top holdings, dividend schedule, inception, ETF Shares disclosure",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Quarterly snapshot.",
+      "verified": true
+    },
+    {
+      "url": "https://advisors.vanguard.com/investments/products/voo/vanguard-sp-500-etf",
+      "title": "VOO fund profile",
+      "publisher": "Vanguard",
+      "source_type": "Fund issuer page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "Expense ratio as of April 28, 2026",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/SPY/chart/",
+      "title": "SPY chart",
+      "publisher": "Yahoo Finance",
+      "source_type": "Market data page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "One-year chart screenshot",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/VOO/chart/",
+      "title": "VOO chart",
+      "publisher": "Yahoo Finance",
+      "source_type": "Market data page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "One-year chart screenshot",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "SPY gross expense ratio 0.0945%; 504 holdings and $777,748.88 million AUM as of Nov 5, 2026; listed Jan 22, 1993.",
+      "source_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-500-etf-trust-spy",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent, count, USD",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "VOO expense ratio 0.03%; 505 holdings Sept 30, 2026; quarterly dividends; inception Sept 7, 2010.",
+      "source_url": "https://fund-docs.vanguard.com/F0968.pdf",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent, count",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "SPY vs VOO: fees, liquidity, dividend treatment",
+      "url": "http://google.com/goto?url=CAESmQEBxCJF1-PSOxxjA3EY0UUC70Eu45nlgNZVBH2oZmAcUN-hm9ROeu87y25bahefARXJj0w65GjkV69quPNXBau_d9dL5eU7FTaivD6_7vcJEcm1u-C-dB0lHXn08D_dZEPaDudQs7UWCDuiieT2IxPTEpSaYb1A6qpObgNwrxP4wVE6OgMDnm9cxkdfI7JTBidS-PDvwZV-l_k",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "voo vs spy"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors repeat fee gaps without dated issuer figures and rarely separate trading costs from holding costs."
+    },
+    {
+      "title": "Better S&P 500 ETF: VOO vs. SPY",
+      "url": "http://google.com/goto?url=CAEShAEBxCJF16jgZkKGG-kEvtnd1rPydUH8Cw1QKU6CBsN3sPIrmjTEKZ9dc5gSUuNdW-oGZ_Vj_zRdKn4VzskAWNjieuTM2otRJhlivh_vKgOvnppr-RcAGNt0GpYvHjXmWgbvS3DQjF8W0TWauIjwPRhTuky5WX7K0OXu16nQGW6vSeHyB5w",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "voo vs spy"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors repeat fee gaps without dated issuer figures and rarely separate trading costs from holding costs."
+    },
+    {
+      "title": "SPY vs. VOO ETF Comparison",
+      "url": "http://google.com/goto?url=CAEScQHEIkXXL8ROD2B7XBo5jOP3eVwg3snINeyvS5Toj6EhC0XbPeseC4lUfaqrnVpjExccvyFxrOKPBAbjNvVsLG1S7ox6Lml8iuV5baGI6ARpvmcgaRyRjV_IrsBuAc2HzqhnCobR_34BNUcJxLssDyMk",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "voo vs spy"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors repeat fee gaps without dated issuer figures and rarely separate trading costs from holding costs."
+    },
+    {
+      "title": "SPY vs VOO: Returns, Risk and Today's Signals",
+      "url": "http://google.com/goto?url=CAESZgHEIkXXFSilvIeAWJPOSC1nX_A1Zvy68_HIUQvLVY2NcmcBshMSHO0VfgrayktGKznbFNWwHTs-enl79on_c7REln8_tjgLmP_qTlxXXqR64LuAkRmjXifz2yHruMQM2GUhyNGkdw",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "voo vs spy"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors repeat fee gaps without dated issuer figures and rarely separate trading costs from holding costs."
+    },
+    {
+      "title": "What is the difference between SPY and VOO?",
+      "url": "http://google.com/goto?url=CAEShwEBxCJF14j64_yfXj_M9o2PPc7tS7HYXSNA3zkumTw0MMebxA1b2f72bz-IILBBrES__w46LdbrSkhIREccurwtFXjvQjtHwAEH63Qc0C_ZBjhDm1R2vIWufPw8TcvKRjvaDpWDmph0Yone86JqqBIknKP7YJQelqj3OPBuyZ_SobjqFk6BjYU",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "voo vs spy"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors repeat fee gaps without dated issuer figures and rarely separate trading costs from holding costs."
+    }
+  ],
+  "content_gaps": [
+    "Dated issuer data for both funds",
+    "Holding-cost vs trading-cost examples",
+    "Structure explained plainly",
+    "Switching tax trade-off"
+  ],
+  "value_add": "Issuer-sourced table, fee-gap table to $500,000, two labeled hypothetical cost examples and Yahoo chart captures.",
+  "plan": {
+    "reader_title": "VOO vs SPY in 2026: Same S&P 500, Different Costs and Structure",
+    "seo_title": "VOO vs SPY in 2026: Same S&P 500, Different Costs",
+    "meta_description": "VOO vs SPY compared with issuer data: expense ratios, holdings, fund structure, trading and dividends for two ETFs that track the S&P 500.",
+    "slug": "/investing/voo-vs-spy/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "spy vs voo",
+      "voo or spy",
+      "voo vs spy expense ratio",
+      "voo vs spy dividends"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "VOO vs SPY at a Glance",
+      "If Both Track the Same Index, Why Can Returns Differ?",
+      "What Does the Expense Ratio Gap Cost in Dollars?",
+      "Why Might an Active Trader Still Use SPY?",
+      "Is SPY Structured Differently From VOO?",
+      "Are the Holdings the Same?",
+      "What About Dividends and Taxes?",
+      "Which Fund Fits Which Investor?",
+      "Common Mistakes in the VOO vs SPY Debate",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "SPY facts: State Street page",
+      "VOO facts: Vanguard fact sheet and profile",
+      "Charts: Yahoo captures"
+    ],
+    "visuals": [
+      "Owner-supplied featured image",
+      "Yahoo Finance one-year chart screenshots for SPY and VOO"
+    ],
+    "internal_links": [
+      "/investing/crypto-vs-stocks/",
+      "/investing/vti-vs-voo/",
+      "/investing/fxaix-vs-voo/"
+    ],
+    "external_link_opportunities": [
+      "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-500-etf-trust-spy",
+      "https://fund-docs.vanguard.com/F0968.pdf"
+    ],
+    "excluded_claims": [
+      "First U.S.-listed ETF claim (not stated on the issuer page fetched)",
+      "Investor.gov ETF bulletin (site blocked)",
+      "Link to investing hub in place of a comparison (replaced with approved spoke)"
+    ],
+    "drafting_cautions": [
+      "No recommendation",
+      "Hypothetical examples labeled"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "SPY lists a 0.0945% gross expense ratio and listed January 22, 1993.",
+      "source_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-500-etf-trust-spy",
+      "verified": true
+    },
+    {
+      "statement": "VOO held 505 stocks and pays dividends quarterly.",
+      "source_url": "https://fund-docs.vanguard.com/F0968.pdf",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-09",
+    "note": "SPY data re-fetched from ssga.com 2026-11-08; VOO data from Vanguard fact sheet; all fee math recomputed.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-09",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-09",
+    "summary": "SPY data re-fetched from ssga.com 2026-11-08; VOO data from Vanguard fact sheet; all fee math recomputed.",
+    "pending": "Owner sign-off."
+  }
+}
