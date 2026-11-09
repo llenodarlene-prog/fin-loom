@@ -990,6 +990,24 @@
       "scheduled_publish": "2026-11-14",
       "min_words": 2500,
       "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S55",
+      "working_title": "Fidelity vs Vanguard in 2026: Fees, Funds, Minimums and Account Fit",
+      "primary_keyword": "fidelity vs vanguard",
+      "secondary_keywords": "vanguard vs fidelity; fidelity or vanguard; fidelity vs vanguard fees; fidelity vs vanguard roth ira",
+      "cluster": "Investing",
+      "intent": "Commercial",
+      "status": "Scheduled",
+      "url_slug": "/investing/fidelity-vs-vanguard/",
+      "seo_title": "Fidelity vs Vanguard in 2026: Fees, Funds and Minimums",
+      "meta_description": "Fidelity vs Vanguard compared from each firm's own fee pages: commissions, the $25 Vanguard account fee, fund minimums, outside fund costs and index funds.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft of 2026-11-05; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-17",
+      "min_words": 2500,
+      "no_word_ceiling": true
     }
   ],
   "links": [
@@ -1725,6 +1743,19 @@
         "/investing/crypto-vs-stocks/",
         "/investing/dividend-vs-dividend-yield/",
         "/investing/vti-vs-voo/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/investing/crypto-vs-stocks/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S55",
+      "url_slug": "/investing/fidelity-vs-vanguard/",
+      "primary_silo_hub": "/investing/",
+      "approved_outbound_targets": [
+        "/investing/best-investment-apps/",
+        "/investing/crypto-vs-stocks/",
+        "/investing/fxaix-vs-voo/"
       ],
       "silo_role": "Supporting",
       "pillar": "/investing/crypto-vs-stocks/"

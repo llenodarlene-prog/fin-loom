@@ -1820,6 +1820,16 @@
     "alt_guidance": "Yahoo Finance one-year price chart for Vanguard S&P 500 ETF (VOO), showing the closing price on November 6, 2026"
   },
   {
+    "path": "/assets/images/screenshots/vanguard-fees-page.png",
+    "title": "Screenshot of Vanguard mutual fund fees page",
+    "use": "Inline product screenshot in /investing/fidelity-vs-vanguard/",
+    "width": 1280,
+    "height": 500,
+    "rights_status": "approved",
+    "rights_source": "Editorial screenshot of Vanguard public page https://investor.vanguard.com/investment-products/mutual-funds/fees, captured 2026-11-09; no personal data",
+    "alt_guidance": "Vanguard's public fees page showing the account service fees section, which lists a $25 fee for each brokerage account and the ways to have it waived"
+  },
+  {
     "path": "/assets/images/screenshots/yahoo-spy-1y-chart.png",
     "title": "Screenshot of State Street SPDR S&P 500 ETF Trust (SPY) one-year chart on Yahoo Finance",
     "use": "Inline fund chart screenshot",
