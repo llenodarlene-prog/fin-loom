@@ -1152,6 +1152,24 @@
       "scheduled_publish": "2026-11-10",
       "min_words": 2500,
       "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S66",
+      "working_title": "Sector Rotation Statistics: All 11 S&P 500 Sectors in October 2026",
+      "primary_keyword": "sector rotation",
+      "secondary_keywords": "sector rotation strategy; what is sector rotation; sector performance; s&p 500 sector performance",
+      "cluster": "Markets & Stocks",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/markets-stocks/sector-rotation-october-2026-statistics/",
+      "seo_title": "Sector Rotation: All 11 S&P 500 Sectors in October 2026",
+      "meta_description": "Sector rotation in October 2026 in one table: all 11 S&P 500 sector returns, why energy and defensive sectors led, and why last month's winner is not a forecast.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft of 2026-11-08 (market statistics series); final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-10",
+      "min_words": 2500,
+      "no_word_ceiling": true
     }
   ],
   "links": [
@@ -2011,6 +2029,19 @@
       "primary_silo_hub": "/markets-stocks/",
       "approved_outbound_targets": [
         "/markets-stocks/semiconductor-stocks-october-2026-statistics/",
+        "/markets-stocks/stock-analysis-fundamentals/",
+        "/markets-stocks/stock-market-crash-2026-statistics/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/markets-stocks/stock-analysis-fundamentals/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S66",
+      "url_slug": "/markets-stocks/sector-rotation-october-2026-statistics/",
+      "primary_silo_hub": "/markets-stocks/",
+      "approved_outbound_targets": [
+        "/markets-stocks/magnificent-seven-2026-selloff-statistics/",
         "/markets-stocks/stock-analysis-fundamentals/",
         "/markets-stocks/stock-market-crash-2026-statistics/"
       ],
