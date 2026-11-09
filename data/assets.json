@@ -1638,5 +1638,225 @@
     "rights_status": "approved",
     "rights_source": "Editorial screenshot of Lively public page https://livelyme.com/hsa/, captured 2026-11-06",
     "alt_guidance": "Lively HSA page with the headline The HSA built for spenders, savers, and investors beside a dashboard showing spending, investment growth and account balances"
+  },
+  {
+    "path": "/assets/images/posts/vti-vs-voo/laptop-candlestick-globe-books-1600.jpg",
+    "title": "A laptop showing a rising candlestick chart beside a coffee mug, books, a calculator and a globe on a sunlit desk",
+    "use": "Featured image for vti-vs-voo",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-08 (AI-generated editorial image)",
+    "alt_guidance": "A laptop showing a rising candlestick chart beside a coffee mug, books, a calculator and a globe on a sunlit desk"
+  },
+  {
+    "path": "/assets/images/posts/vti-vs-voo/laptop-candlestick-globe-books-800.jpg",
+    "title": "A laptop showing a rising candlestick chart beside a coffee mug, books, a calculator and a globe on a sunlit desk",
+    "use": "Featured image for vti-vs-voo",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-08 (AI-generated editorial image)",
+    "alt_guidance": "A laptop showing a rising candlestick chart beside a coffee mug, books, a calculator and a globe on a sunlit desk"
+  },
+  {
+    "path": "/assets/images/posts/voo-vs-spy/laptop-two-chart-lines-monitor-1600.jpg",
+    "title": "A laptop showing two rising chart lines next to a monitor with bar and donut charts on a wooden desk",
+    "use": "Featured image for voo-vs-spy",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-08 (AI-generated editorial image)",
+    "alt_guidance": "A laptop showing two rising chart lines next to a monitor with bar and donut charts on a wooden desk"
+  },
+  {
+    "path": "/assets/images/posts/voo-vs-spy/laptop-two-chart-lines-monitor-800.jpg",
+    "title": "A laptop showing two rising chart lines next to a monitor with bar and donut charts on a wooden desk",
+    "use": "Featured image for voo-vs-spy",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-08 (AI-generated editorial image)",
+    "alt_guidance": "A laptop showing two rising chart lines next to a monitor with bar and donut charts on a wooden desk"
+  },
+  {
+    "path": "/assets/images/posts/vug-vs-voo/laptop-candlesticks-warm-lamp-1600.jpg",
+    "title": "A laptop with a candlestick chart and order list beside a notebook, calculator, blue mug and warm lamp",
+    "use": "Featured image for vug-vs-voo",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-08 (AI-generated editorial image)",
+    "alt_guidance": "A laptop with a candlestick chart and order list beside a notebook, calculator, blue mug and warm lamp"
+  },
+  {
+    "path": "/assets/images/posts/vug-vs-voo/laptop-candlesticks-warm-lamp-800.jpg",
+    "title": "A laptop with a candlestick chart and order list beside a notebook, calculator, blue mug and warm lamp",
+    "use": "Featured image for vug-vs-voo",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-08 (AI-generated editorial image)",
+    "alt_guidance": "A laptop with a candlestick chart and order list beside a notebook, calculator, blue mug and warm lamp"
+  },
+  {
+    "path": "/assets/images/posts/fxaix-vs-voo/laptop-two-tracking-lines-1600.jpg",
+    "title": "A laptop showing two closely tracking chart lines beside a notebook, calculator, books and coffee",
+    "use": "Featured image for fxaix-vs-voo",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-08 (AI-generated editorial image)",
+    "alt_guidance": "A laptop showing two closely tracking chart lines beside a notebook, calculator, books and coffee"
+  },
+  {
+    "path": "/assets/images/posts/fxaix-vs-voo/laptop-two-tracking-lines-800.jpg",
+    "title": "A laptop showing two closely tracking chart lines beside a notebook, calculator, books and coffee",
+    "use": "Featured image for fxaix-vs-voo",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-08 (AI-generated editorial image)",
+    "alt_guidance": "A laptop showing two closely tracking chart lines beside a notebook, calculator, books and coffee"
+  },
+  {
+    "path": "/assets/images/posts/credit-union-vs-bank/banking-lobby-two-institutions-1600.jpg",
+    "title": "People talking with staff in a bank lobby beside a laptop comparing two financial institutions",
+    "use": "Featured image for credit-union-vs-bank",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-08 (AI-generated editorial image)",
+    "alt_guidance": "People talking with staff in a bank lobby beside a laptop comparing two financial institutions"
+  },
+  {
+    "path": "/assets/images/posts/credit-union-vs-bank/banking-lobby-two-institutions-800.jpg",
+    "title": "People talking with staff in a bank lobby beside a laptop comparing two financial institutions",
+    "use": "Featured image for credit-union-vs-bank",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-08 (AI-generated editorial image)",
+    "alt_guidance": "People talking with staff in a bank lobby beside a laptop comparing two financial institutions"
+  },
+  {
+    "path": "/assets/images/posts/checking-vs-savings-account/bank-cards-coin-jars-laptop-1600.jpg",
+    "title": "Two bank cards on a desk beside jars of coins, a laptop with charts, a notebook and a calculator",
+    "use": "Featured image for checking-vs-savings-account",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-08 (AI-generated editorial image)",
+    "alt_guidance": "Two bank cards on a desk beside jars of coins, a laptop with charts, a notebook and a calculator"
+  },
+  {
+    "path": "/assets/images/posts/checking-vs-savings-account/bank-cards-coin-jars-laptop-800.jpg",
+    "title": "Two bank cards on a desk beside jars of coins, a laptop with charts, a notebook and a calculator",
+    "use": "Featured image for checking-vs-savings-account",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-08 (AI-generated editorial image)",
+    "alt_guidance": "Two bank cards on a desk beside jars of coins, a laptop with charts, a notebook and a calculator"
+  },
+  {
+    "path": "/assets/images/posts/high-yield-savings-vs-money-market-account/coin-stacks-seedlings-growth-1600.jpg",
+    "title": "Rising stacks of coins with seedlings and a coin jar on a desk with a city skyline behind",
+    "use": "Featured image for high-yield-savings-vs-money-market-account",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-08 (AI-generated editorial image)",
+    "alt_guidance": "Rising stacks of coins with seedlings and a coin jar on a desk with a city skyline behind"
+  },
+  {
+    "path": "/assets/images/posts/high-yield-savings-vs-money-market-account/coin-stacks-seedlings-growth-800.jpg",
+    "title": "Rising stacks of coins with seedlings and a coin jar on a desk with a city skyline behind",
+    "use": "Featured image for high-yield-savings-vs-money-market-account",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-08 (AI-generated editorial image)",
+    "alt_guidance": "Rising stacks of coins with seedlings and a coin jar on a desk with a city skyline behind"
+  },
+  {
+    "path": "/assets/images/posts/fidelity-vs-vanguard/laptop-blue-charts-city-1600.jpg",
+    "title": "A laptop with blue investment charts beside printed reports, a calculator and notebook in a bright office",
+    "use": "Featured image for fidelity-vs-vanguard",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-08 (AI-generated editorial image)",
+    "alt_guidance": "A laptop with blue investment charts beside printed reports, a calculator and notebook in a bright office"
+  },
+  {
+    "path": "/assets/images/posts/fidelity-vs-vanguard/laptop-blue-charts-city-800.jpg",
+    "title": "A laptop with blue investment charts beside printed reports, a calculator and notebook in a bright office",
+    "use": "Featured image for fidelity-vs-vanguard",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-08 (AI-generated editorial image)",
+    "alt_guidance": "A laptop with blue investment charts beside printed reports, a calculator and notebook in a bright office"
+  },
+  {
+    "path": "/assets/images/screenshots/yahoo-vti-1y-chart.png",
+    "title": "Screenshot of Vanguard Morningstar Total Stock Market ETF (VTI) one-year chart on Yahoo Finance",
+    "use": "Inline fund chart screenshot",
+    "width": 1030,
+    "height": 720,
+    "rights_status": "approved",
+    "rights_source": "Editorial screenshot of Yahoo Finance public chart page https://finance.yahoo.com/quote/VTI/chart/, captured 2026-11-08",
+    "alt_guidance": "Yahoo Finance one-year price chart for Vanguard Morningstar Total Stock Market ETF (VTI), showing the closing price on November 6, 2026"
+  },
+  {
+    "path": "/assets/images/screenshots/yahoo-voo-1y-chart.png",
+    "title": "Screenshot of Vanguard S&P 500 ETF (VOO) one-year chart on Yahoo Finance",
+    "use": "Inline fund chart screenshot",
+    "width": 1030,
+    "height": 720,
+    "rights_status": "approved",
+    "rights_source": "Editorial screenshot of Yahoo Finance public chart page https://finance.yahoo.com/quote/VOO/chart/, captured 2026-11-08",
+    "alt_guidance": "Yahoo Finance one-year price chart for Vanguard S&P 500 ETF (VOO), showing the closing price on November 6, 2026"
+  },
+  {
+    "path": "/assets/images/screenshots/vanguard-fees-page.png",
+    "title": "Screenshot of Vanguard mutual fund fees page",
+    "use": "Inline product screenshot in /investing/fidelity-vs-vanguard/",
+    "width": 1280,
+    "height": 500,
+    "rights_status": "approved",
+    "rights_source": "Editorial screenshot of Vanguard public page https://investor.vanguard.com/investment-products/mutual-funds/fees, captured 2026-11-09; no personal data",
+    "alt_guidance": "Vanguard's public fees page showing the account service fees section, which lists a $25 fee for each brokerage account and the ways to have it waived"
+  },
+  {
+    "path": "/assets/images/screenshots/yahoo-spy-1y-chart.png",
+    "title": "Screenshot of State Street SPDR S&P 500 ETF Trust (SPY) one-year chart on Yahoo Finance",
+    "use": "Inline fund chart screenshot",
+    "width": 1030,
+    "height": 720,
+    "rights_status": "approved",
+    "rights_source": "Editorial screenshot of Yahoo Finance public chart page https://finance.yahoo.com/quote/SPY/chart/, captured 2026-11-08",
+    "alt_guidance": "Yahoo Finance one-year price chart for State Street SPDR S&P 500 ETF Trust (SPY), showing the closing price on November 6, 2026"
+  },
+  {
+    "path": "/assets/images/screenshots/yahoo-fxaix-1y-chart.png",
+    "title": "Screenshot of Fidelity 500 Index Fund (FXAIX) one-year chart on Yahoo Finance",
+    "use": "Inline fund chart screenshot",
+    "width": 1030,
+    "height": 720,
+    "rights_status": "approved",
+    "rights_source": "Editorial screenshot of Yahoo Finance public chart page https://finance.yahoo.com/quote/FXAIX/chart/, captured 2026-11-08",
+    "alt_guidance": "Yahoo Finance one-year price chart for Fidelity 500 Index Fund (FXAIX), showing the closing price on November 6, 2026"
+  },
+  {
+    "path": "/assets/images/screenshots/yahoo-vug-1y-chart.png",
+    "title": "Screenshot of Vanguard Morningstar Growth ETF (VUG) one-year chart on Yahoo Finance",
+    "use": "Inline fund chart screenshot",
+    "width": 1030,
+    "height": 720,
+    "rights_status": "approved",
+    "rights_source": "Editorial screenshot of Yahoo Finance public chart page https://finance.yahoo.com/quote/VUG/chart/, captured 2026-11-08",
+    "alt_guidance": "Yahoo Finance one-year price chart for Vanguard Morningstar Growth ETF (VUG), showing the closing price on November 6, 2026"
   }
 ]

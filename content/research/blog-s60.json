@@ -1,0 +1,431 @@
+{
+  "tracker_id": "Blog:S60",
+  "status": "verified",
+  "research_question": "How do FXAIX and VOO differ when both track the S&P 500?",
+  "research_brief": {
+    "purpose": "Explain mutual fund versus ETF differences for two S&P 500 funds using issuer and FINRA sources.",
+    "audience": "Investors choosing an S&P 500 fund for an IRA or brokerage account.",
+    "publication_year": "2026",
+    "data_period": "Fidelity and Vanguard fact sheets dated September 30, 2026; FINRA ETP page fetched November 9, 2026.",
+    "scope_limitations": "Broker-specific mutual fund transaction fees vary and are not quoted. Schwab and Investor.gov were not accessible."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "fxaix vs voo",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-11-08",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-09",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "fxaix vs voo",
+        "type": "short-tail",
+        "volume": 8100,
+        "difficulty": 20,
+        "cpc": 3.33,
+        "intent": "Commercial",
+        "ranking_url": "https://institutional.fidelity.com/app/proxy/content?literatureURL=%2F770893.PDF",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "voo vs fxaix",
+        "type": "long-tail",
+        "volume": 4400,
+        "difficulty": 16,
+        "cpc": 10.34,
+        "intent": "Commercial",
+        "ranking_url": "https://fund-docs.vanguard.com/F0968.pdf",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "fxaix or voo",
+        "type": "commercial",
+        "volume": 480,
+        "difficulty": 19,
+        "cpc": 0.58,
+        "intent": "Informational",
+        "ranking_url": "https://institutional.fidelity.com/app/proxy/content?literatureURL=%2F770893.PDF",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "fxaix vs voo expense ratio",
+        "type": "problem",
+        "volume": 90,
+        "difficulty": 20,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "https://advisors.vanguard.com/investments/products/voo/vanguard-sp-500-etf",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "fxaix vs voo roth ira",
+        "type": "question",
+        "volume": 20,
+        "difficulty": 5,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.finra.org/investors/investing/investment-products/exchange-traded-funds-and-products",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://institutional.fidelity.com/app/proxy/content?literatureURL=%2F770893.PDF",
+      "title": "Fidelity 500 Index Fund fact sheet",
+      "publisher": "Fidelity",
+      "source_type": "Fund issuer fact sheet",
+      "year": "2026",
+      "published_at": "2026-09-30",
+      "accessed_at": "2026-11-09",
+      "scope": "Expense ratio, minimum, inception, positions, top 10, sector weight",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Quarterly snapshot.",
+      "verified": true
+    },
+    {
+      "url": "https://fund-docs.vanguard.com/F0968.pdf",
+      "title": "Vanguard S&P 500 ETF fact sheet",
+      "publisher": "Vanguard",
+      "source_type": "Fund issuer fact sheet",
+      "year": "2026",
+      "published_at": "2026-09-30",
+      "accessed_at": "2026-11-09",
+      "scope": "Holdings, top 10, sector, dividend schedule",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Quarterly snapshot.",
+      "verified": true
+    },
+    {
+      "url": "https://advisors.vanguard.com/investments/products/voo/vanguard-sp-500-etf",
+      "title": "VOO fund profile",
+      "publisher": "Vanguard",
+      "source_type": "Fund issuer page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-09",
+      "scope": "Expense ratio as of April 28, 2026",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.finra.org/investors/investing/investment-products/exchange-traded-funds-and-products",
+      "title": "Exchange-Traded Funds and Products",
+      "publisher": "FINRA",
+      "source_type": "Regulator investor education",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-09",
+      "scope": "Intraday trading, bid-ask spreads, premiums and discounts, tax efficiency",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/FXAIX/chart/",
+      "title": "FXAIX chart",
+      "publisher": "Yahoo Finance",
+      "source_type": "Market data page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-09",
+      "scope": "One-year chart screenshot",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/VOO/chart/",
+      "title": "VOO chart",
+      "publisher": "Yahoo Finance",
+      "source_type": "Market data page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-09",
+      "scope": "One-year chart screenshot",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "FXAIX 0.015% expense ratio, $0 minimum, 508 positions, top 10 39.03%, IT 39.68% on Sept 30, 2026; inception Feb 17, 1988.",
+      "source_url": "https://institutional.fidelity.com/app/proxy/content?literatureURL=%2F770893.PDF",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent, USD, count",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "VOO 0.03% expense ratio, 505 stocks, top 10 40.6%, IT 39.7% on Sept 30, 2026.",
+      "source_url": "https://fund-docs.vanguard.com/F0968.pdf",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent, count",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "What's the difference between VOO and FXAIX",
+      "url": "http://google.com/goto?url=CAEShwEBxCJF13roYOebgiN7MY35TBX_vy6qjBCH2i3RsX5ow-xuzsErKbOS3nMpdbzWUwimCM70T3Ix72oOxGkbYusk-z_fKf8DWV840j_FlcYfIEItpKLXwmBpzN_q2upp-JUAeY9u-gd_APxgFpD9cawGOXVNTYZghJp00OgeMRp4OkF00wHJe0A",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "fxaix vs voo"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors focus on returns and miss account portability, minimums and how the tax argument changes by account type."
+    },
+    {
+      "title": "FXAIX vs VOO: Which Is a Better Investment Option?",
+      "url": "http://google.com/goto?url=CAESagHEIkXXV3M7ShegMzMYF3fvAFbJ1RmgHnojfGv1PSoQ7rXgm7ZT2BeIZXY4QcrjfnYxG3RPDcrHWb3gvItQjSqXZJZRjgFPM-G3fno3VTPTeU6_ki5he5OsDlxSjJm9ATTVH4OFlnsz0tk",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "fxaix vs voo"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors focus on returns and miss account portability, minimums and how the tax argument changes by account type."
+    },
+    {
+      "title": "FXAIX or VOO? : r/Bogleheads",
+      "url": "http://google.com/goto?url=CAESfwHEIkXX5Mp9qDwZ65De1Wp79HL-dpw-SrXW-ZMWSy1Bx4WiCjtuvXtl0_fB6lDPeicsEx0h0OZgrJmuBQW6DGAwCwmCXAAxdL8ZS7d_WbgbaBwZ1ytF2H7HUgGg2Czh0saPMsDicaCXB2Ck9PsP9aGYVrkQShZUyxsJ3-h-GZU",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "fxaix vs voo"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors focus on returns and miss account portability, minimums and how the tax argument changes by account type."
+    },
+    {
+      "title": "VOO vs FXAIX: Performance Charts & Full Comparison",
+      "url": "http://google.com/goto?url=CAESdwHEIkXX1tFPBjSzTDvjYLPs6ugfPDqY50gNvG9bPPnCe1xwp3I-nRI4FDbspGg8OJIujM7nqvhugBChxH0CFvcJVYtjkrb6Ep1IFXlHyHO9a2aJF4XWkZiHmkqpjPfozB9JjLqP30wrBpy46qEucQEaTwdRUtwY",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "fxaix vs voo"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors focus on returns and miss account portability, minimums and how the tax argument changes by account type."
+    },
+    {
+      "title": "FXAIX vs VOO: Which S&P 500 Index Fund Should You Buy?",
+      "url": "http://google.com/goto?url=CAESYAHEIkXX-tRl5zRN2oIGhOcJ2YYN8O7Otva6SK6HoHxSQAQE7Xg3ElvLidReJVrKASfrDPNc7ZOz88hUpoisUSm2Q-UjW7VQcVXEPMqkjpCg93Yxbbj9fLjMUdvaUeFGTg",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "fxaix vs voo"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors focus on returns and miss account portability, minimums and how the tax argument changes by account type."
+    }
+  ],
+  "content_gaps": [
+    "Account-type tax framing",
+    "Broker portability",
+    "Fee gap in dollars to $500,000",
+    "Order mechanics explained"
+  ],
+  "value_add": "Issuer-dated table, fee gap table, account-by-account tax framing and Yahoo chart captures.",
+  "plan": {
+    "reader_title": "FXAIX vs VOO in 2026: Fidelity Mutual Fund or Vanguard ETF?",
+    "seo_title": "FXAIX vs VOO in 2026: Mutual Fund or ETF for the S&P 500?",
+    "meta_description": "FXAIX vs VOO compared with Fidelity and Vanguard data: expense ratios, how each trades, minimums, taxes, portability and which account each fits.",
+    "slug": "/investing/fxaix-vs-voo/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "voo vs fxaix",
+      "fxaix or voo",
+      "fxaix vs voo expense ratio",
+      "fxaix vs voo roth ira"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "FXAIX vs VOO at a Glance",
+      "How Can the Same Index Feel So Different?",
+      "What Does the Fee Difference Save?",
+      "How Mutual Fund Purchases Work",
+      "How ETF Purchases Work",
+      "Do Mutual Funds and ETFs Get Taxed Differently?",
+      "What Happens If You Change Brokers?",
+      "Which Fund Fits Which Account?",
+      "Common Mistakes in the FXAIX vs VOO Choice",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "FXAIX: Fidelity fact sheet",
+      "VOO: Vanguard fact sheet",
+      "Wrapper mechanics and tax: FINRA"
+    ],
+    "visuals": [
+      "Owner-supplied featured image",
+      "Yahoo Finance one-year chart screenshots for FXAIX and VOO"
+    ],
+    "internal_links": [
+      "/investing/crypto-vs-stocks/",
+      "/investing/voo-vs-spy/",
+      "/investing/fidelity-vs-vanguard/"
+    ],
+    "external_link_opportunities": [
+      "https://institutional.fidelity.com/app/proxy/content?literatureURL=%2F770893.PDF",
+      "https://fund-docs.vanguard.com/F0968.pdf",
+      "https://www.finra.org/investors/investing/investment-products/exchange-traded-funds-and-products"
+    ],
+    "excluded_claims": [
+      "Fidelity fundresearch profile URL from owner draft (replaced by fact sheet)",
+      "Investor.gov bulletin (blocked)",
+      "Investing hub link (replaced with approved spoke)"
+    ],
+    "drafting_cautions": [
+      "No recommendation",
+      "Illustrative fee math labeled"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "FXAIX lists a 0.015% expense ratio and a $0 minimum.",
+      "source_url": "https://institutional.fidelity.com/app/proxy/content?literatureURL=%2F770893.PDF",
+      "verified": true
+    },
+    {
+      "statement": "VOO lists a 0.03% expense ratio and quarterly dividends.",
+      "source_url": "https://fund-docs.vanguard.com/F0968.pdf",
+      "verified": true
+    },
+    {
+      "statement": "ETFs trade throughout the day, face bid-ask spreads and might be more tax efficient than similar mutual funds.",
+      "source_url": "https://www.finra.org/investors/investing/investment-products/exchange-traded-funds-and-products",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-09",
+    "note": "Figures rechecked against both fact sheets and FINRA page; fee math recomputed.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-09",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-09",
+    "summary": "Figures rechecked against both fact sheets and FINRA page; fee math recomputed.",
+    "pending": "Owner sign-off."
+  }
+}

@@ -1,0 +1,405 @@
+{
+  "tracker_id": "Blog:S56",
+  "status": "verified",
+  "research_question": "How do credit unions and banks differ in ownership, insurance, membership and account terms?",
+  "research_brief": {
+    "purpose": "Compare credit unions and banks from NCUA and FDIC sources and show how to compare real accounts.",
+    "audience": "Consumers choosing where to bank.",
+    "publication_year": "2026",
+    "data_period": "NCUA and FDIC pages fetched November 7 to 9, 2026.",
+    "scope_limitations": "No institution-specific rates are quoted because they vary and change often. Trust-account rules change December 1, 2026."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "credit union vs bank",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-11-07",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-09",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "credit union vs bank",
+        "type": "short-tail",
+        "volume": 14800,
+        "difficulty": 18,
+        "cpc": 9.5,
+        "intent": "Commercial",
+        "ranking_url": "https://mycreditunion.gov/about/what-credit-union/how-credit-union-different-bank",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "bank vs credit union",
+        "type": "long-tail",
+        "volume": 14800,
+        "difficulty": 17,
+        "cpc": 8.94,
+        "intent": "Commercial",
+        "ranking_url": "https://www.fdic.gov/resources/deposit-insurance/faq",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "credit union or bank",
+        "type": "commercial",
+        "volume": 18100,
+        "difficulty": 12,
+        "cpc": 7.04,
+        "intent": "Commercial",
+        "ranking_url": "https://mycreditunion.gov/about/what-credit-union/how-credit-union-different-bank",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "credit union vs bank pros and cons",
+        "type": "problem",
+        "volume": 880,
+        "difficulty": 32,
+        "cpc": 1.36,
+        "intent": "Commercial",
+        "ranking_url": "https://mycreditunion.gov/share-insurance",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "is a credit union safer than a bank",
+        "type": "question",
+        "volume": 70,
+        "difficulty": 37,
+        "cpc": 0.04,
+        "intent": "Informational",
+        "ranking_url": "https://mycreditunion.gov/share-insurance",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://mycreditunion.gov/about/what-credit-union/how-credit-union-different-bank",
+      "title": "How is a credit union different than a bank?",
+      "publisher": "NCUA (MyCreditUnion.gov)",
+      "source_type": "Federal regulator consumer page",
+      "year": "2026",
+      "published_at": "2026-11-07",
+      "accessed_at": "2026-11-09",
+      "scope": "Not-for-profit, member ownership, elected board, field of membership, $250,000 coverage",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Consumer summary.",
+      "verified": true
+    },
+    {
+      "url": "https://mycreditunion.gov/share-insurance",
+      "title": "Share Insurance",
+      "publisher": "NCUA (MyCreditUnion.gov)",
+      "source_type": "Federal regulator consumer page",
+      "year": "2026",
+      "published_at": "2026-11-07",
+      "accessed_at": "2026-11-09",
+      "scope": "At least $250,000 coverage, 1970 fund, private insurance exception, exclusions, December 1, 2026 trust rule",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.fdic.gov/resources/deposit-insurance/faq",
+      "title": "Deposit Insurance FAQs",
+      "publisher": "FDIC",
+      "source_type": "Federal regulator page",
+      "year": "2026",
+      "published_at": "2026-11-07",
+      "accessed_at": "2026-11-09",
+      "scope": "At least $250,000 per depositor per bank per ownership category; full faith and credit; covered products",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.fdic.gov/resources/deposit-insurance/brochures/insured-deposits",
+      "title": "Your Insured Deposits",
+      "publisher": "FDIC",
+      "source_type": "Federal regulator brochure",
+      "year": "2026",
+      "published_at": "2026-11-07",
+      "accessed_at": "2026-11-09",
+      "scope": "Not-insured products, 1934 record, joint account example",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Standard coverage at least $250,000 per owner, per institution, per ownership category for FDIC and NCUA.",
+      "source_url": "https://www.fdic.gov/resources/deposit-insurance/faq",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "NCUSIF established by Congress in 1970; FDIC operating since 1934 with no loss of insured deposits.",
+      "source_url": "https://mycreditunion.gov/share-insurance",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Years",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Differences Between Credit Unions vs. Banks",
+      "url": "http://google.com/goto?url=CAESegHEIkXXEVfsJT8FVv4-hnhI58KUeyxmnk2Yi-jGgTbePmzpxHkaPVrpRF7HocLZkdiibhXhCPwE_g65x4ap0-vRvPkwXvH4SSHiXnoRBIRl186D37PvprSrCmpJUh0Iqh5FVw85Vn95GJDDqbs1X2mgfAFSaBzkyCto",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "credit union vs bank"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors generalize that credit unions pay more and rarely explain aggregation, private insurance or the 2026 trust rule change."
+    },
+    {
+      "title": "Credit Union vs. Bank: What's the Difference",
+      "url": "http://google.com/goto?url=CAESegHEIkXXNq22B275or7jGlpl7sMDFfcQJyEPv1iuP74zILFpUUEl0Ol1uDe_3ApASHKFmayJDiz7Ul9aHELgDFBQac4csqXe3WxIIiM7KCXe87tZh98Io-lZoJetOjdEj6Utp267dbsn_BZRMnBeSSTS0n1WF3Sy5NDY",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "credit union vs bank"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors generalize that credit unions pay more and rarely explain aggregation, private insurance or the 2026 trust rule change."
+    },
+    {
+      "title": "What are the benefits of a credit union vs a traditional bank",
+      "url": "http://google.com/goto?url=CAESogEBxCJF11wSyUU89u5Xl1zcSy8SlbVMpUkz41yTpqECU5zcwfvBo7jEk8AQdEQ3lZQo0Rmw3-zCI1M6M8MY_XTLiucdgMRnfIvY4cs4ENzp4rxmCIAQ3kp3FMLVOAcGxhuYPX5RVSPQPWVblYtFWXz6YzOf1oKmlAffztb3plYSwP_2x1rCrgufF4d4Ac7rc647BAlci0LW8ZU_hRO84hEE--k",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "credit union vs bank"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors generalize that credit unions pay more and rarely explain aggregation, private insurance or the 2026 trust rule change."
+    },
+    {
+      "title": "Credit Unions vs. Traditional Banks",
+      "url": "http://google.com/goto?url=CAEShQEBxCJF14n9vBGWx3dZvQnF9_AvV3P3aY0zmcfV0FpnJntz9vCMRASvVeNCxQT1gsj8-Y7nZ19bEYmfbOcAIPAuA5ksvR6DfQ7IXO4t3CKv45pDOYmPDZepneOUAdXFDQ2H1mDUti5Ob3MKnGZyYI2BfUDIj3bUhE0ddDUSTJDy9IWjbSgD",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "credit union vs bank"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors generalize that credit unions pay more and rarely explain aggregation, private insurance or the 2026 trust rule change."
+    },
+    {
+      "title": "8 Benefits & Advantages of a Credit Union over a Bank",
+      "url": "http://google.com/goto?url=CAESeQHEIkXXV7gelQdlxQ86lTbBqcy3cHhg1lmhI2DryaA7XuforpXWyVkfIKRwziiRI1dqCzhJ39KoKAagCyBMR1DoF5l2D6PNj-uUdQqBRQpzys7YaOyBF4SlVVIHVo3afcoD7tZ4L8hizFY0UeQhrTFIbT9Ab-SxlTI",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "credit union vs bank"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors generalize that credit unions pay more and rarely explain aggregation, private insurance or the 2026 trust rule change."
+    }
+  ],
+  "content_gaps": [
+    "Private insurance exception",
+    "How the $250,000 limit aggregates",
+    "December 1, 2026 trust rule",
+    "What is not insured"
+  ],
+  "value_add": "Regulator-sourced comparison table, aggregation examples, trust rule update and a practical comparison checklist.",
+  "plan": {
+    "reader_title": "Credit Union vs Bank in 2026: Ownership, Insurance, Fees and Access",
+    "seo_title": "Credit Union vs Bank: Ownership, Insurance and Fees",
+    "meta_description": "Credit union vs bank compared from NCUA and FDIC sources: who owns each, how $250,000 coverage works, membership rules and how to compare accounts.",
+    "slug": "/money-banking/credit-union-vs-bank/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "bank vs credit union",
+      "credit union or bank",
+      "credit union vs bank pros and cons",
+      "is a credit union safer than a bank"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "Credit Union vs Bank at a Glance",
+      "Who Owns Each Institution?",
+      "Is Your Money Equally Safe?",
+      "How to Check an Institution's Insurance",
+      "How the $250,000 Limit Adds Up",
+      "Who Can Join a Credit Union?",
+      "Same Accounts, Different Names",
+      "How Do Rates and Fees Compare?",
+      "Access, Branches and Technology",
+      "Two Hypothetical Savers",
+      "Questions to Ask Before Opening an Account",
+      "Common Mistakes in the Credit Union vs Bank Decision",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Credit unions: NCUA",
+      "Banks: FDIC"
+    ],
+    "visuals": [
+      "Owner-supplied featured image"
+    ],
+    "internal_links": [
+      "/money-banking/saving-vs-investing/",
+      "/money-banking/checking-vs-savings-account/",
+      "/money-banking/high-yield-savings-vs-money-market-account/"
+    ],
+    "external_link_opportunities": [
+      "https://mycreditunion.gov/about/what-credit-union/how-credit-union-different-bank",
+      "https://www.fdic.gov/resources/deposit-insurance/faq",
+      "https://mycreditunion.gov/share-insurance"
+    ],
+    "excluded_claims": [
+      "Claim that credit unions always pay higher rates (not supported)",
+      "EDIE calculator link (not fetched)"
+    ],
+    "drafting_cautions": [
+      "No institution recommendation",
+      "Illustrative aggregation example labeled"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Credit unions are not-for-profit and member-owned with an elected volunteer board.",
+      "source_url": "https://mycreditunion.gov/about/what-credit-union/how-credit-union-different-bank",
+      "verified": true
+    },
+    {
+      "statement": "Some state-chartered credit unions use private insurance not backed by the U.S. government.",
+      "source_url": "https://mycreditunion.gov/share-insurance",
+      "verified": true
+    },
+    {
+      "statement": "FDIC insurance is backed by the full faith and credit of the U.S. government.",
+      "source_url": "https://www.fdic.gov/resources/deposit-insurance/faq",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-09",
+    "note": "All insurance figures and membership rules rechecked on NCUA and FDIC pages 2026-11-07 to 2026-11-09.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-09",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-09",
+    "summary": "All insurance figures and membership rules rechecked on NCUA and FDIC pages 2026-11-07 to 2026-11-09.",
+    "pending": "Owner sign-off."
+  }
+}

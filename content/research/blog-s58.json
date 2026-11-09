@@ -1,0 +1,402 @@
+{
+  "tracker_id": "Blog:S58",
+  "status": "verified",
+  "research_question": "How do high-yield savings and money market accounts differ on rates, access and safety?",
+  "research_brief": {
+    "purpose": "Compare the two deposit accounts with CFPB, FDIC and Federal Reserve sources and separate them from money market funds.",
+    "audience": "Savers choosing where to hold cash.",
+    "publication_year": "2026",
+    "data_period": "FDIC national rates published October 19, 2026; CFPB, FDIC and Federal Reserve pages fetched November 7 to 9, 2026.",
+    "scope_limitations": "No specific bank rates are quoted. The FDIC savings average covers all savings accounts, not only high-yield ones."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "high yield savings vs money market",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-11-07",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-09",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "high yield savings vs money market",
+        "type": "short-tail",
+        "volume": 5400,
+        "difficulty": 19,
+        "cpc": 6.955,
+        "intent": "Commercial",
+        "ranking_url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-money-market-account-en-1007/",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "money market vs high yield savings",
+        "type": "long-tail",
+        "volume": 5400,
+        "difficulty": 24,
+        "cpc": 9.41,
+        "intent": "Commercial",
+        "ranking_url": "https://www.fdic.gov/resources/bankers/national-rates/",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "high yield savings or money market",
+        "type": "commercial",
+        "volume": 320,
+        "difficulty": 25,
+        "cpc": 5.6,
+        "intent": "Informational",
+        "ranking_url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-money-market-account-en-1007/",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "money market account vs savings account",
+        "type": "problem",
+        "volume": 1600,
+        "difficulty": 24,
+        "cpc": 4.82,
+        "intent": "Informational",
+        "ranking_url": "https://www.federalreserve.gov/supervisionreg/savings-deposits-frequently-asked-questions.htm",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "is a money market account safe",
+        "type": "question",
+        "volume": 210,
+        "difficulty": 55,
+        "cpc": 5.61,
+        "intent": "Informational",
+        "ranking_url": "https://www.fdic.gov/resources/deposit-insurance/faq",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-money-market-account-en-1007/",
+      "title": "What is a money market account?",
+      "publisher": "CFPB",
+      "source_type": "Federal regulator consumer page",
+      "year": "2026",
+      "published_at": "2026-11-07",
+      "accessed_at": "2026-11-09",
+      "scope": "Insured by FDIC or NCUA; higher rates; transaction limits; minimums; difference from money market mutual funds",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.fdic.gov/resources/bankers/national-rates/",
+      "title": "National Rates and Rate Caps",
+      "publisher": "FDIC",
+      "source_type": "Federal regulator data",
+      "year": "2026",
+      "published_at": "2026-10-19",
+      "accessed_at": "2026-11-09",
+      "scope": "Money market 0.63%, savings 0.38% national averages",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Averages by product tier.",
+      "verified": true
+    },
+    {
+      "url": "https://www.fdic.gov/resources/deposit-insurance/faq",
+      "title": "Deposit Insurance FAQs",
+      "publisher": "FDIC",
+      "source_type": "Federal regulator page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-09",
+      "scope": "Savings and MMDAs covered up to at least $250,000",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.fdic.gov/resources/deposit-insurance/brochures/insured-deposits",
+      "title": "Your Insured Deposits",
+      "publisher": "FDIC",
+      "source_type": "Federal regulator brochure",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-09",
+      "scope": "Mutual funds not insured",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.federalreserve.gov/supervisionreg/savings-deposits-frequently-asked-questions.htm",
+      "title": "Savings Deposits Frequently Asked Questions",
+      "publisher": "Federal Reserve Board",
+      "source_type": "Federal regulator FAQ",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-09",
+      "scope": "MMDAs within savings deposit definition; six-transfer limit deleted; banks may still enforce",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "FDIC national average rates published Oct 19, 2026: money market 0.63%, savings 0.38%.",
+      "source_url": "https://www.fdic.gov/resources/bankers/national-rates/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Money Market Fund verses High Yield Savings Account",
+      "url": "http://google.com/goto?url=CAESnQEBxCJF1yOFFqDIvALK7sexpo9ig-eMKcLQSdCw3xVegSYWaVTLjqhPMUJuJ9JN-SjVihMqkxroELRAgfTA1t3ntHg6vpQ_cTwxIhu84zWIgQN08bZ953b-kTtbGHbUzCSnNSGAbVBHlud_Ko2H-gRcoN2GxQrz6VWnpijSX6butwgkA_17IsXkkqkn1ZCcVGgMSCqiIBm2VkZ3v-_m",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "high yield savings vs money market"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors blur money market accounts and money market funds and rarely cite current national averages."
+    },
+    {
+      "title": "Money Market vs. High-Yield Savings: Key Differences",
+      "url": "http://google.com/goto?url=CAESmQEBxCJF16753ZjqvNDxRq5yVKjybctLj1k53x7JiyKZvdfZ0dCLTjnMeWMGCTr1l85J3sYGb5MBypvom86AugqgdOdnjXUEgjc6Es4BGGtaMRBc2hDWKLeqOuKEqiWBUVSrAyeOk12xcrqRoGOgHFEaJwBZrOCPCHNw94Pj0s9z5wOoX5PrUx-vKFi7Ji_Qzd_nzqxfWnoOR90",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "high yield savings vs money market"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors blur money market accounts and money market funds and rarely cite current national averages."
+    },
+    {
+      "title": "Should you put your money in high-yield savings or money market",
+      "url": "http://google.com/goto?url=CAESZwHEIkXXc6qRgCFkAnmgIfXa9QGO_sdflx3J60UQ-wMavmZ4fUulSqOvfkLSKzNJP10u_ADy3RtkXEbUUDPtB_GRgi05OFFqOdR7LyjQEj5Og6ErVyDEvztlHZmdMui2dA5wAx0n2nc",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "high yield savings vs money market"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors blur money market accounts and money market funds and rarely cite current national averages."
+    },
+    {
+      "title": "Money Market Funds vs High-Yield Savings",
+      "url": "http://google.com/goto?url=CAESfAHEIkXX3aIWT0Zuut1Z8FnLGx7hCcesdotdkay4YeaxsphGBhlJXNaNORibaK-yVXfovOe8oP_PsDD_96YLHXdpaObWfKhEpHjzrgGy588pA098VfgbQFOcthzXWBQ5V_eMf3h4itavVDcItTJulQgkClrFej-whHZv_Tk",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "high yield savings vs money market"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors blur money market accounts and money market funds and rarely cite current national averages."
+    },
+    {
+      "title": "HYSA vs Money Market: Which Saves You More in 2026?",
+      "url": "http://google.com/goto?url=CAEScgHEIkXXLBFpjD0wHHWFkSfveu9SB9wbze6_cNO4_R4pSHLSke-SHqeoi-DlHnJBfM_wYmXeecNo8k2_UlpGrmq_zy_wlREdeFVkNSwHWK1tw5E1xrxadHY9jLrgUaueDpnDUTykGgB2PO-KaQtaaG1g_Q",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "high yield savings vs money market"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors blur money market accounts and money market funds and rarely cite current national averages."
+    }
+  ],
+  "content_gaps": [
+    "Clear MMA vs money market fund distinction",
+    "Current FDIC averages with tier caveats",
+    "Access and transaction rules",
+    "Emergency fund fit"
+  ],
+  "value_add": "Regulator-sourced comparison, dollar examples and a clear fund-versus-account warning.",
+  "plan": {
+    "reader_title": "High Yield Savings vs Money Market Account in 2026: Rates, Access and Safety",
+    "seo_title": "High Yield Savings vs Money Market Account: Rates and Access",
+    "meta_description": "High yield savings vs money market account compared with CFPB, FDIC and Federal Reserve sources: national rates, access, minimums, insurance and fund confusion.",
+    "slug": "/money-banking/high-yield-savings-vs-money-market-account/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "money market vs high yield savings",
+      "high yield savings or money market",
+      "money market account vs savings account",
+      "is a money market account safe"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "High Yield Savings vs Money Market at a Glance",
+      "What Is a Money Market Account?",
+      "How Each Account Is Usually Offered",
+      "A Money Market Account Is Not a Money Market Fund",
+      "Which Pays More?",
+      "How Easy Is It to Get Your Money?",
+      "Are They Equally Safe?",
+      "Fees, Minimums and Tiers",
+      "Which Fits an Emergency Fund?",
+      "What Happens to Interest at Tax Time",
+      "Two Hypothetical Savers",
+      "How to Compare Two Specific Accounts",
+      "Common Mistakes in the High Yield Savings vs Money Market Choice",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Account definitions: CFPB",
+      "Rates and insurance: FDIC",
+      "Transfer rules: Federal Reserve"
+    ],
+    "visuals": [
+      "Owner-supplied featured image"
+    ],
+    "internal_links": [
+      "/money-banking/saving-vs-investing/",
+      "/money-banking/checking-vs-savings-account/",
+      "/money-banking/money-market-vs-cd/"
+    ],
+    "external_link_opportunities": [
+      "https://www.fdic.gov/resources/bankers/national-rates/",
+      "https://www.consumerfinance.gov/ask-cfpb/what-is-a-money-market-account-en-1007/"
+    ],
+    "excluded_claims": [
+      "Specific bank APYs from owner draft (not verifiable as current)"
+    ],
+    "drafting_cautions": [
+      "No account recommendation",
+      "Dollar examples labeled illustrative"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Money market accounts are insured by the FDIC or NCUA and usually limit transactions.",
+      "source_url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-money-market-account-en-1007/",
+      "verified": true
+    },
+    {
+      "statement": "A money market mutual fund is an investment, not a savings or checking account.",
+      "source_url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-money-market-account-en-1007/",
+      "verified": true
+    },
+    {
+      "statement": "The national average money market rate was 0.63% and savings 0.38%.",
+      "source_url": "https://www.fdic.gov/resources/bankers/national-rates/",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-09",
+    "note": "Definitions, rates and insurance rechecked on CFPB, FDIC and Federal Reserve pages November 7 to 9, 2026; math recomputed.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-09",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-09",
+    "summary": "Definitions, rates and insurance rechecked on CFPB, FDIC and Federal Reserve pages November 7 to 9, 2026; math recomputed.",
+    "pending": "Owner sign-off."
+  }
+}

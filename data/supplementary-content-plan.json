@@ -918,6 +918,168 @@
       "scheduled_publish": "2026-11-12",
       "min_words": 2500,
       "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S52",
+      "working_title": "VTI vs VOO in 2026: Total Market Coverage or the S&P 500?",
+      "primary_keyword": "vti vs voo",
+      "secondary_keywords": "voo vs vti; vti or voo; vti vs voo overlap; vti vs voo expense ratio",
+      "cluster": "Investing",
+      "intent": "Commercial",
+      "status": "Scheduled",
+      "url_slug": "/investing/vti-vs-voo/",
+      "seo_title": "VTI vs VOO in 2026: Total Market or the S&P 500?",
+      "meta_description": "VTI vs VOO compared with Vanguard's September 2026 data: holdings, top-10 weight, fees, overlap, small-cap exposure and which role each fund plays.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft of 2026-11-05; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-13",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S53",
+      "working_title": "VOO vs SPY in 2026: Same S&P 500, Different Costs and Structure",
+      "primary_keyword": "voo vs spy",
+      "secondary_keywords": "spy vs voo; voo or spy; voo vs spy expense ratio; voo vs spy dividends",
+      "cluster": "Investing",
+      "intent": "Commercial",
+      "status": "Scheduled",
+      "url_slug": "/investing/voo-vs-spy/",
+      "seo_title": "VOO vs SPY in 2026: Same S&P 500, Different Costs",
+      "meta_description": "VOO vs SPY compared with issuer data: expense ratios, holdings, fund structure, trading and dividends for two ETFs that track the S&P 500.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft of 2026-11-05; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-13",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S60",
+      "working_title": "FXAIX vs VOO in 2026: Fidelity Mutual Fund or Vanguard ETF?",
+      "primary_keyword": "fxaix vs voo",
+      "secondary_keywords": "voo vs fxaix; fxaix or voo; fxaix vs voo expense ratio; fxaix vs voo roth ira",
+      "cluster": "Investing",
+      "intent": "Commercial",
+      "status": "Scheduled",
+      "url_slug": "/investing/fxaix-vs-voo/",
+      "seo_title": "FXAIX vs VOO in 2026: Mutual Fund or ETF for the S&P 500?",
+      "meta_description": "FXAIX vs VOO compared with Fidelity and Vanguard data: expense ratios, how each trades, minimums, taxes, portability and which account each fits.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft of 2026-11-05; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-14",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S61",
+      "working_title": "VUG vs VOO in 2026: Growth Concentration or the Broad S&P 500?",
+      "primary_keyword": "vug vs voo",
+      "secondary_keywords": "voo vs vug; vug or voo; vug vs voo overlap; vug and voo together",
+      "cluster": "Investing",
+      "intent": "Commercial",
+      "status": "Scheduled",
+      "url_slug": "/investing/vug-vs-voo/",
+      "seo_title": "VUG vs VOO in 2026: Growth Tilt or the Broad S&P 500?",
+      "meta_description": "VUG vs VOO compared with Vanguard's September 2026 fact sheets: holdings, top-10 weight, sector mix, fees, overlap and what a growth tilt changes.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft of 2026-11-05; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-14",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S55",
+      "working_title": "Fidelity vs Vanguard in 2026: Fees, Funds, Minimums and Account Fit",
+      "primary_keyword": "fidelity vs vanguard",
+      "secondary_keywords": "vanguard vs fidelity; fidelity or vanguard; fidelity vs vanguard fees; fidelity vs vanguard roth ira",
+      "cluster": "Investing",
+      "intent": "Commercial",
+      "status": "Scheduled",
+      "url_slug": "/investing/fidelity-vs-vanguard/",
+      "seo_title": "Fidelity vs Vanguard in 2026: Fees, Funds and Minimums",
+      "meta_description": "Fidelity vs Vanguard compared from each firm's own fee pages: commissions, the $25 Vanguard account fee, fund minimums, outside fund costs and index funds.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft of 2026-11-05; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-17",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S56",
+      "working_title": "Credit Union vs Bank in 2026: Ownership, Insurance, Fees and Access",
+      "primary_keyword": "credit union vs bank",
+      "secondary_keywords": "bank vs credit union; credit union or bank; credit union vs bank pros and cons; is a credit union safer than a bank",
+      "cluster": "Money & Banking",
+      "intent": "Commercial",
+      "status": "Scheduled",
+      "url_slug": "/money-banking/credit-union-vs-bank/",
+      "seo_title": "Credit Union vs Bank: Ownership, Insurance and Fees",
+      "meta_description": "Credit union vs bank compared from NCUA and FDIC sources: who owns each, how $250,000 coverage works, membership rules and how to compare accounts.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft of 2026-11-05; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-15",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S57",
+      "working_title": "Checking vs Savings Account in 2026: What Each Is For and How to Use Both",
+      "primary_keyword": "checking vs savings account",
+      "secondary_keywords": "savings vs checking account; checking or savings account; difference between checking and savings account; checking vs savings account interest",
+      "cluster": "Money & Banking",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/money-banking/checking-vs-savings-account/",
+      "seo_title": "Checking vs Savings Account: Differences and How to Use Both",
+      "meta_description": "Checking vs savings account compared with FDIC, CFPB and Federal Reserve sources: national average rates, transfer rules, overdrafts, insurance and setup.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft of 2026-11-05; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-15",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S58",
+      "working_title": "High Yield Savings vs Money Market Account in 2026: Rates, Access and Safety",
+      "primary_keyword": "high yield savings vs money market",
+      "secondary_keywords": "money market vs high yield savings; high yield savings or money market; money market account vs savings account; is a money market account safe",
+      "cluster": "Money & Banking",
+      "intent": "Commercial",
+      "status": "Scheduled",
+      "url_slug": "/money-banking/high-yield-savings-vs-money-market-account/",
+      "seo_title": "High Yield Savings vs Money Market Account: Rates and Access",
+      "meta_description": "High yield savings vs money market account compared with CFPB, FDIC and Federal Reserve sources: national rates, access, minimums, insurance and fund confusion.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft of 2026-11-05; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-16",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S59",
+      "working_title": "Money Market vs CD in 2026: Flexible Access or a Locked-In Rate?",
+      "primary_keyword": "money market vs cd",
+      "secondary_keywords": "cd vs money market; money market or cd; money market account vs cd; cd vs money market account rates",
+      "cluster": "Money & Banking",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/money-banking/money-market-vs-cd/",
+      "seo_title": "Money Market vs CD in 2026: Access or a Locked-In Rate?",
+      "meta_description": "Money market vs CD compared with CFPB and FDIC sources: national average rates, early withdrawal penalties, access, insurance and how to match each to a goal.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft of 2026-11-05; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-16",
+      "min_words": 2500,
+      "no_word_ceiling": true
     }
   ],
   "links": [
@@ -994,10 +1156,15 @@
         "/investing/bitcoin-allocation/",
         "/investing/dividend-reinvestment-plan-calculator/",
         "/investing/dividend-vs-dividend-yield/",
+        "/investing/fidelity-vs-vanguard/",
+        "/investing/fxaix-vs-voo/",
         "/investing/index-fund-vs-mutual-fund/",
         "/investing/per-capita-gdp-explained/",
         "/investing/qualified-dividends/",
-        "/investing/stock-risk-metrics/"
+        "/investing/stock-risk-metrics/",
+        "/investing/voo-vs-spy/",
+        "/investing/vti-vs-voo/",
+        "/investing/vug-vs-voo/"
       ],
       "silo_role": "Hub",
       "pillar": "/investing/crypto-vs-stocks/"
@@ -1038,10 +1205,14 @@
         "/money-banking/apy-vs-interest-rate/",
         "/money-banking/best-budgeting-apps/",
         "/money-banking/best-hsa-accounts/",
+        "/money-banking/checking-vs-savings-account/",
+        "/money-banking/credit-union-vs-bank/",
+        "/money-banking/high-yield-savings-vs-money-market-account/",
         "/money-banking/hsa-vs-fsa/",
         "/money-banking/hsa-vs-hra/",
         "/money-banking/identity-theft-statistics/",
         "/money-banking/inflation-rate-by-year/",
+        "/money-banking/money-market-vs-cd/",
         "/money-banking/savings-interest-calculator/",
         "/money-banking/what-is-a-credit-score/"
       ],
@@ -1604,6 +1775,123 @@
       ],
       "silo_role": "Supporting",
       "pillar": "/markets-stocks/stock-analysis-fundamentals/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S52",
+      "url_slug": "/investing/vti-vs-voo/",
+      "primary_silo_hub": "/investing/",
+      "approved_outbound_targets": [
+        "/investing/crypto-vs-stocks/",
+        "/investing/voo-vs-spy/",
+        "/investing/vug-vs-voo/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/investing/crypto-vs-stocks/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S53",
+      "url_slug": "/investing/voo-vs-spy/",
+      "primary_silo_hub": "/investing/",
+      "approved_outbound_targets": [
+        "/investing/crypto-vs-stocks/",
+        "/investing/fxaix-vs-voo/",
+        "/investing/vti-vs-voo/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/investing/crypto-vs-stocks/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S60",
+      "url_slug": "/investing/fxaix-vs-voo/",
+      "primary_silo_hub": "/investing/",
+      "approved_outbound_targets": [
+        "/investing/crypto-vs-stocks/",
+        "/investing/fidelity-vs-vanguard/",
+        "/investing/voo-vs-spy/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/investing/crypto-vs-stocks/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S61",
+      "url_slug": "/investing/vug-vs-voo/",
+      "primary_silo_hub": "/investing/",
+      "approved_outbound_targets": [
+        "/investing/crypto-vs-stocks/",
+        "/investing/dividend-vs-dividend-yield/",
+        "/investing/vti-vs-voo/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/investing/crypto-vs-stocks/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S55",
+      "url_slug": "/investing/fidelity-vs-vanguard/",
+      "primary_silo_hub": "/investing/",
+      "approved_outbound_targets": [
+        "/investing/best-investment-apps/",
+        "/investing/crypto-vs-stocks/",
+        "/investing/fxaix-vs-voo/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/investing/crypto-vs-stocks/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S56",
+      "url_slug": "/money-banking/credit-union-vs-bank/",
+      "primary_silo_hub": "/money-banking/",
+      "approved_outbound_targets": [
+        "/money-banking/checking-vs-savings-account/",
+        "/money-banking/high-yield-savings-vs-money-market-account/",
+        "/money-banking/saving-vs-investing/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/money-banking/saving-vs-investing/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S57",
+      "url_slug": "/money-banking/checking-vs-savings-account/",
+      "primary_silo_hub": "/money-banking/",
+      "approved_outbound_targets": [
+        "/money-banking/credit-union-vs-bank/",
+        "/money-banking/high-yield-savings-vs-money-market-account/",
+        "/money-banking/saving-vs-investing/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/money-banking/saving-vs-investing/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S58",
+      "url_slug": "/money-banking/high-yield-savings-vs-money-market-account/",
+      "primary_silo_hub": "/money-banking/",
+      "approved_outbound_targets": [
+        "/money-banking/checking-vs-savings-account/",
+        "/money-banking/money-market-vs-cd/",
+        "/money-banking/saving-vs-investing/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/money-banking/saving-vs-investing/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S59",
+      "url_slug": "/money-banking/money-market-vs-cd/",
+      "primary_silo_hub": "/money-banking/",
+      "approved_outbound_targets": [
+        "/money-banking/high-yield-savings-vs-money-market-account/",
+        "/money-banking/saving-vs-investing/",
+        "/money-banking/savings-interest-calculator/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/money-banking/saving-vs-investing/"
     }
   ]
 }

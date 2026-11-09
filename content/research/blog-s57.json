@@ -1,0 +1,416 @@
+{
+  "tracker_id": "Blog:S57",
+  "status": "verified",
+  "research_question": "How do checking and savings accounts differ, and how should someone use both?",
+  "research_brief": {
+    "purpose": "Explain the job of each account with FDIC rates, Federal Reserve transfer rules and CFPB overdraft guidance.",
+    "audience": "Consumers opening or organizing bank accounts.",
+    "publication_year": "2026",
+    "data_period": "FDIC national rates published October 19, 2026 (prior month-end data); Federal Reserve, CFPB and FDIC pages fetched November 7 to 9, 2026.",
+    "scope_limitations": "National averages are not quotes for any account. Bank-specific fees and limits vary."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "checking vs savings account",
+    "intent": "Informational",
+    "serp_checked_at": "2026-11-07",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-09",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "checking vs savings account",
+        "type": "short-tail",
+        "volume": 12100,
+        "difficulty": 29,
+        "cpc": 18.94,
+        "intent": "Informational",
+        "ranking_url": "https://www.fdic.gov/resources/bankers/national-rates/",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "savings vs checking account",
+        "type": "long-tail",
+        "volume": 12100,
+        "difficulty": 56,
+        "cpc": 21.17,
+        "intent": "Informational",
+        "ranking_url": "https://www.federalreserve.gov/supervisionreg/savings-deposits-frequently-asked-questions.htm",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "checking or savings account",
+        "type": "commercial",
+        "volume": 12100,
+        "difficulty": 14,
+        "cpc": 18.52,
+        "intent": "Informational",
+        "ranking_url": "https://www.consumerfinance.gov/consumer-tools/bank-accounts/know-your-overdraft-options/",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "difference between checking and savings account",
+        "type": "problem",
+        "volume": 5400,
+        "difficulty": 14,
+        "cpc": 26.23,
+        "intent": "Informational",
+        "ranking_url": "https://www.fdic.gov/resources/deposit-insurance/faq",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "checking vs savings account interest",
+        "type": "question",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.fdic.gov/resources/bankers/national-rates/",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.fdic.gov/resources/bankers/national-rates/",
+      "title": "National Rates and Rate Caps",
+      "publisher": "FDIC",
+      "source_type": "Federal regulator data",
+      "year": "2026",
+      "published_at": "2026-10-19",
+      "accessed_at": "2026-11-09",
+      "scope": "National average savings 0.38%, interest checking 0.07%, money market 0.63%, 12-month CD 1.76%",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Averages at the $2,500 tier for savings and checking.",
+      "verified": true
+    },
+    {
+      "url": "https://www.federalreserve.gov/supervisionreg/savings-deposits-frequently-asked-questions.htm",
+      "title": "Savings Deposits Frequently Asked Questions",
+      "publisher": "Federal Reserve Board",
+      "source_type": "Federal regulator FAQ",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-09",
+      "scope": "April 24, 2020 interim final rule deleted six-per-month limit; banks may but need not suspend enforcement",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.consumerfinance.gov/consumer-tools/bank-accounts/know-your-overdraft-options/",
+      "title": "Know your overdraft options",
+      "publisher": "CFPB",
+      "source_type": "Federal regulator consumer page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-09",
+      "scope": "Overdraft fees often $30 or more; linked savings transfers; ATM opt-in rule",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.consumerfinance.gov/ask-cfpb/how-long-can-a-bank-or-credit-union-hold-funds-i-deposited-en-1023/",
+      "title": "How long can a bank or credit union hold funds I deposited?",
+      "publisher": "CFPB",
+      "source_type": "Federal regulator consumer page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-09",
+      "scope": "Electronic payments generally available next business day",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.fdic.gov/resources/deposit-insurance/faq",
+      "title": "Deposit Insurance FAQs",
+      "publisher": "FDIC",
+      "source_type": "Federal regulator page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-09",
+      "scope": "Checking, savings, MMDAs and CDs covered up to at least $250,000",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "FDIC national average rates published Oct 19, 2026: savings 0.38%, interest checking 0.07%.",
+      "source_url": "https://www.fdic.gov/resources/bankers/national-rates/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Many banks and credit unions charge $30 or more per overdraft.",
+      "source_url": "https://www.consumerfinance.gov/consumer-tools/bank-accounts/know-your-overdraft-options/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Checking vs Savings Account: What's the difference?",
+      "url": "http://google.com/goto?url=CAESqQEBxCJF18inq2VQ-vtH4-6eZL6sj3VX9auO5JtUvKkMYmFuRiBRafN3EMlZbdMjemaTAAAr8KwrqQ0c4xt_E8yyZPQqqq9asmNzZCP9nDwKc0ZZidhnOpFxjinXuDnGeal-S1Y_jmzxYxVV9RAUgVFODwVK_HyQirBnRQzYyf4rI_QVf-ajNNNSU7Vlp65cNFvVCf2HJ7ZwK1Kf4LfBrw4B9DO6gNvELdTm",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "checking vs savings account"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors still cite the six-transfer limit as law or omit current national average rates."
+    },
+    {
+      "title": "Why you need both checking and savings accounts",
+      "url": "http://google.com/goto?url=CAESpgEBxCJF1wtr6Vu4f65AkypmSXyZf4IL7z42FCszpcG-ssWg8l211B3GrdrH_vheUdf62dnAnRJNsZv16ND6Ntl4KCJ6mkr0Y76aMuZqX7m11R_mvKdJuJgVtBXpU8xEtLhPtiJqofLt23eKkZ3FvI8yPtyIfhqLu0Ql_UpKIpMmt1r0cYabmHuviUv5cV63KsgljWjKPGb2xt9ZraMG7JLroD2Pjktp",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "checking vs savings account"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors still cite the six-transfer limit as law or omit current national average rates."
+    },
+    {
+      "title": "Checking vs. Savings vs. CDs",
+      "url": "http://google.com/goto?url=CAESngEBxCJF1y1--M8cjeMyEiL0OmXIojBjE0Jub3VNGV0d-nsamwUhuTDde1NuThNXQmQMcz0Sl-AEZ2T9RC4lTozhlbt0agxKOkmmlxa5or6yop-8ENPryFsZj5WZQe_ThaRogNjAyJylNxmtENHTlB_zN3YbbC5FNsQCUmAsg_AQ1iRXS-YZPCp6_PHzbDTBdJxRUTfYuYoj7jKTRrnE1Q",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "checking vs savings account"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors still cite the six-transfer limit as law or omit current national average rates."
+    },
+    {
+      "title": "Checking vs. Savings Accounts: What's the Difference?",
+      "url": "http://google.com/goto?url=CAESfgHEIkXXIXsPW5LMXTVuP74wYibDkq2XXQ1eDkW-zeLPKwNvvX3WzJMA6_gNrGaW3LegHMurVeC5usjbllXgojvdmy-uTgyxFVf02m66sq5zSvENllTyLx2etitgdm1MzjXiguwnpkI5_YYqxFLmlRZxV6C_P6SyrH81X8A86w",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "checking vs savings account"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors still cite the six-transfer limit as law or omit current national average rates."
+    },
+    {
+      "title": "Checking Accounts vs Savings Accounts",
+      "url": "http://google.com/goto?url=CAESpQEBxCJF13R8f0olpaJH4iX2yNJPU5tbgD7USsfrXS50geQho9snsB8p-hV4-OdgLdjaw_zSjiCkM1cDkkeHQzv-4Bl20zZFbW9JNt0ngWturwDpGmHf4hBOpw31RjieirGE9YCEaq8uCTSH_I9KwiqjsN-IZThNnj-vbTBBP4Y-v7YwF0JnlIb1xuJ_8H-4h5-aVsnTuQ4WZY5nvScr4QtyD5Q4S1M",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "checking vs savings account"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors still cite the six-transfer limit as law or omit current national average rates."
+    }
+  ],
+  "content_gaps": [
+    "Current FDIC national averages",
+    "Accurate Regulation D status",
+    "Overdraft opt-in and linked savings",
+    "Setup steps for both accounts"
+  ],
+  "value_add": "Regulator-sourced rates and rules, dollar examples and a practical setup sequence.",
+  "plan": {
+    "reader_title": "Checking vs Savings Account in 2026: What Each Is For and How to Use Both",
+    "seo_title": "Checking vs Savings Account: Differences and How to Use Both",
+    "meta_description": "Checking vs savings account compared with FDIC, CFPB and Federal Reserve sources: national average rates, transfer rules, overdrafts, insurance and setup.",
+    "slug": "/money-banking/checking-vs-savings-account/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "savings vs checking account",
+      "checking or savings account",
+      "difference between checking and savings account",
+      "checking vs savings account interest"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "Checking vs Savings Account at a Glance",
+      "What Is Each Account For?",
+      "How Much Interest Does Each Pay?",
+      "Can You Move Money Out of Savings Freely?",
+      "Fees and Overdrafts",
+      "Are Both Accounts Insured?",
+      "How to Set Up Both Accounts",
+      "Two Hypothetical Account Holders",
+      "Common Mistakes With Checking and Savings",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Rates: FDIC",
+      "Transfer rule: Federal Reserve",
+      "Overdrafts and funds availability: CFPB",
+      "Insurance: FDIC"
+    ],
+    "visuals": [
+      "Owner-supplied featured image"
+    ],
+    "internal_links": [
+      "/money-banking/saving-vs-investing/",
+      "/money-banking/credit-union-vs-bank/",
+      "/money-banking/high-yield-savings-vs-money-market-account/"
+    ],
+    "external_link_opportunities": [
+      "https://www.fdic.gov/resources/bankers/national-rates/",
+      "https://www.federalreserve.gov/supervisionreg/savings-deposits-frequently-asked-questions.htm",
+      "https://www.consumerfinance.gov/consumer-tools/bank-accounts/know-your-overdraft-options/"
+    ],
+    "excluded_claims": [
+      "Claims of a current federal six-withdrawal limit (rule deleted in 2020)"
+    ],
+    "drafting_cautions": [
+      "No account recommendation",
+      "Dollar examples labeled illustrative"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "The Federal Reserve deleted the six-per-month savings transfer limit in an April 24, 2020 interim final rule.",
+      "source_url": "https://www.federalreserve.gov/supervisionreg/savings-deposits-frequently-asked-questions.htm",
+      "verified": true
+    },
+    {
+      "statement": "Linking savings to checking can cover overdrafts for a transfer fee generally lower than an overdraft fee.",
+      "source_url": "https://www.consumerfinance.gov/consumer-tools/bank-accounts/know-your-overdraft-options/",
+      "verified": true
+    },
+    {
+      "statement": "The national average savings rate was 0.38% and interest checking 0.07%.",
+      "source_url": "https://www.fdic.gov/resources/bankers/national-rates/",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-09",
+    "note": "Rates and rules rechecked against FDIC, Federal Reserve and CFPB pages November 7 to 9, 2026; math recomputed.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-09",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-09",
+    "summary": "Rates and rules rechecked against FDIC, Federal Reserve and CFPB pages November 7 to 9, 2026; math recomputed.",
+    "pending": "Owner sign-off."
+  }
+}

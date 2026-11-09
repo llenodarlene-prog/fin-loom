@@ -1,0 +1,411 @@
+{
+  "tracker_id": "Blog:S61",
+  "status": "verified",
+  "research_question": "How do VUG and VOO differ in concentration, sector mix and portfolio role?",
+  "research_brief": {
+    "purpose": "Compare a large-cap growth ETF with an S&P 500 ETF using Vanguard fact sheets.",
+    "audience": "Investors considering a growth tilt.",
+    "publication_year": "2026",
+    "data_period": "Vanguard fact sheets dated September 30, 2026; Yahoo charts captured November 8, 2026.",
+    "scope_limitations": "Sector figures use different classification systems in the two fact sheets. Return figures are not cited."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "vug vs voo",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-11-08",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-09",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "vug vs voo",
+        "type": "short-tail",
+        "volume": 2900,
+        "difficulty": 19,
+        "cpc": 3.47,
+        "intent": "Commercial",
+        "ranking_url": "https://fund-docs.vanguard.com/F0967.pdf",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "voo vs vug",
+        "type": "long-tail",
+        "volume": 1000,
+        "difficulty": 19,
+        "cpc": 0.96,
+        "intent": "Informational",
+        "ranking_url": "https://fund-docs.vanguard.com/F0968.pdf",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "vug or voo",
+        "type": "commercial",
+        "volume": 140,
+        "difficulty": 19,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://fund-docs.vanguard.com/F0967.pdf",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "vug vs voo overlap",
+        "type": "problem",
+        "volume": 40,
+        "difficulty": 28,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://fund-docs.vanguard.com/F0968.pdf",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "vug and voo together",
+        "type": "question",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://fund-docs.vanguard.com/F0967.pdf",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://fund-docs.vanguard.com/F0967.pdf",
+      "title": "Vanguard Morningstar Growth ETF fact sheet",
+      "publisher": "Vanguard",
+      "source_type": "Fund issuer fact sheet",
+      "year": "2026",
+      "published_at": "2026-09-30",
+      "accessed_at": "2026-11-09",
+      "scope": "Holdings, top 10, sector mix, benchmark, inception, dividend schedule",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Quarterly snapshot.",
+      "verified": true
+    },
+    {
+      "url": "https://fund-docs.vanguard.com/F0968.pdf",
+      "title": "Vanguard S&P 500 ETF fact sheet",
+      "publisher": "Vanguard",
+      "source_type": "Fund issuer fact sheet",
+      "year": "2026",
+      "published_at": "2026-09-30",
+      "accessed_at": "2026-11-09",
+      "scope": "Holdings, top 10, sector mix, dividend schedule",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Quarterly snapshot.",
+      "verified": true
+    },
+    {
+      "url": "https://advisors.vanguard.com/investments/products/voo/vanguard-sp-500-etf",
+      "title": "VOO fund profile",
+      "publisher": "Vanguard",
+      "source_type": "Fund issuer page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-09",
+      "scope": "Expense ratio as of April 28, 2026",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/VUG/chart/",
+      "title": "VUG chart",
+      "publisher": "Yahoo Finance",
+      "source_type": "Market data page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-09",
+      "scope": "One-year chart screenshot",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/VOO/chart/",
+      "title": "VOO chart",
+      "publisher": "Yahoo Finance",
+      "source_type": "Market data page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-09",
+      "scope": "One-year chart screenshot",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "VUG 135 stocks, top 10 65.7%, technology 72.1%, expense ratio 0.03%, inception Jan 26, 2004.",
+      "source_url": "https://fund-docs.vanguard.com/F0967.pdf",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Count, percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "VOO 505 stocks, top 10 40.6%, information technology 39.7%.",
+      "source_url": "https://fund-docs.vanguard.com/F0968.pdf",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Count, percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "VOO vs VUG - Comparison tool",
+      "url": "http://google.com/goto?url=CAESZAHEIkXXhu75a_-wdDXSyBxd73wXrGAumHVlmmz1f5sbG5LM7LR8cZDkJXDaVaw3joOG-dmvcpW0Hm3SnXszpQWM4fZ3ufQDX_3fTASrxW7UeRA4b08Nm6Ca5omrU43m0QT3Muo",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "vug vs voo"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors lead with past returns and rarely quantify concentration or combined-portfolio overlap."
+    },
+    {
+      "title": "VOO vs. VOOG: Which Vanguard ETF Has More Upside",
+      "url": "http://google.com/goto?url=CAESlQEBxCJF19IxUTczl3JshqII-wnRG9un2B__a_IgFu_aBtNpEVMpWgUMb3SEs2mosvaYttCXL-lfaol_AxBm_Oy9IDmhOgd70FQiKHqbKYI4lZ2uJPabUoeWYqEjFb_yU3az-4eZHm0QAAhMNU2ynYO6H2l9amVHvMQPy0NW5qpWmfPW-Td3ZVYUnsyOnQ9ICm5UV904sg",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "vug vs voo"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors lead with past returns and rarely quantify concentration or combined-portfolio overlap."
+    },
+    {
+      "title": "Does it make sense to hold both VOO and VUG",
+      "url": "http://google.com/goto?url=CAESogEBxCJF1_M80jREJAhsbP1EyI-s7z1vDI1VcgYqLkPRDvoP-jh8SzBr-aEM95tARiXuH9dJwdX0pX5U5qaXMaaAlxiLVnXNE3Ouv3KZ1iEJow0yXxBLJGj-5xEU_GSJFbYlZco0zKHD_gnvKmteFUAopiCM3deNMKL20Wlqogi-WwPXvtHVnzMdfLGClkMmBR2KrbPZJuDZ7pPvz2iHXscH15o",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "vug vs voo"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors lead with past returns and rarely quantify concentration or combined-portfolio overlap."
+    },
+    {
+      "title": "VOO vs VUG comparison",
+      "url": "http://google.com/goto?url=CAEScwHEIkXXu5xPUmdfS0kW0Hi1Q6QtPVOveqOY66MOnO8i3l1mhKTuB_6XK98nwSCKxIAko2TrcAbtMhbmVQl-YNzOHszoDLBi8bGc09XVfgEG9-ahrn8g0NqBdQS3P0CEFzilJB6Elth3O3dcTELQPRd1JL8",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "vug vs voo"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors lead with past returns and rarely quantify concentration or combined-portfolio overlap."
+    },
+    {
+      "title": "VUG vs VOO: Historical Returns and Drawdowns Since 2010",
+      "url": "http://google.com/goto?url=CAESbwHEIkXXsC_DST1ShTik5rsJyT4DzovZfglc8ort0rwCQTBOCWbqkt9B7GhGRr7EB-WAqT68zTeA0yG8RLq9a63USq0UC3v41y4-TlzzB29TtJ73Mc8BRRAFXfAauJflCXcLJHLLMHh0tP14Ab_UJA",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "vug vs voo"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors lead with past returns and rarely quantify concentration or combined-portfolio overlap."
+    }
+  ],
+  "content_gaps": [
+    "Weight-by-weight top holdings table",
+    "Combined portfolio overlap math",
+    "VOO is not a value fund",
+    "Sector classification caveat"
+  ],
+  "value_add": "Fact-sheet holdings table, worked overlap example and charts, with no return forecasts.",
+  "plan": {
+    "reader_title": "VUG vs VOO in 2026: Growth Concentration or the Broad S&P 500?",
+    "seo_title": "VUG vs VOO in 2026: Growth Tilt or the Broad S&P 500?",
+    "meta_description": "VUG vs VOO compared with Vanguard's September 2026 fact sheets: holdings, top-10 weight, sector mix, fees, overlap and what a growth tilt changes.",
+    "slug": "/investing/vug-vs-voo/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "voo vs vug",
+      "vug or voo",
+      "vug vs voo overlap",
+      "vug and voo together"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "VUG vs VOO at a Glance",
+      "What Does a Growth Fund Own?",
+      "VOO Is Not a Value Fund",
+      "How Much Do VUG and VOO Overlap?",
+      "Is VUG Riskier Than VOO?",
+      "Do the Two ETFs Have Different Fees?",
+      "Dividends and Total Returns",
+      "Which Fund Fits Which Portfolio Role?",
+      "Common Mistakes When Comparing VUG and VOO",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "VUG: Vanguard fact sheet",
+      "VOO: Vanguard fact sheet",
+      "Charts: Yahoo captures"
+    ],
+    "visuals": [
+      "Owner-supplied featured image",
+      "Yahoo Finance one-year chart screenshots for VUG and VOO"
+    ],
+    "internal_links": [
+      "/investing/crypto-vs-stocks/",
+      "/investing/vti-vs-voo/",
+      "/investing/dividend-vs-dividend-yield/"
+    ],
+    "external_link_opportunities": [
+      "https://fund-docs.vanguard.com/F0967.pdf",
+      "https://fund-docs.vanguard.com/F0968.pdf"
+    ],
+    "excluded_claims": [
+      "Owner draft holdings counts from August and July 2026 (replaced with September 30 fact sheets)",
+      "Investing hub link (replaced with approved spoke)"
+    ],
+    "drafting_cautions": [
+      "No recommendation",
+      "Overlap math labeled illustrative"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "VUG held 135 stocks with 65.7% in its top 10 on September 30, 2026.",
+      "source_url": "https://fund-docs.vanguard.com/F0967.pdf",
+      "verified": true
+    },
+    {
+      "statement": "VOO held 505 stocks with 40.6% in its top 10.",
+      "source_url": "https://fund-docs.vanguard.com/F0968.pdf",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-09",
+    "note": "All weights rechecked against Vanguard fact sheets; sums and overlap math recomputed.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-09",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-09",
+    "summary": "All weights rechecked against Vanguard fact sheets; sums and overlap math recomputed.",
+    "pending": "Owner sign-off."
+  }
+}

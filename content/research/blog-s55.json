@@ -1,0 +1,406 @@
+{
+  "tracker_id": "Blog:S55",
+  "status": "verified",
+  "research_question": "How do Fidelity and Vanguard compare on fees, minimums, outside funds and index fund costs?",
+  "research_brief": {
+    "purpose": "Compare the two brokerages from their own fee pages so readers can match an account to their funds.",
+    "audience": "Long-term investors choosing a brokerage or IRA provider.",
+    "publication_year": "2026",
+    "data_period": "Fidelity commissions page and Vanguard fees page fetched November 6 to 9, 2026; fund fact sheets dated September 30, 2026.",
+    "scope_limitations": "Vanguard stock commission and options pricing pages were not captured, so the table defers to its fee schedule. No customer-satisfaction ratings are used."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "fidelity vs vanguard",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-11-07",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-09",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "fidelity vs vanguard",
+        "type": "short-tail",
+        "volume": 4400,
+        "difficulty": 23,
+        "cpc": 21.75,
+        "intent": "Commercial",
+        "ranking_url": "https://www.fidelity.com/trading/commissions",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "vanguard vs fidelity",
+        "type": "long-tail",
+        "volume": 4400,
+        "difficulty": 23,
+        "cpc": 22.34,
+        "intent": "Commercial",
+        "ranking_url": "https://investor.vanguard.com/investment-products/mutual-funds/fees",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "fidelity or vanguard",
+        "type": "commercial",
+        "volume": 1600,
+        "difficulty": 30,
+        "cpc": 19.22,
+        "intent": "Navigational",
+        "ranking_url": "https://www.fidelity.com/trading/commissions",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "fidelity vs vanguard fees",
+        "type": "problem",
+        "volume": 210,
+        "difficulty": 32,
+        "cpc": 9.93,
+        "intent": "Commercial",
+        "ranking_url": "https://investor.vanguard.com/investment-products/mutual-funds/fees",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "fidelity vs vanguard roth ira",
+        "type": "question",
+        "volume": 1300,
+        "difficulty": 28,
+        "cpc": 33.27,
+        "intent": "Commercial",
+        "ranking_url": "https://investor.vanguard.com/investment-products/mutual-funds/fees",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.fidelity.com/trading/commissions",
+      "title": "Commissions and fees",
+      "publisher": "Fidelity",
+      "source_type": "Broker fee schedule",
+      "year": "2026",
+      "published_at": "2026-11-06",
+      "accessed_at": "2026-11-09",
+      "scope": "$0 online stock, ETF and option commissions, $0.65 per contract, no account minimum, NTF and transaction-fee fund charges",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Fees subject to change.",
+      "verified": true
+    },
+    {
+      "url": "https://investor.vanguard.com/investment-products/mutual-funds/fees",
+      "title": "Mutual fund fees and minimums",
+      "publisher": "Vanguard",
+      "source_type": "Broker fee schedule",
+      "year": "2026",
+      "published_at": "2026-11-09",
+      "accessed_at": "2026-11-09",
+      "scope": "$25 account service fee and waivers, fund minimums, $0 ETF commissions, 84% expense claim",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Fees subject to change.",
+      "verified": true
+    },
+    {
+      "url": "https://institutional.fidelity.com/app/proxy/content?literatureURL=%2F770893.PDF",
+      "title": "Fidelity 500 Index Fund fact sheet",
+      "publisher": "Fidelity",
+      "source_type": "Fund issuer fact sheet",
+      "year": "2026",
+      "published_at": "2026-09-30",
+      "accessed_at": "2026-11-09",
+      "scope": "Expense ratio and minimum",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://fund-docs.vanguard.com/F0968.pdf",
+      "title": "Vanguard S&P 500 ETF fact sheet",
+      "publisher": "Vanguard",
+      "source_type": "Fund issuer fact sheet",
+      "year": "2026",
+      "published_at": "2026-09-30",
+      "accessed_at": "2026-11-09",
+      "scope": "VOO data",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Vanguard $25 brokerage account fee, waived at $1M qualifying assets or with e-delivery; $3,000 minimum for most index funds.",
+      "source_url": "https://investor.vanguard.com/investment-products/mutual-funds/fees",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Fidelity $0 online commissions, $0.65 per options contract, $49.95 per purchase for transaction-fee non-Fidelity funds.",
+      "source_url": "https://www.fidelity.com/trading/commissions",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "BlackRock vs. Vanguard vs. Fidelity",
+      "url": "http://google.com/goto?url=CAESkQEBxCJF1zt2lmvibGskZYjfNkuBre0oBYp8K8XRSyNZlBMdtgDTIXI0PIm8HHhG8j7CjzZa6yNy25JMJyFGoTHQhW1GgR-GsYjGhUCyaysOs_V_58fE7FF2K0FQSxtvX2otEGG8lB3q5wOy3xGJm4puiA14QL_kmiZe6HyZNh_Ph0n62d3dgwamCl5XQpv47vT2",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "fidelity vs vanguard"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors generalize about cost and service without quoting current fee pages, waivers or outside fund charges."
+    },
+    {
+      "title": "Vanguard vs Schwab vs Fidelity - where to park",
+      "url": "http://google.com/goto?url=CAESnwEBxCJF18xjY50l321m6NALoPcIHkCbdWkLgU_VExotmKONUzxwmI3PsDWYaloFv9y35q7XE2M2KXebzqzk_oiAvmg8ePLRARQBFDRh2fJSnnaAmFb8fXpOFWShTxDyrVJPDSqgD05wJFOCWCOb-NIJdk9WublZ5I8eRa7muwExfK7Cmg4b0cQA3bTzdlFC73Fo0dxZr8IP-02RWzxqKfg",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "fidelity vs vanguard"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors generalize about cost and service without quoting current fee pages, waivers or outside fund charges."
+    },
+    {
+      "title": "Fidelity vs. Vanguard Index Funds",
+      "url": "http://google.com/goto?url=CAESjAEBxCJF1zWHJMZ_BvjQXxxSLIKkeVd9ltcecEd1G-lwp6ncAAPtgcnKyrdfXnxY0D6GmCEnqAw9WPUN-24dLjo7cbhkpTUfjgUi5e_YUzL64pJX2iwN8tQZJs5uGW_6EFkT_a_o_TrWeGSc19de2GDW-UjB6-igNEnEyhCfMjM8JCr1oDsa4tqU3VP9Iw",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "fidelity vs vanguard"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors generalize about cost and service without quoting current fee pages, waivers or outside fund charges."
+    },
+    {
+      "title": "Vanguard vs. Fidelity vs. Schwab",
+      "url": "http://google.com/goto?url=CAESfAHEIkXXldm0AXh9J35DDYhCdmH0sMTZPEirvcRpwx_uqic7SDmiBWLRdGIJM89tsBT79Idw417xNx4AsSV1oty6rRTNUNDMHZSK5AXrzLITL7uJjbUYeKOHTiF-HaqFU1Und-hPHt_iXj2LNA5N7zsTRUh1Wq0RH4MUskw",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "fidelity vs vanguard"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors generalize about cost and service without quoting current fee pages, waivers or outside fund charges."
+    },
+    {
+      "title": "Fidelity vs. Vanguard: Which Grows Your $100k Faster?",
+      "url": "http://google.com/goto?url=CAEScQHEIkXXQLJWM127kVbU4LLG6ErK5AnHe6jl5pc5OsKvfiuN2pZHLhUxVDM6n70X67s6Ypy7l7ZacNguTdCcsxQM7o383HA-pfYMiVEuypXzldQtqG85mmlsrBew-3IprODBx095nkVQk-aQWUUF0QD-",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "fidelity vs vanguard"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors generalize about cost and service without quoting current fee pages, waivers or outside fund charges."
+    }
+  ],
+  "content_gaps": [
+    "Exact $25 fee waivers",
+    "Outside mutual fund charges",
+    "Fund minimum differences",
+    "Separating broker from fund choice"
+  ],
+  "value_add": "Fee-page sourced table, waiver detail, minimums, a Vanguard fees screenshot and an official Fidelity image.",
+  "plan": {
+    "reader_title": "Fidelity vs Vanguard in 2026: Fees, Funds, Minimums and Account Fit",
+    "seo_title": "Fidelity vs Vanguard in 2026: Fees, Funds and Minimums",
+    "meta_description": "Fidelity vs Vanguard compared from each firm's own fee pages: commissions, the $25 Vanguard account fee, fund minimums, outside fund costs and index funds.",
+    "slug": "/investing/fidelity-vs-vanguard/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "vanguard vs fidelity",
+      "fidelity or vanguard",
+      "fidelity vs vanguard fees",
+      "fidelity vs vanguard roth ira"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "Fidelity vs Vanguard at a Glance",
+      "Brokerage Choice and Fund Choice Are Separate",
+      "What Does Each Firm Charge?",
+      "How Do Their Index Funds Compare?",
+      "Research Tools and Account Experience",
+      "IRAs and Account Transfers",
+      "Two Hypothetical Investors",
+      "Common Mistakes in the Fidelity vs Vanguard Choice",
+      "Which Firm Fits Which Investor?",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Fidelity: commissions page",
+      "Vanguard: fees page",
+      "Fund costs: fact sheets"
+    ],
+    "visuals": [
+      "Owner-supplied featured image",
+      "Screenshot of Vanguard fees page captured 2026-11-09",
+      "Official Fidelity image from fidelity.com"
+    ],
+    "internal_links": [
+      "/investing/crypto-vs-stocks/",
+      "/investing/fxaix-vs-voo/",
+      "/investing/best-investment-apps/"
+    ],
+    "external_link_opportunities": [
+      "https://www.fidelity.com/trading/commissions",
+      "https://investor.vanguard.com/investment-products/mutual-funds/fees",
+      "https://institutional.fidelity.com/app/proxy/content?literatureURL=%2F770893.PDF"
+    ],
+    "excluded_claims": [
+      "Investor.gov bulletin (blocked)",
+      "Fidelity fundresearch profile (replaced with fact sheet)",
+      "Stock analysis apps link (not in approved set)"
+    ],
+    "drafting_cautions": [
+      "No recommendation to open an account",
+      "Vendor cost claim attributed to Vanguard"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Vanguard charges $25 per brokerage account, with waivers.",
+      "source_url": "https://investor.vanguard.com/investment-products/mutual-funds/fees",
+      "verified": true
+    },
+    {
+      "statement": "Fidelity lists no minimum to open an account and $49.95 per purchase of transaction-fee non-Fidelity funds.",
+      "source_url": "https://www.fidelity.com/trading/commissions",
+      "verified": true
+    },
+    {
+      "statement": "FXAIX lists a 0.015% expense ratio and $0 minimum.",
+      "source_url": "https://institutional.fidelity.com/app/proxy/content?literatureURL=%2F770893.PDF",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-09",
+    "note": "All fees rechecked on each firm page November 6 to 9, 2026; fee math recomputed.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-09",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-09",
+    "summary": "All fees rechecked on each firm page November 6 to 9, 2026; fee math recomputed.",
+    "pending": "Owner sign-off."
+  }
+}
