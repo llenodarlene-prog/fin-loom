@@ -99,7 +99,7 @@ Picking the largest one-day loser produces a dramatic headline but says little a
 
 ### The Next Session
 
-The Nasdaq-100 closed at 26,989.99 on November 6, about 1.4% above its November 5 close, according to FRED. A partial bounce the next day does not reverse a month of losses or confirm a turning point. It is one more data point in a volatile stretch, and it should be read alongside the month's larger moves rather than on its own.
+The Nasdaq-100 closed at 26,989.99 on November 6, about 1.4% above its November 5 close, according to FRED. A partial bounce the next day does not reverse a month of losses or confirm a turning point. It is one more data point in a volatile stretch, and it should be read alongside the month's larger moves rather than on its own or as a signal.
 
 ## The Global Side of the Chip Selloff
 
