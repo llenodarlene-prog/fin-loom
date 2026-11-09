@@ -108,7 +108,7 @@ Putting the dates in order makes the sequence easier to follow. Each step below 
 
 October 6, 2026 marked the Nasdaq Composite's record close of 27,599.89 on FRED. Through the rest of October, technology and communication stocks fell while energy, staples, utilities and health care rose, ending with the Nasdaq down 5.3% for the month. Early November brought mixed sessions, with the Nasdaq rising on November 4 to 25,736.51. On November 5, the index fell 5.5% to 24,315.00, leaving it 11.9% below its October record. On November 6, it recovered about 1.1% to 24,579.42.
 
-That sequence is the short answer to why are tech stocks down as of early November 2026: a month of rotation away from large technology names, followed by one sharp session that pushed the Nasdaq into a correction. What comes next is not known.
+That sequence is the short answer to why are tech stocks down as of early November 2026: a month of rotation away from large technology names, followed by one sharp session that pushed the Nasdaq into a correction. What comes next is not known, and no single figure here predicts it.
 
 ## Can Strong Earnings and Falling Stock Prices Happen Together?
 
