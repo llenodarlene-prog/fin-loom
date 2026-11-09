@@ -1,0 +1,397 @@
+{
+  "tracker_id": "Blog:S68",
+  "status": "verified",
+  "research_question": "What were S&P 500 returns by year, and how should a partial 2026 be compared with history?",
+  "research_brief": {
+    "purpose": "Give a consistent annual total-return table, long-run averages and clear rules for partial-year figures.",
+    "audience": "Investors looking up historical returns.",
+    "publication_year": "2026",
+    "data_period": "October 2026 monthly returns and daily closes through November 6, 2026.",
+    "scope_limitations": "Slickcharts blocked automated access, so the owner draft table was replaced with the Damodaran series; figures differ slightly by provider."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "stock market return by year",
+    "intent": "Informational",
+    "serp_checked_at": "2026-11-09",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-09",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "stock market return by year",
+        "type": "short-tail",
+        "volume": 1000,
+        "difficulty": 6,
+        "cpc": 1.99,
+        "intent": "Informational",
+        "ranking_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "s&p 500 returns by year",
+        "type": "long-tail",
+        "volume": 3600,
+        "difficulty": 40,
+        "cpc": 10.01,
+        "intent": "Informational",
+        "ranking_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "average stock market return",
+        "type": "commercial",
+        "volume": 4400,
+        "difficulty": 25,
+        "cpc": 4.94,
+        "intent": "Informational",
+        "ranking_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "s&p 500 historical returns",
+        "type": "problem",
+        "volume": 3600,
+        "difficulty": 67,
+        "cpc": 5.71,
+        "intent": "Informational",
+        "ranking_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is the average stock market return per year",
+        "type": "question",
+        "volume": 70,
+        "difficulty": 68,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html",
+      "title": "Historical Returns on Stocks, Bonds and Bills",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "source_type": "Academic dataset",
+      "year": "2026",
+      "published_at": "2026-01-05",
+      "accessed_at": "2026-11-09",
+      "scope": "S&P 500 annual returns including dividends, 1928 to 2025",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Updated annually; differs slightly from other providers.",
+      "verified": true
+    },
+    {
+      "url": "https://www.janushenderson.com/en-us/advisor/article/market-moves-themes-that-mattered-october-2026/",
+      "title": "Market moves and themes that mattered: October 2026",
+      "publisher": "Janus Henderson Investors",
+      "source_type": "Asset manager market review",
+      "year": "2026",
+      "published_at": "2026-11-02",
+      "accessed_at": "2026-11-09",
+      "scope": "October index and sector returns, SOX, Russell style indexes",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Monthly commentary; rounded figures.",
+      "verified": true
+    },
+    {
+      "url": "https://fred.stlouisfed.org/series/SP500",
+      "title": "S&P 500 (SP500)",
+      "publisher": "Federal Reserve Bank of St. Louis, FRED",
+      "source_type": "Official data series",
+      "year": "2026",
+      "published_at": "2026-11-06",
+      "accessed_at": "2026-11-09",
+      "scope": "Daily S&P 500 closes used to recompute October and November 5 changes",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Price index, excludes dividends.",
+      "verified": true
+    },
+    {
+      "url": "https://am.jpmorgan.com/fr/en/asset-management/liq/insights/market-insights/market-updates/monthly-market-review/",
+      "title": "Monthly market review",
+      "publisher": "J.P. Morgan Asset Management",
+      "source_type": "Asset manager market review",
+      "year": "2026",
+      "published_at": "2026-11-02",
+      "accessed_at": "2026-11-09",
+      "scope": "October single-stock moves for Nvidia, Broadcom, Alphabet and Meta; equal-weight gap",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page updates monthly.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "S&P 500 total returns 2008-2025 from -36.55% (2008) to +32.15% (2013); 1928-2025 simple average 11.9%, compound 10.0%, 26 negative years (FinLoom calculation).",
+      "source_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "S&P 500 up 11.7% and equal weight up 15.5% year to date through October 2026.",
+      "source_url": "https://www.janushenderson.com/en-us/advisor/article/market-moves-themes-that-mattered-october-2026/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "S&P 500 Historical Annual Returns (1927-2026)",
+      "url": "http://google.com/goto?url=CAESfgHEIkXX1b4IqxBowTIde10RiAwaiVfh3tVrZDS1vJxLun_abbh1oznbOdxXbHS_W0flWe3Xt5-iBybaxeYyMs5S_JgbYfB4eisw6elinR8hVkJfONL0QlJhhFEfu9SWcm3_GrruKGiTijpMa5MhNRoNT8RtGxJLKFECrpf3gQ",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "stock market return by year"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitor tables mix price and total returns or append partial years without labels."
+    },
+    {
+      "title": "S&P 500 Total Returns by Year Since 1926",
+      "url": "http://google.com/goto?url=CAESZgHEIkXXXHSsSlAdcez_X2CzqclaIScWuFueSQjwYBdi4HBL84iQVaa2EoqbeM1Y2FML_BJDaJP_rLBw2fync_vwiCGJnbFJm7WYtwXvFv_e7gsObtvATmECOhgyvriTpHMpQOKupw",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "stock market return by year"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitor tables mix price and total returns or append partial years without labels."
+    },
+    {
+      "title": "S&P 500",
+      "url": "http://google.com/goto?url=CAESZAHEIkXX2NWJqcpuZ5DHK57GQr42U9pkAGfEguH5476oQ2-kJfxmCq3z8nW2X2G-RU19lArjpO43bAdcb6MakafycHYQY8zu4Sj27YtcvGE5qZQTKWC_YanyU2VcudZtK0z6pnc",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "stock market return by year"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitor tables mix price and total returns or append partial years without labels."
+    },
+    {
+      "title": "S&P 500 Annual Performance and Intra-Year Pullbacks",
+      "url": "http://google.com/goto?url=CAESzAEBxCJF1_5lnRkhYuCX8MFUv6oT721x-3cVvhLW6ZDihDjod_U3MdDCsIRIZdcy2OLR5OBopEvdcVUj6s8DQtnfzmdvCGWOIvOqeqV8980wpT6qCD-XT3O3ZMIqKxi70AEiXEd7zij-Sh6wzBpHCrPeinIK43nQvpnAHST9GU79gchMX9-npfBNI4sYyogbd2g3piEknDNhaKFJppw5ayeaWxVqrFZ0rIdtgAQApRU4IQnfmbpWeuZcF6Rdnd9aRJyFWqz9QT_HaT6SRzI",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "stock market return by year"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitor tables mix price and total returns or append partial years without labels."
+    },
+    {
+      "title": "Historical Returns on Stocks, Bonds and Bills: 1928-2024",
+      "url": "http://google.com/goto?url=CAESiAEBxCJF1-D7YgTnRcPKwugauPVhvl18470yB54clEdbmoPLogFuciJSnm8m07VdApFQbY653ZqHaMoP6759IxG1CrrDR-3opXpfzF910chGIS5eS8LZ91_6r0A02vzeV_PoRYY6tqacAv8oVLwV6794z_6KebC3X0FZOYL4vf7ZMTgqbi5luRIK",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "stock market return by year"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitor tables mix price and total returns or append partial years without labels."
+    }
+  ],
+  "content_gaps": [
+    "Single named total-return series",
+    "Simple vs compound averages",
+    "Partial-year labeling",
+    "Sequence-of-returns risk"
+  ],
+  "value_add": "Consistent sourced table, recomputed long-run averages and explicit rules for labeling 2026.",
+  "plan": {
+    "reader_title": "Stock Market Return by Year: S&P 500 Data From 2008 to 2025 and Where 2026 Stands",
+    "seo_title": "Stock Market Return by Year: S&P 500 2008-2025 and 2026",
+    "meta_description": "Stock market return by year for the S&P 500 from 2008 to 2025, with dividends, long-run averages since 1928 and why 2026 is still a partial-year figure.",
+    "slug": "/markets-stocks/stock-market-return-by-year/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "s&p 500 returns by year",
+      "s&p 500 historical returns",
+      "average stock market return",
+      "what is the average stock market return per year"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "What Are Stock Market Returns by Year?",
+      "S&P 500 Annual Returns, 2008 to 2025",
+      "Long-Run Averages Since 1928",
+      "Why 2026 Is Different From a Completed Year",
+      "What the Yearly Distribution Teaches",
+      "What About Inflation and Fees?",
+      "How to Use a Stock Market Return by Year Table",
+      "Common Mistakes With Stock Market Return by Year Data",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Annual returns: Damodaran dataset",
+      "2026 year to date: Janus Henderson",
+      "Nov 5 close: FRED"
+    ],
+    "visuals": [
+      "Owner-supplied featured image"
+    ],
+    "internal_links": [
+      "/markets-stocks/stock-analysis-fundamentals/",
+      "/markets-stocks/stock-market-crash-history-statistics/",
+      "/investing/buy-the-dip-statistics/"
+    ],
+    "external_link_opportunities": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html",
+      "https://fred.stlouisfed.org/series/SP500"
+    ],
+    "excluded_claims": [
+      "Slickcharts table (403 to automated access; replaced with Damodaran series)",
+      "Mississippi PERS presentation (not needed once a primary dataset was used)"
+    ],
+    "drafting_cautions": [
+      "No buy, sell or hold recommendation",
+      "Calculations labeled",
+      "Dates and observation windows stated"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "The S&P 500 total return was -36.55% in 2008 and +17.78% in 2025 in Damodaran's series.",
+      "source_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html",
+      "verified": true
+    },
+    {
+      "statement": "The S&P 500 closed at 7,353.73 on November 5, 2026.",
+      "source_url": "https://fred.stlouisfed.org/series/SP500",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-09",
+    "note": "All annual figures taken from the Damodaran dataset fetched 2026-11-09; averages and counts recomputed; 2026 figures checked against Janus Henderson and FRED.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-09",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-09",
+    "summary": "All annual figures taken from the Damodaran dataset fetched 2026-11-09; averages and counts recomputed; 2026 figures checked against Janus Henderson and FRED.",
+    "pending": "Owner sign-off."
+  }
+}

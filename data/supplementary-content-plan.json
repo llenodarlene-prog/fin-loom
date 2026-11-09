@@ -1188,6 +1188,24 @@
       "scheduled_publish": "2026-11-11",
       "min_words": 2500,
       "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S68",
+      "working_title": "Stock Market Return by Year: S&P 500 Data From 2008 to 2025 and Where 2026 Stands",
+      "primary_keyword": "stock market return by year",
+      "secondary_keywords": "s&p 500 returns by year; s&p 500 historical returns; average stock market return; what is the average stock market return per year",
+      "cluster": "Markets & Stocks",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/markets-stocks/stock-market-return-by-year/",
+      "seo_title": "Stock Market Return by Year: S&P 500 2008-2025 and 2026",
+      "meta_description": "Stock market return by year for the S&P 500 from 2008 to 2025, with dividends, long-run averages since 1928 and why 2026 is still a partial-year figure.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft of 2026-11-08 (market statistics series); final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-11",
+      "min_words": 2500,
+      "no_word_ceiling": true
     }
   ],
   "links": [
@@ -2084,6 +2102,19 @@
         "/markets-stocks/sector-rotation-october-2026-statistics/",
         "/markets-stocks/stock-analysis-fundamentals/",
         "/markets-stocks/vix-index-statistics-2026/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/markets-stocks/stock-analysis-fundamentals/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S68",
+      "url_slug": "/markets-stocks/stock-market-return-by-year/",
+      "primary_silo_hub": "/markets-stocks/",
+      "approved_outbound_targets": [
+        "/investing/buy-the-dip-statistics/",
+        "/markets-stocks/stock-analysis-fundamentals/",
+        "/markets-stocks/stock-market-crash-history-statistics/"
       ],
       "silo_role": "Supporting",
       "pillar": "/markets-stocks/stock-analysis-fundamentals/"
