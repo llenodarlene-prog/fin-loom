@@ -1,0 +1,464 @@
+{
+  "tracker_id": "Blog:S52",
+  "status": "verified",
+  "research_question": "How do VTI and VOO differ in holdings, concentration, cost and portfolio role?",
+  "research_brief": {
+    "purpose": "Compare VTI and VOO with Vanguard primary data so readers can match a fund to a goal.",
+    "audience": "Long-term investors choosing a broad U.S. stock ETF.",
+    "publication_year": "2026",
+    "data_period": "Vanguard fact sheets dated September 30, 2026; expense ratios as of April 28, 2026; Yahoo charts captured November 8, 2026.",
+    "scope_limitations": "Holdings and weights change daily. No performance figures are cited; charts are shown as context only."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "vti vs voo",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-11-08",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-09",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "vti vs voo",
+        "type": "short-tail",
+        "volume": 18100,
+        "difficulty": 27,
+        "cpc": 1.72,
+        "intent": "Commercial",
+        "ranking_url": "https://fund-docs.vanguard.com/F0970.pdf",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "voo vs vti",
+        "type": "long-tail",
+        "volume": 12100,
+        "difficulty": 29,
+        "cpc": 1.81,
+        "intent": "Commercial",
+        "ranking_url": "https://fund-docs.vanguard.com/F0968.pdf",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "vti or voo",
+        "type": "commercial",
+        "volume": 1900,
+        "difficulty": 23,
+        "cpc": 1.08,
+        "intent": "Informational",
+        "ranking_url": "https://advisors.vanguard.com/investments/products/vti/vanguard-total-stock-market-etf",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "vti vs voo overlap",
+        "type": "problem",
+        "volume": 70,
+        "difficulty": 24,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "https://fund-docs.vanguard.com/F0968.pdf",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "vti vs voo expense ratio",
+        "type": "question",
+        "volume": 70,
+        "difficulty": 25,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://investor.vanguard.com/vmf/api/VTI/profile",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://fund-docs.vanguard.com/F0970.pdf",
+      "title": "Vanguard Total Stock Market ETF fact sheet",
+      "publisher": "Vanguard",
+      "source_type": "Fund issuer fact sheet",
+      "year": "2026",
+      "published_at": "2026-09-30",
+      "accessed_at": "2026-11-08",
+      "scope": "Holdings count, top 10 and weights",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Quarterly snapshot.",
+      "verified": true
+    },
+    {
+      "url": "https://fund-docs.vanguard.com/F0968.pdf",
+      "title": "Vanguard S&P 500 ETF fact sheet",
+      "publisher": "Vanguard",
+      "source_type": "Fund issuer fact sheet",
+      "year": "2026",
+      "published_at": "2026-09-30",
+      "accessed_at": "2026-11-08",
+      "scope": "Holdings count, top 10, weights and sector mix",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Quarterly snapshot.",
+      "verified": true
+    },
+    {
+      "url": "https://advisors.vanguard.com/investments/products/vti/vanguard-total-stock-market-etf",
+      "title": "VTI fund profile",
+      "publisher": "Vanguard",
+      "source_type": "Fund issuer page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "Expense ratio and inception date",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://advisors.vanguard.com/investments/products/voo/vanguard-sp-500-etf",
+      "title": "VOO fund profile",
+      "publisher": "Vanguard",
+      "source_type": "Fund issuer page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "Expense ratio and inception date",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://investor.vanguard.com/vmf/api/VTI/profile",
+      "title": "VTI profile data",
+      "publisher": "Vanguard",
+      "source_type": "Fund issuer data",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "Expense ratio as of April 28, 2026 and inception",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/VTI/chart/",
+      "title": "VTI chart",
+      "publisher": "Yahoo Finance",
+      "source_type": "Market data page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "One-year chart screenshot",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/VOO/chart/",
+      "title": "VOO chart",
+      "publisher": "Yahoo Finance",
+      "source_type": "Market data page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "One-year chart screenshot",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Company or agency page; can change without notice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "VTI held 3,519 stocks; top 10 were 36.1% of assets on Sept 30, 2026.",
+      "source_url": "https://fund-docs.vanguard.com/F0970.pdf",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Count, percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "VOO held 505 stocks; top 10 were 40.6%; information technology 39.7% on Sept 30, 2026.",
+      "source_url": "https://fund-docs.vanguard.com/F0968.pdf",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Count, percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Both funds list a 0.03% expense ratio as of April 28, 2026.",
+      "source_url": "https://investor.vanguard.com/vmf/api/VTI/profile",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "VOO vs. VTI: Head-To-Head ETF Comparison",
+      "url": "http://google.com/goto?url=CAESagHEIkXXwLkbBdAShqXQXA3xCCj_01_19oPuXCEa1SVsDIqcjQUuNfcAQDcWH50qwK6Lik8_ekHhIVdzIjGLemSwbPPXLTG548Ol5BV5lWEFSuzfBWf9IKlu6Aeh-HICu605SAxM62v78Ws",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "vti vs voo"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors lean on past returns and rarely show current issuer holdings data or explain why overlap limits diversification."
+    },
+    {
+      "title": "VOO vs. VTI (new Boglehead)",
+      "url": "http://google.com/goto?url=CAESigEBxCJF177M75CbBP672eYskA0chMOWcFlMWYh6fZTQYV1RXuBWwcegMLPdTYGTLKpASvRzFMua3BCXIz0vkSga1rouTsKMxo2PqhEvX7Np0cjKiflmqoHbkHNOU3kZ1g8aQltmWGNoHAYudnBBYlO6_T52xXqLd9n3CrmPs-ISQFA_WgSF6-69YqY",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "vti vs voo"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors lean on past returns and rarely show current issuer holdings data or explain why overlap limits diversification."
+    },
+    {
+      "title": "VTI or VOO: Which Vanguard ETF Should You Buy",
+      "url": "http://google.com/goto?url=CAESkwEBxCJF18fLi99TrRmD6IfNMX_3mg2JKIYnksrISHvOEQsROaRFjsb5tnmPWHZ1nI7t6f4NeQ1MTDmLU2mrP3WitJXttqMov73fsCkdV3R-AiPS-NQBxHnN_GHXlA86r4c79zZhZwsyKioywLQwF3fildLm6dVG-Z8mdonPz_5GVY-LijHNpsHGgqODihyRtFWQWpY",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "vti vs voo"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors lean on past returns and rarely show current issuer holdings data or explain why overlap limits diversification."
+    },
+    {
+      "title": "VTI vs. VOO Stock Chart (Dividends Reinvested)",
+      "url": "http://google.com/goto?url=CAESYgHEIkXXDfckTdU8fTGHULyHNYUEfAW4OfuTvEf0b9uUwqhPjktqiREycsY7ABYX03tNXA-0h3HwfR91X4eh31djVUB2Cquxp-tX3TcA44mcN_Vm7v5zGxlKMBgi2EfQryBE",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "vti vs voo"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors lean on past returns and rarely show current issuer holdings data or explain why overlap limits diversification."
+    },
+    {
+      "title": "VOO vs VTI: Key Differences and Performance Data (2026)",
+      "url": "http://google.com/goto?url=CAESbwHEIkXXwT_cDWHj_5L1hsYsvSbaHVzgUC9FwoTcUjL0rWZsqAY-zPSPttlX1PEJoPXo1EE7mlty_sC0OY8N8UYYG-yh4RB16m7s1JhyUl9SSQDg5suymzZfK7EdT7ECLy08vCr4ZYybFspEzgkmoA",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "vti vs voo"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors lean on past returns and rarely show current issuer holdings data or explain why overlap limits diversification."
+    }
+  ],
+  "content_gaps": [
+    "Current fact-sheet holdings and weights",
+    "Coverage versus weight framing",
+    "Owning both and overlap",
+    "Switching tax considerations"
+  ],
+  "value_add": "Side-by-side Vanguard September 2026 data, a top-holdings weight table, cost math by balance and real Yahoo chart captures.",
+  "plan": {
+    "reader_title": "VTI vs VOO in 2026: Total Market Coverage or the S&P 500?",
+    "seo_title": "VTI vs VOO in 2026: Total Market or the S&P 500?",
+    "meta_description": "VTI vs VOO compared with Vanguard's September 2026 data: holdings, top-10 weight, fees, overlap, small-cap exposure and which role each fund plays.",
+    "slug": "/investing/vti-vs-voo/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "voo vs vti",
+      "vti or voo",
+      "vti vs voo overlap",
+      "vti vs voo expense ratio"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "VTI vs VOO at a Glance",
+      "Why Two Funds With Different Holding Counts Behave Alike",
+      "How to Read the Numbers in a VTI vs VOO Fact Sheet",
+      "What Do VTI and VOO Cost?",
+      "Which Fund Holds More Small and Mid-Sized Companies?",
+      "Which Fund Fits Which Investor Goal?",
+      "A Simple Portfolio Example",
+      "Which Is Better in a Roth IRA or a Taxable Account?",
+      "Should You Switch From VOO to VTI, or the Reverse?",
+      "VTI vs VOO Compared With Other Vanguard Choices",
+      "How to Decide Without Chasing Last Year's Winner",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Holdings and weights: Vanguard fact sheets",
+      "Costs and inception: Vanguard profile data",
+      "Charts: Yahoo Finance captures"
+    ],
+    "visuals": [
+      "Owner-supplied featured image",
+      "Yahoo Finance one-year chart screenshots for VTI and VOO"
+    ],
+    "internal_links": [
+      "/investing/crypto-vs-stocks/",
+      "/investing/voo-vs-spy/",
+      "/investing/vug-vs-voo/"
+    ],
+    "external_link_opportunities": [
+      "https://fund-docs.vanguard.com/F0970.pdf",
+      "https://fund-docs.vanguard.com/F0968.pdf"
+    ],
+    "excluded_claims": [
+      "Historical return claims from owner draft (not tied to a dated primary source)"
+    ],
+    "drafting_cautions": [
+      "No buy, sell or hold recommendation",
+      "Charts captioned that past performance does not predict future results"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "VTI held 3,519 stocks and VOO held 505 on September 30, 2026.",
+      "source_url": "https://fund-docs.vanguard.com/F0970.pdf",
+      "verified": true
+    },
+    {
+      "statement": "Top 10 holdings were 36.1% of VTI and 40.6% of VOO.",
+      "source_url": "https://fund-docs.vanguard.com/F0968.pdf",
+      "verified": true
+    },
+    {
+      "statement": "Both funds charge 0.03% a year.",
+      "source_url": "https://fund-docs.vanguard.com/F0970.pdf",
+      "verified": true
+    },
+    {
+      "statement": "VTI launched May 24, 2001 and VOO September 7, 2010.",
+      "source_url": "https://fund-docs.vanguard.com/F0968.pdf",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-09",
+    "note": "All figures rechecked against Vanguard fact sheets and fund data fetched 2026-11-08; fee math recomputed.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-09",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-09",
+    "summary": "All figures rechecked against Vanguard fact sheets and fund data fetched 2026-11-08; fee math recomputed.",
+    "pending": "Owner sign-off."
+  }
+}
