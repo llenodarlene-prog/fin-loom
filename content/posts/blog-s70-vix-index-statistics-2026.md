@@ -5,7 +5,7 @@ description: VIX index readings from October 30 to November 6, 2026, what the vo
 slug: /markets-stocks/vix-index-statistics-2026/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S70
 primary_keyword: vix index
 secondary_keywords: vix; volatility index; what is the vix; vix fear index

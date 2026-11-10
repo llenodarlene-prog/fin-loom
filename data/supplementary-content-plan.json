@@ -1242,6 +1242,24 @@
       "scheduled_publish": "2026-11-11",
       "min_words": 2500,
       "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S71",
+      "working_title": "Buy the Dip Statistics: What History Can and Cannot Tell Investors",
+      "primary_keyword": "buy the dip",
+      "secondary_keywords": "buying the dip; buy the dip strategy; dollar cost averaging; should i buy the dip",
+      "cluster": "Investing",
+      "intent": "Commercial",
+      "status": "Scheduled",
+      "url_slug": "/investing/buy-the-dip-statistics/",
+      "seo_title": "Buy the Dip Statistics: History, Timing and Risk",
+      "meta_description": "Buy the dip explained with dated 2026 market figures, long-run return data and labeled examples comparing investing now, waiting for a lower price and dollar-cost averaging.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft of 2026-11-08 (market statistics series); final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-11",
+      "min_words": 2500,
+      "no_word_ceiling": true
     }
   ],
   "links": [
@@ -1316,6 +1334,7 @@
         "/investing/best-investment-apps/",
         "/investing/best-sp500-index-funds/",
         "/investing/bitcoin-allocation/",
+        "/investing/buy-the-dip-statistics/",
         "/investing/dividend-reinvestment-plan-calculator/",
         "/investing/dividend-vs-dividend-yield/",
         "/investing/fidelity-vs-vanguard/",
@@ -2180,6 +2199,19 @@
       ],
       "silo_role": "Supporting",
       "pillar": "/markets-stocks/stock-analysis-fundamentals/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S71",
+      "url_slug": "/investing/buy-the-dip-statistics/",
+      "primary_silo_hub": "/investing/",
+      "approved_outbound_targets": [
+        "/investing/crypto-vs-stocks/",
+        "/markets-stocks/stock-market-crash-2026-statistics/",
+        "/markets-stocks/stock-market-return-by-year/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/investing/crypto-vs-stocks/"
     }
   ]
 }

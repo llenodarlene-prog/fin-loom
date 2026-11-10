@@ -5,7 +5,7 @@ description: Semiconductor stocks fell 15.3% in October 2026. Dated index data, 
 slug: /markets-stocks/semiconductor-stocks-october-2026-statistics/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S64
 primary_keyword: semiconductor stocks
 secondary_keywords: chip stocks; sox index; semiconductor stocks down; why are semiconductor stocks down

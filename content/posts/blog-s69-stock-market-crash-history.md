@@ -5,7 +5,7 @@ description: Stock market crash history compared by what was measured: one-day f
 slug: /markets-stocks/stock-market-crash-history-statistics/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S69
 primary_keyword: stock market crash history
 secondary_keywords: stock market crashes; biggest stock market crashes; black monday 1987; what caused the stock market crash of 1929

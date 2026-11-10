@@ -5,7 +5,7 @@ description: Stock market crash 2026 explained with 12 dated statistics: October
 slug: /markets-stocks/stock-market-crash-2026-statistics/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S62
 primary_keyword: stock market crash 2026
 secondary_keywords: is the stock market crashing; stock market correction 2026; stock market crash; why is the stock market down today

@@ -5,7 +5,7 @@ description: Sector rotation in October 2026 in one table: all 11 S&P 500 sector
 slug: /markets-stocks/sector-rotation-october-2026-statistics/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S66
 primary_keyword: sector rotation
 secondary_keywords: sector rotation strategy; what is sector rotation; sector performance; s&p 500 sector performance

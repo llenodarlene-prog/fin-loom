@@ -5,7 +5,7 @@ description: Stock market return by year for the S&P 500 from 2008 to 2025, with
 slug: /markets-stocks/stock-market-return-by-year/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S68
 primary_keyword: stock market return by year
 secondary_keywords: s&p 500 returns by year; s&p 500 historical returns; average stock market return; what is the average stock market return per year

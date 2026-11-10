@@ -5,7 +5,7 @@ description: Magnificent 7 stocks fell 4.7% as a group in October 2026 while the
 slug: /markets-stocks/magnificent-seven-2026-selloff-statistics/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S65
 primary_keyword: magnificent 7 stocks
 secondary_keywords: magnificent seven stocks; mag 7 stocks; what are the magnificent 7 stocks; magnificent 7 stocks performance

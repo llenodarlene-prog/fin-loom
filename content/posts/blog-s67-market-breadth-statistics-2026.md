@@ -5,7 +5,7 @@ description: Market breadth improved in October 2026 even as the S&P 500 fell. E
 slug: /markets-stocks/market-breadth-statistics-2026/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S67
 primary_keyword: market breadth
 secondary_keywords: market breadth indicators; what is market breadth; equal weight s&p 500; stocks above 200 day moving average

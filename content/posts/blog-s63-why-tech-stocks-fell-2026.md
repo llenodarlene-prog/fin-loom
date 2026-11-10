@@ -5,7 +5,7 @@ description: Why are tech stocks down in 2026? October and November data on the 
 slug: /markets-stocks/why-tech-stocks-fell-2026/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S63
 primary_keyword: why are tech stocks down
 secondary_keywords: tech stocks; nasdaq selloff; ai stocks selloff; why are tech stocks falling
