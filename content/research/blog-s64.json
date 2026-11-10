@@ -1,0 +1,441 @@
+{
+  "tracker_id": "Blog:S64",
+  "status": "verified",
+  "research_question": "How far did semiconductor stocks fall in October and November 2026, and how do chip businesses differ in exposure?",
+  "research_brief": {
+    "purpose": "Give dated semiconductor index and stock figures and a framework for comparing chip businesses.",
+    "audience": "Investors holding chip stocks or technology funds.",
+    "publication_year": "2026",
+    "data_period": "October 2026 monthly returns and daily closes through November 6, 2026.",
+    "scope_limitations": "AP and Reuters blocked automated access; their figures are owner-verified and attributed."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "semiconductor stocks",
+    "intent": "Informational",
+    "serp_checked_at": "2026-11-09",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-09",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "semiconductor stocks",
+        "type": "short-tail",
+        "volume": 12100,
+        "difficulty": 45,
+        "cpc": 3.4,
+        "intent": "Informational",
+        "ranking_url": "https://www.janushenderson.com/en-us/advisor/article/market-moves-themes-that-mattered-october-2026/",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "why are semiconductor stocks down",
+        "type": "long-tail",
+        "volume": 480,
+        "difficulty": 30,
+        "cpc": 4.85,
+        "intent": "Informational",
+        "ranking_url": "https://am.jpmorgan.com/fr/en/asset-management/liq/insights/market-insights/market-updates/monthly-market-review/",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "chip stocks",
+        "type": "commercial",
+        "volume": 3600,
+        "difficulty": 31,
+        "cpc": 3.13,
+        "intent": "Informational",
+        "ranking_url": "https://fred.stlouisfed.org/series/NASDAQ100",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "semiconductor stocks down",
+        "type": "problem",
+        "volume": 40,
+        "difficulty": 32,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://fred.stlouisfed.org/series/NASDAQ100",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "sox index",
+        "type": "question",
+        "volume": 12100,
+        "difficulty": 26,
+        "cpc": 5.08,
+        "intent": "Informational",
+        "ranking_url": "https://www.janushenderson.com/en-us/advisor/article/market-moves-themes-that-mattered-october-2026/",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.janushenderson.com/en-us/advisor/article/market-moves-themes-that-mattered-october-2026/",
+      "title": "Market moves and themes that mattered: October 2026",
+      "publisher": "Janus Henderson Investors",
+      "source_type": "Asset manager market review",
+      "year": "2026",
+      "published_at": "2026-11-02",
+      "accessed_at": "2026-11-09",
+      "scope": "October index and sector returns, SOX, Russell style indexes",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Monthly commentary; rounded figures.",
+      "verified": true
+    },
+    {
+      "url": "https://am.jpmorgan.com/fr/en/asset-management/liq/insights/market-insights/market-updates/monthly-market-review/",
+      "title": "Monthly market review",
+      "publisher": "J.P. Morgan Asset Management",
+      "source_type": "Asset manager market review",
+      "year": "2026",
+      "published_at": "2026-11-02",
+      "accessed_at": "2026-11-09",
+      "scope": "October single-stock moves for Nvidia, Broadcom, Alphabet and Meta; equal-weight gap",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page updates monthly.",
+      "verified": true
+    },
+    {
+      "url": "https://www.nasdaq.com/articles/october-2026-review-and-outlook",
+      "title": "October 2026 Review and Outlook",
+      "publisher": "Nasdaq",
+      "source_type": "Exchange market review",
+      "year": "2026",
+      "published_at": "2026-11-02",
+      "accessed_at": "2026-11-09",
+      "scope": "Magnificent Seven index, Dow, all sector returns, breadth, earnings",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Owner-verified figure; automated access to this page was blocked during QA, so FinLoom could not re-fetch it.",
+      "verified": true
+    },
+    {
+      "url": "https://ca.finance.yahoo.com/news/major-us-stock-indexes-fared-212218583.html",
+      "title": "How major US stock indexes fared",
+      "publisher": "Associated Press via Yahoo Finance",
+      "source_type": "News wire",
+      "year": "2026",
+      "published_at": "2026-11-05",
+      "accessed_at": "2026-11-09",
+      "scope": "November 5 index closes and single-stock moves",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Owner-verified figure; automated access to this page was blocked during QA, so FinLoom could not re-fetch it.",
+      "verified": true
+    },
+    {
+      "url": "https://fred.stlouisfed.org/series/NASDAQ100",
+      "title": "Nasdaq-100 Index (NASDAQ100)",
+      "publisher": "Federal Reserve Bank of St. Louis, FRED",
+      "source_type": "Official data series",
+      "year": "2026",
+      "published_at": "2026-11-06",
+      "accessed_at": "2026-11-09",
+      "scope": "Daily Nasdaq-100 closes",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Price index.",
+      "verified": true
+    },
+    {
+      "url": "https://fred.stlouisfed.org/series/NASDAQCOM",
+      "title": "Nasdaq Composite Index (NASDAQCOM)",
+      "publisher": "Federal Reserve Bank of St. Louis, FRED",
+      "source_type": "Official data series",
+      "year": "2026",
+      "published_at": "2026-11-06",
+      "accessed_at": "2026-11-09",
+      "scope": "Daily Nasdaq Composite closes",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Price index.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "SOX -15.3% and Nasdaq Composite -5.3% in October 2026.",
+      "source_url": "https://www.janushenderson.com/en-us/advisor/article/market-moves-themes-that-mattered-october-2026/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Nasdaq-100 Nov 5 2026: 28,437.17 to 26,629.81; Nov 6 26,989.99.",
+      "source_url": "https://fred.stlouisfed.org/series/NASDAQ100",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Index points",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Nvidia -9.3% and AMD -17.3% on November 5, 2026.",
+      "source_url": "https://ca.finance.yahoo.com/news/major-us-stock-indexes-fared-212218583.html",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Investing in chip stocks: What are semiconductors?",
+      "url": "http://google.com/goto?url=CAEScgHEIkXXifxm30MW2QxBTSqGckNg4iK_a6TYuNWtbBPpOB5t8XWkWqxxlrV2F947IWSMavDvNpkg81Wp55jokIGkvXI9qkqSi8dQBFyGAFrV4VxPoV68vF34jqPM8qz0zpzrkBDguyjX1fDtmi6-QX8VBw",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "semiconductor stocks"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors list best chip stocks to buy or one-day losers without common dates or segmentation."
+    },
+    {
+      "title": "Best Semiconductor Stocks to Watch in 2026 - IG UK",
+      "url": "http://google.com/goto?url=CAESjwEBxCJF16s-gZy1bQMPtk33bBhThoxf6fMosFlbBgQ6aNayNJU-z4RfBB47rTUADxiyCz-rAiaIBGi8XlbAaUKKGm2Z12vFzpB3LuCz1TMh7gR9LnBDPTQM2wMfzaMR_2l_kXFAzRUhkbMy5Pr7qBbz9gVky1rxogDPETY0YdUhos5RFzH1vtdzbGvMK-a5Tg",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "semiconductor stocks"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors list best chip stocks to buy or one-day losers without common dates or segmentation."
+    },
+    {
+      "title": "Compare Semiconductor Stocks",
+      "url": "http://google.com/goto?url=CAESfAHEIkXX0jyD2UhGo1hOC44tELx_DtFHmK80tFrll6XOlTrk5QuW0XmXCKIh892HxwQ4QhmSVbQQ8mi2dkRJBcOI8qY_-HO1SQQGxAK0ZVyMWQQceyo21a45-etB9QbL4bia9gGV7D0Zj2Y_nIcQpbwQ7RfvmgWY_obdnLY",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "semiconductor stocks"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors list best chip stocks to buy or one-day losers without common dates or segmentation."
+    },
+    {
+      "title": "Largest U.S. Semiconductors Stocks by Market Cap",
+      "url": "http://google.com/goto?url=CAESfAHEIkXXKCIfmL78Lqjo3od7kJ4r1xjTy5nYFJYnzzCYWomSxY0c44rShhQW2ue5qucmN5VHkfq9-JHwl8PRuRDPArHNMrJPY0Hrv03PAjLGOWBfNS3PEQQ_simz1qGHYoFie3W3ay2MdIeIDd6Ob0Z0v7xMYo5pIwam2hM",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "semiconductor stocks"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors list best chip stocks to buy or one-day losers without common dates or segmentation."
+    },
+    {
+      "title": "Chip stocks surge on report of Apple-Intel deal, rekindled ...",
+      "url": "http://google.com/goto?url=CAESwQEBxCJF1-jXYFaQ24wVYSvYKrUHxVGg3_hLmJ7fotmAUB8iHEo9gXWDFtU9mPGC0H0KMwgqSZy12IamhkSiNFHD1DzuW96qOyvY3JYmO2AyxZN-ZwGEp6Nl_mmCnJdMdNUuZqLQoXMrxpdmRZ8TyWVkrFr2GvpFeMuaRMbvGjGd2SNYayfYZG7QxCTwCuKRmW52Ccgie-44yJEv04YtZRw1M3gCCJxBN9Wv9oMzlCIhI3y-pFl1_Llq7J8boDKQVBUd",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "semiconductor stocks"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors list best chip stocks to buy or one-day losers without common dates or segmentation."
+    }
+  ],
+  "content_gaps": [
+    "Supply-chain segmentation",
+    "Global supplier markets",
+    "Dated single-stock moves",
+    "Risk checklist"
+  ],
+  "value_add": "Same-window benchmark table, supply-chain breakdown and a checklist for comparing chip companies.",
+  "plan": {
+    "reader_title": "Semiconductor Stocks in 2026: What the October Rout Revealed",
+    "seo_title": "Semiconductor Stocks: October 2026 Selloff Statistics",
+    "meta_description": "Semiconductor stocks fell 15.3% in October 2026. Dated index data, the November 5 selloff and how chip designers, foundries, memory and equipment makers differ.",
+    "slug": "/markets-stocks/semiconductor-stocks-october-2026-statistics/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "chip stocks",
+      "sox index",
+      "semiconductor stocks down",
+      "why are semiconductor stocks down"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "How Far Did Semiconductor Stocks Fall in October 2026?",
+      "Why Did Chip Shares React So Sharply to AI Concerns?",
+      "Not All Semiconductor Companies Share the Same Exposure",
+      "What Happened on November 5?",
+      "The Global Side of the Chip Selloff",
+      "A Better Semiconductor Risk Checklist",
+      "What the October Rout Does Not Prove",
+      "How to Follow Semiconductor Stocks From Here",
+      "Common Mistakes When Reading Semiconductor Stock Statistics",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Index returns: Janus Henderson",
+      "Single stocks and Asia: J.P. Morgan",
+      "Daily closes: FRED",
+      "Nov 5 single stocks: AP (owner-verified)"
+    ],
+    "visuals": [
+      "Owner-supplied featured image"
+    ],
+    "internal_links": [
+      "/markets-stocks/stock-analysis-fundamentals/",
+      "/markets-stocks/why-tech-stocks-fell-2026/",
+      "/markets-stocks/magnificent-seven-2026-selloff-statistics/"
+    ],
+    "external_link_opportunities": [
+      "https://fred.stlouisfed.org/series/NASDAQ100",
+      "https://am.jpmorgan.com/fr/en/asset-management/liq/insights/market-insights/market-updates/monthly-market-review/"
+    ],
+    "excluded_claims": [
+      "Reuters link (blocked; attributed in text)",
+      "AP direct article link (blocked; Yahoo syndication kept in Resources)"
+    ],
+    "drafting_cautions": [
+      "No buy, sell or hold recommendation",
+      "Calculations labeled",
+      "Dates and observation windows stated"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Nvidia fell 10.4% and Broadcom 7.2% in October 2026; Korea fell 15.6% and Taiwan 8.4%.",
+      "source_url": "https://am.jpmorgan.com/fr/en/asset-management/liq/insights/market-insights/market-updates/monthly-market-review/",
+      "verified": true
+    },
+    {
+      "statement": "The Nasdaq-100 fell from 30,408.50 to 28,384.85 in October 2026.",
+      "source_url": "https://fred.stlouisfed.org/series/NASDAQ100",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-09",
+    "note": "Figures checked against Janus Henderson, J.P. Morgan and FRED on 2026-11-09; AP single-stock moves owner-verified.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-09",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-09",
+    "summary": "Figures checked against Janus Henderson, J.P. Morgan and FRED on 2026-11-09; AP single-stock moves owner-verified.",
+    "pending": "Owner sign-off."
+  }
+}

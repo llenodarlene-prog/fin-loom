@@ -1,0 +1,471 @@
+{
+  "tracker_id": "Blog:S62",
+  "status": "verified",
+  "research_question": "What happened in the October and November 2026 stock market decline, measured by index, window and source?",
+  "research_brief": {
+    "purpose": "Give dated, sourced statistics for the 2026 selloff and separate monthly, daily and peak-to-trough measures.",
+    "audience": "Investors searching for an explanation of the 2026 selloff.",
+    "publication_year": "2026",
+    "data_period": "October 2026 monthly returns and daily closes through November 6, 2026.",
+    "scope_limitations": "Nasdaq.com, AP and Reuters blocked automated access; their figures are owner-verified and attributed."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "stock market crash 2026",
+    "intent": "Informational",
+    "serp_checked_at": "2026-11-09",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-09",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "stock market crash 2026",
+        "type": "short-tail",
+        "volume": 2400,
+        "difficulty": 36,
+        "cpc": 3.69,
+        "intent": "Informational",
+        "ranking_url": "https://www.janushenderson.com/en-us/advisor/article/market-moves-themes-that-mattered-october-2026/",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "stock market correction 2026",
+        "type": "long-tail",
+        "volume": 260,
+        "difficulty": 27,
+        "cpc": 1.4,
+        "intent": "Informational",
+        "ranking_url": "https://fred.stlouisfed.org/series/NASDAQCOM",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "stock market crash",
+        "type": "commercial",
+        "volume": 90500,
+        "difficulty": 32,
+        "cpc": 2.0,
+        "intent": "Informational",
+        "ranking_url": "https://fred.stlouisfed.org/series/SP500",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "is the stock market crashing",
+        "type": "problem",
+        "volume": 9900,
+        "difficulty": 32,
+        "cpc": 2.18,
+        "intent": "Informational",
+        "ranking_url": "https://fred.stlouisfed.org/series/NASDAQCOM",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "why is the stock market down today",
+        "type": "question",
+        "volume": 90500,
+        "difficulty": 74,
+        "cpc": 3.1,
+        "intent": "Informational",
+        "ranking_url": "https://fred.stlouisfed.org/series/DJIA",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.janushenderson.com/en-us/advisor/article/market-moves-themes-that-mattered-october-2026/",
+      "title": "Market moves and themes that mattered: October 2026",
+      "publisher": "Janus Henderson Investors",
+      "source_type": "Asset manager market review",
+      "year": "2026",
+      "published_at": "2026-11-02",
+      "accessed_at": "2026-11-09",
+      "scope": "October index and sector returns, SOX, Russell style indexes",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Monthly commentary; rounded figures.",
+      "verified": true
+    },
+    {
+      "url": "https://am.jpmorgan.com/fr/en/asset-management/liq/insights/market-insights/market-updates/monthly-market-review/",
+      "title": "Monthly market review",
+      "publisher": "J.P. Morgan Asset Management",
+      "source_type": "Asset manager market review",
+      "year": "2026",
+      "published_at": "2026-11-02",
+      "accessed_at": "2026-11-09",
+      "scope": "October single-stock moves for Nvidia, Broadcom, Alphabet and Meta; equal-weight gap",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page updates monthly.",
+      "verified": true
+    },
+    {
+      "url": "https://www.nasdaq.com/articles/october-2026-review-and-outlook",
+      "title": "October 2026 Review and Outlook",
+      "publisher": "Nasdaq",
+      "source_type": "Exchange market review",
+      "year": "2026",
+      "published_at": "2026-11-02",
+      "accessed_at": "2026-11-09",
+      "scope": "Magnificent Seven index, Dow, all sector returns, breadth, earnings",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Owner-verified figure; automated access to this page was blocked during QA, so FinLoom could not re-fetch it.",
+      "verified": true
+    },
+    {
+      "url": "https://ca.finance.yahoo.com/news/major-us-stock-indexes-fared-212218583.html",
+      "title": "How major US stock indexes fared",
+      "publisher": "Associated Press via Yahoo Finance",
+      "source_type": "News wire",
+      "year": "2026",
+      "published_at": "2026-11-05",
+      "accessed_at": "2026-11-09",
+      "scope": "November 5 index closes and single-stock moves",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Owner-verified figure; automated access to this page was blocked during QA, so FinLoom could not re-fetch it.",
+      "verified": true
+    },
+    {
+      "url": "https://fred.stlouisfed.org/series/SP500",
+      "title": "S&P 500 (SP500)",
+      "publisher": "Federal Reserve Bank of St. Louis, FRED",
+      "source_type": "Official data series",
+      "year": "2026",
+      "published_at": "2026-11-06",
+      "accessed_at": "2026-11-09",
+      "scope": "Daily S&P 500 closes used to recompute October and November 5 changes",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Price index, excludes dividends.",
+      "verified": true
+    },
+    {
+      "url": "https://fred.stlouisfed.org/series/NASDAQCOM",
+      "title": "Nasdaq Composite Index (NASDAQCOM)",
+      "publisher": "Federal Reserve Bank of St. Louis, FRED",
+      "source_type": "Official data series",
+      "year": "2026",
+      "published_at": "2026-11-06",
+      "accessed_at": "2026-11-09",
+      "scope": "Daily Nasdaq Composite closes",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Price index.",
+      "verified": true
+    },
+    {
+      "url": "https://fred.stlouisfed.org/series/DJIA",
+      "title": "Dow Jones Industrial Average (DJIA)",
+      "publisher": "Federal Reserve Bank of St. Louis, FRED",
+      "source_type": "Official data series",
+      "year": "2026",
+      "published_at": "2026-11-06",
+      "accessed_at": "2026-11-09",
+      "scope": "Daily Dow closes",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Price index.",
+      "verified": true
+    },
+    {
+      "url": "https://fred.stlouisfed.org/series/NASDAQ100",
+      "title": "Nasdaq-100 Index (NASDAQ100)",
+      "publisher": "Federal Reserve Bank of St. Louis, FRED",
+      "source_type": "Official data series",
+      "year": "2026",
+      "published_at": "2026-11-06",
+      "accessed_at": "2026-11-09",
+      "scope": "Daily Nasdaq-100 closes",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Price index.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "October 2026: Nasdaq -5.3%, S&P 500 -0.9%, equal weight +5.0%, SOX -15.3%, Energy +14.0%, Communication Services -15.1%.",
+      "source_url": "https://www.janushenderson.com/en-us/advisor/article/market-moves-themes-that-mattered-october-2026/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "November 5, 2026: S&P 500 7,688.62 to 7,353.73 (-4.36%); Nasdaq 25,736.51 to 24,315.00 (-5.52%).",
+      "source_url": "https://fred.stlouisfed.org/series/NASDAQCOM",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Index points",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Dow +1.8% and Magnificent Seven index -4.7% in October 2026.",
+      "source_url": "https://www.nasdaq.com/articles/october-2026-review-and-outlook",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Will the Stock Market Crash in 2026? History Suggests ...",
+      "url": "http://google.com/goto?url=CAESigEBxCJF15QSrZkRplD1IoYuhFnu_4IfT51B3910EMpFdV4toun0QcTNVrbqJZRkoBNWi1d3VZYy3_518kuMzjgpeD7S8BP5o3ujw8cj9DEecKRhLIyoDLhWKGGwWQifaht410ItZMjuMaGb5G5jpznQh1PExcJgm4F1HLGOTVSzmf5xEgtMVQ8slQ4",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "stock market crash 2026"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitor pages forecast a crash or mix monthly and daily figures without dates or definitions."
+    },
+    {
+      "title": "The 2026 Stock Market Crash is Coming! (DO THIS NOW)",
+      "url": "http://google.com/goto?url=CAESaAHEIkXXDw4PZayOetusBoF4e2cA4P7A7SFopknQmwqDJ27Xsxd2kEewxs_eZgEVzf-Txt9B1M2Htp9dpM4tEq-EIxiFFT3SdVE2owdameVGQxi4j5vbjvHpQLHyxYlogxI31wDtqIJ7",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "stock market crash 2026"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitor pages forecast a crash or mix monthly and daily figures without dates or definitions."
+    },
+    {
+      "title": "Four Possible Market Pitfalls to Watch for in 2026",
+      "url": "http://google.com/goto?url=CAESiwEBxCJF1_A5jVMxmJIoCsfY5ra32cmma4TgIFlaeD4ILDqY4mfFnysQmusubAM7nTlhehgyYKLEZl3pTPEj40zsaqo39xLIetKEFIk9uMQFHwShIiBwplNIDWhEjWx6AfdhVLMDZzvQcYFqKj8ge4sJKU_LvAuR-uTxXf7TltD6JKnmOGFsZ1mfPo2r",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "stock market crash 2026"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitor pages forecast a crash or mix monthly and daily figures without dates or definitions."
+    },
+    {
+      "title": "Is the Stock Market Going to Crash in 2026? 2 Historically ...",
+      "url": "http://google.com/goto?url=CAESiAEBxCJF19kiv8bpfzcJsSDdc6jhcLHWa5vvSd1xuBrxVTly4FFDyNPETititimlWfNrx7B3bo6zqeiWgIfqtxymis1wMhljjaX1ev7kBphgUuT2cuhk61k14uger4SQ6F8foXkz5pOZKhoKDehxQCYThhBQ2BT1p68f1t3o7V61uvZSWusXkKkA",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "stock market crash 2026"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitor pages forecast a crash or mix monthly and daily figures without dates or definitions."
+    },
+    {
+      "title": "The Stock Market Crash Of 2026 | WARNING",
+      "url": "http://google.com/goto?url=CAESaAHEIkXXUzEdo5YD9wVbQOmauoPF6pNpld--jabLvnnBxpzrHdud6UgRfZ58qJIBtJU8ENtLvATp4GQEP8I3zibhjrTpinpMLHGz2u2JZio2lJ65n47ynLlcZ5kEj-p1MKEbcgymePaO",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "stock market crash 2026"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitor pages forecast a crash or mix monthly and daily figures without dates or definitions."
+    }
+  ],
+  "content_gaps": [
+    "Dated windows for every figure",
+    "Correction vs bear market vs one-day loss",
+    "Peak-to-close table from FRED",
+    "Equal-weight gap explained"
+  ],
+  "value_add": "Twelve dated figures, a FRED-based peak-to-close table and plain definitions of each measurement window.",
+  "plan": {
+    "reader_title": "Stock Market Crash 2026: 12 Statistics From the October and November Selloff",
+    "seo_title": "Stock Market Crash 2026: 12 October and November Statistics",
+    "meta_description": "Stock market crash 2026 explained with 12 dated statistics: October index and sector returns, the November 5 selloff and why a correction is not a crash.",
+    "slug": "/markets-stocks/stock-market-crash-2026-statistics/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "is the stock market crashing",
+      "stock market correction 2026",
+      "stock market crash",
+      "why is the stock market down today"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "What Happened in the October and November 2026 Decline?",
+      "Twelve Stock Market Statistics, Dated and Sourced",
+      "Why Did an Index Fall When Most Sectors Rose?",
+      "What Changed on November 5?",
+      "Does the Word Crash Fit 2026?",
+      "How to Read Market Headlines During a Selloff",
+      "What the Stock Market Crash 2026 Headlines Mean for a Long-Term Plan",
+      "Common Mistakes When Reading a Stock Market Crash 2026 Headline",
+      "How the 2026 Selloff Compares With the Year So Far",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Monthly returns: Janus Henderson and Nasdaq review",
+      "Daily closes: FRED",
+      "Correction math: FRED"
+    ],
+    "visuals": [
+      "Owner-supplied featured image"
+    ],
+    "internal_links": [
+      "/markets-stocks/stock-analysis-fundamentals/",
+      "/markets-stocks/why-tech-stocks-fell-2026/",
+      "/markets-stocks/sector-rotation-october-2026-statistics/"
+    ],
+    "external_link_opportunities": [
+      "https://am.jpmorgan.com/fr/en/asset-management/liq/insights/market-insights/market-updates/monthly-market-review/",
+      "https://fred.stlouisfed.org/series/NASDAQCOM",
+      "https://fred.stlouisfed.org/series/SP500"
+    ],
+    "excluded_claims": [
+      "Reuters link (site blocked automated access; claim attributed in text)"
+    ],
+    "drafting_cautions": [
+      "No buy, sell or hold recommendation",
+      "Calculations labeled",
+      "Dates and observation windows stated"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "The S&P 500 fell 0.9% and the equal-weight S&P 500 rose 5.0% in October 2026.",
+      "source_url": "https://am.jpmorgan.com/fr/en/asset-management/liq/insights/market-insights/market-updates/monthly-market-review/",
+      "verified": true
+    },
+    {
+      "statement": "The Nasdaq Composite closed at 24,315.00 on November 5, 2026, 11.9% below its October 6 record close.",
+      "source_url": "https://fred.stlouisfed.org/series/NASDAQCOM",
+      "verified": true
+    },
+    {
+      "statement": "The S&P 500 closed at 7,353.73 on November 5, 2026.",
+      "source_url": "https://fred.stlouisfed.org/series/SP500",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-09",
+    "note": "Monthly figures checked against Janus Henderson; daily and peak-to-close figures recomputed from FRED closes on 2026-11-09. Nasdaq and AP figures owner-verified.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-09",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-09",
+    "summary": "Monthly figures checked against Janus Henderson; daily and peak-to-close figures recomputed from FRED closes on 2026-11-09. Nasdaq and AP figures owner-verified.",
+    "pending": "Owner sign-off."
+  }
+}

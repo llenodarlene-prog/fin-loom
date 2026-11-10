@@ -19,8 +19,8 @@ charts_pending: 0
 ai_exceptions: 
 ai_exception_reason: 
 author: Darlene Aberin
-published: 2026-11-13
-modified: 2026-11-13
+published: 2026-11-15
+modified: 2026-11-15
 ---
 
 # VOO vs SPY in 2026: Same S&P 500, Different Costs and Structure

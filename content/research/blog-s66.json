@@ -1,0 +1,399 @@
+{
+  "tracker_id": "Blog:S66",
+  "status": "verified",
+  "research_question": "Which S&P 500 sectors won and lost in October 2026, and what does sector rotation tell investors?",
+  "research_brief": {
+    "purpose": "Publish the full 11-sector October 2026 table with sources and explain how to read sector rotation.",
+    "audience": "Investors reviewing sector exposure.",
+    "publication_year": "2026",
+    "data_period": "October 2026 monthly returns and daily closes through November 6, 2026.",
+    "scope_limitations": "Nasdaq.com and Schwab blocked automated access; Nasdaq figures are owner-verified and the Schwab claim was removed."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "sector rotation",
+    "intent": "Informational",
+    "serp_checked_at": "2026-11-09",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-09",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "sector rotation",
+        "type": "short-tail",
+        "volume": 590,
+        "difficulty": 38,
+        "cpc": 9.92,
+        "intent": "Informational",
+        "ranking_url": "https://www.janushenderson.com/en-us/advisor/article/market-moves-themes-that-mattered-october-2026/",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "sector rotation strategy",
+        "type": "long-tail",
+        "volume": 170,
+        "difficulty": 43,
+        "cpc": 7.25,
+        "intent": "Informational",
+        "ranking_url": "https://am.jpmorgan.com/fr/en/asset-management/liq/insights/market-insights/market-updates/monthly-market-review/",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "sector performance",
+        "type": "commercial",
+        "volume": 720,
+        "difficulty": 55,
+        "cpc": 11.1,
+        "intent": "Informational",
+        "ranking_url": "https://www.nasdaq.com/articles/october-2026-review-and-outlook",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "s&p 500 sector performance",
+        "type": "problem",
+        "volume": 390,
+        "difficulty": 63,
+        "cpc": 15.76,
+        "intent": "Informational",
+        "ranking_url": "https://fred.stlouisfed.org/series/SP500",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is sector rotation",
+        "type": "question",
+        "volume": 50,
+        "difficulty": 48,
+        "cpc": 0.795,
+        "intent": "Informational",
+        "ranking_url": "https://am.jpmorgan.com/fr/en/asset-management/liq/insights/market-insights/market-updates/monthly-market-review/",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.janushenderson.com/en-us/advisor/article/market-moves-themes-that-mattered-october-2026/",
+      "title": "Market moves and themes that mattered: October 2026",
+      "publisher": "Janus Henderson Investors",
+      "source_type": "Asset manager market review",
+      "year": "2026",
+      "published_at": "2026-11-02",
+      "accessed_at": "2026-11-09",
+      "scope": "October index and sector returns, SOX, Russell style indexes",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Monthly commentary; rounded figures.",
+      "verified": true
+    },
+    {
+      "url": "https://am.jpmorgan.com/fr/en/asset-management/liq/insights/market-insights/market-updates/monthly-market-review/",
+      "title": "Monthly market review",
+      "publisher": "J.P. Morgan Asset Management",
+      "source_type": "Asset manager market review",
+      "year": "2026",
+      "published_at": "2026-11-02",
+      "accessed_at": "2026-11-09",
+      "scope": "October single-stock moves for Nvidia, Broadcom, Alphabet and Meta; equal-weight gap",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page updates monthly.",
+      "verified": true
+    },
+    {
+      "url": "https://www.nasdaq.com/articles/october-2026-review-and-outlook",
+      "title": "October 2026 Review and Outlook",
+      "publisher": "Nasdaq",
+      "source_type": "Exchange market review",
+      "year": "2026",
+      "published_at": "2026-11-02",
+      "accessed_at": "2026-11-09",
+      "scope": "Magnificent Seven index, Dow, all sector returns, breadth, earnings",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Owner-verified figure; automated access to this page was blocked during QA, so FinLoom could not re-fetch it.",
+      "verified": true
+    },
+    {
+      "url": "https://fred.stlouisfed.org/series/SP500",
+      "title": "S&P 500 (SP500)",
+      "publisher": "Federal Reserve Bank of St. Louis, FRED",
+      "source_type": "Official data series",
+      "year": "2026",
+      "published_at": "2026-11-06",
+      "accessed_at": "2026-11-09",
+      "scope": "Daily S&P 500 closes used to recompute October and November 5 changes",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Price index, excludes dividends.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "October 2026 sectors: Energy +14.0%, Staples +11.6%, Utilities +10.2%, Health Care +9.9%, IT -6.8%, Communication Services -15.1%.",
+      "source_url": "https://www.janushenderson.com/en-us/advisor/article/market-moves-themes-that-mattered-october-2026/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "October 2026 sectors: Materials +6.6%, Financials +5.9%, Real Estate +5.1%, Consumer Discretionary +3.9%, Industrials +0.3%; Dow +1.8%.",
+      "source_url": "https://www.nasdaq.com/articles/october-2026-review-and-outlook",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Sector Rotation Strategies - Fidelity",
+      "url": "http://www.fidelity.com/learning-center/trading-investing/markets-sectors/intro-sector-rotation-strats",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "sector rotation"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Top results explain rotation strategies in general without a current, complete sector table."
+    },
+    {
+      "title": "What is a sector rotation strategy?",
+      "url": "http://www.sunlifeglobalinvestments.com/en/insights/commentary/portfolio-insights/what-is-a-sector-rotation-strategy/",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "sector rotation"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Top results explain rotation strategies in general without a current, complete sector table."
+    },
+    {
+      "title": "Sector rotation",
+      "url": "http://en.wikipedia.org/wiki/Sector_rotation",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "sector rotation"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Top results explain rotation strategies in general without a current, complete sector table."
+    },
+    {
+      "title": "Sector Rotation: How to Track Where the Money Is Moving",
+      "url": "http://trendspider.com/blog/sector-rotation-how-to-track-where-the-money-is-moving/",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "sector rotation"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Top results explain rotation strategies in general without a current, complete sector table."
+    },
+    {
+      "title": "How Sector Rotation Can Enhance Your Investment Strategy",
+      "url": "http://www.investopedia.com/articles/trading/05/020305.asp",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "sector rotation"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Top results explain rotation strategies in general without a current, complete sector table."
+    }
+  ],
+  "content_gaps": [
+    "Complete 11-sector table with sources",
+    "Global confirmation from J.P. Morgan",
+    "Why the index fell while nine sectors rose",
+    "Limits of sector timing"
+  ],
+  "value_add": "Full sector table with per-row sourcing, global context and a plain guide to using sector data.",
+  "plan": {
+    "reader_title": "Sector Rotation Statistics: All 11 S&P 500 Sectors in October 2026",
+    "seo_title": "Sector Rotation: All 11 S&P 500 Sectors in October 2026",
+    "meta_description": "Sector rotation in October 2026 in one table: all 11 S&P 500 sector returns, why energy and defensive sectors led, and why last month's winner is not a forecast.",
+    "slug": "/markets-stocks/sector-rotation-october-2026-statistics/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "sector rotation strategy",
+      "what is sector rotation",
+      "sector performance",
+      "s&p 500 sector performance"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "What Is Sector Rotation?",
+      "Which S&P 500 Sectors Won and Lost in October 2026?",
+      "Why Did Energy and Defensive Sectors Lead?",
+      "Why Did Technology and Communication Services Fall?",
+      "What Made the October 2026 Rotation Unusual?",
+      "How the Sectors Compare Over Different Windows",
+      "How Should Investors Read a Sector Leaderboard?",
+      "Does a Sector Rotation Strategy Work?",
+      "How Rate Expectations Fit the Sector Picture",
+      "Common Mistakes When Reading Sector Rotation Data",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Six sectors: Janus Henderson",
+      "Five sectors and Dow: Nasdaq review (owner-verified)",
+      "Global sectors: J.P. Morgan",
+      "Index closes: FRED"
+    ],
+    "visuals": [
+      "Owner-supplied featured image"
+    ],
+    "internal_links": [
+      "/markets-stocks/stock-analysis-fundamentals/",
+      "/markets-stocks/stock-market-crash-2026-statistics/",
+      "/markets-stocks/magnificent-seven-2026-selloff-statistics/"
+    ],
+    "external_link_opportunities": [
+      "https://fred.stlouisfed.org/series/SP500",
+      "https://am.jpmorgan.com/fr/en/asset-management/liq/insights/market-insights/market-updates/monthly-market-review/"
+    ],
+    "excluded_claims": [
+      "Schwab sector analysis (schwab.com blocked automated access)"
+    ],
+    "drafting_cautions": [
+      "No buy, sell or hold recommendation",
+      "Calculations labeled",
+      "Dates and observation windows stated"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Developed-market energy rose 12.8%, consumer staples 10.7%, health care 9.9% and utilities 7.9% in October 2026.",
+      "source_url": "https://am.jpmorgan.com/fr/en/asset-management/liq/insights/market-insights/market-updates/monthly-market-review/",
+      "verified": true
+    },
+    {
+      "statement": "The S&P 500 closed at 7,651.54 on September 30 and 7,580.07 on October 30, 2026.",
+      "source_url": "https://fred.stlouisfed.org/series/SP500",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-09",
+    "note": "Six sector figures checked against Janus Henderson, global figures against J.P. Morgan and index closes against FRED on 2026-11-09; five sector figures owner-verified.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-09",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-09",
+    "summary": "Six sector figures checked against Janus Henderson, global figures against J.P. Morgan and index closes against FRED on 2026-11-09; five sector figures owner-verified.",
+    "pending": "Owner sign-off."
+  }
+}

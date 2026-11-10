@@ -1,0 +1,423 @@
+{
+  "tracker_id": "Blog:S67",
+  "status": "verified",
+  "research_question": "How did market breadth change in October 2026, and what can breadth measures tell investors?",
+  "research_brief": {
+    "purpose": "Explain breadth measures with dated October 2026 readings and their limits.",
+    "audience": "Investors who follow index returns and want to see beneath them.",
+    "publication_year": "2026",
+    "data_period": "October 2026 monthly returns and daily closes through November 6, 2026.",
+    "scope_limitations": "Nasdaq.com blocked automated access; breadth readings are owner-verified and attributed."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "market breadth",
+    "intent": "Informational",
+    "serp_checked_at": "2026-11-09",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-09",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "market breadth",
+        "type": "short-tail",
+        "volume": 720,
+        "difficulty": 39,
+        "cpc": 6.45,
+        "intent": "Informational",
+        "ranking_url": "https://www.nasdaq.com/articles/october-2026-review-and-outlook",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "market breadth indicators",
+        "type": "long-tail",
+        "volume": 170,
+        "difficulty": 36,
+        "cpc": 5.53,
+        "intent": "Informational",
+        "ranking_url": "https://www.nasdaq.com/articles/october-2026-review-and-outlook",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "equal weight s&p 500",
+        "type": "commercial",
+        "volume": 1900,
+        "difficulty": 36,
+        "cpc": 4.05,
+        "intent": "Informational",
+        "ranking_url": "https://am.jpmorgan.com/fr/en/asset-management/liq/insights/market-insights/market-updates/monthly-market-review/",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "stocks above 200 day moving average",
+        "type": "problem",
+        "volume": 50,
+        "difficulty": 18,
+        "cpc": 1.63,
+        "intent": "Informational",
+        "ranking_url": "https://www.nasdaq.com/articles/october-2026-review-and-outlook",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is market breadth",
+        "type": "question",
+        "volume": 140,
+        "difficulty": 33,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.janushenderson.com/en-us/advisor/article/market-moves-themes-that-mattered-october-2026/",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.janushenderson.com/en-us/advisor/article/market-moves-themes-that-mattered-october-2026/",
+      "title": "Market moves and themes that mattered: October 2026",
+      "publisher": "Janus Henderson Investors",
+      "source_type": "Asset manager market review",
+      "year": "2026",
+      "published_at": "2026-11-02",
+      "accessed_at": "2026-11-09",
+      "scope": "October index and sector returns, SOX, Russell style indexes",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Monthly commentary; rounded figures.",
+      "verified": true
+    },
+    {
+      "url": "https://am.jpmorgan.com/fr/en/asset-management/liq/insights/market-insights/market-updates/monthly-market-review/",
+      "title": "Monthly market review",
+      "publisher": "J.P. Morgan Asset Management",
+      "source_type": "Asset manager market review",
+      "year": "2026",
+      "published_at": "2026-11-02",
+      "accessed_at": "2026-11-09",
+      "scope": "October single-stock moves for Nvidia, Broadcom, Alphabet and Meta; equal-weight gap",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page updates monthly.",
+      "verified": true
+    },
+    {
+      "url": "https://www.nasdaq.com/articles/october-2026-review-and-outlook",
+      "title": "October 2026 Review and Outlook",
+      "publisher": "Nasdaq",
+      "source_type": "Exchange market review",
+      "year": "2026",
+      "published_at": "2026-11-02",
+      "accessed_at": "2026-11-09",
+      "scope": "Magnificent Seven index, Dow, all sector returns, breadth, earnings",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Owner-verified figure; automated access to this page was blocked during QA, so FinLoom could not re-fetch it.",
+      "verified": true
+    },
+    {
+      "url": "https://ca.finance.yahoo.com/news/major-us-stock-indexes-fared-212218583.html",
+      "title": "How major US stock indexes fared",
+      "publisher": "Associated Press via Yahoo Finance",
+      "source_type": "News wire",
+      "year": "2026",
+      "published_at": "2026-11-05",
+      "accessed_at": "2026-11-09",
+      "scope": "November 5 index closes and single-stock moves",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Owner-verified figure; automated access to this page was blocked during QA, so FinLoom could not re-fetch it.",
+      "verified": true
+    },
+    {
+      "url": "https://fred.stlouisfed.org/series/SP500",
+      "title": "S&P 500 (SP500)",
+      "publisher": "Federal Reserve Bank of St. Louis, FRED",
+      "source_type": "Official data series",
+      "year": "2026",
+      "published_at": "2026-11-06",
+      "accessed_at": "2026-11-09",
+      "scope": "Daily S&P 500 closes used to recompute October and November 5 changes",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Price index, excludes dividends.",
+      "verified": true
+    },
+    {
+      "url": "https://fred.stlouisfed.org/series/VIXCLS",
+      "title": "CBOE Volatility Index: VIX (VIXCLS)",
+      "publisher": "Federal Reserve Bank of St. Louis, FRED",
+      "source_type": "Official data series",
+      "year": "2026",
+      "published_at": "2026-11-05",
+      "accessed_at": "2026-11-09",
+      "scope": "Daily VIX closes",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Source is Cboe; November 6 close not yet posted at QA.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "S&P 500 members above 50-day average 21% (Sep) to 61% (Oct); above 200-day 43% to 62%.",
+      "source_url": "https://www.nasdaq.com/articles/october-2026-review-and-outlook",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent of members",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "S&P 500 -0.9%, equal weight +5.0% in October 2026; nine of eleven sectors rose.",
+      "source_url": "https://www.janushenderson.com/en-us/advisor/article/market-moves-themes-that-mattered-october-2026/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Top 5 Breadth Indicators You Cannot Afford to Ignore",
+      "url": "http://google.com/goto?url=CAESaAHEIkXXSGgbqcfznP1MU7cGrXXtTg3sDIrvTcYiCDTTRw3Ztypa4nTQtbdwWV9aPSk7NPPBA20eL3HipszIUzYRUPf3BFQ27yYNddN9Y-BoO82-mq_YYW0NBoCWUOzeFwT715fq7iyq",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "market breadth"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors explain breadth indicators in general without current dated readings."
+    },
+    {
+      "title": "Market Breadth | Historical Chart Gallery",
+      "url": "http://google.com/goto?url=CAESfQHEIkXXKVx05swVAQY2RrP8m6gdY6-T1OkONPDMLv_3e9HUzFDIvZ1Rkz9k0iB0seiyFNJVWdvCyJpMoaHDESn4D0yM6lZU43dcL9xQ0uP73trMHP69c-id3ASPUSGaZzMg40dhAdbQqbDX-suYpPS2dI2EG-gLKZDCU7S8",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "market breadth"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors explain breadth indicators in general without current dated readings."
+    },
+    {
+      "title": "Breadth Indicators: Indicators and Strategies",
+      "url": "http://google.com/goto?url=CAEScAHEIkXX74yN_bBBUbsDK6HThih1vugSVvajdNOb_C8TmXFrXU2a7KXq-ToQMk6bWF0xAnzSgWroRG25I8zT3sOn6fKf1Aoq9z0sfuj4O_ppPieOU6CHVGzrINNanVpkLdoKzbBRU5urxe8wDs7eGsg",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "market breadth"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors explain breadth indicators in general without current dated readings."
+    },
+    {
+      "title": "Market breadth: How many stocks in an index are trading ...",
+      "url": "http://google.com/goto?url=CAESjwEBxCJF16IYn4dAhDWdUiSXFEH3WiLoc6Q4HzfO_JArJUoZHus-KYRd2GoDghyVgGj0nNWa-ss6CtgpZ7OG_Pml_V_UBDqBmMMfceMgIp7WqV37sryi9JtUUBoXy55MYSnS7XjvgV96jj9W0LcSPpybCgiji-ktWT7Z79YyLLiq5tbiCph7u2cVKgQXp48lQg",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "market breadth"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors explain breadth indicators in general without current dated readings."
+    },
+    {
+      "title": "Market Breadth: Definition, How it Works, Purpose",
+      "url": "http://google.com/goto?url=CAEScQHEIkXX4baquJPBwSYx4Eya2NmmI4heAJvWF0DuqhaM_mSbu1TLtL2Ooof31uri1WhKOzs82IzrC72nZmQDEfyKxHQfNXn2_YTh0N-xyz4vTt4Yll1ijVdhbBscbXvBDDNM-QLSziYHMOrqKg_JWkQA",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "market breadth"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors explain breadth indicators in general without current dated readings."
+    }
+  ],
+  "content_gaps": [
+    "Dated moving-average breadth readings",
+    "Equal-weight gap explained",
+    "Breadth after October",
+    "Limits of breadth as a signal"
+  ],
+  "value_add": "Dated breadth and equal-weight tables, a glossary and a clear account of what breadth cannot predict.",
+  "plan": {
+    "reader_title": "Market Breadth Statistics: Why the S&P 500 Hid October 2026's Rotation",
+    "seo_title": "Market Breadth Statistics: October 2026 S&P 500 Rotation",
+    "meta_description": "Market breadth improved in October 2026 even as the S&P 500 fell. Equal-weight returns and the share of stocks above 50-day and 200-day averages, dated and sourced.",
+    "slug": "/markets-stocks/market-breadth-statistics-2026/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "market breadth indicators",
+      "what is market breadth",
+      "equal weight s&p 500",
+      "stocks above 200 day moving average"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "What Does Market Breadth Measure?",
+      "What Happened to Market Breadth in October 2026?",
+      "Why Did the S&P 500 Give a Different Impression?",
+      "What Do the 50-Day and 200-Day Measures Tell Us?",
+      "Can Market Breadth and Sector Rotation Tell Different Stories?",
+      "What Happened to Breadth After October?",
+      "How Can Investors Use Market Breadth Without Overreading It?",
+      "A Short Glossary of Market Breadth Terms",
+      "Common Mistakes With Market Breadth",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Breadth readings: Nasdaq review (owner-verified)",
+      "Index returns: Janus Henderson and J.P. Morgan",
+      "Daily closes: FRED"
+    ],
+    "visuals": [
+      "Owner-supplied featured image"
+    ],
+    "internal_links": [
+      "/markets-stocks/stock-analysis-fundamentals/",
+      "/markets-stocks/sector-rotation-october-2026-statistics/",
+      "/markets-stocks/vix-index-statistics-2026/"
+    ],
+    "external_link_opportunities": [
+      "https://am.jpmorgan.com/fr/en/asset-management/liq/insights/market-insights/market-updates/monthly-market-review/",
+      "https://fred.stlouisfed.org/series/SP500"
+    ],
+    "excluded_claims": [
+      "Schwab sector discussion (schwab.com blocked)"
+    ],
+    "drafting_cautions": [
+      "No buy, sell or hold recommendation",
+      "Calculations labeled",
+      "Dates and observation windows stated"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "The S&P 500 fell 0.9% and the equal-weight S&P 500 rose 5.0% in October 2026.",
+      "source_url": "https://am.jpmorgan.com/fr/en/asset-management/liq/insights/market-insights/market-updates/monthly-market-review/",
+      "verified": true
+    },
+    {
+      "statement": "The S&P 500 closed at 7,353.73 on November 5, 2026, down from 7,688.62.",
+      "source_url": "https://fred.stlouisfed.org/series/SP500",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-09",
+    "note": "Index returns checked against Janus Henderson, J.P. Morgan and FRED on 2026-11-09; moving-average breadth readings owner-verified.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-09",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-09",
+    "summary": "Index returns checked against Janus Henderson, J.P. Morgan and FRED on 2026-11-09; moving-average breadth readings owner-verified.",
+    "pending": "Owner sign-off."
+  }
+}
