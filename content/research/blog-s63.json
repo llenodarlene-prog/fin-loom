@@ -1,0 +1,445 @@
+{
+  "tracker_id": "Blog:S63",
+  "status": "verified",
+  "research_question": "Why did technology stocks fall in October and November 2026, and what do the dated figures show?",
+  "research_brief": {
+    "purpose": "Explain the 2026 tech selloff with dated benchmark returns and reported investor concerns, without single-cause claims.",
+    "audience": "Investors holding technology or broad index funds.",
+    "publication_year": "2026",
+    "data_period": "October 2026 monthly returns and daily closes through November 6, 2026.",
+    "scope_limitations": "Nasdaq.com, AP and Reuters blocked automated access; their figures are owner-verified and attributed."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "why are tech stocks down",
+    "intent": "Informational",
+    "serp_checked_at": "2026-11-09",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-09",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "why are tech stocks down",
+        "type": "short-tail",
+        "volume": 1000,
+        "difficulty": 28,
+        "cpc": 4.14,
+        "intent": "Informational",
+        "ranking_url": "https://am.jpmorgan.com/fr/en/asset-management/liq/insights/market-insights/market-updates/monthly-market-review/",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "why are tech stocks falling",
+        "type": "long-tail",
+        "volume": 140,
+        "difficulty": 48,
+        "cpc": 2.45,
+        "intent": "Informational",
+        "ranking_url": "https://fred.stlouisfed.org/series/NASDAQCOM",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "tech stocks",
+        "type": "commercial",
+        "volume": 12100,
+        "difficulty": 45,
+        "cpc": 3.51,
+        "intent": "Informational",
+        "ranking_url": "https://fred.stlouisfed.org/series/NASDAQ100",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "nasdaq selloff",
+        "type": "problem",
+        "volume": 320,
+        "difficulty": 44,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://fred.stlouisfed.org/series/NASDAQCOM",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "ai stocks selloff",
+        "type": "question",
+        "volume": 10,
+        "difficulty": 13,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://am.jpmorgan.com/fr/en/asset-management/liq/insights/market-insights/market-updates/monthly-market-review/",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.janushenderson.com/en-us/advisor/article/market-moves-themes-that-mattered-october-2026/",
+      "title": "Market moves and themes that mattered: October 2026",
+      "publisher": "Janus Henderson Investors",
+      "source_type": "Asset manager market review",
+      "year": "2026",
+      "published_at": "2026-11-02",
+      "accessed_at": "2026-11-09",
+      "scope": "October index and sector returns, SOX, Russell style indexes",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Monthly commentary; rounded figures.",
+      "verified": true
+    },
+    {
+      "url": "https://am.jpmorgan.com/fr/en/asset-management/liq/insights/market-insights/market-updates/monthly-market-review/",
+      "title": "Monthly market review",
+      "publisher": "J.P. Morgan Asset Management",
+      "source_type": "Asset manager market review",
+      "year": "2026",
+      "published_at": "2026-11-02",
+      "accessed_at": "2026-11-09",
+      "scope": "October single-stock moves for Nvidia, Broadcom, Alphabet and Meta; equal-weight gap",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page updates monthly.",
+      "verified": true
+    },
+    {
+      "url": "https://www.nasdaq.com/articles/october-2026-review-and-outlook",
+      "title": "October 2026 Review and Outlook",
+      "publisher": "Nasdaq",
+      "source_type": "Exchange market review",
+      "year": "2026",
+      "published_at": "2026-11-02",
+      "accessed_at": "2026-11-09",
+      "scope": "Magnificent Seven index, Dow, all sector returns, breadth, earnings",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Owner-verified figure; automated access to this page was blocked during QA, so FinLoom could not re-fetch it.",
+      "verified": true
+    },
+    {
+      "url": "https://ca.finance.yahoo.com/news/major-us-stock-indexes-fared-212218583.html",
+      "title": "How major US stock indexes fared",
+      "publisher": "Associated Press via Yahoo Finance",
+      "source_type": "News wire",
+      "year": "2026",
+      "published_at": "2026-11-05",
+      "accessed_at": "2026-11-09",
+      "scope": "November 5 index closes and single-stock moves",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Owner-verified figure; automated access to this page was blocked during QA, so FinLoom could not re-fetch it.",
+      "verified": true
+    },
+    {
+      "url": "https://fred.stlouisfed.org/series/NASDAQCOM",
+      "title": "Nasdaq Composite Index (NASDAQCOM)",
+      "publisher": "Federal Reserve Bank of St. Louis, FRED",
+      "source_type": "Official data series",
+      "year": "2026",
+      "published_at": "2026-11-06",
+      "accessed_at": "2026-11-09",
+      "scope": "Daily Nasdaq Composite closes",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Price index.",
+      "verified": true
+    },
+    {
+      "url": "https://fred.stlouisfed.org/series/NASDAQ100",
+      "title": "Nasdaq-100 Index (NASDAQ100)",
+      "publisher": "Federal Reserve Bank of St. Louis, FRED",
+      "source_type": "Official data series",
+      "year": "2026",
+      "published_at": "2026-11-06",
+      "accessed_at": "2026-11-09",
+      "scope": "Daily Nasdaq-100 closes",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Price index.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "October 2026: Nasdaq -5.3%, IT -6.8%, Communication Services -15.1%, SOX -15.3%, Russell 1000 Value +4.4%, Growth -6.1%.",
+      "source_url": "https://www.janushenderson.com/en-us/advisor/article/market-moves-themes-that-mattered-october-2026/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Nasdaq-100 30,408.50 (Sep 30) to 28,384.85 (Oct 30), -6.65%; Nov 5 28,437.17 to 26,629.81.",
+      "source_url": "https://fred.stlouisfed.org/series/NASDAQ100",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Index points",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "S&P 500 blended earnings growth about 30.2% with roughly 60% reported by Oct 30.",
+      "source_url": "https://www.nasdaq.com/articles/october-2026-review-and-outlook",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Stock Indexes Plunge as Tech Stocks Get Dumped",
+      "url": "http://google.com/goto?url=CAESlwEBxCJF1y2M6ACJx2kTSWe8dmV2dIoBw0dYy9gvRZGHSMe_czt2Y_9bV0kNqWz_tfRSTU12gfA1ev_20BQ0x-VqgOX4go3Ar1uwcAkYxSbP1RSIjbLb4bN7YtqwvC36JfvmXwfhZk93xU_1gz2qIOEk9woc1wehNP6lYoPdAvPwehDWz2Qhma2Cu3srMi2VXLpURJt-R6e4",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "why are tech stocks down"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Top results are news recaps without benchmark definitions or dated windows."
+    },
+    {
+      "title": "Tech Slump Deepens",
+      "url": "http://google.com/goto?url=CAESaAHEIkXXxYtP0WLmYvd4Mt3NBiIzyqdxlF7IUfuvhyvxZgBQVXK8DUaGbL9T2JBM2qIoBgTMqdiZGQAwFd9mtgahIjRQe_y7_AaJ57ozsnUG8LMzt3Eq4jJ-5UXStL5u9ZTW_RElfH99",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "why are tech stocks down"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Top results are news recaps without benchmark definitions or dated windows."
+    },
+    {
+      "title": "Stock market wobbles as tech sells off",
+      "url": "http://google.com/goto?url=CAESigEBxCJF1__16lgFOz9szjkBpQLIBtPm39Nrn3RTJCkMXom2FNnGecch8eesLMDhM_Dc8kQ5YXKwC7VrpxgLhrfwB2kvUnQsffLplOw08aMOjdOTqf0zX1Wl-NGfT4DHB3AmaMxGmcTovklOM9pEOw7kwCnQmFT99YBBz8gU9obA5_rBk4YjLhuk7mI",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "why are tech stocks down"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Top results are news recaps without benchmark definitions or dated windows."
+    },
+    {
+      "title": "Why The Stock Market Is Crashing",
+      "url": "http://google.com/goto?url=CAESaAHEIkXX4yEWtxIwH0N6FPcQcWRB8YFtU2s1V6jH88j1VeEekf5_1SsxA07-9trUjAlomejXkuTMrzH5na2xGxus-dueMveR3CCxe-Y48Or6pSWX3hZBjwZhAWsCgfEkaZdgBmry2WuT",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "why are tech stocks down"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Top results are news recaps without benchmark definitions or dated windows."
+    },
+    {
+      "title": "US Stocks Plummet Again After Chipmaker Comeback ...",
+      "url": "http://google.com/goto?url=CAESlwEBxCJF15Ol86Rj29Cs3P2HB3edztBrWJ1vB56vSeQszq3aTbxwwhEWckFpWu4JgHqq7mqCpW7kb6d9jq-F9lOW2WhTgCuSchRq6oz1p2Zi68sKocsvUJeOK7GyQ2ftyK5Or9UwIWf1qr6xNYnY9T0Ddf0zJO-S0Z-bGF_iQk7d7vt7H3NyJA0pLDFQxNb6alRcjj8__Oci",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "why are tech stocks down"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Top results are news recaps without benchmark definitions or dated windows."
+    }
+  ],
+  "content_gaps": [
+    "Benchmark definitions side by side",
+    "Capex and free cash flow framing",
+    "Single-stock October moves from J.P. Morgan",
+    "Earnings vs price explanation"
+  ],
+  "value_add": "Same-window benchmark table, FRED-verified daily moves and a company-level checklist instead of one-cause narratives.",
+  "plan": {
+    "reader_title": "Why Are Tech Stocks Down? Nasdaq and AI Selloff Statistics for 2026",
+    "seo_title": "Why Are Tech Stocks Down? 2026 Nasdaq and AI Selloff Data",
+    "meta_description": "Why are tech stocks down in 2026? October and November data on the Nasdaq, semiconductors and AI spending concerns, with every figure dated and sourced.",
+    "slug": "/markets-stocks/why-tech-stocks-fell-2026/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "tech stocks",
+      "nasdaq selloff",
+      "ai stocks selloff",
+      "why are tech stocks falling"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "How Much Did Technology Stocks Decline in October?",
+      "Why Did Investors Question AI Spending?",
+      "Why Did the Nasdaq Fall More Than the Wider Market?",
+      "What Changed on November 5?",
+      "Can Strong Earnings and Falling Stock Prices Happen Together?",
+      "How the Chip Slump Fits the Bigger Picture",
+      "What the Selloff Means for Diversified Investors",
+      "Common Mistakes When Asking Why Are Tech Stocks Down",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Monthly returns: Janus Henderson",
+      "Single stocks: J.P. Morgan",
+      "Daily closes: FRED",
+      "Earnings: Nasdaq review (owner-verified)"
+    ],
+    "visuals": [
+      "Owner-supplied featured image"
+    ],
+    "internal_links": [
+      "/markets-stocks/stock-analysis-fundamentals/",
+      "/markets-stocks/stock-market-crash-2026-statistics/",
+      "/markets-stocks/semiconductor-stocks-october-2026-statistics/"
+    ],
+    "external_link_opportunities": [
+      "https://am.jpmorgan.com/fr/en/asset-management/liq/insights/market-insights/market-updates/monthly-market-review/",
+      "https://fred.stlouisfed.org/series/NASDAQ100",
+      "https://fred.stlouisfed.org/series/NASDAQCOM"
+    ],
+    "excluded_claims": [
+      "Reuters link (blocked; attributed in text)"
+    ],
+    "drafting_cautions": [
+      "No buy, sell or hold recommendation",
+      "Calculations labeled",
+      "Dates and observation windows stated"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Nvidia fell 10.4%, Broadcom 7.2%, Alphabet 18.7% and Meta 15.2% in October 2026.",
+      "source_url": "https://am.jpmorgan.com/fr/en/asset-management/liq/insights/market-insights/market-updates/monthly-market-review/",
+      "verified": true
+    },
+    {
+      "statement": "The Nasdaq Composite closed at 24,315.00 on November 5, 2026, down from 25,736.51.",
+      "source_url": "https://fred.stlouisfed.org/series/NASDAQCOM",
+      "verified": true
+    },
+    {
+      "statement": "The Nasdaq-100 fell from 30,408.50 to 28,384.85 in October 2026.",
+      "source_url": "https://fred.stlouisfed.org/series/NASDAQ100",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-09",
+    "note": "Figures checked against Janus Henderson, J.P. Morgan and FRED on 2026-11-09; Nasdaq earnings figure owner-verified.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-09",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-09",
+    "summary": "Figures checked against Janus Henderson, J.P. Morgan and FRED on 2026-11-09; Nasdaq earnings figure owner-verified.",
+    "pending": "Owner sign-off."
+  }
+}

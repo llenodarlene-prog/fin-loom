@@ -19,8 +19,8 @@ charts_pending: 0
 ai_exceptions: 
 ai_exception_reason: 
 author: Darlene Aberin
-published: 2026-11-14
-modified: 2026-11-14
+published: 2026-11-16
+modified: 2026-11-16
 ---
 
 # FXAIX vs VOO in 2026: Fidelity Mutual Fund or Vanguard ETF?

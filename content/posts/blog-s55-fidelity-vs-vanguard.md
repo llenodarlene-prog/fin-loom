@@ -19,8 +19,8 @@ charts_pending: 0
 ai_exceptions: 
 ai_exception_reason: 
 author: Darlene Aberin
-published: 2026-11-17
-modified: 2026-11-17
+published: 2026-11-19
+modified: 2026-11-19
 ---
 
 # Fidelity vs Vanguard in 2026: Fees, Funds, Minimums and Account Fit

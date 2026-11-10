@@ -1,0 +1,412 @@
+{
+  "tracker_id": "Blog:S65",
+  "status": "verified",
+  "research_question": "How did the Magnificent Seven perform in October 2026, and what does concentration mean for index investors?",
+  "research_brief": {
+    "purpose": "Explain the Magnificent Seven group and index concentration with dated October 2026 figures.",
+    "audience": "Index fund investors and readers searching for the Magnificent Seven.",
+    "publication_year": "2026",
+    "data_period": "October 2026 monthly returns and daily closes through November 6, 2026.",
+    "scope_limitations": "Nasdaq.com and AP blocked automated access; their figures are owner-verified and attributed."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "magnificent 7 stocks",
+    "intent": "Informational",
+    "serp_checked_at": "2026-11-09",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-09",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "magnificent 7 stocks",
+        "type": "short-tail",
+        "volume": 12100,
+        "difficulty": 52,
+        "cpc": 2.33,
+        "intent": "Informational",
+        "ranking_url": "https://www.nasdaq.com/articles/october-2026-review-and-outlook",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what are the magnificent 7 stocks",
+        "type": "long-tail",
+        "volume": 1300,
+        "difficulty": 56,
+        "cpc": 2.43,
+        "intent": "Informational",
+        "ranking_url": "https://am.jpmorgan.com/fr/en/asset-management/liq/insights/market-insights/market-updates/monthly-market-review/",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "mag 7 stocks",
+        "type": "commercial",
+        "volume": 14800,
+        "difficulty": 50,
+        "cpc": 2.93,
+        "intent": "Informational",
+        "ranking_url": "https://am.jpmorgan.com/fr/en/asset-management/liq/insights/market-insights/market-updates/monthly-market-review/",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "magnificent 7 stocks performance",
+        "type": "problem",
+        "volume": 90,
+        "difficulty": 55,
+        "cpc": 3.04,
+        "intent": "Informational",
+        "ranking_url": "https://fred.stlouisfed.org/series/SP500",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "magnificent seven stocks",
+        "type": "question",
+        "volume": 6600,
+        "difficulty": 53,
+        "cpc": 2.28,
+        "intent": "Informational",
+        "ranking_url": "https://www.janushenderson.com/en-us/advisor/article/market-moves-themes-that-mattered-october-2026/",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.janushenderson.com/en-us/advisor/article/market-moves-themes-that-mattered-october-2026/",
+      "title": "Market moves and themes that mattered: October 2026",
+      "publisher": "Janus Henderson Investors",
+      "source_type": "Asset manager market review",
+      "year": "2026",
+      "published_at": "2026-11-02",
+      "accessed_at": "2026-11-09",
+      "scope": "October index and sector returns, SOX, Russell style indexes",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Monthly commentary; rounded figures.",
+      "verified": true
+    },
+    {
+      "url": "https://am.jpmorgan.com/fr/en/asset-management/liq/insights/market-insights/market-updates/monthly-market-review/",
+      "title": "Monthly market review",
+      "publisher": "J.P. Morgan Asset Management",
+      "source_type": "Asset manager market review",
+      "year": "2026",
+      "published_at": "2026-11-02",
+      "accessed_at": "2026-11-09",
+      "scope": "October single-stock moves for Nvidia, Broadcom, Alphabet and Meta; equal-weight gap",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page updates monthly.",
+      "verified": true
+    },
+    {
+      "url": "https://www.nasdaq.com/articles/october-2026-review-and-outlook",
+      "title": "October 2026 Review and Outlook",
+      "publisher": "Nasdaq",
+      "source_type": "Exchange market review",
+      "year": "2026",
+      "published_at": "2026-11-02",
+      "accessed_at": "2026-11-09",
+      "scope": "Magnificent Seven index, Dow, all sector returns, breadth, earnings",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Owner-verified figure; automated access to this page was blocked during QA, so FinLoom could not re-fetch it.",
+      "verified": true
+    },
+    {
+      "url": "https://ca.finance.yahoo.com/news/major-us-stock-indexes-fared-212218583.html",
+      "title": "How major US stock indexes fared",
+      "publisher": "Associated Press via Yahoo Finance",
+      "source_type": "News wire",
+      "year": "2026",
+      "published_at": "2026-11-05",
+      "accessed_at": "2026-11-09",
+      "scope": "November 5 index closes and single-stock moves",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Owner-verified figure; automated access to this page was blocked during QA, so FinLoom could not re-fetch it.",
+      "verified": true
+    },
+    {
+      "url": "https://fred.stlouisfed.org/series/SP500",
+      "title": "S&P 500 (SP500)",
+      "publisher": "Federal Reserve Bank of St. Louis, FRED",
+      "source_type": "Official data series",
+      "year": "2026",
+      "published_at": "2026-11-06",
+      "accessed_at": "2026-11-09",
+      "scope": "Daily S&P 500 closes used to recompute October and November 5 changes",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Price index, excludes dividends.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Magnificent Seven index -4.7% in October 2026.",
+      "source_url": "https://www.nasdaq.com/articles/october-2026-review-and-outlook",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "October 2026: S&P 500 -0.9%, equal weight +5.0%, Russell 2000 +0.6%, Russell 1000 Value +4.4%, Growth -6.1%.",
+      "source_url": "https://www.janushenderson.com/en-us/advisor/article/market-moves-themes-that-mattered-october-2026/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "What are the Magnificent 7 stocks?",
+      "url": "http://google.com/goto?url=CAEShgEBxCJF1x4eddZ1u8rRTur6ooGMwBJpRF1mqElN0C8pRlstT8bQYKkmrg4cQZtRLf1RawpYsx953ggtvGX3PMlihpzFSVQn8dBuqLrSMoPUXXpYxZkMQFWQwJNjinEb8CpBSXLiUNkLQEv8tyFbs24tx4cAE3nB_KW4kDnJotDBI0VhvlSZKw",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "magnificent 7 stocks"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors define the group but rarely show dated group performance or explain concentration in index funds."
+    },
+    {
+      "title": "Magnificent 7 Stocks: Definition and Why They Matter",
+      "url": "http://google.com/goto?url=CAESfQHEIkXXiGYlg4xZU-jPbI63JAcGdQg8NYm-_UwPg2qxD744jz5mHEUuFaAQDCngp3i2iiZSWGFEACoD6U_clKWSSDSLwkYdv5K5zHKh3nHVK7CyZdt8kCaVwoh6uaUI2mxHu4K7tlq5HV6Sc1-hkPBBUd51B8WC0Mseozeu",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "magnificent 7 stocks"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors define the group but rarely show dated group performance or explain concentration in index funds."
+    },
+    {
+      "title": "Magnificent 7 Stocks",
+      "url": "http://google.com/goto?url=CAEScwHEIkXXhWEMxtxTLK7TAOxqp4E-aXQCsOpetZD-nEeVnEEoP9gzmxSqAWRqV9B5SmKvAW0I8f8S2z9wdaYyCCeQaotrltiSkFrLtMTL54t7Rua9d50DMyrDrdQ84RfRv94R0yG1aU2EZsBaROVfIXieICE",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "magnificent 7 stocks"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors define the group but rarely show dated group performance or explain concentration in index funds."
+    },
+    {
+      "title": "Top Heavy? The Magnificent 7 Stocks and Market Concentration",
+      "url": "http://google.com/goto?url=CAESaAHEIkXXjysII2UoWW9Bp6ymuLZTWksoGd_0NZmFce3atzPa9U_oBigVRVMht7BEPxuijICJYNTSjS6jrItx9jJxVVGD0frD36iQ1mJZU3hkydUBsdRhDy6Pfgu9ccS-P-Gl4k4CD6y3",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "magnificent 7 stocks"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors define the group but rarely show dated group performance or explain concentration in index funds."
+    },
+    {
+      "title": "MAGS Magnificent Seven ETF",
+      "url": "http://google.com/goto?url=CAESawHEIkXXhODYk42Rml753AQjKysGSGlYiwNvkdOWOvfRpgHmIq9Htuo1bpYz3S9EdTjC30fuRwHLOhplhCRdbK_mkTGkykX3OnLdxUtXB9vrm-9pE2CR9zQRhax683Go-HwyqflZAsYXE-zA",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "magnificent 7 stocks"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors define the group but rarely show dated group performance or explain concentration in index funds."
+    }
+  ],
+  "content_gaps": [
+    "Group vs member returns",
+    "Equal weight vs cap weight",
+    "Fund overlap exercise",
+    "Why no mixed-source ranking"
+  ],
+  "value_add": "Dated benchmark table, member examples from one source and a practical overlap exercise.",
+  "plan": {
+    "reader_title": "Magnificent 7 Stocks in 2026: Concentration Statistics From the Pullback",
+    "seo_title": "Magnificent 7 Stocks: October 2026 Concentration Statistics",
+    "meta_description": "Magnificent 7 stocks fell 4.7% as a group in October 2026 while the equal-weight S&P 500 rose 5.0%. Dated figures on concentration and what it means for index funds.",
+    "slug": "/markets-stocks/magnificent-seven-2026-selloff-statistics/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "magnificent seven stocks",
+      "mag 7 stocks",
+      "what are the magnificent 7 stocks",
+      "magnificent 7 stocks performance"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "What Are the Magnificent 7 Stocks?",
+      "How Did the Magnificent 7 Stocks Perform in October 2026?",
+      "Why Did Concentration Matter So Much in October?",
+      "Does a Group Index Tell Us Which Member Did Best?",
+      "What Does AI Spending Have to Do With the Group?",
+      "What Happened in Early November?",
+      "How Can an Investor Check Portfolio Overlap?",
+      "Does October Prove Equal Weight Is Better?",
+      "How Concentration Shows Up in Everyday Investing",
+      "Common Mistakes With Magnificent 7 Stocks Figures",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Group index: Nasdaq review (owner-verified)",
+      "Benchmarks: Janus Henderson",
+      "Members: J.P. Morgan",
+      "Daily closes: FRED"
+    ],
+    "visuals": [
+      "Owner-supplied featured image"
+    ],
+    "internal_links": [
+      "/markets-stocks/stock-analysis-fundamentals/",
+      "/markets-stocks/semiconductor-stocks-october-2026-statistics/",
+      "/markets-stocks/stock-market-crash-2026-statistics/"
+    ],
+    "external_link_opportunities": [
+      "https://am.jpmorgan.com/fr/en/asset-management/liq/insights/market-insights/market-updates/monthly-market-review/",
+      "https://fred.stlouisfed.org/series/SP500"
+    ],
+    "excluded_claims": [
+      "Mixed-source ranking of all seven members (no single dated source)"
+    ],
+    "drafting_cautions": [
+      "No buy, sell or hold recommendation",
+      "Calculations labeled",
+      "Dates and observation windows stated"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Alphabet fell 18.7%, Meta 15.2% and Nvidia 10.4% in October 2026.",
+      "source_url": "https://am.jpmorgan.com/fr/en/asset-management/liq/insights/market-insights/market-updates/monthly-market-review/",
+      "verified": true
+    },
+    {
+      "statement": "The S&P 500 closed at 7,353.73 on November 5, 2026, down from 7,688.62.",
+      "source_url": "https://fred.stlouisfed.org/series/SP500",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-09",
+    "note": "Benchmarks checked against Janus Henderson, J.P. Morgan and FRED on 2026-11-09; Magnificent Seven index figure owner-verified.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-09",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-09",
+    "summary": "Benchmarks checked against Janus Henderson, J.P. Morgan and FRED on 2026-11-09; Magnificent Seven index figure owner-verified.",
+    "pending": "Owner sign-off."
+  }
+}

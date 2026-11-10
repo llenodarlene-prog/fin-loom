@@ -1,0 +1,416 @@
+{
+  "tracker_id": "Blog:S71",
+  "status": "verified",
+  "research_question": "What can dated market data and long-run history say about buying the dip?",
+  "research_brief": {
+    "purpose": "Explain dip buying with verified 2026 figures, long-run returns and labeled examples, without implied returns.",
+    "audience": "Investors tempted to buy during the 2026 selloff.",
+    "publication_year": "2026",
+    "data_period": "October 2026 monthly returns and daily closes through November 6, 2026.",
+    "scope_limitations": "Investor.gov and Slickcharts blocked automated access; replaced with FINRA and Damodaran."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "buy the dip",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-11-09",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-09",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "buy the dip",
+        "type": "short-tail",
+        "volume": 4400,
+        "difficulty": 31,
+        "cpc": 4.17,
+        "intent": "Transactional",
+        "ranking_url": "https://www.finra.org/investors/insights/dollar-cost-averaging",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "buying the dip",
+        "type": "long-tail",
+        "volume": 5400,
+        "difficulty": 50,
+        "cpc": 5.85,
+        "intent": "Commercial",
+        "ranking_url": "https://fred.stlouisfed.org/series/NASDAQCOM",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "dollar cost averaging",
+        "type": "commercial",
+        "volume": 22200,
+        "difficulty": 68,
+        "cpc": 0.515,
+        "intent": "Informational",
+        "ranking_url": "https://www.finra.org/investors/insights/dollar-cost-averaging",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "buy the dip strategy",
+        "type": "problem",
+        "volume": 50,
+        "difficulty": 27,
+        "cpc": 0,
+        "intent": "Transactional",
+        "ranking_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "should i buy the dip",
+        "type": "question",
+        "volume": 170,
+        "difficulty": 34,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://fred.stlouisfed.org/series/SP500",
+        "retrieved_at": "2026-11-09",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.finra.org/investors/insights/dollar-cost-averaging",
+      "title": "Dollar-Cost Averaging",
+      "publisher": "FINRA",
+      "source_type": "Regulator investor education",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-09",
+      "scope": "Definition and limits of dollar-cost averaging",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "General education.",
+      "verified": true
+    },
+    {
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html",
+      "title": "Historical Returns on Stocks, Bonds and Bills",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "source_type": "Academic dataset",
+      "year": "2026",
+      "published_at": "2026-01-05",
+      "accessed_at": "2026-11-09",
+      "scope": "S&P 500 annual returns including dividends, 1928 to 2025",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Updated annually; differs slightly from other providers.",
+      "verified": true
+    },
+    {
+      "url": "https://fred.stlouisfed.org/series/NASDAQCOM",
+      "title": "Nasdaq Composite Index (NASDAQCOM)",
+      "publisher": "Federal Reserve Bank of St. Louis, FRED",
+      "source_type": "Official data series",
+      "year": "2026",
+      "published_at": "2026-11-06",
+      "accessed_at": "2026-11-09",
+      "scope": "Daily Nasdaq Composite closes",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Price index.",
+      "verified": true
+    },
+    {
+      "url": "https://fred.stlouisfed.org/series/SP500",
+      "title": "S&P 500 (SP500)",
+      "publisher": "Federal Reserve Bank of St. Louis, FRED",
+      "source_type": "Official data series",
+      "year": "2026",
+      "published_at": "2026-11-06",
+      "accessed_at": "2026-11-09",
+      "scope": "Daily S&P 500 closes used to recompute October and November 5 changes",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Price index, excludes dividends.",
+      "verified": true
+    },
+    {
+      "url": "https://www.janushenderson.com/en-us/advisor/article/market-moves-themes-that-mattered-october-2026/",
+      "title": "Market moves and themes that mattered: October 2026",
+      "publisher": "Janus Henderson Investors",
+      "source_type": "Asset manager market review",
+      "year": "2026",
+      "published_at": "2026-11-02",
+      "accessed_at": "2026-11-09",
+      "scope": "October index and sector returns, SOX, Russell style indexes",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Monthly commentary; rounded figures.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "October 2026: Nasdaq -5.3%, S&P 500 -0.9%, equal weight +5.0%.",
+      "source_url": "https://www.janushenderson.com/en-us/advisor/article/market-moves-themes-that-mattered-october-2026/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "S&P 500 compound return about 10.0% a year 1928-2025; 2000-2009 about -0.95% a year (FinLoom calculation).",
+      "source_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Does buy the dip actually work?",
+      "url": "http://google.com/goto?url=CAESbgHEIkXXb_o4qLWtNggW32PzNzP-p5IzmMpbPJkdyPE9fmgBIGCn36HBtM12KE3q2KTK51gX8oN7c2t_-OSZV1XhCh8EZqCkv_o_nNdEP9j84_WIPbkq50E53mlvtIbMgu579QXrWFFJLHqxDtu1",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "buy the dip"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors cite win rates without rules or losing cases."
+    },
+    {
+      "title": "What Does Buy the Dip Mean and How Do You Do It? - IG",
+      "url": "http://google.com/goto?url=CAESmwEBxCJF1-OKgRaYGpfrgeWlvYecmgfBX4vr_zUGGh5E6S1AqWWBpPjMpTKZqLlGrTCDkNQkUQ8f2xfqCOr4NOZzatd7ivRq4PlXGVspWmgXKLkGHzx7wOBxtwR2M6xu4dskpVfUA3I1mW2iLdn2d9X70NlWGL9_OmvP8ftipXX0Imv9JhIHRcmOBd5c7uBM8R5x0N_AP7Dy0Ga-8w",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "buy the dip"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors cite win rates without rules or losing cases."
+    },
+    {
+      "title": "Buying the Dip or Following the Trend? : r/stocks",
+      "url": "http://google.com/goto?url=CAESlAEBxCJF10jGCRA7inPMR9p76jRYYmPhW2xRX8_TTkZZXyN-WNvHFfqIprpbkQKSkrIExKR1_ar71-DCFL_Lvib1mO3RwMeU1HumfSNDKvT0rgv9BQYuHyI3SWf0dEm3y_0YE5IAUiX8dFGHyGPZICuy8gwIhlOywaCHJEZvRNIiwZPTFM6kFP27CHdNXsT3waaRZbjS",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "buy the dip"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors cite win rates without rules or losing cases."
+    },
+    {
+      "title": "Buy the Dip Investors Save Stocks From a Brutal Week",
+      "url": "http://google.com/goto?url=CAESnQEBxCJF16qxiwfxToLZ0-vmTPgBBVbvOan7WMNAihkRs1ry71VUhp4DXuNIby4PKxcw47LEnnzeFNoVG-ROfrKsM2mQG45gaD-eXIyDPtiZyRmz09qdxDWR40GFe5ZeyxTdUYadW0EPKoYcJYHs3qfXbvN0nxPKKkx0_snMOhX5m8gX1BYEKp7JH5gr5LspnaAcb1IPrRtDYnAGRTsj",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "buy the dip"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors cite win rates without rules or losing cases."
+    },
+    {
+      "title": "There is a Smarter Way to Buy the Dip Next Time",
+      "url": "http://google.com/goto?url=CAESuAEBxCJF16vMA6uW-v7KTxWBNM2t59Oh84Fg6Z7VwMe0usrzophTAJE8PkGeAiJ2cXuFksQzjUE9Uub6DP14d8jyPRxWgF-IxGLgnZSN6lt0FkrDzRjJMhd4t3VwFmuZMls7oyCMJV3P_0QLmI7uLkO1QBLIydzHYPuYX-oCvQflXOsUPpkhVUSMY-aw_4QNFiGzxi9F20xvWUqQeIhi7LxsSei8xNCcfqrCJHEvpIvpZVSti3BLIUPB",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "buy the dip"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors cite win rates without rules or losing cases."
+    }
+  ],
+  "content_gaps": [
+    "Labeled hypothetical scenarios",
+    "Hindsight and survivorship bias",
+    "Dollar-cost averaging from FINRA",
+    "Long-run data with long-wait periods"
+  ],
+  "value_add": "Dated market figures, transparent arithmetic examples and a regulator definition of dollar-cost averaging.",
+  "plan": {
+    "reader_title": "Buy the Dip Statistics: What History Can and Cannot Tell Investors",
+    "seo_title": "Buy the Dip Statistics: History, Timing and Risk",
+    "meta_description": "Buy the dip explained with dated 2026 market figures, long-run return data and labeled examples comparing investing now, waiting for a lower price and dollar-cost averaging.",
+    "slug": "/investing/buy-the-dip-statistics/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "buying the dip",
+      "buy the dip strategy",
+      "dollar cost averaging",
+      "should i buy the dip"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "What Does Buy the Dip Mean?",
+      "What Do the 2026 Market Figures Tell Us?",
+      "Why Is Hindsight a Problem in Dip-Buying Statistics?",
+      "A Transparent Example: Investing Now or Waiting",
+      "How Is Dollar-Cost Averaging Different?",
+      "Which Risks Matter Before Buying a Dip?",
+      "What Can History Tell Investors?",
+      "Common Mistakes When Trying to Buy the Dip",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "2026 figures: Janus Henderson and FRED",
+      "Long-run: Damodaran",
+      "Dollar-cost averaging: FINRA"
+    ],
+    "visuals": [
+      "Owner-supplied featured image"
+    ],
+    "internal_links": [
+      "/investing/crypto-vs-stocks/",
+      "/markets-stocks/stock-market-return-by-year/",
+      "/markets-stocks/stock-market-crash-2026-statistics/"
+    ],
+    "external_link_opportunities": [
+      "https://fred.stlouisfed.org/series/NASDAQCOM",
+      "https://www.finra.org/investors/insights/dollar-cost-averaging",
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "excluded_claims": [
+      "Investor.gov dollar-cost averaging and asset allocation pages (blocked; replaced with FINRA)",
+      "Slickcharts (blocked; replaced with Damodaran)"
+    ],
+    "drafting_cautions": [
+      "No buy, sell or hold recommendation",
+      "Calculations labeled",
+      "Dates and observation windows stated"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Dollar-cost averaging means investing equal portions at regular intervals regardless of market conditions.",
+      "source_url": "https://www.finra.org/investors/insights/dollar-cost-averaging",
+      "verified": true
+    },
+    {
+      "statement": "The S&P 500 total return was -36.55% in 2008 and +18.02% in 2020.",
+      "source_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html",
+      "verified": true
+    },
+    {
+      "statement": "The Nasdaq Composite closed at 24,315.00 on November 5, 2026 and 24,579.42 on November 6.",
+      "source_url": "https://fred.stlouisfed.org/series/NASDAQCOM",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-09",
+    "note": "Figures checked against Janus Henderson, FRED, Damodaran and FINRA on 2026-11-09; examples recomputed.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-09",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-09",
+    "summary": "Figures checked against Janus Henderson, FRED, Damodaran and FINRA on 2026-11-09; examples recomputed.",
+    "pending": "Owner sign-off."
+  }
+}
