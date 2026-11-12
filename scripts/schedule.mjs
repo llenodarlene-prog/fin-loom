@@ -1,7 +1,7 @@
 import { appendFile, readFile, readdir } from 'node:fs/promises';
 import path from 'node:path';
 import { readContent } from './lib/content.mjs';
-import { publicationState, publishDate } from './lib/schedule.mjs';
+import { publicationState, publishClock, publishDate, publishTime, wentLiveThisHour } from './lib/schedule.mjs';
 
 // Publishing scheduler.
 //   npm run schedule          lists every post with its planned slot and state on PUBLISH_DATE (default: today, UTC)
@@ -12,6 +12,7 @@ import { publicationState, publishDate } from './lib/schedule.mjs';
 const mode = process.argv[2] || 'list';
 if (!['list', 'due'].includes(mode)) { console.error('usage: node scripts/schedule.mjs [list|due]'); process.exit(2); }
 const today = publishDate();
+const clock = publishClock();
 const readJson = async file => JSON.parse(await readFile(file, 'utf8'));
 const plans = [...await readJson('data/launch-content-plan.json'), ...(await readJson('data/supplementary-content-plan.json').catch(() => ({ records: [] }))).records];
 const files = (await readdir('content/posts')).filter(file => file.endsWith('.md')).sort();
@@ -22,17 +23,17 @@ for (const name of files) {
   const plan = plans.find(item => `${item.type}:${item.content_number}` === metadata.tracker_id);
   const slot = String(plan?.scheduled_publish || '').trim();
   const published = String(metadata.published || '').trim();
-  const state = publicationState(metadata, today);
+  const state = publicationState(metadata, today, clock);
   if (state !== 'draft' && slot && published > today && published !== slot) problems.push(`${file}: published ${published} differs from its scheduled slot ${slot}`);
   if (state === 'draft' && slot && slot <= today) problems.push(`${file}: slot ${slot} has arrived but the post is still a draft (not approved)`);
-  rows.push({ id: metadata.tracker_id, slot: slot || '-', published: published || '-', state, slug: metadata.slug });
+  rows.push({ id: metadata.tracker_id, slot: slot || '-', published: published ? `${published}${publishTime(metadata) ? ' ' + publishTime(metadata) : ''}` : '-', state, slug: metadata.slug, due: wentLiveThisHour(metadata, today, clock) });
 }
 rows.sort((a, b) => a.slot.localeCompare(b.slot) || a.id.localeCompare(b.id));
-const goingLive = rows.filter(row => row.state === 'live' && row.published === today);
+const goingLive = rows.filter(row => row.due);
 
 if (mode === 'due') {
   const due = goingLive.length > 0;
-  console.log(due ? `${goingLive.length} post(s) go live on ${today}: ${goingLive.map(row => row.slug).join(', ')}` : `Nothing goes live on ${today}.`);
+  console.log(due ? `${goingLive.length} post(s) went live by ${today} ${clock} UTC: ${goingLive.map(row => row.slug).join(', ')}` : `Nothing went live in the hour before ${today} ${clock} UTC.`);
   for (const message of problems) console.log(`WARNING: ${message}`);
   if (process.env.GITHUB_OUTPUT) await appendFile(process.env.GITHUB_OUTPUT, `due=${due}\n`);
 } else {
