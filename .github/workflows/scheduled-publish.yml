@@ -1,9 +1,10 @@
 name: Scheduled publish
-# Once a day, check whether an approved post on main reaches its publication date. If one does, rebuild
+# Every hour, check whether an approved post on main reached its publication date and optional
+# publish_time (UTC). If one did, rebuild
 # and deploy production so it appears. The deploy waits for the production environment's approval.
 on:
   schedule:
-    - cron: '7 0 * * *'
+    - cron: '7 * * * *'
   workflow_dispatch:
 permissions:
   contents: read
