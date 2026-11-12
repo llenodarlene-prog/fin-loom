@@ -53,7 +53,7 @@ A VIX reading of 20 roughly means option prices imply annualized S&P 500 volatil
 
 ## How Did the VIX Change During the November 2026 Selloff?
 
-The table lists daily VIX closes from the end of October through November 6, 2026. All values from October 30 through November 5 come from the [VIX series on FRED](https://fred.stlouisfed.org/series/VIXCLS), which publishes Cboe's daily closes.
+The table lists daily VIX closes from the end of October through November 6, 2026. All values from October 30 through November 6 come from the [VIX series on FRED](https://fred.stlouisfed.org/series/VIXCLS), which publishes Cboe's daily closes.
 
 | Date | VIX daily close | Interpretation |
 |---|---|---|
@@ -64,7 +64,7 @@ The table lists daily VIX closes from the end of October through November 6, 202
 | November 5, 2026 | 28.18 | Sharp rise during the selloff |
 | November 6, 2026 | 25.64 | Lower than Thursday, above month-end |
 
-The November 6 close had not yet been posted to FRED at the time of writing. That figure comes from the YCharts historical table cited in the owner's research, and it should be checked against FRED once published.
+FRED's series also confirms the November 6 close of 25.64, so every value in the table is a Cboe daily close as published on FRED. Using one source for every row means the changes calculated below compare like with like.
 
 ### Calculating the Changes
 
@@ -192,7 +192,7 @@ It means S&P 500 option prices imply higher expected volatility over roughly the
 
 ### What Was the VIX at the November 5, 2026 Close?
 
-The VIX closed at 28.18 on November 5, 2026, according to FRED, up from 16.61 the day before. It closed at 25.64 on November 6.
+The VIX closed at 28.18 on November 5, 2026, according to FRED, up from 16.61 the day before. FRED shows a 25.64 close on November 6.
 
 ### Can You Buy the VIX Directly?
 
