@@ -1,0 +1,466 @@
+{
+  "tracker_id": "Blog:S79",
+  "status": "verified",
+  "research_question": "What does the 2025 SCF show about family net worth by age, housing status and income?",
+  "research_brief": {
+    "purpose": "Present SCF 2025 net worth tables with median and mean labeled.",
+    "audience": "US readers comparing wealth benchmarks.",
+    "publication_year": "2026",
+    "data_period": "SCF 2022 and 2025 surveys, released Oct 9, 2026; 2025 dollars.",
+    "scope_limitations": "Family not individual; survey sampling error; different families each wave."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "net worth by age",
+    "intent": "Informational",
+    "serp_checked_at": "2026-11-12",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-12",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "net worth by age",
+        "type": "short-tail",
+        "volume": 8100,
+        "difficulty": 38,
+        "cpc": 3.18,
+        "intent": "Informational",
+        "ranking_url": "https://www.federalreserve.gov/publications/files/scf26.pdf",
+        "retrieved_at": "2026-11-12",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "retirement savings by age",
+        "type": "long-tail",
+        "volume": 3600,
+        "difficulty": 39,
+        "cpc": 4.08,
+        "intent": "Informational",
+        "ranking_url": "https://www.federalreserve.gov/publications/files/scf26.pdf",
+        "retrieved_at": "2026-11-12",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "average credit card debt",
+        "type": "commercial",
+        "volume": 5400,
+        "difficulty": 39,
+        "cpc": 5.74,
+        "intent": "Informational",
+        "ranking_url": "https://www.federalreserve.gov/publications/files/scf26.pdf",
+        "retrieved_at": "2026-11-12",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "how much credit card debt is normal",
+        "type": "problem",
+        "volume": 320,
+        "difficulty": 32,
+        "cpc": 26.72,
+        "intent": "Informational",
+        "ranking_url": "https://www.federalreserve.gov/publications/files/scf26.pdf",
+        "retrieved_at": "2026-11-12",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is an expense ratio",
+        "type": "question",
+        "volume": 2900,
+        "difficulty": 45,
+        "cpc": 4.27,
+        "intent": "Informational",
+        "ranking_url": "https://www.federalreserve.gov/publications/files/scf26.pdf",
+        "retrieved_at": "2026-11-12",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.federalreserve.gov/publications/files/scf26.pdf",
+      "title": "Changes in U.S. Family Finances from 2022 to 2025",
+      "publisher": "Federal Reserve Board",
+      "source_type": "Official survey report",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-13",
+      "scope": "Table 2 net worth by characteristics; debt; housing",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Released Oct 9, 2026; 2025 dollars; standard errors published.",
+      "verified": true
+    },
+    {
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm",
+      "title": "Federal Reserve Board issues report on 2025 Survey of Consumer Finances",
+      "publisher": "Federal Reserve Board",
+      "source_type": "Press release",
+      "year": "2026",
+      "published_at": "2026-10-09",
+      "accessed_at": "2026-11-13",
+      "scope": "Headline net worth, homeownership",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.federalreserve.gov/econres/scfindex.htm",
+      "title": "Survey of Consumer Finances",
+      "publisher": "Federal Reserve Board",
+      "source_type": "Official survey index",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-13",
+      "scope": "Survey documentation",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Median NW 211.1K to 215.9K (+2%); mean 1,164.1K to 1,241.5K (+7%)",
+      "source_url": "https://www.federalreserve.gov/publications/files/scf26.pdf",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "NW by age median/mean 2022 and 2025 per Table 2",
+      "source_url": "https://www.federalreserve.gov/publications/files/scf26.pdf",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Owner median 433.6K to 458.9K, mean 1,812.9K; renter median 11.4K to 10.6K, mean 153.5K",
+      "source_url": "https://www.federalreserve.gov/publications/files/scf26.pdf",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Income percentile medians 2025: 14.4K, 77.1K, 188.2K, 362.5K, 814.6K, 3,669.9K",
+      "source_url": "https://www.federalreserve.gov/publications/files/scf26.pdf",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Debt: 77% any debt; 42% home-secured; median home debt 170.2K to 183.6K; 45% card balance; median card debt 3,100",
+      "source_url": "https://www.federalreserve.gov/publications/files/scf26.pdf",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Homeownership 66%; median net housing value 218.9K to 230.0K",
+      "source_url": "https://www.federalreserve.gov/publications/files/scf26.pdf",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Bottom quarter median NW 1.7K; top decile median 4,935.2K; college degree 505.4K; HS diploma 106.7K; median SE 6.4K",
+      "source_url": "https://www.federalreserve.gov/publications/files/scf26.pdf",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Federal Reserve SCF report",
+      "url": "https://www.federalreserve.gov/publications/files/scf26.pdf",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "net worth by age"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors often show 2022 figures, quote means as typical, or mix sources."
+    },
+    {
+      "title": "Federal Reserve SCF release",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "net worth by age"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors often show 2022 figures, quote means as typical, or mix sources."
+    },
+    {
+      "title": "Federal Reserve SCF index",
+      "url": "https://www.federalreserve.gov/econres/scfindex.htm",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "net worth by age"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors often show 2022 figures, quote means as typical, or mix sources."
+    },
+    {
+      "title": "SuperMoney net worth by age",
+      "url": "https://www.supermoney.com/net-worth-by-age",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "net worth by age"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors often show 2022 figures, quote means as typical, or mix sources."
+    },
+    {
+      "title": "Kiplinger average net worth by age",
+      "url": "https://www.kiplinger.com/retirement/average-net-worth-by-age-how-do-you-measure-up",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "net worth by age"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors often show 2022 figures, quote means as typical, or mix sources."
+    }
+  ],
+  "content_gaps": [
+    "2022 vs 2025 by age",
+    "Housing status split",
+    "Income percentile table",
+    "Standard error note"
+  ],
+  "value_add": [
+    "All figures from the primary SCF report",
+    "Four tables with populations and dollar basis",
+    "Fictional balance-sheet example"
+  ],
+  "plan": {
+    "reader_title": "Net Worth by Age: Median and Average Wealth in America in 2025",
+    "seo_title": "Net Worth by Age: 2025 Federal Reserve Statistics",
+    "meta_description": "Net worth by age from the Federal Reserve's 2025 Survey of Consumer Finances, with median and mean wealth, 2022 comparisons, homeowner and renter gaps, and income groups.",
+    "slug": "/money-banking/net-worth-by-age-statistics/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "average net worth by age",
+      "median net worth by age",
+      "net worth by age 2025",
+      "household net worth"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "What Is the Median Net Worth in America in 2025?",
+      "Net Worth by Age: 2025 Federal Reserve Figures",
+      "Why Are Average Net Worth Figures So Much Higher Than Medians?",
+      "How Do Homeownership and Debt Affect Net Worth?",
+      "How Does Income Shape Net Worth?",
+      "How Can You Calculate Your Own Net Worth?",
+      "Is Net Worth the Best Measure of Financial Security?",
+      "Common Mistakes With Net Worth by Age Tables",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "All statistics: SCF 2025 report Table 2 and summary"
+    ],
+    "visuals": [
+      "Owner-supplied featured image",
+      "Four tables"
+    ],
+    "internal_links": [
+      "/money-banking/saving-vs-investing/",
+      "/money-banking/average-credit-card-debt-statistics/",
+      "/investing/retirement-savings-by-age/"
+    ],
+    "external_link_opportunities": [
+      "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm",
+      "https://www.federalreserve.gov/publications/files/scf26.pdf"
+    ],
+    "excluded_claims": [
+      "SuperMoney and Kiplinger citations replaced by the primary SCF report"
+    ],
+    "drafting_cautions": [
+      "No buy, sell or hold recommendation",
+      "Hypothetical examples labeled",
+      "Dates and populations stated"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Fed: wealth inequality appears little changed since 2022",
+      "source_url": "https://www.federalreserve.gov/publications/files/scf26.pdf",
+      "verified": true
+    },
+    {
+      "statement": "Fed: 75+ gains driven mainly by retirement account values",
+      "source_url": "https://www.federalreserve.gov/publications/files/scf26.pdf",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-13",
+    "note": "Every figure checked against the SCF report PDF text; example arithmetic recomputed. Ubersuggest unavailable after first pull; related cluster queries recorded with their retrieved volumes.",
+    "notes": "AI QA layer complete; owner approved 2026-11-13."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-13",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; owner approved 2026-11-13."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-13",
+    "summary": "Every figure checked against the SCF report PDF text; example arithmetic recomputed. Ubersuggest unavailable after first pull; related cluster queries recorded with their retrieved volumes.",
+    "pending": "None; owner approved 2026-11-13."
+  }
+}

@@ -10,7 +10,7 @@ tracker_id: Blog:S9
 primary_keyword: saving vs investing
 secondary_keywords: 
 cluster: Money & Banking
-approved_internal_links: /investing/per-capita-gdp-explained/; /money-banking/apy-calculator/; /money-banking/apy-meaning/; /money-banking/apy-vs-interest-rate/; /money-banking/best-budgeting-apps/; /money-banking/best-hsa-accounts/; /money-banking/checking-vs-savings-account/; /money-banking/credit-union-vs-bank/; /money-banking/high-yield-savings-vs-money-market-account/; /money-banking/hsa-vs-fsa/; /money-banking/hsa-vs-hra/; /money-banking/identity-theft-statistics/; /money-banking/inflation-rate-by-year/; /money-banking/money-market-vs-cd/; /money-banking/savings-interest-calculator/; /money-banking/what-is-a-credit-score/
+approved_internal_links: /investing/per-capita-gdp-explained/; /money-banking/apy-calculator/; /money-banking/apy-meaning/; /money-banking/apy-vs-interest-rate/; /money-banking/average-credit-card-debt-statistics/; /money-banking/best-budgeting-apps/; /money-banking/best-hsa-accounts/; /money-banking/checking-vs-savings-account/; /money-banking/credit-card-delinquency-rate-statistics/; /money-banking/credit-union-vs-bank/; /money-banking/high-yield-savings-account-vs-cd/; /money-banking/high-yield-savings-vs-money-market-account/; /money-banking/hsa-vs-fsa/; /money-banking/hsa-vs-hra/; /money-banking/identity-theft-statistics/; /money-banking/inflation-rate-by-year/; /money-banking/money-market-account-vs-money-market-fund/; /money-banking/money-market-vs-cd/; /money-banking/net-worth-by-age-statistics/; /money-banking/savings-interest-calculator/; /money-banking/what-is-a-credit-score/
 research_record: content/research/blog-s9.json
 image: /assets/images/posts/saving-vs-investing/reviewing-financial-plan-1600.jpg
 image_alt: Two people reviewing printed financial charts at a desk with a tablet and coffee
@@ -361,6 +361,10 @@ Behavior is easier when decisions are automated. For instance, savings can be tr
 Automation reduces the temptation to wait for a “better time.” For long-term investing, waiting for certainty can keep money on the sidelines indefinitely. For saving, automation prevents near-term spending from consuming money intended for future goals.
 
 A budgeting app can automate the first step by showing what is left after bills each month. FinLoom's comparison of the [best budgeting apps](/money-banking/best-budgeting-apps/) explains which apps suit zero-based budgets, shared household views or simple spending limits.
+
+Where the cash sits is the next choice. FinLoom explains the difference between a [money market account vs money market fund](/money-banking/money-market-account-vs-money-market-fund/), and the [high yield savings account vs CD](/money-banking/high-yield-savings-account-vs-cd/) comparison weighs access against a fixed rate.
+
+Debt can undo automated saving. The latest [average credit card debt](/money-banking/average-credit-card-debt-statistics/) figures and [credit card delinquency rate statistics](/money-banking/credit-card-delinquency-rate-statistics/) show how card balances and late payments have moved, while [net worth by age](/money-banking/net-worth-by-age-statistics/) puts savings and debt together on one family balance sheet.
 
 
 ## Review the Plan When Life Changes

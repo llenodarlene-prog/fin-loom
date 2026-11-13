@@ -1,0 +1,482 @@
+{
+  "tracker_id": "Blog:S77",
+  "status": "verified",
+  "research_question": "What do the latest credit card delinquency measures show, and how do flow, stock and charge-off rates differ?",
+  "research_brief": {
+    "purpose": "Report NY Fed and Fed bank delinquency data with definitions.",
+    "audience": "US consumers and readers of credit headlines.",
+    "publication_year": "2026",
+    "data_period": "NY Fed Q3 2026 (Nov 10, 2026); FRED bank series Q2 2024 to Q2 2026; SHED 2025.",
+    "scope_limitations": "Series differ in population and definition; bank data lag one quarter."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "credit card delinquency rate",
+    "intent": "Informational",
+    "serp_checked_at": "2026-11-13",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-13",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "credit card debt",
+        "type": "short-tail",
+        "volume": 12100,
+        "difficulty": 25,
+        "cpc": 42,
+        "intent": "Informational",
+        "ranking_url": "https://www.newyorkfed.org/newsevents/news/research/2026/20261110",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "credit card delinquency rate",
+        "type": "long-tail",
+        "volume": 1000,
+        "difficulty": 40,
+        "cpc": 24.75,
+        "intent": "Informational",
+        "ranking_url": "https://www.newyorkfed.org/newsevents/news/research/2026/20261110",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "credit card debt relief",
+        "type": "commercial",
+        "volume": 5400,
+        "difficulty": 60,
+        "cpc": 65.57,
+        "intent": "Commercial",
+        "ranking_url": "https://www.newyorkfed.org/newsevents/news/research/2026/20261110",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "average credit card debt",
+        "type": "problem",
+        "volume": 5400,
+        "difficulty": 39,
+        "cpc": 5.74,
+        "intent": "Informational",
+        "ranking_url": "https://www.newyorkfed.org/newsevents/news/research/2026/20261110",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "how much credit card debt is normal",
+        "type": "question",
+        "volume": 320,
+        "difficulty": 32,
+        "cpc": 26.72,
+        "intent": "Informational",
+        "ranking_url": "https://www.newyorkfed.org/newsevents/news/research/2026/20261110",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.newyorkfed.org/newsevents/news/research/2026/20261110",
+      "title": "Household Debt and Credit Report, Q3 2026",
+      "publisher": "Federal Reserve Bank of New York",
+      "source_type": "Official statistics",
+      "year": "2026",
+      "published_at": "2026-11-10",
+      "accessed_at": "2026-11-13",
+      "scope": "Flow into serious delinquency by category; 5.0% delinquent share",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Annualized flows of balances; Equifax panel.",
+      "verified": true
+    },
+    {
+      "url": "https://fred.stlouisfed.org/series/DRCCLACBS",
+      "title": "Delinquency Rate on Credit Card Loans, All Commercial Banks",
+      "publisher": "Federal Reserve via FRED",
+      "source_type": "Official statistics",
+      "year": "2026",
+      "published_at": "2026-04-01",
+      "accessed_at": "2026-11-13",
+      "scope": "Quarterly bank card delinquency, SA",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://fred.stlouisfed.org/series/CORCCACBS",
+      "title": "Charge-Off Rate on Credit Card Loans, All Commercial Banks",
+      "publisher": "Federal Reserve via FRED",
+      "source_type": "Official statistics",
+      "year": "2026",
+      "published_at": "2026-04-01",
+      "accessed_at": "2026-11-13",
+      "scope": "Quarterly bank card charge-offs, SA",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-credit.htm",
+      "title": "Economic Well-Being of U.S. Households in 2025: Credit",
+      "publisher": "Federal Reserve Board",
+      "source_type": "Official survey report",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-13",
+      "scope": "Balances by well-being; credit applications; BNPL lateness",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://fred.stlouisfed.org/series/TERMCBCCINTNS",
+      "title": "Commercial Bank Interest Rate on Credit Card Plans, Accounts Assessed Interest",
+      "publisher": "Federal Reserve via FRED",
+      "source_type": "Official statistics",
+      "year": "2026",
+      "published_at": "2026-08-01",
+      "accessed_at": "2026-11-13",
+      "scope": "Card APR",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Flow into 90+ delinquency Q3 2025 vs Q3 2026: cards 7.05/6.87, auto 2.99/3.02, mortgage 1.28/1.60, HELOC 1.27/1.17, student 14.26/7.72, other 5.35/5.13, all 3.03/2.64",
+      "source_url": "https://www.newyorkfed.org/newsevents/news/research/2026/20261110",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "5.0% of household debt in some stage of delinquency end Q3 2026, up 0.3 pt",
+      "source_url": "https://www.newyorkfed.org/newsevents/news/research/2026/20261110",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Bank card delinquency Q2 2024-Q2 2026: 3.22, 3.20, 3.08, 3.05, 3.04, 2.99, 2.95, 2.91, 2.85",
+      "source_url": "https://fred.stlouisfed.org/series/DRCCLACBS",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Bank card charge-off Q2 2024-Q2 2026: 4.56, 4.69, 4.57, 4.44, 4.19, 4.18, 4.09, 3.82, 3.82",
+      "source_url": "https://fred.stlouisfed.org/series/CORCCACBS",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "33% applied for credit in 2025; one-third of applicants denied or approved for less; slightly over one-fourth of BNPL users late",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-credit.htm",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Card APR accounts assessed interest 22.36% Aug 2026",
+      "source_url": "https://fred.stlouisfed.org/series/TERMCBCCINTNS",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "NY Fed Q3 2026 household debt release",
+      "url": "https://www.newyorkfed.org/newsevents/news/research/2026/20261110",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "credit card delinquency rate"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors quote one delinquency number without saying whether it is a flow, a stock or a charge-off rate."
+    },
+    {
+      "title": "FRED card delinquency series",
+      "url": "https://fred.stlouisfed.org/series/DRCCLACBS",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "credit card delinquency rate"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors quote one delinquency number without saying whether it is a flow, a stock or a charge-off rate."
+    },
+    {
+      "title": "FRED card charge-off series",
+      "url": "https://fred.stlouisfed.org/series/CORCCACBS",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "credit card delinquency rate"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors quote one delinquency number without saying whether it is a flow, a stock or a charge-off rate."
+    },
+    {
+      "title": "Fed SHED 2025 credit chapter",
+      "url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-credit.htm",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "credit card delinquency rate"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors quote one delinquency number without saying whether it is a flow, a stock or a charge-off rate."
+    },
+    {
+      "title": "What Is the Average Credit Card Debt in the United States? (OneMain)",
+      "url": "https://www.onemainfinancial.com/personal-loans/resources/what-is-the-average-credit-card-debt-in-the-united-states",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "credit card delinquency rate"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors quote one delinquency number without saying whether it is a flow, a stock or a charge-off rate."
+    }
+  ],
+  "content_gaps": [
+    "Flow vs stock vs charge-off definitions",
+    "Two-year bank series table",
+    "Category comparison",
+    "Period mismatch warning"
+  ],
+  "value_add": [
+    "Every rate labeled with source, threshold and period",
+    "Nine-quarter bank table",
+    "Misreading checklist"
+  ],
+  "plan": {
+    "reader_title": "Credit Card Delinquency Rate Statistics: Where U.S. Borrowers Are Falling Behind",
+    "seo_title": "Credit Card Delinquency Rate Statistics for 2026",
+    "meta_description": "Credit card delinquency rate data for 2026 from the New York Fed's Q3 report and Federal Reserve bank series, with the difference between flow, stock and charge-off rates.",
+    "slug": "/money-banking/credit-card-delinquency-rate-statistics/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "credit card delinquency rates",
+      "credit card delinquencies",
+      "credit card charge-off rate",
+      "serious delinquency"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "What Is the Credit Card Delinquency Rate in 2026?",
+      "How Did Overall Delinquency Change?",
+      "What Counts as a Delinquent Payment?",
+      "What Do Federal Reserve Bank Data Show?",
+      "Did Repayment Conditions Improve in 2026?",
+      "Why Does Borrower Income Shape Delinquency?",
+      "How Has the Credit Card Delinquency Rate Moved Since 2024?",
+      "Do Rising Card Limits Change the Picture?",
+      "What Would Be a Misleading Reading?",
+      "How the Credit Card Delinquency Rate Fits a Household Plan",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Flow rates: NY Fed",
+      "Bank stock and charge-off: FRED",
+      "Borrower context: SHED"
+    ],
+    "visuals": [
+      "Owner-supplied featured image",
+      "Two tables"
+    ],
+    "internal_links": [
+      "/money-banking/saving-vs-investing/",
+      "/money-banking/average-credit-card-debt-statistics/",
+      "/money-banking/credit-card-payoff-calculator/"
+    ],
+    "external_link_opportunities": [
+      "https://www.newyorkfed.org/newsevents/news/research/2026/20261110",
+      "https://fred.stlouisfed.org/series/DRCCLACBS",
+      "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-credit.htm"
+    ],
+    "excluded_claims": [
+      "Bank series day-threshold not stated (not confirmed on FRED page)",
+      "No combined series charts"
+    ],
+    "drafting_cautions": [
+      "No buy, sell or hold recommendation",
+      "Hypothetical examples labeled",
+      "Dates and populations stated"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Early delinquency transitions improved slightly for credit cards in Q3 2026",
+      "source_url": "https://www.newyorkfed.org/newsevents/news/research/2026/20261110",
+      "verified": true
+    },
+    {
+      "statement": "Flow into serious delinquency = balances newly 90+ days late divided by balances less than 90 days late prior quarter, annualized",
+      "source_url": "https://www.newyorkfed.org/newsevents/news/research/2026/20261110",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-13",
+    "note": "NY Fed table checked against the fetched release; FRED series read directly 2026-11-13; SHED figures checked against fetched chapter. SERP competitor pull unavailable this session; competitors are the verified primary pages.",
+    "notes": "AI QA layer complete; owner approved 2026-11-13."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-13",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; owner approved 2026-11-13."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-13",
+    "summary": "NY Fed table checked against the fetched release; FRED series read directly 2026-11-13; SHED figures checked against fetched chapter. SERP competitor pull unavailable this session; competitors are the verified primary pages.",
+    "pending": "None; owner approved 2026-11-13."
+  }
+}
