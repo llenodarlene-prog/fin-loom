@@ -1,0 +1,214 @@
+{
+  "slug": "/crypto/faqs/",
+  "eyebrow": "Crypto FAQs",
+  "heading": "Crypto Questions, Answered",
+  "intro": [
+    "Straight answers on wallets, keys, custody, exchange risks, stablecoins and how blockchain transactions work. They draw on FINRA and FDIC guidance.",
+    "Read the short answer under each question. Open it for the detail, the risks, and what protections do and do not apply."
+  ],
+  "updated": "2026-11-13",
+  "reviewer": "Darlene Aberin",
+  "search_label": "Search crypto questions",
+  "tools_heading": "Related Reading",
+  "tools_icon": "coin",
+  "popular": [
+    "crypto-fdic",
+    "private-key",
+    "hot-cold",
+    "what-stablecoin"
+  ],
+  "topics": [
+    {
+      "id": "wallets-custody",
+      "name": "Wallets, Keys and Custody",
+      "icon": "wallet",
+      "intro": "How crypto is stored, what keys do, and the trade-offs between holding it yourself and using a provider.",
+      "questions": [
+        {
+          "id": "what-wallet",
+          "q": "What is a crypto wallet?",
+          "a": [
+            "FINRA describes a wallet as hardware, software or paper used to store, access and manage crypto assets. The assets themselves are recorded on the blockchain, not inside the wallet.",
+            "A wallet holds the keys that prove ownership and lets you receive, send and use your crypto."
+          ]
+        },
+        {
+          "id": "private-key",
+          "q": "What is a private key?",
+          "a": [
+            "A private key is a long secret code that controls the crypto credited to a blockchain address. FINRA compares it to a password and says you should never share it.",
+            "If a private key is lost, mishandled or stolen, FINRA warns the loss of the assets can be irreversible."
+          ]
+        },
+        {
+          "id": "public-key",
+          "q": "What is the difference between a public key and a private key?",
+          "a": [
+            "FINRA compares a public key to an email address: it identifies where to send crypto, and others can see it. The private key is what unlocks and authorizes transfers.",
+            "Sharing your public address to receive crypto is normal. Sharing your private key gives someone control of your assets."
+          ]
+        },
+        {
+          "id": "seed-phrase",
+          "q": "What is a seed phrase?",
+          "a": [
+            "FINRA describes a seed phrase as an emergency backup that can restore or recover a wallet, sometimes called a recovery key.",
+            "Anyone with your seed phrase can rebuild your wallet. FINRA advises against storing it in an internet-connected file, such as cloud storage."
+          ]
+        },
+        {
+          "id": "hot-cold",
+          "q": "What is the difference between hot and cold wallets?",
+          "a": [
+            "Hot wallets are connected to the internet through software on a phone, computer or online service. Cold wallets, such as hardware devices, generally are not.",
+            "FINRA notes hot wallets are convenient but exposed to hackers, and that hot wallets linked to crypto platforms have been targets of cyberattacks. Cold storage tends to suit long-term holdings."
+          ]
+        },
+        {
+          "id": "self-custody",
+          "q": "Should I hold crypto myself or with a custodian?",
+          "a": [
+            "Self-custody means you hold the keys and carry the full risk of losing them. A custodian, such as an exchange, holds keys for you, which shifts the risk to that company's security and solvency.",
+            "Neither choice removes risk. The guide to [crypto custody](/crypto/crypto-custody/) compares self-custody, exchanges and institutional custodians."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exchange-risk",
+      "name": "Exchanges and Protections",
+      "icon": "alert-triangle",
+      "intro": "What protections do and do not cover crypto held on platforms, and the scams to watch for.",
+      "questions": [
+        {
+          "id": "crypto-fdic",
+          "q": "Is crypto FDIC insured?",
+          "a": [
+            "No. The FDIC says deposit insurance does not apply to crypto assets, and it does not insure assets issued by nonbank entities such as crypto companies.",
+            "FDIC insurance also does not protect against the failure of crypto custodians, exchanges, brokers or wallet providers."
+          ]
+        },
+        {
+          "id": "crypto-sipc",
+          "q": "Is crypto protected by SIPC?",
+          "a": [
+            "Generally not. FINRA explains that crypto assets that are not securities under the Securities Investor Protection Act are not protected by SIPC.",
+            "Even some crypto assets treated as securities under other laws may fall outside SIPC coverage. Ask the platform exactly which protections apply."
+          ]
+        },
+        {
+          "id": "what-exchange",
+          "q": "Are crypto exchanges the same as stock exchanges?",
+          "a": [
+            "No. FINRA notes that crypto platforms may call themselves exchanges but do not meet the regulatory standards for national securities exchanges.",
+            "Many platforms trade, hold and record ownership of crypto in one place, which concentrates risk if the platform fails or is hacked."
+          ]
+        },
+        {
+          "id": "crypto-volatility",
+          "q": "How risky is investing in crypto?",
+          "a": [
+            "FINRA says crypto assets have been more volatile than traditional investments, and the risk of losing all of your investment is significant. They can also be less liquid than stocks or bonds.",
+            "FINRA's guidance is simple: never invest more than you can afford to lose. The comparison of [crypto vs stocks](/investing/crypto-vs-stocks/) shows how drawdowns differ."
+          ]
+        },
+        {
+          "id": "crypto-scams",
+          "q": "Can I get crypto back if I am scammed?",
+          "a": [
+            "Usually not. FINRA warns that once crypto is sent to a scammer, it is generally gone for good, and recovery of stolen crypto is rare.",
+            "FINRA describes scams in which fraudsters pose as tech support or lure people to fake service providers. Never share keys or seed phrases with anyone who contacts you."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-it-works",
+      "name": "How Crypto Works",
+      "icon": "coin",
+      "intro": "The basic terms behind blockchains, transactions, stablecoins and tokens.",
+      "questions": [
+        {
+          "id": "what-blockchain",
+          "q": "What is a blockchain?",
+          "a": [
+            "FINRA describes a blockchain as a distributed ledger maintained by many computers in a network. It uses cryptography to process and verify transactions.",
+            "New data is grouped into blocks, and each block is added to the previous one, forming a chain."
+          ]
+        },
+        {
+          "id": "what-stablecoin",
+          "q": "What is a stablecoin?",
+          "a": [
+            "A stablecoin is a crypto asset claimed to hold a value pegged to a currency or commodity, such as the U.S. dollar.",
+            "FINRA cautions that those claims have been shown to be false in many cases. A peg is only as reliable as the reserves and the issuer behind it."
+          ]
+        },
+        {
+          "id": "gas-fees",
+          "q": "What are gas fees?",
+          "a": [
+            "FINRA describes transaction fees as amounts charged to process a blockchain transaction, such as the gas fees paid to Ethereum validators.",
+            "These fees are generally paid in the network's own crypto asset and can change with network demand."
+          ]
+        },
+        {
+          "id": "smart-contract",
+          "q": "What is a smart contract?",
+          "a": [
+            "FINRA defines a smart contract as a self-executing computer program with the terms of an agreement written into code on a blockchain.",
+            "Smart contracts power many DeFi services. Errors in the code can be exploited, so a contract is only as safe as its programming."
+          ]
+        },
+        {
+          "id": "airdrop",
+          "q": "What is a crypto airdrop?",
+          "a": [
+            "An airdrop is a distribution of free tokens to wallet addresses, often to promote a project. Some are legitimate; others are used to trick people into connecting wallets to malicious sites.",
+            "The guide to [crypto airdrop risk](/crypto/crypto-airdrop-risk/) explains how to evaluate a token before claiming it."
+          ]
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "title": "Crypto Custody Explained",
+      "url": "/crypto/crypto-custody/",
+      "icon": "wallet"
+    },
+    {
+      "title": "Crypto Airdrop Risk",
+      "url": "/crypto/crypto-airdrop-risk/",
+      "icon": "alert-triangle"
+    },
+    {
+      "title": "Crypto Analytics Tools",
+      "url": "/crypto/crypto-analytics-tools/",
+      "icon": "chart-bar"
+    },
+    {
+      "title": "Crypto vs Stocks",
+      "url": "/investing/crypto-vs-stocks/",
+      "icon": "scale"
+    }
+  ],
+  "sources": [
+    [
+      "FINRA: Storing Crypto Assets",
+      "https://www.finra.org/investors/insights/cryptocurrency-storage"
+    ],
+    [
+      "FINRA: Crypto Assets Key Terms",
+      "https://www.finra.org/investors/investing/investment-products/crypto-assets/key-terms"
+    ],
+    [
+      "FINRA: Crypto Assets Risks",
+      "https://www.finra.org/investors/investing/investment-products/crypto-assets/risks"
+    ],
+    [
+      "FDIC: What the Public Needs to Know About FDIC Deposit Insurance and Crypto Companies",
+      "https://www.fdic.gov/news/fact-sheets/crypto-fact-sheet-7-28-22.html"
+    ]
+  ]
+}
