@@ -5,7 +5,7 @@ description: Dollar cost averaging explained with Vanguard's 1976 to 2022 lump-s
 slug: /investing/dollar-cost-averaging-statistics/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S72
 primary_keyword: dollar cost averaging
 secondary_keywords: dollar-cost averaging; dca investing; lump sum vs dollar cost averaging; dollar cost averaging statistics

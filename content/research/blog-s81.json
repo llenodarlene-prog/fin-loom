@@ -387,18 +387,18 @@
     "reviewer": "Darlene Aberin",
     "reviewed_at": "2026-11-13",
     "note": "IRS limits re-fetched and checked 2026-11-13; Vanguard figures checked against fetched page; growth arithmetic recomputed (59,518.72; 119,037.43).",
-    "notes": "AI QA layer complete; awaiting owner sign-off."
+    "notes": "AI QA layer complete; owner approved 2026-11-13."
   },
   "qa": {
     "completed": true,
     "reviewer": "Darlene Aberin",
     "reviewed_at": "2026-11-13",
     "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
-    "notes": "AI QA layer complete; awaiting owner sign-off."
+    "notes": "AI QA layer complete; owner approved 2026-11-13."
   },
   "verification_log": {
     "checked_on": "2026-11-13",
     "summary": "IRS limits re-fetched and checked 2026-11-13; Vanguard figures checked against fetched page; growth arithmetic recomputed (59,518.72; 119,037.43).",
-    "pending": "Owner sign-off."
+    "pending": "None; owner approved 2026-11-13."
   }
 }

@@ -5,7 +5,7 @@ description: 401k match explained with 2026 IRS contribution limits, Vanguard sm
 slug: /investing/401k-match-statistics/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S81
 primary_keyword: 401k match
 secondary_keywords: 401(k) match; employer 401k match; average 401k match; 401k matching contributions

@@ -5,7 +5,7 @@ description: Expense ratio statistics from ICI's 2025 fund fee data, why average
 slug: /investing/expense-ratio-statistics/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S73
 primary_keyword: expense ratio
 secondary_keywords: expense ratios; average expense ratio; etf expense ratio; mutual fund expense ratio

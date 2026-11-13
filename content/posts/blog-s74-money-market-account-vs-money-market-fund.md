@@ -5,7 +5,7 @@ description: Money market account vs money market fund compared with FDIC nation
 slug: /money-banking/money-market-account-vs-money-market-fund/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S74
 primary_keyword: money market account vs money market fund
 secondary_keywords: money market deposit account; money market mutual fund; is a money market fund fdic insured; money market account vs fund

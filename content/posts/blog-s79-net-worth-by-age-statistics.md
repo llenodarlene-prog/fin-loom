@@ -5,7 +5,7 @@ description: Net worth by age from the Federal Reserve's 2025 Survey of Consumer
 slug: /money-banking/net-worth-by-age-statistics/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S79
 primary_keyword: net worth by age
 secondary_keywords: average net worth by age; median net worth by age; net worth by age 2025; household net worth

@@ -433,18 +433,18 @@
     "reviewer": "Darlene Aberin",
     "reviewed_at": "2026-11-13",
     "note": "FDIC rates and FRED observations read directly on 2026-11-13; ICI figure from the verified 2025 release; example arithmetic recomputed.",
-    "notes": "AI QA layer complete; awaiting owner sign-off."
+    "notes": "AI QA layer complete; owner approved 2026-11-13."
   },
   "qa": {
     "completed": true,
     "reviewer": "Darlene Aberin",
     "reviewed_at": "2026-11-13",
     "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
-    "notes": "AI QA layer complete; awaiting owner sign-off."
+    "notes": "AI QA layer complete; owner approved 2026-11-13."
   },
   "verification_log": {
     "checked_on": "2026-11-13",
     "summary": "FDIC rates and FRED observations read directly on 2026-11-13; ICI figure from the verified 2025 release; example arithmetic recomputed.",
-    "pending": "Owner sign-off."
+    "pending": "None; owner approved 2026-11-13."
   }
 }

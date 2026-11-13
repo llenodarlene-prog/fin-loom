@@ -5,7 +5,7 @@ description: Average credit card debt in 2026 from the New York Fed's Q3 report 
 slug: /money-banking/average-credit-card-debt-statistics/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S76
 primary_keyword: average credit card debt
 secondary_keywords: credit card debt statistics; average credit card balance; total credit card debt; credit card debt in america

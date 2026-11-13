@@ -5,7 +5,7 @@ description: Retirement savings by age from the Federal Reserve's 2025 Survey of
 slug: /investing/retirement-savings-by-age/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S78
 primary_keyword: retirement savings by age
 secondary_keywords: average retirement savings by age; retirement savings by age 2025; median retirement savings; 401k balance by age

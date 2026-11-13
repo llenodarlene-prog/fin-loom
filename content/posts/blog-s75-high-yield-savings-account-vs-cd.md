@@ -5,7 +5,7 @@ description: High yield savings account vs CD compared with FDIC national rates 
 slug: /money-banking/high-yield-savings-account-vs-cd/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S75
 primary_keyword: high yield savings account vs cd
 secondary_keywords: cd vs high yield savings; cd or high yield savings; savings account vs cd; cd early withdrawal penalty
