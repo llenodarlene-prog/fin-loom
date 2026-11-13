@@ -1,0 +1,393 @@
+{
+  "tracker_id": "Blog:S75",
+  "status": "verified",
+  "research_question": "How do high-yield savings accounts and CDs compare on rates, access, penalties and insurance in 2026?",
+  "research_brief": {
+    "purpose": "Compare the two with dated FDIC and Treasury data and labeled examples.",
+    "audience": "US savers choosing where to hold cash.",
+    "publication_year": "2026",
+    "data_period": "FDIC national rates published Oct 19, 2026 (Sept 30 data); DGS1 Sept 30 and Nov 10, 2026.",
+    "scope_limitations": "National averages; examples hypothetical; no live offers."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "high yield savings account vs cd",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-11-13",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-13",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "cd rates",
+        "type": "short-tail",
+        "volume": 165000,
+        "difficulty": 52,
+        "cpc": 6.72,
+        "intent": "Informational",
+        "ranking_url": "https://www.fidelity.com/learning-center/smart-money/cd-vs-high-yield-savings",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "high yield savings account vs cd",
+        "type": "long-tail",
+        "volume": 2400,
+        "difficulty": 29,
+        "cpc": 6.79,
+        "intent": "Commercial",
+        "ranking_url": "https://www.fidelity.com/learning-center/smart-money/cd-vs-high-yield-savings",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "cd vs high yield savings",
+        "type": "commercial",
+        "volume": 4400,
+        "difficulty": 28,
+        "cpc": 5.74,
+        "intent": "Commercial",
+        "ranking_url": "https://www.fidelity.com/learning-center/smart-money/cd-vs-high-yield-savings",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "cd early withdrawal penalty",
+        "type": "problem",
+        "volume": 1600,
+        "difficulty": 37,
+        "cpc": 2.92,
+        "intent": "Informational",
+        "ranking_url": "https://www.fidelity.com/learning-center/smart-money/cd-vs-high-yield-savings",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "is a cd better than a high yield savings account",
+        "type": "question",
+        "volume": 140,
+        "difficulty": 14,
+        "cpc": 4.45,
+        "intent": "Informational",
+        "ranking_url": "https://www.fidelity.com/learning-center/smart-money/cd-vs-high-yield-savings",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.fdic.gov/sites/default/files/2024-05/deposit-insurance-at-a-glance-english.pdf",
+      "title": "Deposit Insurance at a Glance",
+      "publisher": "FDIC",
+      "source_type": "Federal agency guide",
+      "year": "2024",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-13",
+      "scope": "Insured products; $250,000 limit",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "May 2024 file.",
+      "verified": true
+    },
+    {
+      "url": "https://www.fdic.gov/resources/bankers/national-rates/",
+      "title": "National Rates and Rate Caps, October 2026",
+      "publisher": "FDIC",
+      "source_type": "Federal agency data",
+      "year": "2026",
+      "published_at": "2026-10-19",
+      "accessed_at": "2026-11-13",
+      "scope": "National deposit rates by product and term",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Deposit-weighted averages; data as of Sept 30, 2026.",
+      "verified": true
+    },
+    {
+      "url": "https://fred.stlouisfed.org/series/DGS1",
+      "title": "1-Year Treasury Constant Maturity Rate (DGS1)",
+      "publisher": "Board of Governors via FRED",
+      "source_type": "Official statistics",
+      "year": "2026",
+      "published_at": "2026-11-10",
+      "accessed_at": "2026-11-13",
+      "scope": "Daily 1-year Treasury yield",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "FDIC national: savings 0.38, MMDA 0.63, 3m 1.14, 6m 1.39, 12m 1.76, 24m 1.55, 36m 1.39, 60m 1.41",
+      "source_url": "https://www.fdic.gov/resources/bankers/national-rates/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "1-year Treasury 4.54% Sept 30, 2026; 4.56% Nov 10, 2026",
+      "source_url": "https://fred.stlouisfed.org/series/DGS1",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "CD vs. high-yield savings accounts (Fidelity)",
+      "url": "https://www.fidelity.com/learning-center/smart-money/cd-vs-high-yield-savings",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "high yield savings account vs cd"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors rarely show dated national rates, the inverted CD curve, or how a penalty can erase a rate edge."
+    },
+    {
+      "title": "High yield savings account or CD? (Reddit r/MiddleClassFinance)",
+      "url": "https://www.reddit.com/r/MiddleClassFinance/comments/1ad7ksj/high_yield_savings_account_or_cd/",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "high yield savings account vs cd"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors rarely show dated national rates, the inverted CD curve, or how a penalty can erase a rate edge."
+    },
+    {
+      "title": "Savings account vs CD (Bank of America Better Money Habits)",
+      "url": "https://bettermoneyhabits.bankofamerica.com/en/saving-budgeting/money-market-vs-cd-vs-savings",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "high yield savings account vs cd"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors rarely show dated national rates, the inverted CD curve, or how a penalty can erase a rate edge."
+    },
+    {
+      "title": "FDIC National Rates",
+      "url": "https://www.fdic.gov/resources/bankers/national-rates/",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "high yield savings account vs cd"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors rarely show dated national rates, the inverted CD curve, or how a penalty can erase a rate edge."
+    },
+    {
+      "title": "FDIC Deposit Insurance at a Glance",
+      "url": "https://www.fdic.gov/sites/default/files/2024-05/deposit-insurance-at-a-glance-english.pdf",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "high yield savings account vs cd"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors rarely show dated national rates, the inverted CD curve, or how a penalty can erase a rate edge."
+    }
+  ],
+  "content_gaps": [
+    "Dated national rate table",
+    "Treasury benchmark",
+    "Penalty net-out example",
+    "Inverted CD term structure"
+  ],
+  "value_add": [
+    "FDIC rates matched to same-date Treasury yield",
+    "Labeled rate-drop and penalty arithmetic",
+    "Decision questions"
+  ],
+  "plan": {
+    "reader_title": "High Yield Savings Account vs CD: Rates, Access and Penalties in 2026",
+    "seo_title": "High Yield Savings Account vs CD: 2026 Rate Data",
+    "meta_description": "High yield savings account vs CD compared with FDIC national rates from October 2026, Treasury yields, labeled rate-drop and penalty examples, and access trade-offs.",
+    "slug": "/money-banking/high-yield-savings-account-vs-cd/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "cd vs high yield savings",
+      "cd or high yield savings",
+      "savings account vs cd",
+      "cd early withdrawal penalty"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "How Do the Two Accounts Differ?",
+      "What Do the Latest Rate Figures Show?",
+      "How Do Treasury Yields Compare?",
+      "What Happens if Rates Fall?",
+      "How Much Can an Early Withdrawal Penalty Cost?",
+      "How Should Savers Choose for an Emergency Fund?",
+      "How Interest Is Taxed",
+      "How These Fit a Wider Savings Plan",
+      "Common Mistakes in the High Yield Savings Account vs CD Decision",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Rates: FDIC national rates",
+      "Benchmark: FRED DGS1",
+      "Insurance: FDIC guide",
+      "Examples: hypothetical arithmetic"
+    ],
+    "visuals": [
+      "Owner-supplied featured image",
+      "Three tables"
+    ],
+    "internal_links": [
+      "/money-banking/saving-vs-investing/",
+      "/money-banking/money-market-account-vs-money-market-fund/",
+      "/money-banking/money-market-vs-cd/",
+      "/money-banking/cd-interest-calculator/"
+    ],
+    "external_link_opportunities": [
+      "https://www.fdic.gov/sites/default/files/2024-05/deposit-insurance-at-a-glance-english.pdf",
+      "https://www.fdic.gov/resources/bankers/national-rates/",
+      "https://fred.stlouisfed.org/series/DGS1"
+    ],
+    "excluded_claims": [
+      "No live bank offers named",
+      "Owner savings calculator link replaced with CD interest calculator from approved set"
+    ],
+    "drafting_cautions": [
+      "No buy, sell or hold recommendation",
+      "Hypothetical examples labeled",
+      "Dates and populations stated"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "FDIC lists savings accounts and CDs as insured deposit products",
+      "source_url": "https://www.fdic.gov/sites/default/files/2024-05/deposit-insurance-at-a-glance-english.pdf",
+      "verified": true
+    },
+    {
+      "statement": "$250,000 per depositor per insured bank per ownership category",
+      "source_url": "https://www.fdic.gov/sites/default/files/2024-05/deposit-insurance-at-a-glance-english.pdf",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-13",
+    "note": "FDIC rates and FRED DGS1 read directly on 2026-11-13; arithmetic recomputed (10,349.88; $198 six-month interest; $100 penalty).",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-13",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-13",
+    "summary": "FDIC rates and FRED DGS1 read directly on 2026-11-13; arithmetic recomputed (10,349.88; $198 six-month interest; $100 penalty).",
+    "pending": "Owner sign-off."
+  }
+}

@@ -1314,6 +1314,24 @@
       "scheduled_publish": "2026-11-21",
       "min_words": 2500,
       "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S75",
+      "working_title": "High Yield Savings Account vs CD: Rates, Access and Penalties in 2026",
+      "primary_keyword": "high yield savings account vs cd",
+      "secondary_keywords": "cd vs high yield savings; cd or high yield savings; savings account vs cd; cd early withdrawal penalty",
+      "cluster": "Money & Banking",
+      "intent": "Commercial",
+      "status": "Scheduled",
+      "url_slug": "/money-banking/high-yield-savings-account-vs-cd/",
+      "seo_title": "High Yield Savings Account vs CD: 2026 Rate Data",
+      "meta_description": "High yield savings account vs CD compared with FDIC national rates from October 2026, Treasury yields, labeled rate-drop and penalty examples, and access trade-offs.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-21",
+      "min_words": 2500,
+      "no_word_ceiling": true
     }
   ],
   "links": [
@@ -2303,6 +2321,20 @@
       "approved_outbound_targets": [
         "/money-banking/high-yield-savings-account-vs-cd/",
         "/money-banking/high-yield-savings-vs-money-market-account/",
+        "/money-banking/saving-vs-investing/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/money-banking/saving-vs-investing/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S75",
+      "url_slug": "/money-banking/high-yield-savings-account-vs-cd/",
+      "primary_silo_hub": "/money-banking/",
+      "approved_outbound_targets": [
+        "/money-banking/cd-interest-calculator/",
+        "/money-banking/money-market-account-vs-money-market-fund/",
+        "/money-banking/money-market-vs-cd/",
         "/money-banking/saving-vs-investing/"
       ],
       "silo_role": "Supporting",
