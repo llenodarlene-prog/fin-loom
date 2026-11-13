@@ -43,3 +43,21 @@ test('net worth: totals, equity and SCF benchmark', () => {
   near(neg.net, -40000); assert.equal(neg.debtRatio, null);
   assert.match(e.outputs({}, neg).big, /^−\$40,000\.00$/);
 });
+
+test('debt snowball: order, rollover and comparison with avalanche', () => {
+  const e = tools['debt-snowball'];
+  const debts = [{ balance: 1500, apr: 9.9, minimum: 50 }, { balance: 6000, apr: 24.9, minimum: 180 }, { balance: 9000, apr: 7.5, minimum: 200 }, { balance: 0, apr: 0, minimum: 0 }];
+  const s = e.plan({ debts, budget: 650, strategy: 'snowball' });
+  assert.ok(s.snowball.done && s.avalanche.done);
+  assert.deepEqual(s.snowball.debts.map(d => d.n), [1, 2, 3]);
+  assert.deepEqual(s.avalanche.debts.map(d => d.n), [2, 1, 3]);
+  assert.ok(s.avalanche.interest < s.snowball.interest);
+  near(s.minimums, 430); near(s.extra, 220);
+  // Zero-rate single debt: exact months.
+  const flat = e.run({ debts: [{ balance: 1000, apr: 0, minimum: 100 }], budget: 250 }, 'snowball');
+  assert.equal(flat.months, 4); near(flat.interest, 0);
+  // Budget that cannot cover interest never pays off.
+  const stuck = e.run({ debts: [{ balance: 10000, apr: 36, minimum: 50 }], budget: 50 }, 'snowball');
+  assert.ok(stuck.stuck && !stuck.done);
+  assert.match(e.check({ debts: [{ balance: 500, apr: 10, minimum: 50 }], budget: 40 }).budget, /at least \$50\.00/);
+});

@@ -70,6 +70,12 @@
           "url": "/money-banking/net-worth-calculator/",
           "icon": "scale",
           "text": "Add up assets and debts by category and compare the result with 2025 Federal Reserve figures by age."
+        },
+        {
+          "title": "Debt Snowball Calculator",
+          "url": "/money-banking/debt-snowball-calculator/",
+          "icon": "trending-down",
+          "text": "Plan payoff for up to five debts and compare the snowball and avalanche methods on time and interest."
         }
       ]
     },

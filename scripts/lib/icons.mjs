@@ -19,7 +19,7 @@ export const toolIcons = {
   'investment-growth': 'chart-line', 'dividend-return': 'coins', withdrawal: 'wallet', 'capital-gains': 'receipt-tax',
   'stock-average': 'chart-candle', 'stock-profit': 'report-money', 'credit-card-payoff': 'credit-card',
   'mortgage-payoff': 'home-dollar', 'withdrawal-tax': 'building-bank', 'self-employment-tax': 'briefcase', 'tax-1099': 'file-invoice',
-  dca: 'calendar-dollar', 'expense-ratio': 'receipt', '401k-match': 'users', 'roth-traditional': 'scale', 'cd-interest': 'hourglass', 'emergency-fund': 'pig-money', 'credit-utilization': 'chart-donut-3', 'net-worth': 'scale'
+  dca: 'calendar-dollar', 'expense-ratio': 'receipt', '401k-match': 'users', 'roth-traditional': 'scale', 'cd-interest': 'hourglass', 'emergency-fund': 'pig-money', 'credit-utilization': 'chart-donut-3', 'net-worth': 'scale', 'debt-snowball': 'trending-down'
 };
 
 // Result tiles pick an icon from their label.
