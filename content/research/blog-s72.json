@@ -1,0 +1,457 @@
+{
+  "tracker_id": "Blog:S72",
+  "status": "verified",
+  "research_question": "What does the evidence show about dollar cost averaging versus investing a lump sum, and when does each apply?",
+  "research_brief": {
+    "purpose": "Explain dollar cost averaging research with stated populations and a labeled example.",
+    "audience": "US retail investors deciding how to invest new money.",
+    "publication_year": "2026",
+    "data_period": "Vanguard historical tests 1976-2022; study published February 2023.",
+    "scope_limitations": "Historical and simulated results; not forecasts; one-year wealth comparison."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "dollar cost averaging",
+    "intent": "Informational",
+    "serp_checked_at": "2026-11-13",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-13",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "dollar cost averaging",
+        "type": "short-tail",
+        "volume": 22200,
+        "difficulty": 11,
+        "cpc": 0.52,
+        "intent": "Informational",
+        "ranking_url": "https://www.schwab.com/learn/story/what-is-dollar-cost-averaging",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "lump sum investment vs dollar cost averaging",
+        "type": "long-tail",
+        "volume": 210,
+        "difficulty": 24,
+        "cpc": 1.72,
+        "intent": "Informational",
+        "ranking_url": "https://www.schwab.com/learn/story/what-is-dollar-cost-averaging",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "dollar cost averaging calculator",
+        "type": "commercial",
+        "volume": 880,
+        "difficulty": 31,
+        "cpc": 3.51,
+        "intent": "Commercial",
+        "ranking_url": "https://www.schwab.com/learn/story/what-is-dollar-cost-averaging",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "dollar cost averaging vs lump sum",
+        "type": "problem",
+        "volume": 480,
+        "difficulty": 33,
+        "cpc": 2.66,
+        "intent": "Informational",
+        "ranking_url": "https://www.schwab.com/learn/story/what-is-dollar-cost-averaging",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is dollar cost averaging",
+        "type": "question",
+        "volume": 4400,
+        "difficulty": 10,
+        "cpc": 1.77,
+        "intent": "Informational",
+        "ranking_url": "https://www.schwab.com/learn/story/what-is-dollar-cost-averaging",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://corporate.vanguard.com/content/dam/corp/research/pdf/cost_averaging_invest_now_or_temporarily_hold_your_cash.pdf",
+      "title": "Cost averaging: Invest now or temporarily hold your cash?",
+      "publisher": "Vanguard",
+      "source_type": "Asset manager research paper",
+      "year": "2023",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-12",
+      "scope": "Lump sum vs three-month cost averaging, 1976-2022",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Published February 2023 (month only). Vanguard is a fund provider; one-year horizon; global and US indexes.",
+      "verified": true
+    },
+    {
+      "url": "https://www.finra.org/investors/insights/dollar-cost-averaging",
+      "title": "Dollar-Cost Averaging",
+      "publisher": "FINRA",
+      "source_type": "Regulator investor education",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-12",
+      "scope": "Definition of dollar-cost averaging",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html",
+      "title": "Historical Returns on Stocks, Bonds and Bills",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "source_type": "Academic dataset",
+      "year": "2026",
+      "published_at": "2026-01-05",
+      "accessed_at": "2026-11-12",
+      "scope": "S&P 500 annual returns 1928-2025",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "S&P 500 compounded about 10.0% a year 1928-2025 incl. dividends",
+      "source_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Lump sum beat cost averaging roughly two-thirds of the time, 1976-2022",
+      "source_url": "https://corporate.vanguard.com/content/dam/corp/research/pdf/cost_averaging_invest_now_or_temporarily_hold_your_cash.pdf",
+      "data_year": "2022",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Lump sum outperformed 68%; CA beat cash 69% (global index, one-year wealth)",
+      "source_url": "https://corporate.vanguard.com/content/dam/corp/research/pdf/cost_averaging_invest_now_or_temporarily_hold_your_cash.pdf",
+      "data_year": "2022",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "US stocks beat 3-month T-bills 76%, bonds 68% of the time, 1976-2022",
+      "source_url": "https://corporate.vanguard.com/content/dam/corp/research/pdf/cost_averaging_invest_now_or_temporarily_hold_your_cash.pdf",
+      "data_year": "2022",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "60/40: CA average $107,453 vs LS $109,360 (1.8% more); median gap 2.2% all-equity, 1.2% 40/60",
+      "source_url": "https://corporate.vanguard.com/content/dam/corp/research/pdf/cost_averaging_invest_now_or_temporarily_hold_your_cash.pdf",
+      "data_year": "2022",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "With T-bill cash interest LS beat 3-month CA 65% of the time, all-equity",
+      "source_url": "https://corporate.vanguard.com/content/dam/corp/research/pdf/cost_averaging_invest_now_or_temporarily_hold_your_cash.pdf",
+      "data_year": "2022",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "What Is Dollar-Cost Averaging? (Schwab)",
+      "url": "https://www.schwab.com/learn/story/what-is-dollar-cost-averaging",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "dollar cost averaging"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors rarely separate payday investing from staggering a lump sum or state the cash rate assumed."
+    },
+    {
+      "title": "Pros and cons of dollar-cost averaging (Fidelity)",
+      "url": "https://www.fidelity.com/learning-center/trading-investing/dollar-cost-averaging",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "dollar cost averaging"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors rarely separate payday investing from staggering a lump sum or state the cash rate assumed."
+    },
+    {
+      "title": "Dollar Cost Averaging (Investor.gov)",
+      "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/dollar-cost-averaging",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "dollar cost averaging"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors rarely separate payday investing from staggering a lump sum or state the cash rate assumed."
+    },
+    {
+      "title": "Dollar-Cost Averaging (FINRA)",
+      "url": "https://www.finra.org/investors/insights/dollar-cost-averaging",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "dollar cost averaging"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors rarely separate payday investing from staggering a lump sum or state the cash rate assumed."
+    },
+    {
+      "title": "Cost averaging research (Vanguard)",
+      "url": "https://corporate.vanguard.com/content/dam/corp/research/pdf/cost_averaging_invest_now_or_temporarily_hold_your_cash.pdf",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "dollar cost averaging"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors rarely separate payday investing from staggering a lump sum or state the cash rate assumed."
+    }
+  ],
+  "content_gaps": [
+    "Lump sum vs payday distinction",
+    "Size of the gap in dollars",
+    "Cash interest effect",
+    "Fair backtest checklist"
+  ],
+  "value_add": [
+    "Every Vanguard figure tied to its period and comparison",
+    "Labeled share-purchase example with downside case",
+    "Backtest checklist"
+  ],
+  "plan": {
+    "reader_title": "Dollar Cost Averaging Statistics: Does Investing Regularly Beat Waiting?",
+    "seo_title": "Dollar Cost Averaging Statistics: Invest Now or Wait?",
+    "meta_description": "Dollar cost averaging explained with Vanguard's 1976 to 2022 lump-sum research, cash drag figures and a labeled example of how fixed contributions buy shares.",
+    "slug": "/investing/dollar-cost-averaging-statistics/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "dollar-cost averaging",
+      "dca investing",
+      "lump sum vs dollar cost averaging",
+      "dollar cost averaging statistics"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "What Is Dollar Cost Averaging?",
+      "What Do Dollar Cost Averaging Statistics Show?",
+      "Why Does Investing Available Money Sooner Often Win?",
+      "A Labeled Example of Fixed Contributions",
+      "Where Did the Money Come From?",
+      "Can Dollar Cost Averaging Reduce Risk?",
+      "What Should a Fair Backtest Include?",
+      "How Is This Different From Buying the Dip?",
+      "Costs That Can Change the Answer",
+      "When Might Regular Investing Fit Better?",
+      "How the Evidence Fits Long-Term Investing",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Research statistics: Vanguard 2023 paper",
+      "Definition: FINRA",
+      "Example: hypothetical arithmetic"
+    ],
+    "visuals": [
+      "Owner-supplied featured image",
+      "Two tables"
+    ],
+    "internal_links": [
+      "/investing/crypto-vs-stocks/",
+      "/investing/expense-ratio-statistics/",
+      "/investing/buy-the-dip-statistics/",
+      "/investing/dollar-cost-averaging-calculator/"
+    ],
+    "external_link_opportunities": [
+      "https://corporate.vanguard.com/content/dam/corp/research/pdf/cost_averaging_invest_now_or_temporarily_hold_your_cash.pdf",
+      "https://www.finra.org/investors/insights/dollar-cost-averaging"
+    ],
+    "excluded_claims": [
+      "Investor.gov citations (site blocked to fetch; replaced by FINRA)",
+      "Owner corpaemdisp Vanguard URL (host does not resolve; replaced with corporate.vanguard.com)"
+    ],
+    "drafting_cautions": [
+      "No buy, sell or hold recommendation",
+      "Hypothetical examples labeled",
+      "Dates and populations stated"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "FINRA defines dollar-cost averaging as investing equal amounts at regular intervals regardless of market conditions",
+      "source_url": "https://www.finra.org/investors/insights/dollar-cost-averaging",
+      "verified": true
+    },
+    {
+      "statement": "Vanguard: LS outperformed CA roughly two-thirds of the time",
+      "source_url": "https://corporate.vanguard.com/content/dam/corp/research/pdf/cost_averaging_invest_now_or_temporarily_hold_your_cash.pdf",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-13",
+    "note": "All Vanguard figures checked against the PDF text; FINRA definition checked; example arithmetic recomputed.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-13",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-13",
+    "summary": "All Vanguard figures checked against the PDF text; FINRA definition checked; example arithmetic recomputed.",
+    "pending": "Owner sign-off."
+  }
+}

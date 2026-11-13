@@ -1260,6 +1260,42 @@
       "scheduled_publish": "2026-11-11",
       "min_words": 2500,
       "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S72",
+      "working_title": "Dollar Cost Averaging Statistics: Does Investing Regularly Beat Waiting?",
+      "primary_keyword": "dollar cost averaging",
+      "secondary_keywords": "dollar-cost averaging; dca investing; lump sum vs dollar cost averaging; dollar cost averaging statistics",
+      "cluster": "Investing",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/investing/dollar-cost-averaging-statistics/",
+      "seo_title": "Dollar Cost Averaging Statistics: Invest Now or Wait?",
+      "meta_description": "Dollar cost averaging explained with Vanguard's 1976 to 2022 lump-sum research, cash drag figures and a labeled example of how fixed contributions buy shares.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-20",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S73",
+      "working_title": "Expense Ratio Statistics: How ETF and Mutual Fund Fees Reduce Returns",
+      "primary_keyword": "expense ratio",
+      "secondary_keywords": "expense ratios; average expense ratio; etf expense ratio; mutual fund expense ratio",
+      "cluster": "Investing",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/investing/expense-ratio-statistics/",
+      "seo_title": "Expense Ratio Statistics: 2025 ETF and Mutual Fund Fees",
+      "meta_description": "Expense ratio statistics from ICI's 2025 fund fee data, why averages differ from 0.40% to 1.10%, and labeled examples of how annual fees compound over time.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-20",
+      "min_words": 2500,
+      "no_word_ceiling": true
     }
   ],
   "links": [
@@ -2209,6 +2245,34 @@
         "/investing/crypto-vs-stocks/",
         "/markets-stocks/stock-market-crash-2026-statistics/",
         "/markets-stocks/stock-market-return-by-year/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/investing/crypto-vs-stocks/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S72",
+      "url_slug": "/investing/dollar-cost-averaging-statistics/",
+      "primary_silo_hub": "/investing/",
+      "approved_outbound_targets": [
+        "/investing/buy-the-dip-statistics/",
+        "/investing/crypto-vs-stocks/",
+        "/investing/dollar-cost-averaging-calculator/",
+        "/investing/expense-ratio-statistics/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/investing/crypto-vs-stocks/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S73",
+      "url_slug": "/investing/expense-ratio-statistics/",
+      "primary_silo_hub": "/investing/",
+      "approved_outbound_targets": [
+        "/investing/crypto-vs-stocks/",
+        "/investing/dollar-cost-averaging-statistics/",
+        "/investing/expense-ratio-calculator/",
+        "/investing/fxaix-vs-voo/"
       ],
       "silo_role": "Supporting",
       "pillar": "/investing/crypto-vs-stocks/"

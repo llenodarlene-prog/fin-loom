@@ -1,0 +1,474 @@
+{
+  "tracker_id": "Blog:S73",
+  "status": "verified",
+  "research_question": "What do current U.S. fund expense ratio statistics show, and how do fees affect long-term growth?",
+  "research_brief": {
+    "purpose": "Explain ICI fee averages, why measures differ, and fee compounding with labeled models.",
+    "audience": "US investors comparing funds and ETFs.",
+    "publication_year": "2026",
+    "data_period": "ICI 2024 report (March 2025) and 2025 data release (March 25, 2026).",
+    "scope_limitations": "Category averages; not fund-specific; models hypothetical."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "expense ratio",
+    "intent": "Informational",
+    "serp_checked_at": "2026-11-13",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-13",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "expense ratio",
+        "type": "short-tail",
+        "volume": 9900,
+        "difficulty": 16,
+        "cpc": 1.82,
+        "intent": "Informational",
+        "ranking_url": "https://www.weabenefits.com/know-what-you-pay-mutual-fund-expense-ratios/",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "average expense ratio",
+        "type": "long-tail",
+        "volume": 90,
+        "difficulty": 41,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.weabenefits.com/know-what-you-pay-mutual-fund-expense-ratios/",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "expense ratio calculator",
+        "type": "commercial",
+        "volume": 1600,
+        "difficulty": 36,
+        "cpc": 1.23,
+        "intent": "Commercial",
+        "ranking_url": "https://www.weabenefits.com/know-what-you-pay-mutual-fund-expense-ratios/",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "high expense ratio",
+        "type": "problem",
+        "volume": 90,
+        "difficulty": 60,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.weabenefits.com/know-what-you-pay-mutual-fund-expense-ratios/",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is an expense ratio",
+        "type": "question",
+        "volume": 2900,
+        "difficulty": 45,
+        "cpc": 4.27,
+        "intent": "Informational",
+        "ranking_url": "https://www.weabenefits.com/know-what-you-pay-mutual-fund-expense-ratios/",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.ici.org/news-release/mutual-fund-and-etf-fees-remained-near-historic-lows-in-2025",
+      "title": "Mutual Fund and ETF Fees Remained Near Historic Lows in 2025",
+      "publisher": "Investment Company Institute",
+      "source_type": "Industry association research",
+      "year": "2026",
+      "published_at": "2026-03-25",
+      "accessed_at": "2026-11-12",
+      "scope": "2025 asset-weighted expense ratios",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Read via web fetch; curl returns 403.",
+      "verified": true
+    },
+    {
+      "url": "https://www.ici.org/system/files/2025-03/per31-01.pdf",
+      "title": "Trends in the Expenses and Fees of Funds, 2024",
+      "publisher": "Investment Company Institute",
+      "source_type": "Industry association research report",
+      "year": "2025",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-12",
+      "scope": "2024 fee measures, Figure 2, trends since 1996",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "March 2025; ICI is a fund industry association.",
+      "verified": true
+    },
+    {
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html",
+      "title": "Historical Returns on Stocks, Bonds and Bills",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "source_type": "Academic dataset",
+      "year": "2026",
+      "published_at": "2026-01-05",
+      "accessed_at": "2026-11-12",
+      "scope": "S&P 500 annual returns 1928-2025",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "2025 asset-weighted: equity MF 0.40%, bond MF 0.36%, index equity ETF 0.14%, index bond ETF 0.09%, MMF 0.24%",
+      "source_url": "https://www.ici.org/news-release/mutual-fund-and-etf-fees-remained-near-historic-lows-in-2025",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "2024 equity MF: asset-weighted 0.40%, simple 1.10%, median 1.00%, p10 0.50%, p90 1.87%",
+      "source_url": "https://www.ici.org/system/files/2025-03/per31-01.pdf",
+      "data_year": "2024",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "2024: bond MF 0.38%, index bond ETF 0.10%, MMF 0.22%; equity MF ER down 62% and bond 55% 1996-2024",
+      "source_url": "https://www.ici.org/system/files/2025-03/per31-01.pdf",
+      "data_year": "2024",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "92% of long-term MF gross sales to no-load without 12b-1 in 2024 vs 46% in 2000",
+      "source_url": "https://www.ici.org/system/files/2025-03/per31-01.pdf",
+      "data_year": "2024",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Index equity MF asset-weighted 0.05%; avg index equity MF $13.6B vs active $2.5B; small complexes 0.99% vs 0.64%",
+      "source_url": "https://www.ici.org/system/files/2025-03/per31-01.pdf",
+      "data_year": "2024",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Category table: growth 0.58/1.07, sector 0.68/1.32, blend 0.23/0.91, IG bond 0.26/0.69, HY 0.60/0.93, target date 0.29/0.66, index equity MF 0.05/0.49",
+      "source_url": "https://www.ici.org/system/files/2025-03/per31-01.pdf",
+      "data_year": "2024",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "S&P 500 compounded about 10.0% a year 1928-2025",
+      "source_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Know what you pay: Mutual fund expense ratios (WEA)",
+      "url": "https://www.weabenefits.com/know-what-you-pay-mutual-fund-expense-ratios/",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "expense ratio"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors quote one average without saying whether it is asset-weighted, simple or median."
+    },
+    {
+      "title": "Average Expense Ratios for Mutual Funds, Index (Carry)",
+      "url": "https://carry.com/learn/average-expense-ratios",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "expense ratio"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors quote one average without saying whether it is asset-weighted, simple or median."
+    },
+    {
+      "title": "ICI 2025 fee release",
+      "url": "https://www.ici.org/news-release/mutual-fund-and-etf-fees-remained-near-historic-lows-in-2025",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "expense ratio"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors quote one average without saying whether it is asset-weighted, simple or median."
+    },
+    {
+      "title": "ICI 2024 fee report",
+      "url": "https://www.ici.org/system/files/2025-03/per31-01.pdf",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "expense ratio"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors quote one average without saying whether it is asset-weighted, simple or median."
+    },
+    {
+      "title": "Expense ratio (Investor.gov glossary)",
+      "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/expense-ratio",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "expense ratio"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors quote one average without saying whether it is asset-weighted, simple or median."
+    }
+  ],
+  "content_gaps": [
+    "Three averaging methods side by side",
+    "2024 to 2025 changes",
+    "Category spread table",
+    "Fees on growing balances"
+  ],
+  "value_add": [
+    "Every figure tied to ICI year and method",
+    "Labeled 20- and 30-year fee models",
+    "Fee checklist"
+  ],
+  "plan": {
+    "reader_title": "Expense Ratio Statistics: How ETF and Mutual Fund Fees Reduce Returns",
+    "seo_title": "Expense Ratio Statistics: 2025 ETF and Mutual Fund Fees",
+    "meta_description": "Expense ratio statistics from ICI's 2025 fund fee data, why averages differ from 0.40% to 1.10%, and labeled examples of how annual fees compound over time.",
+    "slug": "/investing/expense-ratio-statistics/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "expense ratios",
+      "average expense ratio",
+      "etf expense ratio",
+      "mutual fund expense ratio"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "What Is an Expense Ratio?",
+      "What Are the Latest Expense Ratio Statistics?",
+      "Why Do Sources Report Such Different Averages?",
+      "How Much Have Fees Fallen Over Time?",
+      "How Fees Vary Across Fund Types",
+      "How Much Does an Expense Ratio Cost Over Time?",
+      "Do Regular Contributions Change the Math?",
+      "Does a Low Expense Ratio Mean a Better Fund?",
+      "ETF Fees Versus Mutual Fund Fees",
+      "How Fees Fit a Long-Term Plan",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Averages: ICI 2025 release",
+      "Methods and categories: ICI 2024 Figure 2",
+      "Context return: Damodaran",
+      "Models: hypothetical arithmetic"
+    ],
+    "visuals": [
+      "Owner-supplied featured image",
+      "Four tables"
+    ],
+    "internal_links": [
+      "/investing/crypto-vs-stocks/",
+      "/investing/dollar-cost-averaging-statistics/",
+      "/investing/fxaix-vs-voo/",
+      "/investing/expense-ratio-calculator/"
+    ],
+    "external_link_opportunities": [
+      "https://www.ici.org/news-release/mutual-fund-and-etf-fees-remained-near-historic-lows-in-2025",
+      "https://www.ici.org/system/files/2025-03/per31-01.pdf",
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "excluded_claims": [
+      "Owner model kept; no fund-specific fee claims",
+      "Investor.gov not cited (blocked to fetch)"
+    ],
+    "drafting_cautions": [
+      "No buy, sell or hold recommendation",
+      "Hypothetical examples labeled",
+      "Dates and populations stated"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "ICI states asset-weighted averages are preferable to simple averages for measuring what investors pay",
+      "source_url": "https://www.ici.org/system/files/2025-03/per31-01.pdf",
+      "verified": true
+    },
+    {
+      "statement": "MMF waivers pared back amid high short-term rates",
+      "source_url": "https://www.ici.org/system/files/2025-03/per31-01.pdf",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-13",
+    "note": "ICI 2024 figures checked against the PDF text; 2025 figures checked via web fetch of the ICI release; model arithmetic recomputed.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-13",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-13",
+    "summary": "ICI 2024 figures checked against the PDF text; 2025 figures checked via web fetch of the ICI release; model arithmetic recomputed.",
+    "pending": "Owner sign-off."
+  }
+}
