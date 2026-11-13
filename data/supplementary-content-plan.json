@@ -1422,6 +1422,24 @@
       "scheduled_publish": "2026-11-24",
       "min_words": 2500,
       "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S81",
+      "working_title": "401k Match Statistics: Employer Contributions, Limits and Growth",
+      "primary_keyword": "401k match",
+      "secondary_keywords": "401(k) match; employer 401k match; average 401k match; 401k matching contributions",
+      "cluster": "Investing",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/investing/401k-match-statistics/",
+      "seo_title": "401k Match Statistics: 2026 Limits and Examples",
+      "meta_description": "401k match explained with 2026 IRS contribution limits, Vanguard small-business plan data, labeled match formulas by salary, vesting and a 20-year growth example.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-24",
+      "min_words": 2500,
+      "no_word_ceiling": true
     }
   ],
   "links": [
@@ -2495,6 +2513,20 @@
         "/investing/crypto-vs-stocks/",
         "/investing/retirement-savings-by-age/",
         "/investing/roth-vs-traditional-ira-calculator/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/investing/crypto-vs-stocks/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S81",
+      "url_slug": "/investing/401k-match-statistics/",
+      "primary_silo_hub": "/investing/",
+      "approved_outbound_targets": [
+        "/investing/401k-match-calculator/",
+        "/investing/crypto-vs-stocks/",
+        "/investing/retirement-savings-by-age/",
+        "/investing/roth-ira-vs-traditional-ira/"
       ],
       "silo_role": "Supporting",
       "pillar": "/investing/crypto-vs-stocks/"

@@ -1,0 +1,403 @@
+{
+  "tracker_id": "Blog:S81",
+  "status": "verified",
+  "research_question": "How do 401(k) matches work, what are the 2026 limits, and what do plan data show about saving?",
+  "research_brief": {
+    "purpose": "Explain match formulas with labeled examples and verified 2026 limits.",
+    "audience": "US workers with workplace retirement plans.",
+    "publication_year": "2026",
+    "data_period": "2026 IRS limits; Vanguard 2025 small-business plan data.",
+    "scope_limitations": "No national average match cited; examples illustrative."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "401k match",
+    "intent": "Informational",
+    "serp_checked_at": "2026-11-12",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-12",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "401k match",
+        "type": "short-tail",
+        "volume": 5400,
+        "difficulty": 43,
+        "cpc": 8.15,
+        "intent": "Informational",
+        "ranking_url": "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-401k-and-profit-sharing-plan-contribution-limits",
+        "retrieved_at": "2026-11-12",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "retirement savings by age",
+        "type": "long-tail",
+        "volume": 3600,
+        "difficulty": 39,
+        "cpc": 4.08,
+        "intent": "Informational",
+        "ranking_url": "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-401k-and-profit-sharing-plan-contribution-limits",
+        "retrieved_at": "2026-11-12",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "roth ira vs traditional ira",
+        "type": "commercial",
+        "volume": 40500,
+        "difficulty": 36,
+        "cpc": 4.42,
+        "intent": "Commercial",
+        "ranking_url": "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-401k-and-profit-sharing-plan-contribution-limits",
+        "retrieved_at": "2026-11-12",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "average credit card debt",
+        "type": "problem",
+        "volume": 5400,
+        "difficulty": 39,
+        "cpc": 5.74,
+        "intent": "Informational",
+        "ranking_url": "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-401k-and-profit-sharing-plan-contribution-limits",
+        "retrieved_at": "2026-11-12",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is an expense ratio",
+        "type": "question",
+        "volume": 2900,
+        "difficulty": 45,
+        "cpc": 4.27,
+        "intent": "Informational",
+        "ranking_url": "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-401k-and-profit-sharing-plan-contribution-limits",
+        "retrieved_at": "2026-11-12",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-401k-and-profit-sharing-plan-contribution-limits",
+      "title": "Retirement topics: 401(k) and profit-sharing plan contribution limits",
+      "publisher": "IRS",
+      "source_type": "Federal agency guidance",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-13",
+      "scope": "2026 deferral, catch-up, annual additions",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500",
+      "title": "401(k) limit increases to $24,500 for 2026, IRA limit increases to $7,500",
+      "publisher": "IRS",
+      "source_type": "Federal agency announcement",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-13",
+      "scope": "2026 limits and 2025 comparisons",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://workplace.vanguard.com/insights-and-research/report/how-america-saves-small-business-edition-2026.html",
+      "title": "How America Saves 2026: Small Business Edition",
+      "publisher": "Vanguard",
+      "source_type": "Plan provider research",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-13",
+      "scope": "21,000+ small-business plans, 2025",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Plans with $2M-$50M assets.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "2026 deferral $24,500 (2025 $23,500); catch-up $8,000 (2025 $7,500); ages 60-63 $11,250",
+      "source_url": "https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Annual additions $72,000; $80,000 with catch-up; up to $83,250 ages 60-63",
+      "source_url": "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-401k-and-profit-sharing-plan-contribution-limits",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "73% participation; 11% of pay combined; 70% professionally managed; 66% single TDF",
+      "source_url": "https://workplace.vanguard.com/insights-and-research/report/how-america-saves-small-business-edition-2026.html",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "IRS 401(k) limits",
+      "url": "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-401k-and-profit-sharing-plan-contribution-limits",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "401k match"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors cite an average match without sourcing, or confuse total saving rate with the employer match."
+    },
+    {
+      "title": "IRS 2026 limits announcement",
+      "url": "https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "401k match"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors cite an average match without sourcing, or confuse total saving rate with the employer match."
+    },
+    {
+      "title": "Vanguard How America Saves 2026 SBE",
+      "url": "https://workplace.vanguard.com/insights-and-research/report/how-america-saves-small-business-edition-2026.html",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "401k match"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors cite an average match without sourcing, or confuse total saving rate with the employer match."
+    },
+    {
+      "title": "Vanguard How America Saves",
+      "url": "https://institutional.vanguard.com/content/dam/inst/iig-transformation/insights/pdf/2025/has/how-america-saves-report-2025.pdf",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "401k match"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors cite an average match without sourcing, or confuse total saving rate with the employer match."
+    },
+    {
+      "title": "IRS Publication 560",
+      "url": "https://www.irs.gov/publications/p560",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "401k match"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors cite an average match without sourcing, or confuse total saving rate with the employer match."
+    }
+  ],
+  "content_gaps": [
+    "Formula vs headline percentage",
+    "Annual additions vs deferral limit",
+    "Total saving rate is not match rate",
+    "True-up timing"
+  ],
+  "value_add": [
+    "Labeled formula and salary tables",
+    "Six-line 2026 limit table",
+    "20-year growth example"
+  ],
+  "plan": {
+    "reader_title": "401k Match Statistics: Employer Contributions, Limits and Growth",
+    "seo_title": "401k Match Statistics: 2026 Limits and Examples",
+    "meta_description": "401k match explained with 2026 IRS contribution limits, Vanguard small-business plan data, labeled match formulas by salary, vesting and a 20-year growth example.",
+    "slug": "/investing/401k-match-statistics/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "401(k) match",
+      "employer 401k match",
+      "average 401k match",
+      "401k matching contributions"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "How Does a 401k Match Work?",
+      "How Much Is a 401k Match Worth at Different Salaries?",
+      "What Are the 2026 401(k) Contribution Limits?",
+      "What Do Plan Data Show About Saving?",
+      "What Is Vesting?",
+      "Can Matching Contributions Grow Over Time?",
+      "Should Someone Contribute Only Enough to Get the Match?",
+      "How the 401k Match Fits Long-Term Investing",
+      "Common Mistakes With a 401k Match",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Limits: IRS pages",
+      "Plan behavior: Vanguard SBE",
+      "Examples: hypothetical arithmetic"
+    ],
+    "visuals": [
+      "Owner-supplied featured image",
+      "Four tables"
+    ],
+    "internal_links": [
+      "/investing/crypto-vs-stocks/",
+      "/investing/roth-ira-vs-traditional-ira/",
+      "/investing/retirement-savings-by-age/",
+      "/investing/401k-match-calculator/"
+    ],
+    "external_link_opportunities": [
+      "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-401k-and-profit-sharing-plan-contribution-limits",
+      "https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500",
+      "https://workplace.vanguard.com/insights-and-research/report/how-america-saves-small-business-edition-2026.html"
+    ],
+    "excluded_claims": [
+      "National average match (no verified source)",
+      "Owner 401(k) withdrawal calculator link replaced with 401k match calculator from approved set"
+    ],
+    "drafting_cautions": [
+      "No buy, sell or hold recommendation",
+      "Hypothetical examples labeled",
+      "Dates and populations stated"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Employer matches count toward annual additions limit, not elective deferral limit",
+      "source_url": "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-401k-and-profit-sharing-plan-contribution-limits",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-13",
+    "note": "IRS limits re-fetched and checked 2026-11-13; Vanguard figures checked against fetched page; growth arithmetic recomputed (59,518.72; 119,037.43).",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-13",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-13",
+    "summary": "IRS limits re-fetched and checked 2026-11-13; Vanguard figures checked against fetched page; growth arithmetic recomputed (59,518.72; 119,037.43).",
+    "pending": "Owner sign-off."
+  }
+}
