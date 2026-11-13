@@ -193,7 +193,7 @@ The [credit card payoff calculator](/money-banking/credit-card-payoff-calculator
 
 ### Before a Payment Is Missed
 
-Anyone worried about falling behind can call the card issuer before the due date. Many issuers offer hardship programs or payment plans. Acting early usually leaves more options than waiting until an account is already 30 days late, when fees and credit reporting may already apply.
+Anyone worried about falling behind can call the card issuer before the due date. Many issuers offer hardship programs or payment plans. These can include a temporary lower rate, a reduced minimum payment or a fixed repayment schedule, depending on the issuer and the account. Acting early usually leaves more options than waiting until an account is already 30 days late, when fees and credit reporting may already apply.
 
 ### After a Payment Is Missed
 
