@@ -155,7 +155,7 @@ A falling credit card delinquency rate over two years suggests banks and borrowe
 
 ### Why One Quarter Is Not Enough
 
-Quarterly figures can move because of seasonal spending, holiday balances or reporting changes. Seasonally adjusted series reduce, but do not remove, that noise. Looking at several quarters together gives a steadier picture than reacting to a single release. A four-quarter view is a reasonable minimum.
+Quarterly figures can move because of seasonal spending, holiday balances or reporting changes. Seasonally adjusted series reduce, but do not remove, that noise. Looking at several quarters together gives a steadier picture than reacting to a single release. A four-quarter view is a reasonable minimum for spotting a real change in direction.
 
 ## Do Rising Card Limits Change the Picture?
 
