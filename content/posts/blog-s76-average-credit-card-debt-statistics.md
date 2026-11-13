@@ -97,6 +97,18 @@ The survey found that nearly all adults with income of $100,000 or more had a ca
 
 Interest only applies to balances carried past the grace period. A person paying in full each month uses a card as a payment tool and may pay no interest at all. Mixing these two groups into one average credit card debt figure overstates the burden for some and understates it for others.
 
+## How Fast Have Balances Grown?
+
+The Fed's 2025 survey report notes that New York Fed data for Q3 2025 put aggregate card balances at $1.2 trillion, an all-time high and 14% higher than two years before. By Q3 2026, the New York Fed reported $1.285 trillion, another $52 billion more.
+
+### Growth Is Not Automatically Bad
+
+The Fed itself says higher balances can be hard to interpret on their own. They could reflect more spending from higher income or better conditions. They could also mean borrowers are using cards to cover bills they cannot otherwise pay, which is why the survey link to well-being is so useful.
+
+### What the Survey Link Adds
+
+By matching survey answers to credit records, the Fed could see who added debt. Its finding that most growth came from people under financial strain gives the rising total a clearer meaning than the headline number alone, and it shows why one national average can hide very different situations.
+
 ## What Interest Do Card Holders Pay?
 
 FRED publishes Federal Reserve data on commercial bank card rates. In August 2026, the [average rate on accounts assessed interest](https://fred.stlouisfed.org/series/TERMCBCCINTNS) was 22.36%. The average across all accounts, including those not charged interest, was 21.19%.
@@ -135,35 +147,58 @@ Both measures improved over the year, even as total balances grew. That suggests
 
 ### Late Payments in More Detail
 
-FinLoom's [credit card delinquency rate statistics](/money-banking/credit-card-delinquency-rate-statistics/) explain how the New York Fed's transition rates differ from bank delinquency rates, and why the two numbers should never be joined on one chart.
+FinLoom's [credit card delinquency rate statistics](/money-banking/credit-card-delinquency-rate-statistics/) explain how the New York Fed's transition rates differ from bank delinquency rates, and why the two numbers should never be joined on one chart. That guide also covers the gap between a balance that is 30 days late and one that is 90 days late, which the totals on this page do not show.
 
 ## What About Average Credit Card Debt by Age?
 
-Age matters to borrowing, but the Q3 2026 New York Fed release does not include an age table of average balances. Building an age ranking from other years or sources without labels would mix incompatible data.
+Age shapes borrowing, but the Q3 2026 New York Fed release does not include an age table of average balances. Building an age ranking from other years or sources without labels would mix incompatible data.
 
 A reliable age comparison would need the same data source, matching age bands, a stated denominator, and a clear choice of mean or median. Until that table is verified for 2026, this page does not publish age estimates.
 
 ### Fields Any Age Table Needs
 
-The data year, the age bands, whether it counts all consumers or only card holders, whether it reports the mean or median, and whether balances are revolving or simply outstanding. Missing any one of these makes comparisons misleading.
+The data year, the age bands, whether it counts all consumers or only card holders, whether it reports the mean or median, and whether balances are revolving or simply outstanding. Missing any one of these makes comparisons misleading, because two honest tables can differ widely on these choices alone.
 
 ### A Caution on Viral Tables
 
-Many websites publish average credit card debt by age with no source year. Some reuse figures from earlier years. Readers should check the source and date before relying on any age table, including ones that look precise.
+Many websites publish average credit card debt by age with no source year. Some reuse figures from earlier years. Readers should check the source and date before relying on any age table, including ones that look precise. A table without a year is a warning sign.
 
 ## Why Can Card Debt Rise Without Wider Strain?
 
 Totals reflect prices, spending, the number of accounts, credit limits and payment habits. Rising balances can signal strain, but they also grow when people put more everyday spending on cards and pay it off later.
 
-The bank delinquency and charge-off rates both fell over the year to Q2 2026. Combined with the SHED results, the picture is mixed: steady or slightly better repayment overall, alongside rising balances among households already under pressure.
+The bank delinquency and charge-off rates both fell over the year to Q2 2026. Combined with the SHED results, the picture is mixed: steady or slightly better repayment across all borrowers, alongside rising balances among households already under pressure.
 
 ### Inflation's Role
 
-Higher prices raise the dollar amount of everyday purchases. A household buying the same goods pays more and may carry a larger statement balance. That alone can lift totals without any change in borrowing behavior.
+Higher prices raise the dollar amount of everyday purchases. A household buying the same goods pays more and may carry a larger statement balance. That alone can lift totals without any change in borrowing behavior, which is why comparing balances across years without adjusting for prices can exaggerate growth.
 
 ### Buy Now, Pay Later
 
 Some spending has moved to buy now, pay later loans, which do not always appear in card totals. The Fed's survey found growing use of these products. That shift can make card totals look smaller than total short-term consumer borrowing.
+
+## How Does Card Debt Compare With Other Household Debt?
+
+Card balances are a small slice of what households owe. The New York Fed's Q3 2026 report breaks total household debt of $19.105 trillion into categories, and credit cards made up about 6.7% of it.
+
+| Debt category | Balance, end of Q3 2026 | Change from Q2 2026 |
+|---|---:|---:|
+| Mortgages | $13.374 trillion | Up $257 billion |
+| Auto loans | $1.734 trillion | Up $21 billion |
+| Student loans | $1.656 trillion | Up $5 billion |
+| Credit cards | $1.285 trillion | Up $22 billion |
+| Other | $0.575 trillion | Up $7 billion |
+| Home equity lines of credit | $0.481 trillion | Up $23 billion |
+
+Source: Federal Reserve Bank of New York, Q3 2026.
+
+### Why Card Debt Gets More Attention
+
+Card debt is smaller than mortgage or auto debt, but it usually carries much higher interest and no collateral. A mortgage at a single-digit rate and a card balance above 20% are very different burdens per dollar. That cost gap explains why average credit card debt figures draw so much attention despite the smaller total.
+
+### Reading the Average Credit Card Debt Figure in Context
+
+A household with a large mortgage and no card balance can be on solid footing. Another with no mortgage but a few thousand dollars on cards at 22% may be under real strain. The average credit card debt figure alone cannot tell those households apart, so it works best alongside income, rates and savings.
 
 ## How Can a Household Use These Figures?
 
@@ -177,7 +212,7 @@ The pillar guide on [saving vs investing](/money-banking/saving-vs-investing/) c
 
 ### When to Ask for Help
 
-Anyone worried about missing a payment can contact the card issuer before the due date. Many issuers offer hardship programs. Nonprofit credit counseling agencies can also help build a repayment plan.
+Anyone worried about missing a payment can contact the card issuer before the due date. Many issuers offer hardship programs. Nonprofit credit counseling agencies can also help build a repayment plan. Asking early, before an account falls behind, usually leaves more options open.
 
 ## Frequently Asked Questions
 

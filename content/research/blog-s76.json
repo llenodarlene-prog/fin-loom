@@ -1,0 +1,496 @@
+{
+  "tracker_id": "Blog:S76",
+  "status": "verified",
+  "research_question": "How much credit card debt do Americans carry in 2026, and how should the different averages be read?",
+  "research_brief": {
+    "purpose": "Present total, survey-average and bank-level card data with populations stated.",
+    "audience": "US consumers and readers of debt headlines.",
+    "publication_year": "2026",
+    "data_period": "NY Fed Q3 2026; SHED 2025 (2023 vs 2025 matched); FRED G.19 Aug 2026; FRED bank delinquency/charge-off Q2 2026.",
+    "scope_limitations": "Sources use different populations; no age table published."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "average credit card debt",
+    "intent": "Informational",
+    "serp_checked_at": "2026-11-13",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-13",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "credit card debt",
+        "type": "short-tail",
+        "volume": 12100,
+        "difficulty": 25,
+        "cpc": 42,
+        "intent": "Informational",
+        "ranking_url": "https://www.onemainfinancial.com/personal-loans/resources/what-is-the-average-credit-card-debt-in-the-united-states",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "average credit card debt",
+        "type": "long-tail",
+        "volume": 5400,
+        "difficulty": 39,
+        "cpc": 5.74,
+        "intent": "Informational",
+        "ranking_url": "https://www.onemainfinancial.com/personal-loans/resources/what-is-the-average-credit-card-debt-in-the-united-states",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "credit card debt relief",
+        "type": "commercial",
+        "volume": 5400,
+        "difficulty": 60,
+        "cpc": 65.57,
+        "intent": "Commercial",
+        "ranking_url": "https://www.onemainfinancial.com/personal-loans/resources/what-is-the-average-credit-card-debt-in-the-united-states",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "credit card delinquency rate",
+        "type": "problem",
+        "volume": 1000,
+        "difficulty": 40,
+        "cpc": 24.75,
+        "intent": "Informational",
+        "ranking_url": "https://www.onemainfinancial.com/personal-loans/resources/what-is-the-average-credit-card-debt-in-the-united-states",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "how much credit card debt is normal",
+        "type": "question",
+        "volume": 320,
+        "difficulty": 32,
+        "cpc": 26.72,
+        "intent": "Informational",
+        "ranking_url": "https://www.onemainfinancial.com/personal-loans/resources/what-is-the-average-credit-card-debt-in-the-united-states",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.newyorkfed.org/newsevents/news/research/2026/20261110",
+      "title": "Household Debt and Credit Report, Q3 2026",
+      "publisher": "Federal Reserve Bank of New York",
+      "source_type": "Official statistics",
+      "year": "2026",
+      "published_at": "2026-11-10",
+      "accessed_at": "2026-11-13",
+      "scope": "Card balances and changes",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Equifax consumer credit panel.",
+      "verified": true
+    },
+    {
+      "url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-credit.htm",
+      "title": "Economic Well-Being of U.S. Households in 2025: Credit",
+      "publisher": "Federal Reserve Board",
+      "source_type": "Official survey report",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-13",
+      "scope": "Card ownership, carrying balances, matched balances",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "63% of respondents agreed to credit match.",
+      "verified": true
+    },
+    {
+      "url": "https://fred.stlouisfed.org/series/TERMCBCCINTNS",
+      "title": "Commercial Bank Interest Rate on Credit Card Plans, Accounts Assessed Interest",
+      "publisher": "Federal Reserve via FRED",
+      "source_type": "Official statistics",
+      "year": "2026",
+      "published_at": "2026-08-01",
+      "accessed_at": "2026-11-13",
+      "scope": "Card APR on accounts assessed interest",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://fred.stlouisfed.org/series/TERMCBCCALLNS",
+      "title": "Commercial Bank Interest Rate on Credit Card Plans, All Accounts",
+      "publisher": "Federal Reserve via FRED",
+      "source_type": "Official statistics",
+      "year": "2026",
+      "published_at": "2026-08-01",
+      "accessed_at": "2026-11-13",
+      "scope": "Card APR all accounts",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://fred.stlouisfed.org/series/DRCCLACBS",
+      "title": "Delinquency Rate on Credit Card Loans, All Commercial Banks",
+      "publisher": "Federal Reserve via FRED",
+      "source_type": "Official statistics",
+      "year": "2026",
+      "published_at": "2026-04-01",
+      "accessed_at": "2026-11-13",
+      "scope": "Bank card delinquency, SA",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Q2 2026.",
+      "verified": true
+    },
+    {
+      "url": "https://fred.stlouisfed.org/series/CORCCACBS",
+      "title": "Charge-Off Rate on Credit Card Loans, All Commercial Banks",
+      "publisher": "Federal Reserve via FRED",
+      "source_type": "Official statistics",
+      "year": "2026",
+      "published_at": "2026-04-01",
+      "accessed_at": "2026-11-13",
+      "scope": "Bank card charge-offs, SA",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Q2 2026.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Card balances $1.285T Q3 2026; +$22B q/q; +$52B y/y; total debt $19.105T; card limits +$115B",
+      "source_url": "https://www.newyorkfed.org/newsevents/news/research/2026/20261110",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "SHED matched average balance $7,279 (2025) vs $6,531 (2023); +$748 (11%); by well-being table",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-credit.htm",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Difficult/just getting by = 65% of balance growth (40% prior); living comfortably 3% (about one-fourth prior)",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-credit.htm",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "82% had a card in 2025 (84% high in 2021); 45% of owners carried a balance, down 12 pts over decade",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-credit.htm",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Card rate accounts assessed interest 22.36% Aug 2026 (22.83% Aug 2025); all accounts 21.19% (21.39%)",
+      "source_url": "https://fred.stlouisfed.org/series/TERMCBCCINTNS",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Bank card delinquency 2.85% Q2 2026 (3.04% Q2 2025); charge-off 3.82% (4.19%)",
+      "source_url": "https://fred.stlouisfed.org/series/DRCCLACBS",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "What Is the Average Credit Card Debt in the United States? (OneMain)",
+      "url": "https://www.onemainfinancial.com/personal-loans/resources/what-is-the-average-credit-card-debt-in-the-united-states",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "average credit card debt"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors mix denominators and rarely separate carried balances from statement balances."
+    },
+    {
+      "title": "How much credit card debt is normal? (Reddit r/CreditCards)",
+      "url": "https://www.reddit.com/r/CreditCards/comments/wpgq18/how_much_credit_card_debt_is_normal/",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "average credit card debt"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors mix denominators and rarely separate carried balances from statement balances."
+    },
+    {
+      "title": "NY Fed Q3 2026 release",
+      "url": "https://www.newyorkfed.org/newsevents/news/research/2026/20261110",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "average credit card debt"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors mix denominators and rarely separate carried balances from statement balances."
+    },
+    {
+      "title": "Fed SHED 2025 credit chapter",
+      "url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-credit.htm",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "average credit card debt"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors mix denominators and rarely separate carried balances from statement balances."
+    },
+    {
+      "title": "FRED card rate series",
+      "url": "https://fred.stlouisfed.org/series/TERMCBCCINTNS",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "average credit card debt"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors mix denominators and rarely separate carried balances from statement balances."
+    }
+  ],
+  "content_gaps": [
+    "Matched-survey growth by well-being",
+    "Share carrying balances",
+    "Bank delinquency and charge-offs",
+    "Why no age table"
+  ],
+  "value_add": [
+    "Every average labeled with its population",
+    "Same-period rate and bank tables",
+    "Labeled interest example"
+  ],
+  "plan": {
+    "reader_title": "Average Credit Card Debt in America: Balances and Financial Strain in 2026",
+    "seo_title": "Average Credit Card Debt in America: 2026 Statistics",
+    "meta_description": "Average credit card debt in 2026 from the New York Fed's Q3 report and the Fed's household survey, with balance growth by financial well-being and card interest rates.",
+    "slug": "/money-banking/average-credit-card-debt-statistics/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "credit card debt statistics",
+      "average credit card balance",
+      "total credit card debt",
+      "credit card debt in america"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "How Much Credit Card Debt Do Americans Have?",
+      "What Is the Average Credit Card Balance?",
+      "How Many People Carry a Balance?",
+      "How Fast Have Balances Grown?",
+      "What Interest Do Card Holders Pay?",
+      "How Do Banks Report Card Debt Problems?",
+      "What About Average Credit Card Debt by Age?",
+      "Why Can Card Debt Rise Without Wider Strain?",
+      "How Does Card Debt Compare With Other Household Debt?",
+      "How Can a Household Use These Figures?",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Totals: NY Fed",
+      "Averages and behavior: SHED",
+      "Rates and bank outcomes: FRED"
+    ],
+    "visuals": [
+      "Owner-supplied featured image",
+      "Four tables"
+    ],
+    "internal_links": [
+      "/money-banking/saving-vs-investing/",
+      "/money-banking/credit-card-delinquency-rate-statistics/",
+      "/money-banking/checking-vs-savings-account/",
+      "/money-banking/credit-card-payoff-calculator/"
+    ],
+    "external_link_opportunities": [
+      "https://www.newyorkfed.org/newsevents/news/research/2026/20261110",
+      "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-credit.htm",
+      "https://fred.stlouisfed.org/series/TERMCBCCINTNS"
+    ],
+    "excluded_claims": [
+      "Age-based averages (no verified 2026 table)",
+      "Owner draft data kept; FRED bank and rate data added"
+    ],
+    "drafting_cautions": [
+      "No buy, sell or hold recommendation",
+      "Hypothetical examples labeled",
+      "Dates and populations stated"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "SHED: most balance growth reflects increases among those facing hardship",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-credit.htm",
+      "verified": true
+    },
+    {
+      "statement": "NY Fed: card balances rose by $22B to $1.29T",
+      "source_url": "https://www.newyorkfed.org/newsevents/news/research/2026/20261110",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-13",
+    "note": "NY Fed and SHED figures checked against fetched pages; FRED series read directly 2026-11-13; interest example recomputed.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-13",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-13",
+    "summary": "NY Fed and SHED figures checked against fetched pages; FRED series read directly 2026-11-13; interest example recomputed.",
+    "pending": "Owner sign-off."
+  }
+}
