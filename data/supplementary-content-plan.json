@@ -1386,6 +1386,24 @@
       "scheduled_publish": "2026-11-23",
       "min_words": 2500,
       "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S79",
+      "working_title": "Net Worth by Age: Median and Average Wealth in America in 2025",
+      "primary_keyword": "net worth by age",
+      "secondary_keywords": "average net worth by age; median net worth by age; net worth by age 2025; household net worth",
+      "cluster": "Money & Banking",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/money-banking/net-worth-by-age-statistics/",
+      "seo_title": "Net Worth by Age: 2025 Federal Reserve Statistics",
+      "meta_description": "Net worth by age from the Federal Reserve's 2025 Survey of Consumer Finances, with median and mean wealth, 2022 comparisons, homeowner and renter gaps, and income groups.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-23",
+      "min_words": 2500,
+      "no_word_ceiling": true
     }
   ],
   "links": [
@@ -2435,6 +2453,19 @@
       ],
       "silo_role": "Supporting",
       "pillar": "/investing/crypto-vs-stocks/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S79",
+      "url_slug": "/money-banking/net-worth-by-age-statistics/",
+      "primary_silo_hub": "/money-banking/",
+      "approved_outbound_targets": [
+        "/investing/retirement-savings-by-age/",
+        "/money-banking/average-credit-card-debt-statistics/",
+        "/money-banking/saving-vs-investing/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/money-banking/saving-vs-investing/"
     }
   ]
 }
