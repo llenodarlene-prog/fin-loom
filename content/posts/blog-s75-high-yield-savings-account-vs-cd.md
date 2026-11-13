@@ -155,7 +155,7 @@ If the CD in the earlier example were broken after six months, it would have ear
 
 ### No-Penalty CDs
 
-A no-penalty CD lets the saver withdraw after a short initial period without a fee. In exchange, its rate is often lower than a standard CD of similar term. It can suit savers who want a fixed rate but fear needing the money early.
+A no-penalty CD lets the saver withdraw after a short initial period without a fee. In exchange, its rate is often lower than a standard CD of similar term. It can suit savers who want a fixed rate but fear needing the money early. Check how long the waiting period lasts and whether partial withdrawals are allowed, since some no-penalty CDs require taking out the full balance at once.
 
 ## How Should Savers Choose for an Emergency Fund?
 
