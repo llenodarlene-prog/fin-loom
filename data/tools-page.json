@@ -46,6 +46,12 @@
           "url": "/money-banking/savings-interest-calculator/",
           "icon": "pig-money",
           "text": "Estimate savings growth from a starting balance, APY, and monthly deposits."
+        },
+        {
+          "title": "CD Interest Calculator",
+          "url": "/money-banking/cd-interest-calculator/",
+          "icon": "hourglass",
+          "text": "Estimate interest at maturity from a deposit, APY and term, and test the cost of an early withdrawal."
         }
       ]
     },
@@ -76,6 +82,30 @@
           "url": "/investing/investment-withdrawal-calculator/",
           "icon": "wallet",
           "text": "Estimate how long a portfolio could last at a given withdrawal, or how much it could support."
+        },
+        {
+          "title": "Dollar-Cost Averaging Calculator",
+          "url": "/investing/dollar-cost-averaging-calculator/",
+          "icon": "calendar-dollar",
+          "text": "See your average cost per share from regular purchases along a price path, compared with a lump sum."
+        },
+        {
+          "title": "Expense Ratio Calculator",
+          "url": "/investing/expense-ratio-calculator/",
+          "icon": "receipt",
+          "text": "Compare two funds' fees and see how the expense ratio changes an ending balance over time."
+        },
+        {
+          "title": "401(k) Match Calculator",
+          "url": "/investing/401k-match-calculator/",
+          "icon": "users",
+          "text": "See the employer match your contribution earns, any match left unclaimed and your 2026 limit."
+        },
+        {
+          "title": "Roth vs Traditional IRA Calculator",
+          "url": "/investing/roth-vs-traditional-ira-calculator/",
+          "icon": "scale",
+          "text": "Compare after-tax retirement value from a Roth and a traditional IRA using your tax rates."
         }
       ]
     },
