@@ -1350,6 +1350,24 @@
       "scheduled_publish": "2026-11-22",
       "min_words": 2500,
       "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S77",
+      "working_title": "Credit Card Delinquency Rate Statistics: Where U.S. Borrowers Are Falling Behind",
+      "primary_keyword": "credit card delinquency rate",
+      "secondary_keywords": "credit card delinquency rates; credit card delinquencies; credit card charge-off rate; serious delinquency",
+      "cluster": "Money & Banking",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/money-banking/credit-card-delinquency-rate-statistics/",
+      "seo_title": "Credit Card Delinquency Rate Statistics for 2026",
+      "meta_description": "Credit card delinquency rate data for 2026 from the New York Fed's Q3 report and Federal Reserve bank series, with the difference between flow, stock and charge-off rates.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-22",
+      "min_words": 2500,
+      "no_word_ceiling": true
     }
   ],
   "links": [
@@ -2367,6 +2385,20 @@
         "/money-banking/checking-vs-savings-account/",
         "/money-banking/credit-card-delinquency-rate-statistics/",
         "/money-banking/credit-card-payoff-calculator/",
+        "/money-banking/saving-vs-investing/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/money-banking/saving-vs-investing/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S77",
+      "url_slug": "/money-banking/credit-card-delinquency-rate-statistics/",
+      "primary_silo_hub": "/money-banking/",
+      "approved_outbound_targets": [
+        "/money-banking/average-credit-card-debt-statistics/",
+        "/money-banking/credit-card-payoff-calculator/",
+        "/money-banking/credit-union-vs-bank/",
         "/money-banking/saving-vs-investing/"
       ],
       "silo_role": "Supporting",
