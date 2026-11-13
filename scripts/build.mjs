@@ -144,6 +144,8 @@ for (const page of parsed) {
         ...(hubParts.length ? { hasPart: hubParts.map(post => ({ '@type': post.schema === 'BlogPosting' ? 'BlogPosting' : 'Article', '@id': `${canonical(post.slug)}#article`, headline: post.title, url: canonical(post.slug) })) } : {})
       },
       ...(metadata.slug !== '/' ? [breadcrumbList] : []),
+      // Calculator pages describe the tool itself as a free, browser-based finance application.
+      ...(/^```calculator\s*$/m.test(body) ? [{ '@type': 'WebApplication', '@id': `${url}#app`, name: metadata.title, description: metadata.description, url, applicationCategory: 'FinanceApplication', operatingSystem: 'Any (web browser)', browserRequirements: 'Requires JavaScript', isAccessibleForFree: true, offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' }, publisher: { '@id': `${siteUrl}/#organization` }, mainEntityOfPage: { '@id': `${url}#webpage` }, inLanguage: site.locale || 'en-US' }] : []),
       ...(metadata.template === 'faq' && faqCopies[metadata.faq] ? [{ '@type': 'FAQPage', '@id': `${url}#faq`, mainEntity: faqCopies[metadata.faq].topics.flatMap(topic => topic.questions).map(q => ({ '@type': 'Question', name: q.q, acceptedAnswer: { '@type': 'Answer', text: faqPlainAnswer(q) } })) }] : [])
     ]
   };
