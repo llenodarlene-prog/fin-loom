@@ -10,7 +10,7 @@ tracker_id: Blog:S73
 primary_keyword: expense ratio
 secondary_keywords: expense ratios; average expense ratio; etf expense ratio; mutual fund expense ratio
 cluster: Investing
-approved_internal_links: /investing/crypto-vs-stocks/; /investing/dollar-cost-averaging-statistics/; /investing/fxaix-vs-voo/; /investing/expense-ratio-calculator/
+approved_internal_links: /investing/crypto-vs-stocks/; /investing/dollar-cost-averaging-statistics/; /investing/expense-ratio-calculator/
 research_record: content/research/blog-s73.json
 image: /assets/images/posts/expense-ratio-statistics/laptop-charts-coins-calculator-1600.jpg
 image_alt: A laptop showing bar and donut charts beside stacked coins, a calculator and printed reports on a desk
@@ -171,7 +171,7 @@ People often judge costs by the dollar amount on a statement. Because the expens
 
 No. A very cheap fund that does not match an investor's goals, risk tolerance or need for diversification is still a poor fit. A narrow sector fund and a broad total-market fund can have similar fees but very different risks.
 
-Two funds that track the same benchmark can be compared on tracking difference, structure, tax treatment, trading costs and fees. FinLoom's [FXAIX vs VOO](/investing/fxaix-vs-voo/) comparison shows how a mutual fund and an ETF on the same index can differ in ways beyond the fee.
+Two funds that track the same benchmark can be compared on tracking difference, structure, tax treatment, trading costs and fees. FinLoom's FXAIX vs VOO comparison shows how a mutual fund and an ETF on the same index can differ in ways beyond the fee.
 
 ### Tracking Difference
 

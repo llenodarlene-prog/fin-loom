@@ -1263,6 +1263,42 @@
     },
     {
       "type": "Blog",
+      "content_number": "S74",
+      "working_title": "Money Market Account vs Money Market Fund: Insurance, Yield and Access",
+      "primary_keyword": "money market account vs money market fund",
+      "secondary_keywords": "money market deposit account; money market mutual fund; is a money market fund fdic insured; money market account vs fund",
+      "cluster": "Money & Banking",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/money-banking/money-market-account-vs-money-market-fund/",
+      "seo_title": "Money Market Account vs Money Market Fund in 2026",
+      "meta_description": "Money market account vs money market fund compared with FDIC national rates, FRED fund asset data and ICI fees, plus who insures each and how to read the yields.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft (post 3) reframed to money market account vs fund; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-21",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S79",
+      "working_title": "Net Worth by Age: Median and Average Wealth in America in 2025",
+      "primary_keyword": "net worth by age",
+      "secondary_keywords": "average net worth by age; median net worth by age; net worth by age 2025; household net worth",
+      "cluster": "Money & Banking",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/money-banking/net-worth-by-age-statistics/",
+      "seo_title": "Net Worth by Age: 2025 Federal Reserve Statistics",
+      "meta_description": "Net worth by age from the Federal Reserve's 2025 Survey of Consumer Finances, with median and mean wealth, 2022 comparisons, homeowner and renter gaps, and income groups.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-23",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
       "content_number": "S72",
       "working_title": "Dollar Cost Averaging Statistics: Does Investing Regularly Beat Waiting?",
       "primary_keyword": "dollar cost averaging",
@@ -1294,24 +1330,6 @@
       "link_placement_site": "",
       "source_file": "Owner-supplied draft; final AI QA and fact-check layer applied",
       "scheduled_publish": "2026-11-20",
-      "min_words": 2500,
-      "no_word_ceiling": true
-    },
-    {
-      "type": "Blog",
-      "content_number": "S74",
-      "working_title": "Money Market Account vs Money Market Fund: Insurance, Yield and Access",
-      "primary_keyword": "money market account vs money market fund",
-      "secondary_keywords": "money market deposit account; money market mutual fund; is a money market fund fdic insured; money market account vs fund",
-      "cluster": "Money & Banking",
-      "intent": "Informational",
-      "status": "Scheduled",
-      "url_slug": "/money-banking/money-market-account-vs-money-market-fund/",
-      "seo_title": "Money Market Account vs Money Market Fund in 2026",
-      "meta_description": "Money market account vs money market fund compared with FDIC national rates, FRED fund asset data and ICI fees, plus who insures each and how to read the yields.",
-      "link_placement_site": "",
-      "source_file": "Owner-supplied draft (post 3) reframed to money market account vs fund; final AI QA and fact-check layer applied",
-      "scheduled_publish": "2026-11-21",
       "min_words": 2500,
       "no_word_ceiling": true
     },
@@ -1381,24 +1399,6 @@
       "url_slug": "/investing/retirement-savings-by-age/",
       "seo_title": "Retirement Savings by Age: 2025 Federal Reserve Data",
       "meta_description": "Retirement savings by age from the Federal Reserve's 2025 Survey of Consumer Finances, with mean balances from 2016 to 2025, participation rates and why medians differ.",
-      "link_placement_site": "",
-      "source_file": "Owner-supplied draft; final AI QA and fact-check layer applied",
-      "scheduled_publish": "2026-11-23",
-      "min_words": 2500,
-      "no_word_ceiling": true
-    },
-    {
-      "type": "Blog",
-      "content_number": "S79",
-      "working_title": "Net Worth by Age: Median and Average Wealth in America in 2025",
-      "primary_keyword": "net worth by age",
-      "secondary_keywords": "average net worth by age; median net worth by age; net worth by age 2025; household net worth",
-      "cluster": "Money & Banking",
-      "intent": "Informational",
-      "status": "Scheduled",
-      "url_slug": "/money-banking/net-worth-by-age-statistics/",
-      "seo_title": "Net Worth by Age: 2025 Federal Reserve Statistics",
-      "meta_description": "Net worth by age from the Federal Reserve's 2025 Survey of Consumer Finances, with median and mean wealth, 2022 comparisons, homeowner and renter gaps, and income groups.",
       "link_placement_site": "",
       "source_file": "Owner-supplied draft; final AI QA and fact-check layer applied",
       "scheduled_publish": "2026-11-23",
@@ -1510,6 +1510,7 @@
       "url_slug": "/investing/crypto-vs-stocks/",
       "primary_silo_hub": "/investing/",
       "approved_outbound_targets": [
+        "/investing/401k-match-statistics/",
         "/investing/best-etfs-for-roth-ira/",
         "/investing/best-investment-apps/",
         "/investing/best-sp500-index-funds/",
@@ -1517,11 +1518,15 @@
         "/investing/buy-the-dip-statistics/",
         "/investing/dividend-reinvestment-plan-calculator/",
         "/investing/dividend-vs-dividend-yield/",
+        "/investing/dollar-cost-averaging-statistics/",
+        "/investing/expense-ratio-statistics/",
         "/investing/fidelity-vs-vanguard/",
         "/investing/fxaix-vs-voo/",
         "/investing/index-fund-vs-mutual-fund/",
         "/investing/per-capita-gdp-explained/",
         "/investing/qualified-dividends/",
+        "/investing/retirement-savings-by-age/",
+        "/investing/roth-ira-vs-traditional-ira/",
         "/investing/stock-risk-metrics/",
         "/investing/voo-vs-spy/",
         "/investing/vti-vs-voo/",
@@ -1564,16 +1569,21 @@
         "/money-banking/apy-calculator/",
         "/money-banking/apy-meaning/",
         "/money-banking/apy-vs-interest-rate/",
+        "/money-banking/average-credit-card-debt-statistics/",
         "/money-banking/best-budgeting-apps/",
         "/money-banking/best-hsa-accounts/",
         "/money-banking/checking-vs-savings-account/",
+        "/money-banking/credit-card-delinquency-rate-statistics/",
         "/money-banking/credit-union-vs-bank/",
+        "/money-banking/high-yield-savings-account-vs-cd/",
         "/money-banking/high-yield-savings-vs-money-market-account/",
         "/money-banking/hsa-vs-fsa/",
         "/money-banking/hsa-vs-hra/",
         "/money-banking/identity-theft-statistics/",
         "/money-banking/inflation-rate-by-year/",
+        "/money-banking/money-market-account-vs-money-market-fund/",
         "/money-banking/money-market-vs-cd/",
+        "/money-banking/net-worth-by-age-statistics/",
         "/money-banking/savings-interest-calculator/",
         "/money-banking/what-is-a-credit-score/"
       ],
@@ -2395,34 +2405,6 @@
     },
     {
       "type": "Blog",
-      "content_number": "S72",
-      "url_slug": "/investing/dollar-cost-averaging-statistics/",
-      "primary_silo_hub": "/investing/",
-      "approved_outbound_targets": [
-        "/investing/buy-the-dip-statistics/",
-        "/investing/crypto-vs-stocks/",
-        "/investing/dollar-cost-averaging-calculator/",
-        "/investing/expense-ratio-statistics/"
-      ],
-      "silo_role": "Supporting",
-      "pillar": "/investing/crypto-vs-stocks/"
-    },
-    {
-      "type": "Blog",
-      "content_number": "S73",
-      "url_slug": "/investing/expense-ratio-statistics/",
-      "primary_silo_hub": "/investing/",
-      "approved_outbound_targets": [
-        "/investing/crypto-vs-stocks/",
-        "/investing/dollar-cost-averaging-statistics/",
-        "/investing/expense-ratio-calculator/",
-        "/investing/fxaix-vs-voo/"
-      ],
-      "silo_role": "Supporting",
-      "pillar": "/investing/crypto-vs-stocks/"
-    },
-    {
-      "type": "Blog",
       "content_number": "S74",
       "url_slug": "/money-banking/money-market-account-vs-money-market-fund/",
       "primary_silo_hub": "/money-banking/",
@@ -2433,62 +2415,6 @@
       ],
       "silo_role": "Supporting",
       "pillar": "/money-banking/saving-vs-investing/"
-    },
-    {
-      "type": "Blog",
-      "content_number": "S75",
-      "url_slug": "/money-banking/high-yield-savings-account-vs-cd/",
-      "primary_silo_hub": "/money-banking/",
-      "approved_outbound_targets": [
-        "/money-banking/cd-interest-calculator/",
-        "/money-banking/money-market-account-vs-money-market-fund/",
-        "/money-banking/money-market-vs-cd/",
-        "/money-banking/saving-vs-investing/"
-      ],
-      "silo_role": "Supporting",
-      "pillar": "/money-banking/saving-vs-investing/"
-    },
-    {
-      "type": "Blog",
-      "content_number": "S76",
-      "url_slug": "/money-banking/average-credit-card-debt-statistics/",
-      "primary_silo_hub": "/money-banking/",
-      "approved_outbound_targets": [
-        "/money-banking/checking-vs-savings-account/",
-        "/money-banking/credit-card-delinquency-rate-statistics/",
-        "/money-banking/credit-card-payoff-calculator/",
-        "/money-banking/saving-vs-investing/"
-      ],
-      "silo_role": "Supporting",
-      "pillar": "/money-banking/saving-vs-investing/"
-    },
-    {
-      "type": "Blog",
-      "content_number": "S77",
-      "url_slug": "/money-banking/credit-card-delinquency-rate-statistics/",
-      "primary_silo_hub": "/money-banking/",
-      "approved_outbound_targets": [
-        "/money-banking/average-credit-card-debt-statistics/",
-        "/money-banking/credit-card-payoff-calculator/",
-        "/money-banking/credit-union-vs-bank/",
-        "/money-banking/saving-vs-investing/"
-      ],
-      "silo_role": "Supporting",
-      "pillar": "/money-banking/saving-vs-investing/"
-    },
-    {
-      "type": "Blog",
-      "content_number": "S78",
-      "url_slug": "/investing/retirement-savings-by-age/",
-      "primary_silo_hub": "/investing/",
-      "approved_outbound_targets": [
-        "/investing/401k-match-statistics/",
-        "/investing/crypto-vs-stocks/",
-        "/investing/investment-growth-calculator/",
-        "/money-banking/net-worth-by-age-statistics/"
-      ],
-      "silo_role": "Supporting",
-      "pillar": "/investing/crypto-vs-stocks/"
     },
     {
       "type": "Blog",
@@ -2505,13 +2431,90 @@
     },
     {
       "type": "Blog",
+      "content_number": "S72",
+      "url_slug": "/investing/dollar-cost-averaging-statistics/",
+      "primary_silo_hub": "/investing/",
+      "approved_outbound_targets": [
+        "/investing/crypto-vs-stocks/",
+        "/investing/dollar-cost-averaging-calculator/",
+        "/investing/expense-ratio-statistics/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/investing/crypto-vs-stocks/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S73",
+      "url_slug": "/investing/expense-ratio-statistics/",
+      "primary_silo_hub": "/investing/",
+      "approved_outbound_targets": [
+        "/investing/crypto-vs-stocks/",
+        "/investing/dollar-cost-averaging-statistics/",
+        "/investing/expense-ratio-calculator/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/investing/crypto-vs-stocks/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S75",
+      "url_slug": "/money-banking/high-yield-savings-account-vs-cd/",
+      "primary_silo_hub": "/money-banking/",
+      "approved_outbound_targets": [
+        "/money-banking/cd-interest-calculator/",
+        "/money-banking/money-market-account-vs-money-market-fund/",
+        "/money-banking/saving-vs-investing/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/money-banking/saving-vs-investing/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S76",
+      "url_slug": "/money-banking/average-credit-card-debt-statistics/",
+      "primary_silo_hub": "/money-banking/",
+      "approved_outbound_targets": [
+        "/money-banking/credit-card-delinquency-rate-statistics/",
+        "/money-banking/credit-card-payoff-calculator/",
+        "/money-banking/saving-vs-investing/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/money-banking/saving-vs-investing/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S77",
+      "url_slug": "/money-banking/credit-card-delinquency-rate-statistics/",
+      "primary_silo_hub": "/money-banking/",
+      "approved_outbound_targets": [
+        "/money-banking/average-credit-card-debt-statistics/",
+        "/money-banking/credit-card-payoff-calculator/",
+        "/money-banking/saving-vs-investing/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/money-banking/saving-vs-investing/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S78",
+      "url_slug": "/investing/retirement-savings-by-age/",
+      "primary_silo_hub": "/investing/",
+      "approved_outbound_targets": [
+        "/investing/401k-match-statistics/",
+        "/investing/crypto-vs-stocks/",
+        "/money-banking/net-worth-by-age-statistics/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/investing/crypto-vs-stocks/"
+    },
+    {
+      "type": "Blog",
       "content_number": "S80",
       "url_slug": "/investing/roth-ira-vs-traditional-ira/",
       "primary_silo_hub": "/investing/",
       "approved_outbound_targets": [
         "/investing/401k-match-statistics/",
         "/investing/crypto-vs-stocks/",
-        "/investing/retirement-savings-by-age/",
         "/investing/roth-vs-traditional-ira-calculator/"
       ],
       "silo_role": "Supporting",
@@ -2525,7 +2528,6 @@
       "approved_outbound_targets": [
         "/investing/401k-match-calculator/",
         "/investing/crypto-vs-stocks/",
-        "/investing/retirement-savings-by-age/",
         "/investing/roth-ira-vs-traditional-ira/"
       ],
       "silo_role": "Supporting",

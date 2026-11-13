@@ -10,7 +10,7 @@ tracker_id: Blog:S75
 primary_keyword: high yield savings account vs cd
 secondary_keywords: cd vs high yield savings; cd or high yield savings; savings account vs cd; cd early withdrawal penalty
 cluster: Money & Banking
-approved_internal_links: /money-banking/saving-vs-investing/; /money-banking/money-market-account-vs-money-market-fund/; /money-banking/money-market-vs-cd/; /money-banking/cd-interest-calculator/
+approved_internal_links: /money-banking/saving-vs-investing/; /money-banking/money-market-account-vs-money-market-fund/; /money-banking/cd-interest-calculator/
 research_record: content/research/blog-s75.json
 image: /assets/images/posts/high-yield-savings-account-vs-cd/jars-and-certificate-1600.jpg
 image_alt: A jar of coins and a clasped jar holding a folded certificate in front of a calendar and a laptop with a rising line
@@ -189,7 +189,7 @@ Interest on Treasury securities is exempt from state and local income tax. For s
 
 The pillar guide on [saving vs investing](/money-banking/saving-vs-investing/) explains why short-term money belongs in safe, accessible places. Savings accounts and CDs both fit there. They are tools for cash, not for long-term growth.
 
-FinLoom's [money market account vs money market fund](/money-banking/money-market-account-vs-money-market-fund/) guide covers the difference between a bank deposit and a fund. The [money market vs CD](/money-banking/money-market-vs-cd/) comparison looks at another flexible-versus-fixed choice. To model a specific CD, the [CD interest calculator](/money-banking/cd-interest-calculator/) shows growth for any rate and term.
+FinLoom's [money market account vs money market fund](/money-banking/money-market-account-vs-money-market-fund/) guide covers the difference between a bank deposit and a fund. The money market vs CD comparison looks at another flexible-versus-fixed choice. To model a specific CD, the [CD interest calculator](/money-banking/cd-interest-calculator/) shows growth for any rate and term.
 
 ### Questions to Ask First
 

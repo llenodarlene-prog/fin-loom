@@ -10,7 +10,7 @@ tracker_id: Blog:S80
 primary_keyword: roth ira vs traditional ira
 secondary_keywords: roth vs traditional ira; traditional ira vs roth ira; roth ira income limits 2026; ira contribution limit 2026
 cluster: Investing
-approved_internal_links: /investing/crypto-vs-stocks/; /investing/401k-match-statistics/; /investing/retirement-savings-by-age/; /investing/roth-vs-traditional-ira-calculator/
+approved_internal_links: /investing/crypto-vs-stocks/; /investing/401k-match-statistics/; /investing/roth-vs-traditional-ira-calculator/
 research_record: content/research/blog-s80.json
 image: /assets/images/posts/roth-ira-vs-traditional-ira/coin-jar-and-locked-folder-1600.jpg
 image_alt: A glass jar of coins beside a blue folder with a gold padlock, a calendar, a calculator and a notebook on a desk
@@ -175,7 +175,7 @@ Holding both Roth and traditional money gives flexibility later. In retirement, 
 
 ### Where Balances Stand
 
-FinLoom's [retirement savings by age](/investing/retirement-savings-by-age/) page shows Federal Reserve data on account balances. Combined with the 2026 limits, it gives a sense of how much room most savers have to add to IRAs each year, since few households reach the annual limit.
+FinLoom's retirement savings by age page shows Federal Reserve data on account balances. Combined with the 2026 limits, it gives a sense of how much room most savers have to add to IRAs each year, since few households reach the annual limit.
 
 ## How Do These Accounts Fit an Investment Plan?
 

@@ -10,7 +10,7 @@ tracker_id: Blog:S72
 primary_keyword: dollar cost averaging
 secondary_keywords: dollar-cost averaging; dca investing; lump sum vs dollar cost averaging; dollar cost averaging statistics
 cluster: Investing
-approved_internal_links: /investing/crypto-vs-stocks/; /investing/expense-ratio-statistics/; /investing/buy-the-dip-statistics/; /investing/dollar-cost-averaging-calculator/
+approved_internal_links: /investing/crypto-vs-stocks/; /investing/expense-ratio-statistics/; /investing/dollar-cost-averaging-calculator/
 research_record: content/research/blog-s72.json
 image: /assets/images/posts/dollar-cost-averaging-statistics/calendar-laptop-rising-chart-1600.jpg
 image_alt: A laptop showing a calendar icon, coins and a rising bar chart beside a notebook and coffee mug on a desk
@@ -154,7 +154,7 @@ A test should say whether results are in today's dollars or the dollars of each 
 
 ## How Is This Different From Buying the Dip?
 
-Dollar cost averaging follows the calendar. Buying the dip follows the price. One invests on set dates whatever the market does; the other waits for a fall and then acts. FinLoom's [buy the dip statistics](/investing/buy-the-dip-statistics/) explain why a decline is only clear in hindsight.
+Dollar cost averaging follows the calendar. Buying the dip follows the price. One invests on set dates whatever the market does; the other waits for a fall and then acts. FinLoom's buy the dip statistics explain why a decline is only clear in hindsight.
 
 A dip strategy can leave money in cash for long stretches when no qualifying fall arrives. That is the same cash drag that hurts a staggered lump sum, often for longer, because the trigger may never come.
 

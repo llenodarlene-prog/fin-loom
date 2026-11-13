@@ -10,7 +10,7 @@ tracker_id: Blog:S77
 primary_keyword: credit card delinquency rate
 secondary_keywords: credit card delinquency rates; credit card delinquencies; credit card charge-off rate; serious delinquency
 cluster: Money & Banking
-approved_internal_links: /money-banking/saving-vs-investing/; /money-banking/average-credit-card-debt-statistics/; /money-banking/credit-union-vs-bank/; /money-banking/credit-card-payoff-calculator/
+approved_internal_links: /money-banking/saving-vs-investing/; /money-banking/average-credit-card-debt-statistics/; /money-banking/credit-card-payoff-calculator/
 research_record: content/research/blog-s77.json
 image: /assets/images/posts/credit-card-delinquency-rate-statistics/envelope-statement-card-calculator-1600.jpg
 image_alt: A window envelope, printed account statements, a calculator and a blue credit card on a desk
@@ -189,7 +189,7 @@ The New York Fed's latest data are for Q3 2026, while the latest bank series dat
 
 National data are context, not a personal plan. FinLoom's [average credit card debt](/money-banking/average-credit-card-debt-statistics/) page sets out balances and interest rates. The pillar guide on [saving vs investing](/money-banking/saving-vs-investing/) explains why an emergency cushion often comes before other goals; a cushion can keep one surprise bill from turning into a late payment.
 
-The [credit card payoff calculator](/money-banking/credit-card-payoff-calculator/) shows how long a balance takes to clear at a chosen payment. For people comparing where to bank or borrow, the [credit union vs bank](/money-banking/credit-union-vs-bank/) guide covers how the two types of institution differ.
+The [credit card payoff calculator](/money-banking/credit-card-payoff-calculator/) shows how long a balance takes to clear at a chosen payment. For people comparing where to bank or borrow, the credit union vs bank guide covers how the two types of institution differ.
 
 ### Before a Payment Is Missed
 

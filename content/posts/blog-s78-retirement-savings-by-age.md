@@ -10,7 +10,7 @@ tracker_id: Blog:S78
 primary_keyword: retirement savings by age
 secondary_keywords: average retirement savings by age; retirement savings by age 2025; median retirement savings; 401k balance by age
 cluster: Investing
-approved_internal_links: /investing/crypto-vs-stocks/; /money-banking/net-worth-by-age-statistics/; /investing/401k-match-statistics/; /investing/investment-growth-calculator/
+approved_internal_links: /investing/crypto-vs-stocks/; /money-banking/net-worth-by-age-statistics/; /investing/401k-match-statistics/
 research_record: content/research/blog-s78.json
 image: /assets/images/posts/retirement-savings-by-age/coin-and-cash-jars-growth-chart-1600.jpg
 image_alt: Glass jars of coins and folded cash in front of a laptop showing a growing bar chart and a donut chart
@@ -185,7 +185,7 @@ Comparing both measures gives a fuller picture. A family behind on retirement ac
 
 First identify what the benchmark includes: one employer plan, all IRA and defined contribution accounts, or total household retirement resources. Next check whether it is a mean or a median, and whether families with no account are included. Finally confirm the survey year and dollar basis.
 
-FinLoom's [investment growth calculator](/investing/investment-growth-calculator/) lets you test how contributions and assumed returns could change a balance over time. Any return used is an assumption, not a promise.
+FinLoom's investment growth calculator lets you test how contributions and assumed returns could change a balance over time. Any return used is an assumption, not a promise.
 
 ### A Planning Starting Point
 

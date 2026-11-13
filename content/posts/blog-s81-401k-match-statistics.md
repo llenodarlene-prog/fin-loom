@@ -10,7 +10,7 @@ tracker_id: Blog:S81
 primary_keyword: 401k match
 secondary_keywords: 401(k) match; employer 401k match; average 401k match; 401k matching contributions
 cluster: Investing
-approved_internal_links: /investing/crypto-vs-stocks/; /investing/roth-ira-vs-traditional-ira/; /investing/retirement-savings-by-age/; /investing/401k-match-calculator/
+approved_internal_links: /investing/crypto-vs-stocks/; /investing/roth-ira-vs-traditional-ira/; /investing/401k-match-calculator/
 research_record: content/research/blog-s81.json
 image: /assets/images/posts/401k-match-statistics/coin-jar-folder-calendar-1600.jpg
 image_alt: A glass jar of coins in front of a blue folder with a padlock, beside a calendar, calculator and notebook on a desk
@@ -179,7 +179,7 @@ Many plans offer both pre-tax and Roth deferrals. The same tax-timing logic as I
 
 ### How Balances Compare
 
-FinLoom's [retirement savings by age](/investing/retirement-savings-by-age/) page shows Federal Reserve data on account balances by age. It can help a worker see where a match fits within broader retirement saving, and why steady contributions plus a match add up over decades.
+FinLoom's retirement savings by age page shows Federal Reserve data on account balances by age. It can help a worker see where a match fits within broader retirement saving, and why steady contributions plus a match add up over decades.
 
 ## How the 401k Match Fits Long-Term Investing
 

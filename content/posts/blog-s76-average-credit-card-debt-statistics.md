@@ -10,7 +10,7 @@ tracker_id: Blog:S76
 primary_keyword: average credit card debt
 secondary_keywords: credit card debt statistics; average credit card balance; total credit card debt; credit card debt in america
 cluster: Money & Banking
-approved_internal_links: /money-banking/saving-vs-investing/; /money-banking/credit-card-delinquency-rate-statistics/; /money-banking/checking-vs-savings-account/; /money-banking/credit-card-payoff-calculator/
+approved_internal_links: /money-banking/saving-vs-investing/; /money-banking/credit-card-delinquency-rate-statistics/; /money-banking/credit-card-payoff-calculator/
 research_record: content/research/blog-s76.json
 image: /assets/images/posts/average-credit-card-debt-statistics/blue-card-calculator-notebook-1600.jpg
 image_alt: A blue credit card, a calculator, a notebook with a pen and printed statements on a kitchen table
@@ -204,7 +204,7 @@ A household with a large mortgage and no card balance can be on solid footing. A
 
 National averages are context, not a target. A household is better served by listing each card's balance, rate, minimum payment and any promotional rate end date. A small balance at a high rate can cost more than a larger one at a low rate.
 
-FinLoom's [credit card payoff calculator](/money-banking/credit-card-payoff-calculator/) shows how long a balance takes to clear at a chosen payment. For building a cash cushion that can reduce reliance on cards, the [checking vs savings account](/money-banking/checking-vs-savings-account/) guide explains where short-term money can sit.
+FinLoom's [credit card payoff calculator](/money-banking/credit-card-payoff-calculator/) shows how long a balance takes to clear at a chosen payment. For building a cash cushion that can reduce reliance on cards, the checking vs savings account guide explains where short-term money can sit.
 
 ### Saving and Debt Together
 
