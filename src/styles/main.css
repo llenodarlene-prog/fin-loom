@@ -562,6 +562,8 @@ html:not(.js) .ill-pie-arc{stroke-dashoffset:0}
 .finloom-calc fieldset{border:0;margin:0;padding:0;min-width:0}
 .finloom-calc legend{font-family:var(--display);color:var(--c-ink);font-size:1.15rem;margin-bottom:.75rem}
 .finloom-calc .finloom-calc-field{display:flex;flex-direction:column;gap:.3rem;margin-bottom:1rem}
+.finloom-calc .finloom-calc-pair{display:grid;grid-template-columns:1fr 1fr;gap:0 .75rem}
+@media (max-width:420px){.finloom-calc .finloom-calc-pair{grid-template-columns:1fr}}
 .finloom-calc label{font-weight:600;font-size:.92rem;color:var(--charcoal)}
 .finloom-calc input[type=number],.finloom-calc select{min-height:44px;padding:.55rem .75rem;font:inherit;font-size:1rem;border:1px solid #BDB7DA;border-radius:10px;background:#fff;color:var(--charcoal);width:100%}
 .finloom-calc input[aria-invalid=true]{border-color:#B42318}

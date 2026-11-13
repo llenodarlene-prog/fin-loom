@@ -52,6 +52,30 @@
           "url": "/money-banking/cd-interest-calculator/",
           "icon": "hourglass",
           "text": "Estimate interest at maturity from a deposit, APY and term, and test the cost of an early withdrawal."
+        },
+        {
+          "title": "Emergency Fund Calculator",
+          "url": "/money-banking/emergency-fund-calculator/",
+          "icon": "pig-money",
+          "text": "Turn essential monthly expenses into a savings target and see how long regular deposits could take to reach it."
+        },
+        {
+          "title": "Credit Utilization Calculator",
+          "url": "/money-banking/credit-utilization-calculator/",
+          "icon": "chart-donut-3",
+          "text": "See utilization for each card and overall, and how much to pay down to reach a target ratio."
+        },
+        {
+          "title": "Net Worth Calculator",
+          "url": "/money-banking/net-worth-calculator/",
+          "icon": "scale",
+          "text": "Add up assets and debts by category and compare the result with 2025 Federal Reserve figures by age."
+        },
+        {
+          "title": "Debt Snowball Calculator",
+          "url": "/money-banking/debt-snowball-calculator/",
+          "icon": "trending-down",
+          "text": "Plan payoff for up to five debts and compare the snowball and avalanche methods on time and interest."
         }
       ]
     },
