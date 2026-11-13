@@ -1404,6 +1404,24 @@
       "scheduled_publish": "2026-11-23",
       "min_words": 2500,
       "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S80",
+      "working_title": "Roth IRA vs Traditional IRA: Tax Rules, Limits and Examples for 2026",
+      "primary_keyword": "roth ira vs traditional ira",
+      "secondary_keywords": "roth vs traditional ira; traditional ira vs roth ira; roth ira income limits 2026; ira contribution limit 2026",
+      "cluster": "Investing",
+      "intent": "Commercial",
+      "status": "Scheduled",
+      "url_slug": "/investing/roth-ira-vs-traditional-ira/",
+      "seo_title": "Roth IRA vs Traditional IRA: 2026 Rules and Examples",
+      "meta_description": "Roth IRA vs traditional IRA compared with 2026 IRS limits and income phase-outs, labeled tax examples, withdrawal rules and the questions that decide which fits.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-24",
+      "min_words": 2500,
+      "no_word_ceiling": true
     }
   ],
   "links": [
@@ -2466,6 +2484,20 @@
       ],
       "silo_role": "Supporting",
       "pillar": "/money-banking/saving-vs-investing/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S80",
+      "url_slug": "/investing/roth-ira-vs-traditional-ira/",
+      "primary_silo_hub": "/investing/",
+      "approved_outbound_targets": [
+        "/investing/401k-match-statistics/",
+        "/investing/crypto-vs-stocks/",
+        "/investing/retirement-savings-by-age/",
+        "/investing/roth-vs-traditional-ira-calculator/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/investing/crypto-vs-stocks/"
     }
   ]
 }
