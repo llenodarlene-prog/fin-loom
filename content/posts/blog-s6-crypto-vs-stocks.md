@@ -10,7 +10,7 @@ tracker_id: Blog:S6
 primary_keyword: crypto vs stocks
 secondary_keywords: 
 cluster: Investing
-approved_internal_links: /investing/best-etfs-for-roth-ira/; /investing/best-investment-apps/; /investing/best-sp500-index-funds/; /investing/bitcoin-allocation/; /investing/buy-the-dip-statistics/; /investing/dividend-reinvestment-plan-calculator/; /investing/dividend-vs-dividend-yield/; /investing/fidelity-vs-vanguard/; /investing/fxaix-vs-voo/; /investing/index-fund-vs-mutual-fund/; /investing/per-capita-gdp-explained/; /investing/qualified-dividends/; /investing/stock-risk-metrics/; /investing/voo-vs-spy/; /investing/vti-vs-voo/; /investing/vug-vs-voo/
+approved_internal_links: /investing/401k-match-statistics/; /investing/best-etfs-for-roth-ira/; /investing/best-investment-apps/; /investing/best-sp500-index-funds/; /investing/bitcoin-allocation/; /investing/buy-the-dip-statistics/; /investing/dividend-reinvestment-plan-calculator/; /investing/dividend-vs-dividend-yield/; /investing/dollar-cost-averaging-statistics/; /investing/expense-ratio-statistics/; /investing/fidelity-vs-vanguard/; /investing/fxaix-vs-voo/; /investing/index-fund-vs-mutual-fund/; /investing/per-capita-gdp-explained/; /investing/qualified-dividends/; /investing/retirement-savings-by-age/; /investing/roth-ira-vs-traditional-ira/; /investing/stock-risk-metrics/; /investing/voo-vs-spy/; /investing/vti-vs-voo/; /investing/vug-vs-voo/
 research_record: content/research/blog-s6.json
 image: /assets/images/posts/crypto-vs-stocks/market-chart-and-coin-desk-1600.jpg
 image_alt: A laptop showing a market chart beside a gold coin and a stack of finance books, with a city skyline at sunrise
@@ -257,6 +257,10 @@ Many long-term stock investors start with broad funds rather than single compani
 Picking between similar funds is its own decision. FinLoom compares [VTI vs VOO](/investing/vti-vs-voo/) for total-market versus S&P 500 coverage, [VOO vs SPY](/investing/voo-vs-spy/) and [FXAIX vs VOO](/investing/fxaix-vs-voo/) for funds tracking the same index, and [VUG vs VOO](/investing/vug-vs-voo/) for a growth tilt. The comparison of [Fidelity vs Vanguard](/investing/fidelity-vs-vanguard/) looks at the brokerages that offer many of these funds.
 
 Declines also tempt investors to time their purchases. FinLoom's [buy the dip statistics](/investing/buy-the-dip-statistics/) show what history can and cannot say about buying after a fall.
+
+Investing on a schedule is a different approach. FinLoom's [dollar cost averaging statistics](/investing/dollar-cost-averaging-statistics/) compare regular contributions with investing a lump sum, and the [expense ratio statistics](/investing/expense-ratio-statistics/) show how fund fees compound over decades.
+
+Retirement accounts are where many long-term stock investors hold these funds. The guides to [retirement savings by age](/investing/retirement-savings-by-age/), [Roth IRA vs traditional IRA](/investing/roth-ira-vs-traditional-ira/) and the [401k match](/investing/401k-match-statistics/) cover account balances, tax treatment and employer contributions.
 
 
 ## Rebalancing Creates Discipline

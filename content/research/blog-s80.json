@@ -1,0 +1,413 @@
+{
+  "tracker_id": "Blog:S80",
+  "status": "verified",
+  "research_question": "How do Roth and traditional IRAs differ under 2026 IRS rules, and when does each leave more after tax?",
+  "research_brief": {
+    "purpose": "Explain tax timing, 2026 limits and withdrawal rules with labeled examples.",
+    "audience": "US savers choosing an IRA type.",
+    "publication_year": "2026",
+    "data_period": "2026 tax year limits (IRS announcement); IRS IRA comparison page accessed 2026-11-13.",
+    "scope_limitations": "Federal only; examples hypothetical; RMD age not stated because the IRS comparison page shows an outdated age."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "roth ira vs traditional ira",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-11-12",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-12",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "roth ira vs traditional ira",
+        "type": "short-tail",
+        "volume": 40500,
+        "difficulty": 36,
+        "cpc": 4.42,
+        "intent": "Commercial",
+        "ranking_url": "https://www.irs.gov/retirement-plans/traditional-and-roth-iras",
+        "retrieved_at": "2026-11-12",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "retirement savings by age",
+        "type": "long-tail",
+        "volume": 3600,
+        "difficulty": 39,
+        "cpc": 4.08,
+        "intent": "Informational",
+        "ranking_url": "https://www.irs.gov/retirement-plans/traditional-and-roth-iras",
+        "retrieved_at": "2026-11-12",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "401k match",
+        "type": "commercial",
+        "volume": 5400,
+        "difficulty": 43,
+        "cpc": 8.15,
+        "intent": "Informational",
+        "ranking_url": "https://www.irs.gov/retirement-plans/traditional-and-roth-iras",
+        "retrieved_at": "2026-11-12",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "net worth by age",
+        "type": "problem",
+        "volume": 8100,
+        "difficulty": 38,
+        "cpc": 3.18,
+        "intent": "Informational",
+        "ranking_url": "https://www.irs.gov/retirement-plans/traditional-and-roth-iras",
+        "retrieved_at": "2026-11-12",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is an expense ratio",
+        "type": "question",
+        "volume": 2900,
+        "difficulty": 45,
+        "cpc": 4.27,
+        "intent": "Informational",
+        "ranking_url": "https://www.irs.gov/retirement-plans/traditional-and-roth-iras",
+        "retrieved_at": "2026-11-12",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.irs.gov/retirement-plans/traditional-and-roth-iras",
+      "title": "Traditional and Roth IRAs",
+      "publisher": "IRS",
+      "source_type": "Federal agency guidance",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-13",
+      "scope": "Deductibility, withdrawals, RMDs, contribution eligibility",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page shows older-year limits and an older RMD age; used only for structural rules.",
+      "verified": true
+    },
+    {
+      "url": "https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500",
+      "title": "401(k) limit increases to $24,500 for 2026, IRA limit increases to $7,500",
+      "publisher": "IRS",
+      "source_type": "Federal agency announcement",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-13",
+      "scope": "2026 IRA limit, catch-up, Roth phase-outs",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.irs.gov/retirement-plans/roth-iras",
+      "title": "Roth IRAs",
+      "publisher": "IRS",
+      "source_type": "Federal agency guidance",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-13",
+      "scope": "Roth deductibility, qualified distributions tax-free, income limits",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "2026 IRA limit $7,500; catch-up $1,100",
+      "source_url": "https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "2026 Roth phase-out $153K-$168K single; $242K-$252K joint",
+      "source_url": "https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "2026 401(k) deferral $24,500",
+      "source_url": "https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "IRS Traditional and Roth IRAs",
+      "url": "https://www.irs.gov/retirement-plans/traditional-and-roth-iras",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "roth ira vs traditional ira"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors often compare equal deposits and present a winner without stating tax-rate assumptions."
+    },
+    {
+      "title": "IRS 2026 limits announcement",
+      "url": "https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "roth ira vs traditional ira"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors often compare equal deposits and present a winner without stating tax-rate assumptions."
+    },
+    {
+      "title": "IRS Roth IRAs",
+      "url": "https://www.irs.gov/retirement-plans/roth-iras",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "roth ira vs traditional ira"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors often compare equal deposits and present a winner without stating tax-rate assumptions."
+    },
+    {
+      "title": "IRS Publication 590-B",
+      "url": "https://www.irs.gov/publications/p590b",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "roth ira vs traditional ira"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors often compare equal deposits and present a winner without stating tax-rate assumptions."
+    },
+    {
+      "title": "IRS Publication 590-A",
+      "url": "https://www.irs.gov/publications/p590a",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "roth ira vs traditional ira"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors often compare equal deposits and present a winner without stating tax-rate assumptions."
+    }
+  ],
+  "content_gaps": [
+    "Equal-rate equivalence",
+    "2026 phase-out table",
+    "Deposit vs pre-tax framing",
+    "State tax caveat"
+  ],
+  "value_add": [
+    "Labeled examples with equal and unequal rates",
+    "2026 limit table",
+    "Decision questions"
+  ],
+  "plan": {
+    "reader_title": "Roth IRA vs Traditional IRA: Tax Rules, Limits and Examples for 2026",
+    "seo_title": "Roth IRA vs Traditional IRA: 2026 Rules and Examples",
+    "meta_description": "Roth IRA vs traditional IRA compared with 2026 IRS limits and income phase-outs, labeled tax examples, withdrawal rules and the questions that decide which fits.",
+    "slug": "/investing/roth-ira-vs-traditional-ira/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "roth vs traditional ira",
+      "traditional ira vs roth ira",
+      "roth ira income limits 2026",
+      "ira contribution limit 2026"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "What Is the Main Difference Between Roth and Traditional IRAs?",
+      "What Are the 2026 Contribution Limits?",
+      "Which Saves More Tax?",
+      "A 30-Year Roth IRA vs Traditional IRA Example",
+      "How Tax Brackets Shape the Roth IRA vs Traditional IRA Choice",
+      "Why Equal Deposits Can Mislead",
+      "When Are Roth Withdrawals Tax-Free?",
+      "How Do Workplace Plans Fit In?",
+      "How Do These Accounts Fit an Investment Plan?",
+      "Common Mistakes in the Roth IRA vs Traditional IRA Decision",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Rules: IRS comparison and Roth pages",
+      "Limits: IRS 2026 announcement",
+      "Examples: hypothetical arithmetic"
+    ],
+    "visuals": [
+      "Owner-supplied featured image",
+      "Three tables"
+    ],
+    "internal_links": [
+      "/investing/crypto-vs-stocks/",
+      "/investing/401k-match-statistics/",
+      "/investing/roth-vs-traditional-ira-calculator/"
+    ],
+    "external_link_opportunities": [
+      "https://www.irs.gov/retirement-plans/traditional-and-roth-iras",
+      "https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500"
+    ],
+    "excluded_claims": [
+      "Specific five-year rule wording (not confirmed on fetched IRS page; referred to Pub 590-B)",
+      "RMD starting age (IRS comparison page outdated)",
+      "Owner Best ETFs for Roth link (not in approved set)"
+    ],
+    "drafting_cautions": [
+      "No buy, sell or hold recommendation",
+      "Hypothetical examples labeled",
+      "Dates and populations stated"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Roth contributions not deductible; qualified distributions tax-free",
+      "source_url": "https://www.irs.gov/retirement-plans/roth-iras",
+      "verified": true
+    },
+    {
+      "statement": "Traditional deductible contributions and earnings taxable; 10% additional tax under 59½ unless exception",
+      "source_url": "https://www.irs.gov/retirement-plans/traditional-and-roth-iras",
+      "verified": true
+    },
+    {
+      "statement": "Roth IRAs: RMDs not required for original owner",
+      "source_url": "https://www.irs.gov/retirement-plans/traditional-and-roth-iras",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-13",
+    "note": "IRS rules checked against fetched IRS pages; 2026 limits from the verified IRS announcement; example arithmetic recomputed.",
+    "notes": "AI QA layer complete; owner approved 2026-11-13."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-13",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; owner approved 2026-11-13."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-13",
+    "summary": "IRS rules checked against fetched IRS pages; 2026 limits from the verified IRS announcement; example arithmetic recomputed.",
+    "pending": "None; owner approved 2026-11-13."
+  }
+}

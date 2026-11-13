@@ -1,0 +1,450 @@
+{
+  "tracker_id": "Blog:S74",
+  "status": "verified",
+  "research_question": "How do money market deposit accounts and money market funds differ in insurance, yield, access and taxes?",
+  "research_brief": {
+    "purpose": "Separate the bank deposit from the mutual fund with dated official data.",
+    "audience": "US savers holding cash.",
+    "publication_year": "2026",
+    "data_period": "FDIC national rates published Oct 19, 2026 (late-September data); FRED week of Oct 5, 2026 and Q2 2026; ICI 2024-2025.",
+    "scope_limitations": "National averages; fund yields not published by FDIC; example hypothetical."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "money market account vs money market fund",
+    "intent": "Informational",
+    "serp_checked_at": "2026-11-13",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-13",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "money market fund",
+        "type": "short-tail",
+        "volume": 18100,
+        "difficulty": 61,
+        "cpc": 7.43,
+        "intent": "Informational",
+        "ranking_url": "https://ironwoodwm.com/what-is-a-money-market-account-vs-money-market-mutual-fund/",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "money market account vs money market fund",
+        "type": "long-tail",
+        "volume": 720,
+        "difficulty": 33,
+        "cpc": 6.63,
+        "intent": "Informational",
+        "ranking_url": "https://ironwoodwm.com/what-is-a-money-market-account-vs-money-market-mutual-fund/",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best money market funds",
+        "type": "commercial",
+        "volume": 6600,
+        "difficulty": 41,
+        "cpc": 7.23,
+        "intent": "Commercial",
+        "ranking_url": "https://ironwoodwm.com/what-is-a-money-market-account-vs-money-market-mutual-fund/",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "can money market funds lose money",
+        "type": "problem",
+        "volume": 210,
+        "difficulty": 45,
+        "cpc": 7.01,
+        "intent": "Informational",
+        "ranking_url": "https://ironwoodwm.com/what-is-a-money-market-account-vs-money-market-mutual-fund/",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "is a money market fund fdic insured",
+        "type": "question",
+        "volume": 30,
+        "difficulty": 14,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://ironwoodwm.com/what-is-a-money-market-account-vs-money-market-mutual-fund/",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.fdic.gov/sites/default/files/2024-05/deposit-insurance-at-a-glance-english.pdf",
+      "title": "Deposit Insurance at a Glance",
+      "publisher": "FDIC",
+      "source_type": "Federal agency guide",
+      "year": "2024",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-13",
+      "scope": "Insured and uninsured products; $250,000 limit",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "May 2024 file; rules current as published.",
+      "verified": true
+    },
+    {
+      "url": "https://www.fdic.gov/resources/bankers/national-rates/",
+      "title": "National Rates and Rate Caps, October 2026",
+      "publisher": "FDIC",
+      "source_type": "Federal agency data",
+      "year": "2026",
+      "published_at": "2026-10-19",
+      "accessed_at": "2026-11-13",
+      "scope": "National deposit rates by product",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Deposit-weighted averages; data as of last business day of September 2026.",
+      "verified": true
+    },
+    {
+      "url": "https://fred.stlouisfed.org/series/WRMFNS",
+      "title": "Retail Money Market Funds (WRMFNS)",
+      "publisher": "Federal Reserve via FRED",
+      "source_type": "Official statistics",
+      "year": "2026",
+      "published_at": "2026-10-05",
+      "accessed_at": "2026-11-13",
+      "scope": "Weekly retail MMF assets, billions, NSA",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://fred.stlouisfed.org/series/MMMFFAQ027S",
+      "title": "Money Market Funds; Total Financial Assets (MMMFFAQ027S)",
+      "publisher": "Federal Reserve via FRED",
+      "source_type": "Official statistics",
+      "year": "2026",
+      "published_at": "2026-04-01",
+      "accessed_at": "2026-11-13",
+      "scope": "Quarterly MMF total financial assets, millions",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Q2 2026 observation.",
+      "verified": true
+    },
+    {
+      "url": "https://www.ici.org/news-release/mutual-fund-and-etf-fees-remained-near-historic-lows-in-2025",
+      "title": "Mutual Fund and ETF Fees Remained Near Historic Lows in 2025",
+      "publisher": "Investment Company Institute",
+      "source_type": "Industry association research",
+      "year": "2026",
+      "published_at": "2026-03-25",
+      "accessed_at": "2026-11-13",
+      "scope": "2025 money market fund expense ratio",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Read via web fetch.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "FDIC national rates: checking 0.07%, savings 0.38%, MMDA 0.63%, 6m CD 1.39%, 12m CD 1.76%",
+      "source_url": "https://www.fdic.gov/resources/bankers/national-rates/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Retail MMF assets $3,037.0B week of Oct 5, 2026",
+      "source_url": "https://fred.stlouisfed.org/series/WRMFNS",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD billions",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "All MMF total financial assets about $8.44T Q2 2026",
+      "source_url": "https://fred.stlouisfed.org/series/MMMFFAQ027S",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "MMF asset-weighted expense ratio 0.24% in 2025, 0.22% in 2024",
+      "source_url": "https://www.ici.org/news-release/mutual-fund-and-etf-fees-remained-near-historic-lows-in-2025",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Money Market Mutual Funds vs. Money Market Accounts (Ironwood)",
+      "url": "https://ironwoodwm.com/what-is-a-money-market-account-vs-money-market-mutual-fund/",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "money market account vs money market fund"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors rarely give dated national rates or fund asset totals and often blur deposit and fund."
+    },
+    {
+      "title": "Savings Account vs. Money Market Accounts (Chase)",
+      "url": "https://www.chase.com/personal/banking/education/budgeting-saving/savings-account-vs-money-market",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "money market account vs money market fund"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors rarely give dated national rates or fund asset totals and often blur deposit and fund."
+    },
+    {
+      "title": "Money market funds vs. savings accounts (Canada Life)",
+      "url": "https://www.canadalife.com/investing-saving/saving/money-market-funds-vs-savings-accounts.html",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "money market account vs money market fund"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors rarely give dated national rates or fund asset totals and often blur deposit and fund."
+    },
+    {
+      "title": "FDIC Deposit Insurance at a Glance",
+      "url": "https://www.fdic.gov/sites/default/files/2024-05/deposit-insurance-at-a-glance-english.pdf",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "money market account vs money market fund"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors rarely give dated national rates or fund asset totals and often blur deposit and fund."
+    },
+    {
+      "title": "FDIC National Rates",
+      "url": "https://www.fdic.gov/resources/bankers/national-rates/",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "money market account vs money market fund"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors rarely give dated national rates or fund asset totals and often blur deposit and fund."
+    }
+  ],
+  "content_gaps": [
+    "Dated FDIC national rates",
+    "Fund asset totals",
+    "Fee inside fund yield",
+    "Tax treatment by fund type"
+  ],
+  "value_add": [
+    "Side-by-side insurance table from FDIC",
+    "Dated rate and asset tables",
+    "Labeled yield example"
+  ],
+  "plan": {
+    "reader_title": "Money Market Account vs Money Market Fund: Insurance, Yield and Access",
+    "seo_title": "Money Market Account vs Money Market Fund in 2026",
+    "meta_description": "Money market account vs money market fund compared with FDIC national rates, FRED fund asset data and ICI fees, plus who insures each and how to read the yields.",
+    "slug": "/money-banking/money-market-account-vs-money-market-fund/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "money market deposit account",
+      "money market mutual fund",
+      "is a money market fund fdic insured",
+      "money market account vs fund"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "What Is a Money Market Deposit Account?",
+      "What Is a Money Market Fund?",
+      "Is a Money Market Fund FDIC Insured?",
+      "What Do the Latest Rate Figures Show?",
+      "How Much Money Sits in Money Market Funds?",
+      "Which Pays More?",
+      "How Fast Can You Get the Money?",
+      "Taxes on Each Product",
+      "How These Fit a Wider Cash Plan",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Insurance: FDIC guide",
+      "Rates: FDIC national rates",
+      "Assets: FRED",
+      "Fees: ICI"
+    ],
+    "visuals": [
+      "Owner-supplied featured image",
+      "Three tables"
+    ],
+    "internal_links": [
+      "/money-banking/saving-vs-investing/",
+      "/money-banking/high-yield-savings-account-vs-cd/",
+      "/money-banking/high-yield-savings-vs-money-market-account/"
+    ],
+    "external_link_opportunities": [
+      "https://www.fdic.gov/sites/default/files/2024-05/deposit-insurance-at-a-glance-english.pdf",
+      "https://www.fdic.gov/resources/bankers/national-rates/",
+      "https://fred.stlouisfed.org/series/WRMFNS"
+    ],
+    "excluded_claims": [
+      "Owner draft reframed from MMDA vs HYSA to MMDA vs MMF to avoid overlap with S58",
+      "No live bank or fund offers named"
+    ],
+    "drafting_cautions": [
+      "No buy, sell or hold recommendation",
+      "Hypothetical examples labeled",
+      "Dates and populations stated"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "FDIC lists MMDAs as insured deposit products and mutual funds as not insured",
+      "source_url": "https://www.fdic.gov/sites/default/files/2024-05/deposit-insurance-at-a-glance-english.pdf",
+      "verified": true
+    },
+    {
+      "statement": "Standard coverage $250,000 per depositor per insured bank per ownership category",
+      "source_url": "https://www.fdic.gov/sites/default/files/2024-05/deposit-insurance-at-a-glance-english.pdf",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-13",
+    "note": "FDIC rates and FRED observations read directly on 2026-11-13; ICI figure from the verified 2025 release; example arithmetic recomputed.",
+    "notes": "AI QA layer complete; owner approved 2026-11-13."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-13",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; owner approved 2026-11-13."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-13",
+    "summary": "FDIC rates and FRED observations read directly on 2026-11-13; ICI figure from the verified 2025 release; example arithmetic recomputed.",
+    "pending": "None; owner approved 2026-11-13."
+  }
+}
