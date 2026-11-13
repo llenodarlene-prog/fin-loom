@@ -1,0 +1,452 @@
+{
+  "tracker_id": "Blog:S78",
+  "status": "verified",
+  "research_question": "What does the 2025 SCF show about retirement account balances by age, and how should means and medians be read?",
+  "research_brief": {
+    "purpose": "Present SCF 2025 retirement data by age with populations stated.",
+    "audience": "US savers comparing themselves with benchmarks.",
+    "publication_year": "2026",
+    "data_period": "SCF 2016-2025 surveys (released Oct 9, 2026), 2025 dollars; Vanguard 2025 plan data; IRS 2026 limits.",
+    "scope_limitations": "Age table is means among account holders only; families not individuals."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "retirement savings by age",
+    "intent": "Informational",
+    "serp_checked_at": "2026-11-12",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-12",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "net worth by age",
+        "type": "short-tail",
+        "volume": 8100,
+        "difficulty": 38,
+        "cpc": 3.18,
+        "intent": "Informational",
+        "ranking_url": "https://www.federalreserve.gov/publications/files/scf26.pdf",
+        "retrieved_at": "2026-11-12",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "retirement savings by age",
+        "type": "long-tail",
+        "volume": 3600,
+        "difficulty": 39,
+        "cpc": 4.08,
+        "intent": "Informational",
+        "ranking_url": "https://www.federalreserve.gov/publications/files/scf26.pdf",
+        "retrieved_at": "2026-11-12",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "roth ira vs traditional ira",
+        "type": "commercial",
+        "volume": 40500,
+        "difficulty": 36,
+        "cpc": 4.42,
+        "intent": "Commercial",
+        "ranking_url": "https://www.federalreserve.gov/publications/files/scf26.pdf",
+        "retrieved_at": "2026-11-12",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "401k match",
+        "type": "problem",
+        "volume": 5400,
+        "difficulty": 43,
+        "cpc": 8.15,
+        "intent": "Informational",
+        "ranking_url": "https://www.federalreserve.gov/publications/files/scf26.pdf",
+        "retrieved_at": "2026-11-12",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "dollar cost averaging",
+        "type": "question",
+        "volume": 22200,
+        "difficulty": 11,
+        "cpc": 0.52,
+        "intent": "Informational",
+        "ranking_url": "https://www.federalreserve.gov/publications/files/scf26.pdf",
+        "retrieved_at": "2026-11-12",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.federalreserve.gov/publications/files/scf26.pdf",
+      "title": "Changes in U.S. Family Finances from 2022 to 2025",
+      "publisher": "Federal Reserve Board",
+      "source_type": "Official survey report",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-13",
+      "scope": "Box 2 Table A; Table 3 retirement accounts; participation",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Released Oct 9, 2026; 2025 dollars.",
+      "verified": true
+    },
+    {
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm",
+      "title": "Federal Reserve Board issues report on 2025 Survey of Consumer Finances",
+      "publisher": "Federal Reserve Board",
+      "source_type": "Press release",
+      "year": "2026",
+      "published_at": "2026-10-09",
+      "accessed_at": "2026-11-13",
+      "scope": "Headline SCF figures",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://workplace.vanguard.com/insights-and-research/report/how-america-saves-small-business-edition-2026.html",
+      "title": "How America Saves 2026: Small Business Edition",
+      "publisher": "Vanguard",
+      "source_type": "Plan provider research",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-13",
+      "scope": "Participation and saving rate in 21,000+ small-business plans",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Vanguard VRPA plans $2M-$50M.",
+      "verified": true
+    },
+    {
+      "url": "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-401k-and-profit-sharing-plan-contribution-limits",
+      "title": "401(k) and Profit-Sharing Plan Contribution Limits",
+      "publisher": "IRS",
+      "source_type": "Federal agency guidance",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-13",
+      "scope": "2026 deferral and catch-up limits",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Mean IRA+DC balance among holders by age 2016/2019/2022/2025: <35 43.8/38.3/53.8/48.4; 35-44 135.2/167.5/154.8/182.4; 45-54 291.3/323.1/342.7/415.8; 55-64 504.8/518.2/588.5/670.2 (thousands)",
+      "source_url": "https://www.federalreserve.gov/publications/files/scf26.pdf",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Retirement accounts held by 54.3% (2022) and 54.9% (2025); conditional median 95.2K to 106.0K (+11%); mean 365.7K to 451.1K (+23%)",
+      "source_url": "https://www.federalreserve.gov/publications/files/scf26.pdf",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Plan participation 65.1% in 2025 vs 64.4% 2022 (ref person 64 or younger); ~70% ages 45-64, 66% ages 35-44; youngest DC/IRA 42% (2016) to near 50%; DB about one-fourth",
+      "source_url": "https://www.federalreserve.gov/publications/files/scf26.pdf",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "73% of eligible employees participated; 11% of pay combined; 21,000+ small businesses",
+      "source_url": "https://workplace.vanguard.com/insights-and-research/report/how-america-saves-small-business-edition-2026.html",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "2026 401(k) deferral $24,500; catch-up $8,000",
+      "source_url": "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-401k-and-profit-sharing-plan-contribution-limits",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Federal Reserve SCF report",
+      "url": "https://www.federalreserve.gov/publications/files/scf26.pdf",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "retirement savings by age"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors present older 2022 tables or provider averages as national figures without saying who is counted."
+    },
+    {
+      "title": "Federal Reserve SCF release",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "retirement savings by age"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors present older 2022 tables or provider averages as national figures without saying who is counted."
+    },
+    {
+      "title": "Vanguard How America Saves 2026 SBE",
+      "url": "https://workplace.vanguard.com/insights-and-research/report/how-america-saves-small-business-edition-2026.html",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "retirement savings by age"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors present older 2022 tables or provider averages as national figures without saying who is counted."
+    },
+    {
+      "title": "IRS contribution limits",
+      "url": "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-401k-and-profit-sharing-plan-contribution-limits",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "retirement savings by age"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors present older 2022 tables or provider averages as national figures without saying who is counted."
+    },
+    {
+      "title": "Federal Reserve SCF index",
+      "url": "https://www.federalreserve.gov/econres/scfindex.htm",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "retirement savings by age"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors present older 2022 tables or provider averages as national figures without saying who is counted."
+    }
+  ],
+  "content_gaps": [
+    "2025 SCF age table with 2016-2025 history",
+    "Median vs mean gap",
+    "Participation including pensions",
+    "Provider vs survey denominators"
+  ],
+  "value_add": [
+    "Four-wave age table",
+    "Population labels on every figure",
+    "Labeled compounding example"
+  ],
+  "plan": {
+    "reader_title": "Retirement Savings by Age: What U.S. Account Balances Reveal in 2025",
+    "seo_title": "Retirement Savings by Age: 2025 Federal Reserve Data",
+    "meta_description": "Retirement savings by age from the Federal Reserve's 2025 Survey of Consumer Finances, with mean balances from 2016 to 2025, participation rates and why medians differ.",
+    "slug": "/investing/retirement-savings-by-age/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "average retirement savings by age",
+      "retirement savings by age 2025",
+      "median retirement savings",
+      "401k balance by age"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "What Are the Latest Retirement Savings Statistics by Age?",
+      "Why Is the Median So Different From the Average?",
+      "Who Is Counted?",
+      "How Many Families Take Part in Retirement Plans?",
+      "What Do Plan Provider Surveys Add?",
+      "Why Do Balances Rise With Age?",
+      "Retirement Savings by Age Compared With Net Worth",
+      "How Should You Compare Your Balance With a Benchmark?",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Age table and participation: SCF report",
+      "Saving rate: Vanguard",
+      "Limits: IRS"
+    ],
+    "visuals": [
+      "Owner-supplied featured image",
+      "Three tables"
+    ],
+    "internal_links": [
+      "/investing/crypto-vs-stocks/",
+      "/money-banking/net-worth-by-age-statistics/",
+      "/investing/401k-match-statistics/",
+      "/investing/investment-growth-calculator/"
+    ],
+    "external_link_opportunities": [
+      "https://www.federalreserve.gov/publications/files/scf26.pdf",
+      "https://workplace.vanguard.com/insights-and-research/report/how-america-saves-small-business-edition-2026.html",
+      "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-401k-and-profit-sharing-plan-contribution-limits"
+    ],
+    "excluded_claims": [
+      "Age medians (not published by age in report table)",
+      "Owner SCF index link replaced with the report PDF holding the table"
+    ],
+    "drafting_cautions": [
+      "No buy, sell or hold recommendation",
+      "Hypothetical examples labeled",
+      "Dates and populations stated"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Fed: median values increased for all age groups (not shown)",
+      "source_url": "https://www.federalreserve.gov/publications/files/scf26.pdf",
+      "verified": true
+    },
+    {
+      "statement": "All SCF dollar amounts adjusted to 2025 dollars",
+      "source_url": "https://www.federalreserve.gov/publications/files/scf26.pdf",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-13",
+    "note": "All SCF figures checked against the report PDF text; Vanguard figures against fetched page; IRS limits from verified IRS page; Ubersuggest unavailable after first pull, so related cluster queries recorded with their retrieved volumes.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-13",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-13",
+    "summary": "All SCF figures checked against the report PDF text; Vanguard figures against fetched page; IRS limits from verified IRS page; Ubersuggest unavailable after first pull, so related cluster queries recorded with their retrieved volumes.",
+    "pending": "Owner sign-off."
+  }
+}

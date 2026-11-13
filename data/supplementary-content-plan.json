@@ -1368,6 +1368,24 @@
       "scheduled_publish": "2026-11-22",
       "min_words": 2500,
       "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S78",
+      "working_title": "Retirement Savings by Age: What U.S. Account Balances Reveal in 2025",
+      "primary_keyword": "retirement savings by age",
+      "secondary_keywords": "average retirement savings by age; retirement savings by age 2025; median retirement savings; 401k balance by age",
+      "cluster": "Investing",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/investing/retirement-savings-by-age/",
+      "seo_title": "Retirement Savings by Age: 2025 Federal Reserve Data",
+      "meta_description": "Retirement savings by age from the Federal Reserve's 2025 Survey of Consumer Finances, with mean balances from 2016 to 2025, participation rates and why medians differ.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-23",
+      "min_words": 2500,
+      "no_word_ceiling": true
     }
   ],
   "links": [
@@ -2403,6 +2421,20 @@
       ],
       "silo_role": "Supporting",
       "pillar": "/money-banking/saving-vs-investing/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S78",
+      "url_slug": "/investing/retirement-savings-by-age/",
+      "primary_silo_hub": "/investing/",
+      "approved_outbound_targets": [
+        "/investing/401k-match-statistics/",
+        "/investing/crypto-vs-stocks/",
+        "/investing/investment-growth-calculator/",
+        "/money-banking/net-worth-by-age-statistics/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/investing/crypto-vs-stocks/"
     }
   ]
 }
