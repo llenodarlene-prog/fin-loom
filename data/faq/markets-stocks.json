@@ -1,0 +1,234 @@
+{
+  "slug": "/markets-stocks/faqs/",
+  "eyebrow": "Markets & Stocks FAQs",
+  "heading": "Markets and Stocks Questions, Answered",
+  "intro": [
+    "Straight answers on how stocks are valued, how market swings are measured, and how screening works. They draw on FINRA investor guidance, Federal Reserve History and FRED market data.",
+    "Read the short answer under each question. Open it for the formula, the example, and the fine print."
+  ],
+  "updated": "2026-11-13",
+  "reviewer": "Darlene Aberin",
+  "search_label": "Search markets and stocks questions",
+  "tools_heading": "Related Tools and Reading",
+  "tools_icon": "chart-candle",
+  "popular": [
+    "what-pe",
+    "what-eps",
+    "correction-vs-bear",
+    "market-cap"
+  ],
+  "topics": [
+    {
+      "id": "valuation",
+      "name": "Valuation and Earnings",
+      "icon": "scale",
+      "intro": "The ratios investors use to compare companies of different sizes, and what each one leaves out.",
+      "questions": [
+        {
+          "id": "what-eps",
+          "q": "What is earnings per share (EPS)?",
+          "a": [
+            "EPS is a company's profit divided by its number of shares. It lets you compare the results of companies of different sizes on a per-share basis.",
+            "FINRA's example: a company with $100 million of net income and 50 million common shares has EPS of $2. If the share count changed during the period, the weighted-average number of shares is used. The guide to [calculating earnings per share](/markets-stocks/how-to-calculate-earnings-per-share/) walks through a real example."
+          ]
+        },
+        {
+          "id": "basic-diluted",
+          "q": "What is the difference between basic and diluted EPS?",
+          "a": [
+            "Basic EPS divides net income by the common shares outstanding. Diluted EPS also counts shares that could be created from options, warrants, convertible bonds and similar instruments.",
+            "Because diluted EPS uses a larger share count, FINRA notes it is typically lower than basic EPS. Companies usually report both at the bottom of the income statement."
+          ]
+        },
+        {
+          "id": "what-pe",
+          "q": "What is the P/E ratio?",
+          "a": [
+            "The price-to-earnings ratio is a stock's price divided by its EPS. It shows how much investors are paying for each dollar of a company's earnings.",
+            "FINRA's example: a $100 stock with $5 of EPS has a P/E of 20. A higher P/E can mean a stock is relatively expensive compared with its earnings, but ratios vary a lot by industry, so compare companies within the same industry."
+          ]
+        },
+        {
+          "id": "ps-ratio",
+          "q": "When is the price-to-sales ratio useful?",
+          "a": [
+            "The P/S ratio divides a company's market value by its revenue. Because it ignores profit, FINRA notes it can help when a company has not made a profit yet.",
+            "A low P/S ratio does not mean a company is cheap if it may never earn a profit. Use it alongside measures of margins and cash flow."
+          ]
+        },
+        {
+          "id": "debt-equity",
+          "q": "What does the debt-to-equity ratio show?",
+          "a": [
+            "It divides a company's total liabilities by its shareholder equity. FINRA describes it as a way to see how much a company relies on debt to fund its operations.",
+            "A higher ratio means more borrowing relative to equity. That can raise returns in good years and deepen losses in bad ones, so compare it with industry peers."
+          ]
+        },
+        {
+          "id": "where-financials",
+          "q": "Where can I find a company's financial results?",
+          "a": [
+            "U.S. public companies file a quarterly report called the 10-Q and an audited annual report called the 10-K. FINRA notes both include an income statement and a discussion of the risks the business faces.",
+            "FinLoom's guide to [stock analysis fundamentals](/markets-stocks/stock-analysis-fundamentals/) explains how to read those statements and which numbers to compare over time."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "market-moves",
+      "name": "Market Swings and Cycles",
+      "icon": "trending-down",
+      "intro": "How corrections, bear markets and crashes are defined, and what the safeguards do.",
+      "questions": [
+        {
+          "id": "correction-vs-bear",
+          "q": "What is the difference between a correction and a bear market?",
+          "a": [
+            "FINRA describes a correction as a reversal of at least 10% and says a decline of 20% or more in a broad market index generally meets the threshold of a bear market.",
+            "Both are measured from a recent high, not from the previous day. The guide to [bear vs bull markets](/markets-stocks/bear-vs-bull-market/) covers how each cycle has played out."
+          ]
+        },
+        {
+          "id": "what-crash",
+          "q": "Is there an official definition of a stock market crash?",
+          "a": [
+            "No. A crash usually describes a very sudden, steep drop over one or a few days, but there is no fixed percentage. Corrections and bear markets have common thresholds; crashes do not.",
+            "On October 19, 1987, the Dow fell 22.6% in a single session, according to Federal Reserve History. The [stock market crash history](/markets-stocks/stock-market-crash-history-statistics/) compares past episodes by what was measured."
+          ]
+        },
+        {
+          "id": "circuit-breakers",
+          "q": "What are market-wide circuit breakers?",
+          "a": [
+            "They are trading halts triggered by large one-day falls in the S&P 500. FINRA explains that a 7% drop (Level 1) or 13% drop (Level 2) before 3:25 p.m. halts trading across stock and futures exchanges for 15 minutes.",
+            "A 20% drop (Level 3) halts trading for the rest of the day. The halts were developed after the 1987 crash to give investors time to take in information."
+          ]
+        },
+        {
+          "id": "what-vix",
+          "q": "What does the VIX measure?",
+          "a": [
+            "The Cboe Volatility Index measures near-term volatility implied by S&P 500 option prices. It is annualized and does not show whether stocks will rise or fall.",
+            "On November 5, 2026, the VIX closed at 28.18, up from 16.61 the day before, according to FRED. The [VIX index statistics](/markets-stocks/vix-index-statistics-2026/) explain how to read a spike."
+          ]
+        },
+        {
+          "id": "margin-call",
+          "q": "What is a margin call?",
+          "a": [
+            "If you borrow from your broker to buy securities, the loan is backed by your holdings. FINRA explains that if prices fall far enough, the firm can require you to deposit more cash or securities.",
+            "Margin calls tend to cluster during corrections and bear markets, when prices fall quickly. If you cannot meet one, the firm may sell your holdings."
+          ]
+        },
+        {
+          "id": "panic-selling",
+          "q": "Why do investors warn against panic selling?",
+          "a": [
+            "FINRA describes panic selling as offloading large amounts of shares out of fear, without careful analysis. Widespread selling usually pushes prices lower.",
+            "Selling after a sharp fall can lock in a loss. Decisions made from a written plan, set in calmer conditions, tend to be less driven by headlines."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "size-screening",
+      "name": "Company Size and Screening",
+      "icon": "search",
+      "intro": "How market cap is calculated, how index weighting works, and what screeners can and cannot do.",
+      "questions": [
+        {
+          "id": "market-cap",
+          "q": "How is market capitalization calculated?",
+          "a": [
+            "Market cap is a company's shares outstanding multiplied by its share price. FINRA's example: 5 million shares at $20 gives a market cap of $100 million.",
+            "Share price alone does not show size. Two companies at $50 a share can differ a thousand times in value if one has 5 million shares and the other 5 billion. See the [companies with the biggest market caps](/markets-stocks/companies-with-biggest-market-caps/)."
+          ]
+        },
+        {
+          "id": "cap-weighted",
+          "q": "What does it mean that the S&P 500 is market-cap weighted?",
+          "a": [
+            "Larger companies count for more of the index. FINRA notes the S&P 500 is weighted by market cap, so a move in a very large company affects the index more than the same move in a small one.",
+            "In October 2026, the S&P 500 fell 0.9% while its equal-weight version rose 5.0%, according to Janus Henderson. The [Magnificent Seven statistics](/markets-stocks/magnificent-seven-2026-selloff-statistics/) show why."
+          ]
+        },
+        {
+          "id": "large-small-cap",
+          "q": "Are large-cap stocks less risky than small-cap stocks?",
+          "a": [
+            "Generally, FINRA says large-cap companies tend to be less vulnerable to market swings than mid-caps, and mid-caps less than small-caps, partly because larger companies often have bigger financial reserves.",
+            "That is a tendency, not a guarantee. Any single large company can fall sharply, and small companies can grow faster in strong economies."
+          ]
+        },
+        {
+          "id": "what-screener",
+          "q": "What does a stock screener do?",
+          "a": [
+            "A screener filters a large list of stocks by criteria you choose, such as market cap, P/E or dividend yield. It narrows the field; it does not tell you whether a company is a good investment.",
+            "The [stock screener metrics guide](/markets-stocks/stock-screener-metrics-guide/) explains which filters help and which can mislead."
+          ]
+        },
+        {
+          "id": "breadth",
+          "q": "What is market breadth?",
+          "a": [
+            "Market breadth measures how many stocks take part in a market move. Common measures include advancing versus declining stocks and the share of stocks above their moving averages.",
+            "Strong breadth means gains are widely shared; weak breadth means a few large stocks are driving the index. The [market breadth statistics](/markets-stocks/market-breadth-statistics-2026/) show an October 2026 example."
+          ]
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "title": "Stock Average Calculator",
+      "url": "/markets-stocks/stock-average-calculator/",
+      "icon": "calculator"
+    },
+    {
+      "title": "Stock Profit Calculator",
+      "url": "/markets-stocks/stock-profit-calculator/",
+      "icon": "trending-up"
+    },
+    {
+      "title": "Stock Analysis Fundamentals",
+      "url": "/markets-stocks/stock-analysis-fundamentals/",
+      "icon": "book"
+    },
+    {
+      "title": "Stock Market Crash History",
+      "url": "/markets-stocks/stock-market-crash-history-statistics/",
+      "icon": "chart-line"
+    }
+  ],
+  "sources": [
+    [
+      "FINRA: Evaluating Stocks",
+      "https://www.finra.org/investors/investing/investment-products/stocks/evaluating-stocks"
+    ],
+    [
+      "FINRA: Financial Performance Metrics Every Investor Should Know",
+      "https://www.finra.org/investors/insights/financial-performance-metrics-every-investor-should-know"
+    ],
+    [
+      "FINRA: Key Terms for Tough Times",
+      "https://www.finra.org/investors/insights/key-terms-tough-times-vocabulary-stressed-markets"
+    ],
+    [
+      "FINRA: Market Cap Explained",
+      "https://www.finra.org/investors/insights/market-cap"
+    ],
+    [
+      "Federal Reserve History: Stock Market Crash of 1987",
+      "https://www.federalreservehistory.org/essays/stock-market-crash-of-1987"
+    ],
+    [
+      "FRED: CBOE Volatility Index (VIXCLS)",
+      "https://fred.stlouisfed.org/series/VIXCLS"
+    ],
+    [
+      "Janus Henderson: Market moves and themes, October 2026",
+      "https://www.janushenderson.com/en-us/advisor/article/market-moves-themes-that-mattered-october-2026/"
+    ]
+  ]
+}

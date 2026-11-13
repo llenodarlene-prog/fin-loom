@@ -1,0 +1,206 @@
+{
+  "slug": "/fintech/faqs/",
+  "eyebrow": "Fintech FAQs",
+  "heading": "Fintech Questions, Answered",
+  "intro": [
+    "Straight answers on banking through apps, payment app balances, robo-advisers and buy now, pay later loans. They draw on FDIC, CFPB and FINRA guidance.",
+    "Read the short answer under each question. Open it for the rules, the risks, and what to check before you sign up."
+  ],
+  "updated": "2026-11-13",
+  "reviewer": "Darlene Aberin",
+  "search_label": "Search fintech questions",
+  "tools_heading": "Related Tools and Reading",
+  "tools_icon": "sparkles",
+  "popular": [
+    "fintech-insured",
+    "payment-app-safe",
+    "what-robo",
+    "what-bnpl"
+  ],
+  "topics": [
+    {
+      "id": "digital-banking",
+      "name": "Digital Banking and Apps",
+      "icon": "building-bank",
+      "intro": "How deposit insurance works when you bank through a technology company instead of directly with a bank.",
+      "questions": [
+        {
+          "id": "what-fintech",
+          "q": "What is a fintech company?",
+          "a": [
+            "The FDIC describes fintechs as technology companies that provide financial services, often online or through mobile apps. Some partner with banks; others do not.",
+            "Whether a bank is involved, and how, decides whether your money can be covered by deposit insurance. Read the app's terms to find out."
+          ]
+        },
+        {
+          "id": "fintech-insured",
+          "q": "Is money in a fintech app FDIC insured?",
+          "a": [
+            "It depends. The FDIC says nonbank companies themselves are never FDIC insured. Your funds become eligible only after the company deposits them at an FDIC-insured bank and other conditions are met.",
+            "Even then, insurance covers the failure of the bank, not the failure of the app company. The FDIC notes that recovering money from a failed nonbank may take time through a bankruptcy process."
+          ]
+        },
+        {
+          "id": "pass-through",
+          "q": "What is pass-through deposit insurance?",
+          "a": [
+            "When a company places customer money at a bank in one account, coverage can pass through to each customer. The FDIC says records must identify who owns the money and how much each person owns.",
+            "If those conditions are not met, coverage may not reach individual customers as expected. Check which bank holds your money and how the app describes its coverage."
+          ]
+        },
+        {
+          "id": "neobank",
+          "q": "Is a neobank the same as a bank?",
+          "a": [
+            "Not necessarily. Many app-based financial companies that call themselves neobanks are not banks; they partner with chartered banks to hold deposits.",
+            "The FDIC's crypto fact sheet lists neobanks among the nonbank entities whose failure FDIC insurance does not cover. Look up the partner bank to confirm where your deposits sit."
+          ]
+        },
+        {
+          "id": "check-bank",
+          "q": "How do I check which bank holds my money?",
+          "a": [
+            "The FDIC advises identifying the specific FDIC-insured bank or banks where an app says it will deposit your funds, then confirming that bank is insured.",
+            "The app's disclosures or terms of service usually name the partner bank. If they do not, ask the company before keeping a large balance there."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "payment-apps",
+      "name": "Payment Apps",
+      "icon": "wallet",
+      "intro": "What happens to money you leave in a peer-to-peer payment app, and how to keep it protected.",
+      "questions": [
+        {
+          "id": "payment-app-safe",
+          "q": "Is the money I keep in a payment app safe?",
+          "a": [
+            "The CFPB says FDIC insurance generally does not apply to money sitting in a payment app unless you have signed up for additional services from the app.",
+            "If the app company fails and your balance is not insured, the CFPB warns you might not get your money back, or not in the guaranteed way a bank failure allows."
+          ]
+        },
+        {
+          "id": "payment-app-protect",
+          "q": "How can I protect money I receive in a payment app?",
+          "a": [
+            "The CFPB suggests a simple step: move money you receive out of the app promptly and into an insured bank, credit union or card account.",
+            "Use the app to send and receive, not to store. That keeps your balance in an account covered by FDIC or NCUA insurance."
+          ]
+        },
+        {
+          "id": "payment-app-insurance",
+          "q": "Do some payment apps offer FDIC insurance on balances?",
+          "a": [
+            "Some do, with conditions. The CFPB says certain apps require you to sign up for direct deposit, register the account, use the app's own card or take another step before a balance is insured.",
+            "Coverage rules differ by app. Review your app's terms to see exactly what triggers insurance and which bank holds the funds."
+          ]
+        },
+        {
+          "id": "p2p-vs-wire",
+          "q": "How is a payment app different from a wire transfer?",
+          "a": [
+            "A payment app is a consumer service run by a company, usually linked to your bank or card. A wire is a bank-to-bank transfer, often over the Federal Reserve's Fedwire service.",
+            "Wires are generally final once processed. The guides to [what a wire transfer is](/payments/what-is-a-wire-transfer/) and [ACH vs wire transfers](/payments/ach-vs-wire-transfer/) explain the differences."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "investing-credit-apps",
+      "name": "Robo-Advisers and BNPL",
+      "icon": "sparkles",
+      "intro": "Automated investing services and short-term installment loans offered through apps and checkout pages.",
+      "questions": [
+        {
+          "id": "what-robo",
+          "q": "What is a robo-adviser?",
+          "a": [
+            "FINRA describes robo-advisers as services that use an algorithm to build and manage a portfolio based on an online assessment of your goals, risk tolerance, time horizon and finances.",
+            "Robo-advisers typically cost less than full-service advisers but may offer less personal support. Some firms offer hybrid services with access to a human adviser."
+          ]
+        },
+        {
+          "id": "robo-vs-human",
+          "q": "Should I choose a robo-adviser or a human adviser?",
+          "a": [
+            "It depends on the help you want. FINRA suggests weighing the level of service, the investments offered and the fees, which vary by firm and account type.",
+            "A simple goal, such as investing a set amount each month in a diversified portfolio, may suit automation. Complex tax or estate questions often call for a person."
+          ]
+        },
+        {
+          "id": "what-bnpl",
+          "q": "What is a buy now, pay later loan?",
+          "a": [
+            "The CFPB describes BNPL as an installment loan that lets you buy something now with little or no upfront payment and pay the rest in four or fewer payments.",
+            "A common plan splits the cost into four interest-free payments every two weeks. Unlike a credit card, your creditworthiness may be checked each time you use one."
+          ]
+        },
+        {
+          "id": "bnpl-fees",
+          "q": "Do buy now, pay later loans charge fees?",
+          "a": [
+            "Many BNPL loans charge no interest, but the CFPB notes most do charge late fees for missed payments.",
+            "Before agreeing, check the loan documents for fees and make sure you can afford each payment on its due date. Several BNPL loans at once can be hard to track."
+          ]
+        },
+        {
+          "id": "dao",
+          "q": "What is a DAO?",
+          "a": [
+            "FINRA describes a DAO as a collectively owned organization that runs on a blockchain, with governance and decisions automated and enforced by software.",
+            "Token holders often vote on proposals, but voting power can be concentrated. The guide to [DAO governance and DeFi](/fintech/dao-governance/) explains what token voting controls."
+          ]
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "title": "Best Investment Apps",
+      "url": "/investing/best-investment-apps/",
+      "icon": "chart-line"
+    },
+    {
+      "title": "Best Budgeting Apps",
+      "url": "/money-banking/best-budgeting-apps/",
+      "icon": "wallet"
+    },
+    {
+      "title": "Credit Union vs Bank",
+      "url": "/money-banking/credit-union-vs-bank/",
+      "icon": "building-bank"
+    },
+    {
+      "title": "DAO Governance and DeFi",
+      "url": "/fintech/dao-governance/",
+      "icon": "users"
+    }
+  ],
+  "sources": [
+    [
+      "FDIC: Banking With Third-Party Apps",
+      "https://www.fdic.gov/consumer-resource-center/2024-06/banking-third-party-apps"
+    ],
+    [
+      "FDIC: What the Public Needs to Know About FDIC Deposit Insurance and Crypto Companies",
+      "https://www.fdic.gov/news/fact-sheets/crypto-fact-sheet-7-28-22.html"
+    ],
+    [
+      "CFPB: Is the money I keep in my payment app safe?",
+      "https://www.consumerfinance.gov/ask-cfpb/is-the-money-i-keep-in-my-payment-app-safe-en-2135/"
+    ],
+    [
+      "CFPB: What is a Buy Now, Pay Later (BNPL) loan?",
+      "https://www.consumerfinance.gov/ask-cfpb/what-is-a-buy-now-pay-later-bnpl-loan-en-2119/"
+    ],
+    [
+      "FINRA: Getting Started as an Investor",
+      "https://www.finra.org/investors/insights/getting-started-investing"
+    ],
+    [
+      "FINRA: Crypto Assets Key Terms",
+      "https://www.finra.org/investors/investing/investment-products/crypto-assets/key-terms"
+    ]
+  ]
+}
