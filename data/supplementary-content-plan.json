@@ -1296,6 +1296,24 @@
       "scheduled_publish": "2026-11-20",
       "min_words": 2500,
       "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S74",
+      "working_title": "Money Market Account vs Money Market Fund: Insurance, Yield and Access",
+      "primary_keyword": "money market account vs money market fund",
+      "secondary_keywords": "money market deposit account; money market mutual fund; is a money market fund fdic insured; money market account vs fund",
+      "cluster": "Money & Banking",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/money-banking/money-market-account-vs-money-market-fund/",
+      "seo_title": "Money Market Account vs Money Market Fund in 2026",
+      "meta_description": "Money market account vs money market fund compared with FDIC national rates, FRED fund asset data and ICI fees, plus who insures each and how to read the yields.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft (post 3) reframed to money market account vs fund; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-21",
+      "min_words": 2500,
+      "no_word_ceiling": true
     }
   ],
   "links": [
@@ -2276,6 +2294,19 @@
       ],
       "silo_role": "Supporting",
       "pillar": "/investing/crypto-vs-stocks/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S74",
+      "url_slug": "/money-banking/money-market-account-vs-money-market-fund/",
+      "primary_silo_hub": "/money-banking/",
+      "approved_outbound_targets": [
+        "/money-banking/high-yield-savings-account-vs-cd/",
+        "/money-banking/high-yield-savings-vs-money-market-account/",
+        "/money-banking/saving-vs-investing/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/money-banking/saving-vs-investing/"
     }
   ]
 }
