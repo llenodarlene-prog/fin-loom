@@ -32,6 +32,11 @@ To place a tool on a page, add a fenced block containing its id, for example ```
 | 1099 Tax | `/money-banking/1099-tax-calculator/` | SE tax plus the income-tax increase after half the SE tax and the 2026 standard deduction. Shows a set-aside %, with quarterly figures as total ÷ 4. QBI is not modeled. |
 | Stock Average Cost | `/markets-stocks/stock-average-calculator/` | Average cost = Σ(shares × price + fees) ÷ Σ shares. Takes 2 to 50 purchase rows. An optional current price gives the gain or loss and break-even price. |
 | Stock Profit | `/markets-stocks/stock-profit-calculator/` | Net profit = (sell × shares − sell fees) − (buy × shares + buy fees). Break-even = (cost basis + sell fees) ÷ shares. |
+| Dollar-Cost Averaging | `/investing/dollar-cost-averaging-calculator/` | Equal purchases along a hypothetical price path (straight-line fall to a low at the middle purchase, then to the ending price). Average cost = total invested ÷ total shares. Compared with a lump sum at the first price. |
+| Expense Ratio | `/investing/expense-ratio-calculator/` | Monthly engine: growth at the equivalent monthly rate, then fee = balance × expense ratio ÷ 12, then the contribution. Two funds with the same pre-fee return. |
+| 401(k) Match | `/investing/401k-match-calculator/` | Match = match rate × contributions up to the cap % of salary. Employee contribution capped at the 2026 limit of $24,500, plus $8,000 catch-up at 50+ (IRS). |
+| Roth vs Traditional IRA | `/investing/roth-vs-traditional-ira-calculator/` | Same pre-tax earnings: traditional invests all and is taxed at the retirement rate; Roth invests after today's tax. Year-end contributions at a constant return. Warns above the 2026 IRA limit of $7,500. |
+| CD Interest | `/money-banking/cd-interest-calculator/` | Balance = deposit × (1 + APY)^(months ÷ 12). Early withdrawal penalty modeled as N months of interest on the deposit. |
 
 The hub page is `/tools/`. It renders from `data/tools-page.json` as icon cards with search and category filters, handled in `src/scripts/main.js`.
 
