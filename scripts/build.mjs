@@ -153,7 +153,8 @@ for (const page of parsed) {
   const designedCopy = { home: homeCopy, about: aboutCopy, contact: contactCopy, hub: hubCopy, partner: partnerCopy, author: authorCopy, tools: toolsCopy, faq: faqCopies[metadata.faq] }[metadata.template];
   if (metadata.template && !designedCopy) throw new Error(`${source}: template "${metadata.template}" needs its approved copy file in data/`);
   const designed = article ? null : { home: () => renderHome(homeCopy, publishedPosts, nav, pageCharts), about: () => renderAbout(aboutCopy),
-    tools: () => renderTools(toolsCopy),
+    // Directory entries with a `published` date appear from that date in production, with their page.
+    tools: () => renderTools({ ...toolsCopy, categories: toolsCopy.categories.map(c => ({ ...c, tools: c.tools.filter(tool => buildEnv !== 'production' || !tool.published || tool.published <= today) })) }),
     faq: () => renderFaq(faqCopies[metadata.faq]),
     author: () => renderAuthor(authorCopy, publishedPosts.filter(post => post.author === authorCopy.name && publicationState(post, today) === 'live'), nav),
     partner: () => renderPartner(partnerCopy, contactEmail(body, source)),

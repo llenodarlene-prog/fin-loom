@@ -15,18 +15,20 @@ const today = publishDate();
 const clock = publishClock();
 const readJson = async file => JSON.parse(await readFile(file, 'utf8'));
 const plans = [...await readJson('data/launch-content-plan.json'), ...(await readJson('data/supplementary-content-plan.json').catch(() => ({ records: [] }))).records];
-const files = (await readdir('content/posts')).filter(file => file.endsWith('.md')).sort();
+// Posts and dated pages (tools scheduled with a `published` date) both count toward a deploy.
+const pageFiles = (await readdir('content/pages')).filter(file => file.endsWith('.md')).map(file => path.join('content/pages', file));
+const files = [...(await readdir('content/posts')).filter(file => file.endsWith('.md')).map(file => path.join('content/posts', file)), ...pageFiles].sort();
 const rows = [], problems = [];
-for (const name of files) {
-  const file = path.join('content/posts', name);
+for (const file of files) {
   const { metadata } = await readContent(file);
+  if (file.startsWith('content/pages') && !/^\d{4}-\d{2}-\d{2}$/.test(String(metadata.published || '').trim())) continue;
   const plan = plans.find(item => `${item.type}:${item.content_number}` === metadata.tracker_id);
   const slot = String(plan?.scheduled_publish || '').trim();
   const published = String(metadata.published || '').trim();
   const state = publicationState(metadata, today, clock);
   if (state !== 'draft' && slot && published > today && published !== slot) problems.push(`${file}: published ${published} differs from its scheduled slot ${slot}`);
   if (state === 'draft' && slot && slot <= today) problems.push(`${file}: slot ${slot} has arrived but the post is still a draft (not approved)`);
-  rows.push({ id: metadata.tracker_id, slot: slot || '-', published: published ? `${published}${publishTime(metadata) ? ' ' + publishTime(metadata) : ''}` : '-', state, slug: metadata.slug, due: wentLiveThisHour(metadata, today, clock) });
+  rows.push({ id: metadata.tracker_id || `Page:${metadata.slug}`, slot: slot || '-', published: published ? `${published}${publishTime(metadata) ? ' ' + publishTime(metadata) : ''}` : '-', state, slug: metadata.slug, due: wentLiveThisHour(metadata, today, clock) });
 }
 rows.sort((a, b) => a.slot.localeCompare(b.slot) || a.id.localeCompare(b.id));
 const goingLive = rows.filter(row => row.due);

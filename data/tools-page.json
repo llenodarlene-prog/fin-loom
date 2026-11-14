@@ -130,6 +130,41 @@
           "url": "/investing/roth-vs-traditional-ira-calculator/",
           "icon": "scale",
           "text": "Compare after-tax retirement value from a Roth and a traditional IRA using your tax rates."
+        },
+        {
+          "title": "Treasury Bill Calculator",
+          "url": "/investing/treasury-bill-calculator/",
+          "icon": "building-bank",
+          "text": "Find a T-bill's price, interest and investment rate using the formulas TreasuryDirect publishes.",
+          "published": "2026-11-17"
+        },
+        {
+          "title": "Coast FIRE Calculator",
+          "url": "/investing/coast-fire-calculator/",
+          "icon": "flame",
+          "text": "See how much you need invested today to reach a retirement goal with no new contributions.",
+          "published": "2026-11-17"
+        },
+        {
+          "title": "CAGR Calculator",
+          "url": "/investing/cagr-calculator/",
+          "icon": "chart-line",
+          "text": "Find the compound annual growth rate between a beginning and ending value over any period.",
+          "published": "2026-11-17"
+        },
+        {
+          "title": "Rule of 72 Calculator",
+          "url": "/investing/rule-of-72-calculator/",
+          "icon": "clock-hour-4",
+          "text": "Estimate how long money takes to double at a steady rate, compared with the exact answer.",
+          "published": "2026-11-17"
+        },
+        {
+          "title": "Dividend Yield Calculator",
+          "url": "/investing/dividend-yield-calculator/",
+          "icon": "coins",
+          "text": "Turn a dividend and share price into a yield and see the yearly income from an investment.",
+          "published": "2026-11-17"
         }
       ]
     },
