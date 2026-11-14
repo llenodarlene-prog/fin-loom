@@ -19,7 +19,7 @@ export const toolIcons = {
   'investment-growth': 'chart-line', 'dividend-return': 'coins', withdrawal: 'wallet', 'capital-gains': 'receipt-tax',
   'stock-average': 'chart-candle', 'stock-profit': 'report-money', 'credit-card-payoff': 'credit-card',
   'mortgage-payoff': 'home-dollar', 'withdrawal-tax': 'building-bank', 'self-employment-tax': 'briefcase', 'tax-1099': 'file-invoice',
-  dca: 'calendar-dollar', 'expense-ratio': 'receipt', '401k-match': 'users', 'roth-traditional': 'scale', 'cd-interest': 'hourglass', 'emergency-fund': 'pig-money', 'credit-utilization': 'chart-donut-3', 'net-worth': 'scale', 'debt-snowball': 'trending-down', 'treasury-bill': 'building-bank', 'coast-fire': 'flame', cagr: 'chart-line', 'rule-of-72': 'clock-hour-4', 'dividend-yield': 'coins', rmd: 'calendar-stats', '401k-loan': 'wallet', 'student-loan': 'book', 'goal-planner': 'target-arrow', 'ss-breakeven': 'user-check'
+  dca: 'calendar-dollar', 'expense-ratio': 'receipt', '401k-match': 'users', 'roth-traditional': 'scale', 'cd-interest': 'hourglass', 'emergency-fund': 'pig-money', 'credit-utilization': 'chart-donut-3', 'net-worth': 'scale', 'debt-snowball': 'trending-down', 'treasury-bill': 'building-bank', 'coast-fire': 'flame', cagr: 'chart-line', 'rule-of-72': 'clock-hour-4', 'dividend-yield': 'coins', rmd: 'calendar-stats', '401k-loan': 'wallet', 'student-loan': 'book', 'goal-planner': 'target-arrow', 'ss-breakeven': 'user-check', dti: 'scale', 'balance-transfer': 'repeat', refinance: 'home-dollar', 'position-size': 'adjustments-horizontal', 'sales-tax': 'receipt-tax'
 };
 
 // Result tiles pick an icon from their label.

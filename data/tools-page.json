@@ -90,6 +90,27 @@
           "icon": "target-arrow",
           "text": "Plan up to four savings goals and see the monthly deposit each one needs to stay on track.",
           "published": "2026-11-18"
+        },
+        {
+          "title": "Debt-to-Income Ratio Calculator",
+          "url": "/money-banking/debt-to-income-calculator/",
+          "icon": "scale",
+          "text": "Divide monthly debt payments by gross income to find your DTI and housing ratio.",
+          "published": "2026-11-19"
+        },
+        {
+          "title": "Balance Transfer Calculator",
+          "url": "/money-banking/balance-transfer-calculator/",
+          "icon": "repeat",
+          "text": "Compare staying on your card with a promotional balance transfer, including the fee and go-to rate.",
+          "published": "2026-11-19"
+        },
+        {
+          "title": "Mortgage Refinance Calculator",
+          "url": "/money-banking/mortgage-refinance-calculator/",
+          "icon": "home-dollar",
+          "text": "Compare payments, total interest and the months needed to recover refinance closing costs.",
+          "published": "2026-11-19"
         }
       ]
     },
@@ -230,6 +251,13 @@
           "url": "/money-banking/1099-tax-calculator/",
           "icon": "file-invoice",
           "text": "Estimate how much of 1099 income to set aside for federal self-employment and income tax."
+        },
+        {
+          "title": "Sales Tax Calculator",
+          "url": "/payments/sales-tax-calculator/",
+          "icon": "receipt-tax",
+          "text": "Add sales tax to a price or work out the pre-tax amount from a tax-inclusive total.",
+          "published": "2026-11-19"
         }
       ]
     },
@@ -248,6 +276,13 @@
           "url": "/markets-stocks/stock-profit-calculator/",
           "icon": "report-money",
           "text": "Work out the net gain or loss, return, and break-even price on a trade."
+        },
+        {
+          "title": "Position Size Calculator",
+          "url": "/markets-stocks/position-size-calculator/",
+          "icon": "adjustments-horizontal",
+          "text": "Size a trade from account risk, entry and stop-loss, with the reward-to-risk ratio.",
+          "published": "2026-11-19"
         }
       ]
     }
