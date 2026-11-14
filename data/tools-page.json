@@ -125,6 +125,20 @@
           "icon": "credit-card",
           "text": "Compare up to three cards on rewards, fees, bonuses and interest for your own spending.",
           "published": "2026-11-20"
+        },
+        {
+          "title": "IBAN Checker",
+          "url": "/money-banking/iban-checker/",
+          "icon": "circle-check",
+          "text": "Check an IBAN's structure and MOD 97 check digits in your browser. Nothing is stored or sent.",
+          "published": "2026-11-21"
+        },
+        {
+          "title": "Bank Fee Comparison Worksheet",
+          "url": "/money-banking/bank-fee-comparison/",
+          "icon": "building-bank",
+          "text": "Compare the net yearly cost of two bank accounts from their fees, APYs and your usage.",
+          "published": "2026-11-21"
         }
       ]
     },
@@ -242,6 +256,34 @@
           "icon": "chart-pie",
           "text": "Check allocation drift against targets and see the buy and sell amounts to rebalance.",
           "published": "2026-11-20"
+        },
+        {
+          "title": "Rental Property Calculator",
+          "url": "/investing/rental-property-calculator/",
+          "icon": "home-dollar",
+          "text": "Estimate a rental's cash flow, net operating income, cap rate and cash-on-cash return.",
+          "published": "2026-11-21"
+        },
+        {
+          "title": "Crypto Profit Calculator",
+          "url": "/crypto/crypto-profit-calculator/",
+          "icon": "trending-up",
+          "text": "Work out a crypto trade's profit or loss after fees and the price needed to break even.",
+          "published": "2026-11-21"
+        },
+        {
+          "title": "Dividend Income Planner",
+          "url": "/investing/dividend-income-planner/",
+          "icon": "calendar-dollar",
+          "text": "Project yearly dividend income with growth, contributions and reinvestment toward an income goal.",
+          "published": "2026-11-21"
+        },
+        {
+          "title": "Crypto Allocation Calculator",
+          "url": "/crypto/crypto-allocation-calculator/",
+          "icon": "chart-donut-3",
+          "text": "See your crypto share of a portfolio and how a crypto price move would affect the whole.",
+          "published": "2026-11-22"
         }
       ]
     },
