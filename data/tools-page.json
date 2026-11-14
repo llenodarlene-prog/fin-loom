@@ -111,6 +111,20 @@
           "icon": "home-dollar",
           "text": "Compare payments, total interest and the months needed to recover refinance closing costs.",
           "published": "2026-11-19"
+        },
+        {
+          "title": "Budget Planner and Expense Tracker",
+          "url": "/money-banking/budget-planner/",
+          "icon": "report-money",
+          "text": "Set a monthly budget by category, compare it with actual spending and download a CSV.",
+          "published": "2026-11-20"
+        },
+        {
+          "title": "Credit Card Comparison Worksheet",
+          "url": "/money-banking/credit-card-comparison-worksheet/",
+          "icon": "credit-card",
+          "text": "Compare up to three cards on rewards, fees, bonuses and interest for your own spending.",
+          "published": "2026-11-20"
         }
       ]
     },
@@ -221,6 +235,13 @@
           "icon": "user-check",
           "text": "Compare two claiming ages using your own benefit estimates and find when waiting catches up.",
           "published": "2026-11-18"
+        },
+        {
+          "title": "Portfolio Rebalancing Calculator",
+          "url": "/investing/portfolio-rebalancing-calculator/",
+          "icon": "chart-pie",
+          "text": "Check allocation drift against targets and see the buy and sell amounts to rebalance.",
+          "published": "2026-11-20"
         }
       ]
     },
@@ -258,6 +279,13 @@
           "icon": "receipt-tax",
           "text": "Add sales tax to a price or work out the pre-tax amount from a tax-inclusive total.",
           "published": "2026-11-19"
+        },
+        {
+          "title": "Payment Processing Fee Calculator",
+          "url": "/payments/payment-processing-fee-calculator/",
+          "icon": "cash",
+          "text": "See the fee and net amount on a payment at Stripe and Venmo published rates or your own rate.",
+          "published": "2026-11-20"
         }
       ]
     },
@@ -283,6 +311,13 @@
           "icon": "adjustments-horizontal",
           "text": "Size a trade from account risk, entry and stop-loss, with the reward-to-risk ratio.",
           "published": "2026-11-19"
+        },
+        {
+          "title": "Financial Ratio Analyzer",
+          "url": "/markets-stocks/financial-ratio-analyzer/",
+          "icon": "chart-bar",
+          "text": "Turn balance sheet and income statement figures into liquidity, leverage and profitability ratios.",
+          "published": "2026-11-20"
         }
       ]
     }
