@@ -76,6 +76,20 @@
           "url": "/money-banking/debt-snowball-calculator/",
           "icon": "trending-down",
           "text": "Plan payoff for up to five debts and compare the snowball and avalanche methods on time and interest."
+        },
+        {
+          "title": "Student Loan Payoff Calculator",
+          "url": "/money-banking/student-loan-payoff-calculator/",
+          "icon": "book",
+          "text": "See your monthly payment and total interest, and how much an extra payment could save.",
+          "published": "2026-11-18"
+        },
+        {
+          "title": "Financial Goal Planner",
+          "url": "/money-banking/financial-goal-planner/",
+          "icon": "target-arrow",
+          "text": "Plan up to four savings goals and see the monthly deposit each one needs to stay on track.",
+          "published": "2026-11-18"
         }
       ]
     },
@@ -165,6 +179,27 @@
           "icon": "coins",
           "text": "Turn a dividend and share price into a yield and see the yearly income from an investment.",
           "published": "2026-11-17"
+        },
+        {
+          "title": "RMD Calculator",
+          "url": "/investing/rmd-calculator/",
+          "icon": "calendar-stats",
+          "text": "Work out this year's required minimum distribution using the IRS Uniform Lifetime Table.",
+          "published": "2026-11-18"
+        },
+        {
+          "title": "401(k) Loan Calculator",
+          "url": "/investing/401k-loan-calculator/",
+          "icon": "wallet",
+          "text": "See the IRS loan limit for your balance, your payment and the growth a 401(k) loan could cost.",
+          "published": "2026-11-18"
+        },
+        {
+          "title": "Social Security Break-Even Calculator",
+          "url": "/investing/social-security-break-even-calculator/",
+          "icon": "user-check",
+          "text": "Compare two claiming ages using your own benefit estimates and find when waiting catches up.",
+          "published": "2026-11-18"
         }
       ]
     },
