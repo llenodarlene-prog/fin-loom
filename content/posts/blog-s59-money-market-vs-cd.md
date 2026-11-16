@@ -12,8 +12,8 @@ secondary_keywords: cd vs money market; money market or cd; money market account
 cluster: Money & Banking
 approved_internal_links: /money-banking/saving-vs-investing/; /money-banking/high-yield-savings-vs-money-market-account/; /money-banking/savings-interest-calculator/
 research_record: content/research/blog-s59.json
-image: 
-image_alt: 
+image: /assets/images/posts/money-market-vs-cd/coin-jar-sealed-certificate-calendar-1600.jpg
+image_alt: A glass jar of coins beside a navy certificate folder sealed with a gold padlock emblem, with a desk calendar behind
 link_placement_site: 
 charts_pending: 0
 ai_exceptions: 

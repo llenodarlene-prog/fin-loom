@@ -12,6 +12,8 @@ secondary_keywords: credit score meaning; credit score factors; FICO score; cred
 cluster: Money & Banking
 approved_internal_links: /money-banking/identity-theft-statistics/; /money-banking/saving-vs-investing/
 research_record: content/research/blog-s31.json
+image: /assets/images/posts/what-is-a-credit-score/tablet-score-gauge-card-1600.jpg
+image_alt: A tablet showing a red-to-green score gauge beside a credit card, pen and coffee mug on a desk
 link_placement_site: 
 charts_pending: 0
 ai_exceptions: 
