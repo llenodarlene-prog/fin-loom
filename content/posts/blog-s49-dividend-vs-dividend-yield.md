@@ -12,8 +12,8 @@ secondary_keywords: dividend vs dividend yield; how to calculate dividend yield;
 cluster: Investing
 approved_internal_links: /investing/crypto-vs-stocks/; /investing/qualified-dividends/; /investing/dividend-reinvestment-plan-calculator/
 research_record: content/research/blog-s49.json
-image: 
-image_alt: 
+image: /assets/images/posts/dividend-vs-dividend-yield/coin-stacks-percent-chart-1600.jpg
+image_alt: Rising stacks of coins behind a printed bar chart with a percentage ring, a calculator and a pen
 link_placement_site: 
 charts_pending: 0
 ai_exceptions: 

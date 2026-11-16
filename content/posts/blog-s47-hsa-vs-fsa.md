@@ -12,8 +12,8 @@ secondary_keywords: fsa vs hsa; difference between hsa and fsa; fsa carryover; c
 cluster: Money & Banking
 approved_internal_links: /money-banking/saving-vs-investing/; /money-banking/best-hsa-accounts/; /money-banking/best-budgeting-apps/
 research_record: content/research/blog-s47.json
-image: 
-image_alt: 
+image: /assets/images/posts/hsa-vs-fsa/health-card-receipt-piggy-bank-1600.jpg
+image_alt: A health insurance card, pharmacy receipt, pill bottle, stethoscope and piggy bank on a desk
 link_placement_site: 
 charts_pending: 0
 ai_exceptions: 

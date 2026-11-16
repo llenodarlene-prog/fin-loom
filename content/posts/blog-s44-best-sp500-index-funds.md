@@ -12,8 +12,8 @@ secondary_keywords: best s&p 500 etf; cheapest s&p 500 index fund; voo vs ivv; s
 cluster: Investing
 approved_internal_links: /investing/crypto-vs-stocks/; /investing/best-investment-apps/; /investing/best-etfs-for-roth-ira/
 research_record: content/research/blog-s44.json
-image: 
-image_alt: 
+image: /assets/images/posts/best-sp500-index-funds/laptop-rising-index-chart-1600.jpg
+image_alt: A laptop showing a rising line chart beside a calculator, stacked coins and a notebook on a desk
 link_placement_site: 
 charts_pending: 0
 ai_exceptions: 
