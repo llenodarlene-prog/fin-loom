@@ -12,8 +12,8 @@ secondary_keywords: hra vs hsa; difference between hsa and hra; can you have an 
 cluster: Money & Banking
 approved_internal_links: /money-banking/saving-vs-investing/; /money-banking/hsa-vs-fsa/; /money-banking/best-hsa-accounts/
 research_record: content/research/blog-s50.json
-image: 
-image_alt: 
+image: /assets/images/posts/hsa-vs-hra/benefits-binder-stethoscope-calculator-1600.jpg
+image_alt: A blue tabbed binder beside a stethoscope, calculator and printed charts on a desk
 link_placement_site: 
 charts_pending: 0
 ai_exceptions: 
