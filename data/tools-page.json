@@ -76,6 +76,69 @@
           "url": "/money-banking/debt-snowball-calculator/",
           "icon": "trending-down",
           "text": "Plan payoff for up to five debts and compare the snowball and avalanche methods on time and interest."
+        },
+        {
+          "title": "Student Loan Payoff Calculator",
+          "url": "/money-banking/student-loan-payoff-calculator/",
+          "icon": "book",
+          "text": "See your monthly payment and total interest, and how much an extra payment could save.",
+          "published": "2026-11-18"
+        },
+        {
+          "title": "Financial Goal Planner",
+          "url": "/money-banking/financial-goal-planner/",
+          "icon": "target-arrow",
+          "text": "Plan up to four savings goals and see the monthly deposit each one needs to stay on track.",
+          "published": "2026-11-18"
+        },
+        {
+          "title": "Debt-to-Income Ratio Calculator",
+          "url": "/money-banking/debt-to-income-calculator/",
+          "icon": "scale",
+          "text": "Divide monthly debt payments by gross income to find your DTI and housing ratio.",
+          "published": "2026-11-19"
+        },
+        {
+          "title": "Balance Transfer Calculator",
+          "url": "/money-banking/balance-transfer-calculator/",
+          "icon": "repeat",
+          "text": "Compare staying on your card with a promotional balance transfer, including the fee and go-to rate.",
+          "published": "2026-11-19"
+        },
+        {
+          "title": "Mortgage Refinance Calculator",
+          "url": "/money-banking/mortgage-refinance-calculator/",
+          "icon": "home-dollar",
+          "text": "Compare payments, total interest and the months needed to recover refinance closing costs.",
+          "published": "2026-11-19"
+        },
+        {
+          "title": "Budget Planner and Expense Tracker",
+          "url": "/money-banking/budget-planner/",
+          "icon": "report-money",
+          "text": "Set a monthly budget by category, compare it with actual spending and download a CSV.",
+          "published": "2026-11-20"
+        },
+        {
+          "title": "Credit Card Comparison Worksheet",
+          "url": "/money-banking/credit-card-comparison-worksheet/",
+          "icon": "credit-card",
+          "text": "Compare up to three cards on rewards, fees, bonuses and interest for your own spending.",
+          "published": "2026-11-20"
+        },
+        {
+          "title": "IBAN Checker",
+          "url": "/money-banking/iban-checker/",
+          "icon": "circle-check",
+          "text": "Check an IBAN's structure and MOD 97 check digits in your browser. Nothing is stored or sent.",
+          "published": "2026-11-21"
+        },
+        {
+          "title": "Bank Fee Comparison Worksheet",
+          "url": "/money-banking/bank-fee-comparison/",
+          "icon": "building-bank",
+          "text": "Compare the net yearly cost of two bank accounts from their fees, APYs and your usage.",
+          "published": "2026-11-21"
         }
       ]
     },
@@ -130,6 +193,97 @@
           "url": "/investing/roth-vs-traditional-ira-calculator/",
           "icon": "scale",
           "text": "Compare after-tax retirement value from a Roth and a traditional IRA using your tax rates."
+        },
+        {
+          "title": "Treasury Bill Calculator",
+          "url": "/investing/treasury-bill-calculator/",
+          "icon": "building-bank",
+          "text": "Find a T-bill's price, interest and investment rate using the formulas TreasuryDirect publishes.",
+          "published": "2026-11-17"
+        },
+        {
+          "title": "Coast FIRE Calculator",
+          "url": "/investing/coast-fire-calculator/",
+          "icon": "flame",
+          "text": "See how much you need invested today to reach a retirement goal with no new contributions.",
+          "published": "2026-11-17"
+        },
+        {
+          "title": "CAGR Calculator",
+          "url": "/investing/cagr-calculator/",
+          "icon": "chart-line",
+          "text": "Find the compound annual growth rate between a beginning and ending value over any period.",
+          "published": "2026-11-17"
+        },
+        {
+          "title": "Rule of 72 Calculator",
+          "url": "/investing/rule-of-72-calculator/",
+          "icon": "clock-hour-4",
+          "text": "Estimate how long money takes to double at a steady rate, compared with the exact answer.",
+          "published": "2026-11-17"
+        },
+        {
+          "title": "Dividend Yield Calculator",
+          "url": "/investing/dividend-yield-calculator/",
+          "icon": "coins",
+          "text": "Turn a dividend and share price into a yield and see the yearly income from an investment.",
+          "published": "2026-11-17"
+        },
+        {
+          "title": "RMD Calculator",
+          "url": "/investing/rmd-calculator/",
+          "icon": "calendar-stats",
+          "text": "Work out this year's required minimum distribution using the IRS Uniform Lifetime Table.",
+          "published": "2026-11-18"
+        },
+        {
+          "title": "401(k) Loan Calculator",
+          "url": "/investing/401k-loan-calculator/",
+          "icon": "wallet",
+          "text": "See the IRS loan limit for your balance, your payment and the growth a 401(k) loan could cost.",
+          "published": "2026-11-18"
+        },
+        {
+          "title": "Social Security Break-Even Calculator",
+          "url": "/investing/social-security-break-even-calculator/",
+          "icon": "user-check",
+          "text": "Compare two claiming ages using your own benefit estimates and find when waiting catches up.",
+          "published": "2026-11-18"
+        },
+        {
+          "title": "Portfolio Rebalancing Calculator",
+          "url": "/investing/portfolio-rebalancing-calculator/",
+          "icon": "chart-pie",
+          "text": "Check allocation drift against targets and see the buy and sell amounts to rebalance.",
+          "published": "2026-11-20"
+        },
+        {
+          "title": "Rental Property Calculator",
+          "url": "/investing/rental-property-calculator/",
+          "icon": "home-dollar",
+          "text": "Estimate a rental's cash flow, net operating income, cap rate and cash-on-cash return.",
+          "published": "2026-11-21"
+        },
+        {
+          "title": "Crypto Profit Calculator",
+          "url": "/crypto/crypto-profit-calculator/",
+          "icon": "trending-up",
+          "text": "Work out a crypto trade's profit or loss after fees and the price needed to break even.",
+          "published": "2026-11-21"
+        },
+        {
+          "title": "Dividend Income Planner",
+          "url": "/investing/dividend-income-planner/",
+          "icon": "calendar-dollar",
+          "text": "Project yearly dividend income with growth, contributions and reinvestment toward an income goal.",
+          "published": "2026-11-21"
+        },
+        {
+          "title": "Crypto Allocation Calculator",
+          "url": "/crypto/crypto-allocation-calculator/",
+          "icon": "chart-donut-3",
+          "text": "See your crypto share of a portfolio and how a crypto price move would affect the whole.",
+          "published": "2026-11-22"
         }
       ]
     },
@@ -160,6 +314,20 @@
           "url": "/money-banking/1099-tax-calculator/",
           "icon": "file-invoice",
           "text": "Estimate how much of 1099 income to set aside for federal self-employment and income tax."
+        },
+        {
+          "title": "Sales Tax Calculator",
+          "url": "/payments/sales-tax-calculator/",
+          "icon": "receipt-tax",
+          "text": "Add sales tax to a price or work out the pre-tax amount from a tax-inclusive total.",
+          "published": "2026-11-19"
+        },
+        {
+          "title": "Payment Processing Fee Calculator",
+          "url": "/payments/payment-processing-fee-calculator/",
+          "icon": "cash",
+          "text": "See the fee and net amount on a payment at Stripe and Venmo published rates or your own rate.",
+          "published": "2026-11-20"
         }
       ]
     },
@@ -178,6 +346,20 @@
           "url": "/markets-stocks/stock-profit-calculator/",
           "icon": "report-money",
           "text": "Work out the net gain or loss, return, and break-even price on a trade."
+        },
+        {
+          "title": "Position Size Calculator",
+          "url": "/markets-stocks/position-size-calculator/",
+          "icon": "adjustments-horizontal",
+          "text": "Size a trade from account risk, entry and stop-loss, with the reward-to-risk ratio.",
+          "published": "2026-11-19"
+        },
+        {
+          "title": "Financial Ratio Analyzer",
+          "url": "/markets-stocks/financial-ratio-analyzer/",
+          "icon": "chart-bar",
+          "text": "Turn balance sheet and income statement figures into liquidity, leverage and profitability ratios.",
+          "published": "2026-11-20"
         }
       ]
     }
