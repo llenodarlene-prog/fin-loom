@@ -10,7 +10,7 @@ tracker_id: Blog:S31
 primary_keyword: what is a credit score
 secondary_keywords: credit score meaning; credit score factors; FICO score; credit score range
 cluster: Money & Banking
-approved_internal_links: /money-banking/identity-theft-statistics/; /money-banking/saving-vs-investing/
+approved_internal_links: /money-banking/identity-theft-statistics/; /money-banking/rogue-ai-agent-banking-liability/; /money-banking/saving-vs-investing/
 research_record: content/research/blog-s31.json
 image: /assets/images/posts/what-is-a-credit-score/tablet-score-gauge-card-1600.jpg
 image_alt: A tablet showing a red-to-green score gauge beside a credit card, pen and coffee mug on a desk
@@ -148,7 +148,7 @@ The relationship is not fixed. Interest rates also depend on market rates, loan 
 
 Negative effects can come from late or missed payments, high unpaid debt, using a large share of available revolving credit, many recent credit applications, collection accounts, foreclosure, bankruptcy, and other adverse information in a credit report.
 
-The size and duration of each effect vary by scoring model and by the rest of the consumer's profile. Fraud can also damage a credit file; [identity theft statistics](/money-banking/identity-theft-statistics/) show how often compromised personal data turns into financial harm.
+The size and duration of each effect vary by scoring model and by the rest of the consumer's profile. Fraud can also damage a credit file; [identity theft statistics](/money-banking/identity-theft-statistics/) show how often compromised personal data turns into financial harm. Sharing bank logins with software adds a newer risk, covered in FinLoom's guide to what happens when a [rogue AI agent](/money-banking/rogue-ai-agent-banking-liability/) moves money.
 
 ## What Can Help a Credit Score Over Time?
 
