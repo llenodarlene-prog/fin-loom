@@ -1,0 +1,525 @@
+{
+  "tracker_id": "Blog:S82",
+  "status": "verified",
+  "research_question": "Who bears losses when an AI agent with bank access makes an unwanted payment, and what evidence and controls decide it?",
+  "research_brief": {
+    "purpose": "Explain agentic banking liability with verified regulatory and supervisory sources.",
+    "audience": "US bank customers and fintech readers.",
+    "publication_year": "2026",
+    "data_period": "Speeches Sept 28 and Nov 16, 2026; HKMA Nov 2, 2026; BIS Nov 4, 2026; IMF March 2024; American Banker Oct 2026.",
+    "scope_limitations": "No court rulings or loss data on agent payments; liability analysis is illustrative."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "rogue AI agent",
+    "intent": "Informational",
+    "serp_checked_at": "2026-11-18",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-18",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "rogue ai agent",
+        "type": "short-tail",
+        "volume": 170,
+        "difficulty": 15,
+        "cpc": 7.21,
+        "intent": "Informational",
+        "ranking_url": "https://www.federalreserve.gov/newsevents/speech/barr20261116a.htm",
+        "retrieved_at": "2026-11-18",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "agentic ai in banking",
+        "type": "long-tail",
+        "volume": 140,
+        "difficulty": 47,
+        "cpc": 16.02,
+        "intent": "Commercial",
+        "ranking_url": "https://www.federalreserve.gov/newsevents/speech/barr20261116a.htm",
+        "retrieved_at": "2026-11-18",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "ai agents for financial services",
+        "type": "commercial",
+        "volume": 70,
+        "difficulty": 41,
+        "cpc": 90.74,
+        "intent": "Commercial",
+        "ranking_url": "https://www.federalreserve.gov/newsevents/speech/barr20261116a.htm",
+        "retrieved_at": "2026-11-18",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "ai agents payments",
+        "type": "problem",
+        "volume": 70,
+        "difficulty": 36,
+        "cpc": 22.74,
+        "intent": "Navigational",
+        "ranking_url": "https://www.federalreserve.gov/newsevents/speech/barr20261116a.htm",
+        "retrieved_at": "2026-11-18",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "ai agent banking",
+        "type": "question",
+        "volume": 10,
+        "difficulty": 32,
+        "cpc": 28.65,
+        "intent": "Informational",
+        "ranking_url": "https://www.federalreserve.gov/newsevents/speech/barr20261116a.htm",
+        "retrieved_at": "2026-11-18",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.consumerfinance.gov/rules-policy/regulations/1005/2/",
+      "title": "Regulation E 1005.2 Definitions",
+      "publisher": "CFPB",
+      "source_type": "Federal regulation",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-18",
+      "scope": "Unauthorized EFT definition; comment 2(m)-2 and 2(m)-3",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.consumerfinance.gov/rules-policy/regulations/1005/6/",
+      "title": "Regulation E 1005.6 Liability of consumer",
+      "publisher": "CFPB",
+      "source_type": "Federal regulation",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-18",
+      "scope": "Liability tiers; negligence comment",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.consumerfinance.gov/compliance/compliance-resources/deposit-accounts-resources/electronic-fund-transfers/electronic-fund-transfers-faqs/",
+      "title": "Electronic Fund Transfers FAQs",
+      "publisher": "CFPB",
+      "source_type": "Federal agency guidance",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-18",
+      "scope": "Fraudulently obtained credentials are unauthorized EFTs",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.federalreserve.gov/newsevents/speech/waller20260928a.htm",
+      "title": "Governor Waller on payments in the age of AI agents",
+      "publisher": "Federal Reserve Board",
+      "source_type": "Official speech",
+      "year": "2026",
+      "published_at": "2026-09-28",
+      "accessed_at": "2026-11-18",
+      "scope": "Agent-assisted vs agent-delegated models",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.federalreserve.gov/newsevents/speech/barr20261116a.htm",
+      "title": "Governor Barr on financial stability implications of AI",
+      "publisher": "Federal Reserve Board",
+      "source_type": "Official speech",
+      "year": "2026",
+      "published_at": "2026-11-16",
+      "accessed_at": "2026-11-18",
+      "scope": "Agents in retail accounts; deposit outflow acceleration",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2026/20261102e3a1.pdf",
+      "title": "Discussion Paper on Agentic A.I. Governance in the Banking Sector",
+      "publisher": "Hong Kong Monetary Authority",
+      "source_type": "Regulator discussion paper",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-18",
+      "scope": "Mandates, authentication, audit trails, suspend or withdraw mandate",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "November 2026.",
+      "verified": true
+    },
+    {
+      "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261102-4",
+      "title": "HKMA launches Project SAGE",
+      "publisher": "Hong Kong Monetary Authority",
+      "source_type": "Press release",
+      "year": "2026",
+      "published_at": "2026-11-02",
+      "accessed_at": "2026-11-18",
+      "scope": "Project SAGE launch",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.imf.org/en/publications/fandd/issues/2024/03/containing-technology-driven-bank-runs-krogstrup-sangill-sicard",
+      "title": "Containing Technology-Driven Bank Runs",
+      "publisher": "IMF Finance & Development",
+      "source_type": "Research article",
+      "year": "2024",
+      "published_at": "2024-03-04",
+      "accessed_at": "2026-11-18",
+      "scope": "AI tools reallocating deposits; run speed",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.bis.org/publications/scenarios-future-banking-implications-profitability-liquidity-and-solvency",
+      "title": "Scenarios for future banking",
+      "publisher": "Bank for International Settlements",
+      "source_type": "Research publication",
+      "year": "2026",
+      "published_at": "2026-11-04",
+      "accessed_at": "2026-11-18",
+      "scope": "Digitalisation may accelerate deposit outflows",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.americanbanker.com/news/banks-are-blocking-external-ai-agents-is-this-sustainable",
+      "title": "Banks are blocking external AI agents. Is this sustainable?",
+      "publisher": "American Banker",
+      "source_type": "Trade press",
+      "year": "2026",
+      "published_at": "2026-10-27",
+      "accessed_at": "2026-11-18",
+      "scope": "Large banks blocking external AI agents",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Barr: major banks report agents attempting actions in retail accounts without verifiable consent",
+      "source_url": "https://www.federalreserve.gov/newsevents/speech/barr20261116a.htm",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Qualitative",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Comment 2(m)-2: consumer fully liable for transfers by authorized person exceeding authority until notice",
+      "source_url": "https://www.consumerfinance.gov/rules-policy/regulations/1005/2/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Rule",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Waller: agent-assisted vs agent-delegated; delegated needs more extensive guardrails",
+      "source_url": "https://www.federalreserve.gov/newsevents/speech/waller20260928a.htm",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Qualitative",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "BIS: digitalisation may accelerate deposit outflows",
+      "source_url": "https://www.bis.org/publications/scenarios-future-banking-implications-profitability-liquidity-and-solvency",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Qualitative",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "American Banker: banks blocking external AI agents",
+      "url": "https://www.americanbanker.com/news/banks-are-blocking-external-ai-agents-is-this-sustainable",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "rogue AI agent"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Coverage reports blocking but rarely maps Regulation E, evidence records and payment rails to liability."
+    },
+    {
+      "title": "Axios scoop on unvetted AI agents",
+      "url": "https://www.axios.com/2026/10/22/ai-agents-banks-unauthorized-accounts-access",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "rogue AI agent"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Coverage reports blocking but rarely maps Regulation E, evidence records and payment rails to liability."
+    },
+    {
+      "title": "Reuters on unauthorized AI agents",
+      "url": "https://www.reuters.com/legal/government/us-banks-detect-unauthorized-ai-agents-customer-accounts-axios-reports-2026-10-22/",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "rogue AI agent"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Coverage reports blocking but rarely maps Regulation E, evidence records and payment rails to liability."
+    },
+    {
+      "title": "Federal Reserve Barr speech",
+      "url": "https://www.federalreserve.gov/newsevents/speech/barr20261116a.htm",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "rogue AI agent"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Coverage reports blocking but rarely maps Regulation E, evidence records and payment rails to liability."
+    },
+    {
+      "title": "HKMA agentic AI discussion paper",
+      "url": "https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2026/20261102e3a1.pdf",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "rogue AI agent"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Coverage reports blocking but rarely maps Regulation E, evidence records and payment rails to liability."
+    }
+  ],
+  "content_gaps": [
+    "Liability waterfall",
+    "Evidence stack",
+    "Scenario table",
+    "Agent role risk ladder"
+  ],
+  "value_add": [
+    "Regulation E text applied to agent scenarios",
+    "Verified supervisory quotes",
+    "Practical customer steps"
+  ],
+  "plan": {
+    "reader_title": "When a Rogue AI Agent Moves Your Money, Who Is Liable?",
+    "seo_title": "Rogue AI Agent in Banking: Who Pays for a Mistake?",
+    "meta_description": "A rogue AI agent can turn valid bank access into disputed payments. See how liability, evidence, and financial controls may work.",
+    "slug": "/money-banking/rogue-ai-agent-banking-liability/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "AI agent banking",
+      "AI agents for financial services",
+      "AI agents payments",
+      "agentic finance"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "What Has Happened at Banks?",
+      "A Valid Login Is Not Valid Financial Authorization",
+      "How Regulation E Could Shape Consumer Liability",
+      "The FinLoom Liability Waterfall",
+      "The Missing Asset Is a Dispute Evidence Stack",
+      "Who Might Pay in Six Common Scenarios?",
+      "Agent-Assisted and Agent-Delegated Payments Differ",
+      "Could AI Agents Accelerate a Bank Run?",
+      "Why Banks May Prefer Closed Agent Networks",
+      "What Safer Agentic Banking Could Look Like",
+      "What Bank Customers Can Do Now",
+      "The Bottom Line",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Rules: CFPB Regulation E and FAQs",
+      "Supervisory views: Fed speeches",
+      "Governance: HKMA",
+      "Run risk: IMF, BIS, Barr",
+      "Bank behavior: American Banker"
+    ],
+    "visuals": [
+      "Three tables"
+    ],
+    "internal_links": [
+      "/money-banking/saving-vs-investing/",
+      "/money-banking/identity-theft-statistics/",
+      "/payments/ach-vs-wire-transfer/"
+    ],
+    "external_link_opportunities": [
+      "https://www.federalreserve.gov/newsevents/speech/barr20261116a.htm",
+      "https://www.consumerfinance.gov/rules-policy/regulations/1005/2/",
+      "https://www.federalreserve.gov/newsevents/speech/waller20260928a.htm"
+    ],
+    "excluded_claims": [
+      "Reuters/Axios-only details (Morgan Stanley and Schwab statements) removed: sources could not be fetched",
+      "Barr title corrected to Governor",
+      "BIS claim narrowed to what the page states",
+      "Owner links to /payments/, payments FAQ and wire transfer guide removed to meet the 2-3 post link rule"
+    ],
+    "drafting_cautions": [
+      "No buy, sell or hold recommendation",
+      "Hypothetical examples labeled",
+      "Dates and populations stated"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Unauthorized EFT definition and comment 2(m)-2",
+      "source_url": "https://www.consumerfinance.gov/rules-policy/regulations/1005/2/",
+      "verified": true
+    },
+    {
+      "statement": "Agents in retail accounts without verifiable consent; may accelerate deposit outflows",
+      "source_url": "https://www.federalreserve.gov/newsevents/speech/barr20261116a.htm",
+      "verified": true
+    },
+    {
+      "statement": "Agent-assisted vs agent-delegated models",
+      "source_url": "https://www.federalreserve.gov/newsevents/speech/waller20260928a.htm",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-18",
+    "note": "Every cited figure and quote checked against the fetched primary page on 2026-11-18; unverifiable Reuters/Axios details removed.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-18",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-18",
+    "summary": "Every cited figure and quote checked against the fetched primary page on 2026-11-18; unverifiable Reuters/Axios details removed.",
+    "pending": "Owner sign-off."
+  }
+}
