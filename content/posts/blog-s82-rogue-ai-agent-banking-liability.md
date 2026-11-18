@@ -12,6 +12,8 @@ secondary_keywords: AI agent banking; AI agents for financial services; AI agent
 cluster: Money & Banking
 approved_internal_links: /money-banking/saving-vs-investing/; /money-banking/identity-theft-statistics/; /payments/ach-vs-wire-transfer/
 research_record: content/research/blog-s82.json
+image: /assets/images/posts/rogue-ai-agent-banking-liability/bank-desk-agent-payment-alert-1600.jpg
+image_alt: A desk with three monitors showing a bank-to-customer check, a payment flow flagged with a red alert, and dashboards, in an office
 link_placement_site: 
 charts_pending: 0
 ai_exceptions: 
