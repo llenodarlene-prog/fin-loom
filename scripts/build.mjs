@@ -55,6 +55,18 @@ for (const folder of ['styles', 'scripts']) await cp(path.join('src', folder), p
 // Source documentation (README files, notes, briefs) stays in the repository and is never deployed.
 const sourceDocumentation = /\.(?:md|markdown|txt|docx?)$/i;
 await cp('assets', path.join(dist, 'assets'), { recursive: true, filter: source => !sourceDocumentation.test(source) });
+// The Google tag container (which carries the GA4 configuration) loads only in the environments listed in
+// data/analytics.json (production), so staging reviews and local previews never send traffic. The ID format
+// is checked so a typo cannot inject markup. Snippet as supplied by Google, placed right after <head>.
+const analytics = (await readOptionalJson('data/analytics.json')) || {};
+const tagId = String(analytics.google_tag_id || '');
+if (tagId && !/^GTM-[A-Z0-9]{6,10}$/.test(tagId)) throw new Error(`data/analytics.json: invalid Google tag ID ${tagId}`);
+const analyticsTag = tagId && (analytics.environments || []).includes(buildEnv) ? `<script async src="https://www.googletagmanager.com/gtm.js?id=${tagId}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  </script>` : '';
 const [base, headerTemplate, footerTemplate] = await Promise.all([
   readFile('src/layouts/base.html', 'utf8'), readFile('src/partials/header.html', 'utf8'), readFile('src/partials/footer.html', 'utf8')
 ]);
@@ -193,6 +205,7 @@ for (const page of parsed) {
     LANG: site.locale || 'en-US', TITLE: escapeHtml(fullTitle), DESCRIPTION: escapeHtml(metadata.description), ROBOTS: metadata.noindex === true ? 'noindex,nofollow' : robots,
     CANONICAL: url, ICON_LINKS: iconLinks, STYLE_VERSION: styleVersion, SCRIPT_VERSION: scriptVersion, OG_TYPE: article ? 'article' : 'website', SCHEMA: JSON.stringify(schema).replaceAll('<', '\\u003c'), FONT_LINKS: fontLinks,
     ARTICLE_META: headMeta({ metadata, site, siteUrl, image: featured || defaultShareImage, article }),
+    ANALYTICS: analyticsTag,
     HEADER: header, FOOTER: footer, CONTENT: designed ? `<div class="page" data-page-slug="${escapeHtml(metadata.slug)}">${renderedBody}</div>` : `<article class="shell prose" data-page-slug="${escapeHtml(metadata.slug)}">${renderedBody}</article>`
   });
   const target = metadata.slug === '/' ? path.join(dist, 'index.html') : path.join(dist, cleanSlug(metadata.slug), 'index.html');
