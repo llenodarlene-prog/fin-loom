@@ -55,13 +55,18 @@ for (const folder of ['styles', 'scripts']) await cp(path.join('src', folder), p
 // Source documentation (README files, notes, briefs) stays in the repository and is never deployed.
 const sourceDocumentation = /\.(?:md|markdown|txt|docx?)$/i;
 await cp('assets', path.join(dist, 'assets'), { recursive: true, filter: source => !sourceDocumentation.test(source) });
-// Google Analytics 4 loads only in the environments listed in data/analytics.json (production), so staging
-// reviews and local previews never send traffic. The ID format is checked so a typo cannot inject markup.
+// The Google tag container (which carries the GA4 configuration) loads only in the environments listed in
+// data/analytics.json (production), so staging reviews and local previews never send traffic. The ID format
+// is checked so a typo cannot inject markup. Snippet as supplied by Google, placed right after <head>.
 const analytics = (await readOptionalJson('data/analytics.json')) || {};
-const gaId = String(analytics.ga4_measurement_id || '');
-if (gaId && !/^G-[A-Z0-9]{6,12}$/.test(gaId)) throw new Error(`data/analytics.json: invalid GA4 measurement ID ${gaId}`);
-const analyticsTag = gaId && (analytics.environments || []).includes(buildEnv) ? `<script async src="https://www.googletagmanager.com/gtag/js?id=${gaId}"></script>
-  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${gaId}');</script>` : '';
+const tagId = String(analytics.google_tag_id || '');
+if (tagId && !/^GTM-[A-Z0-9]{6,10}$/.test(tagId)) throw new Error(`data/analytics.json: invalid Google tag ID ${tagId}`);
+const analyticsTag = tagId && (analytics.environments || []).includes(buildEnv) ? `<script async src="https://www.googletagmanager.com/gtm.js?id=${tagId}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  </script>` : '';
 const [base, headerTemplate, footerTemplate] = await Promise.all([
   readFile('src/layouts/base.html', 'utf8'), readFile('src/partials/header.html', 'utf8'), readFile('src/partials/footer.html', 'utf8')
 ]);
