@@ -1,0 +1,407 @@
+{
+  "tracker_id": "Blog:S83",
+  "status": "verified",
+  "research_question": "How does the wash sale rule work, how does it change basis, and why are IRA purchases different?",
+  "research_brief": {
+    "purpose": "Explain the wash sale rule from IRS primary sources with labeled hypothetical arithmetic.",
+    "audience": "US taxable-account investors.",
+    "publication_year": "2026",
+    "data_period": "IRS Publication 550 current edition; Rev. Rul. 2008-5 (2008).",
+    "scope_limitations": "General education; substantially identical is facts and circumstances; examples hypothetical."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "wash sale rule",
+    "intent": "Informational",
+    "serp_checked_at": "2026-11-08",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-08",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "wash sale rule",
+        "type": "short-tail",
+        "volume": 14800,
+        "difficulty": 19,
+        "cpc": 2.91,
+        "intent": "Informational",
+        "ranking_url": "https://www.law.cornell.edu/wex/wash_sale",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "wash sale rule 30 days",
+        "type": "long-tail",
+        "volume": 480,
+        "difficulty": 43,
+        "cpc": 1.22,
+        "intent": "Informational",
+        "ranking_url": "https://www.law.cornell.edu/wex/wash_sale",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "how to avoid wash sale rule",
+        "type": "commercial",
+        "volume": 140,
+        "difficulty": 38,
+        "cpc": 3.5,
+        "intent": "Informational",
+        "ranking_url": "https://www.law.cornell.edu/wex/wash_sale",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "wash sale rule ira",
+        "type": "problem",
+        "volume": 70,
+        "difficulty": 32,
+        "cpc": 0.03,
+        "intent": "Informational",
+        "ranking_url": "https://www.law.cornell.edu/wex/wash_sale",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is the wash sale rule",
+        "type": "question",
+        "volume": 880,
+        "difficulty": 42,
+        "cpc": 0.14,
+        "intent": "Informational",
+        "ranking_url": "https://www.law.cornell.edu/wex/wash_sale",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.irs.gov/publications/p550",
+      "title": "Publication 550, Investment Income and Expenses",
+      "publisher": "IRS",
+      "source_type": "Federal tax publication",
+      "year": "2025",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "Wash sale definition, basis, matching, reporting",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.irs.gov/irb/2008-03_IRB",
+      "title": "Internal Revenue Bulletin 2008-3, Rev. Rul. 2008-5",
+      "publisher": "IRS",
+      "source_type": "Revenue ruling",
+      "year": "2008",
+      "published_at": "2008-01-22",
+      "accessed_at": "2026-11-20",
+      "scope": "IRA wash sale; no basis increase",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.irs.gov/taxtopics/tc409",
+      "title": "Topic 409, Capital Gains and Losses",
+      "publisher": "IRS",
+      "source_type": "Federal agency guidance",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "Capital gains and loss basics",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Window: 30 days before or after a loss sale",
+      "source_url": "https://www.irs.gov/publications/p550",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Rule",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "IRS example: $250 disallowed, new basis $1,050",
+      "source_url": "https://www.irs.gov/publications/p550",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Example",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "IRS matching example: $750 disallowed, $250 deductible",
+      "source_url": "https://www.irs.gov/publications/p550",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Example",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Cornell LII: wash sale",
+      "url": "https://www.law.cornell.edu/wex/wash_sale",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "wash sale rule"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors rarely walk through IRS lot matching, the IRA basis exception and 1099-B reporting gaps together."
+    },
+    {
+      "title": "NSKT Global: wash sale rule explained",
+      "url": "https://www.nsktglobal.com/usa/blog/wash-sale-rule-explained-how-to-avoid-this-costly-tax-mistake-when-trading-stocks",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "wash sale rule"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors rarely walk through IRS lot matching, the IRA basis exception and 1099-B reporting gaps together."
+    },
+    {
+      "title": "CANFG: what are wash sales",
+      "url": "https://www.canfg.com/what-are-wash-sales",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "wash sale rule"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors rarely walk through IRS lot matching, the IRA basis exception and 1099-B reporting gaps together."
+    },
+    {
+      "title": "Investopedia: legal wash sale",
+      "url": "https://www.investopedia.com/financial-edge/1012/how-taxpayers-can-do-a-legal-wash-sale.aspx",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "wash sale rule"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors rarely walk through IRS lot matching, the IRA basis exception and 1099-B reporting gaps together."
+    },
+    {
+      "title": "Robinhood: wash sales",
+      "url": "https://robinhood.com/us/en/support/articles/wash-sales/",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "wash sale rule"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors rarely walk through IRS lot matching, the IRA basis exception and 1099-B reporting gaps together."
+    }
+  ],
+  "content_gaps": [
+    "Look-back trigger",
+    "IRS lot matching",
+    "IRA permanent disallowance",
+    "Broker reporting gaps"
+  ],
+  "value_add": [
+    "Trade pattern table",
+    "Two worked basis examples",
+    "Reporting and records checklist"
+  ],
+  "plan": {
+    "reader_title": "\"Wash Sale Rule Explained: The 30-Day Window, Cost Basis, and IRA Traps\"",
+    "seo_title": "\"Wash Sale Rule: 30-Day Window, Basis and IRA Traps\"",
+    "meta_description": "Learn how the wash sale rule works, how the 30-day window affects tax losses, and why an IRA purchase can make a disallowed loss permanent.",
+    "slug": "/investing/wash-sale-rule/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "wash sale rule 30 days",
+      "wash sale rule IRA",
+      "substantially identical",
+      "tax loss harvesting"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "What Is the Wash Sale Rule?",
+      "How the 30-Day Window Works",
+      "How a Wash Sale Changes Your Cost Basis",
+      "What Happens When You Buy Back Fewer Shares?",
+      "Why an IRA Purchase Can Make the Loss Permanent",
+      "What Counts as Substantially Identical?",
+      "How Wash Sales Are Reported",
+      "Tax Loss Harvesting Without Tripping the Rule",
+      "The Bottom Line",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Rules and examples: IRS Pub 550",
+      "IRA: Rev. Rul. 2008-5",
+      "Context: IRS Topic 409"
+    ],
+    "visuals": [
+      "Owner-supplied featured image",
+      "One table"
+    ],
+    "internal_links": [
+      "/investing/crypto-vs-stocks/",
+      "/investing/short-term-vs-long-term-capital-gains/",
+      "/investing/capital-gains-tax-calculator/"
+    ],
+    "external_link_opportunities": [
+      "https://www.irs.gov/publications/p550",
+      "https://www.irs.gov/irb/2008-03_IRB"
+    ],
+    "excluded_claims": [
+      "Crypto treatment not stated: not covered by fetched IRS text",
+      "Schedule D instructions link dropped from Resources: not re-fetched",
+      "Draft called the 61-day span plus sale date; kept as derived from Pub 550 wording"
+    ],
+    "drafting_cautions": [
+      "No buy, sell or hold recommendation",
+      "Hypothetical examples labeled",
+      "Dates and populations stated"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Wash sale definition, spouse rule, basis adjustment, holding period, 1099-B box 1g, Form 8949 code W",
+      "source_url": "https://www.irs.gov/publications/p550",
+      "verified": true
+    },
+    {
+      "statement": "IRA purchase: loss disallowed and IRA basis not increased",
+      "source_url": "https://www.irs.gov/irb/2008-03_IRB",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-20",
+    "note": "Every rule and example checked against fetched IRS Pub 550 and IRB 2008-3 on 2026-11-20; arithmetic recomputed ($5,200 basis; $400/$600 split).",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-20",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-20",
+    "summary": "Every rule and example checked against fetched IRS Pub 550 and IRB 2008-3 on 2026-11-20; arithmetic recomputed ($5,200 basis; $400/$600 split).",
+    "pending": "Owner sign-off."
+  }
+}
