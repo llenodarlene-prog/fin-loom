@@ -1602,6 +1602,24 @@
       "scheduled_publish": "2026-11-28",
       "min_words": 2500,
       "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S91",
+      "working_title": "\"Can a Wire Transfer Be Reversed? Cancellation, Recall and Error Rights\"",
+      "primary_keyword": "can a wire transfer be reversed",
+      "secondary_keywords": "wire transfer reversal; cancel wire transfer; wire recall; remittance transfer cancellation",
+      "cluster": "Payments",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/payments/can-a-wire-transfer-be-reversed/",
+      "seo_title": "\"Can a Wire Transfer Be Reversed? What Rules Allow\"",
+      "meta_description": "\"Can a wire transfer be reversed? See why Fedwire payments are final, when the 30-minute remittance cancellation right applies, and what to do fast.\"",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-29",
+      "min_words": 2500,
+      "no_word_ceiling": true
     }
   ],
   "links": [
@@ -2813,6 +2831,19 @@
       ],
       "silo_role": "Supporting",
       "pillar": "/money-banking/saving-vs-investing/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S91",
+      "url_slug": "/payments/can-a-wire-transfer-be-reversed/",
+      "primary_silo_hub": "/payments/",
+      "approved_outbound_targets": [
+        "/payments/ach-vs-wire-transfer/",
+        "/payments/how-long-does-a-wire-transfer-take/",
+        "/payments/paypal-statistics/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/payments/paypal-statistics/"
     }
   ]
 }
