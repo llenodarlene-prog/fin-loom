@@ -48,7 +48,7 @@ The label decides which rate schedule applies. The IRS notes that net short-term
 
 Topic 409 explains the count. You generally start from the day after the day you acquired the asset and count up to and including the day you disposed of it. The words "more than one year" are the key phrase. A sale that lands exactly on the one-year mark is still one year or less under this rule.
 
-A quick example helps. If you bought shares on March 10 of one year, the holding period starts March 11. A sale on March 10 of the following year falls inside one year. A sale on March 11 or later is more than one year. Checking trade confirmations for the exact date avoids a costly one-day mistake.
+A quick example helps with short term vs long term capital gains. If you bought shares on March 10 of one year, the holding period starts March 11. A sale on March 10 of the following year falls inside one year. A sale on March 11 or later is more than one year. Checking trade confirmations for the exact date avoids a costly one-day mistake.
 
 ### Exceptions to the General Rule
 
@@ -68,6 +68,8 @@ The table below summarizes the general federal treatment for common investment g
 | Loss netting | Netted with short-term results first | Netted with long-term results first |
 | Net investment income tax | Can apply | Can apply |
 | Reported on | Form 8949 and Schedule D | Form 8949 and Schedule D |
+
+The rows split into what stays fixed and what moves when you look at short term vs long term capital gains.
 
 ### What Stays the Same
 
@@ -91,6 +93,8 @@ The IRS publishes the long-term thresholds in Topic 409. The table below uses th
 | Married filing jointly | $96,700 | $600,050 | $600,050 |
 | Married filing separately | $48,350 | $300,000 | $300,000 |
 | Head of household | $64,750 | $566,700 | $566,700 |
+
+These bands decide how much of a gain lands in each rate when you compare short term vs long term capital gains.
 
 ### How to Read the Thresholds
 
@@ -166,7 +170,7 @@ Other factors weigh in too. Cash needs, concentration in a single stock, changes
 
 ### Timing Around Year End
 
-The tax year also shapes the result. A sale on December 31 falls in one tax year, and a sale on January 2 falls in the next. Moving a sale across that line can change which year's income it adds to, which thresholds apply and whether losses from the same year can offset it.
+The tax year also shapes short term vs long term capital gains results. A sale on December 31 falls in one tax year, and a sale on January 2 falls in the next. Moving a sale across that line can change which year's income it adds to, which thresholds apply and whether losses from the same year can offset it.
 
 Year-end timing interacts with the holding period, too. An investor close to the one-year mark in late December faces two separate timing questions at once. Writing down the purchase date, the date the holding period passes one year and the tax-year boundary makes the choice easier to see.
 
@@ -190,7 +194,7 @@ The short term vs long term capital gains question starts with a date, but the t
 
 ### How Long Must I Hold a Stock for Long-Term Treatment?
 
-More than one year. The IRS counts from the day after you bought the asset through the day you sold it, so a sale exactly one year later is still short-term.
+More than one year. The IRS counts from the day after purchase through the sale date, so a sale exactly one year later is still short-term.
 
 ### Are Long-Term Capital Gains Tax-Free?
 
