@@ -1548,6 +1548,24 @@
       "scheduled_publish": "2026-11-27",
       "min_words": 2500,
       "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S88",
+      "working_title": "\"HSA Investment Options: Cash Reserves, Fees, Risk and Tax Rules\"",
+      "primary_keyword": "hsa investment options",
+      "secondary_keywords": "investing hsa funds; hsa cash threshold; hsa fees; can you invest hsa money",
+      "cluster": "Money & Banking",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/money-banking/hsa-investment-options/",
+      "seo_title": "\"HSA Investment Options: Cash, Fees, Risk and Tax Rules\"",
+      "meta_description": "\"Compare HSA investment options with IRS and FDIC rules: how much cash to keep, how flat and percentage fees add up, and what investing changes.\"",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-27",
+      "min_words": 2500,
+      "no_word_ceiling": true
     }
   ],
   "links": [
@@ -2716,6 +2734,19 @@
       "approved_outbound_targets": [
         "/money-banking/hsa-investment-options/",
         "/money-banking/hsa-vs-fsa/",
+        "/money-banking/saving-vs-investing/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/money-banking/saving-vs-investing/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S88",
+      "url_slug": "/money-banking/hsa-investment-options/",
+      "primary_silo_hub": "/money-banking/",
+      "approved_outbound_targets": [
+        "/money-banking/best-hsa-accounts/",
+        "/money-banking/hsa-vs-ppo/",
         "/money-banking/saving-vs-investing/"
       ],
       "silo_role": "Supporting",
