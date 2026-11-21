@@ -5,7 +5,7 @@ description: "Can a wire transfer be reversed? See why Fedwire payments are fina
 slug: /payments/can-a-wire-transfer-be-reversed/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S91
 primary_keyword: can a wire transfer be reversed
 secondary_keywords: wire transfer reversal; cancel wire transfer; wire recall; remittance transfer cancellation

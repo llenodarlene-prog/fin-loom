@@ -5,7 +5,7 @@ description: Learn how the wash sale rule works, how the 30-day window affects t
 slug: /investing/wash-sale-rule/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S83
 primary_keyword: wash sale rule
 secondary_keywords: wash sale rule 30 days; wash sale rule IRA; substantially identical; tax loss harvesting

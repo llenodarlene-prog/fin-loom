@@ -5,7 +5,7 @@ description: "Compare treasury bills vs cd with November 2026 FDIC and FRED data
 slug: /money-banking/treasury-bills-vs-cd/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S89
 primary_keyword: treasury bills vs cd
 secondary_keywords: t bills vs cds; treasury bill rates; cd rates 2026; t bill state tax

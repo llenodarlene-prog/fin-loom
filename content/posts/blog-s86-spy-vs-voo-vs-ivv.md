@@ -5,7 +5,7 @@ description: Compare SPY vs VOO vs IVV with issuer data on expense ratios, incep
 slug: /investing/spy-vs-voo-vs-ivv/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S86
 primary_keyword: spy vs voo vs ivv
 secondary_keywords: spy vs voo; voo vs ivv; ivv vs spy; s&p 500 etf expense ratio

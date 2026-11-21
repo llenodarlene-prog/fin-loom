@@ -1699,6 +1699,7 @@
         "/investing/dividend-reinvestment-plan-calculator/",
         "/investing/dividend-vs-dividend-yield/",
         "/investing/dollar-cost-averaging-statistics/",
+        "/investing/etf-vs-index-fund/",
         "/investing/expense-ratio-statistics/",
         "/investing/fidelity-vs-vanguard/",
         "/investing/fxaix-vs-voo/",
@@ -1707,10 +1708,13 @@
         "/investing/qualified-dividends/",
         "/investing/retirement-savings-by-age/",
         "/investing/roth-ira-vs-traditional-ira/",
+        "/investing/short-term-vs-long-term-capital-gains/",
+        "/investing/spy-vs-voo-vs-ivv/",
         "/investing/stock-risk-metrics/",
         "/investing/voo-vs-spy/",
         "/investing/vti-vs-voo/",
-        "/investing/vug-vs-voo/"
+        "/investing/vug-vs-voo/",
+        "/investing/wash-sale-rule/"
       ],
       "silo_role": "Hub",
       "pillar": "/investing/crypto-vs-stocks/"
@@ -1753,12 +1757,15 @@
         "/money-banking/best-budgeting-apps/",
         "/money-banking/best-hsa-accounts/",
         "/money-banking/checking-vs-savings-account/",
+        "/money-banking/cpi-vs-ppi-vs-pce/",
         "/money-banking/credit-card-delinquency-rate-statistics/",
         "/money-banking/credit-union-vs-bank/",
         "/money-banking/high-yield-savings-account-vs-cd/",
         "/money-banking/high-yield-savings-vs-money-market-account/",
+        "/money-banking/hsa-investment-options/",
         "/money-banking/hsa-vs-fsa/",
         "/money-banking/hsa-vs-hra/",
+        "/money-banking/hsa-vs-ppo/",
         "/money-banking/identity-theft-statistics/",
         "/money-banking/inflation-rate-by-year/",
         "/money-banking/money-market-account-vs-money-market-fund/",
@@ -1766,7 +1773,9 @@
         "/money-banking/net-worth-by-age-statistics/",
         "/money-banking/rogue-ai-agent-banking-liability/",
         "/money-banking/savings-interest-calculator/",
-        "/money-banking/what-is-a-credit-score/"
+        "/money-banking/treasury-bills-vs-cd/",
+        "/money-banking/what-is-a-credit-score/",
+        "/payments/can-a-wire-transfer-be-reversed/"
       ],
       "silo_role": "Hub",
       "pillar": "/money-banking/saving-vs-investing/"
@@ -1793,6 +1802,7 @@
         "/markets-stocks/apple-statistics/",
         "/money-banking/identity-theft-statistics/",
         "/payments/ach-vs-wire-transfer/",
+        "/payments/can-a-wire-transfer-be-reversed/",
         "/payments/how-long-does-a-wire-transfer-take/",
         "/payments/what-is-a-wire-transfer/"
       ],

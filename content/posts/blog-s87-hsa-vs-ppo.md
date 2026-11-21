@@ -5,7 +5,7 @@ description: "HSA vs PPO compares an account with a network type. See 2026 IRS H
 slug: /money-banking/hsa-vs-ppo/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S87
 primary_keyword: hsa vs ppo
 secondary_keywords: hsa eligible ppo; hdhp vs ppo; 2026 hsa contribution limits; high deductible health plan

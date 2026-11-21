@@ -5,7 +5,7 @@ description: Compare short term vs long term capital gains, see the IRS holding 
 slug: /investing/short-term-vs-long-term-capital-gains/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S84
 primary_keyword: short term vs long term capital gains
 secondary_keywords: long term capital gains tax rate; short term capital gains tax; capital gains holding period; capital loss carryover

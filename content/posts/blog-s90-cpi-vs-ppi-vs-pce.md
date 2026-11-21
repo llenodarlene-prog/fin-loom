@@ -5,7 +5,7 @@ description: "CPI vs PPI vs PCE explained with BLS and BEA sources: who each ind
 slug: /money-banking/cpi-vs-ppi-vs-pce/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S90
 primary_keyword: cpi vs ppi vs pce
 secondary_keywords: cpi vs ppi; cpi vs pce; pce price index; producer price index

@@ -5,7 +5,7 @@ description: "ETF vs index fund is a mixed question: one is a structure, the oth
 slug: /investing/etf-vs-index-fund/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:S85
 primary_keyword: etf vs index fund
 secondary_keywords: index etf vs index mutual fund; etf vs mutual fund; are etfs index funds; etf tax efficiency
