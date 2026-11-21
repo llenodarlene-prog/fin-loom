@@ -1494,6 +1494,24 @@
       "scheduled_publish": "2026-11-25",
       "min_words": 2500,
       "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S85",
+      "working_title": "\"ETF vs Index Fund: Structure, Strategy, Costs and Trading Compared\"",
+      "primary_keyword": "etf vs index fund",
+      "secondary_keywords": "index etf vs index mutual fund; etf vs mutual fund; are etfs index funds; etf tax efficiency",
+      "cluster": "Investing",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/investing/etf-vs-index-fund/",
+      "seo_title": "\"ETF vs Index Fund: What Differs and What Does Not\"",
+      "meta_description": "\"ETF vs index fund is a mixed question: one is a structure, the other a strategy. Compare trading, NAV pricing, costs, minimums and taxes.\"",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-26",
+      "min_words": 2500,
+      "no_word_ceiling": true
     }
   ],
   "links": [
@@ -2624,6 +2642,19 @@
         "/investing/capital-gains-tax-calculator/",
         "/investing/crypto-vs-stocks/",
         "/investing/wash-sale-rule/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/investing/crypto-vs-stocks/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S85",
+      "url_slug": "/investing/etf-vs-index-fund/",
+      "primary_silo_hub": "/investing/",
+      "approved_outbound_targets": [
+        "/investing/crypto-vs-stocks/",
+        "/investing/expense-ratio-calculator/",
+        "/investing/spy-vs-voo-vs-ivv/"
       ],
       "silo_role": "Supporting",
       "pillar": "/investing/crypto-vs-stocks/"
