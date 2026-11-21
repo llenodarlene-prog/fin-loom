@@ -1,0 +1,438 @@
+{
+  "tracker_id": "Blog:S87",
+  "status": "verified",
+  "research_question": "How does an HSA differ from a PPO, and how should two benefit plans be compared?",
+  "research_brief": {
+    "purpose": "Separate account from network type using IRS and HealthCare.gov sources with a labeled plan comparison.",
+    "audience": "US employees and Marketplace shoppers.",
+    "publication_year": "2026",
+    "data_period": "Rev. Proc. 2025-19 (2026 limits); Pub 969 current edition; HealthCare.gov pages accessed Nov 21, 2026.",
+    "scope_limitations": "Plan example hypothetical; tax value not modeled."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "hsa vs ppo",
+    "intent": "Informational",
+    "serp_checked_at": "2026-11-08",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-08",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "hsa vs ppo",
+        "type": "short-tail",
+        "volume": 5400,
+        "difficulty": 21,
+        "cpc": 2.0,
+        "intent": "Informational",
+        "ranking_url": "https://www.ehealthinsurance.com/health-plans/ppo-vs-hsa",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "hdhp vs ppo",
+        "type": "long-tail",
+        "volume": 5400,
+        "difficulty": 21,
+        "cpc": 2.0,
+        "intent": "Informational",
+        "ranking_url": "https://www.ehealthinsurance.com/health-plans/ppo-vs-hsa",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best health plan for hsa",
+        "type": "commercial",
+        "volume": 5400,
+        "difficulty": 21,
+        "cpc": 2.0,
+        "intent": "Commercial",
+        "ranking_url": "https://www.ehealthinsurance.com/health-plans/ppo-vs-hsa",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "is my ppo hsa eligible",
+        "type": "problem",
+        "volume": 5400,
+        "difficulty": 21,
+        "cpc": 2.0,
+        "intent": "Informational",
+        "ranking_url": "https://www.ehealthinsurance.com/health-plans/ppo-vs-hsa",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "can you have an hsa with a ppo",
+        "type": "question",
+        "volume": 5400,
+        "difficulty": 21,
+        "cpc": 2.0,
+        "intent": "Informational",
+        "ranking_url": "https://www.ehealthinsurance.com/health-plans/ppo-vs-hsa",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.irs.gov/irb/2025-21_IRB",
+      "title": "Internal Revenue Bulletin 2025-21, Rev. Proc. 2025-19",
+      "publisher": "IRS",
+      "source_type": "Revenue procedure",
+      "year": "2025",
+      "published_at": "2025-05-19",
+      "accessed_at": "2026-11-21",
+      "scope": "2026 HSA limits and HDHP thresholds",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.irs.gov/publications/p969",
+      "title": "Publication 969",
+      "publisher": "IRS",
+      "source_type": "Federal tax publication",
+      "year": "2025",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "HSA eligibility, benefits, catch-up, Medicare, premiums, excess tax",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.healthcare.gov/high-deductible-health-plan/hdhp-hsa-information/",
+      "title": "HSA-eligible plans",
+      "publisher": "HealthCare.gov (CMS)",
+      "source_type": "Federal agency guidance",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "Bronze/Catastrophic HSA eligibility; premiums rule",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.healthcare.gov/glossary/preferred-provider-organization-ppo/",
+      "title": "Preferred Provider Organization (PPO)",
+      "publisher": "HealthCare.gov (CMS)",
+      "source_type": "Federal glossary",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "PPO definition",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.healthcare.gov/glossary/out-of-pocket-maximum-limit/",
+      "title": "Out-of-pocket maximum/limit",
+      "publisher": "HealthCare.gov (CMS)",
+      "source_type": "Federal glossary",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "What the limit excludes",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "2026 HSA limits $4,400 / $8,750",
+      "source_url": "https://www.irs.gov/irb/2025-21_IRB",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "2026 HDHP min deductible $1,700 / $3,400; max OOP $8,500 / $17,000",
+      "source_url": "https://www.irs.gov/irb/2025-21_IRB",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Catch-up $1,000 at 55+",
+      "source_url": "https://www.irs.gov/publications/p969",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "eHealth: PPO vs HSA",
+      "url": "https://www.ehealthinsurance.com/health-plans/ppo-vs-hsa",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "hsa vs ppo"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors frame HSA and PPO as rivals; few cite the 2026 revenue procedure and IRS eligibility tests directly."
+    },
+    {
+      "title": "Reddit r/personalfinance thread",
+      "url": "https://www.reddit.com/r/personalfinance/comments/3wdjg4/can_someone_explain_the_hsa_vs_ppo_to_me/",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "hsa vs ppo"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors frame HSA and PPO as rivals; few cite the 2026 revenue procedure and IRS eligibility tests directly."
+    },
+    {
+      "title": "Business Health Trust: HSA vs PPO",
+      "url": "https://businesshealthtrust.com/compare/hsa-vs-ppo/",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "hsa vs ppo"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors frame HSA and PPO as rivals; few cite the 2026 revenue procedure and IRS eligibility tests directly."
+    },
+    {
+      "title": "SmartAsset: HSA vs PPO",
+      "url": "https://smartasset.com/checking-account/hsa-vs-ppo",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "hsa vs ppo"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors frame HSA and PPO as rivals; few cite the 2026 revenue procedure and IRS eligibility tests directly."
+    },
+    {
+      "title": "Lively: HDHP with HSA vs PPO",
+      "url": "https://livelyme.com/blog/hsa-vs-ppo",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "hsa vs ppo"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors frame HSA and PPO as rivals; few cite the 2026 revenue procedure and IRS eligibility tests directly."
+    }
+  ],
+  "content_gaps": [
+    "Account vs network layers",
+    "2026 IRS threshold table",
+    "Last-month rule and excess tax",
+    "High-cost year test"
+  ],
+  "value_add": [
+    "Side-by-side table",
+    "2026 figure table",
+    "Labeled two-plan cost example"
+  ],
+  "plan": {
+    "reader_title": "\"HSA vs PPO: An Account vs a Network, and How to Compare Plans\"",
+    "seo_title": "\"HSA vs PPO: Why It Is Not a Like-for-Like Choice\"",
+    "meta_description": "\"HSA vs PPO compares an account with a network type. See 2026 IRS HSA limits, HDHP rules and a labeled way to compare two benefit plans.\"",
+    "slug": "/money-banking/hsa-vs-ppo/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "hsa eligible ppo",
+      "hdhp vs ppo",
+      "2026 hsa contribution limits",
+      "high deductible health plan"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "What Is the Difference Between an HSA and a PPO?",
+      "HSA vs PPO Side by Side",
+      "The 2026 HSA and HDHP Numbers",
+      "Who Can Contribute to an HSA?",
+      "What an HSA Offers Beyond the Plan Year",
+      "How to Compare Two Benefit Plans",
+      "Network Access and Out-of-Network Costs",
+      "The Bottom Line",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Limits: Rev. Proc. 2025-19",
+      "Rules: IRS Pub 969",
+      "Plan types: HealthCare.gov"
+    ],
+    "visuals": [
+      "Owner-supplied featured image",
+      "Three tables"
+    ],
+    "internal_links": [
+      "/money-banking/saving-vs-investing/",
+      "/money-banking/hsa-investment-options/",
+      "/money-banking/hsa-vs-fsa/"
+    ],
+    "external_link_opportunities": [
+      "https://www.irs.gov/irb/2025-21_IRB",
+      "https://www.irs.gov/publications/p969",
+      "https://www.healthcare.gov/high-deductible-health-plan/hdhp-hsa-information/"
+    ],
+    "excluded_claims": [
+      "HSA vs HRA and Best HSA accounts links dropped (3-link spoke limit)",
+      "FSA-eligibility interaction claim generalized: not in fetched text",
+      "Secondary query volumes reuse primary metric"
+    ],
+    "drafting_cautions": [
+      "No buy, sell or hold recommendation",
+      "Hypothetical examples labeled",
+      "Dates and populations stated"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "2026 HSA and HDHP figures",
+      "source_url": "https://www.irs.gov/irb/2025-21_IRB",
+      "verified": true
+    },
+    {
+      "statement": "Eligibility, portability, carryover, premium exceptions, 20% and 6% taxes",
+      "source_url": "https://www.irs.gov/publications/p969",
+      "verified": true
+    },
+    {
+      "statement": "Bronze and Catastrophic plans work with HSAs; HSA funds generally not for premiums",
+      "source_url": "https://www.healthcare.gov/high-deductible-health-plan/hdhp-hsa-information/",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-21",
+    "note": "2026 figures read from IRB 2025-21; rules from Pub 969 and HealthCare.gov on 2026-11-21; plan arithmetic recomputed ($4,600 / $5,400 / $800).",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-21",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-21",
+    "summary": "2026 figures read from IRB 2025-21; rules from Pub 969 and HealthCare.gov on 2026-11-21; plan arithmetic recomputed ($4,600 / $5,400 / $800).",
+    "pending": "Owner sign-off."
+  }
+}

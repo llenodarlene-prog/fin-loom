@@ -1,0 +1,413 @@
+{
+  "tracker_id": "Blog:S85",
+  "status": "verified",
+  "research_question": "How do ETFs and index funds differ, given one is a structure and the other a strategy?",
+  "research_brief": {
+    "purpose": "Separate fund structure from strategy using FINRA and issuer guidance.",
+    "audience": "US fund investors.",
+    "publication_year": "2026",
+    "data_period": "FINRA and Vanguard pages as accessed Nov 21, 2026.",
+    "scope_limitations": "General patterns; fund specifics vary; fee example hypothetical."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "etf vs index fund",
+    "intent": "Informational",
+    "serp_checked_at": "2026-11-07",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-07",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "etf vs index fund",
+        "type": "short-tail",
+        "volume": 18100,
+        "difficulty": 24,
+        "cpc": 1.5,
+        "intent": "Informational",
+        "ranking_url": "https://www.etf.com/sections/etf-basics/etfs-vs-index-funds-comparison-guide",
+        "retrieved_at": "2026-11-07",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "index etf vs index mutual fund",
+        "type": "long-tail",
+        "volume": 18100,
+        "difficulty": 24,
+        "cpc": 1.5,
+        "intent": "Informational",
+        "ranking_url": "https://www.etf.com/sections/etf-basics/etfs-vs-index-funds-comparison-guide",
+        "retrieved_at": "2026-11-07",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best index funds",
+        "type": "commercial",
+        "volume": 18100,
+        "difficulty": 24,
+        "cpc": 1.5,
+        "intent": "Commercial",
+        "ranking_url": "https://www.etf.com/sections/etf-basics/etfs-vs-index-funds-comparison-guide",
+        "retrieved_at": "2026-11-07",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "etf premium discount to nav",
+        "type": "problem",
+        "volume": 18100,
+        "difficulty": 24,
+        "cpc": 1.5,
+        "intent": "Informational",
+        "ranking_url": "https://www.etf.com/sections/etf-basics/etfs-vs-index-funds-comparison-guide",
+        "retrieved_at": "2026-11-07",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "are etfs index funds",
+        "type": "question",
+        "volume": 18100,
+        "difficulty": 24,
+        "cpc": 1.5,
+        "intent": "Informational",
+        "ranking_url": "https://www.etf.com/sections/etf-basics/etfs-vs-index-funds-comparison-guide",
+        "retrieved_at": "2026-11-07",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.finra.org/investors/investing/investment-products/exchange-traded-funds-and-products",
+      "title": "Exchange-Traded Funds and Products",
+      "publisher": "FINRA",
+      "source_type": "Regulator investor guidance",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "ETF structure, intraday trading, spreads, premium/discount, taxes",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.finra.org/investors/investing/investment-products/mutual-funds",
+      "title": "Mutual Funds",
+      "publisher": "FINRA",
+      "source_type": "Regulator investor guidance",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "NAV once daily; index funds definition and costs",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://investor.vanguard.com/investor-resources-education/etfs/etf-vs-mutual-fund",
+      "title": "ETF vs. mutual fund",
+      "publisher": "Vanguard",
+      "source_type": "Issuer education page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "Minimums, 4 p.m. NAV, recurring investments, tax mechanics",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Most ETPs track an index and resemble index mutual funds",
+      "source_url": "https://www.finra.org/investors/investing/investment-products/exchange-traded-funds-and-products",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Qualitative",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Vanguard: ETFs from $1; most mutual funds $3,000 minimum",
+      "source_url": "https://investor.vanguard.com/investor-resources-education/etfs/etf-vs-mutual-fund",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Vanguard: 90+ index ETFs, 130+ index mutual funds",
+      "source_url": "https://investor.vanguard.com/investor-resources-education/etfs/etf-vs-mutual-fund",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Count",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "etf.com comparison guide",
+      "url": "https://www.etf.com/sections/etf-basics/etfs-vs-index-funds-comparison-guide",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "etf vs index fund"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors frame it as either/or; few separate structure from strategy with regulator sources and premium/discount risk."
+    },
+    {
+      "title": "Investopedia: ETFs vs mutual funds",
+      "url": "https://www.investopedia.com/articles/investing/110314/key-differences-between-etfs-and-mutual-funds.asp",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "etf vs index fund"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors frame it as either/or; few separate structure from strategy with regulator sources and premium/discount risk."
+    },
+    {
+      "title": "Reddit r/FIREUK thread",
+      "url": "https://www.reddit.com/r/FIREUK/comments/1lmxsrl/what_is_the_difference_between_etfs_and_index/",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "etf vs index fund"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors frame it as either/or; few separate structure from strategy with regulator sources and premium/discount risk."
+    },
+    {
+      "title": "Bajaj AMC: ETF vs index fund",
+      "url": "https://www.bajajamc.com/knowledge-centre/difference-between-etf-and-index-fund",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "etf vs index fund"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors frame it as either/or; few separate structure from strategy with regulator sources and premium/discount risk."
+    },
+    {
+      "title": "FBS: ETF vs index fund",
+      "url": "https://fbs.com/fbs-academy/traders-blog/etf-vs-index-fund-which-is-right-for-you",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "etf vs index fund"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors frame it as either/or; few separate structure from strategy with regulator sources and premium/discount risk."
+    }
+  ],
+  "content_gaps": [
+    "Structure vs strategy split",
+    "Premium and discount risk",
+    "Total cost beyond expense ratio",
+    "Account-type tax context"
+  ],
+  "value_add": [
+    "Index ETF vs index mutual fund table",
+    "Labeled fee example",
+    "Comparison checklist"
+  ],
+  "plan": {
+    "reader_title": "\"ETF vs Index Fund: Structure, Strategy, Costs and Trading Compared\"",
+    "seo_title": "\"ETF vs Index Fund: What Differs and What Does Not\"",
+    "meta_description": "\"ETF vs index fund is a mixed question: one is a structure, the other a strategy. Compare trading, NAV pricing, costs, minimums and taxes.\"",
+    "slug": "/investing/etf-vs-index-fund/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "index etf vs index mutual fund",
+      "etf vs mutual fund",
+      "are etfs index funds",
+      "etf tax efficiency"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "Is an ETF the Same as an Index Fund?",
+      "A Clearer Comparison: Index ETF vs Index Mutual Fund",
+      "How Trading Differs",
+      "When an ETF Price Drifts From Its Value",
+      "Are ETFs Always Cheaper?",
+      "Do ETFs Create Fewer Taxes?",
+      "What to Compare Before Looking at Returns",
+      "The Bottom Line",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Structure and trading: FINRA ETP guide",
+      "NAV and index funds: FINRA mutual funds",
+      "Minimums and tax mechanics: Vanguard"
+    ],
+    "visuals": [
+      "Owner-supplied featured image",
+      "One table"
+    ],
+    "internal_links": [
+      "/investing/crypto-vs-stocks/",
+      "/investing/spy-vs-voo-vs-ivv/",
+      "/investing/expense-ratio-calculator/"
+    ],
+    "external_link_opportunities": [
+      "https://www.finra.org/investors/investing/investment-products/exchange-traded-funds-and-products",
+      "https://www.finra.org/investors/investing/investment-products/mutual-funds",
+      "https://investor.vanguard.com/investor-resources-education/etfs/etf-vs-mutual-fund"
+    ],
+    "excluded_claims": [
+      "Investor.gov sources replaced: site returns 403 to automated fetches",
+      "Retirement-account distribution claim removed: not in fetched sources",
+      "Index fund vs mutual fund link dropped (3-link spoke limit)",
+      "Secondary query volumes reuse primary metric"
+    ],
+    "drafting_cautions": [
+      "No buy, sell or hold recommendation",
+      "Hypothetical examples labeled",
+      "Dates and populations stated"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "ETF structure, intraday trading, spreads, premium/discount, tax efficiency",
+      "source_url": "https://www.finra.org/investors/investing/investment-products/exchange-traded-funds-and-products",
+      "verified": true
+    },
+    {
+      "statement": "Mutual fund NAV once daily; index funds replicate benchmarks",
+      "source_url": "https://www.finra.org/investors/investing/investment-products/mutual-funds",
+      "verified": true
+    },
+    {
+      "statement": "Minimums, NAV timing, ETF tax mechanics",
+      "source_url": "https://investor.vanguard.com/investor-resources-education/etfs/etf-vs-mutual-fund",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-21",
+    "note": "Claims checked against fetched FINRA and Vanguard pages on 2026-11-21; fee arithmetic recomputed ($3, $10, $7).",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-21",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-21",
+    "summary": "Claims checked against fetched FINRA and Vanguard pages on 2026-11-21; fee arithmetic recomputed ($3, $10, $7).",
+    "pending": "Owner sign-off."
+  }
+}

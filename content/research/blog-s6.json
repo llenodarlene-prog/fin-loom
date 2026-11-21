@@ -412,6 +412,7 @@
       "/investing/dividend-reinvestment-plan-calculator/",
       "/investing/dividend-vs-dividend-yield/",
       "/investing/dollar-cost-averaging-statistics/",
+      "/investing/etf-vs-index-fund/",
       "/investing/expense-ratio-statistics/",
       "/investing/fidelity-vs-vanguard/",
       "/investing/fxaix-vs-voo/",
@@ -420,10 +421,13 @@
       "/investing/qualified-dividends/",
       "/investing/retirement-savings-by-age/",
       "/investing/roth-ira-vs-traditional-ira/",
+      "/investing/short-term-vs-long-term-capital-gains/",
+      "/investing/spy-vs-voo-vs-ivv/",
       "/investing/stock-risk-metrics/",
       "/investing/voo-vs-spy/",
       "/investing/vti-vs-voo/",
-      "/investing/vug-vs-voo/"
+      "/investing/vug-vs-voo/",
+      "/investing/wash-sale-rule/"
     ],
     "external_link_opportunities": [
       "https://www.sec.gov/edgar/search/",
