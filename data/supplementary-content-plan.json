@@ -1512,6 +1512,24 @@
       "scheduled_publish": "2026-11-26",
       "min_words": 2500,
       "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S86",
+      "working_title": "\"SPY vs VOO vs IVV: Three S&P 500 ETFs Compared on Cost, Structure and Size\"",
+      "primary_keyword": "spy vs voo vs ivv",
+      "secondary_keywords": "spy vs voo; voo vs ivv; ivv vs spy; s&p 500 etf expense ratio",
+      "cluster": "Investing",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/investing/spy-vs-voo-vs-ivv/",
+      "seo_title": "\"SPY vs VOO vs IVV: Fees, Structure and Size Compared\"",
+      "meta_description": "Compare SPY vs VOO vs IVV with issuer data on expense ratios, inception dates, fund structure and assets, plus labeled fee math for each.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-26",
+      "min_words": 2500,
+      "no_word_ceiling": true
     }
   ],
   "links": [
@@ -2655,6 +2673,19 @@
         "/investing/crypto-vs-stocks/",
         "/investing/expense-ratio-calculator/",
         "/investing/spy-vs-voo-vs-ivv/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/investing/crypto-vs-stocks/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S86",
+      "url_slug": "/investing/spy-vs-voo-vs-ivv/",
+      "primary_silo_hub": "/investing/",
+      "approved_outbound_targets": [
+        "/investing/crypto-vs-stocks/",
+        "/investing/etf-vs-index-fund/",
+        "/investing/voo-vs-spy/"
       ],
       "silo_role": "Supporting",
       "pillar": "/investing/crypto-vs-stocks/"
