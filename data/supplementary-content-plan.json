@@ -1476,6 +1476,24 @@
       "scheduled_publish": "2026-11-25",
       "min_words": 2500,
       "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S84",
+      "working_title": "\"Short Term vs Long Term Capital Gains: Holding Periods and Tax Examples\"",
+      "primary_keyword": "short term vs long term capital gains",
+      "secondary_keywords": "long term capital gains tax rate; short term capital gains tax; capital gains holding period; capital loss carryover",
+      "cluster": "Investing",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/investing/short-term-vs-long-term-capital-gains/",
+      "seo_title": "\"Short Term vs Long Term Capital Gains: Rates and Examples\"",
+      "meta_description": "Compare short term vs long term capital gains, see the IRS holding period rule and 2025 rate thresholds, and learn how losses change the result.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-25",
+      "min_words": 2500,
+      "no_word_ceiling": true
     }
   ],
   "links": [
@@ -2593,6 +2611,19 @@
         "/investing/capital-gains-tax-calculator/",
         "/investing/crypto-vs-stocks/",
         "/investing/short-term-vs-long-term-capital-gains/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/investing/crypto-vs-stocks/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S84",
+      "url_slug": "/investing/short-term-vs-long-term-capital-gains/",
+      "primary_silo_hub": "/investing/",
+      "approved_outbound_targets": [
+        "/investing/capital-gains-tax-calculator/",
+        "/investing/crypto-vs-stocks/",
+        "/investing/wash-sale-rule/"
       ],
       "silo_role": "Supporting",
       "pillar": "/investing/crypto-vs-stocks/"
