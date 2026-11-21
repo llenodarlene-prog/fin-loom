@@ -1566,6 +1566,24 @@
       "scheduled_publish": "2026-11-27",
       "min_words": 2500,
       "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S89",
+      "working_title": "\"Treasury Bills vs CD: Rates, Pricing, Taxes and Access Compared\"",
+      "primary_keyword": "treasury bills vs cd",
+      "secondary_keywords": "t bills vs cds; treasury bill rates; cd rates 2026; t bill state tax",
+      "cluster": "Money & Banking",
+      "intent": "Commercial",
+      "status": "Scheduled",
+      "url_slug": "/money-banking/treasury-bills-vs-cd/",
+      "seo_title": "\"Treasury Bills vs CD: 2026 Rates, Taxes and Access\"",
+      "meta_description": "\"Compare treasury bills vs cd with November 2026 FDIC and FRED data, the TreasuryDirect discount formula, state tax rules and early access trade-offs.\"",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-28",
+      "min_words": 2500,
+      "no_word_ceiling": true
     }
   ],
   "links": [
@@ -2747,6 +2765,19 @@
       "approved_outbound_targets": [
         "/money-banking/best-hsa-accounts/",
         "/money-banking/hsa-vs-ppo/",
+        "/money-banking/saving-vs-investing/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/money-banking/saving-vs-investing/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S89",
+      "url_slug": "/money-banking/treasury-bills-vs-cd/",
+      "primary_silo_hub": "/money-banking/",
+      "approved_outbound_targets": [
+        "/investing/treasury-bill-calculator/",
+        "/money-banking/cpi-vs-ppi-vs-pce/",
         "/money-banking/saving-vs-investing/"
       ],
       "silo_role": "Supporting",
