@@ -1584,6 +1584,24 @@
       "scheduled_publish": "2026-11-28",
       "min_words": 2500,
       "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S90",
+      "working_title": "\"CPI vs PPI vs PCE: How the Three Inflation Measures Differ\"",
+      "primary_keyword": "cpi vs ppi vs pce",
+      "secondary_keywords": "cpi vs ppi; cpi vs pce; pce price index; producer price index",
+      "cluster": "Money & Banking",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/money-banking/cpi-vs-ppi-vs-pce/",
+      "seo_title": "\"CPI vs PPI vs PCE: Three Inflation Measures Compared\"",
+      "meta_description": "\"CPI vs PPI vs PCE explained with BLS and BEA sources: who each index measures, why the numbers differ, and September 2026 readings from FRED.\"",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-28",
+      "min_words": 2500,
+      "no_word_ceiling": true
     }
   ],
   "links": [
@@ -2779,6 +2797,19 @@
         "/investing/treasury-bill-calculator/",
         "/money-banking/cpi-vs-ppi-vs-pce/",
         "/money-banking/saving-vs-investing/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/money-banking/saving-vs-investing/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S90",
+      "url_slug": "/money-banking/cpi-vs-ppi-vs-pce/",
+      "primary_silo_hub": "/money-banking/",
+      "approved_outbound_targets": [
+        "/money-banking/inflation-rate-by-year/",
+        "/money-banking/saving-vs-investing/",
+        "/money-banking/treasury-bills-vs-cd/"
       ],
       "silo_role": "Supporting",
       "pillar": "/money-banking/saving-vs-investing/"
