@@ -202,6 +202,34 @@
           "icon": "target-arrow",
           "text": "Estimate the payment on a lot or acreage purchase and compare loan terms.",
           "published": "2026-11-25"
+        },
+        {
+          "title": "Car Refinance Calculator",
+          "url": "/money-banking/car-refinance-calculator/",
+          "icon": "repeat",
+          "text": "Compare your current car payment and remaining interest with a new loan rate and term.",
+          "published": "2026-11-26"
+        },
+        {
+          "title": "Home Equity Loan Calculator",
+          "url": "/money-banking/home-equity-loan-calculator/",
+          "icon": "home-dollar",
+          "text": "Estimate how much equity you may borrow under a CLTV limit and the monthly payment.",
+          "published": "2026-11-26"
+        },
+        {
+          "title": "Interest-Only Loan Calculator",
+          "url": "/money-banking/interest-only-loan-calculator/",
+          "icon": "percentage",
+          "text": "See the interest-only payment, the jump afterward and the extra interest it costs.",
+          "published": "2026-11-26"
+        },
+        {
+          "title": "Commercial Loan Calculator",
+          "url": "/fintech/commercial-loan-calculator/",
+          "icon": "building-bank",
+          "text": "Estimate a commercial loan payment and the balloon due when the term ends.",
+          "published": "2026-11-26"
         }
       ]
     },
@@ -347,6 +375,13 @@
           "icon": "chart-donut-3",
           "text": "See your crypto share of a portfolio and how a crypto price move would affect the whole.",
           "published": "2026-11-22"
+        },
+        {
+          "title": "ROI Calculator",
+          "url": "/fintech/roi-calculator/",
+          "icon": "trending-up",
+          "text": "Work out return on investment and annualized ROI from costs and the final value.",
+          "published": "2026-11-26"
         }
       ]
     },
