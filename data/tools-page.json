@@ -139,6 +139,34 @@
           "icon": "building-bank",
           "text": "Compare the net yearly cost of two bank accounts from their fees, APYs and your usage.",
           "published": "2026-11-21"
+        },
+        {
+          "title": "Salary to Hourly Calculator",
+          "url": "/money-banking/salary-to-hourly-calculator/",
+          "icon": "clock-hour-4",
+          "text": "Convert an annual salary to hourly, daily, weekly and monthly pay, before tax.",
+          "published": "2026-11-24"
+        },
+        {
+          "title": "Mortgage Recast Calculator",
+          "url": "/money-banking/mortgage-recast-calculator/",
+          "icon": "home-dollar",
+          "text": "See how a lump-sum payment and recast lower your mortgage payment and remaining interest.",
+          "published": "2026-11-24"
+        },
+        {
+          "title": "Loan Payment Calculator",
+          "url": "/money-banking/loan-payment-calculator/",
+          "icon": "receipt",
+          "text": "Work out the monthly payment, total interest and yearly paydown for a fixed-rate loan.",
+          "published": "2026-11-24"
+        },
+        {
+          "title": "Personal Loan Calculator",
+          "url": "/money-banking/personal-loan-calculator/",
+          "icon": "cash",
+          "text": "Estimate a personal loan payment and the APR once an origination fee is included.",
+          "published": "2026-11-24"
         }
       ]
     },
@@ -360,6 +388,13 @@
           "icon": "chart-bar",
           "text": "Turn balance sheet and income statement figures into liquidity, leverage and profitability ratios.",
           "published": "2026-11-20"
+        },
+        {
+          "title": "Profit Margin Calculator",
+          "url": "/fintech/profit-margin-calculator/",
+          "icon": "chart-bar",
+          "text": "Find gross profit, margin and markup, and the price needed to reach a target margin.",
+          "published": "2026-11-24"
         }
       ]
     }
