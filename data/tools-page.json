@@ -167,6 +167,41 @@
           "icon": "cash",
           "text": "Estimate a personal loan payment and the APR once an origination fee is included.",
           "published": "2026-11-24"
+        },
+        {
+          "title": "Auto Loan Calculator",
+          "url": "/money-banking/auto-loan-calculator/",
+          "icon": "wallet",
+          "text": "Estimate a car payment from price, down payment, trade-in, sales tax and fees.",
+          "published": "2026-11-25"
+        },
+        {
+          "title": "Boat Loan Calculator",
+          "url": "/money-banking/boat-loan-calculator/",
+          "icon": "repeat",
+          "text": "Estimate a boat loan payment and total interest, and compare terms up to 20 years.",
+          "published": "2026-11-25"
+        },
+        {
+          "title": "Motorcycle Loan Calculator",
+          "url": "/money-banking/motorcycle-loan-calculator/",
+          "icon": "trending-up",
+          "text": "Work out a motorcycle payment from the bike price, down payment, tax, fees and term.",
+          "published": "2026-11-25"
+        },
+        {
+          "title": "Mobile Home Loan Calculator",
+          "url": "/money-banking/mobile-home-loan-calculator/",
+          "icon": "home-dollar",
+          "text": "Estimate the monthly payment and interest on a manufactured or mobile home loan.",
+          "published": "2026-11-25"
+        },
+        {
+          "title": "Land Loan Calculator",
+          "url": "/money-banking/land-loan-calculator/",
+          "icon": "target-arrow",
+          "text": "Estimate the payment on a lot or acreage purchase and compare loan terms.",
+          "published": "2026-11-25"
         }
       ]
     },
