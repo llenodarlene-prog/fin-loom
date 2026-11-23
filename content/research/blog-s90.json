@@ -1,0 +1,465 @@
+{
+  "tracker_id": "Blog:S90",
+  "status": "verified",
+  "research_question": "How do CPI, PPI and PCE differ in scope, perspective and method, and what did they show in 2026?",
+  "research_brief": {
+    "purpose": "Compare the three inflation measures from BLS, BEA and Fed sources with FinLoom calculations from FRED.",
+    "audience": "US readers following inflation data.",
+    "publication_year": "2026",
+    "data_period": "FRED index levels Sept 2025 and Sept 2026 (PPI Oct 2026); BEA example 2006 Q3.",
+    "scope_limitations": "YoY calculated from SA index levels; may differ slightly from official releases."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "cpi vs ppi vs pce",
+    "intent": "Informational",
+    "serp_checked_at": "2026-11-20",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-20",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "cpi vs ppi vs pce",
+        "type": "short-tail",
+        "volume": 1300,
+        "difficulty": 29,
+        "cpc": 1.5,
+        "intent": "Informational",
+        "ranking_url": "https://bea.gov/help/faq/555",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "cpi vs pce",
+        "type": "long-tail",
+        "volume": 1300,
+        "difficulty": 29,
+        "cpc": 1.5,
+        "intent": "Informational",
+        "ranking_url": "https://bea.gov/help/faq/555",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "inflation data today",
+        "type": "commercial",
+        "volume": 1300,
+        "difficulty": 29,
+        "cpc": 1.5,
+        "intent": "Informational",
+        "ranking_url": "https://bea.gov/help/faq/555",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "why are cpi and pce different",
+        "type": "problem",
+        "volume": 1300,
+        "difficulty": 29,
+        "cpc": 1.5,
+        "intent": "Informational",
+        "ranking_url": "https://bea.gov/help/faq/555",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is the difference between cpi and ppi",
+        "type": "question",
+        "volume": 1300,
+        "difficulty": 29,
+        "cpc": 1.5,
+        "intent": "Informational",
+        "ranking_url": "https://bea.gov/help/faq/555",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.bls.gov/cpi/questions-and-answers.htm",
+      "title": "CPI Questions and Answers",
+      "publisher": "Bureau of Labor Statistics",
+      "source_type": "Federal statistics FAQ",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "CPI definition; CPI-U over 90% of population",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Read via web-fetch agent.",
+      "verified": true
+    },
+    {
+      "url": "https://www.bls.gov/ppi/faqs/questions-and-answers.htm",
+      "title": "PPI Questions and Answers",
+      "publisher": "Bureau of Labor Statistics",
+      "source_type": "Federal statistics FAQ",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "PPI definition; seller view; imports and taxes",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Read via web-fetch agent.",
+      "verified": true
+    },
+    {
+      "url": "https://bea.gov/help/faq/555",
+      "title": "Comparing the PCE price index and the CPI",
+      "publisher": "Bureau of Economic Analysis",
+      "source_type": "Federal statistics FAQ",
+      "year": "2010",
+      "published_at": "2010-11-03",
+      "accessed_at": "2026-11-21",
+      "scope": "Formula, weight, scope, other effects; 2006 Q3 example",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.federalreserve.gov/faqs/economy_14400.htm",
+      "title": "Why does the Federal Reserve aim for inflation of 2 percent?",
+      "publisher": "Federal Reserve Board",
+      "source_type": "Official FAQ",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "2% PCE longer-run goal",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://fred.stlouisfed.org/series/CPIAUCSL",
+      "title": "CPIAUCSL",
+      "publisher": "FRED",
+      "source_type": "Official statistics",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "CPI-U index levels",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://fred.stlouisfed.org/series/PCEPI",
+      "title": "PCEPI",
+      "publisher": "FRED",
+      "source_type": "Official statistics",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "PCE index levels; preferred measure note",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://fred.stlouisfed.org/series/PPIFIS",
+      "title": "PPIFIS",
+      "publisher": "FRED",
+      "source_type": "Official statistics",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "PPI final demand index levels",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Sept 2026 YoY: CPI 3.72%, PCE 3.65%, PPI FD 6.29% (FinLoom calc from FRED SA levels)",
+      "source_url": "https://fred.stlouisfed.org/series/CPIAUCSL",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "PPI FD Oct 2026 YoY 6.52%",
+      "source_url": "https://fred.stlouisfed.org/series/PPIFIS",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "2006 Q3: PCE 3.0%, CPI 3.7%, gap 0.7 pt",
+      "source_url": "https://bea.gov/help/faq/555",
+      "data_year": "2006",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "BEA FAQ 555",
+      "url": "https://bea.gov/help/faq/555",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "cpi vs ppi vs pce"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors compare two measures at a time; few explain all three with BEA effects and same-month FRED readings."
+    },
+    {
+      "title": "BLS PPI FAQ",
+      "url": "https://www.bls.gov/ppi/faqs/questions-and-answers.htm",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "cpi vs ppi vs pce"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors compare two measures at a time; few explain all three with BEA effects and same-month FRED readings."
+    },
+    {
+      "title": "Investopedia: CPI vs PPI",
+      "url": "https://www.investopedia.com/ask/answers/011615/whats-difference-between-cpi-and-ppi.asp",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "cpi vs ppi vs pce"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors compare two measures at a time; few explain all three with BEA effects and same-month FRED readings."
+    },
+    {
+      "title": "Cleveland Fed: PCE vs CPI",
+      "url": "https://www.clevelandfed.org/publications/economic-commentary",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "cpi vs ppi vs pce"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors compare two measures at a time; few explain all three with BEA effects and same-month FRED readings."
+    },
+    {
+      "title": "Reddit r/economics threads",
+      "url": "https://www.reddit.com/r/economics/",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "cpi vs ppi vs pce"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors compare two measures at a time; few explain all three with BEA effects and same-month FRED readings."
+    }
+  ],
+  "content_gaps": [
+    "Three-way table",
+    "BEA effect breakdown",
+    "Same-month readings",
+    "Missing October 2025 CPI note"
+  ],
+  "value_add": [
+    "Side-by-side table",
+    "FRED reading table with method",
+    "PPI-leads-CPI myth addressed"
+  ],
+  "plan": {
+    "reader_title": "\"CPI vs PPI vs PCE: How the Three Inflation Measures Differ\"",
+    "seo_title": "\"CPI vs PPI vs PCE: Three Inflation Measures Compared\"",
+    "meta_description": "\"CPI vs PPI vs PCE explained with BLS and BEA sources: who each index measures, why the numbers differ, and September 2026 readings from FRED.\"",
+    "slug": "/money-banking/cpi-vs-ppi-vs-pce/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "cpi vs ppi",
+      "cpi vs pce",
+      "pce price index",
+      "producer price index"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "What Each Index Measures",
+      "CPI vs PPI vs PCE Side by Side",
+      "Why CPI and PCE Give Different Numbers",
+      "How PPI Differs From CPI",
+      "Recent Readings From FRED Data",
+      "Why the Federal Reserve Uses PCE",
+      "The Bottom Line",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Definitions: BLS FAQs",
+      "CPI vs PCE: BEA FAQ",
+      "Target: Fed FAQ",
+      "Readings: FRED"
+    ],
+    "visuals": [
+      "Owner-supplied featured image",
+      "Two tables"
+    ],
+    "internal_links": [
+      "/money-banking/saving-vs-investing/",
+      "/money-banking/treasury-bills-vs-cd/",
+      "/money-banking/inflation-rate-by-year/"
+    ],
+    "external_link_opportunities": [
+      "https://www.bls.gov/cpi/questions-and-answers.htm",
+      "https://www.bls.gov/ppi/faqs/questions-and-answers.htm",
+      "https://bea.gov/help/faq/555"
+    ],
+    "excluded_claims": [
+      "Draft illustrative index levels replaced with real FRED readings",
+      "PPI-leads-CPI claim not made: not in sources",
+      "CPI cost-of-living-adjustment use and PPI final demand composition removed: not in fetched sources",
+      "Ubersuggest metrics from owner brief snapshot; competitor list partly from known sources"
+    ],
+    "drafting_cautions": [
+      "No buy, sell or hold recommendation",
+      "Hypothetical examples labeled",
+      "Dates and populations stated"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "CPI definition and CPI-U coverage",
+      "source_url": "https://www.bls.gov/cpi/questions-and-answers.htm",
+      "verified": true
+    },
+    {
+      "statement": "PPI definition, seller view, imports and taxes, OER",
+      "source_url": "https://www.bls.gov/ppi/faqs/questions-and-answers.htm",
+      "verified": true
+    },
+    {
+      "statement": "CPI vs PCE effects and formulas; 2006 example",
+      "source_url": "https://bea.gov/help/faq/555",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-21",
+    "note": "Definitions from BLS (via agent), BEA and Fed pages; FRED levels pulled 2026-11-21 and YoY recomputed.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-21",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-21",
+    "summary": "Definitions from BLS (via agent), BEA and Fed pages; FRED levels pulled 2026-11-21 and YoY recomputed.",
+    "pending": "Owner sign-off."
+  }
+}

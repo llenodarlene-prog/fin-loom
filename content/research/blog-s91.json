@@ -1,0 +1,451 @@
+{
+  "tracker_id": "Blog:S91",
+  "status": "verified",
+  "research_question": "When can a wire transfer be canceled, recalled or disputed, and what should a sender do?",
+  "research_brief": {
+    "purpose": "Separate cancellation, recall and error rights using Federal Reserve, CFPB and FBI sources.",
+    "audience": "US consumers sending wires.",
+    "publication_year": "2026",
+    "data_period": "Federal Reserve, CFPB and IC3 pages accessed Nov 21, 2026.",
+    "scope_limitations": "Bank agreements vary; UCC and state law not analyzed."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "can a wire transfer be reversed",
+    "intent": "Informational",
+    "serp_checked_at": "2026-11-20",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-20",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "can a wire transfer be reversed",
+        "type": "short-tail",
+        "volume": 1300,
+        "difficulty": 25,
+        "cpc": 2.0,
+        "intent": "Informational",
+        "ranking_url": "https://www.consumerfinance.gov/ask-cfpb/can-i-cancel-an-international-money-transfer-en-1737/",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "wire transfer reversal",
+        "type": "long-tail",
+        "volume": 1300,
+        "difficulty": 25,
+        "cpc": 2.0,
+        "intent": "Informational",
+        "ranking_url": "https://www.consumerfinance.gov/ask-cfpb/can-i-cancel-an-international-money-transfer-en-1737/",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "wire transfer fraud recovery",
+        "type": "commercial",
+        "volume": 1300,
+        "difficulty": 25,
+        "cpc": 2.0,
+        "intent": "Commercial",
+        "ranking_url": "https://www.consumerfinance.gov/ask-cfpb/can-i-cancel-an-international-money-transfer-en-1737/",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "sent wire to wrong account",
+        "type": "problem",
+        "volume": 1300,
+        "difficulty": 25,
+        "cpc": 2.0,
+        "intent": "Informational",
+        "ranking_url": "https://www.consumerfinance.gov/ask-cfpb/can-i-cancel-an-international-money-transfer-en-1737/",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "how to cancel a wire transfer",
+        "type": "question",
+        "volume": 1300,
+        "difficulty": 25,
+        "cpc": 2.0,
+        "intent": "Informational",
+        "ranking_url": "https://www.consumerfinance.gov/ask-cfpb/can-i-cancel-an-international-money-transfer-en-1737/",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.federalreserve.gov/paymentsystems/fedfunds_about.htm",
+      "title": "Fedwire Funds Services",
+      "publisher": "Federal Reserve Board",
+      "source_type": "Federal agency",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "Final and irrevocable; hours and cutoffs",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.consumerfinance.gov/ask-cfpb/can-i-cancel-an-international-money-transfer-en-1737/",
+      "title": "Can I cancel an international money transfer?",
+      "publisher": "CFPB",
+      "source_type": "Federal agency guidance",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "30-minute and three-business-day cancellation",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.consumerfinance.gov/rules-policy/regulations/1005/3/",
+      "title": "Regulation E 1005.3 Coverage",
+      "publisher": "CFPB",
+      "source_type": "Federal regulation",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "Fedwire-type wire exclusion",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.consumerfinance.gov/rules-policy/regulations/1005/33/",
+      "title": "Regulation E 1005.33 Remittance error resolution",
+      "publisher": "CFPB",
+      "source_type": "Federal regulation",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "Error types; 180-day notice",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.consumerfinance.gov/rules-policy/regulations/1005/34/",
+      "title": "Regulation E 1005.34 Cancellation and refund",
+      "publisher": "CFPB",
+      "source_type": "Federal regulation",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "30-minute right; refund within three business days",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.ic3.gov/",
+      "title": "Internet Crime Complaint Center",
+      "publisher": "FBI",
+      "source_type": "Federal agency",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "Reporting; over $50 billion reported lost 2020-2024",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Fedwire transfers immediate, final, irrevocable once processed",
+      "source_url": "https://www.federalreserve.gov/paymentsystems/fedfunds_about.htm",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Rule",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Remittance cancellation within 30 minutes; refund within 3 business days",
+      "source_url": "https://www.consumerfinance.gov/rules-policy/regulations/1005/34/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Rule",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Over $50 billion reported lost 2020-2024 (all cyber-enabled crime)",
+      "source_url": "https://www.ic3.gov/",
+      "data_year": "2024",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "CFPB cancel international transfer",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/can-i-cancel-an-international-money-transfer-en-1737/",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "can a wire transfer be reversed"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors blur cancellation, recall and error rights; few cite the Reg E wire exclusion and remittance deadlines."
+    },
+    {
+      "title": "Federal Reserve Fedwire",
+      "url": "https://www.federalreserve.gov/paymentsystems/fedfunds_about.htm",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "can a wire transfer be reversed"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors blur cancellation, recall and error rights; few cite the Reg E wire exclusion and remittance deadlines."
+    },
+    {
+      "title": "Bank of America: wire transfer FAQs",
+      "url": "https://www.bankofamerica.com/deposits/wire-transfer-faqs/",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "can a wire transfer be reversed"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors blur cancellation, recall and error rights; few cite the Reg E wire exclusion and remittance deadlines."
+    },
+    {
+      "title": "Wise: can a wire transfer be reversed",
+      "url": "https://wise.com/us/blog/reverse-wire-transfer",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "can a wire transfer be reversed"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors blur cancellation, recall and error rights; few cite the Reg E wire exclusion and remittance deadlines."
+    },
+    {
+      "title": "Reddit r/personalfinance wire threads",
+      "url": "https://www.reddit.com/r/personalfinance/",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "can a wire transfer be reversed"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors blur cancellation, recall and error rights; few cite the Reg E wire exclusion and remittance deadlines."
+    }
+  ],
+  "content_gaps": [
+    "Reg E wire exclusion",
+    "30-minute and 3-day rules",
+    "180-day error window",
+    "Recall vs reversal"
+  ],
+  "value_add": [
+    "Cancellation table",
+    "Immediate action steps",
+    "Prevention checklist"
+  ],
+  "plan": {
+    "reader_title": "\"Can a Wire Transfer Be Reversed? Cancellation, Recall and Error Rights\"",
+    "seo_title": "\"Can a Wire Transfer Be Reversed? What Rules Allow\"",
+    "meta_description": "\"Can a wire transfer be reversed? See why Fedwire payments are final, when the 30-minute remittance cancellation right applies, and what to do fast.\"",
+    "slug": "/payments/can-a-wire-transfer-be-reversed/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "wire transfer reversal",
+      "cancel wire transfer",
+      "wire recall",
+      "remittance transfer cancellation"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "Can a Wire Transfer Be Reversed After It Is Sent?",
+      "Domestic Wires and Consumer Protection Rules",
+      "International Transfers: The 30-Minute Cancellation Right",
+      "Error Rights for Remittance Transfers",
+      "What a Wire Recall Means",
+      "How to Prevent a Wire You Cannot Undo",
+      "The Bottom Line",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Finality: Federal Reserve",
+      "Consumer rules: CFPB Reg E and Ask CFPB",
+      "Fraud reporting: IC3"
+    ],
+    "visuals": [
+      "Owner-supplied featured image",
+      "One table"
+    ],
+    "internal_links": [
+      "/payments/paypal-statistics/",
+      "/payments/ach-vs-wire-transfer/",
+      "/payments/how-long-does-a-wire-transfer-take/"
+    ],
+    "external_link_opportunities": [
+      "https://www.federalreserve.gov/paymentsystems/fedfunds_about.htm",
+      "https://www.consumerfinance.gov/ask-cfpb/can-i-cancel-an-international-money-transfer-en-1737/",
+      "https://www.ic3.gov/"
+    ],
+    "excluded_claims": [
+      "CFPB wire transfer explainer link returned 404; not used",
+      "UCC 4A and security-procedure liability not stated: not fetched",
+      "Receiving-bank freeze and CFPB complaint claims removed",
+      "Ubersuggest metrics from owner brief snapshot; competitor list partly from known sources"
+    ],
+    "drafting_cautions": [
+      "No buy, sell or hold recommendation",
+      "Hypothetical examples labeled",
+      "Dates and populations stated"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Fedwire finality, process, hours",
+      "source_url": "https://www.federalreserve.gov/paymentsystems/fedfunds_about.htm",
+      "verified": true
+    },
+    {
+      "statement": "Cancellation conditions",
+      "source_url": "https://www.consumerfinance.gov/ask-cfpb/can-i-cancel-an-international-money-transfer-en-1737/",
+      "verified": true
+    },
+    {
+      "statement": "Report to IC3; loss total",
+      "source_url": "https://www.ic3.gov/",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-21",
+    "note": "Rules read from Federal Reserve, CFPB Reg E sections and IC3 pages on 2026-11-21.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-21",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-21",
+    "summary": "Rules read from Federal Reserve, CFPB Reg E sections and IC3 pages on 2026-11-21.",
+    "pending": "Owner sign-off."
+  }
+}

@@ -1320,26 +1320,6 @@
     "alt_guidance": "Arkham homepage with a preview of its on-chain tracing tool linking wallets and listing token transfers"
   },
   {
-    "path": "/assets/images/screenshots/morningstar-screenshot-1600.jpg",
-    "title": "Screenshot of Morningstar Investor",
-    "use": "Inline product screenshot in tool posts",
-    "width": 1600,
-    "height": 1066,
-    "rights_status": "approved",
-    "rights_source": "Owner-supplied screenshot of Morningstar Investor screener https://www.morningstar.com/, captured 2026-11-04",
-    "alt_guidance": "Morningstar Investor screener showing a Large-Growth Medalist fund screen with Medalist Ratings, star ratings, category and expense ratio columns"
-  },
-  {
-    "path": "/assets/images/screenshots/morningstar-screenshot-800.jpg",
-    "title": "Screenshot of Morningstar Investor",
-    "use": "Inline product screenshot in tool posts",
-    "width": 800,
-    "height": 533,
-    "rights_status": "approved",
-    "rights_source": "Owner-supplied screenshot of Morningstar Investor screener https://www.morningstar.com/, captured 2026-11-04",
-    "alt_guidance": "Morningstar Investor screener showing a Large-Growth Medalist fund screen with Medalist Ratings, star ratings, category and expense ratio columns"
-  },
-  {
     "path": "/assets/images/posts/best-budgeting-apps/ynab-official-image.png",
     "title": "YNAB official product image",
     "use": "Inline product image in /money-banking/best-budgeting-apps/",
@@ -2398,5 +2378,245 @@
     "rights_status": "approved",
     "rights_source": "FinLoom Files, supplied by the site owner 2026-11-12 (AI-generated editorial image)",
     "alt_guidance": "A desk with three monitors showing a bank-to-customer check, a payment flow flagged with a red alert, and dashboards, in an office"
+  },
+  {
+    "path": "/assets/images/posts/wash-sale-rule/wash-sale-calendar-chart-1600.jpg",
+    "title": "A desk calendar with dates circled in red beside a falling stock chart on a laptop",
+    "use": "Featured image for wash-sale-rule",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-20 (AI-generated editorial image)",
+    "alt_guidance": "A desk calendar with dates circled in red beside a falling stock chart on a laptop"
+  },
+  {
+    "path": "/assets/images/posts/wash-sale-rule/wash-sale-calendar-chart-800.jpg",
+    "title": "A desk calendar with dates circled in red beside a falling stock chart on a laptop",
+    "use": "Featured image for wash-sale-rule",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-20 (AI-generated editorial image)",
+    "alt_guidance": "A desk calendar with dates circled in red beside a falling stock chart on a laptop"
+  },
+  {
+    "path": "/assets/images/posts/short-term-vs-long-term-capital-gains/capital-gains-holding-folders-1600.jpg",
+    "title": "Two folders with calendars side by side, comparing short and long holding periods",
+    "use": "Featured image for short-term-vs-long-term-capital-gains",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-20 (AI-generated editorial image)",
+    "alt_guidance": "Two folders with calendars side by side, comparing short and long holding periods"
+  },
+  {
+    "path": "/assets/images/posts/short-term-vs-long-term-capital-gains/capital-gains-holding-folders-800.jpg",
+    "title": "Two folders with calendars side by side, comparing short and long holding periods",
+    "use": "Featured image for short-term-vs-long-term-capital-gains",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-20 (AI-generated editorial image)",
+    "alt_guidance": "Two folders with calendars side by side, comparing short and long holding periods"
+  },
+  {
+    "path": "/assets/images/posts/etf-vs-index-fund/etf-index-fund-brochures-1600.jpg",
+    "title": "Two fund brochures on a desk, one showing city buildings and one showing mountains",
+    "use": "Featured image for etf-vs-index-fund",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-20 (AI-generated editorial image)",
+    "alt_guidance": "Two fund brochures on a desk, one showing city buildings and one showing mountains"
+  },
+  {
+    "path": "/assets/images/posts/etf-vs-index-fund/etf-index-fund-brochures-800.jpg",
+    "title": "Two fund brochures on a desk, one showing city buildings and one showing mountains",
+    "use": "Featured image for etf-vs-index-fund",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-20 (AI-generated editorial image)",
+    "alt_guidance": "Two fund brochures on a desk, one showing city buildings and one showing mountains"
+  },
+  {
+    "path": "/assets/images/posts/spy-vs-voo-vs-ivv/spy-voo-ivv-three-charts-1600.jpg",
+    "title": "Three line charts side by side tracking closely together on a desk display",
+    "use": "Featured image for spy-vs-voo-vs-ivv",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-20 (AI-generated editorial image)",
+    "alt_guidance": "Three line charts side by side tracking closely together on a desk display"
+  },
+  {
+    "path": "/assets/images/posts/spy-vs-voo-vs-ivv/spy-voo-ivv-three-charts-800.jpg",
+    "title": "Three line charts side by side tracking closely together on a desk display",
+    "use": "Featured image for spy-vs-voo-vs-ivv",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-20 (AI-generated editorial image)",
+    "alt_guidance": "Three line charts side by side tracking closely together on a desk display"
+  },
+  {
+    "path": "/assets/images/posts/hsa-vs-ppo/hsa-ppo-folders-1600.jpg",
+    "title": "A green folder and a blue folder side by side with a health insurance card on top",
+    "use": "Featured image for hsa-vs-ppo",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-20 (AI-generated editorial image)",
+    "alt_guidance": "A green folder and a blue folder side by side with a health insurance card on top"
+  },
+  {
+    "path": "/assets/images/posts/hsa-vs-ppo/hsa-ppo-folders-800.jpg",
+    "title": "A green folder and a blue folder side by side with a health insurance card on top",
+    "use": "Featured image for hsa-vs-ppo",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-20 (AI-generated editorial image)",
+    "alt_guidance": "A green folder and a blue folder side by side with a health insurance card on top"
+  },
+  {
+    "path": "/assets/images/posts/hsa-investment-options/hsa-investing-growth-tablet-1600.jpg",
+    "title": "A health folder beside a tablet showing a rising growth chart",
+    "use": "Featured image for hsa-investment-options",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-20 (AI-generated editorial image)",
+    "alt_guidance": "A health folder beside a tablet showing a rising growth chart"
+  },
+  {
+    "path": "/assets/images/posts/hsa-investment-options/hsa-investing-growth-tablet-800.jpg",
+    "title": "A health folder beside a tablet showing a rising growth chart",
+    "use": "Featured image for hsa-investment-options",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-20 (AI-generated editorial image)",
+    "alt_guidance": "A health folder beside a tablet showing a rising growth chart"
+  },
+  {
+    "path": "/assets/images/posts/treasury-bills-vs-cd/treasury-bill-cd-certificates-1600.jpg",
+    "title": "Two certificates on a desk, one from the U.S. Treasury and one from a bank",
+    "use": "Featured image for treasury-bills-vs-cd",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-20 (AI-generated editorial image)",
+    "alt_guidance": "Two certificates on a desk, one from the U.S. Treasury and one from a bank"
+  },
+  {
+    "path": "/assets/images/posts/treasury-bills-vs-cd/treasury-bill-cd-certificates-800.jpg",
+    "title": "Two certificates on a desk, one from the U.S. Treasury and one from a bank",
+    "use": "Featured image for treasury-bills-vs-cd",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-20 (AI-generated editorial image)",
+    "alt_guidance": "Two certificates on a desk, one from the U.S. Treasury and one from a bank"
+  },
+  {
+    "path": "/assets/images/posts/cpi-vs-ppi-vs-pce/cpi-ppi-pce-index-lines-1600.jpg",
+    "title": "Three index lines on a chart moving together over time, labeled as inflation measures",
+    "use": "Featured image for cpi-vs-ppi-vs-pce",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-20 (AI-generated editorial image)",
+    "alt_guidance": "Three index lines on a chart moving together over time, labeled as inflation measures"
+  },
+  {
+    "path": "/assets/images/posts/cpi-vs-ppi-vs-pce/cpi-ppi-pce-index-lines-800.jpg",
+    "title": "Three index lines on a chart moving together over time, labeled as inflation measures",
+    "use": "Featured image for cpi-vs-ppi-vs-pce",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-20 (AI-generated editorial image)",
+    "alt_guidance": "Three index lines on a chart moving together over time, labeled as inflation measures"
+  },
+  {
+    "path": "/assets/images/posts/can-a-wire-transfer-be-reversed/wire-transfer-reversal-laptop-1600.jpg",
+    "title": "A laptop screen showing a money transfer with a curved arrow pointing back toward the sender",
+    "use": "Featured image for can-a-wire-transfer-be-reversed",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-20 (AI-generated editorial image)",
+    "alt_guidance": "A laptop screen showing a money transfer with a curved arrow pointing back toward the sender"
+  },
+  {
+    "path": "/assets/images/posts/can-a-wire-transfer-be-reversed/wire-transfer-reversal-laptop-800.jpg",
+    "title": "A laptop screen showing a money transfer with a curved arrow pointing back toward the sender",
+    "use": "Featured image for can-a-wire-transfer-be-reversed",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-20 (AI-generated editorial image)",
+    "alt_guidance": "A laptop screen showing a money transfer with a curved arrow pointing back toward the sender"
+  },
+  {
+    "path": "/assets/images/screenshots/edgar-screenshot-1600.jpg",
+    "title": "Screenshot of SEC EDGAR",
+    "use": "Inline product screenshot in tool posts",
+    "width": 1600,
+    "height": 683,
+    "rights_status": "approved",
+    "rights_source": "Owner-supplied screenshot of public page https://www.sec.gov/edgar/searchedgar/companysearch, supplied 2026-11-23",
+    "alt_guidance": "SEC EDGAR company filings search page with Company Name and Fast Search fields for ticker or CIK"
+  },
+  {
+    "path": "/assets/images/screenshots/edgar-screenshot-800.jpg",
+    "title": "Screenshot of SEC EDGAR",
+    "use": "Inline product screenshot in tool posts",
+    "width": 800,
+    "height": 342,
+    "rights_status": "approved",
+    "rights_source": "Owner-supplied screenshot of public page https://www.sec.gov/edgar/searchedgar/companysearch, supplied 2026-11-23",
+    "alt_guidance": "SEC EDGAR company filings search page with Company Name and Fast Search fields for ticker or CIK"
+  },
+  {
+    "path": "/assets/images/screenshots/morningstar-screenshot-1600.jpg",
+    "title": "Screenshot of Morningstar Direct",
+    "use": "Inline product screenshot in tool posts",
+    "width": 1600,
+    "height": 1081,
+    "rights_status": "approved",
+    "rights_source": "Owner-supplied screenshot of public page https://www.morningstar.com/products/direct, supplied 2026-11-23",
+    "alt_guidance": "Morningstar Direct free trial request page with a sign-up form beside sample quantitative valuation and risk model charts"
+  },
+  {
+    "path": "/assets/images/screenshots/morningstar-screenshot-800.jpg",
+    "title": "Screenshot of Morningstar Direct",
+    "use": "Inline product screenshot in tool posts",
+    "width": 800,
+    "height": 540,
+    "rights_status": "approved",
+    "rights_source": "Owner-supplied screenshot of public page https://www.morningstar.com/products/direct, supplied 2026-11-23",
+    "alt_guidance": "Morningstar Direct free trial request page with a sign-up form beside sample quantitative valuation and risk model charts"
+  },
+  {
+    "path": "/assets/images/posts/best-stock-analysis-websites/stock-research-monitors-1600.jpg",
+    "title": "Several trading monitors on a desk showing stock charts and financial data",
+    "use": "Featured image for best-stock-analysis-websites",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-20 (AI-generated editorial image)",
+    "alt_guidance": "Several trading monitors on a desk showing stock charts and financial data"
+  },
+  {
+    "path": "/assets/images/posts/best-stock-analysis-websites/stock-research-monitors-800.jpg",
+    "title": "Several trading monitors on a desk showing stock charts and financial data",
+    "use": "Featured image for best-stock-analysis-websites",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-20 (AI-generated editorial image)",
+    "alt_guidance": "Several trading monitors on a desk showing stock charts and financial data"
   }
 ]

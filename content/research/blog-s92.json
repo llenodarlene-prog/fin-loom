@@ -1,0 +1,466 @@
+{
+  "tracker_id": "Blog:S92",
+  "status": "verified",
+  "research_question": "Which websites suit each step of fundamental stock research, from filings to screening?",
+  "research_brief": {
+    "purpose": "Capability-based comparison of seven research websites with real screenshots and a source-first workflow.",
+    "audience": "US individual investors.",
+    "publication_year": "2026",
+    "data_period": "Product pages and screenshots Nov 1-23, 2026.",
+    "scope_limitations": "No hands-on paid plan testing; no prices listed; features change."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "best stock analysis websites",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-11-20",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-20",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "best stock analysis websites",
+        "type": "short-tail",
+        "volume": 390,
+        "difficulty": 19,
+        "cpc": 2.0,
+        "intent": "Commercial",
+        "ranking_url": "https://stockanalysis.com/",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "stock research websites",
+        "type": "long-tail",
+        "volume": 390,
+        "difficulty": 19,
+        "cpc": 2.0,
+        "intent": "Commercial",
+        "ranking_url": "https://stockanalysis.com/",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best stock research tools",
+        "type": "commercial",
+        "volume": 390,
+        "difficulty": 19,
+        "cpc": 2.0,
+        "intent": "Commercial",
+        "ranking_url": "https://stockanalysis.com/",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "where to find company financial statements",
+        "type": "problem",
+        "volume": 390,
+        "difficulty": 19,
+        "cpc": 2.0,
+        "intent": "Informational",
+        "ranking_url": "https://stockanalysis.com/",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is the best free stock analysis website",
+        "type": "question",
+        "volume": 390,
+        "difficulty": 19,
+        "cpc": 2.0,
+        "intent": "Informational",
+        "ranking_url": "https://stockanalysis.com/",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.sec.gov/edgar/searchedgar/companysearch",
+      "title": "EDGAR Company Filings search",
+      "publisher": "U.S. Securities and Exchange Commission",
+      "source_type": "Federal agency",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-23",
+      "scope": "21 million filings; Fast Search by ticker or CIK",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Owner-supplied screenshot 2026-11-23; site blocks automated fetch.",
+      "verified": true
+    },
+    {
+      "url": "https://stockanalysis.com/",
+      "title": "Stock Analysis homepage",
+      "publisher": "Stock Analysis",
+      "source_type": "Product page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-23",
+      "scope": "150,000+ global stocks and funds",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://stockanalysis.com/help/faq/stock-analysis-app/",
+      "title": "Stock Analysis app FAQ",
+      "publisher": "Stock Analysis",
+      "source_type": "Product page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-23",
+      "scope": "iOS and Android apps",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.koyfin.com/",
+      "title": "Koyfin homepage",
+      "publisher": "Koyfin",
+      "source_type": "Product page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-23",
+      "scope": "Platform description",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://finviz.com/elite",
+      "title": "Finviz Elite",
+      "publisher": "Finviz",
+      "source_type": "Product page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-23",
+      "scope": "Elite features",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.tradingview.com/pricing/",
+      "title": "TradingView pricing",
+      "publisher": "TradingView",
+      "source_type": "Product page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-23",
+      "scope": "Free Basic plan",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://finance.yahoo.com/about/plans/select-plan/",
+      "title": "Yahoo Finance plans",
+      "publisher": "Yahoo Finance",
+      "source_type": "Product page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-23",
+      "scope": "Plans",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.morningstar.com/products/direct",
+      "title": "Morningstar Direct",
+      "publisher": "Morningstar",
+      "source_type": "Product page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-23",
+      "scope": "Two-week free trial",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Owner-supplied screenshot 2026-11-23; site blocks automated fetch.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "EDGAR: free access to more than 21 million filings",
+      "source_url": "https://www.sec.gov/edgar/searchedgar/companysearch",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Count",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Stock Analysis: 150,000+ global stocks and funds",
+      "source_url": "https://stockanalysis.com/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Count",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Stock Analysis",
+      "url": "https://stockanalysis.com/",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "best stock analysis websites"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitor lists rank sites by features without a source-first workflow or verification step."
+    },
+    {
+      "title": "Koyfin",
+      "url": "https://www.koyfin.com/",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "best stock analysis websites"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitor lists rank sites by features without a source-first workflow or verification step."
+    },
+    {
+      "title": "Investopedia: best stock research websites",
+      "url": "https://www.investopedia.com/best-stock-research-websites-5079048",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "best stock analysis websites"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitor lists rank sites by features without a source-first workflow or verification step."
+    },
+    {
+      "title": "NerdWallet: stock research tools",
+      "url": "https://www.nerdwallet.com/article/investing/stock-research-tools",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "best stock analysis websites"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitor lists rank sites by features without a source-first workflow or verification step."
+    },
+    {
+      "title": "Reddit r/stocks research site threads",
+      "url": "https://www.reddit.com/r/stocks/",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "best stock analysis websites"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitor lists rank sites by features without a source-first workflow or verification step."
+    }
+  ],
+  "content_gaps": [
+    "Three research layers",
+    "Verification workflow",
+    "Role-based picks",
+    "Research log"
+  ],
+  "value_add": [
+    "Seven real screenshots",
+    "Workflow table",
+    "What to watch for per site"
+  ],
+  "plan": {
+    "reader_title": "\"Best Stock Analysis Websites for Fundamental Research: Free and Paid Options\"",
+    "seo_title": "\"Best Stock Analysis Websites: 7 Free and Paid Options\"",
+    "meta_description": "\"Compare the best stock analysis websites for research, from SEC EDGAR filings to screeners, charts and dashboards, plus a source-first research workflow.\"",
+    "slug": "/markets-stocks/best-stock-analysis-websites/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "stock research websites",
+      "free stock analysis sites",
+      "sec edgar company search",
+      "stock screener websites"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "What Makes a Stock Research Website Useful?",
+      "1. SEC EDGAR: The Source of Record",
+      "2. Stock Analysis: Readable Fundamentals",
+      "3. Yahoo Finance: Market Context",
+      "4. Finviz: Screening Before Deeper Research",
+      "5. TradingView: Charts and Price Context",
+      "6. Morningstar Direct: Professional Research",
+      "7. Koyfin: Comparative Dashboards",
+      "A Practical Research Workflow",
+      "The Bottom Line",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Filings: SEC EDGAR",
+      "Products: provider pages and prior verified records (S17, S21)",
+      "Screenshots: assets.json"
+    ],
+    "visuals": [
+      "Owner-supplied featured image",
+      "Seven product screenshots",
+      "One table"
+    ],
+    "internal_links": [
+      "/markets-stocks/stock-analysis-fundamentals/",
+      "/markets-stocks/best-free-stock-screeners/",
+      "/markets-stocks/yahoo-finance-stock-research/"
+    ],
+    "external_link_opportunities": [
+      "https://www.sec.gov/edgar/searchedgar/companysearch",
+      "https://stockanalysis.com/",
+      "https://www.koyfin.com/"
+    ],
+    "excluded_claims": [
+      "SEC API claims removed: API page not fetched",
+      "Prices and Black Friday offers not listed",
+      "Morningstar caption names Morningstar Direct trial page, matching owner screenshot",
+      "Best stock analysis apps link dropped (3-link spoke limit)",
+      "Ubersuggest metrics from owner brief snapshot; competitor list partly from known sources"
+    ],
+    "drafting_cautions": [
+      "No buy, sell or hold recommendation",
+      "Hypothetical examples labeled",
+      "Dates and populations stated"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "EDGAR filings count and search options",
+      "source_url": "https://www.sec.gov/edgar/searchedgar/companysearch",
+      "verified": true
+    },
+    {
+      "statement": "Stock Analysis coverage and contents",
+      "source_url": "https://stockanalysis.com/",
+      "verified": true
+    },
+    {
+      "statement": "Koyfin platform description",
+      "source_url": "https://www.koyfin.com/",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-23",
+    "note": "Product facts from provider pages, owner screenshots (2026-11-23) and S17/S21 verified records; no prices stated.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-23",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-23",
+    "summary": "Product facts from provider pages, owner screenshots (2026-11-23) and S17/S21 verified records; no prices stated.",
+    "pending": "Owner sign-off."
+  }
+}

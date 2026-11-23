@@ -1458,6 +1458,186 @@
       "scheduled_publish": "2026-11-18",
       "min_words": 2500,
       "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S83",
+      "working_title": "\"Wash Sale Rule Explained: The 30-Day Window, Cost Basis, and IRA Traps\"",
+      "primary_keyword": "wash sale rule",
+      "secondary_keywords": "wash sale rule 30 days; wash sale rule IRA; substantially identical; tax loss harvesting",
+      "cluster": "Investing",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/investing/wash-sale-rule/",
+      "seo_title": "\"Wash Sale Rule: 30-Day Window, Basis and IRA Traps\"",
+      "meta_description": "Learn how the wash sale rule works, how the 30-day window affects tax losses, and why an IRA purchase can make a disallowed loss permanent.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-25",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S84",
+      "working_title": "\"Short Term vs Long Term Capital Gains: Holding Periods and Tax Examples\"",
+      "primary_keyword": "short term vs long term capital gains",
+      "secondary_keywords": "long term capital gains tax rate; short term capital gains tax; capital gains holding period; capital loss carryover",
+      "cluster": "Investing",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/investing/short-term-vs-long-term-capital-gains/",
+      "seo_title": "\"Short Term vs Long Term Capital Gains: Rates and Examples\"",
+      "meta_description": "Compare short term vs long term capital gains, see the IRS holding period rule and 2025 rate thresholds, and learn how losses change the result.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-25",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S85",
+      "working_title": "\"ETF vs Index Fund: Structure, Strategy, Costs and Trading Compared\"",
+      "primary_keyword": "etf vs index fund",
+      "secondary_keywords": "index etf vs index mutual fund; etf vs mutual fund; are etfs index funds; etf tax efficiency",
+      "cluster": "Investing",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/investing/etf-vs-index-fund/",
+      "seo_title": "\"ETF vs Index Fund: What Differs and What Does Not\"",
+      "meta_description": "\"ETF vs index fund is a mixed question: one is a structure, the other a strategy. Compare trading, NAV pricing, costs, minimums and taxes.\"",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-26",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S86",
+      "working_title": "\"SPY vs VOO vs IVV: Three S&P 500 ETFs Compared on Cost, Structure and Size\"",
+      "primary_keyword": "spy vs voo vs ivv",
+      "secondary_keywords": "spy vs voo; voo vs ivv; ivv vs spy; s&p 500 etf expense ratio",
+      "cluster": "Investing",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/investing/spy-vs-voo-vs-ivv/",
+      "seo_title": "\"SPY vs VOO vs IVV: Fees, Structure and Size Compared\"",
+      "meta_description": "Compare SPY vs VOO vs IVV with issuer data on expense ratios, inception dates, fund structure and assets, plus labeled fee math for each.",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-26",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S87",
+      "working_title": "\"HSA vs PPO: An Account vs a Network, and How to Compare Plans\"",
+      "primary_keyword": "hsa vs ppo",
+      "secondary_keywords": "hsa eligible ppo; hdhp vs ppo; 2026 hsa contribution limits; high deductible health plan",
+      "cluster": "Money & Banking",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/money-banking/hsa-vs-ppo/",
+      "seo_title": "\"HSA vs PPO: Why It Is Not a Like-for-Like Choice\"",
+      "meta_description": "\"HSA vs PPO compares an account with a network type. See 2026 IRS HSA limits, HDHP rules and a labeled way to compare two benefit plans.\"",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-27",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S88",
+      "working_title": "\"HSA Investment Options: Cash Reserves, Fees, Risk and Tax Rules\"",
+      "primary_keyword": "hsa investment options",
+      "secondary_keywords": "investing hsa funds; hsa cash threshold; hsa fees; can you invest hsa money",
+      "cluster": "Money & Banking",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/money-banking/hsa-investment-options/",
+      "seo_title": "\"HSA Investment Options: Cash, Fees, Risk and Tax Rules\"",
+      "meta_description": "\"Compare HSA investment options with IRS and FDIC rules: how much cash to keep, how flat and percentage fees add up, and what investing changes.\"",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-27",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S89",
+      "working_title": "\"Treasury Bills vs CD: Rates, Pricing, Taxes and Access Compared\"",
+      "primary_keyword": "treasury bills vs cd",
+      "secondary_keywords": "t bills vs cds; treasury bill rates; cd rates 2026; t bill state tax",
+      "cluster": "Money & Banking",
+      "intent": "Commercial",
+      "status": "Scheduled",
+      "url_slug": "/money-banking/treasury-bills-vs-cd/",
+      "seo_title": "\"Treasury Bills vs CD: 2026 Rates, Taxes and Access\"",
+      "meta_description": "\"Compare treasury bills vs cd with November 2026 FDIC and FRED data, the TreasuryDirect discount formula, state tax rules and early access trade-offs.\"",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-28",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S90",
+      "working_title": "\"CPI vs PPI vs PCE: How the Three Inflation Measures Differ\"",
+      "primary_keyword": "cpi vs ppi vs pce",
+      "secondary_keywords": "cpi vs ppi; cpi vs pce; pce price index; producer price index",
+      "cluster": "Money & Banking",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/money-banking/cpi-vs-ppi-vs-pce/",
+      "seo_title": "\"CPI vs PPI vs PCE: Three Inflation Measures Compared\"",
+      "meta_description": "\"CPI vs PPI vs PCE explained with BLS and BEA sources: who each index measures, why the numbers differ, and September 2026 readings from FRED.\"",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-28",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S91",
+      "working_title": "\"Can a Wire Transfer Be Reversed? Cancellation, Recall and Error Rights\"",
+      "primary_keyword": "can a wire transfer be reversed",
+      "secondary_keywords": "wire transfer reversal; cancel wire transfer; wire recall; remittance transfer cancellation",
+      "cluster": "Payments",
+      "intent": "Informational",
+      "status": "Scheduled",
+      "url_slug": "/payments/can-a-wire-transfer-be-reversed/",
+      "seo_title": "\"Can a Wire Transfer Be Reversed? What Rules Allow\"",
+      "meta_description": "\"Can a wire transfer be reversed? See why Fedwire payments are final, when the 30-minute remittance cancellation right applies, and what to do fast.\"",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-29",
+      "min_words": 2500,
+      "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S92",
+      "working_title": "\"Best Stock Analysis Websites for Fundamental Research: Free and Paid Options\"",
+      "primary_keyword": "best stock analysis websites",
+      "secondary_keywords": "stock research websites; free stock analysis sites; sec edgar company search; stock screener websites",
+      "cluster": "Markets & Stocks",
+      "intent": "Commercial",
+      "status": "Scheduled",
+      "url_slug": "/markets-stocks/best-stock-analysis-websites/",
+      "seo_title": "\"Best Stock Analysis Websites: 7 Free and Paid Options\"",
+      "meta_description": "\"Compare the best stock analysis websites for research, from SEC EDGAR filings to screeners, charts and dashboards, plus a source-first research workflow.\"",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-29",
+      "min_words": 2500,
+      "no_word_ceiling": true
     }
   ],
   "links": [
@@ -1537,6 +1717,7 @@
         "/investing/dividend-reinvestment-plan-calculator/",
         "/investing/dividend-vs-dividend-yield/",
         "/investing/dollar-cost-averaging-statistics/",
+        "/investing/etf-vs-index-fund/",
         "/investing/expense-ratio-statistics/",
         "/investing/fidelity-vs-vanguard/",
         "/investing/fxaix-vs-voo/",
@@ -1545,10 +1726,13 @@
         "/investing/qualified-dividends/",
         "/investing/retirement-savings-by-age/",
         "/investing/roth-ira-vs-traditional-ira/",
+        "/investing/short-term-vs-long-term-capital-gains/",
+        "/investing/spy-vs-voo-vs-ivv/",
         "/investing/stock-risk-metrics/",
         "/investing/voo-vs-spy/",
         "/investing/vti-vs-voo/",
-        "/investing/vug-vs-voo/"
+        "/investing/vug-vs-voo/",
+        "/investing/wash-sale-rule/"
       ],
       "silo_role": "Hub",
       "pillar": "/investing/crypto-vs-stocks/"
@@ -1591,12 +1775,15 @@
         "/money-banking/best-budgeting-apps/",
         "/money-banking/best-hsa-accounts/",
         "/money-banking/checking-vs-savings-account/",
+        "/money-banking/cpi-vs-ppi-vs-pce/",
         "/money-banking/credit-card-delinquency-rate-statistics/",
         "/money-banking/credit-union-vs-bank/",
         "/money-banking/high-yield-savings-account-vs-cd/",
         "/money-banking/high-yield-savings-vs-money-market-account/",
+        "/money-banking/hsa-investment-options/",
         "/money-banking/hsa-vs-fsa/",
         "/money-banking/hsa-vs-hra/",
+        "/money-banking/hsa-vs-ppo/",
         "/money-banking/identity-theft-statistics/",
         "/money-banking/inflation-rate-by-year/",
         "/money-banking/money-market-account-vs-money-market-fund/",
@@ -1604,7 +1791,9 @@
         "/money-banking/net-worth-by-age-statistics/",
         "/money-banking/rogue-ai-agent-banking-liability/",
         "/money-banking/savings-interest-calculator/",
-        "/money-banking/what-is-a-credit-score/"
+        "/money-banking/treasury-bills-vs-cd/",
+        "/money-banking/what-is-a-credit-score/",
+        "/payments/can-a-wire-transfer-be-reversed/"
       ],
       "silo_role": "Hub",
       "pillar": "/money-banking/saving-vs-investing/"
@@ -1631,6 +1820,7 @@
         "/markets-stocks/apple-statistics/",
         "/money-banking/identity-theft-statistics/",
         "/payments/ach-vs-wire-transfer/",
+        "/payments/can-a-wire-transfer-be-reversed/",
         "/payments/how-long-does-a-wire-transfer-take/",
         "/payments/what-is-a-wire-transfer/"
       ],
@@ -1699,6 +1889,7 @@
         "/markets-stocks/bear-vs-bull-market/",
         "/markets-stocks/best-free-stock-screeners/",
         "/markets-stocks/best-stock-analysis-apps/",
+        "/markets-stocks/best-stock-analysis-websites/",
         "/markets-stocks/best-stock-screeners-compared/",
         "/markets-stocks/companies-with-biggest-market-caps/",
         "/markets-stocks/equity-research-reports/",
@@ -1770,6 +1961,7 @@
       "url_slug": "/markets-stocks/best-free-stock-screeners/",
       "primary_silo_hub": "/markets-stocks/",
       "approved_outbound_targets": [
+        "/markets-stocks/best-stock-analysis-websites/",
         "/markets-stocks/stock-analysis-fundamentals/",
         "/markets-stocks/stock-screener-metrics-guide/"
       ],
@@ -2565,6 +2757,136 @@
       ],
       "silo_role": "Supporting",
       "pillar": "/money-banking/saving-vs-investing/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S83",
+      "url_slug": "/investing/wash-sale-rule/",
+      "primary_silo_hub": "/investing/",
+      "approved_outbound_targets": [
+        "/investing/capital-gains-tax-calculator/",
+        "/investing/crypto-vs-stocks/",
+        "/investing/short-term-vs-long-term-capital-gains/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/investing/crypto-vs-stocks/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S84",
+      "url_slug": "/investing/short-term-vs-long-term-capital-gains/",
+      "primary_silo_hub": "/investing/",
+      "approved_outbound_targets": [
+        "/investing/capital-gains-tax-calculator/",
+        "/investing/crypto-vs-stocks/",
+        "/investing/wash-sale-rule/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/investing/crypto-vs-stocks/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S85",
+      "url_slug": "/investing/etf-vs-index-fund/",
+      "primary_silo_hub": "/investing/",
+      "approved_outbound_targets": [
+        "/investing/crypto-vs-stocks/",
+        "/investing/expense-ratio-calculator/",
+        "/investing/spy-vs-voo-vs-ivv/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/investing/crypto-vs-stocks/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S86",
+      "url_slug": "/investing/spy-vs-voo-vs-ivv/",
+      "primary_silo_hub": "/investing/",
+      "approved_outbound_targets": [
+        "/investing/crypto-vs-stocks/",
+        "/investing/etf-vs-index-fund/",
+        "/investing/voo-vs-spy/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/investing/crypto-vs-stocks/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S87",
+      "url_slug": "/money-banking/hsa-vs-ppo/",
+      "primary_silo_hub": "/money-banking/",
+      "approved_outbound_targets": [
+        "/money-banking/hsa-investment-options/",
+        "/money-banking/hsa-vs-fsa/",
+        "/money-banking/saving-vs-investing/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/money-banking/saving-vs-investing/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S88",
+      "url_slug": "/money-banking/hsa-investment-options/",
+      "primary_silo_hub": "/money-banking/",
+      "approved_outbound_targets": [
+        "/money-banking/best-hsa-accounts/",
+        "/money-banking/hsa-vs-ppo/",
+        "/money-banking/saving-vs-investing/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/money-banking/saving-vs-investing/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S89",
+      "url_slug": "/money-banking/treasury-bills-vs-cd/",
+      "primary_silo_hub": "/money-banking/",
+      "approved_outbound_targets": [
+        "/investing/treasury-bill-calculator/",
+        "/money-banking/cpi-vs-ppi-vs-pce/",
+        "/money-banking/saving-vs-investing/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/money-banking/saving-vs-investing/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S90",
+      "url_slug": "/money-banking/cpi-vs-ppi-vs-pce/",
+      "primary_silo_hub": "/money-banking/",
+      "approved_outbound_targets": [
+        "/money-banking/inflation-rate-by-year/",
+        "/money-banking/saving-vs-investing/",
+        "/money-banking/treasury-bills-vs-cd/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/money-banking/saving-vs-investing/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S91",
+      "url_slug": "/payments/can-a-wire-transfer-be-reversed/",
+      "primary_silo_hub": "/payments/",
+      "approved_outbound_targets": [
+        "/payments/ach-vs-wire-transfer/",
+        "/payments/how-long-does-a-wire-transfer-take/",
+        "/payments/paypal-statistics/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/payments/paypal-statistics/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S92",
+      "url_slug": "/markets-stocks/best-stock-analysis-websites/",
+      "primary_silo_hub": "/markets-stocks/",
+      "approved_outbound_targets": [
+        "/markets-stocks/best-free-stock-screeners/",
+        "/markets-stocks/stock-analysis-fundamentals/",
+        "/markets-stocks/yahoo-finance-stock-research/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/markets-stocks/stock-analysis-fundamentals/"
     }
   ]
 }

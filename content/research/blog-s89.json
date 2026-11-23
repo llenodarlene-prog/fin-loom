@@ -1,0 +1,437 @@
+{
+  "tracker_id": "Blog:S89",
+  "status": "verified",
+  "research_question": "How do Treasury bills and CDs compare on rates, pricing, taxes, protection and access?",
+  "research_brief": {
+    "purpose": "Compare T-bills and CDs with dated FDIC and FRED data and TreasuryDirect rules.",
+    "audience": "US savers.",
+    "publication_year": "2026",
+    "data_period": "FDIC national rates as of Nov 16, 2026; FRED DTB3/DTB6/DTB1YR Nov 19, 2026.",
+    "scope_limitations": "National averages; examples hypothetical; discount vs APY not converted."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "treasury bills vs cd",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-11-20",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-20",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "treasury bills vs cd",
+        "type": "short-tail",
+        "volume": 1300,
+        "difficulty": 8,
+        "cpc": 2.5,
+        "intent": "Commercial",
+        "ranking_url": "https://www.treasurydirect.gov/marketable-securities/treasury-bills/",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "t bills vs cds",
+        "type": "long-tail",
+        "volume": 1300,
+        "difficulty": 8,
+        "cpc": 2.5,
+        "intent": "Commercial",
+        "ranking_url": "https://www.treasurydirect.gov/marketable-securities/treasury-bills/",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best cd rates",
+        "type": "commercial",
+        "volume": 1300,
+        "difficulty": 8,
+        "cpc": 2.5,
+        "intent": "Commercial",
+        "ranking_url": "https://www.treasurydirect.gov/marketable-securities/treasury-bills/",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "cd early withdrawal penalty",
+        "type": "problem",
+        "volume": 1300,
+        "difficulty": 8,
+        "cpc": 2.5,
+        "intent": "Informational",
+        "ranking_url": "https://www.treasurydirect.gov/marketable-securities/treasury-bills/",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "are t bills better than cds",
+        "type": "question",
+        "volume": 1300,
+        "difficulty": 8,
+        "cpc": 2.5,
+        "intent": "Informational",
+        "ranking_url": "https://www.treasurydirect.gov/marketable-securities/treasury-bills/",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.treasurydirect.gov/marketable-securities/treasury-bills/",
+      "title": "Treasury Bills",
+      "publisher": "TreasuryDirect (U.S. Treasury)",
+      "source_type": "Federal agency",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "Terms, $100 minimum, discount sale, taxes, sell before maturity",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.treasurydirect.gov/marketable-securities/understanding-pricing/",
+      "title": "Understanding Pricing and Interest Rates",
+      "publisher": "TreasuryDirect (U.S. Treasury)",
+      "source_type": "Federal agency",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "Bill price formula and example",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.fdic.gov/resources/bankers/national-rates/",
+      "title": "National Rates and Rate Caps",
+      "publisher": "FDIC",
+      "source_type": "Federal agency data",
+      "year": "2026",
+      "published_at": "2026-11-16",
+      "accessed_at": "2026-11-21",
+      "scope": "National CD averages as of Nov 16, 2026",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.fdic.gov/resources/deposit-insurance/understanding-deposit-insurance",
+      "title": "Understanding Deposit Insurance",
+      "publisher": "FDIC",
+      "source_type": "Federal agency guidance",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "CDs insured; Treasury bills not insured",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://fred.stlouisfed.org/series/DTB6",
+      "title": "6-Month Treasury Bill Secondary Market Rate, Discount Basis",
+      "publisher": "Board of Governors via FRED",
+      "source_type": "Official statistics",
+      "year": "2026",
+      "published_at": "2026-11-19",
+      "accessed_at": "2026-11-21",
+      "scope": "Daily bill rates (DTB3, DTB6, DTB1YR)",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "FDIC national CD: 3m 1.14, 6m 1.40, 12m 1.81 (Nov 16, 2026)",
+      "source_url": "https://www.fdic.gov/resources/bankers/national-rates/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "FRED bills Nov 19, 2026: 3m 4.16, 6m 4.31, 1y 4.39 discount basis",
+      "source_url": "https://fred.stlouisfed.org/series/DTB6",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "$100 minimum; 4-52 weeks; no state or local tax",
+      "source_url": "https://www.treasurydirect.gov/marketable-securities/treasury-bills/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Rule",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "TreasuryDirect bills",
+      "url": "https://www.treasurydirect.gov/marketable-securities/treasury-bills/",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "treasury bills vs cd"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors rarely pair same-week FDIC averages with FRED bill rates or work the TreasuryDirect formula at a current rate."
+    },
+    {
+      "title": "FDIC national rates",
+      "url": "https://www.fdic.gov/resources/bankers/national-rates/",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "treasury bills vs cd"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors rarely pair same-week FDIC averages with FRED bill rates or work the TreasuryDirect formula at a current rate."
+    },
+    {
+      "title": "Fidelity: CDs vs Treasuries",
+      "url": "https://www.fidelity.com/learning-center/investment-products/fixed-income-bonds/cds-vs-treasuries",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "treasury bills vs cd"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors rarely pair same-week FDIC averages with FRED bill rates or work the TreasuryDirect formula at a current rate."
+    },
+    {
+      "title": "Schwab: Treasuries vs CDs",
+      "url": "https://www.schwab.com/learn/story/treasuries-vs-cds",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "treasury bills vs cd"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors rarely pair same-week FDIC averages with FRED bill rates or work the TreasuryDirect formula at a current rate."
+    },
+    {
+      "title": "Reddit r/personalfinance T-bill threads",
+      "url": "https://www.reddit.com/r/personalfinance/",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "treasury bills vs cd"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors rarely pair same-week FDIC averages with FRED bill rates or work the TreasuryDirect formula at a current rate."
+    }
+  ],
+  "content_gaps": [
+    "Dated rate snapshot",
+    "Formula at a current rate",
+    "State tax illustration",
+    "Access before maturity"
+  ],
+  "value_add": [
+    "Side-by-side table",
+    "Rate table",
+    "Worked bill and CD example"
+  ],
+  "plan": {
+    "reader_title": "\"Treasury Bills vs CD: Rates, Pricing, Taxes and Access Compared\"",
+    "seo_title": "\"Treasury Bills vs CD: 2026 Rates, Taxes and Access\"",
+    "meta_description": "\"Compare treasury bills vs cd with November 2026 FDIC and FRED data, the TreasuryDirect discount formula, state tax rules and early access trade-offs.\"",
+    "slug": "/money-banking/treasury-bills-vs-cd/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "t bills vs cds",
+      "treasury bill rates",
+      "cd rates 2026",
+      "t bill state tax"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "What Is the Difference Between Treasury Bills vs CD?",
+      "Treasury Bills vs CD Side by Side",
+      "How Current Rates Compare",
+      "How Treasury Bill Pricing Works",
+      "How Taxes Change the Comparison",
+      "Access Before Maturity",
+      "The Bottom Line",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Rules: TreasuryDirect",
+      "Rates: FDIC and FRED",
+      "Insurance: FDIC"
+    ],
+    "visuals": [
+      "Owner-supplied featured image",
+      "Two tables"
+    ],
+    "internal_links": [
+      "/money-banking/saving-vs-investing/",
+      "/money-banking/cpi-vs-ppi-vs-pce/",
+      "/investing/treasury-bill-calculator/"
+    ],
+    "external_link_opportunities": [
+      "https://www.treasurydirect.gov/marketable-securities/treasury-bills/",
+      "https://www.treasurydirect.gov/marketable-securities/understanding-pricing/",
+      "https://www.fdic.gov/resources/bankers/national-rates/"
+    ],
+    "excluded_claims": [
+      "Money market vs CD link not used: 3-link spoke limit",
+      "Credit union insurance, TreasuryDirect-to-broker transfer and tax-year timing details removed: not in fetched sources",
+      "Ubersuggest metrics from owner brief snapshot; competitor list partly from known sources"
+    ],
+    "drafting_cautions": [
+      "No buy, sell or hold recommendation",
+      "Hypothetical examples labeled",
+      "Dates and populations stated"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Bill terms, minimum, discount sale, taxes, can sell early",
+      "source_url": "https://www.treasurydirect.gov/marketable-securities/treasury-bills/",
+      "verified": true
+    },
+    {
+      "statement": "Price formula and $999.27 example",
+      "source_url": "https://www.treasurydirect.gov/marketable-securities/understanding-pricing/",
+      "verified": true
+    },
+    {
+      "statement": "FDIC national CD averages",
+      "source_url": "https://www.fdic.gov/resources/bankers/national-rates/",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-21",
+    "note": "Rules from TreasuryDirect; rates from FDIC (Nov 16) and FRED (Nov 19) read 2026-11-21; arithmetic recomputed ($9,782.11; $217.89; $69.76; $10.89).",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-21",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-21",
+    "summary": "Rules from TreasuryDirect; rates from FDIC (Nov 16) and FRED (Nov 19) read 2026-11-21; arithmetic recomputed ($9,782.11; $217.89; $69.76; $10.89).",
+    "pending": "Owner sign-off."
+  }
+}

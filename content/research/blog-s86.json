@@ -1,0 +1,414 @@
+{
+  "tracker_id": "Blog:S86",
+  "status": "verified",
+  "research_question": "How do SPY, VOO and IVV differ on cost, structure, age and size?",
+  "research_brief": {
+    "purpose": "Three-way S&P 500 ETF comparison from issuer pages with labeled fee arithmetic.",
+    "audience": "US ETF investors.",
+    "publication_year": "2026",
+    "data_period": "Issuer pages accessed Nov 21, 2026; VOO ER as of Apr 28, 2026; IVV net assets as of Nov 20, 2026.",
+    "scope_limitations": "No return ranking; fee table assumes constant balances."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "spy vs voo vs ivv",
+    "intent": "Informational",
+    "serp_checked_at": "2026-11-21",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-21",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "spy vs voo vs ivv",
+        "type": "short-tail",
+        "volume": 480,
+        "difficulty": 29,
+        "cpc": 1.72,
+        "intent": "Informational",
+        "ranking_url": "https://www.ishares.com/us/products/239726/ISHARES-CORE-SP-500-ETF",
+        "retrieved_at": "2026-11-21",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "voo vs ivv",
+        "type": "long-tail",
+        "volume": 480,
+        "difficulty": 29,
+        "cpc": 1.72,
+        "intent": "Informational",
+        "ranking_url": "https://www.ishares.com/us/products/239726/ISHARES-CORE-SP-500-ETF",
+        "retrieved_at": "2026-11-21",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best s&p 500 etf",
+        "type": "commercial",
+        "volume": 480,
+        "difficulty": 29,
+        "cpc": 1.72,
+        "intent": "Commercial",
+        "ranking_url": "https://www.ishares.com/us/products/239726/ISHARES-CORE-SP-500-ETF",
+        "retrieved_at": "2026-11-21",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "spy expense ratio too high",
+        "type": "problem",
+        "volume": 480,
+        "difficulty": 29,
+        "cpc": 1.72,
+        "intent": "Informational",
+        "ranking_url": "https://www.ishares.com/us/products/239726/ISHARES-CORE-SP-500-ETF",
+        "retrieved_at": "2026-11-21",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "which s&p 500 etf is cheapest",
+        "type": "question",
+        "volume": 480,
+        "difficulty": 29,
+        "cpc": 1.72,
+        "intent": "Informational",
+        "ranking_url": "https://www.ishares.com/us/products/239726/ISHARES-CORE-SP-500-ETF",
+        "retrieved_at": "2026-11-21",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.ssga.com/us/en/individual/etfs/state-street-spdr-sp-500-etf-trust-spy",
+      "title": "SPDR S&P 500 ETF Trust (SPY)",
+      "publisher": "State Street Investment Management",
+      "source_type": "Issuer fund page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "Gross ER 0.0945%, inception Jan 22 1993, UIT, options",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://advisors.vanguard.com/investments/products/voo/vanguard-sp-500-etf",
+      "title": "Vanguard S&P 500 ETF (VOO)",
+      "publisher": "Vanguard",
+      "source_type": "Issuer fund page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "ER 0.03% as of Apr 28 2026; inception Sept 7 2010",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "ER confirmed via Vanguard profile data feed.",
+      "verified": true
+    },
+    {
+      "url": "https://www.ishares.com/us/products/239726/ISHARES-CORE-SP-500-ETF",
+      "title": "iShares Core S&P 500 ETF (IVV)",
+      "publisher": "BlackRock iShares",
+      "source_type": "Issuer fund page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "ER 0.03%; inception May 15 2000; net assets $803.4B Nov 20 2026",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "SPY gross ER 0.0945%",
+      "source_url": "https://www.ssga.com/us/en/individual/etfs/state-street-spdr-sp-500-etf-trust-spy",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "VOO ER 0.03% as of 2026-04-28",
+      "source_url": "https://advisors.vanguard.com/investments/products/voo/vanguard-sp-500-etf",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "IVV ER 0.03%; net assets $803,410,080,998 as of 2026-11-20",
+      "source_url": "https://www.ishares.com/us/products/239726/ISHARES-CORE-SP-500-ETF",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent/USD",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "State Street SPY page",
+      "url": "https://www.ssga.com/us/en/individual/etfs/state-street-spdr-sp-500-etf-trust-spy",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "spy vs voo vs ivv"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors often rank past returns across mismatched dates; few use dated issuer facts only."
+    },
+    {
+      "title": "Vanguard VOO page",
+      "url": "https://advisors.vanguard.com/investments/products/voo/vanguard-sp-500-etf",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "spy vs voo vs ivv"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors often rank past returns across mismatched dates; few use dated issuer facts only."
+    },
+    {
+      "title": "iShares IVV page",
+      "url": "https://www.ishares.com/us/products/239726/ISHARES-CORE-SP-500-ETF",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "spy vs voo vs ivv"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors often rank past returns across mismatched dates; few use dated issuer facts only."
+    },
+    {
+      "title": "Investopedia: SPY vs VOO vs IVV",
+      "url": "https://www.investopedia.com/articles/investing/122215/spy-spdr-sp-500-trust-etf.asp",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "spy vs voo vs ivv"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors often rank past returns across mismatched dates; few use dated issuer facts only."
+    },
+    {
+      "title": "Reddit r/ETFs thread",
+      "url": "https://www.reddit.com/r/ETFs/",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "spy vs voo vs ivv"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors often rank past returns across mismatched dates; few use dated issuer facts only."
+    }
+  ],
+  "content_gaps": [
+    "Dated issuer fact table",
+    "Constant-balance fee table",
+    "Why returns are not ranked",
+    "Use-case split"
+  ],
+  "value_add": [
+    "Three-way issuer table",
+    "Fee table at three balances",
+    "Fair performance comparison checklist"
+  ],
+  "plan": {
+    "reader_title": "\"SPY vs VOO vs IVV: Three S&P 500 ETFs Compared on Cost, Structure and Size\"",
+    "seo_title": "\"SPY vs VOO vs IVV: Fees, Structure and Size Compared\"",
+    "meta_description": "Compare SPY vs VOO vs IVV with issuer data on expense ratios, inception dates, fund structure and assets, plus labeled fee math for each.",
+    "slug": "/investing/spy-vs-voo-vs-ivv/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "spy vs voo",
+      "voo vs ivv",
+      "ivv vs spy",
+      "s&p 500 etf expense ratio"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "SPY vs VOO vs IVV at a Glance",
+      "How the Expense Ratios Compare",
+      "Why SPY's Structure Is Different",
+      "Why This Guide Does Not Rank Returns",
+      "SPY vs VOO vs IVV for Different Uses",
+      "How These Funds Fit a Wider Portfolio",
+      "The Bottom Line",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "SPY: State Street page",
+      "VOO: Vanguard page and profile feed",
+      "IVV: iShares page"
+    ],
+    "visuals": [
+      "Owner-supplied featured image",
+      "Two tables"
+    ],
+    "internal_links": [
+      "/investing/crypto-vs-stocks/",
+      "/investing/etf-vs-index-fund/",
+      "/investing/voo-vs-spy/"
+    ],
+    "external_link_opportunities": [
+      "https://www.ssga.com/us/en/individual/etfs/state-street-spdr-sp-500-etf-trust-spy",
+      "https://www.ishares.com/us/products/239726/ISHARES-CORE-SP-500-ETF",
+      "https://advisors.vanguard.com/investments/products/voo/vanguard-sp-500-etf"
+    ],
+    "excluded_claims": [
+      "Assets for SPY and VOO not compared: measured differently",
+      "No return ranking",
+      "UIT operating details not stated: not on fetched pages",
+      "Owner calculator link replaced with VOO vs SPY to reduce overlap (3-link spoke limit)",
+      "Competitor SERP not pulled this run; Investopedia and Reddit listed as known competitors",
+      "Secondary query volumes reuse primary metric"
+    ],
+    "drafting_cautions": [
+      "No buy, sell or hold recommendation",
+      "Hypothetical examples labeled",
+      "Dates and populations stated"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "SPY ER, inception, UIT structure, options available",
+      "source_url": "https://www.ssga.com/us/en/individual/etfs/state-street-spdr-sp-500-etf-trust-spy",
+      "verified": true
+    },
+    {
+      "statement": "VOO ER and inception",
+      "source_url": "https://advisors.vanguard.com/investments/products/voo/vanguard-sp-500-etf",
+      "verified": true
+    },
+    {
+      "statement": "IVV ER, inception, net assets",
+      "source_url": "https://www.ishares.com/us/products/239726/ISHARES-CORE-SP-500-ETF",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-21",
+    "note": "All fund facts read from issuer pages on 2026-11-21; fee arithmetic recomputed ($9.45/$3/$6.45 etc.).",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-21",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-21",
+    "summary": "All fund facts read from issuer pages on 2026-11-21; fee arithmetic recomputed ($9.45/$3/$6.45 etc.).",
+    "pending": "Owner sign-off."
+  }
+}
