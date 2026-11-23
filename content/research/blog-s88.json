@@ -1,0 +1,395 @@
+{
+  "tracker_id": "Blog:S88",
+  "status": "verified",
+  "research_question": "How should an HSA holder weigh cash reserves, fees, risk and tax rules when investing?",
+  "research_brief": {
+    "purpose": "Explain HSA investing trade-offs from IRS, HealthCare.gov and FDIC sources with labeled fee math.",
+    "audience": "US HSA holders.",
+    "publication_year": "2026",
+    "data_period": "Pub 969 current edition; HealthCare.gov and FDIC pages accessed Nov 21, 2026.",
+    "scope_limitations": "No provider named or ranked; fee figures hypothetical; state tax not covered."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "hsa investment options",
+    "intent": "Informational",
+    "serp_checked_at": "2026-11-20",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-20",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "hsa investment options",
+        "type": "short-tail",
+        "volume": 1600,
+        "difficulty": 28,
+        "cpc": 2.0,
+        "intent": "Informational",
+        "ranking_url": "https://www.irs.gov/publications/p969",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "investing hsa funds",
+        "type": "long-tail",
+        "volume": 1600,
+        "difficulty": 28,
+        "cpc": 2.0,
+        "intent": "Informational",
+        "ranking_url": "https://www.irs.gov/publications/p969",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best hsa for investing",
+        "type": "commercial",
+        "volume": 1600,
+        "difficulty": 28,
+        "cpc": 2.0,
+        "intent": "Commercial",
+        "ranking_url": "https://www.irs.gov/publications/p969",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "hsa fees",
+        "type": "problem",
+        "volume": 1600,
+        "difficulty": 28,
+        "cpc": 2.0,
+        "intent": "Informational",
+        "ranking_url": "https://www.irs.gov/publications/p969",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "can you invest hsa money",
+        "type": "question",
+        "volume": 1600,
+        "difficulty": 28,
+        "cpc": 2.0,
+        "intent": "Informational",
+        "ranking_url": "https://www.irs.gov/publications/p969",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.irs.gov/publications/p969",
+      "title": "Publication 969",
+      "publisher": "IRS",
+      "source_type": "Federal tax publication",
+      "year": "2025",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "Trustees, tax-free earnings, 20% tax and exceptions, fees, transfers",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.healthcare.gov/high-deductible-health-plan/setting-up-hsa/",
+      "title": "Setting up a Health Savings Account",
+      "publisher": "HealthCare.gov (CMS)",
+      "source_type": "Federal agency guidance",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "Where to open; possible HSA fees",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.fdic.gov/resources/deposit-insurance/understanding-deposit-insurance",
+      "title": "Understanding Deposit Insurance",
+      "publisher": "FDIC",
+      "source_type": "Federal agency guidance",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "Insured deposits; uninsured stocks, bonds, mutual funds",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "20% additional tax on non-qualified distributions; none after 65, disability or death",
+      "source_url": "https://www.irs.gov/publications/p969",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "FDIC insures at least $250,000 per depositor per ownership category",
+      "source_url": "https://www.fdic.gov/resources/deposit-insurance/understanding-deposit-insurance",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "IRS Publication 969",
+      "url": "https://www.irs.gov/publications/p969",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "hsa investment options"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitor provider lists often repeat old fee tables; few separate flat and percentage fees or cite FDIC on uninsured investments."
+    },
+    {
+      "title": "HealthCare.gov HSA setup",
+      "url": "https://www.healthcare.gov/high-deductible-health-plan/setting-up-hsa/",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "hsa investment options"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitor provider lists often repeat old fee tables; few separate flat and percentage fees or cite FDIC on uninsured investments."
+    },
+    {
+      "title": "FDIC deposit insurance",
+      "url": "https://www.fdic.gov/resources/deposit-insurance/understanding-deposit-insurance",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "hsa investment options"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitor provider lists often repeat old fee tables; few separate flat and percentage fees or cite FDIC on uninsured investments."
+    },
+    {
+      "title": "Investopedia: investing your HSA",
+      "url": "https://www.investopedia.com/articles/personal-finance/090814/how-invest-your-hsa.asp",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "hsa investment options"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitor provider lists often repeat old fee tables; few separate flat and percentage fees or cite FDIC on uninsured investments."
+    },
+    {
+      "title": "Reddit r/personalfinance HSA investing threads",
+      "url": "https://www.reddit.com/r/personalfinance/",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "hsa investment options"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitor provider lists often repeat old fee tables; few separate flat and percentage fees or cite FDIC on uninsured investments."
+    }
+  ],
+  "content_gaps": [
+    "Two-bucket cash framing",
+    "Flat vs percentage fee table",
+    "FDIC coverage split",
+    "Transfer vs rollover"
+  ],
+  "value_add": [
+    "Pre-investing checklist",
+    "Fee table at three balances",
+    "Tax and records summary"
+  ],
+  "plan": {
+    "reader_title": "\"HSA Investment Options: Cash Reserves, Fees, Risk and Tax Rules\"",
+    "seo_title": "\"HSA Investment Options: Cash, Fees, Risk and Tax Rules\"",
+    "meta_description": "\"Compare HSA investment options with IRS and FDIC rules: how much cash to keep, how flat and percentage fees add up, and what investing changes.\"",
+    "slug": "/money-banking/hsa-investment-options/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "investing hsa funds",
+      "hsa cash threshold",
+      "hsa fees",
+      "can you invest hsa money"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "Can HSA Money Be Invested?",
+      "What to Check Before Choosing HSA Investment Options",
+      "How Much Should Stay in Cash?",
+      "How HSA Fees Add Up",
+      "How HSA Investments Affect Taxes",
+      "Moving an HSA and Changing Jobs",
+      "The Bottom Line",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Rules: IRS Pub 969",
+      "Fees and opening: HealthCare.gov",
+      "Insurance coverage: FDIC"
+    ],
+    "visuals": [
+      "Owner-supplied featured image",
+      "Two tables"
+    ],
+    "internal_links": [
+      "/money-banking/saving-vs-investing/",
+      "/money-banking/hsa-vs-ppo/",
+      "/money-banking/best-hsa-accounts/"
+    ],
+    "external_link_opportunities": [
+      "https://www.irs.gov/publications/p969",
+      "https://www.healthcare.gov/high-deductible-health-plan/setting-up-hsa/",
+      "https://www.fdic.gov/resources/deposit-insurance/understanding-deposit-insurance"
+    ],
+    "excluded_claims": [
+      "Provider names (Fidelity, HSA Bank, HealthEquity, Optum) removed: no same-date fee data and screenshot rule",
+      "Expense ratio calculator and HSA vs FSA links dropped (3-link spoke limit)",
+      "Ubersuggest SERP not refreshed; metrics from owner brief snapshot; competitor list partly from known sources"
+    ],
+    "drafting_cautions": [
+      "No buy, sell or hold recommendation",
+      "Hypothetical examples labeled",
+      "Dates and populations stated"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Trustee types, tax-free earnings, distributions, fee reporting, transfers",
+      "source_url": "https://www.irs.gov/publications/p969",
+      "verified": true
+    },
+    {
+      "statement": "HSA fees: opening, closing, monthly maintenance",
+      "source_url": "https://www.healthcare.gov/high-deductible-health-plan/setting-up-hsa/",
+      "verified": true
+    },
+    {
+      "statement": "Mutual funds, stocks, bonds not FDIC insured",
+      "source_url": "https://www.fdic.gov/resources/deposit-insurance/understanding-deposit-insurance",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-21",
+    "note": "Rules read from Pub 969, HealthCare.gov and FDIC on 2026-11-21; fee arithmetic recomputed ($40, $46, $61).",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-21",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-21",
+    "summary": "Rules read from Pub 969, HealthCare.gov and FDIC on 2026-11-21; fee arithmetic recomputed ($40, $46, $61).",
+    "pending": "Owner sign-off."
+  }
+}

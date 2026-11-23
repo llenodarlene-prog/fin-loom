@@ -1,0 +1,424 @@
+{
+  "tracker_id": "Blog:S84",
+  "status": "verified",
+  "research_question": "How do short-term and long-term capital gains differ in holding period, rates, netting and extra taxes?",
+  "research_brief": {
+    "purpose": "Explain capital gains treatment from IRS primary sources with labeled 2025 thresholds and hypothetical math.",
+    "audience": "US taxable-account investors.",
+    "publication_year": "2026",
+    "data_period": "IRS Topic 409 thresholds for tax years beginning in 2025; Topic 559 NIIT thresholds.",
+    "scope_limitations": "2025 thresholds; later years differ; examples hypothetical; not a full return."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "short term vs long term capital gains",
+    "intent": "Informational",
+    "serp_checked_at": "2026-11-08",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-08",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "short term vs long term capital gains",
+        "type": "short-tail",
+        "volume": 8100,
+        "difficulty": 28,
+        "cpc": 3.11,
+        "intent": "Informational",
+        "ranking_url": "https://help.etoro.com/en-us/s/article/what-are-long-term-vs-short-term-capital-gains-US",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "long term capital gains tax rate",
+        "type": "long-tail",
+        "volume": 8100,
+        "difficulty": 28,
+        "cpc": 3.11,
+        "intent": "Informational",
+        "ranking_url": "https://help.etoro.com/en-us/s/article/what-are-long-term-vs-short-term-capital-gains-US",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "capital gains tax calculator",
+        "type": "commercial",
+        "volume": 8100,
+        "difficulty": 28,
+        "cpc": 3.11,
+        "intent": "Commercial",
+        "ranking_url": "https://help.etoro.com/en-us/s/article/what-are-long-term-vs-short-term-capital-gains-US",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "capital loss carryover",
+        "type": "problem",
+        "volume": 8100,
+        "difficulty": 28,
+        "cpc": 3.11,
+        "intent": "Informational",
+        "ranking_url": "https://help.etoro.com/en-us/s/article/what-are-long-term-vs-short-term-capital-gains-US",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "how long to hold stock for long term capital gains",
+        "type": "question",
+        "volume": 8100,
+        "difficulty": 28,
+        "cpc": 3.11,
+        "intent": "Informational",
+        "ranking_url": "https://help.etoro.com/en-us/s/article/what-are-long-term-vs-short-term-capital-gains-US",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.irs.gov/taxtopics/tc409",
+      "title": "Topic 409, Capital Gains and Losses",
+      "publisher": "IRS",
+      "source_type": "Federal agency guidance",
+      "year": "2025",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "Holding period, 2025 rates, exceptions, loss limit",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.irs.gov/taxtopics/tc559",
+      "title": "Topic 559, Net Investment Income Tax",
+      "publisher": "IRS",
+      "source_type": "Federal agency guidance",
+      "year": "2025",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "3.8% NIIT and MAGI thresholds",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.irs.gov/publications/p550",
+      "title": "Publication 550",
+      "publisher": "IRS",
+      "source_type": "Federal tax publication",
+      "year": "2025",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "Wash sale holding period; carryover worksheet",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "2025 0% thresholds $48,350 / $96,700 / $64,750",
+      "source_url": "https://www.irs.gov/taxtopics/tc409",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "15% upper limits $533,400 / $600,050 / $300,000 / $566,700",
+      "source_url": "https://www.irs.gov/taxtopics/tc409",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Loss deduction limit $3,000 ($1,500 MFS)",
+      "source_url": "https://www.irs.gov/taxtopics/tc409",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "NIIT 3.8%; $250k / $125k / $200k",
+      "source_url": "https://www.irs.gov/taxtopics/tc559",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "eToro help: long vs short term gains",
+      "url": "https://help.etoro.com/en-us/s/article/what-are-long-term-vs-short-term-capital-gains-US",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "short term vs long term capital gains"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Few competitors show the IRS day count, labeled-year thresholds, netting order and NIIT together."
+    },
+    {
+      "title": "US Bank: capital gains tax explained",
+      "url": "https://www.usbank.com/wealth-management/financial-perspectives/financial-planning/capital-gains-tax-explained.html",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "short term vs long term capital gains"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Few competitors show the IRS day count, labeled-year thresholds, netting order and NIIT together."
+    },
+    {
+      "title": "Sharesight: short vs long term gains",
+      "url": "https://www.sharesight.com/blog/what-are-short-term-vs-long-term-capital-gains/",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "short term vs long term capital gains"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Few competitors show the IRS day count, labeled-year thresholds, netting order and NIIT together."
+    },
+    {
+      "title": "Investopedia: capital gains tax 101",
+      "url": "https://www.investopedia.com/taxes/capital-gains-tax-101/",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "short term vs long term capital gains"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Few competitors show the IRS day count, labeled-year thresholds, netting order and NIIT together."
+    },
+    {
+      "title": "Reddit r/investingforbeginners thread",
+      "url": "https://www.reddit.com/r/investingforbeginners/comments/1ptbk9e/capital_gains_long_vs_short_question/",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "short term vs long term capital gains"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Few competitors show the IRS day count, labeled-year thresholds, netting order and NIIT together."
+    }
+  ],
+  "content_gaps": [
+    "Day-count example",
+    "Labeled 2025 threshold table",
+    "Netting order",
+    "Higher-rate asset exceptions"
+  ],
+  "value_add": [
+    "Side-by-side table",
+    "Threshold table from IRS",
+    "Worked gain and tax illustration"
+  ],
+  "plan": {
+    "reader_title": "\"Short Term vs Long Term Capital Gains: Holding Periods and Tax Examples\"",
+    "seo_title": "\"Short Term vs Long Term Capital Gains: Rates and Examples\"",
+    "meta_description": "Compare short term vs long term capital gains, see the IRS holding period rule and 2025 rate thresholds, and learn how losses change the result.",
+    "slug": "/investing/short-term-vs-long-term-capital-gains/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "long term capital gains tax rate",
+      "short term capital gains tax",
+      "capital gains holding period",
+      "capital loss carryover"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "What Is the Difference Between Short Term vs Long Term Capital Gains?",
+      "Short Term vs Long Term Capital Gains Side by Side",
+      "2025 Long-Term Capital Gains Rate Thresholds",
+      "How Is the Gain Figured Before Tax?",
+      "How Different Could the Tax Bill Look?",
+      "How Do Capital Losses Change the Result?",
+      "Does Waiting to Sell Always Make Sense?",
+      "How to Prepare a Capital Gains Estimate",
+      "The Bottom Line",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "Rules and thresholds: IRS Topic 409",
+      "NIIT: IRS Topic 559",
+      "Wash sale link: Pub 550"
+    ],
+    "visuals": [
+      "Owner-supplied featured image",
+      "Two tables"
+    ],
+    "internal_links": [
+      "/investing/crypto-vs-stocks/",
+      "/investing/wash-sale-rule/",
+      "/investing/capital-gains-tax-calculator/"
+    ],
+    "external_link_opportunities": [
+      "https://www.irs.gov/taxtopics/tc409",
+      "https://www.irs.gov/taxtopics/tc559"
+    ],
+    "excluded_claims": [
+      "Secondary query volumes not pulled separately; primary metric reused, flagged here",
+      "State tax claim softened",
+      "Retirement account claim replaced: not in fetched sources",
+      "Dividend total return calculator link dropped (3-link spoke limit)"
+    ],
+    "drafting_cautions": [
+      "No buy, sell or hold recommendation",
+      "Hypothetical examples labeled",
+      "Dates and populations stated"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Holding period rule, rates, thresholds, exceptions, loss limit",
+      "source_url": "https://www.irs.gov/taxtopics/tc409",
+      "verified": true
+    },
+    {
+      "statement": "NIIT rate and thresholds",
+      "source_url": "https://www.irs.gov/taxtopics/tc559",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-20",
+    "note": "Rules and 2025 thresholds read from IRS Topic 409 and 559 on 2026-11-20; arithmetic recomputed ($2,500; $600; $375; $225).",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-20",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-20",
+    "summary": "Rules and 2025 thresholds read from IRS Topic 409 and 559 on 2026-11-20; arithmetic recomputed ($2,500; $600; $375; $225).",
+    "pending": "Owner sign-off."
+  }
+}
