@@ -10,7 +10,7 @@ tracker_id: Blog:S20
 primary_keyword: best stock screener for free
 secondary_keywords: free stock screener; best free stock screener; free stock screening tools; stock screener no subscription
 cluster: Markets & Stocks
-approved_internal_links: /markets-stocks/stock-analysis-fundamentals/; /markets-stocks/stock-screener-metrics-guide/
+approved_internal_links: /markets-stocks/best-stock-analysis-websites/; /markets-stocks/stock-analysis-fundamentals/; /markets-stocks/stock-screener-metrics-guide/
 research_record: content/research/blog-s20.json
 image: /assets/images/posts/best-free-stock-screeners/laptop-screener-dashboard-1600.jpg
 image_alt: A laptop showing a dark stock screener dashboard with charts and tables beside a tablet, notebook, and coffee mug
@@ -76,6 +76,8 @@ The free version covers the core workflow without a subscription. According to t
 ### What the Free Version Does Well
 
 Finviz makes it easy to move from a broad universe to a focused list in a few minutes. Results connect to maps, news, charts, insider data, and compact company pages. That combination is useful when the first goal is discovery rather than detailed valuation work, and it keeps the early research stage quick.
+
+A screen only finds candidates. The next steps, comparing statements and checking filings, use different tools, and the [best stock analysis websites](/markets-stocks/best-stock-analysis-websites/) guide shows how screeners fit into a full research workflow.
 
 ### What Requires Elite
 
