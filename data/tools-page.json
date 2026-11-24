@@ -258,6 +258,20 @@
           "icon": "trending-down",
           "text": "See whether one consolidation loan saves money compared with paying your debts as they are.",
           "published": "2026-11-27"
+        },
+        {
+          "title": "SBA Loan Calculator",
+          "url": "/fintech/sba-loan-calculator/",
+          "icon": "building-bank",
+          "text": "Estimate the payment and total cost of an SBA-backed loan, including financed fees.",
+          "published": "2026-11-28"
+        },
+        {
+          "title": "Commercial Mortgage Calculator",
+          "url": "/fintech/commercial-mortgage-calculator/",
+          "icon": "building-bank",
+          "text": "Size a commercial mortgage and see the payment, balloon, DSCR and debt yield.",
+          "published": "2026-11-28"
         }
       ]
     },
@@ -417,6 +431,13 @@
           "icon": "pig-money",
           "text": "Project your 401(k) balance from contributions, employer match, raises and returns.",
           "published": "2026-11-27"
+        },
+        {
+          "title": "Pension Calculator",
+          "url": "/investing/pension-calculator/",
+          "icon": "calendar-dollar",
+          "text": "Compare a monthly pension with a lump-sum offer and find the return the lump sum needs.",
+          "published": "2026-11-28"
         }
       ]
     },
@@ -500,6 +521,20 @@
           "icon": "chart-bar",
           "text": "Find gross profit, margin and markup, and the price needed to reach a target margin.",
           "published": "2026-11-24"
+        },
+        {
+          "title": "Business Valuation Calculator",
+          "url": "/fintech/business-valuation-calculator/",
+          "icon": "scale",
+          "text": "Estimate a business value by earnings multiple and capitalized earnings, then equity value.",
+          "published": "2026-11-28"
+        },
+        {
+          "title": "Options Profit Calculator",
+          "url": "/markets-stocks/options-profit-calculator/",
+          "icon": "chart-line",
+          "text": "See the profit, break-even and maximum loss for a call or put held to expiration.",
+          "published": "2026-11-28"
         }
       ]
     }
