@@ -230,6 +230,34 @@
           "icon": "building-bank",
           "text": "Estimate a commercial loan payment and the balloon due when the term ends.",
           "published": "2026-11-26"
+        },
+        {
+          "title": "Mortgage Calculator",
+          "url": "/money-banking/mortgage-calculator/",
+          "icon": "home-dollar",
+          "text": "Estimate a full house payment with principal, interest, taxes, insurance, HOA and PMI.",
+          "published": "2026-11-27"
+        },
+        {
+          "title": "Home Affordability Calculator",
+          "url": "/money-banking/home-affordability-calculator/",
+          "icon": "scale",
+          "text": "Estimate how much house you could afford from income, debts and the ratios you choose.",
+          "published": "2026-11-27"
+        },
+        {
+          "title": "Rent vs Buy Calculator",
+          "url": "/money-banking/rent-vs-buy-calculator/",
+          "icon": "scale",
+          "text": "Compare the net cost of renting and buying over the years you plan to stay.",
+          "published": "2026-11-27"
+        },
+        {
+          "title": "Debt Consolidation Calculator",
+          "url": "/money-banking/debt-consolidation-calculator/",
+          "icon": "trending-down",
+          "text": "See whether one consolidation loan saves money compared with paying your debts as they are.",
+          "published": "2026-11-27"
         }
       ]
     },
@@ -382,6 +410,13 @@
           "icon": "trending-up",
           "text": "Work out return on investment and annualized ROI from costs and the final value.",
           "published": "2026-11-26"
+        },
+        {
+          "title": "401k Calculator",
+          "url": "/investing/401k-calculator/",
+          "icon": "pig-money",
+          "text": "Project your 401(k) balance from contributions, employer match, raises and returns.",
+          "published": "2026-11-27"
         }
       ]
     },
