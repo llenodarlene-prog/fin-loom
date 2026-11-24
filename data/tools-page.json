@@ -230,6 +230,48 @@
           "icon": "building-bank",
           "text": "Estimate a commercial loan payment and the balloon due when the term ends.",
           "published": "2026-11-26"
+        },
+        {
+          "title": "Mortgage Calculator",
+          "url": "/money-banking/mortgage-calculator/",
+          "icon": "home-dollar",
+          "text": "Estimate a full house payment with principal, interest, taxes, insurance, HOA and PMI.",
+          "published": "2026-11-27"
+        },
+        {
+          "title": "Home Affordability Calculator",
+          "url": "/money-banking/home-affordability-calculator/",
+          "icon": "scale",
+          "text": "Estimate how much house you could afford from income, debts and the ratios you choose.",
+          "published": "2026-11-27"
+        },
+        {
+          "title": "Rent vs Buy Calculator",
+          "url": "/money-banking/rent-vs-buy-calculator/",
+          "icon": "scale",
+          "text": "Compare the net cost of renting and buying over the years you plan to stay.",
+          "published": "2026-11-27"
+        },
+        {
+          "title": "Debt Consolidation Calculator",
+          "url": "/money-banking/debt-consolidation-calculator/",
+          "icon": "trending-down",
+          "text": "See whether one consolidation loan saves money compared with paying your debts as they are.",
+          "published": "2026-11-27"
+        },
+        {
+          "title": "SBA Loan Calculator",
+          "url": "/fintech/sba-loan-calculator/",
+          "icon": "building-bank",
+          "text": "Estimate the payment and total cost of an SBA-backed loan, including financed fees.",
+          "published": "2026-11-28"
+        },
+        {
+          "title": "Commercial Mortgage Calculator",
+          "url": "/fintech/commercial-mortgage-calculator/",
+          "icon": "building-bank",
+          "text": "Size a commercial mortgage and see the payment, balloon, DSCR and debt yield.",
+          "published": "2026-11-28"
         }
       ]
     },
@@ -382,6 +424,20 @@
           "icon": "trending-up",
           "text": "Work out return on investment and annualized ROI from costs and the final value.",
           "published": "2026-11-26"
+        },
+        {
+          "title": "401k Calculator",
+          "url": "/investing/401k-calculator/",
+          "icon": "pig-money",
+          "text": "Project your 401(k) balance from contributions, employer match, raises and returns.",
+          "published": "2026-11-27"
+        },
+        {
+          "title": "Pension Calculator",
+          "url": "/investing/pension-calculator/",
+          "icon": "calendar-dollar",
+          "text": "Compare a monthly pension with a lump-sum offer and find the return the lump sum needs.",
+          "published": "2026-11-28"
         }
       ]
     },
@@ -465,6 +521,20 @@
           "icon": "chart-bar",
           "text": "Find gross profit, margin and markup, and the price needed to reach a target margin.",
           "published": "2026-11-24"
+        },
+        {
+          "title": "Business Valuation Calculator",
+          "url": "/fintech/business-valuation-calculator/",
+          "icon": "scale",
+          "text": "Estimate a business value by earnings multiple and capitalized earnings, then equity value.",
+          "published": "2026-11-28"
+        },
+        {
+          "title": "Options Profit Calculator",
+          "url": "/markets-stocks/options-profit-calculator/",
+          "icon": "chart-line",
+          "text": "See the profit, break-even and maximum loss for a call or put held to expiration.",
+          "published": "2026-11-28"
         }
       ]
     }
