@@ -139,6 +139,97 @@
           "icon": "building-bank",
           "text": "Compare the net yearly cost of two bank accounts from their fees, APYs and your usage.",
           "published": "2026-11-21"
+        },
+        {
+          "title": "Salary to Hourly Calculator",
+          "url": "/money-banking/salary-to-hourly-calculator/",
+          "icon": "clock-hour-4",
+          "text": "Convert an annual salary to hourly, daily, weekly and monthly pay, before tax.",
+          "published": "2026-11-24"
+        },
+        {
+          "title": "Mortgage Recast Calculator",
+          "url": "/money-banking/mortgage-recast-calculator/",
+          "icon": "home-dollar",
+          "text": "See how a lump-sum payment and recast lower your mortgage payment and remaining interest.",
+          "published": "2026-11-24"
+        },
+        {
+          "title": "Loan Payment Calculator",
+          "url": "/money-banking/loan-payment-calculator/",
+          "icon": "receipt",
+          "text": "Work out the monthly payment, total interest and yearly paydown for a fixed-rate loan.",
+          "published": "2026-11-24"
+        },
+        {
+          "title": "Personal Loan Calculator",
+          "url": "/money-banking/personal-loan-calculator/",
+          "icon": "cash",
+          "text": "Estimate a personal loan payment and the APR once an origination fee is included.",
+          "published": "2026-11-24"
+        },
+        {
+          "title": "Auto Loan Calculator",
+          "url": "/money-banking/auto-loan-calculator/",
+          "icon": "wallet",
+          "text": "Estimate a car payment from price, down payment, trade-in, sales tax and fees.",
+          "published": "2026-11-25"
+        },
+        {
+          "title": "Boat Loan Calculator",
+          "url": "/money-banking/boat-loan-calculator/",
+          "icon": "repeat",
+          "text": "Estimate a boat loan payment and total interest, and compare terms up to 20 years.",
+          "published": "2026-11-25"
+        },
+        {
+          "title": "Motorcycle Loan Calculator",
+          "url": "/money-banking/motorcycle-loan-calculator/",
+          "icon": "trending-up",
+          "text": "Work out a motorcycle payment from the bike price, down payment, tax, fees and term.",
+          "published": "2026-11-25"
+        },
+        {
+          "title": "Mobile Home Loan Calculator",
+          "url": "/money-banking/mobile-home-loan-calculator/",
+          "icon": "home-dollar",
+          "text": "Estimate the monthly payment and interest on a manufactured or mobile home loan.",
+          "published": "2026-11-25"
+        },
+        {
+          "title": "Land Loan Calculator",
+          "url": "/money-banking/land-loan-calculator/",
+          "icon": "target-arrow",
+          "text": "Estimate the payment on a lot or acreage purchase and compare loan terms.",
+          "published": "2026-11-25"
+        },
+        {
+          "title": "Car Refinance Calculator",
+          "url": "/money-banking/car-refinance-calculator/",
+          "icon": "repeat",
+          "text": "Compare your current car payment and remaining interest with a new loan rate and term.",
+          "published": "2026-11-26"
+        },
+        {
+          "title": "Home Equity Loan Calculator",
+          "url": "/money-banking/home-equity-loan-calculator/",
+          "icon": "home-dollar",
+          "text": "Estimate how much equity you may borrow under a CLTV limit and the monthly payment.",
+          "published": "2026-11-26"
+        },
+        {
+          "title": "Interest-Only Loan Calculator",
+          "url": "/money-banking/interest-only-loan-calculator/",
+          "icon": "percentage",
+          "text": "See the interest-only payment, the jump afterward and the extra interest it costs.",
+          "published": "2026-11-26"
+        },
+        {
+          "title": "Commercial Loan Calculator",
+          "url": "/fintech/commercial-loan-calculator/",
+          "icon": "building-bank",
+          "text": "Estimate a commercial loan payment and the balloon due when the term ends.",
+          "published": "2026-11-26"
         }
       ]
     },
@@ -284,6 +375,13 @@
           "icon": "chart-donut-3",
           "text": "See your crypto share of a portfolio and how a crypto price move would affect the whole.",
           "published": "2026-11-22"
+        },
+        {
+          "title": "ROI Calculator",
+          "url": "/fintech/roi-calculator/",
+          "icon": "trending-up",
+          "text": "Work out return on investment and annualized ROI from costs and the final value.",
+          "published": "2026-11-26"
         }
       ]
     },
@@ -360,6 +458,13 @@
           "icon": "chart-bar",
           "text": "Turn balance sheet and income statement figures into liquidity, leverage and profitability ratios.",
           "published": "2026-11-20"
+        },
+        {
+          "title": "Profit Margin Calculator",
+          "url": "/fintech/profit-margin-calculator/",
+          "icon": "chart-bar",
+          "text": "Find gross profit, margin and markup, and the price needed to reach a target margin.",
+          "published": "2026-11-24"
         }
       ]
     }
