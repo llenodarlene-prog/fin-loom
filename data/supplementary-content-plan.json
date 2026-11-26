@@ -1638,6 +1638,24 @@
       "scheduled_publish": "2026-11-29",
       "min_words": 2500,
       "no_word_ceiling": true
+    },
+    {
+      "type": "Blog",
+      "content_number": "S93",
+      "working_title": "\"QQQ vs QQQM: Fees, Trading and the Cost of Holding Nasdaq-100 ETFs\"",
+      "primary_keyword": "qqq vs qqqm",
+      "secondary_keywords": "qqqm vs qqq; qqqm expense ratio; nasdaq 100 etf; qqq expense ratio",
+      "cluster": "Investing",
+      "intent": "Commercial",
+      "status": "Scheduled",
+      "url_slug": "/investing/qqq-vs-qqqm/",
+      "seo_title": "\"QQQ vs QQQM: Fees, Trading Costs and Holding Period\"",
+      "meta_description": "\"QQQ vs QQQM compared with Invesco's own data: 0.18% vs 0.15% expense ratios, launch dates, fund size and when trading costs or taxes outweigh the fee gap.\"",
+      "link_placement_site": "",
+      "source_file": "Owner-supplied draft; final AI QA and fact-check layer applied",
+      "scheduled_publish": "2026-11-30",
+      "min_words": 2500,
+      "no_word_ceiling": true
     }
   ],
   "links": [
@@ -2887,6 +2905,19 @@
       ],
       "silo_role": "Supporting",
       "pillar": "/markets-stocks/stock-analysis-fundamentals/"
+    },
+    {
+      "type": "Blog",
+      "content_number": "S93",
+      "url_slug": "/investing/qqq-vs-qqqm/",
+      "primary_silo_hub": "/investing/",
+      "approved_outbound_targets": [
+        "/investing/crypto-vs-stocks/",
+        "/investing/expense-ratio-calculator/",
+        "/investing/schd-vs-vym/"
+      ],
+      "silo_role": "Supporting",
+      "pillar": "/investing/crypto-vs-stocks/"
     }
   ]
 }

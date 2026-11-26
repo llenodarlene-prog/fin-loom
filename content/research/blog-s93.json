@@ -1,0 +1,398 @@
+{
+  "tracker_id": "Blog:S93",
+  "status": "verified",
+  "research_question": "How do QQQ and QQQM differ in cost, size and trading, and when does the fee gap count?",
+  "research_brief": {
+    "purpose": "Compare two Nasdaq-100 ETFs from issuer data with labeled fee and trading examples.",
+    "audience": "US ETF investors.",
+    "publication_year": "2026",
+    "data_period": "Invesco ETF directory, market values as of Nov 25, 2026; captured Nov 26, 2026.",
+    "scope_limitations": "No return ranking; spread example hypothetical; fees can change."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "qqq vs qqqm",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-11-25",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-25",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "qqq vs qqqm",
+        "type": "short-tail",
+        "volume": 18100,
+        "difficulty": 19,
+        "cpc": 2.0,
+        "intent": "Commercial",
+        "ranking_url": "https://www.invesco.com/us/en/financial-products/etfs.html",
+        "retrieved_at": "2026-11-25",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "qqqm vs qqq",
+        "type": "long-tail",
+        "volume": 18100,
+        "difficulty": 19,
+        "cpc": 2.0,
+        "intent": "Commercial",
+        "ranking_url": "https://www.invesco.com/us/en/financial-products/etfs.html",
+        "retrieved_at": "2026-11-25",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best nasdaq 100 etf",
+        "type": "commercial",
+        "volume": 18100,
+        "difficulty": 19,
+        "cpc": 2.0,
+        "intent": "Commercial",
+        "ranking_url": "https://www.invesco.com/us/en/financial-products/etfs.html",
+        "retrieved_at": "2026-11-25",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "qqq expense ratio too high",
+        "type": "problem",
+        "volume": 18100,
+        "difficulty": 19,
+        "cpc": 2.0,
+        "intent": "Informational",
+        "ranking_url": "https://www.invesco.com/us/en/financial-products/etfs.html",
+        "retrieved_at": "2026-11-25",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "is qqqm better than qqq",
+        "type": "question",
+        "volume": 18100,
+        "difficulty": 19,
+        "cpc": 2.0,
+        "intent": "Informational",
+        "ranking_url": "https://www.invesco.com/us/en/financial-products/etfs.html",
+        "retrieved_at": "2026-11-25",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.invesco.com/us/en/financial-products/etfs.html",
+      "title": "Invesco ETF directory",
+      "publisher": "Invesco",
+      "source_type": "Issuer fund data",
+      "year": "2026",
+      "published_at": "2026-11-25",
+      "accessed_at": "2026-11-26",
+      "scope": "QQQ 0.18%, QQQM 0.15%, inception dates, market values Nov 25 2026",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Owner-supplied screenshot captured 2026-11-26.",
+      "verified": true
+    },
+    {
+      "url": "https://www.invesco.com/us/en/financial-products/etfs/invesco-qqq-trust-series-1.html",
+      "title": "Invesco QQQ Trust, Series 1",
+      "publisher": "Invesco",
+      "source_type": "Issuer fund page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "QQQ fund page",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.invesco.com/us/en/financial-products/etfs/invesco-nasdaq-100-etf.html",
+      "title": "Invesco NASDAQ 100 ETF",
+      "publisher": "Invesco",
+      "source_type": "Issuer fund page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "QQQM fund page",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "QQQ TER 0.18%; QQQM TER 0.15%",
+      "source_url": "https://www.invesco.com/us/en/financial-products/etfs.html",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Market value: QQQ $443.71B, QQQM $103.16B (Nov 25, 2026)",
+      "source_url": "https://www.invesco.com/us/en/financial-products/etfs.html",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Inception: QQQ 1999-03-10; QQQM 2020-10-13",
+      "source_url": "https://www.invesco.com/us/en/financial-products/etfs.html",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Date",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Invesco ETF directory",
+      "url": "https://www.invesco.com/us/en/financial-products/etfs.html",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "qqq vs qqqm"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors repeat fee tables; few show the tax cost of switching or label spread examples as hypothetical."
+    },
+    {
+      "title": "Reddit r/ETFs QQQ vs QQQM threads",
+      "url": "https://www.reddit.com/r/ETFs/",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "qqq vs qqqm"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors repeat fee tables; few show the tax cost of switching or label spread examples as hypothetical."
+    },
+    {
+      "title": "etf.com QQQ vs QQQM",
+      "url": "https://www.etf.com/",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "qqq vs qqqm"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors repeat fee tables; few show the tax cost of switching or label spread examples as hypothetical."
+    },
+    {
+      "title": "Investopedia QQQM",
+      "url": "https://www.investopedia.com/",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "qqq vs qqqm"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors repeat fee tables; few show the tax cost of switching or label spread examples as hypothetical."
+    },
+    {
+      "title": "Morningstar QQQM",
+      "url": "https://www.morningstar.com/etfs/xnas/qqqm/quote",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "qqq vs qqqm"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors repeat fee tables; few show the tax cost of switching or label spread examples as hypothetical."
+    }
+  ],
+  "content_gaps": [
+    "Fee table at four balances",
+    "Trading cost vs fee",
+    "Tax cost of switching",
+    "Same-day checklist"
+  ],
+  "value_add": [
+    "Issuer screenshot",
+    "Labeled examples",
+    "Switching break-even framing"
+  ],
+  "plan": {
+    "reader_title": "\"QQQ vs QQQM: Fees, Trading and the Cost of Holding Nasdaq-100 ETFs\"",
+    "seo_title": "\"QQQ vs QQQM: Fees, Trading Costs and Holding Period\"",
+    "meta_description": "\"QQQ vs QQQM compared with Invesco's own data: 0.18% vs 0.15% expense ratios, launch dates, fund size and when trading costs or taxes outweigh the fee gap.\"",
+    "slug": "/investing/qqq-vs-qqqm/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "qqqm vs qqq",
+      "qqqm expense ratio",
+      "nasdaq 100 etf",
+      "qqq expense ratio"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "QQQ vs QQQM at a Glance",
+      "How Much Does the Fee Gap Cost?",
+      "When Can Trading Costs Outweigh the Fee Gap?",
+      "Should a Long-Term Investor Pick QQQM?",
+      "How QQQ and QQQM Fit a Portfolio",
+      "A Repeatable QQQ vs QQQM Checklist",
+      "The Bottom Line",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "All fund facts: Invesco directory screenshot and pages"
+    ],
+    "visuals": [
+      "Owner-supplied featured image",
+      "Owner-supplied Invesco screenshot",
+      "Two tables"
+    ],
+    "internal_links": [
+      "/investing/crypto-vs-stocks/",
+      "/investing/schd-vs-vym/",
+      "/investing/expense-ratio-calculator/"
+    ],
+    "external_link_opportunities": [
+      "https://www.invesco.com/us/en/financial-products/etfs.html"
+    ],
+    "excluded_claims": [
+      "Performance figures not used (Sept 30 data, not same basis)",
+      "Index-fund-vs-mutual-fund and investment growth links replaced (3-link spoke limit)",
+      "Keyword metrics from owner brief; competitor list partly from known sources"
+    ],
+    "drafting_cautions": [
+      "No buy, sell or hold recommendation",
+      "Hypothetical examples labeled",
+      "Dates and populations stated"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Expense ratios, inception dates and market values",
+      "source_url": "https://www.invesco.com/us/en/financial-products/etfs.html",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-26",
+    "note": "Figures read from owner screenshot of Invesco directory (captured 2026-11-26); fee arithmetic recomputed.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-26",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-26",
+    "summary": "Figures read from owner screenshot of Invesco directory (captured 2026-11-26); fee arithmetic recomputed.",
+    "pending": "Owner sign-off."
+  }
+}

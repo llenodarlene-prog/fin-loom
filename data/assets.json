@@ -2618,5 +2618,45 @@
     "rights_status": "approved",
     "rights_source": "FinLoom Files, supplied by the site owner 2026-11-20 (AI-generated editorial image)",
     "alt_guidance": "Several trading monitors on a desk showing stock charts and financial data"
+  },
+  {
+    "path": "/assets/images/screenshots/invesco-qqq-qqqm-directory-1600.jpg",
+    "title": "Screenshot: Invesco ETF directory",
+    "use": "Inline source screenshot in posts",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-supplied editorial screenshot of public page https://www.invesco.com/us/en/financial-products/etfs.html, captured 2026-11-26",
+    "alt_guidance": "Invesco ETF directory listing QQQ and QQQM with market values as of November 25, 2026 and total expense ratios of 0.18% and 0.15%"
+  },
+  {
+    "path": "/assets/images/screenshots/invesco-qqq-qqqm-directory-800.jpg",
+    "title": "Screenshot: Invesco ETF directory",
+    "use": "Inline source screenshot in posts",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-supplied editorial screenshot of public page https://www.invesco.com/us/en/financial-products/etfs.html, captured 2026-11-26",
+    "alt_guidance": "Invesco ETF directory listing QQQ and QQQM with market values as of November 25, 2026 and total expense ratios of 0.18% and 0.15%"
+  },
+  {
+    "path": "/assets/images/posts/qqq-vs-qqqm/qqq-qqqm-panels-1600.jpg",
+    "title": "Two panels labeled QQQ and QQQM with rising charts and a magnifying glass over a fee comparison",
+    "use": "Featured image for qqq-vs-qqqm",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-20 (AI-generated editorial image)",
+    "alt_guidance": "Two panels labeled QQQ and QQQM with rising charts and a magnifying glass over a fee comparison"
+  },
+  {
+    "path": "/assets/images/posts/qqq-vs-qqqm/qqq-qqqm-panels-800.jpg",
+    "title": "Two panels labeled QQQ and QQQM with rising charts and a magnifying glass over a fee comparison",
+    "use": "Featured image for qqq-vs-qqqm",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-20 (AI-generated editorial image)",
+    "alt_guidance": "Two panels labeled QQQ and QQQM with rising charts and a magnifying glass over a fee comparison"
   }
 ]
