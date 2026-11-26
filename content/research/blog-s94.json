@@ -1,0 +1,395 @@
+{
+  "tracker_id": "Blog:S94",
+  "status": "verified",
+  "research_question": "How do SCHD and VYM differ in index method, fees and yield, and how should they be compared?",
+  "research_brief": {
+    "purpose": "Compare two dividend ETFs from issuer data with labeled yield and fee examples.",
+    "audience": "US dividend investors.",
+    "publication_year": "2026",
+    "data_period": "Issuer pages captured Nov 26, 2026; VYM ER as of Feb 27, 2026.",
+    "scope_limitations": "No holdings counts or returns compared; yield example hypothetical."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "schd vs vym",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-11-25",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-25",
+        "location": "United States"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "schd vs vym",
+        "type": "short-tail",
+        "volume": 1900,
+        "difficulty": 18,
+        "cpc": 2.0,
+        "intent": "Commercial",
+        "ranking_url": "https://www.schwabassetmanagement.com/products/schd",
+        "retrieved_at": "2026-11-25",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "vym vs schd",
+        "type": "long-tail",
+        "volume": 1900,
+        "difficulty": 18,
+        "cpc": 2.0,
+        "intent": "Commercial",
+        "ranking_url": "https://www.schwabassetmanagement.com/products/schd",
+        "retrieved_at": "2026-11-25",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best dividend etf",
+        "type": "commercial",
+        "volume": 1900,
+        "difficulty": 18,
+        "cpc": 2.0,
+        "intent": "Commercial",
+        "ranking_url": "https://www.schwabassetmanagement.com/products/schd",
+        "retrieved_at": "2026-11-25",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "dividend etf overlap",
+        "type": "problem",
+        "volume": 1900,
+        "difficulty": 18,
+        "cpc": 2.0,
+        "intent": "Informational",
+        "ranking_url": "https://www.schwabassetmanagement.com/products/schd",
+        "retrieved_at": "2026-11-25",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "is schd better than vym",
+        "type": "question",
+        "volume": 1900,
+        "difficulty": 18,
+        "cpc": 2.0,
+        "intent": "Informational",
+        "ranking_url": "https://www.schwabassetmanagement.com/products/schd",
+        "retrieved_at": "2026-11-25",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.schwabassetmanagement.com/products/schd",
+      "title": "Schwab U.S. Dividend Equity ETF (SCHD)",
+      "publisher": "Schwab Asset Management",
+      "source_type": "Issuer fund page",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "TER 0.060%; tracks Dow Jones U.S. Dividend 100 Index",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Owner-supplied screenshot captured 2026-11-26.",
+      "verified": true
+    },
+    {
+      "url": "https://advisors.vanguard.com/investments/products/vym/vanguard-high-dividend-yield-etf",
+      "title": "Vanguard High Dividend Yield ETF (VYM)",
+      "publisher": "Vanguard",
+      "source_type": "Issuer fund page",
+      "year": "2026",
+      "published_at": "2026-02-27",
+      "accessed_at": "2026-11-26",
+      "scope": "ER 0.04% as of 2026-02-27; FTSE High Dividend Yield Index; full replication",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Owner-supplied screenshot captured 2026-11-26.",
+      "verified": true
+    },
+    {
+      "url": "https://www.irs.gov/taxtopics/tc404",
+      "title": "Topic 404, Dividends",
+      "publisher": "IRS",
+      "source_type": "Federal agency guidance",
+      "year": "2026",
+      "published_at": "not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "Qualified dividends taxed at capital gain rates",
+      "method": "Fetched with curl and read as text; figures compared word for word with the draft.",
+      "limitations": "Page can change without notice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "SCHD TER 0.060%",
+      "source_url": "https://www.schwabassetmanagement.com/products/schd",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "VYM ER 0.04% as of 2026-02-27",
+      "source_url": "https://advisors.vanguard.com/investments/products/vym/vanguard-high-dividend-yield-etf",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Not applicable",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Read from the publisher page",
+      "limitations": "Prices and terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Schwab SCHD",
+      "url": "https://www.schwabassetmanagement.com/products/schd",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "schd vs vym"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors lead with yield; few explain yield definitions, same-date overlap or the index method gap."
+    },
+    {
+      "title": "Vanguard VYM",
+      "url": "https://advisors.vanguard.com/investments/products/vym/vanguard-high-dividend-yield-etf",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "schd vs vym"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors lead with yield; few explain yield definitions, same-date overlap or the index method gap."
+    },
+    {
+      "title": "Motley Fool SCHD vs VYM",
+      "url": "https://www.fool.com/",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "schd vs vym"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors lead with yield; few explain yield definitions, same-date overlap or the index method gap."
+    },
+    {
+      "title": "etf.com SCHD vs VYM",
+      "url": "https://www.etf.com/",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "schd vs vym"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors lead with yield; few explain yield definitions, same-date overlap or the index method gap."
+    },
+    {
+      "title": "Reddit r/dividends threads",
+      "url": "https://www.reddit.com/r/dividends/",
+      "publisher": "Google SERP result",
+      "format": "Ranking or explainer page",
+      "updated_at": "not stated",
+      "headings": [
+        "Title-level data from the Ubersuggest US SERP"
+      ],
+      "coverage": [
+        "schd vs vym"
+      ],
+      "sources": [
+        "Not reviewed beyond the SERP listing"
+      ],
+      "data_assets": [
+        "Not reviewed"
+      ],
+      "link_patterns": [
+        "Not reviewed"
+      ],
+      "trust_signals": [
+        "Domain authority from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the head term and answers the basic question.",
+      "gaps": "Competitors lead with yield; few explain yield definitions, same-date overlap or the index method gap."
+    }
+  ],
+  "content_gaps": [
+    "Index method difference",
+    "Yield definition warning",
+    "Weighted overlap worksheet",
+    "Fee scale table"
+  ],
+  "value_add": [
+    "Issuer screenshot",
+    "Labeled yield example",
+    "Overlap method"
+  ],
+  "plan": {
+    "reader_title": "\"SCHD vs VYM: Dividend Screening, Yield and What the Fees Mean\"",
+    "seo_title": "\"SCHD vs VYM: Index Method, Fees and Dividend Yield\"",
+    "meta_description": "\"SCHD vs VYM compared with issuer data: the indexes each fund tracks, 0.06% vs 0.04% expense ratios, why yield is not total return and how to check overlap.\"",
+    "slug": "/investing/schd-vs-vym/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "vym vs schd",
+      "schd expense ratio",
+      "dividend etf comparison",
+      "high dividend yield etf"
+    ],
+    "outline": [
+      "Key Takeaways",
+      "SCHD vs VYM at a Glance",
+      "How the Two Approaches Differ",
+      "Does a Higher Yield Mean a Better Fund?",
+      "How Much Does the Fee Gap Cost?",
+      "Total Return vs Income",
+      "Checking Overlap the Right Way",
+      "The Bottom Line",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      "SCHD: Schwab page screenshot",
+      "VYM: Vanguard page screenshot"
+    ],
+    "visuals": [
+      "Owner-supplied featured image",
+      "Owner-supplied issuer screenshot",
+      "Two tables"
+    ],
+    "internal_links": [
+      "/investing/crypto-vs-stocks/",
+      "/investing/qqq-vs-qqqm/",
+      "/investing/qualified-dividends/"
+    ],
+    "external_link_opportunities": [
+      "https://www.schwabassetmanagement.com/products/schd",
+      "https://advisors.vanguard.com/investments/products/vym/vanguard-high-dividend-yield-etf",
+      "https://www.irs.gov/taxtopics/tc404"
+    ],
+    "excluded_claims": [
+      "Holdings counts (102 and 604) removed: not visible in supplied captures and dated differently",
+      "Dividend total return calculator link dropped (3-link spoke limit)",
+      "Keyword metrics from owner brief"
+    ],
+    "drafting_cautions": [
+      "No buy, sell or hold recommendation",
+      "Hypothetical examples labeled",
+      "Dates and populations stated"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Qualified dividends definition",
+      "source_url": "https://www.irs.gov/taxtopics/tc404",
+      "verified": true
+    },
+    {
+      "statement": "SCHD objective and fee",
+      "source_url": "https://www.schwabassetmanagement.com/products/schd",
+      "verified": true
+    },
+    {
+      "statement": "VYM objective, approach and fee",
+      "source_url": "https://advisors.vanguard.com/investments/products/vym/vanguard-high-dividend-yield-etf",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-26",
+    "note": "Fund facts read from owner screenshots captured 2026-11-26; arithmetic recomputed ($2, $10, $20; 3% to 3.75%).",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-26",
+    "note": "Editorial QA SOP applied: direct answer, structure, links, keyword, compliance.",
+    "notes": "AI QA layer complete; awaiting owner sign-off."
+  },
+  "verification_log": {
+    "checked_on": "2026-11-26",
+    "summary": "Fund facts read from owner screenshots captured 2026-11-26; arithmetic recomputed ($2, $10, $20; 3% to 3.75%).",
+    "pending": "Owner sign-off."
+  }
+}

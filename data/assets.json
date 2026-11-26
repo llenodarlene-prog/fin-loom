@@ -2658,5 +2658,45 @@
     "rights_status": "approved",
     "rights_source": "FinLoom Files, supplied by the site owner 2026-11-20 (AI-generated editorial image)",
     "alt_guidance": "Two panels labeled QQQ and QQQM with rising charts and a magnifying glass over a fee comparison"
+  },
+  {
+    "path": "/assets/images/screenshots/schd-vym-fund-facts-1600.jpg",
+    "title": "Screenshot: Schwab SCHD and Vanguard VYM fund pages",
+    "use": "Inline source screenshot in posts",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-supplied editorial screenshot of public page https://www.schwabassetmanagement.com/products/schd and https://advisors.vanguard.com/investments/products/vym/vanguard-high-dividend-yield-etf, captured 2026-11-26",
+    "alt_guidance": "Schwab SCHD summary with a 0.060% total expense ratio and Dow Jones U.S. Dividend 100 objective, above Vanguard's VYM overview with a 0.04% expense ratio and FTSE High Dividend Yield Index approach"
+  },
+  {
+    "path": "/assets/images/screenshots/schd-vym-fund-facts-800.jpg",
+    "title": "Screenshot: Schwab SCHD and Vanguard VYM fund pages",
+    "use": "Inline source screenshot in posts",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-supplied editorial screenshot of public page https://www.schwabassetmanagement.com/products/schd and https://advisors.vanguard.com/investments/products/vym/vanguard-high-dividend-yield-etf, captured 2026-11-26",
+    "alt_guidance": "Schwab SCHD summary with a 0.060% total expense ratio and Dow Jones U.S. Dividend 100 objective, above Vanguard's VYM overview with a 0.04% expense ratio and FTSE High Dividend Yield Index approach"
+  },
+  {
+    "path": "/assets/images/posts/schd-vs-vym/dividend-temples-vines-1600.jpg",
+    "title": "Two classical building models with gold columns and growing vines beside dividend charts on a desk",
+    "use": "Featured image for schd-vs-vym",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-20 (AI-generated editorial image)",
+    "alt_guidance": "Two classical building models with gold columns and growing vines beside dividend charts on a desk"
+  },
+  {
+    "path": "/assets/images/posts/schd-vs-vym/dividend-temples-vines-800.jpg",
+    "title": "Two classical building models with gold columns and growing vines beside dividend charts on a desk",
+    "use": "Featured image for schd-vs-vym",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "FinLoom Files, supplied by the site owner 2026-11-20 (AI-generated editorial image)",
+    "alt_guidance": "Two classical building models with gold columns and growing vines beside dividend charts on a desk"
   }
 ]
